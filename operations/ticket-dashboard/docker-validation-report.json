@@ -1,0 +1,107 @@
+{
+  "timestamp": "2025-08-19T03:13:56.756Z",
+  "summary": {
+    "total": 19,
+    "success": 18,
+    "warnings": 1,
+    "errors": 0,
+    "passed": true
+  },
+  "results": [
+    {
+      "name": "Docker image configuration",
+      "status": "success",
+      "message": "File validated: Dockerfile"
+    },
+    {
+      "name": "Docker ignore file",
+      "status": "success",
+      "message": "File validated: .dockerignore"
+    },
+    {
+      "name": "Main Docker Compose configuration",
+      "status": "success",
+      "message": "File validated: docker-compose.yml"
+    },
+    {
+      "name": "Development override configuration",
+      "status": "success",
+      "message": "File validated: docker-compose.override.yml"
+    },
+    {
+      "name": "Production configuration",
+      "status": "success",
+      "message": "File validated: docker-compose.prod.yml"
+    },
+    {
+      "name": "Environment template",
+      "status": "success",
+      "message": "File validated: .env.example"
+    },
+    {
+      "name": "Default environment configuration",
+      "status": "success",
+      "message": "File validated: .env"
+    },
+    {
+      "name": "Main deployment script",
+      "status": "success",
+      "message": "File validated: docker-deploy.sh"
+    },
+    {
+      "name": "Health check script",
+      "status": "success",
+      "message": "File validated: healthcheck.js"
+    },
+    {
+      "name": "Docker integration script",
+      "status": "success",
+      "message": "File validated: docker-integration.js"
+    },
+    {
+      "name": "Web server component",
+      "status": "success",
+      "message": "File validated: web-server.js"
+    },
+    {
+      "name": "Directory Structure",
+      "status": "success",
+      "message": "All required directories present"
+    },
+    {
+      "name": "Health Check Implementation",
+      "status": "success",
+      "message": "All health check methods implemented"
+    },
+    {
+      "name": "Node.js package configuration",
+      "status": "success",
+      "message": "File validated: package.json"
+    },
+    {
+      "name": "Deployment guide",
+      "status": "success",
+      "message": "File validated: DOCKER_DEPLOYMENT_GUIDE.md"
+    },
+    {
+      "name": "Deployment summary",
+      "status": "success",
+      "message": "File validated: docker-deployment-summary.md"
+    },
+    {
+      "name": "Docker Engine",
+      "status": "success",
+      "message": "Docker is installed and accessible"
+    },
+    {
+      "name": "Docker Compose",
+      "status": "success",
+      "message": "Docker Compose is installed and accessible"
+    },
+    {
+      "name": "Docker Daemon",
+      "status": "warning",
+      "message": "Docker daemon not running (may be expected in some environments)"
+    }
+  ]
+}

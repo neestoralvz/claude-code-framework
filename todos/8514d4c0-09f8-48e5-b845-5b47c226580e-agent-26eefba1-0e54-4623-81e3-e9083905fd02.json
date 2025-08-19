@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Execute Requirements Gate validation - verify purge actions against evidence standards",
+    "status": "completed",
+    "id": "purge-001"
+  },
+  {
+    "content": "Conduct systematic audit of project components for evidence validation",
+    "status": "completed",
+    "id": "purge-002"
+  },
+  {
+    "content": "Remove unsubstantiated financial projections and speculative claims",
+    "status": "completed",
+    "id": "purge-003"
+  },
+  {
+    "content": "Eliminate undocumented technical references and contextual assumptions",
+    "status": "completed",
+    "id": "purge-004"
+  },
+  {
+    "content": "Execute Process Gate validation - confirm systematic removal methodology",
+    "status": "completed",
+    "id": "purge-005"
+  },
+  {
+    "content": "Execute Output Gate validation - validate preserved components have evidence trails",
+    "status": "completed",
+    "id": "purge-006"
+  },
+  {
+    "content": "Execute System Gate validation - ensure no regressions introduced during purge",
+    "status": "completed",
+    "id": "purge-007"
+  },
+  {
+    "content": "Generate comprehensive purge completion report with before/after metrics",
+    "status": "completed",
+    "id": "purge-008"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Create enforcement-monitor agent with validation protocols",
+    "status": "completed",
+    "id": "enforcement-agent-creation"
+  },
+  {
+    "content": "Implement /agents/ folder scanning and specialization priority",
+    "status": "completed",
+    "id": "agent-requirements-validation"
+  },
+  {
+    "content": "Integrate with TICKET_REGISTRY.md for missing agent scenarios",
+    "status": "completed",
+    "id": "ticket-generation-enforcement"
+  },
+  {
+    "content": "Implement CLAUDE.md violation enforcement and termination",
+    "status": "completed",
+    "id": "conversation-termination-trigger"
+  },
+  {
+    "content": "Integrate with workflow phase 1 (clarify) for systematic enforcement",
+    "status": "completed",
+    "id": "workflow-phase-integration"
+  }
+]

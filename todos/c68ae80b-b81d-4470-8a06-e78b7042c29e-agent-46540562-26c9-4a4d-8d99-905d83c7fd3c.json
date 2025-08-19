@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Initialize system and load framework documentation",
+    "status": "completed",
+    "id": "INIT-001"
+  },
+  {
+    "content": "Investigate current ticket registry status and system state",
+    "status": "completed",
+    "id": "AUDIT-001"
+  },
+  {
+    "content": "Verify authority claims elimination (CRITICAL)",
+    "status": "completed",
+    "id": "CONSOLIDATION-001"
+  },
+  {
+    "content": "Fix broken navigation links in docs/index.md (HIGH)",
+    "status": "completed",
+    "id": "AUD-004"
+  },
+  {
+    "content": "Complete modularization of organization.md to <500 lines (HIGH)",
+    "status": "completed",
+    "id": "MOD-018"
+  },
+  {
+    "content": "Clean backup directory and archive duplicates (LOW)",
+    "status": "completed",
+    "id": "SYS-019"
+  },
+  {
+    "content": "Comprehensive validation and registry updates",
+    "status": "completed",
+    "id": "VALIDATION-001"
+  }
+]

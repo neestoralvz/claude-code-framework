@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze SuperWhisper prompt token density and efficiency metrics",
+    "status": "completed",
+    "id": "superwhisper-analysis"
+  },
+  {
+    "content": "Audit token consumption patterns across docs/, commands/, and agents/ directories",
+    "status": "completed",
+    "id": "system-token-audit"
+  },
+  {
+    "content": "Validate prompt structure compliance with Claude Code framework principles",
+    "status": "completed",
+    "id": "prompt-compliance-validation"
+  },
+  {
+    "content": "Identify specific token optimization opportunities and generate recommendations",
+    "status": "completed",
+    "id": "efficiency-identification"
+  },
+  {
+    "content": "Generate detailed compliance report with quantifiable metrics and recommendations",
+    "status": "completed",
+    "id": "compliance-report"
+  }
+]

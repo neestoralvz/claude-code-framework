@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Convert technical documentation to natural imperative language",
+    "status": "pending",
+    "id": "todo-1"
+  },
+  {
+    "content": "Remove code blocks and replace with instructional commands",
+    "status": "pending",
+    "id": "todo-2"
+  },
+  {
+    "content": "Update all Markdown files to human-readable imperative tone",
+    "status": "pending",
+    "id": "todo-3"
+  }
+]

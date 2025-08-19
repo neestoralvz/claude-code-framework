@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Conduct comprehensive system audit and root cause analysis",
+    "status": "completed",
+    "id": "crisis-01"
+  },
+  {
+    "content": "Design solution architecture with agent delegation plan",
+    "status": "completed",
+    "id": "crisis-02"
+  },
+  {
+    "content": "Deploy deployment-coordinator agent for emergency resolution",
+    "status": "completed",
+    "id": "crisis-03"
+  },
+  {
+    "content": "Implement systematic deployment fixes and configuration optimization",
+    "status": "completed",
+    "id": "crisis-04"
+  },
+  {
+    "content": "Validate deployment success with quality gates and performance metrics",
+    "status": "completed",
+    "id": "crisis-05"
+  },
+  {
+    "content": "Establish long-term deployment methodology and documentation",
+    "status": "completed",
+    "id": "crisis-06"
+  }
+]

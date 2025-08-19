@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Execute create-ticket for Principle Integration Specialist - HIGH priority agent for automated principle loading",
+    "status": "completed",
+    "id": "ticket-1-principle-integration"
+  },
+  {
+    "content": "Execute create-ticket for Multi-Analysis Synthesizer - MEDIUM priority coordinator for parallel analysis workflows",
+    "status": "completed",
+    "id": "ticket-2-multi-analysis"
+  },
+  {
+    "content": "Execute create-ticket for Framework Compliance Monitor - MEDIUM priority quality assurance agent",
+    "status": "completed",
+    "id": "ticket-3-compliance-monitor"
+  },
+  {
+    "content": "Execute create-ticket for Ticket Lifecycle Manager - LOW priority process optimization agent",
+    "status": "completed",
+    "id": "ticket-4-lifecycle-manager"
+  },
+  {
+    "content": "Execute create-ticket for Dependency Mapper - LOW priority system maintenance agent",
+    "status": "completed",
+    "id": "ticket-5-dependency-mapper"
+  },
+  {
+    "content": "Execute create-ticket for User Intent Analyzer - LOW priority user experience agent",
+    "status": "completed",
+    "id": "ticket-6-intent-analyzer"
+  }
+]

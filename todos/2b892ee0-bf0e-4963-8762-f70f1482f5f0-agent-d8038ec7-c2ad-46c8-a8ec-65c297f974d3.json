@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze CLAUDE.md formatting and structure compliance",
+    "status": "completed",
+    "id": "doc-audit-001"
+  },
+  {
+    "content": "Examine documentation framework and principle files",
+    "status": "completed",
+    "id": "doc-audit-002"
+  },
+  {
+    "content": "Validate cross-reference integrity and link accuracy",
+    "status": "completed",
+    "id": "doc-audit-003"
+  },
+  {
+    "content": "Check command format consistency and compliance",
+    "status": "completed",
+    "id": "doc-audit-004"
+  },
+  {
+    "content": "Analyze section organization and hierarchy compliance",
+    "status": "completed",
+    "id": "doc-audit-005"
+  },
+  {
+    "content": "Generate comprehensive audit report with prioritized recommendations",
+    "status": "completed",
+    "id": "doc-audit-006"
+  }
+]

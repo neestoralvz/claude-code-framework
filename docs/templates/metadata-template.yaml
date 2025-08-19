@@ -1,0 +1,37 @@
+# Standard Metadata Template for Claude Code Framework
+# Use this template for consistent frontmatter across all documentation
+
+---
+title: "[Document Title]"
+author: "[Author Name]"
+date: "[YYYY-MM-DD]"
+version: "[MAJOR.MINOR.PATCH]"
+dependencies: ["[file1.md]", "[file2.md]"]
+prerequisites: ["[prerequisite1]", "[prerequisite2]"]
+audience: "[target audience]"
+purpose: "[brief purpose description]"
+keywords: ["keyword1", "keyword2", "keyword3"]
+last_review: "[YYYY-MM-DD]"
+---
+
+# Metadata Field Descriptions
+
+## Required Fields
+- **title**: Document title in title case
+- **author**: Document author or system component
+- **date**: Creation date in YYYY-MM-DD format
+- **purpose**: Brief description of document purpose
+
+## Optional Fields
+- **version**: Semantic version number
+- **dependencies**: Array of files this document depends on
+- **prerequisites**: Array of required knowledge/setup
+- **audience**: Target users for this document
+- **keywords**: Array of searchable keywords
+- **last_review**: Date of last content review
+
+## Usage Notes
+- Use square brackets [] for placeholder values
+- Replace placeholder content with actual values
+- Remove unused optional fields
+- Maintain consistent formatting across documents

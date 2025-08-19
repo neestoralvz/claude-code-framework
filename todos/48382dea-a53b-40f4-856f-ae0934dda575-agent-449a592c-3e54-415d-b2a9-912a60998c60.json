@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Phase 1: Create enhanced command template with integrated architecture (2h)",
+    "status": "completed",
+    "id": "arch-001-phase-1"
+  },
+  {
+    "content": "Phase 2: Enhance high-priority commands with integrated architecture (4h)",
+    "status": "completed",
+    "id": "arch-001-phase-2"
+  },
+  {
+    "content": "Phase 2a: Enhance system-audit.md with embedded validation and principle compliance",
+    "status": "completed",
+    "id": "arch-001-phase-2a"
+  },
+  {
+    "content": "Phase 2b: Enhance create-ticket.md with integrated agent deployment and template application",
+    "status": "completed",
+    "id": "arch-001-phase-2b"
+  },
+  {
+    "content": "Phase 2c: Enhance review-tickets.md with complete execution environment and quality validation",
+    "status": "completed",
+    "id": "arch-001-phase-2c"
+  },
+  {
+    "content": "Phase 2d: Enhance modularize.md with embedded component patterns and automated validation",
+    "status": "completed",
+    "id": "arch-001-phase-2d"
+  },
+  {
+    "content": "Phase 3: Implement main assistant delegation logic (1h)",
+    "status": "completed",
+    "id": "arch-001-phase-3"
+  },
+  {
+    "content": "Phase 4: Complete documentation and migration (1h)",
+    "status": "completed",
+    "id": "arch-001-phase-4"
+  }
+]

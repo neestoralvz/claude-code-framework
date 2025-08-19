@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Read current TICKET_REGISTRY.md to understand structure and get next ticket ID",
+    "status": "completed",
+    "id": "ticket-gen-1"
+  },
+  {
+    "content": "Generate EVOLVE-001: Align PRINCIPLES.md load order with CLAUDE.md authority",
+    "status": "completed",
+    "id": "ticket-gen-2"
+  },
+  {
+    "content": "Generate EVOLVE-002: Deploy project-optimizer for organization.md modularization",
+    "status": "completed",
+    "id": "ticket-gen-3"
+  },
+  {
+    "content": "Generate EVOLVE-003: Consolidate duplicate component templates and remove backup directory",
+    "status": "completed",
+    "id": "ticket-gen-4"
+  },
+  {
+    "content": "Generate EVOLVE-004: Replace non-imperative language patterns across documentation",
+    "status": "completed",
+    "id": "ticket-gen-5"
+  },
+  {
+    "content": "Generate EVOLVE-005: Validate and repair broken cross-references in navigation",
+    "status": "completed",
+    "id": "ticket-gen-6"
+  },
+  {
+    "content": "Update TICKET_REGISTRY.md with all 5 new EVOLVE tickets and proper categorization",
+    "status": "completed",
+    "id": "ticket-gen-7"
+  },
+  {
+    "content": "Verify ticket format consistency and integration with existing registry structure",
+    "status": "completed",
+    "id": "ticket-gen-8"
+  }
+]

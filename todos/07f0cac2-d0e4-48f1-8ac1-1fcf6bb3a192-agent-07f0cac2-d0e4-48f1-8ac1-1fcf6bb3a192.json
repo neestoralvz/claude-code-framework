@@ -1,0 +1,42 @@
+[
+  {
+    "content": "Create tickets for 7 missing critical agents identified in gap analysis",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Generate Pattern Management Specialist agent creation ticket",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Generate Simplicity Enforcement Specialist agent creation ticket",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Generate Ticket Automation Orchestrator agent creation ticket",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Generate Component Architecture Specialist agent creation ticket",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Generate Voice Integration Specialist agent creation ticket",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Generate Cross-Reference Integrity Specialist agent creation ticket",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Generate Business Intelligence Analyst agent creation ticket",
+    "status": "completed",
+    "id": "8"
+  }
+]

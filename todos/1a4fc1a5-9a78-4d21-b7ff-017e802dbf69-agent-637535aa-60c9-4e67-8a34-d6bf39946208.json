@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Analyze user request for real-time chat system from UX perspective",
+    "status": "completed",
+    "id": "ux-analysis-chat-system"
+  },
+  {
+    "content": "Identify comprehensive interface requirements for chat system",
+    "status": "completed",
+    "id": "interface-requirements-analysis"
+  },
+  {
+    "content": "Evaluate accessibility considerations and WCAG compliance needs",
+    "status": "completed",
+    "id": "accessibility-analysis"
+  },
+  {
+    "content": "Identify applicable design patterns and UX opportunities",
+    "status": "completed",
+    "id": "design-patterns-identification"
+  }
+]

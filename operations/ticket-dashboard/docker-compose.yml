@@ -1,0 +1,225 @@
+# Docker Compose configuration for Automated Ticket Dashboard
+# Production-ready orchestration with intelligent port management
+
+version: '3.8'
+
+services:
+  # Main Dashboard Service
+  ticket-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: production
+    container_name: ticket-dashboard-app
+    restart: unless-stopped
+    
+    # Intelligent port mapping with conflict avoidance
+    ports:
+      - "${DASHBOARD_PORT:-3000}:3000"
+      - "${DASHBOARD_ADMIN_PORT:-3001}:3001"
+    
+    # Environment configuration
+    environment:
+      - NODE_ENV=production
+      - DASHBOARD_PORT=3000
+      - DASHBOARD_HOST=0.0.0.0
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - CLAUDE_BASE_DIR=/claude-data
+      - AUTO_SYNC_ENABLED=true
+      - HEALTH_CHECK_ENABLED=true
+      - METRICS_ENABLED=true
+      - FILE_WATCH_ENABLED=true
+    
+    # Volume mounts for data persistence
+    volumes:
+      # Claude data directory (main integration point)
+      - ${CLAUDE_DATA_DIR:-/Users/nalve/.claude}:/claude-data:rw
+      
+      # Dashboard data persistence
+      - dashboard-data:/app/data
+      - dashboard-logs:/app/logs
+      - dashboard-metrics:/app/metrics
+      - dashboard-cache:/app/cache
+      
+      # Configuration persistence
+      - dashboard-config:/app/core
+      
+      # Backup volumes
+      - dashboard-backups:/app/backups
+    
+    # Network configuration
+    networks:
+      - dashboard-network
+    
+    # Health check configuration
+    healthcheck:
+      test: ["CMD", "node", "healthcheck.js"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 15s
+    
+    # Resource limits
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
+        reservations:
+          memory: 256M
+          cpus: '0.25'
+    
+    # Dependencies
+    depends_on:
+      - port-manager
+    
+    # Logging configuration
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  # Port Management Service
+  port-manager:
+    image: alpine:3.18
+    container_name: ticket-dashboard-port-manager
+    restart: "no"
+    
+    command: >
+      sh -c "
+        echo 'Starting port conflict detection...';
+        apk add --no-cache netstat-nat;
+        for port in 3000 3001 3002 3003 3004; do
+          if ! netstat -tuln | grep -q :$$port; then
+            echo 'DASHBOARD_PORT=$$port' > /shared/port-config;
+            echo 'Selected available port: $$port';
+            exit 0;
+          fi;
+        done;
+        echo 'DASHBOARD_PORT=3000' > /shared/port-config;
+        echo 'Using default port 3000';
+      "
+    
+    volumes:
+      - port-config:/shared
+    
+    networks:
+      - dashboard-network
+
+  # Backup Service
+  backup-service:
+    image: alpine:3.18
+    container_name: ticket-dashboard-backup
+    restart: unless-stopped
+    
+    environment:
+      - BACKUP_SCHEDULE=${BACKUP_SCHEDULE:-0 2 * * *}
+      - BACKUP_RETENTION_DAYS=${BACKUP_RETENTION_DAYS:-30}
+    
+    command: >
+      sh -c "
+        apk add --no-cache dcron tar gzip;
+        echo '${BACKUP_SCHEDULE:-0 2 * * *} /backup.sh' | crontab -;
+        echo '#!/bin/sh
+        DATE=\$$(date +%Y%m%d_%H%M%S)
+        tar -czf /backups/dashboard_backup_\$$DATE.tar.gz -C /data .
+        tar -czf /backups/logs_backup_\$$DATE.tar.gz -C /logs .
+        find /backups -name \"*.tar.gz\" -mtime +${BACKUP_RETENTION_DAYS:-30} -delete
+        echo \"Backup completed: \$$DATE\"' > /backup.sh;
+        chmod +x /backup.sh;
+        crond -f;
+      "
+    
+    volumes:
+      - dashboard-data:/data:ro
+      - dashboard-logs:/logs:ro
+      - dashboard-backups:/backups
+    
+    networks:
+      - dashboard-network
+
+  # Monitoring Service (Optional)
+  monitoring:
+    image: alpine:3.18
+    container_name: ticket-dashboard-monitor
+    restart: unless-stopped
+    
+    environment:
+      - MONITOR_INTERVAL=${MONITOR_INTERVAL:-60}
+      - ALERT_THRESHOLD_CPU=${ALERT_THRESHOLD_CPU:-80}
+      - ALERT_THRESHOLD_MEMORY=${ALERT_THRESHOLD_MEMORY:-80}
+    
+    command: >
+      sh -c "
+        apk add --no-cache curl jq;
+        while true; do
+          sleep ${MONITOR_INTERVAL:-60};
+          HEALTH=\$$(curl -s http://ticket-dashboard:3000/health || echo 'unhealthy');
+          echo \"\$$(date): Dashboard health: \$$HEALTH\";
+          if [ \"\$$HEALTH\" = 'unhealthy' ]; then
+            echo 'ALERT: Dashboard is unhealthy!';
+          fi;
+        done;
+      "
+    
+    networks:
+      - dashboard-network
+    
+    depends_on:
+      - ticket-dashboard
+
+# Named volumes for data persistence
+volumes:
+  dashboard-data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/data
+  
+  dashboard-logs:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/logs
+  
+  dashboard-metrics:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/metrics
+  
+  dashboard-cache:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/cache
+  
+  dashboard-config:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/config
+  
+  dashboard-backups:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ${PWD}/docker-volumes/backups
+
+  port-config:
+    driver: local
+
+# Custom network for service isolation
+networks:
+  dashboard-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

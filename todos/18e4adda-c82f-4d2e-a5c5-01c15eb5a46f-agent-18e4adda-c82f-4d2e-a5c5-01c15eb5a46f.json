@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create data-architect agent (MEDIUM)",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create incident-coordinator agent (MEDIUM)",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create ux-architect agent (LOW)",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create metrics-analyst agent (LOW)",
+    "status": "completed",
+    "id": "4"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Search for redundant delegation agents and patterns",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identify commands that create delegation redundancy",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Add agent boundary enforcement principle to CLAUDE.md",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create enforce-agent-boundaries command",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Update PROJECT_STRUCTURE.md with agent guidelines",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Remove Ticket Executor and fix delegation redundancy",
+    "status": "completed",
+    "id": "6"
+  }
+]

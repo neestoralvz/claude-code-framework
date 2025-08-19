@@ -1,0 +1,57 @@
+[
+  {
+    "content": "Create AGENT-CREATION-001: Code Modularization Specialist Agent ticket",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create AGENT-CREATION-002: Pattern Generation Framework Agent ticket",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create AGENT-CREATION-003: Metadata Management Specialist ticket",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create AGENT-CREATION-004: Component Extraction Specialist ticket",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Create AGENT-CREATION-005: Dependency Analysis Specialist ticket",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Create AGENT-CREATION-006: Voice Integration Specialist ticket",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Create AGENT-CREATION-007: Business Intelligence Analyst Agent ticket",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Create AGENT-CREATION-008: Compliance Automation Specialist ticket",
+    "status": "completed",
+    "id": "8"
+  },
+  {
+    "content": "Create AGENT-CREATION-009: Resource Optimization Specialist ticket",
+    "status": "completed",
+    "id": "9"
+  },
+  {
+    "content": "Create AGENT-CREATION-010: Translation/Localization Specialist ticket",
+    "status": "completed",
+    "id": "10"
+  },
+  {
+    "content": "Create AGENT-CREATION-011: Claude Code Framework Specialist ticket",
+    "status": "completed",
+    "id": "11"
+  }
+]

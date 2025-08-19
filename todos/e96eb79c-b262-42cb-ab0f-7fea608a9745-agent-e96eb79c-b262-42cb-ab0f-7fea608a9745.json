@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create tickets for authority conflict resolution",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create tickets for content duplication elimination",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create tickets for agent capability boundary clarification",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create tickets for reference architecture fixes",
+    "status": "completed",
+    "id": "4"
+  }
+]

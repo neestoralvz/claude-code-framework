@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze concept-site structure and understand the nested folder issue",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create proper folder structure for concept-site with dedicated markdown organization",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Move concepto-restaurante content to concept-site root",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Organize all markdown files into dedicated docs folder",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Update package.json and configuration files if needed",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Validate restructuring and ensure application functionality",
+    "status": "completed",
+    "id": "6"
+  }
+]

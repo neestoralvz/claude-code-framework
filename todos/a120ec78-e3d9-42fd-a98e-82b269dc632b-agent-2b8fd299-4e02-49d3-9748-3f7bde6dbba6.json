@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Examine current agent inventory to understand existing specialist capabilities",
+    "status": "completed",
+    "id": "agent-gap-analysis-1"
+  },
+  {
+    "content": "Analyze commands folder to identify capability gaps based on required functionality",
+    "status": "completed",
+    "id": "agent-gap-analysis-2"
+  },
+  {
+    "content": "Review framework requirements and validation systems for missing agent types",
+    "status": "completed",
+    "id": "agent-gap-analysis-3"
+  },
+  {
+    "content": "Examine ticket registry for patterns indicating missing specialist capabilities",
+    "status": "completed",
+    "id": "agent-gap-analysis-4"
+  },
+  {
+    "content": "Identify common software engineering domains lacking dedicated specialists",
+    "status": "completed",
+    "id": "agent-gap-analysis-5"
+  },
+  {
+    "content": "Generate prioritized list of missing agents with justification and integration points",
+    "status": "completed",
+    "id": "agent-gap-analysis-6"
+  }
+]

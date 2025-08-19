@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Create multi-analysis-execution command for complete system integration",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Define analysis type detection logic",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Implement parallel agent deployment strategy",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create report generation orchestration",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Add command to index and documentation",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Test complete multi-analysis workflow",
+    "status": "in_progress",
+    "id": "6"
+  }
+]

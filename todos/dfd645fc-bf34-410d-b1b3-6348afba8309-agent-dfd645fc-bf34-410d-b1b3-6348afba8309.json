@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Create the overdrive-engineering command with complete workflow",
+    "status": "completed",
+    "id": "create-overdrive-command"
+  },
+  {
+    "content": "Build complexity detection and violation monitoring agent",
+    "status": "completed",
+    "id": "build-complexity-detector"
+  },
+  {
+    "content": "Create automated refactoring workflow agent",
+    "status": "completed",
+    "id": "create-refactoring-agent"
+  },
+  {
+    "content": "Build continuous monitoring and enforcement agent",
+    "status": "completed",
+    "id": "build-enforcement-agent"
+  },
+  {
+    "content": "Integrate SIMPLE decision framework into command system",
+    "status": "completed",
+    "id": "integrate-simple-framework"
+  },
+  {
+    "content": "Create simplicity metrics dashboard agent",
+    "status": "completed",
+    "id": "create-dashboard-agent"
+  },
+  {
+    "content": "Test complete Overdrive Engineering framework",
+    "status": "completed",
+    "id": "test-complete-system"
+  }
+]

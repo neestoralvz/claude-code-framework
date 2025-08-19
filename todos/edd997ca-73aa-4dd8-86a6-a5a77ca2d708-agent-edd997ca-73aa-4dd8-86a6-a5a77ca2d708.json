@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Create ticket for registering existing analytics agents",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create ticket for workflow-coordinator agent",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create ticket for command-selection-advisor agent",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create ticket for principle-integration-specialist agent",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Create ticket for multi-analysis-synthesizer agent",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Create ticket for framework-compliance-monitor agent",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Create ticket for ticket-lifecycle-manager agent",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Create ticket for dependency-mapper agent",
+    "status": "completed",
+    "id": "8"
+  },
+  {
+    "content": "Create ticket for user-intent-analyzer agent",
+    "status": "completed",
+    "id": "9"
+  }
+]

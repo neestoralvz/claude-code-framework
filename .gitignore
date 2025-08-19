@@ -1,0 +1,55 @@
+# Claude Code Framework .gitignore
+
+# Large generated/temporary directories
+shell-snapshots/
+logs/
+projects/
+dashboard/generated/
+dashboard/cache/
+dashboard/tmp/
+
+# User-specific files
+settings.json
+superwhisper-prompt.txt
+
+# Environment and IDE files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js dependencies (if any)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup

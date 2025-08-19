@@ -1,0 +1,78 @@
+{
+  "version": "1.0.0",
+  "registry_type": "components",
+  "last_updated": "2025-08-19T03:57:10Z",
+  "components": {
+    "workflow-phases": {
+      "id": "workflow-phases",
+      "name": "Workflow Phase Implementation",
+      "version": "1.0.0",
+      "type": "implementation",
+      "location": "docs/components/workflow-phases.md",
+      "description": "8-phase workflow implementation for commands",
+      "dependencies": [
+        "validation-framework"
+      ],
+      "used_by": [
+        "commands/workflow/*",
+        "agents/*/workflow"
+      ],
+      "metadata": {
+        "author": "Claude Code System",
+        "created": "2025-08-19",
+        "category": "workflow",
+        "stability": "stable"
+      }
+    },
+    "validation-framework": {
+      "id": "validation-framework",
+      "name": "Validation Framework",
+      "version": "1.0.0",
+      "type": "framework",
+      "location": "docs/components/validation-framework.md",
+      "description": "Core validation framework and principles",
+      "dependencies": [],
+      "used_by": [
+        "agents/core-system/validation-engineer.md",
+        "commands/workflow/8-validate.md"
+      ],
+      "metadata": {
+        "author": "Claude Code System",
+        "created": "2025-08-19",
+        "category": "quality",
+        "stability": "stable"
+      }
+    },
+    "registry-system": {
+      "id": "registry-system",
+      "name": "Component and Service Registry",
+      "version": "1.0.0",
+      "type": "system",
+      "location": "scripts/registry-system.md",
+      "description": "Centralized registry for components and services",
+      "dependencies": [],
+      "used_by": [
+        "scripts/registry-manager.sh"
+      ],
+      "metadata": {
+        "author": "Claude Code System",
+        "created": "2025-08-19",
+        "category": "infrastructure",
+        "stability": "beta"
+      }
+    }
+  },
+  "statistics": {
+    "total_components": 3,
+    "by_type": {
+      "implementation": 1,
+      "framework": 1,
+      "system": 1
+    },
+    "by_stability": {
+      "stable": 2,
+      "beta": 1,
+      "alpha": 0
+    }
+  }
+}

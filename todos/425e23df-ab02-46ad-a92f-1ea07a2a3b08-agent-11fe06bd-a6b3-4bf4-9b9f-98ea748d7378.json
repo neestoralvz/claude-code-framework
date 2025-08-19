@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Fix fs module import issue in markdown.ts",
+    "status": "completed",
+    "id": "fix-fs-import"
+  },
+  {
+    "content": "Create static markdown data for build-time loading",
+    "status": "completed",
+    "id": "preload-markdown"
+  },
+  {
+    "content": "Update markdown utility functions to work with pre-loaded data",
+    "status": "completed",
+    "id": "update-markdown-functions"
+  },
+  {
+    "content": "Test the build process with fixes",
+    "status": "completed",
+    "id": "test-build"
+  },
+  {
+    "content": "Deploy to Vercel and provide final URL",
+    "status": "in_progress",
+    "id": "deploy-vercel"
+  }
+]

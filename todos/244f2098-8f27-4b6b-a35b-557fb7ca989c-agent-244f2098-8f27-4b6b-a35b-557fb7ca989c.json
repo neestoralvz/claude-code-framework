@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Create ticket ET001: Modularize organization.md into component hub pattern",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create ticket ET002: Convert to imperative communication standards",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Create ticket ET003: Validate and repair cross-reference integrity",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Create ticket ET004: Clean backup directory pollution",
+    "status": "completed",
+    "id": "4"
+  }
+]

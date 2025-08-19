@@ -1,0 +1,31 @@
+# Command Metadata Template
+# Specialized metadata for command definition files
+
+---
+title: "[Command Name] Command"
+author: "Claude Code System"
+date: "[YYYY-MM-DD]"
+version: "1.0.0"
+type: "command-definition"
+category: "[analysis|generation|workflow|system]"
+complexity: "[simple|standard|complex]"
+dependencies: ["[command1.md]", "[principle1.md]"]
+prerequisites: ["[prerequisite1]", "[prerequisite2]"]
+audience: "Developers, project managers, and system operators"
+purpose: "[brief command purpose and functionality]"
+keywords: ["command", "workflow", "keyword1", "keyword2"]
+last_review: "[YYYY-MM-DD]"
+---
+
+# Command Metadata Field Descriptions
+
+## Command-Specific Fields
+- **type**: Always "command-definition" for command files
+- **category**: Command classification (analysis/generation/workflow/system)
+- **complexity**: Command complexity level (simple/standard/complex)
+
+## Usage Notes
+- Use category based on primary command function
+- Set complexity based on implementation requirements
+- Include workflow-related keywords
+- Specify clear operational purpose

@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Load and analyze core project documentation for bias patterns",
+    "status": "completed",
+    "id": "bias-001"
+  },
+  {
+    "content": "Examine financial projections and revenue assumptions for evidence basis",
+    "status": "completed",
+    "id": "bias-002"
+  },
+  {
+    "content": "Validate market positioning claims against objective data",
+    "status": "completed",
+    "id": "bias-003"
+  },
+  {
+    "content": "Analyze operational procedures for unsubstantiated assumptions",
+    "status": "completed",
+    "id": "bias-004"
+  },
+  {
+    "content": "Review business intelligence documentation for cognitive biases",
+    "status": "completed",
+    "id": "bias-005"
+  },
+  {
+    "content": "Generate comprehensive bias elimination report with evidence-based recommendations",
+    "status": "completed",
+    "id": "bias-006"
+  }
+]

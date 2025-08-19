@@ -1,0 +1,70 @@
+---
+title: "Modular Design Patterns Component"
+author: "Claude Code System"
+date: "2025-08-18"
+version: "1.0.0"
+dependencies: ["../principles/organization.md"]
+prerequisites: ["Understanding of modular design"]
+audience: "System architects"
+purpose: "Implement modular design patterns for components"
+keywords: ["modular", "design", "components", "patterns"]
+last_review: "2025-08-18"
+---
+
+[Previous: organization-hub.md](organization-hub.md) | [Next: hierarchical-structure-patterns.md](hierarchical-structure-patterns.md)
+
+# MODULAR DESIGN PATTERNS COMPONENT
+
+⏺ **Principle**: This component implements [organization.md](../principles/organization.md) modular design patterns.
+
+## Atomic Component Structure
+```markdown
+### Component Anatomy
+- **Single Responsibility**: Each component handles one concern
+- **Reusable Interface**: Consistent input/output patterns
+- **Minimal Dependencies**: Reduce coupling between components
+- **Clear Boundaries**: Well-defined scope and purpose
+
+### Component Template
+```
+/components/
+├── [component-name].md           # Main implementation
+├── [component-name]-usage.md     # Usage documentation
+└── [component-name]-variants/    # Specialized implementations
+    ├── [variant-1].md
+    └── [variant-2].md
+```
+
+## Module Integration Pattern
+```markdown
+### Integration Template
+```markdown
+## [Section Name]
+Apply [component.md for specific function](../components/component.md#section)
+
+### Context-Specific Adaptations
+- **Scenario A**: Use [variant-a from component.md](../components/component.md#variant-a)
+- **Scenario B**: Use [variant-b from component.md](../components/component.md#variant-b)
+
+### Implementation Example
+[Include specific usage example here]
+```
+
+## Dependency Management
+```markdown
+### Component Dependencies
+```yaml
+component_name:
+  dependencies:
+    - principle: "../principles/[principle].md"
+    - components: ["component-a.md", "component-b.md"]
+    - prerequisites: ["Understanding of X", "Knowledge of Y"]
+  provides:
+    - patterns: ["Pattern A", "Pattern B"]
+    - templates: ["Template X", "Template Y"]
+```
+
+## Cross-References
+- [Apply hierarchical-structure-patterns.md for organization](hierarchical-structure-patterns.md)
+- [Use content-organization-patterns.md for grouping](content-organization-patterns.md)
+- [Follow presentation-structure-patterns.md for delivery](presentation-structure-patterns.md)

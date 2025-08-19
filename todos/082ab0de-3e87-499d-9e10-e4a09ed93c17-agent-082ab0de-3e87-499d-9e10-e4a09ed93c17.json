@@ -1,0 +1,62 @@
+[
+  {
+    "content": "Audit and catalog all existing command files in the commands directory",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Apply SOLID principles to refactor command structure",
+    "status": "in_progress",
+    "id": "2"
+  },
+  {
+    "content": "Implement DRY methodology to eliminate code duplication",
+    "status": "pending",
+    "id": "3"
+  },
+  {
+    "content": "Create atomic, reusable command modules",
+    "status": "pending",
+    "id": "4"
+  },
+  {
+    "content": "Establish hierarchical command inheritance structure",
+    "status": "pending",
+    "id": "5"
+  },
+  {
+    "content": "Build composable commands that can use other commands",
+    "status": "pending",
+    "id": "6"
+  },
+  {
+    "content": "Create consolidated workflows directory",
+    "status": "pending",
+    "id": "7"
+  },
+  {
+    "content": "Map all agents to appropriate workflow stages",
+    "status": "pending",
+    "id": "8"
+  },
+  {
+    "content": "Define core workflow: analyze → clarify → explore → analyze → present → plan → implement → ripple → validate → debug → recurse",
+    "status": "pending",
+    "id": "9"
+  },
+  {
+    "content": "Build comprehensive command reference matrix",
+    "status": "pending",
+    "id": "10"
+  },
+  {
+    "content": "Update CLAUDE.md with new command structure",
+    "status": "pending",
+    "id": "11"
+  },
+  {
+    "content": "Generate TICKET_REGISTRY.md with all restructuring tickets",
+    "status": "pending",
+    "id": "12"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Load and analyze ticket CONSOLIDATION-002",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Update ticket status to in_progress in registry",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Perform multi-perspective agent analysis",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Select optimal agent and deploy",
+    "status": "completed",
+    "id": "4"
+  }
+]

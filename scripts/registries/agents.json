@@ -1,0 +1,235 @@
+{
+  "version": "1.0.0",
+  "registry_type": "agents",
+  "last_updated": "2025-08-19T03:57:10Z",
+  "agents": {
+    "system-auditor": {
+      "id": "system-auditor",
+      "name": "System Auditor",
+      "location": "agents/core-system/system-auditor.md",
+      "category": "core-system",
+      "specialization": "Static analysis & compliance validation",
+      "capabilities": [
+        "principle-violation-detection",
+        "cross-reference-integrity",
+        "file-structure-compliance",
+        "framework-adherence-verification"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "system-auditor",
+        "tools": [
+          "Grep",
+          "LS",
+          "Read",
+          "Bash",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "system-integrity",
+        "created": "2025-08-19"
+      }
+    },
+    "validation-engineer": {
+      "id": "validation-engineer",
+      "name": "Validation Engineer",
+      "location": "agents/core-system/validation-engineer.md",
+      "category": "core-system",
+      "specialization": "Quality methodology & systematic validation",
+      "capabilities": [
+        "4-gate-validation-framework",
+        "evidence-based-verification",
+        "quality-assurance-methodologies",
+        "comprehensive-quality-confirmation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "validation-engineer",
+        "tools": [
+          "Read",
+          "Grep",
+          "Bash",
+          "TodoWrite",
+          "WebFetch"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "quality-methodology",
+        "created": "2025-08-19"
+      }
+    },
+    "infrastructure-architect": {
+      "id": "infrastructure-architect",
+      "name": "Infrastructure Architect",
+      "location": "agents/operations/infrastructure/infrastructure-architect.md",
+      "category": "operations-infrastructure",
+      "specialization": "DevOps infrastructure and Infrastructure as Code",
+      "capabilities": [
+        "terraform-cloudformation-pulumi",
+        "docker-kubernetes-orchestration",
+        "multi-cloud-hybrid-architecture",
+        "cicd-pipeline-infrastructure",
+        "security-compliance-deployment"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "infrastructure-architect",
+        "tools": [
+          "Bash",
+          "BashOutput",
+          "Read",
+          "Write",
+          "Edit"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "infrastructure-devops",
+        "created": "2025-08-19"
+      }
+    },
+    "agent-architect": {
+      "id": "agent-architect",
+      "name": "Agent Architect",
+      "location": "agents/development/architecture/agent-architect.md",
+      "category": "development-architecture",
+      "specialization": "Create new AI agents for specific tasks and capabilities",
+      "capabilities": [
+        "agent-requirement-analysis",
+        "deployment-ready-configurations",
+        "capability-gap-analysis",
+        "specialized-agent-creation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "agent-architect",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "NotebookEdit",
+          "WebFetch",
+          "TodoWrite",
+          "WebSearch",
+          "BashOutput",
+          "KillBash"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "agent-creation",
+        "created": "2025-08-19"
+      }
+    },
+    "simplicity-metrics-dashboard": {
+      "id": "simplicity-metrics-dashboard",
+      "name": "Simplicity Metrics Dashboard",
+      "location": "agents/development/quality/simplicity-metrics-dashboard.md",
+      "category": "development-quality",
+      "specialization": "Comprehensive real-time dashboard platform for complexity visualization and stakeholder reporting",
+      "capabilities": [
+        "real-time-complexity-visualization",
+        "multi-stakeholder-dashboard-views",
+        "simple-framework-compliance-tracking",
+        "over-engineering-pattern-visualization",
+        "predictive-analytics-for-complexity",
+        "executive-summary-reporting",
+        "exportable-multi-format-reports",
+        "external-system-integration"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "simplicity-metrics-dashboard",
+        "tools": [
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Grep",
+          "LS",
+          "Write",
+          "TodoWrite",
+          "Glob"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "complexity-visualization",
+        "created": "2025-08-19"
+      },
+      "integrations": {
+        "overdrive_engineering_command": "data_consumption_and_dashboard_triggers",
+        "simplicity_enforcer": "monitoring_integration_and_alert_coordination",
+        "complexity_reduction_specialist": "refactoring_tracking_and_impact_visualization"
+      }
+    }
+  },
+  "categories": {
+    "core-system": {
+      "description": "System integrity & enforcement agents",
+      "agents": [
+        "system-auditor",
+        "validation-engineer",
+        "enforcement-monitor",
+        "simplicity-enforcer"
+      ]
+    },
+    "development-architecture": {
+      "description": "System & component architecture specialists",
+      "agents": [
+        "agent-architect",
+        "agent-creator",
+        "api-architect",
+        "data-architect",
+        "infrastructure-architect"
+      ]
+    },
+    "development-quality": {
+      "description": "Quality assurance & complexity management specialists",
+      "agents": [
+        "simplicity-metrics-dashboard",
+        "simplicity-enforcer",
+        "complexity-reduction-specialist",
+        "over-engineering-detector",
+        "code-quality-auditor",
+        "pattern-deduplicator"
+      ]
+    },
+    "operations-infrastructure": {
+      "description": "Infrastructure & deployment specialists",
+      "agents": [
+        "infrastructure-architect",
+        "migration-specialist"
+      ]
+    },
+    "operations-monitoring": {
+      "description": "Monitoring & analytics specialists",
+      "agents": [
+        "monitoring-specialist",
+        "performance-optimizer",
+        "metrics-analyst"
+      ]
+    }
+  },
+  "statistics": {
+    "total_agents": 5,
+    "by_category": {
+      "core-system": 2,
+      "development-architecture": 1,
+      "development-quality": 1,
+      "operations-infrastructure": 1
+    },
+    "by_status": {
+      "active": 5,
+      "inactive": 0,
+      "deprecated": 0
+    }
+  }
+}

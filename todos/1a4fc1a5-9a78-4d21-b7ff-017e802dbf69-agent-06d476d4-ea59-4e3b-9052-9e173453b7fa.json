@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Deploy sales-analyst for competitive positioning and business impact analysis",
+    "status": "in_progress",
+    "id": "multi-analysis-1"
+  },
+  {
+    "content": "Deploy exploration-analyst for technical architecture and AI integration opportunities",
+    "status": "in_progress",
+    "id": "multi-analysis-2"
+  },
+  {
+    "content": "Deploy research-analyst for AI market trends and best practices",
+    "status": "in_progress",
+    "id": "multi-analysis-3"
+  },
+  {
+    "content": "Deploy report-generator to synthesize all JSON analyses into consolidated reports",
+    "status": "pending",
+    "id": "multi-analysis-4"
+  },
+  {
+    "content": "Generate orchestrator decision package with actionable recommendations",
+    "status": "pending",
+    "id": "multi-analysis-5"
+  }
+]

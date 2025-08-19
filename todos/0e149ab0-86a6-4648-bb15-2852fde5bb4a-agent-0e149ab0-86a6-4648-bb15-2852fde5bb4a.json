@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Analyze current audit command structure and ticket generation requirements",
+    "status": "completed",
+    "id": "audit-analysis-001"
+  },
+  {
+    "content": "Create necessary tickets for command audit findings",
+    "status": "completed",
+    "id": "create-tickets-002"
+  },
+  {
+    "content": "Modify audit command to include automatic ticket generation",
+    "status": "completed",
+    "id": "modify-audit-003"
+  },
+  {
+    "content": "Update agent-architect for ticket system integration",
+    "status": "completed",
+    "id": "update-agent-004"
+  },
+  {
+    "content": "Test modified audit command with auto-ticket feature",
+    "status": "completed",
+    "id": "test-audit-005"
+  },
+  {
+    "content": "Document automatic ticket generation feature",
+    "status": "completed",
+    "id": "document-feature-006"
+  }
+]

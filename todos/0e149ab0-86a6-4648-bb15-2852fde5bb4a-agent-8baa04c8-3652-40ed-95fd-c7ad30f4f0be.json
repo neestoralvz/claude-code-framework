@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Map command dependencies and relationships across all commands",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identify redundancies and overlapping functionality between commands",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Analyze concatenation opportunities for related commands",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Identify modularization opportunities for oversized commands",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Generate comprehensive audit report with actionable recommendations",
+    "status": "completed",
+    "id": "5"
+  }
+]

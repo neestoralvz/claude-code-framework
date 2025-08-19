@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Deploy Exploration Analyst for general-purpose complexity and context analysis of multi-analysis system implementation request",
+    "status": "completed",
+    "id": "exploration-analysis"
+  },
+  {
+    "content": "Deploy UX Architect for user experience and interface requirements analysis of command execution system",
+    "status": "completed",
+    "id": "ux-analysis"
+  },
+  {
+    "content": "Deploy Project Optimizer for project structure and optimization analysis of system implementation",
+    "status": "completed",
+    "id": "optimization-analysis"
+  },
+  {
+    "content": "Deploy System Auditor for compliance validation and quality requirements analysis",
+    "status": "completed",
+    "id": "audit-analysis"
+  },
+  {
+    "content": "Deploy Delegation Advisor for command routing and agent selection recommendations",
+    "status": "in_progress",
+    "id": "delegation-analysis"
+  },
+  {
+    "content": "Synthesize all agent analyses into unified JSON output for orchestrator consumption",
+    "status": "pending",
+    "id": "synthesis"
+  }
+]

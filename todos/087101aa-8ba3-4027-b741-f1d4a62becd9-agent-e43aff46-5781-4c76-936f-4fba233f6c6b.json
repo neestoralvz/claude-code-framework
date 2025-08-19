@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Navigate to concept-site directory and verify project structure",
+    "status": "completed",
+    "id": "deploy-1"
+  },
+  {
+    "content": "Regenerate static data from docs/concept-definition/ location",
+    "status": "completed",
+    "id": "deploy-2"
+  },
+  {
+    "content": "Build Next.js application with restructured content",
+    "status": "completed",
+    "id": "deploy-3"
+  },
+  {
+    "content": "Validate markdown content rendering and navigation",
+    "status": "completed",
+    "id": "deploy-4"
+  },
+  {
+    "content": "Execute static export generation",
+    "status": "completed",
+    "id": "deploy-5"
+  },
+  {
+    "content": "Perform final deployment verification",
+    "status": "completed",
+    "id": "deploy-6"
+  }
+]

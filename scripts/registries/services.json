@@ -1,0 +1,126 @@
+{
+  "version": "1.0.0",
+  "registry_type": "services",
+  "last_updated": "2025-08-19T03:57:10Z",
+  "services": {
+    "registry-manager": {
+      "id": "registry-manager",
+      "name": "Registry Management Service",
+      "type": "management-service",
+      "location": "scripts/registry-manager.sh",
+      "description": "CRUD operations for all registries",
+      "capabilities": [
+        "registry-crud",
+        "validation",
+        "versioning",
+        "backup-restore",
+        "search-query"
+      ],
+      "endpoints": {
+        "create": "scripts/registry-manager.sh create {registry} {item}",
+        "read": "scripts/registry-manager.sh read {registry} [item]",
+        "update": "scripts/registry-manager.sh update {registry} {item}",
+        "delete": "scripts/registry-manager.sh delete {registry} {item}",
+        "search": "scripts/registry-manager.sh search {query}"
+      },
+      "health_status": "healthy",
+      "dependencies": [
+        "jq",
+        "registries/*"
+      ],
+      "metadata": {
+        "version": "1.0.0",
+        "created": "2025-08-19",
+        "category": "management"
+      }
+    },
+    "password-manager": {
+      "id": "password-manager",
+      "name": "Secure Password Management Service",
+      "type": "security-service",
+      "location": "scripts/password-manager.sh",
+      "description": "Encrypted password and secret management",
+      "capabilities": [
+        "encryption-decryption",
+        "secure-storage",
+        "key-derivation",
+        "audit-logging",
+        "rotation-management"
+      ],
+      "endpoints": {
+        "store": "scripts/password-manager.sh store {key} {value}",
+        "retrieve": "scripts/password-manager.sh retrieve {key}",
+        "rotate": "scripts/password-manager.sh rotate {key}",
+        "list": "scripts/password-manager.sh list"
+      },
+      "health_status": "planned",
+      "dependencies": [
+        "openssl",
+        "gpg"
+      ],
+      "metadata": {
+        "version": "1.0.0",
+        "created": "2025-08-19",
+        "category": "security"
+      }
+    },
+    "event-dispatcher": {
+      "id": "event-dispatcher",
+      "name": "Event Dispatch Service",
+      "type": "system-service",
+      "location": "scripts/event-dispatcher.sh",
+      "description": "Central event dispatching for hooks system",
+      "capabilities": [
+        "event-routing",
+        "priority-queuing",
+        "batch-processing",
+        "failure-recovery"
+      ],
+      "endpoints": {
+        "dispatch": "scripts/event-dispatcher.sh dispatch {event} [data]",
+        "status": "scripts/event-dispatcher.sh status"
+      },
+      "health_status": "planned",
+      "dependencies": [],
+      "metadata": {
+        "version": "1.0.0",
+        "created": "2025-08-19",
+        "category": "infrastructure"
+      }
+    }
+  },
+  "service_types": {
+    "system-service": {
+      "description": "Core system infrastructure services",
+      "services": [
+        "event-dispatcher"
+      ]
+    },
+    "management-service": {
+      "description": "System management and administration services",
+      "services": [
+        "registry-manager"
+      ]
+    },
+    "security-service": {
+      "description": "Security and encryption services",
+      "services": [
+        "password-manager"
+      ]
+    }
+  },
+  "statistics": {
+    "total_services": 3,
+    "by_type": {
+      "system-service": 1,
+      "management-service": 1,
+      "security-service": 1
+    },
+    "by_status": {
+      "healthy": 1,
+      "planned": 2,
+      "degraded": 0,
+      "failed": 0
+    }
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Move INTENT_RECOGNITION.md from recognition folder to principles folder",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Update CLAUDE.md to reference the new location",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Remove the unnecessary recognition folder",
+    "status": "completed",
+    "id": "3"
+  }
+]

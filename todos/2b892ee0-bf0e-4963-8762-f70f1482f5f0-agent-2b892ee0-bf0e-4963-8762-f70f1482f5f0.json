@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Fix principle marker formats - Critical Priority",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Correct link format violations with action verbs",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Repair header hierarchy issues",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Fix navigation and naming consistency",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Update return-to-top components",
+    "status": "completed",
+    "id": "5"
+  }
+]

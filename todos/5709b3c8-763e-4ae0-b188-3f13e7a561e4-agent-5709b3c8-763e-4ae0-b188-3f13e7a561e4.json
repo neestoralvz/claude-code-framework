@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Search for existing work on information processing topic",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Check git history for related work",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Review directory structure for relevant files",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Analyze findings and provide status summary",
+    "status": "completed",
+    "id": "4"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Analyze current agent capabilities and map overlapping functionality across monitoring-specialist, system-auditor, and validation-engineer",
+    "status": "completed",
+    "id": "capability-analysis"
+  },
+  {
+    "content": "Define clear, non-overlapping boundaries for each agent based on proposed categorization (real-time monitoring, static analysis, quality methodology)",
+    "status": "completed",
+    "id": "boundary-definition"
+  },
+  {
+    "content": "Update all three agent files with clarified boundaries, distinct capabilities, and selection criteria",
+    "status": "completed",
+    "id": "agent-updates"
+  },
+  {
+    "content": "Validate agent interactions work together without conflicts and test selection guidance",
+    "status": "completed",
+    "id": "integration-validation"
+  },
+  {
+    "content": "Create comprehensive capability matrix and selection guidance documentation",
+    "status": "completed",
+    "id": "documentation-update"
+  }
+]

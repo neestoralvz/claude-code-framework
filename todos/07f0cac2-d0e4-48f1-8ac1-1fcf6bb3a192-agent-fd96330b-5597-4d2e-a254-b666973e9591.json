@@ -1,0 +1,27 @@
+[
+  {
+    "content": "Requirements Gate Validation: Analyze invitation protocol specifications and token consumption requirements",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Process Gate Validation: Validate implementation processes against documented workflows",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Output Gate Validation: Verify protocol outputs and token consumption metrics quality",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "System Gate Validation: Confirm system integrity and architecture compatibility",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Generate comprehensive validation report with evidence and recommendations",
+    "status": "completed",
+    "id": "5"
+  }
+]

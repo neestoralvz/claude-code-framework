@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Examine superwhisper-prompt.txt structure and content for framework compliance",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Validate cross-references between superwhisper-prompt.txt and CLAUDE.md directives",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Analyze voice command integration with existing command architecture",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Audit file structure compliance for voice integration patterns",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Detect principle violations in voice transcription workflows",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Verify framework adherence for SuperWhisper components",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Generate comprehensive compliance report with findings and recommendations",
+    "status": "completed",
+    "id": "7"
+  }
+]

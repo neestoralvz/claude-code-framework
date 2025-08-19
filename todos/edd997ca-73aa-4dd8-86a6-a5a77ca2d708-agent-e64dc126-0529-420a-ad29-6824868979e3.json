@@ -1,0 +1,32 @@
+[
+  {
+    "content": "Survey markdown files in docs/, commands/, agents/ folders for metadata patterns",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Identify navigation architecture patterns across different file types",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Map formatting standards and breadcrumb implementations",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Catalog successful metadata-free navigation examples",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Execute progressive thinking analysis across four orders",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Store findings in operations/documentation-patterns-analysis.json",
+    "status": "completed",
+    "id": "6"
+  }
+]

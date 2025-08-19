@@ -1,0 +1,22 @@
+[
+  {
+    "content": "Analyze existing agent template structure to ensure compliance",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create prompt-optimizer.md agent with SuperWhisper integration specifications",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Validate agent follows standard template structure and meets all requirements",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Test agent integration compatibility with existing system",
+    "status": "completed",
+    "id": "4"
+  }
+]

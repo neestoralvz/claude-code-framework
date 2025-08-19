@@ -1,0 +1,17 @@
+[
+  {
+    "content": "Add missing headers to 11 agents: configuration-manager, system-auditor, validation-engineer, security-analyst, metrics-analyst, documentation-curator, knowledge-curator, compliance-auditor, monitoring-specialist, performance-optimizer, migration-specialist",
+    "status": "in_progress",
+    "id": "fix-headers-only"
+  },
+  {
+    "content": "Add missing headers AND introductions to 5 agents: simplicity-enforcer, output-style-setup, integration-coordinator, incident-coordinator, infrastructure-architect",
+    "status": "pending",
+    "id": "fix-headers-and-intros"
+  },
+  {
+    "content": "Add missing introductions to 6 agents: agent-architect, agent-creator, api-architect, change-management-specialist, delegation-advisor, agent-optimizer",
+    "status": "pending",
+    "id": "fix-intros-only"
+  }
+]

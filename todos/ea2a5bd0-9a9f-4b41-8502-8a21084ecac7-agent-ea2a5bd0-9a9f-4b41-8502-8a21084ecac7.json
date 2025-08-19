@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Execute comprehensive command audit across all categories",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Analyze command patterns and structure consistency",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Map inter-command dependencies and relationships",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Identify redundancies and functional overlaps",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Assess concatenation opportunities for command sequences",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Discover modularization opportunities for shared components",
+    "status": "in_progress",
+    "id": "6"
+  },
+  {
+    "content": "Generate comprehensive audit report with recommendations",
+    "status": "pending",
+    "id": "7"
+  }
+]

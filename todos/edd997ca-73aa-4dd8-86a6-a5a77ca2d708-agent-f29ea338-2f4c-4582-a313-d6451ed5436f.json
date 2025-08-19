@@ -1,0 +1,37 @@
+[
+  {
+    "content": "Examine current file structure and validate folder organization",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Analyze CLAUDE.md for principle violations and architectural deviations",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Validate cross-references to agents/, commands/, docs/ folders",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Check framework adherence and command-centered execution compliance",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Verify operational directive consistency and workflow alignment",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Compare against docs/principles/ standards for compliance validation",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Generate comprehensive audit report with findings and recommendations",
+    "status": "completed",
+    "id": "7"
+  }
+]

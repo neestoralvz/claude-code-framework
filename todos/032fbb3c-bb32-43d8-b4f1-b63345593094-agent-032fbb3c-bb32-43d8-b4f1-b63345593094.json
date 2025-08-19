@@ -1,0 +1,47 @@
+[
+  {
+    "content": "Design automatic problem detection system architecture",
+    "status": "completed",
+    "id": "1"
+  },
+  {
+    "content": "Create command reference matrix mapping problems to enforcement commands",
+    "status": "completed",
+    "id": "2"
+  },
+  {
+    "content": "Build comprehensive system health monitoring framework",
+    "status": "completed",
+    "id": "3"
+  },
+  {
+    "content": "Implement real-time system state monitoring with violation detection",
+    "status": "completed",
+    "id": "4"
+  },
+  {
+    "content": "Design intelligent command selection system with context analysis",
+    "status": "completed",
+    "id": "5"
+  },
+  {
+    "content": "Create automatic trigger mechanisms for proactive command execution",
+    "status": "completed",
+    "id": "6"
+  },
+  {
+    "content": "Build problem classification matrix with severity-based command sequences",
+    "status": "completed",
+    "id": "7"
+  },
+  {
+    "content": "Implement command guidance system for contextual recommendations",
+    "status": "in_progress",
+    "id": "8"
+  },
+  {
+    "content": "Integrate and validate complete automatic detection system",
+    "status": "pending",
+    "id": "9"
+  }
+]
