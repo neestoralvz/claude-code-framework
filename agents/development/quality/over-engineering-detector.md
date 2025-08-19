@@ -646,7 +646,7 @@ Task: "Deploy over-engineering-detector for continuous monitoring with real-time
 
 ### Quality Agent Ecosystem
 - [Coordinate with complexity-reduction-specialist](complexity-reduction-specialist.md)
-- [Collaborate with simplicity-enforcer](../../../agents/core-system/simplicity-enforcer.md)
+- [Collaborate with simplicity-enforcer](simplicity-enforcer.md)
 - [Support code-quality-auditor](code-quality-auditor.md)
 - [Integrate with pattern-deduplicator](pattern-deduplicator.md)
 

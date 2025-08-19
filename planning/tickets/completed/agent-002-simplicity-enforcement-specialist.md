@@ -15,7 +15,7 @@ dependencies:
   file_conflicts: []
   resource_conflicts: []
 affected_files: 
-  - "agents/core-system/simplicity-enforcer.md" # EXISTING AGENT used instead of creating new
+  - "agents/development/quality/simplicity-enforcer.md" # CONSOLIDATED AGENT used instead of creating new
   - "docs/templates/components/agent-orchestration-framework.md" # CREATED
   - "docs/templates/components/analysis-framework-system.md" # CREATED
   - "docs/templates/components/output-generation-system.md" # CREATED

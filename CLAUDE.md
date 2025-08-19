@@ -7,7 +7,7 @@ purpose: "MANDATORY execution interface for Claude Code Framework - ALL CONTENT 
 dependencies: ["commands/index.md", "docs/principles/workflow.md"]
 ---
 
-[🏠 Framework Hub](docs/index.md) | [⚡ Commands](commands/index.md) | [🔄 Workflow](docs/principles/workflow.md) | [📋 Success Criteria](docs/components/success-criteria-template.md)
+[🏠 Framework Hub](docs/index.md) | [⚡ Commands](commands/index.md) | [🔄 Workflow](docs/principles/workflow.md) | [📋 Success Criteria](docs/templates/components/success-criteria-template.md)
 
 # CLAUDE CODE FRAMEWORK PLAYBOOK
 
@@ -40,8 +40,15 @@ Task(
   description: "{specific-description-linked-to-prompt}",
   prompt: "I am the orchestrator and you are the {determined-agent} agent. 
           Search for relevant files in commands/ and docs/ for your execution.
-          {specific-context-of-request}
-          Execute the slash command /{selected-command} or complete instruction: {detailed-instruction}"
+          Context: {specific-context-of-request}
+          Execute the slash command /{selected-command} or complete instruction: {detailed-instruction}
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: {specify-format-json-md-code-etc}
+          - File Location: {specify-where-to-place-output}
+          - Agent Results: operations/{conversation-id}/{agent-results-filename}
+          - Content Requirements: {root-cause-analysis-and-integral-solutions}
+          - Quality Standards: {lasting-solutions-specialized-agents-atomic-tasks}"
 )
 ```
 
@@ -50,13 +57,31 @@ Task(
 Task(
   subagent_type: "workflow-coordinator",
   description: "Coordinate parallel execution of {task-1}",
-  prompt: "I am the orchestrator and you are the workflow-coordinator agent..."
+  prompt: "I am the orchestrator and you are the workflow-coordinator agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: {specific-coordination-context}
+          Execute coordination task: {detailed-coordination-instruction}
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: Coordination plan in JSON format
+          - File Location: operations/{conversation-id}/coordination-{timestamp}.json
+          - Content Requirements: Atomic task breakdown, specialized agent assignments, root problem solutions
+          - Quality Standards: Integral approaches, lasting resolutions, specialized agent deployment"
 )
 
 Task(
   subagent_type: "exploration-analyst", 
   description: "Analyze system state for {task-2}",
-  prompt: "I am the orchestrator and you are the exploration-analyst agent..."
+  prompt: "I am the orchestrator and you are the exploration-analyst agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: {specific-analysis-context}
+          Execute analysis task: {detailed-analysis-instruction}
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: Analysis report in markdown format
+          - File Location: operations/{conversation-id}/analysis-{timestamp}.md
+          - Content Requirements: Root cause analysis, integral solution strategies, atomic task identification
+          - Quality Standards: Specialized agent recommendations, permanent problem resolution, comprehensive coverage"
 )
 ```
 
@@ -65,13 +90,33 @@ Task(
 Task(
   subagent_type: "component-architect",
   description: "Create component A independently",
-  prompt: "I am the orchestrator and you are the component-architect agent..."
+  prompt: "I am the orchestrator and you are the component-architect agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: Independent component creation for modular architecture.
+          Execute component creation: Create authentication component with validation.
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: TypeScript component file  
+          - File Location: src/components/auth/AuthComponent.tsx
+          - Agent Results: operations/{conversation-id}/auth-component-analysis.json
+          - Content Requirements: Root-cause security implementation, integral authentication solution
+          - Quality Standards: Permanent security measures, comprehensive validation, lasting architecture"
 )
 
 Task(
   subagent_type: "component-architect",
   description: "Create component B independently", 
-  prompt: "I am the orchestrator and you are the component-architect agent..."
+  prompt: "I am the orchestrator and you are the component-architect agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: Independent component creation for modular architecture.
+          Execute component creation: Create payment processing component.
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: TypeScript component file
+          - File Location: src/components/payment/PaymentComponent.tsx
+          - Agent Results: operations/{conversation-id}/payment-component-analysis.json
+          - Content Requirements: Integral payment security, root-cause PCI compliance implementation
+          - Quality Standards: Lasting security architecture, comprehensive fraud prevention, permanent compliance"
 )
 ```
 **MANDATORY NOTE**: DEPLOY same agent multiple times for independent file operations.
@@ -96,111 +141,202 @@ Task(
 
 **Commands EXECUTE complete 9-Phase methodology automatically with TodoWrite tracking, progressive thinking integration, and modern research capabilities including WebSearch and Context7.**
 
-### PHASE 1: CLARIFICATION
-**ESTABLISH complete request understanding and success criteria**
-- **CONFIRM** specific target or aspect
-- **VERIFY** scope and parameters  
-- **VALIDATE** input criteria
+**⚠️ CRITICAL EXECUTION RULE: ALL 9 PHASES ARE MANDATORY - NO EXCEPTIONS**
+- **NEVER SKIP ANY PHASE** - Each phase must be completed fully before proceeding
+- **SEQUENTIAL EXECUTION REQUIRED** - Phases must be executed in exact order 1→2→3→4→5→6→7→8→9  
+- **COMPLETION VALIDATION** - Each phase requires "COMPLETE WHEN" criteria satisfaction
+- **AUTOMATIC ENFORCEMENT** - Framework will reject incomplete or skipped phases
+- **MANDATORY RECURSION** - If validation fails, MUST recurse through workflow until TOTAL VALIDATION ACHIEVED
+- **NO PARTIAL SUCCESS** - Only complete validation success terminates workflow execution
+- **PROGRESSIVE THINKING MANDATORY** - ALL actions MUST apply Think→Think Hard→Think Harder→UltraThink based on complexity
+
+### PHASE 1: CLARIFICATION (MANDATORY)
+**ESTABLISH complete request understanding and success criteria - NO EXCEPTIONS**
+- **APPLY PROGRESSIVE THINKING**: Think (basic requirements) → Think Hard (edge cases) → Think Harder (systemic implications) → UltraThink (long-term consequences)
+- **CONFIRM** specific target or aspect using appropriate thinking level
+- **VERIFY** scope and parameters with systematic analysis depth
+- **VALIDATE** input criteria through progressive complexity assessment
 - **Git Operations**: `git status`, `git branch -v`, verify clean working directory
-- **COMPLETE WHEN**: Requirements clear, success criteria defined, stakeholder alignment confirmed
+- **COMPLETE WHEN**: Requirements clear, success criteria defined, stakeholder alignment confirmed, progressive thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 1 Clarification](docs/principles/workflow.md#1-clarification)
 
-### PHASE 2: EXPLORATION  
-**DISCOVER and gather comprehensive contextual information**
-- **SEARCH** relevant files and patterns
-- **READ** necessary content
-- **MAP** dependencies and relationships
+### PHASE 2: EXPLORATION (MANDATORY)
+**DISCOVER and gather comprehensive contextual information - CANNOT BE SKIPPED**
+- **APPLY PROGRESSIVE THINKING**: Think (basic search) → Think Hard (deep patterns) → Think Harder (systemic connections) → UltraThink (architectural implications)
+- **SEARCH** relevant files and patterns with systematic depth analysis
+- **READ** necessary content applying appropriate thinking complexity
+- **MAP** dependencies and relationships through progressive analysis levels
 - **Git Operations**: `git log --oneline -10`, `git diff HEAD~1`, examine repository context
-- **COMPLETE WHEN**: Context mapped, information gathered, dependencies identified
+- **COMPLETE WHEN**: Context mapped, information gathered, dependencies identified, progressive exploration completed
 - **DETAILED GUIDANCE**: READ [Phase 2 Exploration](docs/principles/workflow.md#2-exploration)
 
-### PHASE 3: RESEARCH
-**EXECUTE modern online research with current information as of 2025-08-19**
-- **RESEARCH** current best practices using WebSearch tool for up-to-date information
-- **QUERY** Context7 for latest library documentation and API references
-- **VALIDATE** external resources for accuracy and relevance to current date
-- **SYNTHESIZE** online findings with local context discoveries
-- **CROSS-REFERENCE** current industry standards and emerging patterns
+### PHASE 3: RESEARCH (MANDATORY)
+**EXECUTE modern online research with current information as of 2025-08-19 - OBLIGATORY EXECUTION**
+- **APPLY PROGRESSIVE THINKING**: Think (basic research) → Think Hard (comprehensive analysis) → Think Harder (emerging trends) → UltraThink (future implications)
+- **RESEARCH** current best practices using WebSearch tool with progressive depth analysis
+- **QUERY** Context7 for latest library documentation applying systematic thinking levels
+- **VALIDATE** external resources for accuracy using appropriate complexity assessment
+- **SYNTHESIZE** online findings with local context through progressive integration
+- **CROSS-REFERENCE** current industry standards with systematic thinking depth
 - **MANDATORY TOOLS**: 
   - WebSearch for current trends, solutions, and documentation (2025)
   - mcp__context7__resolve-library-id + mcp__context7__get-library-docs for library research
   - WebFetch for specific documentation validation
 - **Git Operations**: Document research findings in temporary notes or comments
-- **COMPLETE WHEN**: Current information gathered, external validation complete, synthesis ready
+- **COMPLETE WHEN**: Current information gathered, external validation complete, synthesis ready, progressive research thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 3 Research](docs/principles/workflow.md#3-research)
 
-### PHASE 4: ANALYSIS
-**EXAMINE and understand findings to generate actionable solutions**
-- **EXAMINE** discovered information from local context and research
-- **SYNTHESIZE** local findings with current online research
-- **IDENTIFY** patterns, issues, and current best practices
-- **DOCUMENT** key findings with modern context
+### PHASE 4: ANALYSIS (MANDATORY)
+**EXAMINE and understand findings to generate actionable solutions - REQUIRED COMPLETION**
+- **APPLY PROGRESSIVE THINKING**: Think (basic analysis) → Think Hard (pattern recognition) → Think Harder (systemic evaluation) → UltraThink (strategic implications)
+- **EXAMINE** discovered information from local context and research using systematic thinking depth
+- **SYNTHESIZE** local findings with current online research through progressive complexity levels
+- **IDENTIFY** patterns, issues, and current best practices with appropriate analytical depth
+- **DOCUMENT** key findings with modern context and progressive thinking evidence
 - **Git Operations**: `git diff --cached`, `git log --graph --oneline`, assess change impact  
-- **COMPLETE WHEN**: Patterns found, solutions generated, feasibility assessed with current standards
+- **COMPLETE WHEN**: Patterns found, solutions generated, feasibility assessed with current standards, progressive analysis completed
 - **DETAILED GUIDANCE**: READ [Phase 4 Analysis](docs/principles/workflow.md#4-analysis)
 
-### PHASE 5: SOLUTION PRESENTATION
-**ENABLE informed decision-making through structured dialogue**
-- **PRESENT** solution alternatives with current industry context
-- **FACILITATE** stakeholder dialogue
-- **CONFIRM** selected approach
+### PHASE 5: SOLUTION PRESENTATION (MANDATORY)
+**ENABLE informed decision-making through structured dialogue - OBLIGATORY STAKEHOLDER ENGAGEMENT**
+- **APPLY PROGRESSIVE THINKING**: Think (basic presentation) → Think Hard (stakeholder analysis) → Think Harder (decision implications) → UltraThink (strategic alignment)
+- **PRESENT** solution alternatives with current industry context using appropriate communication depth
+- **FACILITATE** stakeholder dialogue through progressive engagement complexity
+- **CONFIRM** selected approach with systematic decision validation
 - **Git Operations**: Confirm branching strategy, validate merge approach
-- **COMPLETE WHEN**: Decision made, solution selected, approach agreed
+- **COMPLETE WHEN**: Decision made, solution selected, approach agreed, progressive presentation thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 5 Solution Presentation](docs/principles/workflow.md#5-solution-presentation)
 
-### PHASE 6: PLANNING
-**DESIGN atomic, hierarchical implementation approach**
-- **DESIGN** implementation strategy incorporating research findings
-- **STRUCTURE** execution steps
-- **DEFINE** success criteria
+### PHASE 6: PLANNING (MANDATORY)
+**DESIGN atomic, hierarchical implementation approach WITH MANDATORY PRINCIPLE VALIDATION - CANNOT PROCEED WITHOUT VALIDATION**
+- **APPLY PROGRESSIVE THINKING**: Think (basic planning) → Think Hard (complexity analysis) → Think Harder (integration challenges) → UltraThink (long-term architecture)
+- **DESIGN** integral solutions targeting root problems using systematic thinking depth
+- **CREATE** comprehensive strategies through progressive complexity assessment
+- **STRUCTURE** atomic task breakdown with specialized agent assignment using appropriate thinking level
+- **ESTABLISH** operations/{conversation-id}/ storage structure for agent outputs
+- **DEFINE** quantifiable success criteria with mathematical validation metrics using progressive thinking
+- **CREATE** objective measurement frameworks using calculable evidence with systematic depth
+- **SPECIFY** success thresholds with numerical benchmarks and validation scripts
+- **ESTABLISH** evidence-based validation protocols with automated verification
+- **ENSURE** each atomic task has dedicated specialized agent with specific deliverables
+- **VALIDATE PLAN AGAINST PRINCIPLES** (MANDATORY CHECKPOINT):
+  - **EXECUTE** [Simplicity Enforcement](docs/principles/simplicity.md) validation
+  - **DEPLOY** over-engineering detection using Task(subagent_type: "over-engineering-detector")
+  - **VERIFY** SIMPLE framework compliance (Simple, Incremental, Maintainable, Purposeful, Lean, Effective)
+  - **CHECK** against [Engineering Standards](docs/principles/engineering.md) for quality patterns
+  - **VALIDATE** resource allocation and scope appropriateness
+- **MANDATORY TOOLS FOR VALIDATION**:
+```markdown
+Task(
+  subagent_type: "simplicity-enforcer",
+  description: "Validate plan against SIMPLE framework principles",
+  prompt: "I am the orchestrator and you are the simplicity-enforcer agent. 
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: Planning phase requires validation against over-engineering.
+          Execute validation of current implementation plan against SIMPLE framework:
+          Simple, Incremental, Maintainable, Purposeful, Lean, Effective principles.
+          Identify complexity violations and provide simplification recommendations.
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: JSON validation report
+          - File Location: operations/{conversation-id}/simplicity-validation-{timestamp}.json
+          - Content Requirements: SIMPLE framework compliance score, root cause analysis, integral solutions
+          - Quality Standards: Root problem identification, lasting solution recommendations"
+)
+
+Task(
+  subagent_type: "over-engineering-detector",
+  description: "Detect complexity violations and over-engineering patterns",
+  prompt: "I am the orchestrator and you are the over-engineering-detector agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: Plan validation checkpoint to prevent unnecessary complexity.
+          Analyze current implementation plan for over-engineering patterns, 
+          excessive abstractions, and unnecessary complexity. Provide specific
+          recommendations for complexity reduction and scope optimization.
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: Markdown analysis report
+          - File Location: operations/{conversation-id}/over-engineering-analysis-{timestamp}.md
+          - Content Requirements: Root cause complexity analysis, integral optimization strategies, atomic task breakdown
+          - Quality Standards: Specialized agent assignments, permanent solutions, measurable improvements"
+)
+
+Task(
+  subagent_type: "compliance-auditor",
+  description: "Verify plan adherence to framework principles",
+  prompt: "I am the orchestrator and you are the compliance-auditor agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: Mandatory checkpoint before implementation phase.
+          Verify implementation plan compliance with engineering standards,
+          framework principles, and quality patterns. Validate resource
+          allocation appropriateness and scope alignment with requirements.
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: JSON compliance report
+          - File Location: operations/{conversation-id}/compliance-audit-{timestamp}.json
+          - Content Requirements: Comprehensive compliance analysis, root problem identification, integral remediation plan
+          - Quality Standards: Atomic task assignments, specialized agent deployment, lasting compliance solutions"
+)
+```
 - **Git Operations**: `git checkout -b feature/task-description`, `git push -u origin feature/task-description`
-- **COMPLETE WHEN**: Tasks defined, agents assigned, dependencies mapped
+- **COMPLETE WHEN**: Tasks defined, agents assigned, dependencies mapped, **PRINCIPLES VALIDATED**
+- **VALIDATION GATE**: **PLAN MUST PASS SIMPLICITY AND PRINCIPLE VALIDATION BEFORE PROCEEDING**
 - **DETAILED GUIDANCE**: READ [Phase 6 Planning](docs/principles/workflow.md#6-planning)
 
-### PHASE 7: IMPLEMENTATION
-**EXECUTE planned solution through specialized agents**
-- **EXECUTE** designed solution with current best practices
-- **APPLY** changes systematically
-- **FOLLOW** established principles and modern standards
+### PHASE 7: IMPLEMENTATION (MANDATORY)
+**EXECUTE planned solution through specialized agents - OBLIGATORY EXECUTION OF VALIDATED PLAN**
+- **APPLY PROGRESSIVE THINKING**: Think (basic implementation) → Think Hard (integration complexity) → Think Harder (system impacts) → UltraThink (architectural evolution)
+- **EXECUTE** designed solution with current best practices using systematic thinking depth
+- **APPLY** changes systematically through progressive complexity assessment
+- **FOLLOW** established principles and modern standards with appropriate thinking level
 - **Git Operations**: `git add [files]`, `git commit -m "type(scope): description"`, `git push origin feature/task-description`
-- **COMPLETE WHEN**: Implementation complete, quality verified, integration tested
+- **COMPLETE WHEN**: Implementation complete, quality verified, integration tested, progressive implementation thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 7 Implementation](docs/principles/workflow.md#7-implementation)
 
-### PHASE 8: RIPPLE EFFECT
-**MANAGE implementation consequences and dependencies**
-- **HANDLE** cross-references
-- **UPDATE** dependent elements
-- **MAINTAIN** system integrity
+### PHASE 8: RIPPLE EFFECT (MANDATORY)
+**MANAGE implementation consequences and dependencies - OBLIGATORY IMPACT MANAGEMENT**
+- **APPLY PROGRESSIVE THINKING**: Think (direct impacts) → Think Hard (cascading effects) → Think Harder (system-wide implications) → UltraThink (ecosystem evolution)
+- **HANDLE** cross-references using systematic thinking depth
+- **UPDATE** dependent elements through progressive impact assessment
+- **MAINTAIN** system integrity with appropriate complexity analysis
 - **Git Operations**: `git fetch origin`, `git rebase origin/main`, `git push --force-with-lease`
-- **COMPLETE WHEN**: Dependencies updated, system stable, documentation synced
+- **COMPLETE WHEN**: Dependencies updated, system stable, documentation synced, progressive impact thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 8 Ripple Effect](docs/principles/workflow.md#8-ripple-effect)
 
-### PHASE 9: VALIDATION
-**VERIFY success and completeness using systematic validation methodology**
-- **LOAD** Phase 1 success criteria for verification
-- **EXECUTE** systematic validation using [validation.md comprehensive methodology](docs/principles/validation.md)
-- **VALIDATE** against current standards and best practices from research phase
-- **GENERATE** evidence and measure quantifiable outcomes
-- **APPLY** appropriate quality gates and verification procedures
-- **DOCUMENT** validation results and evidence collection
+### PHASE 9: VALIDATION (MANDATORY)
+**VERIFY success and completeness using systematic validation methodology - FINAL OBLIGATORY VERIFICATION**
+- **APPLY PROGRESSIVE THINKING**: Think (basic validation) → Think Hard (comprehensive testing) → Think Harder (system validation) → UltraThink (strategic success assessment)
+- **LOAD** Phase 6 quantifiable success criteria and mathematical benchmarks using systematic thinking depth
+- **EXECUTE** objective validation using mathematical calculations and evidence-based scripts with progressive complexity
+- **CALCULATE** success metrics using automated verification scripts with numerical outcomes and appropriate thinking level
+- **MEASURE** performance against established thresholds through progressive validation depth
+- **GENERATE** validation reports with mathematical proof and statistical analysis using systematic thinking
+- **STORE** validation evidence in operations/{conversation-id}/validation-results/
+- **CREATE** automated validation scripts for reproducible verification with progressive thinking documentation
+- **DOCUMENT** mathematical validation results with evidence collection and progressive thinking analysis
+- **RECURSIVE EXECUTION**: If validation fails, MANDATORY return to Phase 1 until TOTAL SUCCESS with progressive thinking applied
 - **Git Operations**: `gh pr create --title "Title" --body "Description"`, `git diff main..HEAD`, verify CI/CD success
-- **COMPLETE WHEN**: Criteria satisfied, quality confirmed, stakeholders satisfied, current standards met
+- **COMPLETE WHEN**: ALL mathematical criteria satisfied, objective evidence confirms success, numerical thresholds met, progressive validation thinking applied
 - **DETAILED GUIDANCE**: READ [Phase 9 Validation](docs/principles/workflow.md#9-validation)
 
 ### WORKFLOW SUPPORT OPERATIONS
 
 #### DEBUG OPERATION - Troubleshoot and resolve workflow issues
-- **EXECUTE** systematic issue diagnosis for workflow execution problems
-- **IDENTIFY** blockages, quality problems, and coordination failures
-- **GENERATE** resolution strategies and recovery procedures
-- **RESUME** workflow execution from stable points
+- **APPLY PROGRESSIVE THINKING**: Think (basic diagnosis) → Think Hard (root cause analysis) → Think Harder (systemic issues) → UltraThink (architectural problems)
+- **EXECUTE** systematic issue diagnosis for workflow execution problems using appropriate thinking depth
+- **IDENTIFY** blockages, quality problems, and coordination failures through progressive analysis
+- **GENERATE** resolution strategies and recovery procedures with systematic thinking complexity
+- **RESUME** workflow execution from stable points with progressive thinking applied
 - **DETAILED GUIDANCE**: READ [Debug Operation](docs/principles/workflow.md#debug-operation)
 
-#### RECURSIVE OPERATION - Execute iterative improvement cycles
-- **EXECUTE** intelligent workflow repetition for quality enhancement
-- **ANALYZE** validation gaps and enhancement opportunities
-- **PLAN** optimal recursion strategy and entry points
-- **ACHIEVE** higher quality through systematic iteration
+#### RECURSIVE OPERATION - Execute iterative improvement cycles (MANDATORY UNTIL SUCCESS)
+- **APPLY PROGRESSIVE THINKING**: Think (basic recursion) → Think Hard (pattern analysis) → Think Harder (systematic improvement) → UltraThink (evolutionary optimization)
+- **EXECUTE** OBLIGATORY workflow repetition when validation fails using systematic thinking depth
+- **ANALYZE** mathematical gaps and evidence deficiencies through progressive complexity assessment
+- **PLAN** optimal recursion strategy with appropriate thinking level based on failure analysis
+- **CONTINUE** systematic iteration until ALL mathematical criteria satisfied with progressive thinking applied
+- **DOCUMENT** recursion cycles and improvement evidence in operations/{conversation-id}/recursion-logs/
+- **ACHIEVE** complete validation success through persistent iteration with progressive thinking - NO PARTIAL ACCEPTANCE
 - **DETAILED GUIDANCE**: READ [Recursive Operation](docs/principles/workflow.md#recursive-operation)
 
 ---
@@ -218,7 +354,17 @@ Task(
 Task(
   subagent_type: "{agent-from-AGENT_WORKFLOW_MAPPING}",
   description: "{action-specific-to-request}",
-  prompt: "I am orchestrator, you are {agent}. Context: {context}. Execute: {instruction}"
+  prompt: "I am the orchestrator and you are the {agent} agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: {specific-context-description}
+          Execute: {detailed-instruction-with-requirements}
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: {specify-format-json-md-code-etc}
+          - File Location: {specify-exact-path-and-filename}
+          - Agent Results: operations/{conversation-id}/{agent-results-filename}
+          - Content Requirements: {root-cause-analysis-and-integral-solutions}
+          - Quality Standards: {lasting-solutions-specialized-agents-atomic-tasks}"
 )
 ```
 
@@ -283,7 +429,13 @@ Task(subagent_type: "code-quality-auditor", description: "Quality evaluation")
 12. **AUTOMATIC 9-PHASE**: Commands execute complete workflow dynamically with integrated research
 13. **INTEGRATED TodoWrite**: For visible workflow progress tracking
 14. **AUTOMATIC VALIDATION**: Tests/build/lint included in workflow
-15. **ONLY COMMIT IF EXPLICITLY REQUESTED**
+15. **MANDATORY PHASE COMPLETION**: Each phase MUST satisfy "COMPLETE WHEN" criteria before proceeding
+16. **INTER-PHASE VALIDATION**: Automatic verification that previous phase requirements are met
+17. **NO PHASE SKIPPING ALLOWED**: Framework will reject any attempt to bypass workflow phases
+18. **OBJECTIVE VALIDATION REQUIRED**: All validation must use mathematical calculations and evidence-based scripts
+19. **MANDATORY RECURSION**: If validation fails, MUST recurse until complete mathematical success
+20. **EVIDENCE STORAGE REQUIRED**: All validation evidence stored in operations/{conversation-id}/validation-results/
+21. **ONLY COMMIT IF EXPLICITLY REQUESTED**
 
 ---
 
@@ -320,6 +472,11 @@ Task(subagent_type: "code-quality-auditor", description: "Quality evaluation")
 ### Dynamic Selection Matrices (MANDATORY USAGE FOR INTELLIGENT SELECTION)
 - **[Command Reference Matrix](commands/COMMAND_REFERENCE_MATRIX.md)** → **MANDATORY USE**: For intelligent command selection based on complexity, time, resource requirements
 - **[Agent Workflow Mapping](commands/AGENT_WORKFLOW_MAPPING.md)** → **MANDATORY USE**: For optimal agent selection and multi-agent coordination
+
+### Plan Validation Resources (MANDATORY FOR PHASE 6 CHECKPOINT)
+- **[Simplicity Enforcement](docs/principles/simplicity.md)** → **READ DURING PLANNING**: SIMPLE framework validation (Simple, Incremental, Maintainable, Purposeful, Lean, Effective)
+- **[Over-Engineering Detection](docs/principles/engineering.md#complexity-management)** → **READ DURING PLANNING**: Complexity violation prevention and detection patterns
+- **[Engineering Standards](docs/principles/engineering.md)** → **READ DURING PLANNING**: Quality patterns, technical standards, and framework compliance requirements
 
 ### Framework Authority (READ WHEN CONFLICTS OR QUESTIONS)
 - **[Framework Principles Hub](docs/principles/index.md)** → **READ WHEN**: Need comprehensive system principles, authority chains, execution priorities

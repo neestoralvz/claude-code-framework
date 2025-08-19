@@ -24,87 +24,66 @@ validation_level: "comprehensive"
 
 ## Core Workflow Agent Mapping
 
-### 8-Phase Core Workflow Agent Deployment
+### Streamlined 9-Phase Workflow Agent Deployment
+
+> **Design Principle**: Single primary agent per phase eliminates decision paralysis and ensures clear execution paths. Specialization agents are deployed on-demand based on domain requirements.
 
 #### Phase 1: Clarification
-**Primary Agents**:
-- **[business-analyst.md](../agents/project-management/analysis/business-analyst.md)** - Requirements analysis and stakeholder alignment
-- **[command-selection-advisor.md](../agents/project-management/coordination/command-selection-advisor.md)** - Optimal workflow selection
-- **[delegation-advisor.md](../agents/project-management/coordination/delegation-advisor.md)** - Task delegation strategy
+**Primary Agent**: **[business-analyst](../agents/project-management/analysis/business-analyst.md)**
+- Requirements analysis and stakeholder alignment
+- Scope definition and success criteria establishment
+- Context clarification and constraint identification
 
-**Supporting Agents**:
-- **[technical-writer.md](../agents/content/technical-writer.md)** - Requirements documentation
-- **[research-analyst.md](../agents/analytics/research-analyst.md)** - Context research and analysis
+#### Phase 2: Exploration  
+**Primary Agent**: **[exploration-analyst](../agents/analytics/exploration-analyst.md)**
+- Comprehensive system discovery and mapping
+- Information gathering and context analysis
+- Resource and dependency identification
 
-#### Phase 2: Exploration
-**Primary Agents**:
-- **[exploration-analyst.md](../agents/analytics/exploration-analyst.md)** - Comprehensive system discovery
-- **[system-auditor.md](../agents/core-system/system-auditor.md)** - System state analysis
-- **[dependency-analysis-specialist.md](../agents/specialization/dependency-analysis-specialist.md)** - Dependency mapping
+#### Phase 3: Research
+**Primary Agent**: **[research-analyst](../agents/analytics/research-analyst.md)**
+- Modern online research with WebSearch and Context7
+- Current industry standards and emerging patterns analysis
+- External validation and synthesis with local context
+- Up-to-date library documentation and API references
 
-**Supporting Agents**:
-- **[research-analyst.md](../agents/analytics/research-analyst.md)** - Information gathering
-- **[documentation-curator.md](../agents/content/documentation-curator.md)** - Documentation analysis
+#### Phase 4: Analysis
+**Primary Agent**: **[research-analyst](../agents/analytics/research-analyst.md)** 
+- Solution synthesis combining local and research findings
+- Pattern analysis with current best practices
+- Strategic evaluation and option assessment with modern context
+- Impact analysis and feasibility evaluation
 
-#### Phase 3: Analysis
-**Primary Agents**:
-- **[strategy-synthesis-agent.md](../agents/analytics/strategy-synthesis-agent.md)** - Solution synthesis
-- **[pattern-management-specialist.md](../agents/specialization/pattern-management-specialist.md)** - Pattern identification
-- **[code-quality-auditor.md](../agents/development/quality/code-quality-auditor.md)** - Quality analysis
+#### Phase 5: Present Solutions
+**Primary Agent**: **[technical-writer](../agents/content/technical-writer.md)**
+- Solution documentation and presentation with current industry context
+- Stakeholder communication facilitation
+- Decision support documentation
 
-**Supporting Agents**:
-- **[security-analyst.md](../agents/development/quality/security-analyst.md)** - Security assessment
-- **[performance-optimizer.md](../agents/operations/monitoring/performance-optimizer.md)** - Performance analysis
+#### Phase 6: Planning
+**Primary Agent**: **[workflow-coordinator](../agents/development/workflow/workflow-coordinator.md)**
+- Execution strategy design incorporating research findings
+- Resource allocation and timeline planning
+- Implementation workflow orchestration with principle validation
+- **Mandatory validation agents**: simplicity-enforcer, over-engineering-detector, compliance-auditor
 
-#### Phase 4: Present Solutions
-**Primary Agents**:
-- **[technical-writer.md](../agents/content/technical-writer.md)** - Solution documentation
-- **[business-analyst.md](../agents/project-management/analysis/business-analyst.md)** - Stakeholder communication
-- **[product-manager.md](../agents/strategy/product-manager.md)** - Decision facilitation
+#### Phase 7: Implementation
+**Primary Agent**: **[ticket-executor-agent](../agents/project-management/execution/ticket-executor-agent.md)**
+- Systematic task execution with current best practices
+- Implementation coordination
+- Progress monitoring and quality assurance
 
-**Supporting Agents**:
-- **[ux-architect.md](../agents/user-experience/ux-architect.md)** - User experience considerations
-- **[report-generator.md](../agents/analytics/report-generator.md)** - Report generation
+#### Phase 8: Ripple Effect
+**Primary Agent**: **[integration-coordinator](../agents/development/workflow/integration-coordinator.md)**
+- Cross-system impact management
+- Dependency updates and synchronization
+- Integration testing and validation
 
-#### Phase 5: Planning
-**Primary Agents**:
-- **[workflow-coordinator.md](../agents/development/workflow/workflow-coordinator.md)** - Execution planning
-- **[project-optimizer.md](../agents/project-management/coordination/project-optimizer.md)** - Resource optimization
-- **[component-architecture-specialist.md](../agents/development/architecture/component-architecture-specialist.md)** - Architecture planning
-
-**Supporting Agents**:
-- **[deployment-coordinator.md](../agents/development/workflow/deployment-coordinator.md)** - Deployment planning
-- **[change-management-specialist.md](../agents/project-management/coordination/change-management-specialist.md)** - Change planning
-
-#### Phase 6: Implementation
-**Primary Agents**:
-- **[ticket-executor-agent.md](../agents/project-management/execution/ticket-executor-agent.md)** - Task execution
-- **[component-extractor.md](../agents/development/architecture/component-extractor.md)** - Component development
-- **[git-workflow-specialist.md](../agents/development/workflow/git-workflow-specialist.md)** - Version control
-
-**Supporting Agents**:
-- **[test-architect.md](../agents/development/quality/test-architect.md)** - Testing implementation
-- **[devops-engineer.md](../agents/operations/infrastructure/devops-engineer.md)** - Infrastructure management
-
-#### Phase 7: Ripple Effect
-**Primary Agents**:
-- **[integration-coordinator.md](../agents/development/workflow/integration-coordinator.md)** - System integration
-- **[metadata-management-specialist.md](../agents/specialization/metadata-management-specialist.md)** - Metadata updates
-- **[dependency-analysis-specialist.md](../agents/specialization/dependency-analysis-specialist.md)** - Dependency impact
-
-**Supporting Agents**:
-- **[documentation-curator.md](../agents/content/documentation-curator.md)** - Documentation updates
-- **[monitoring-specialist.md](../agents/operations/monitoring/monitoring-specialist.md)** - Impact monitoring
-
-#### Phase 8: Validation
-**Primary Agents**:
-- **[validation-engineer.md](../agents/core-system/validation-engineer.md)** - Comprehensive validation
-- **[compliance-auditor.md](../agents/operations/compliance/compliance-auditor.md)** - Compliance verification
-- **[code-quality-auditor.md](../agents/development/quality/code-quality-auditor.md)** - Quality validation
-
-**Supporting Agents**:
-- **[test-architect.md](../agents/development/quality/test-architect.md)** - Testing validation
-- **[metrics-analyst.md](../agents/project-management/analytics/metrics-analyst.md)** - Metrics analysis
+#### Phase 9: Validation
+**Primary Agent**: **[validation-engineer](../agents/core-system/validation-engineer.md)**
+- Comprehensive validation execution against current standards
+- Quality assurance verification with research validation
+- Success criteria confirmation with modern best practices
 
 ## Specialized Workflow Agent Mapping
 
@@ -178,164 +157,97 @@ validation_level: "comprehensive"
 - **[business-analyst.md](../agents/project-management/analysis/business-analyst.md)** - Business alignment
 - **[metrics-analyst.md](../agents/project-management/analytics/metrics-analyst.md)** - Delivery metrics
 
-## Agent Specialization Matrix
+## Specialization Agent Directory
 
-### Domain Specialization Mapping
+> **Usage Pattern**: Specialization agents are deployed on-demand when domain expertise is required. Core workflow uses primary agents; specialization agents supplement based on context.
 
-#### Analytics Agents
+### Analytics Specialists
+- **[exploration-analyst](../agents/analytics/exploration-analyst.md)** - System discovery and mapping
+- **[research-analyst](../agents/analytics/research-analyst.md)** - Research and information synthesis 
+- **[strategy-synthesis-agent](../agents/analytics/strategy-synthesis-agent.md)** - Strategic solution development
+- **[report-generator](../agents/analytics/report-generator.md)** - Documentation and reporting
+- **[sales-analyst](../agents/analytics/sales-analyst.md)** - Sales and business metrics
+
+### Architecture Specialists  
+- **[component-architecture-specialist](../agents/development/architecture/component-architecture-specialist.md)** - System architecture design
+- **[api-architect](../agents/development/architecture/api-architect.md)** - API design and integration
+- **[data-architect](../agents/development/architecture/data-architect.md)** - Data architecture and modeling
+- **[infrastructure-architect](../agents/operations/infrastructure/infrastructure-architect.md)** - Infrastructure design
+- **[ux-architect](../agents/user-experience/ux-architect.md)** - User experience architecture
+
+### Quality Specialists
+- **[code-quality-auditor](../agents/development/quality/code-quality-auditor.md)** - Code quality assessment
+- **[security-analyst](../agents/development/quality/security-analyst.md)** - Security analysis and compliance
+- **[test-architect](../agents/development/quality/test-architect.md)** - Testing strategy and implementation
+- **[compliance-auditor](../agents/operations/compliance/compliance-auditor.md)** - Regulatory compliance
+- **[simplicity-enforcer](../agents/development/quality/simplicity-enforcer.md)** - Complexity reduction
+
+### Technology Specialists
+- **[machine-learning-specialist](../agents/development/specializations/ai/machine-learning-specialist.md)** - AI/ML implementation
+- **[blockchain-specialist](../agents/development/specializations/blockchain/blockchain-specialist.md)** - Blockchain development
+- **[database-specialist](../agents/development/specializations/data/database-specialist.md)** - Database design and optimization
+- **[frontend-development-specialist](../agents/development/specializations/frontend/frontend-development-specialist.md)** - Frontend development
+- **[mobile-development-specialist](../agents/development/specializations/mobile/mobile-development-specialist.md)** - Mobile application development
+
+## Agent Selection Framework
+
+### Core Selection Logic
+
+#### Workflow Phase Selection
 ```yaml
-analytics_specializations:
-  exploration_tasks: "exploration-analyst.md"
-  research_activities: "research-analyst.md"
-  strategy_synthesis: "strategy-synthesis-agent.md"
-  report_generation: "report-generator.md"
-  sales_analysis: "sales-analyst.md"
-  metrics_analysis: "../project-management/analytics/metrics-analyst.md"
+core_workflow_selection:
+  rule: "Use designated primary agent for workflow phase"
+  selection_map:
+    clarification: "business-analyst"
+    exploration: "exploration-analyst"
+    research: "research-analyst"
+    analysis: "research-analyst"
+    present_solutions: "technical-writer"
+    planning: "workflow-coordinator"
+    implementation: "ticket-executor-agent"
+    ripple_effect: "integration-coordinator"
+    validation: "validation-engineer"
 ```
 
-#### Architecture Agents
+#### Specialization Agent Selection
 ```yaml
-architecture_specializations:
-  system_architecture: "../development/architecture/api-architect.md"
-  component_architecture: "../development/architecture/component-architecture-specialist.md"
-  data_architecture: "../development/architecture/data-architect.md"
-  agent_architecture: "../development/architecture/agent-architect.md"
-  pattern_generation: "../development/architecture/pattern-generator.md"
-  component_extraction: "../development/architecture/component-extractor.md"
-  infrastructure_architecture: "../operations/infrastructure/infrastructure-architect.md"
-  ux_architecture: "../user-experience/ux-architect.md"
+specialization_selection:
+  trigger: "Deploy when domain expertise required"
+  selection_criteria:
+    technology_context: "Match agent to technology stack"
+    domain_expertise: "Select based on business domain"
+    quality_requirements: "Choose quality specialists as needed"
+    complexity_level: "Scale agent deployment to task complexity"
 ```
 
-#### Quality Agents
+#### Context-Based Deployment
 ```yaml
-quality_specializations:
-  code_quality: "../development/quality/code-quality-auditor.md"
-  security_analysis: "../development/quality/security-analyst.md"
-  test_architecture: "../development/quality/test-architect.md"
-  complexity_reduction: "../development/quality/complexity-reduction-specialist.md"
-  simplicity_enforcement: "../development/quality/simplicity-enforcer.md"
-  over_engineering_detection: "../development/quality/over-engineering-detector.md"
-  pattern_deduplication: "../development/quality/pattern-deduplicator.md"
-  compliance_auditing: "../operations/compliance/compliance-auditor.md"
+deployment_patterns:
+  simple_task: "Primary agent only"
+  moderate_complexity: "Primary agent + 1 specialist"
+  complex_task: "Primary agent + multiple specialists"
+  enterprise_task: "Multi-phase coordination with specialist teams"
 ```
 
-#### Workflow Agents
-```yaml
-workflow_specializations:
-  workflow_coordination: "../development/workflow/workflow-coordinator.md"
-  integration_coordination: "../development/workflow/integration-coordinator.md"
-  deployment_coordination: "../development/workflow/deployment-coordinator.md"
-  component_extraction: "../development/workflow/component-extraction-specialist.md"
-  git_workflow: "../development/workflow/git-workflow-specialist.md"
-```
+### Agent Coordination Patterns
 
-#### Technology Specialization Agents
-```yaml
-technology_specializations:
-  ai_machine_learning: "../development/specializations/ai/machine-learning-specialist.md"
-  blockchain: "../development/specializations/blockchain/blockchain-specialist.md"
-  database: "../development/specializations/data/database-specialist.md"
-  frontend: "../development/specializations/frontend/frontend-development-specialist.md"
-  mobile: "../development/specializations/mobile/mobile-development-specialist.md"
-  gaming: "../development/specializations/gaming/game-development-specialist.md"
-  iot: "../development/specializations/iot/iot-specialist.md"
-```
+#### Standard Workflow Coordination
+**Pattern**: Sequential execution through 8 workflow phases
+- Primary agent executes phase objectives
+- Specialization agents deployed as needed for domain expertise
+- Clear handoff between phases with defined success criteria
 
-## Agent Selection Algorithms
+#### Multi-Agent Task Coordination  
+**Pattern**: Primary agent coordinates specialists when required
+- **Simple deployment**: Primary agent handles task independently
+- **Complex deployment**: Primary agent coordinates 1-3 specialists
+- **Enterprise deployment**: Multi-phase coordination with specialist teams
 
-### Primary Selection Criteria
-
-#### Capability-Based Selection
-```yaml
-capability_selection:
-  workflow_phase_requirements:
-    - "match_agent_capabilities_to_phase_requirements"
-    - "consider_agent_specialization_depth"
-    - "evaluate_integration_capabilities"
-    - "assess_coordination_requirements"
-  
-  complexity_considerations:
-    - "simple_tasks_single_specialized_agent"
-    - "moderate_complexity_primary_plus_supporting_agents"
-    - "complex_tasks_multi_agent_coordination"
-    - "enterprise_level_comprehensive_agent_deployment"
-```
-
-#### Context-Based Selection
-```yaml
-context_selection:
-  domain_expertise:
-    - "match_domain_knowledge_to_task_requirements"
-    - "consider_technology_stack_expertise"
-    - "evaluate_business_domain_understanding"
-    - "assess_compliance_and_regulatory_knowledge"
-  
-  execution_context:
-    - "development_context_development_agents"
-    - "operations_context_operations_agents"
-    - "analysis_context_analytics_agents"
-    - "quality_context_quality_agents"
-```
-
-#### Performance-Based Selection
-```yaml
-performance_selection:
-  efficiency_optimization:
-    - "select_agents_with_optimal_performance_characteristics"
-    - "consider_resource_utilization_patterns"
-    - "evaluate_execution_speed_requirements"
-    - "assess_parallel_execution_capabilities"
-  
-  quality_optimization:
-    - "prioritize_agents_with_strong_validation_capabilities"
-    - "select_agents_with_comprehensive_error_handling"
-    - "consider_agents_with_quality_gate_integration"
-    - "evaluate_compliance_and_standards_adherence"
-```
-
-### Multi-Agent Coordination Patterns
-
-#### Sequential Coordination
-```yaml
-sequential_patterns:
-  pipeline_execution:
-    description: "Execute agents in sequence with output handoff"
-    use_cases: ["dependency_chains", "quality_gates", "phased_execution"]
-    example: "exploration-analyst → strategy-synthesis-agent → technical-writer"
-  
-  refinement_chains:
-    description: "Iterative refinement through agent sequence"
-    use_cases: ["quality_improvement", "iterative_analysis", "progressive_enhancement"]
-    example: "code-quality-auditor → complexity-reduction-specialist → simplicity-enforcer"
-```
-
-#### Parallel Coordination
-```yaml
-parallel_patterns:
-  distributed_analysis:
-    description: "Execute agents in parallel for comprehensive coverage"
-    use_cases: ["multi_perspective_analysis", "parallel_validation", "distributed_processing"]
-    example: "parallel(security-analyst, performance-optimizer, code-quality-auditor)"
-  
-  specialized_teams:
-    description: "Coordinate specialized agent teams for complex tasks"
-    use_cases: ["enterprise_projects", "multi_domain_tasks", "comprehensive_delivery"]
-    example: "team(architecture_agents, quality_agents, workflow_agents)"
-```
-
-#### Hierarchical Coordination
-```yaml
-hierarchical_patterns:
-  orchestration_hierarchy:
-    description: "Primary agent coordinates supporting agents"
-    use_cases: ["complex_coordination", "resource_management", "strategic_execution"]
-    example: "workflow-coordinator manages(component-extractor, test-architect, deployment-coordinator)"
-  
-  supervision_hierarchy:
-    description: "Supervising agent oversees execution agent teams"
-    use_cases: ["quality_oversight", "compliance_monitoring", "performance_management"]
-    example: "validation-engineer supervises(code-quality-auditor, security-analyst, test-architect)"
-```
+#### Quality Assurance Integration
+**Pattern**: Quality specialists integrate at validation checkpoints
+- Continuous quality monitoring through workflow phases
+- Validation-engineer oversees comprehensive quality gates
+- Domain specialists provide targeted quality assessments
 
 ## Agent Performance Optimization
 

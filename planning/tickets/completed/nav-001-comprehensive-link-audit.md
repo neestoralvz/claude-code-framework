@@ -11,7 +11,7 @@ keywords: ["links", "audit", "navigation", "broken", "catalog", "documentation",
 last_review: "2025-08-19"
 ---
 
-[Previous: Return to Registry](../../planning/TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Automation Scripts](nav-002-link-scanner-script.md)
+[Previous: Return to Registry](../../TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Automation Scripts](nav-002-link-scanner-script.md)
 
 # COMPREHENSIVE LINK AUDIT AND CATALOG
 

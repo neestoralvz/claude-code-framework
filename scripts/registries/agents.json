@@ -177,8 +177,7 @@
       "agents": [
         "system-auditor",
         "validation-engineer",
-        "enforcement-monitor",
-        "simplicity-enforcer"
+        "enforcement-monitor"
       ]
     },
     "development-architecture": {

@@ -229,7 +229,7 @@ identify_unregistered_files() {
   "validation_results": {
     "broken_references": [
       {
-        "registry_file": "../../planning/TICKET_REGISTRY.md",
+        "registry_file": "planning/TICKET_REGISTRY.md",
         "line_number": 89,
         "link_text": "System Audit Command",
         "target_path": "commands/analysis/system-audit.md",

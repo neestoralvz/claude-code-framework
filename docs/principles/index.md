@@ -21,7 +21,7 @@ last_review: "2025-08-19"
 
 ### ⚡ CORE EXECUTION PRINCIPLES
 - **[directive.md](directive.md)** - Ultimate authority and command adherence
-- **[workflow.md](workflow.md)** - 8-Phase systematic execution methodology
+- **[workflow.md](workflow.md)** - 9-Phase systematic execution methodology with research integration
 - **[validation.md](validation.md)** - Quality methodology and validation protocols
 - **[task-orchestration.md](task-orchestration.md)** - Task coordination and orchestration
 
@@ -73,7 +73,7 @@ last_review: "2025-08-19"
 **Authority Chain**: [directive.md](directive.md) → [workflow.md](workflow.md) → [validation.md](validation.md)
 
 **Application Sequence**:
-1. Execute [workflow.md](workflow.md) principles - Systematic execution methodology
+1. Execute [workflow.md](workflow.md) principles - 9-Phase systematic execution methodology with research
 2. Follow [directive.md](directive.md) principles - Core command adherence and authority
 3. Apply [fundamental.md](fundamental.md) principles - Basic methodology and evidence
 4. Implement [engineering.md](engineering.md) principles - Technical standards and quality

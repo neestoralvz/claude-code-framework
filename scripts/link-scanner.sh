@@ -35,8 +35,9 @@ resolve_path() {
         # Absolute path from root
         echo "$ROOT_DIR$link"
     else
-        # Relative path from current directory
-        echo "$(cd "$current_dir" && realpath -m "$link")"
+        # Relative path from current directory - macOS compatible
+        cd "$current_dir" 2>/dev/null || return 1
+        echo "$(pwd)/$link" | sed 's|/\./|/|g' | sed 's|/[^/]*/\.\./|/|g' | sed 's|//|/|g'
     fi
 }
 

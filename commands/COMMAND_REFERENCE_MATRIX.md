@@ -28,20 +28,21 @@ validation_level: "comprehensive"
 
 #### 1. Workflow Orchestration Commands
 
-##### Core 8-Phase Workflow
+##### Core 9-Phase Workflow
 ```yaml
 CoreWorkflow:
   file: "workflows/CoreWorkflow.md"
-  purpose: "Standard systematic task execution through proven 8-phase methodology"
+  purpose: "Standard systematic task execution through proven 9-phase methodology with research integration"
   use_cases:
     - "standard_development_tasks"
     - "systematic_implementation_projects"
     - "quality_focused_delivery"
     - "structured_problem_solving"
+    - "research_driven_development"
   complexity: "moderate_to_high"
-  duration: "5-30_minutes"
-  agents: "phase_specific_agent_deployment"
-  validation: "comprehensive_8_phase_validation"
+  duration: "5-35_minutes"
+  agents: "phase_specific_agent_deployment_with_research"
+  validation: "comprehensive_9_phase_validation_with_current_standards"
 ```
 
 ##### Specialized Workflows

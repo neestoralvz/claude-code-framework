@@ -92,7 +92,7 @@ analyze_file_hierarchy() {
             ;;
         tickets/pending/*)
             document_type="ticket"
-            parent_hub="../../planning/TICKET_REGISTRY.md"
+            parent_hub="planning/TICKET_REGISTRY.md"
             ;;
     esac
 }
@@ -194,7 +194,7 @@ generate_breadcrumb_sequence() {
           },
           "planning": {
             "title": "Planning & Tickets",
-            "index": "../../planning/TICKET_REGISTRY.md"
+            "index": "planning/TICKET_REGISTRY.md"
           }
         }
       },
@@ -204,7 +204,7 @@ generate_breadcrumb_sequence() {
       },
       "tickets": {
         "title": "Ticket Management",
-        "index": "../../planning/TICKET_REGISTRY.md"
+        "index": "planning/TICKET_REGISTRY.md"
       }
     }
   }
@@ -225,7 +225,7 @@ determine_navigation_sequence() {
             next_link=$(find_next_principle "$current_file")
             ;;
         "ticket")
-            previous_link="../../planning/TICKET_REGISTRY.md"
+            previous_link="planning/TICKET_REGISTRY.md"
             next_link=$(find_related_ticket "$current_file")
             ;;
     esac

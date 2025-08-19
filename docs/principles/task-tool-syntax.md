@@ -23,37 +23,63 @@ keywords: ["Task Tool", "agent deployment", "syntax", "prompt structure", "paral
 
 ## Complete Task Tool Invocation Syntax
 
-### XML Structure Pattern
-```
-&lt;function_calls&gt;
-&lt;invoke name="Task"&gt;
-&lt;parameter name="subagent_type"&gt;[AGENT_TYPE]&lt;/parameter&gt;
-&lt;parameter name="description"&gt;[3-5 WORD SUMMARY]&lt;/parameter&gt;
-&lt;parameter name="prompt"&gt;CONTEXT:
-[Project background and current situation]
-
-TASK:
-[Specific assignment with clear scope]
-
-REQUIREMENTS:
-- [Deliverable requirement 1]
-- [Quality standard requirement 2]
-- [Framework compliance requirement 3]
-
-OUTPUT FORMAT:
-[Expected deliverable format specification]
-
-INTEGRATION:
-[Result usage and validation criteria]&lt;/parameter&gt;
-&lt;/invoke&gt;
-&lt;/function_calls&gt;
+### Orchestrator-Agent Communication Pattern
+```markdown
+Task(
+  subagent_type: "{agent-from-AGENT_WORKFLOW_MAPPING}",
+  description: "{action-specific-to-request}",
+  prompt: "I am the orchestrator and you are the {agent} agent.
+          Search for relevant files in commands/ and docs/ for your execution.
+          Context: {specific-context-description}
+          Execute: {detailed-instruction-with-requirements}
+          
+          DELIVERABLES REQUIRED:
+          - Output Format: {specify-format-json-md-code-etc}
+          - File Location: {specify-exact-path-and-filename}
+          - Content Requirements: {specify-what-content-needed}
+          - Quality Standards: {specify-validation-criteria}"
+)
 ```
 
-### Critical Syntax Requirements
-- **Exact XML formatting** - Must use precise `function_calls` and `invoke` structure
-- **Parameter order consistency** - Always: subagent_type, description, prompt
-- **Proper parameter naming** - Exact parameter names without variations
-- **Complete closure tags** - All XML elements properly closed
+### Mandatory Structure Elements
+- **Orchestrator Introduction** - "I am the orchestrator and you are the {agent} agent"
+- **Search Instruction** - "Search for relevant files in commands/ and docs/ for your execution"
+- **Context Specification** - Clear situational context for task execution
+- **Detailed Instructions** - Specific requirements and execution steps
+- **Deliverables Section** - Complete specification of expected outputs
+
+### DELIVERABLES REQUIRED Structure
+All Task tools MUST include a deliverables section with five mandatory components:
+- **Output Format**: Specify exact format (JSON, markdown, code, etc.)
+- **File Location**: Provide exact path and filename for primary outputs
+- **Agent Results**: Specify operations/{conversation-id}/{agent-results-filename} for agent analysis
+- **Content Requirements**: Root cause analysis and integral solutions that address underlying problems
+- **Quality Standards**: Lasting solutions with specialized agents and atomic task breakdown
+
+### Integral Solutions Philosophy
+All Task tool prompts must focus on creating lasting solutions that address root problems:
+
+#### Root Problem Analysis
+- Identify underlying causes, not just symptoms
+- Design comprehensive solutions that prevent problem recurrence
+- Create systematic approaches that address systemic issues
+- Focus on permanent resolution rather than temporary fixes
+
+#### Atomic Task Breakdown
+- Decompose complex problems into specialized atomic tasks
+- Assign dedicated specialized agents to each atomic component
+- Ensure each agent has clear deliverables and storage requirements
+- Maintain traceability from root problem to specialized solutions
+
+#### Operations Storage Structure
+All agents must save their analysis and results to organized storage:
+```
+operations/{conversation-id}/
+├── {agent-type}-analysis-{timestamp}.{format}
+├── coordination-plan-{timestamp}.json
+├── validation-reports/
+└── specialized-outputs/
+```
 
 ## Parameter Specifications
 

@@ -528,7 +528,7 @@ overdrive-engineering --emergency --detect premature_abstractions --action autom
 
 ### Specialized Agent References
 - [Deploy complexity-reduction-specialist for refactoring](../agents/development/workflow/component-extraction-specialist.md)
-- [Deploy simplicity-enforcer for compliance](../agents/core-system/simplicity-enforcer.md)
+- [Deploy simplicity-enforcer for compliance](../agents/development/quality/simplicity-enforcer.md)
 - [Deploy over-engineering-detector for pattern detection](../agents/development/quality/pattern-deduplicator.md)
 - [Deploy system-auditor for comprehensive analysis](../agents/core-system/system-auditor.md)
 
