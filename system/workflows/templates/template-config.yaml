@@ -1,0 +1,194 @@
+# Enhanced Template Integration Configuration
+# Version: 2.0.0
+
+template_engine:
+  version: "2.0.0"
+  cache_enabled: true
+  performance_optimization: true
+  backward_compatibility: true
+
+# Complexity-based template import thresholds
+complexity_levels:
+  simple:
+    time_range: "1-10 min"
+    templates:
+      - "_core-agent-deployment-template.md"
+      - basic_sections: ["orchestrator-coordination-requirements"]
+    features:
+      - variable_substitution: "basic"
+      - conditional_imports: false
+      - parallel_processing: false
+
+  moderate:
+    time_range: "10-30 min"
+    templates:
+      - "_core-agent-deployment-template.md"
+      - "_core-workflow-integration-template.md" 
+      - sections: ["task-tool-deployment-patterns", "universal-workflow-integration-patterns"]
+    features:
+      - variable_substitution: "advanced"
+      - conditional_imports: true
+      - parallel_processing: true
+
+  complex:
+    time_range: "30-60 min"
+    templates:
+      - "_core-agent-deployment-template.md"
+      - "_core-workflow-integration-template.md"
+      - "_core-quality-validation-template.md"
+      - sections: ["multi-wave-deployment", "four-stage-validation-framework"]
+    features:
+      - variable_substitution: "cascading"
+      - conditional_imports: true
+      - parallel_processing: true
+      - performance_optimization: true
+
+  enterprise:
+    time_range: "60+ min"
+    templates:
+      - "_core-agent-deployment-template.md"
+      - "_core-workflow-integration-template.md"
+      - "_core-quality-validation-template.md"
+      - "_core-cross-reference-integration.md"
+      - sections: ["all_sections"]
+    features:
+      - variable_substitution: "full_cascading_inheritance"
+      - conditional_imports: true
+      - parallel_processing: true
+      - performance_optimization: true
+      - predictive_analysis: true
+
+# Template variable inheritance hierarchy
+variable_inheritance:
+  global_variables:
+    framework_version: "2.0.0"
+    orchestrator_pattern: "Task tools for agent deployment"
+    agent_freedom: "Direct tool execution"
+    evidence_storage: "operations/{conversation-id}/"
+
+  complexity_variables:
+    simple:
+      thinking_level: "Think → Think Hard"
+      validation_stages: [1, 3]
+      agent_deployment: "sequential"
+    
+    moderate:
+      thinking_level: "Think → Think Hard → Think Harder"
+      validation_stages: [1, 2, 3]
+      agent_deployment: "parallel_independent"
+    
+    complex:
+      thinking_level: "Think → Think Hard → Think Harder → UltraThink"
+      validation_stages: [1, 2, 3, 4]
+      agent_deployment: "multi_wave_coordination"
+    
+    enterprise:
+      thinking_level: "Enhanced UltraThink with predictive analysis"
+      validation_stages: [1, 2, 3, 4, "continuous_monitoring"]
+      agent_deployment: "adaptive_intelligent_orchestration"
+
+# Performance optimization settings
+performance:
+  cache_size_limit: 1000
+  precompile_common_variants: true
+  enable_template_minification: false
+  parallel_processing_threshold: 3
+
+  precompile_targets:
+    - template: "_core-agent-deployment-template.md"
+      complexities: ["moderate", "complex", "enterprise"]
+      common_variables:
+        agent_specialist_type: "template-integration-specialist"
+        specific_action: "enhance-template-system"
+    
+    - template: "_core-workflow-integration-template.md" 
+      complexities: ["moderate", "complex", "enterprise"]
+      common_variables:
+        workflow_purpose: "template-enhancement"
+        target_area: "workflow-modules"
+
+# Validation settings for template import functionality
+validation:
+  strict_mode: false
+  allow_missing_sections: true
+  warn_on_missing_variables: true
+  validate_cross_references: true
+  
+  required_sections:
+    _core_agent_deployment:
+      - "orchestrator-coordination-requirements"
+      - "task-tool-deployment-patterns"
+    
+    _core_workflow_integration:
+      - "universal-workflow-integration-patterns"
+      - "phase-integration-template"
+    
+    _core_quality_validation:
+      - "mathematical-success-criteria-template"
+      - "four-stage-validation-framework"
+
+# Backward compatibility settings
+backward_compatibility:
+  support_legacy_syntax: true
+  legacy_import_patterns:
+    - "{{import: filename}}"
+    - "{{template: filename | section: section}}"
+  
+  migration_warnings: true
+  preserve_existing_functionality: true
+
+# Template import resolution patterns
+import_patterns:
+  automatic_resolution:
+    - pattern: "{{import: %template_file%}}"
+      description: "Automatic full template import"
+      processing: "full_template_substitution"
+    
+    - pattern: "{{template: %template_file% | section: %section_name%}}"
+      description: "Section-specific template import"
+      processing: "section_extraction_and_substitution"
+    
+    - pattern: "{{conditional: complexity=%complexity_list%, template: %template_file%}}"
+      description: "Conditional template import based on complexity"
+      processing: "conditional_inclusion"
+
+  variable_resolution:
+    - pattern: "{%variable_name%}"
+      description: "Simple variable substitution"
+      cascade_priority: 1
+    
+    - pattern: "<!-- Configure: {%key%: %value%, %key2%: %value2%} -->"
+      description: "Inline configuration with variable override"
+      cascade_priority: 2
+
+# Integration testing configuration
+integration_testing:
+  test_workflows:
+    - "wfl-execute-plans.md"
+    - "wfl-validate-success.md"
+    - "wfl-deploy-exploration-agents.md"
+    - "wfl-plan-execution.md"
+    - "wfl-recurse-improvement.md"
+    - "wfl-manage-effects.md"
+  
+  test_complexities: ["simple", "moderate", "complex", "enterprise"]
+  
+  success_criteria:
+    template_resolution_rate: 95  # percentage
+    backward_compatibility_rate: 100  # percentage
+    performance_improvement: 60  # percentage reduction in processing time
+
+# Error handling and fallback strategies
+error_handling:
+  missing_template_strategy: "warn_and_continue"
+  missing_section_strategy: "insert_comment"
+  variable_resolution_failure: "preserve_original"
+  circular_import_detection: true
+  max_import_depth: 10
+
+# Logging and monitoring
+logging:
+  level: "info"
+  log_template_processing: true
+  log_performance_metrics: true
+  log_validation_results: true
