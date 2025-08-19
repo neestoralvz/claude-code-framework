@@ -11,7 +11,7 @@ keywords: ["decision-matrix", "agent-selection", "agent-creation", "command-orch
 last_review: "2025-08-19"
 ---
 
-[Previous: Study enhancement patterns](command-enhancement-patterns.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Apply agent orchestration](agent-orchestration-framework.md)
+[Previous: Study enhancement patterns](command-enhancement-patterns.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Apply agent orchestration](agent-orchestration-framework.md)
 
 # DECISION MATRIX SPECIFICATIONS
 
@@ -503,11 +503,11 @@ improve_decision_framework() {
 ### Related Architecture
 - [Apply agent orchestration framework](agent-orchestration-framework.md)
 - [Use command templates](../templates/enhanced-command-template.md)
-- [Study validation framework](../components/validation-framework.md)
+- [Study validation framework](../templates/templates/components/validation-framework.md)
 
 ### Implementation Resources
 - [Browse existing agents](../../agents/)
 - [Review ticket registry](../planning/TICKET_REGISTRY.md)
-- [Study workflow phases](../components/workflow-phases.md)
+- [Study workflow phases](../templates/templates/components/workflow-phases.md)
 
 [⬆ Return to top](#decision-matrix-specifications)

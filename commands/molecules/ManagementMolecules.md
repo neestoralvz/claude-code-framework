@@ -3,7 +3,7 @@ title: "Management Molecules - Atomic Management Patterns"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["../atoms/FileAtoms.md", "../atoms/ValidationAtoms.md", "../atoms/WorkflowAtoms.md", "../atoms/DocAtoms.md"]
+dependencies: ["../atoms/FileAtoms.md", "../atoms/ValidationAtoms.md", "../atoms/WorkflowAtoms.md", "../atoms/DocAtoms.md", "../atoms/GitAtoms.md"]
 prerequisites: ["Atomic operations understanding", "Management methodology knowledge"]
 audience: "System developers, project managers, command builders"
 purpose: "Molecular patterns combining atomic operations for comprehensive management workflows"
@@ -560,7 +560,7 @@ composition_pattern:
 - [QualityAssuranceAssembly.md](../assemblies/QualityAssuranceAssembly.md) - Quality management workflows
 
 ### Framework Integration
-- [Management Commands](../../docs/commands/management/) - Command implementations using management molecules
+- [Management Commands](../../commands-docs/management/) - Command implementations using management molecules
 - [Project Management](../../docs/architecture/project-management-patterns.md) - Project management architecture
 - [Resource Management](../../docs/principles/resource-optimization.md) - Resource management principles
 

@@ -80,8 +80,8 @@ This comprehensive summary documents the complete implementation of the automate
 │  Host System (macOS)                                           │
 │  ┌─────────────────────────────────────────────────────────────┐ │
 │  │ /Users/nalve/.claude (Claude Code Framework)               │ │
-│  │ ├── docs/planning/tickets/ (Ticket Files)                  │ │
-│  │ ├── docs/planning/TICKET_REGISTRY.md (Live Registry)       │ │
+│  │ ├── planning/tickets/ (Ticket Files)                  │ │
+│  │ ├── planning/TICKET_REGISTRY.md (Live Registry)       │ │
 │  │ └── operations/ticket-dashboard/ (Dashboard Code)          │ │
 │  └─────────────────────────────────────────────────────────────┘ │
 │                              ↕ (Real-time Sync)                │
@@ -195,10 +195,10 @@ Results Log → Audit Trail → Metrics Update → Dashboard Refresh
 {
   "file_movement_automation": {
     "directory_management": {
-      "pending": "/claude-data/docs/planning/tickets/pending",
-      "in_progress": "/claude-data/docs/planning/tickets/in-progress",
-      "completed": "/claude-data/docs/planning/tickets/completed",
-      "resolved": "/claude-data/docs/planning/tickets/resolved"
+      "pending": "/claude-data/planning/tickets/pending",
+      "in_progress": "/claude-data/planning/tickets/in-progress",
+      "completed": "/claude-data/planning/tickets/completed",
+      "resolved": "/claude-data/planning/tickets/resolved"
     },
     "atomic_operations": {
       "integrity_validation": "SHA256 hash verification",
@@ -395,8 +395,8 @@ services:
 // File system integration implementation
 const claudeIntegration = {
     watchDirectories: [
-        '/claude-data/docs/planning/tickets',
-        '/claude-data/docs/planning/TICKET_REGISTRY.md',
+        '/claude-data/planning/tickets',
+        '/claude-data/planning/TICKET_REGISTRY.md',
         '/claude-data/operations',
         '/claude-data/commands'
     ],

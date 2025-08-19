@@ -14,7 +14,7 @@ automation_level: "comprehensive"
 validation_embedding: "domain_specific"
 ---
 
-[Previous: Study Command Generator](command-generator-template.md) | [Return to Pattern Hub](../index.md) | [Study Agent Architecture](../../components/agent-deployment-framework.md) | [Next: Apply Principle Generator](principle-generator-template.md)
+[Previous: Study Command Generator](command-generator-template.md) | [Return to Pattern Hub](../index.md) | [Study Agent Architecture](../../templates/templates/components/agent-deployment-framework.md) | [Next: Apply Principle Generator](principle-generator-template.md)
 
 # AGENT PATTERN GENERATOR TEMPLATE
 
@@ -452,11 +452,11 @@ generate_agent \
 ### Agent Architecture References
 - [Study Agent Definition Principles](../../principles/agent-definition.md)
 - [Review Agent Selection Framework](../../principles/agent-selection.md)
-- [Access Agent Deployment Framework](../../components/agent-deployment-framework.md)
+- [Access Agent Deployment Framework](../../templates/templates/components/agent-deployment-framework.md)
 
 ### Domain Expertise Resources
 - [Browse Agent Specialists Directory](../../agents/)
-- [Study Domain Expertise Patterns](../../components/agent-coordination-strategies.md)
-- [Review Validation Frameworks](../../components/validation-framework-components.md)
+- [Study Domain Expertise Patterns](../../templates/templates/components/agent-coordination-strategies.md)
+- [Review Validation Frameworks](../../templates/templates/components/validation-framework-components.md)
 
 [⬆ Return to top](#agent-pattern-generator-template)

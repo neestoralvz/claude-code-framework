@@ -11,7 +11,7 @@ keywords: ["files", "management", "philosophy", "constraints"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study formatting.md for standards](formatting.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study forbidden.md for restrictions](forbidden.md)
+[Previous: Study formatting.md for standards](formatting.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study forbidden.md for restrictions](forbidden.md)
 
 # FILES
 
@@ -42,7 +42,7 @@ last_review: "2025-08-18"
 
 ## Implementation Framework
 
-**[Apply files-management.md for detailed implementation](../components/files-management.md)**
+**[Apply files-management.md for detailed implementation](../templates/templates/components/files-management.md)**
 
 All specific file operation procedures, validation rules, and management practices are provided through the file management component.
 
@@ -57,12 +57,12 @@ All specific file operation procedures, validation rules, and management practic
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to formatting.md for standards](formatting.md)
 - [Continue to forbidden.md for restrictions](forbidden.md)
 
 ### Implementation Resources
-- **[Apply files-management.md for specific procedures](../components/files-management.md)**
+- **[Apply files-management.md for specific procedures](../templates/templates/components/files-management.md)**
 - **[Follow workflow.md for validation requirements](workflow.md)**
 - **[Check forbidden.md for constraint guidelines](forbidden.md)**
 

@@ -3,7 +3,7 @@ title: "Review Tickets Command - Enhanced Architecture"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "3.0.0"
-dependencies: ["../../docs/planning/TICKET_REGISTRY.md", "../../docs/principles/workflow.md", "../../docs/principles/organization.md"]
+dependencies: ["../../planning/TICKET_REGISTRY.md", "../../docs/principles/workflow.md", "../../docs/principles/organization.md"]
 prerequisites: ["Command-centered architecture understanding", "Integrated execution environment access", "Ticket registry access"]
 audience: "Project managers, developers, stakeholders, and architectural implementers"
 purpose: "Complete execution environment for comprehensive ticket analysis and priority-based execution with embedded validation, automatic agent deployment, and built-in quality gates"

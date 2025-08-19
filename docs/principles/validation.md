@@ -11,7 +11,7 @@ keywords: ["validation", "framework", "quality-gates", "evidence", "verification
 last_review: "2025-08-18"
 ---
 
-[Previous: Study workflow.md for systematic execution](workflow.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study engineering.md for standards](engineering.md)
+[Previous: Study workflow.md for systematic execution](workflow.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study engineering.md for standards](engineering.md)
 
 # VALIDATION
 
@@ -532,7 +532,7 @@ The validation principle provides comprehensive template integration for systema
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Continue to engineering.md for technical standards](engineering.md)
 - [Return to workflow.md for systematic execution](workflow.md)
 

@@ -273,16 +273,16 @@ resource_optimization:
 ```markdown
 ## Automatic Agent Deployment
 
-⏺ **Agent Selection**: This command uses the [shared AgentManager](../shared/AgentManager.md) for automatic agent assessment and deployment without external intervention.
+⏺ **Agent Selection**: Automated via [CentralizedAgentDeploymentFramework](../../docs/components/centralized-agent-deployment-framework.md)
 
-**Reference Implementation**: See [AgentManager.md](../shared/AgentManager.md) for complete agent deployment framework.
+**Reference**: See [Centralized Agent Deployment Framework](../../docs/components/centralized-agent-deployment-framework.md) for complete system.
 ```
 
 ### Specialized Agent Integration
 ```markdown
 ## Automatic Agent Deployment
 
-⏺ **Agent Selection**: This command implements [analysis_agent_deployment](../shared/AgentManager.md#analysis-command-agent-selection) from the shared AgentManager for specialized analysis agent deployment.
+⏺ **Agent Selection**: Automated analysis agent deployment via [CentralizedAgentDeploymentFramework](../../docs/components/centralized-agent-deployment-framework.md#analysis-agent-selection)
 
 **Deployment Matrix**: [Include specific deployment matrix for this command type]
 ```
@@ -291,7 +291,7 @@ resource_optimization:
 ```markdown
 ## Automatic Agent Deployment
 
-⏺ **Agent Selection**: This command extends the [shared AgentManager](../shared/AgentManager.md) with custom agent deployment logic for [specific purpose].
+⏺ **Agent Selection**: Automated via [CentralizedAgentDeploymentFramework](../../docs/components/centralized-agent-deployment-framework.md) with custom extensions for [specific purpose].
 
 **Custom Extensions**:
 - [Custom agent selection rule 1]

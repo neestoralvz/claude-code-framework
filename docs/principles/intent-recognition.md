@@ -3,7 +3,7 @@ title: "Intent Recognition and Command Mapping"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["../CLAUDE.md", "../PRINCIPLES.md", "../index.md", "../../commands/index.md"]
+dependencies: ["../CLAUDE.md", "principles/PRINCIPLES.md", "../index.md", "../../commands/index.md"]
 prerequisites: ["CLAUDE.md initialization", "Agent catalog understanding", "Command framework knowledge"]
 audience: "Main Claude Code instance for immediate user intent analysis"
 purpose: "Establish first-moment recognition mechanism for optimal command/agent selection"
@@ -11,7 +11,7 @@ keywords: ["intent-recognition", "command-mapping", "agent-selection", "ULTIMATE
 last_review: "2025-08-19"
 ---
 
-[Previous: Study index.md for navigation](../index.md) | [Return to documentation hub](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Browse commands index](../../commands/index.md)
+[Previous: Study index.md for navigation](../index.md) | [Return to documentation hub](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Browse commands index](../../commands/index.md)
 
 # INTENT RECOGNITION AND COMMAND MAPPING
 

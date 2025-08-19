@@ -11,7 +11,7 @@ keywords: ["engineering", "design", "standards", "methodologies", "patterns"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study fundamental.md for basic methodology](fundamental.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study communication.md for writing standards](communication.md)
+[Previous: Study fundamental.md for basic methodology](fundamental.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study communication.md for writing standards](communication.md)
 
 # ENGINEERING
 
@@ -437,7 +437,7 @@ Maintain these documents:
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to fundamental.md for basic approach](fundamental.md)
 - [Continue to communication.md for standards](communication.md)
 

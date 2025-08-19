@@ -11,7 +11,7 @@ keywords: ["agent-selection", "analysis", "optimization", "agent-catalog", "mult
 last_review: "2025-08-18"
 ---
 
-[Previous: Study context-efficiency.md for delegation](context-efficiency.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study communication.md for imperative tone](communication.md)
+[Previous: Study context-efficiency.md for delegation](context-efficiency.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study communication.md for imperative tone](communication.md)
 
 # AGENT SELECTION
 
@@ -108,7 +108,7 @@ last_review: "2025-08-18"
 - **system-auditor** - Static analysis and compliance validation
 - **validation-engineer** - Quality methodology and evidence-based verification
 
-**For complete agent capabilities and selection guidance, refer to [agent-capability-matrix.md](../agent-capability-matrix.md)**
+**For complete agent capabilities and selection guidance, refer to [architecture/agent-capability-matrix.md](../architecture/agent-capability-matrix.md)**
 
 ### Evaluation Criteria
 - **Scope alignment** - Direct match between agent expertise and task needs
@@ -229,7 +229,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Return to documentation hub for navigation](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse agents directory for catalog](../agents/)
 
 ### Related Principles
@@ -246,6 +246,6 @@ last_review: "2025-08-18"
 
 ### Related Components
 - [Apply workflow.md for systematic execution phases](workflow.md)
-- [Use navigation.md for consistent links](../components/navigation.md)
+- [Use navigation.md for consistent links](../templates/templates/components/navigation.md)
 
 [⬆ Return to top](#agent-selection)

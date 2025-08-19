@@ -11,7 +11,7 @@ keywords: ["organization", "structure", "hierarchy", "philosophy"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study communication.md for standards](communication.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study formatting.md for standards](formatting.md)
+[Previous: Study communication.md for standards](communication.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study formatting.md for standards](formatting.md)
 
 # ORGANIZATION
 
@@ -55,15 +55,15 @@ last_review: "2025-08-18"
 
 All organizational patterns are implemented through specialized components that provide focused, reusable solutions:
 
-**[Apply organization-structure.md for structural patterns](../components/organization-structure.md)**
+**[Apply organization-structure.md for structural patterns](../templates/templates/components/organization-structure.md)**
 
 Documentation metadata standards, navigation patterns, breadcrumb systems, and cross-reference standards are provided through the organization structure component.
 
-**[Apply modular-design-patterns.md for atomic design](../components/modular-design-patterns.md)**
+**[Apply modular-design-patterns.md for atomic design](../templates/templates/components/modular-design-patterns.md)**
 
 Modular philosophy implementation, atomic component structures, integration patterns, and composition guidelines are provided through the modular design patterns component.
 
-**[Apply hierarchical-structure-patterns.md for hierarchy guidance](../components/hierarchical-structure-patterns.md)**
+**[Apply hierarchical-structure-patterns.md for hierarchy guidance](../templates/templates/components/hierarchical-structure-patterns.md)**
 
 Hierarchical philosophy implementation, three-level architecture patterns, directory organization templates, and content flow hierarchies are provided through the hierarchical structure patterns component.
 
@@ -80,15 +80,15 @@ This principle serves as the central hub for organizational philosophy, while sp
 #### Component Selection Guide
 
 **For Structural Organization**:
-- Use [organization-structure.md](../components/organization-structure.md) for metadata, navigation, and cross-reference patterns
+- Use [organization-structure.md](../templates/templates/components/organization-structure.md) for metadata, navigation, and cross-reference patterns
 - Apply when working with documentation standards, link formatting, or breadcrumb systems
 
 **For Modular Design**:
-- Use [modular-design-patterns.md](../components/modular-design-patterns.md) for atomic components and composition
+- Use [modular-design-patterns.md](../templates/templates/components/modular-design-patterns.md) for atomic components and composition
 - Apply when creating reusable components or designing flexible integration patterns
 
 **For Hierarchical Structure**:
-- Use [hierarchical-structure-patterns.md](../components/hierarchical-structure-patterns.md) for content organization and flow
+- Use [hierarchical-structure-patterns.md](../templates/templates/components/hierarchical-structure-patterns.md) for content organization and flow
 - Apply when establishing directory structures, content hierarchies, or navigation flows
 
 #### Quality Assurance Integration
@@ -110,13 +110,13 @@ All implementation components maintain consistency with this principle's core ph
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to communication.md for standards](communication.md)
 - [Continue to formatting.md for standards](formatting.md)
 
 ### Implementation Resources
-- **[Apply organization-structure.md for structural patterns](../components/organization-structure.md)**
-- **[Apply modular-design-patterns.md for atomic design](../components/modular-design-patterns.md)**
-- **[Apply hierarchical-structure-patterns.md for hierarchy guidance](../components/hierarchical-structure-patterns.md)**
+- **[Apply organization-structure.md for structural patterns](../templates/templates/components/organization-structure.md)**
+- **[Apply modular-design-patterns.md for atomic design](../templates/templates/components/modular-design-patterns.md)**
+- **[Apply hierarchical-structure-patterns.md for hierarchy guidance](../templates/templates/components/hierarchical-structure-patterns.md)**
 
 [⬆ Return to top](#organization)

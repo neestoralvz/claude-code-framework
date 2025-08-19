@@ -3,7 +3,7 @@ title: "Execute Ticket Command"
 author: "Claude Code System"
 date: "2025-08-18"
 version: "1.0.0"
-dependencies: ["../docs/planning/TICKET_REGISTRY.md", "../docs/principles/workflow.md", "../docs/principles/engineering.md"]
+dependencies: ["../planning/TICKET_REGISTRY.md", "../docs/principles/workflow.md", "../docs/principles/engineering.md"]
 prerequisites: ["Ticket registry access", "Specific ticket ID", "System understanding"]
 audience: "Developers, project managers, and system operators"
 purpose: "Execute any specific ticket with 100% completion validation and registry updates"
@@ -302,7 +302,7 @@ Ensures optimal agent selection and delegation quality through comprehensive ver
 ### Primary Navigation
 - [Navigate to Documentation Hub](../docs/index.md)
 - [Browse commands index](index.md)
-- [Access TICKET_REGISTRY.md](../docs/planning/TICKET_REGISTRY.md)
+- [Access TICKET_REGISTRY.md](../planning/TICKET_REGISTRY.md)
 
 ### Related Commands
 - [Deploy review-tickets for selection](review-tickets.md)

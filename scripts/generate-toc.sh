@@ -82,7 +82,7 @@ detect_document_type() {
         docs/components/*) echo "component" ;;
         docs/architecture/*) echo "architecture" ;;
         docs/templates/*) echo "template" ;;
-        docs/planning/*) echo "planning" ;;
+        planning/*) echo "planning" ;;
         playbook/*) echo "playbook" ;;
         *) echo "documentation" ;;
     esac

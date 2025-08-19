@@ -11,7 +11,7 @@ keywords: ["expert-documentation", "authorship", "specialization", "principles",
 last_review: "2025-08-18"
 ---
 
-[Previous: Study agent-definition.md for expert scope](agent-definition.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study simplicity.md for minimal communication](simplicity.md)
+[Previous: Study agent-definition.md for expert scope](agent-definition.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study simplicity.md for minimal communication](simplicity.md)
 
 # EXPERT DOCUMENTATION
 
@@ -191,7 +191,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Return to documentation hub for navigation](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse agents documentation](../agents-documentation/README.md)
 
 ### Related Principles

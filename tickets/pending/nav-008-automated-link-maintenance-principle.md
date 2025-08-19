@@ -11,7 +11,7 @@ keywords: ["principle", "automation", "links", "maintenance", "integrity", "cont
 last_review: "2025-08-19"
 ---
 
-[Previous: Integrity Monitor](nav-007-integrity-monitor-system.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Return to Registry](../../docs/planning/TICKET_REGISTRY.md)
+[Previous: Integrity Monitor](nav-007-integrity-monitor-system.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Return to Registry](../../planning/TICKET_REGISTRY.md)
 
 # AUTOMATED LINK MAINTENANCE SYSTEM PRINCIPLE
 

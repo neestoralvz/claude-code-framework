@@ -3,7 +3,7 @@ title: "Command Consolidation Architecture"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["../PRINCIPLES.md", "command-enhancement-patterns.md", "agent-orchestration-framework.md"]
+dependencies: ["principles/PRINCIPLES.md", "command-enhancement-patterns.md", "agent-orchestration-framework.md"]
 prerequisites: ["Understanding of current command structure", "Principle integration methodology"]
 audience: "System architects and implementation teams"
 purpose: "Define comprehensive architecture where commands serve as the consolidation layer materializing conceptual framework into executable instructions"
@@ -11,7 +11,7 @@ keywords: ["command-consolidation", "architecture", "principles", "components", 
 last_review: "2025-08-19"
 ---
 
-[Previous: Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Return to Documentation Hub for navigation](../index.md) | [Study command patterns](command-enhancement-patterns.md) | [Next: Apply agent orchestration](agent-orchestration-framework.md)
+[Previous: Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Return to Documentation Hub for navigation](../index.md) | [Study command patterns](command-enhancement-patterns.md) | [Next: Apply agent orchestration](agent-orchestration-framework.md)
 
 # COMMAND CONSOLIDATION ARCHITECTURE
 
@@ -358,7 +358,7 @@ agent_requirements: ["required_capabilities", "coordination_patterns"]
 
 ### Primary Navigation
 - [Return to Documentation Hub](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse Commands Index](../../commands/index.md)
 
 ### Related Architecture Documents
@@ -373,7 +373,7 @@ agent_requirements: ["required_capabilities", "coordination_patterns"]
 - [Apply task-orchestration.md for coordination patterns](../principles/task-orchestration.md)
 
 ### Implementation Resources
-- [Use workflow-phases.md for execution methodology](../components/workflow-phases.md)
+- [Use workflow-phases.md for execution methodology](../templates/templates/components/workflow-phases.md)
 - [Apply command-template.md for standardization](../templates/command-template.md)
 
 [⬆ Return to top](#command-consolidation-architecture)

@@ -32,7 +32,7 @@ class DependencyAnalyzer {
    * Load all tickets from the ticket registry and individual files
    */
   async loadTickets(scope = 'pending', category = null) {
-    const ticketsPath = path.join(__dirname, '../docs/planning/tickets');
+    const ticketsPath = path.join(__dirname, '../planning/tickets');
     const scopePath = path.join(ticketsPath, scope);
     
     if (!fs.existsSync(scopePath)) {

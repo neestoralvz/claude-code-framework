@@ -3,7 +3,7 @@ title: "Core Philosophy Templates"
 author: "Claude Code System"
 date: "2025-08-18"
 version: "1.0.0"
-dependencies: ["../PRINCIPLES.md", "../principles/workflow.md", "../principles/fundamental.md"]
+dependencies: ["principles/PRINCIPLES.md", "../principles/workflow.md", "../principles/fundamental.md"]
 prerequisites: ["Understanding of framework principles"]
 audience: "Documentation creators and system architects"
 purpose: "Provide standardized templates for philosophical and methodological documentation"
@@ -11,7 +11,7 @@ keywords: ["templates", "philosophy", "principles", "methodology", "authority", 
 last_review: "2025-08-18"
 ---
 
-[Previous: Study templates index](../index.md) | [Return to documentation hub](../../index.md) | [Study PRINCIPLES.md for framework](../../PRINCIPLES.md) | [Next: Browse components](../../components/index.md)
+[Previous: Study templates index](../index.md) | [Return to documentation hub](../../index.md) | [Study PRINCIPLES.md for framework](../principles/PRINCIPLES.md) | [Next: Browse components](../../templates/templates/components/index.md)
 
 # CORE PHILOSOPHY TEMPLATES
 
@@ -184,9 +184,9 @@ last_review: "[YYYY-MM-DD]"
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../../index.md)
-- [Study PRINCIPLES.md for framework](../../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](../principles/PRINCIPLES.md)
 - [Browse templates index](../index.md)
-- [Browse components](../../components/index.md)
+- [Browse components](../../templates/templates/components/index.md)
 
 ### Related Principles
 - [Study organization.md for structural approaches](../../principles/organization.md)

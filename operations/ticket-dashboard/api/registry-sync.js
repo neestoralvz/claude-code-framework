@@ -11,7 +11,7 @@ const path = require('path');
 class RegistrySync {
     constructor() {
         this.baseDir = '/Users/nalve/.claude';
-        this.registryFile = path.join(this.baseDir, 'docs/planning/TICKET_REGISTRY.md');
+        this.registryFile = path.join(this.baseDir, 'planning/TICKET_REGISTRY.md');
         this.dashboardDir = path.join(this.baseDir, 'operations/ticket-dashboard');
         this.logFile = path.join(this.dashboardDir, 'logs/registry-sync.log');
         

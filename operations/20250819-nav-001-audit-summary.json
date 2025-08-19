@@ -31,7 +31,7 @@
     {"file": "docs/components/workflow-phases.md", "count": 30},
     {"file": "docs/components/formatting/link-use-cases.md", "count": 30},
     {"file": "docs/templates/playbook-documentation-template.md", "count": 28},
-    {"file": "docs/planning/tickets/completed/migration-summary-roadmap.md", "count": 25}
+    {"file": "planning/tickets/completed/migration-summary-roadmap.md", "count": 25}
   ],
   "repair_strategy": {
     "phase_1_critical": {"effort_hours": "4-6", "target_links": 50, "priority": "CRITICAL"},

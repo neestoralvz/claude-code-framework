@@ -3,7 +3,7 @@
 # Ticket Status Management Script
 # Update ticket status and move files between directories
 
-TICKET_BASE="/Users/nalve/.claude/docs/planning/tickets"
+TICKET_BASE="/Users/nalve/.claude/planning/tickets"
 
 # Colors
 RED='\033[0;31m'

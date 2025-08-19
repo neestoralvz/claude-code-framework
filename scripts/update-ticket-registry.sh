@@ -3,8 +3,8 @@
 # Update Ticket Registry Script
 # Scans all ticket files and updates the registry dashboard
 
-TICKET_DIR="/Users/nalve/.claude/docs/planning/tickets"
-REGISTRY_FILE="/Users/nalve/.claude/docs/planning/TICKET_REGISTRY.md"
+TICKET_DIR="/Users/nalve/.claude/planning/tickets"
+REGISTRY_FILE="/Users/nalve/.claude/planning/TICKET_REGISTRY.md"
 TEMP_FILE="/tmp/ticket_registry.tmp"
 
 # Colors for output

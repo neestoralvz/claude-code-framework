@@ -73,9 +73,9 @@ Impact: Primary documentation navigation disrupted
 | docs/components/workflow-phases.md | 30 | Workflow | 🔴 HIGH |
 | docs/components/formatting/link-use-cases.md | 30 | Navigation | 🔴 HIGH |
 | docs/templates/playbook-documentation-template.md | 28 | Navigation | 🔴 HIGH |
-| docs/planning/tickets/completed/migration-summary-roadmap.md | 25 | Registry | 🔴 HIGH |
+| planning/tickets/completed/migration-summary-roadmap.md | 25 | Registry | 🔴 HIGH |
 | docs/components/formatting/link-action-verbs.md | 25 | Navigation | 🔴 HIGH |
-| docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md | 24 | Navigation | 🔴 HIGH |
+| planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md | 24 | Navigation | 🔴 HIGH |
 | commands/execution/execute-ticket.md | 24 | Command | 🔴 HIGH |
 | docs/enforcement-system-overview.md | 22 | Navigation | 🔴 HIGH |
 | CLAUDE.md | 22 | Command/Navigation | 🔥 CRITICAL |

@@ -165,7 +165,7 @@ last_review: "[YYYY-MM-DD]"
 - [Navigate to Documentation Hub](../index.md)
 - [Study fundamental.md for approaches](../principles/fundamental.md)
 - [Study workflow.md for systematic execution](../principles/workflow.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 
 ### Related Methodologies
 - [Study related methodology 1](related-methodology-1.md)
@@ -178,6 +178,6 @@ last_review: "[YYYY-MM-DD]"
 
 ### Implementation Resources
 - [Apply validation-methodology.md for verification](../principles/validation.md#validation-methodology)
-- [Use workflow-phases.md for phase execution](../components/workflow-phases.md)
+- [Use workflow-phases.md for phase execution](../templates/templates/components/workflow-phases.md)
 
 [⬆ Return to top](#methodology-name)

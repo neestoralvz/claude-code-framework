@@ -92,7 +92,7 @@ analyze_file_hierarchy() {
             ;;
         tickets/pending/*)
             document_type="ticket"
-            parent_hub="docs/planning/TICKET_REGISTRY.md"
+            parent_hub="planning/TICKET_REGISTRY.md"
             ;;
     esac
 }
@@ -167,7 +167,7 @@ generate_breadcrumb_sequence() {
 
 #### Ticket Document Template
 ```
-[Previous: Return to Registry](../../docs/planning/TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: {{NEXT_TICKET}}]({{NEXT_TARGET}})
+[Previous: Return to Registry](../../planning/TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: {{NEXT_TICKET}}]({{NEXT_TARGET}})
 ```
 
 ### Hierarchy Configuration
@@ -194,7 +194,7 @@ generate_breadcrumb_sequence() {
           },
           "planning": {
             "title": "Planning & Tickets",
-            "index": "docs/planning/TICKET_REGISTRY.md"
+            "index": "planning/TICKET_REGISTRY.md"
           }
         }
       },
@@ -204,7 +204,7 @@ generate_breadcrumb_sequence() {
       },
       "tickets": {
         "title": "Ticket Management",
-        "index": "docs/planning/TICKET_REGISTRY.md"
+        "index": "planning/TICKET_REGISTRY.md"
       }
     }
   }
@@ -225,7 +225,7 @@ determine_navigation_sequence() {
             next_link=$(find_next_principle "$current_file")
             ;;
         "ticket")
-            previous_link="docs/planning/TICKET_REGISTRY.md"
+            previous_link="planning/TICKET_REGISTRY.md"
             next_link=$(find_related_ticket "$current_file")
             ;;
     esac

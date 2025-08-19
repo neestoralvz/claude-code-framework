@@ -79,6 +79,28 @@ validation_level: "comprehensive"
 
 **Usage**: All commands requiring documentation
 
+### 6. [SuccessCriteriaTemplate.md](SuccessCriteriaTemplate.md) - Standardized Success Criteria
+⏺ **Eliminates**: Success criteria duplication across 35+ commands
+
+**Provides**:
+- Command-type-specific success criteria templates
+- Standardized validation patterns
+- Quality assurance integration
+- Automated criteria generation
+
+**Usage**: All commands requiring success criteria
+
+### 7. [CrossReferenceEngine.md](CrossReferenceEngine.md) - Automated Cross-References
+⏺ **Eliminates**: Cross-reference duplication across 91+ commands
+
+**Provides**:
+- Automated navigation generation
+- Context-aware reference discovery
+- Principle and component linking
+- Maintenance overhead reduction
+
+**Usage**: All commands requiring cross-references
+
 ## Deduplication Impact Analysis
 
 ### Before DRY Implementation

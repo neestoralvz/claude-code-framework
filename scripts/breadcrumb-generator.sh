@@ -65,10 +65,10 @@ generate_breadcrumb() {
         "docs/components")
             breadcrumb=$(generate_component_breadcrumb "$file_name")
             ;;
-        "docs/planning")
+        "planning")
             breadcrumb=$(generate_planning_breadcrumb "$file_name")
             ;;
-        "docs/planning/tickets"*|"docs/planning/components"*)
+        "planning/tickets"*|"planning/components"*)
             breadcrumb=$(generate_ticket_breadcrumb "$file_name" "$relative_dir")
             ;;
         "docs/principles")

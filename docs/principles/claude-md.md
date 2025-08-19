@@ -11,7 +11,7 @@ keywords: ["claude-md", "project-specific", "instructions", "integration"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study forbidden.md for restrictions](forbidden.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study expert-documentation.md for expert authorship](expert-documentation.md)
+[Previous: Study forbidden.md for restrictions](forbidden.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study expert-documentation.md for expert authorship](expert-documentation.md)
 
 # CLAUDE MD
 
@@ -119,7 +119,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Learn COMMANDS.md for implementation](../COMMANDS.md)
 
 ### Related Principles
@@ -129,6 +129,6 @@ last_review: "2025-08-18"
 - [Study files.md for file management](files.md)
 
 ### Related Components
-- [Use claude-md-templates.md for project files](../components/claude-md-templates.md)
+- [Use claude-md-templates.md for project files](../templates/templates/components/claude-md-templates.md)
 
 [⬆ Return to top](#claudemd-principle)

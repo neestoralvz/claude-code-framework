@@ -76,7 +76,20 @@ validation_level: "comprehensive"
 
 **Usage**: Foundation for all systematic workflow implementation
 
-### 5. [DocAtoms.md](DocAtoms.md) - Documentation Operation Building Blocks
+### 5. [GitAtoms.md](GitAtoms.md) - Git Operation Building Blocks
+⏺ **Responsibility**: Fundamental version control operations
+
+**Core Atoms**:
+- `GitStatusAtom` - Check repository status and working tree state
+- `GitCommitAtom` - Create git commit with message and validation
+- `GitBranchAtom` - Manage git branches (create, switch, delete, list)
+- `GitPushAtom` - Push commits to remote repository with validation
+- `GitPullAtom` - Pull changes from remote repository with merge handling
+- `GitDiffAtom` - Generate diffs between git references with formatting
+
+**Usage**: Foundation for all version control and development workflow operations
+
+### 6. [DocAtoms.md](DocAtoms.md) - Documentation Operation Building Blocks
 ⏺ **Responsibility**: Fundamental documentation management and maintenance operations
 
 **Core Atoms**:
@@ -363,6 +376,7 @@ integration_patterns:
 - [ManagementMolecules.md](../molecules/ManagementMolecules.md) - Management patterns using atoms
 - [WorkflowMolecules.md](../molecules/WorkflowMolecules.md) - Workflow patterns using atoms
 - [QualityMolecules.md](../molecules/QualityMolecules.md) - Quality assurance patterns using atoms
+- [GitMolecules.md](../molecules/GitMolecules.md) - Git workflow patterns using GitAtoms
 
 ### Assembly Components
 - [SystemAnalysisAssembly.md](../assemblies/SystemAnalysisAssembly.md) - Complete system analysis workflows

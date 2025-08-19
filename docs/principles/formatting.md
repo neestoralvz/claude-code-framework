@@ -11,7 +11,7 @@ keywords: ["formatting", "consistency", "philosophy", "presentation"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study organization.md for structure](organization.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Follow files.md for management](files.md)
+[Previous: Study organization.md for structure](organization.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Follow files.md for management](files.md)
 
 # FORMATTING
 
@@ -42,7 +42,7 @@ last_review: "2025-08-18"
 
 ## Implementation Framework
 
-**[Apply formatting-standards.md for detailed implementation](../components/formatting-standards.md)**
+**[Apply formatting-standards.md for detailed implementation](../templates/templates/components/formatting-standards.md)**
 
 All specific formatting rules, templates, and implementation details are provided through the formatting standards component.
 
@@ -57,13 +57,13 @@ All specific formatting rules, templates, and implementation details are provide
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to organization.md for structure](organization.md)
 - [Continue to files.md for management](files.md)
 
 ### Implementation Resources
-- **[Apply formatting-standards.md for specific rules](../components/formatting-standards.md)**
-- **[Use navigation patterns for structure](../components/navigation.md)**
-- **[Follow link standards for cross-references](../components/formatting/link-standards.md)**
+- **[Apply formatting-standards.md for specific rules](../templates/templates/components/formatting-standards.md)**
+- **[Use navigation patterns for structure](../templates/templates/components/navigation.md)**
+- **[Follow link standards for cross-references](../templates/templates/components/formatting/link-standards.md)**
 
 [⬆ Return to top](#formatting)

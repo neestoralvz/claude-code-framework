@@ -11,7 +11,7 @@ keywords: ["commands", "workflow", "identification", "conversion", "concatenatio
 last_review: "2025-08-18"
 ---
 
-[Previous: Study workflow.md for methodology](workflow.md) | [Return to Documentation Hub](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Apply organization.md for structure](organization.md)
+[Previous: Study workflow.md for methodology](workflow.md) | [Return to Documentation Hub](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Apply organization.md for structure](organization.md)
 
 # COMMAND WORKFLOW PRINCIPLES
 
@@ -260,7 +260,7 @@ system-audit | (modularize --if-patterns-found) | execute-ticket
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Apply workflow.md for methodology](workflow.md)
 - [Browse commands index](../../commands/index.md)
 

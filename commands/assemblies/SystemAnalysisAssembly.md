@@ -483,8 +483,8 @@ scalability_approaches:
 - [AgentAtoms.md](../atoms/AgentAtoms.md) - Agent operation building blocks
 
 ### Command Integration
-- [system-audit.md](../../docs/commands/analysis/system-audit.md) - System audit command using assemblies
-- [analyze-dependencies.md](../../docs/commands/analysis/analyze-dependencies.md) - Dependency analysis command
+- [system-audit.md](../../commands-docs/analysis/system-audit.md) - System audit command using assemblies
+- [analyze-dependencies.md](../../commands-docs/analysis/analyze-dependencies.md) - Dependency analysis command
 
 ### Framework Integration
 - [Analysis Framework](../../docs/architecture/analysis-framework.md) - Analysis architecture patterns

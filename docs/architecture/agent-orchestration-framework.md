@@ -11,7 +11,7 @@ keywords: ["agent-orchestration", "command-integration", "coordination-patterns"
 last_review: "2025-08-19"
 ---
 
-[Previous: Study decision matrices](decision-matrix-specifications.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Apply consolidation architecture](command-consolidation-architecture.md)
+[Previous: Study decision matrices](decision-matrix-specifications.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Apply consolidation architecture](command-consolidation-architecture.md)
 
 # AGENT ORCHESTRATION FRAMEWORK
 
@@ -898,12 +898,12 @@ validation_integration() {
 
 ### Related Architecture
 - [Study command enhancement patterns](command-enhancement-patterns.md)
-- [Apply communication protocols](../components/communication-protocols.md)
-- [Use quality frameworks](../components/quality-frameworks.md)
+- [Apply communication protocols](../templates/templates/components/communication-protocols.md)
+- [Use quality frameworks](../templates/templates/components/quality-frameworks.md)
 
 ### Implementation Resources
 - [Browse existing agents](../../agents/)
 - [Study command templates](../templates/enhanced-command-template.md)
-- [Review workflow phases](../components/workflow-phases.md)
+- [Review workflow phases](../templates/templates/components/workflow-phases.md)
 
 [⬆ Return to top](#agent-orchestration-framework)

@@ -8,7 +8,7 @@ purpose: "Define complete Task Tool invocation syntax and structured prompt fram
 keywords: ["Task Tool", "agent deployment", "syntax", "prompt structure", "parallel execution"]
 ---
 
-[Previous: task-orchestration.md](task-orchestration.md) | [Return to PRINCIPLES.md](../PRINCIPLES.md) | [Next: agent-definition.md](agent-definition.md)
+[Previous: task-orchestration.md](task-orchestration.md) | [Return to PRINCIPLES.md](principles/PRINCIPLES.md) | [Next: agent-definition.md](agent-definition.md)
 
 # TASK TOOL SYNTAX AND DEPLOYMENT FRAMEWORK
 

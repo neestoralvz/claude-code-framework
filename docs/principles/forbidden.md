@@ -11,7 +11,7 @@ keywords: ["forbidden", "prohibited", "practices", "guidelines", "restrictions"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study files.md for operations](files.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study claude-md.md for effective CLAUDE.md files](claude-md.md)
+[Previous: Study files.md for operations](files.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study claude-md.md for effective CLAUDE.md files](claude-md.md)
 
 # FORBIDDEN
 
@@ -61,7 +61,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to files.md for operations](files.md)
 - [Continue to claude-md.md for CLAUDE.md guidelines](claude-md.md)
 

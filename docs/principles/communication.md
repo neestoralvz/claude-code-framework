@@ -11,7 +11,7 @@ keywords: ["communication", "expression", "philosophy", "clarity"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study engineering.md for technical standards](engineering.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study organization.md for logical content](organization.md)
+[Previous: Study engineering.md for technical standards](engineering.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study organization.md for logical content](organization.md)
 
 # COMMUNICATION
 
@@ -42,7 +42,7 @@ last_review: "2025-08-18"
 
 ## Implementation Framework
 
-**[Apply communication-templates.md for detailed implementation](../components/communication-templates.md)**
+**[Apply communication-templates.md for detailed implementation](../templates/templates/components/communication-templates.md)**
 
 All specific communication patterns, tone guidelines, and expression templates are provided through the communication templates component.
 
@@ -56,13 +56,13 @@ All specific communication patterns, tone guidelines, and expression templates a
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to engineering.md for technical standards](engineering.md)
 - [Continue to organization.md for structure](organization.md)
 
 ### Implementation Resources
-- **[Apply communication-templates.md for specific patterns](../components/communication-templates.md)**
-- **[Use imperative-tone-patterns.md for language guidelines](../components/imperative-tone-patterns.md)**
+- **[Apply communication-templates.md for specific patterns](../templates/templates/components/communication-templates.md)**
+- **[Use imperative-tone-patterns.md for language guidelines](../templates/templates/components/imperative-tone-patterns.md)**
 - **[Follow directive.md for command framework](directive.md)**
 
 [⬆ Return to top](#communication)

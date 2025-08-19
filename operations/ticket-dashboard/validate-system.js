@@ -223,7 +223,7 @@ class SystemValidator {
         
         // Registry Integration
         this.validateIntegration('registry_sync', () => {
-            const registryFile = path.join(this.baseDir, 'docs/planning/TICKET_REGISTRY.md');
+            const registryFile = path.join(this.baseDir, 'planning/TICKET_REGISTRY.md');
             
             if (!fs.existsSync(registryFile)) {
                 throw new Error('Registry file not found');

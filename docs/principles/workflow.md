@@ -10,7 +10,7 @@ purpose: "Define fundamental workflow philosophy for systematic task execution"
 keywords: ["workflow", "execution", "methodology", "philosophy"]
 last_review: "2025-08-18"
 ---
-[Previous: Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study fundamental.md for basic methodology](fundamental.md)
+[Previous: Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study fundamental.md for basic methodology](fundamental.md)
 
 # WORKFLOW
 
@@ -261,7 +261,7 @@ Problem detected → 9-debug --focus [problem-type]
 ### Primary Navigation
 
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Continue to directive.md for primary guidance](directive.md)
 - [Study fundamental.md for basic methodology](fundamental.md)
 

@@ -11,7 +11,7 @@ keywords: ["task-orchestration", "task-tool", "delegation", "workflow", "main-in
 last_review: "2025-08-18"
 ---
 
-[Previous: Study agent-selection.md for systematic analysis](agent-selection.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study agent-definition.md for expert scope](agent-definition.md)
+[Previous: Study agent-selection.md for systematic analysis](agent-selection.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study agent-definition.md for expert scope](agent-definition.md)
 
 # TASK ORCHESTRATION
 
@@ -46,19 +46,19 @@ last_review: "2025-08-18"
 
 ## Task Analysis Framework
 
-**[Apply task-analysis-framework.md for task decomposition and classification](../components/task-analysis-framework.md)**
+**[Apply task-analysis-framework.md for task decomposition and classification](../templates/templates/components/task-analysis-framework.md)**
 
 [⬆ Return to top](#task-orchestration)
 
 ## Agent Coordination Strategies
 
-**[Use agent-coordination-strategies.md for execution patterns and deployment](../components/agent-coordination-strategies.md)**
+**[Use agent-coordination-strategies.md for execution patterns and deployment](../templates/templates/components/agent-coordination-strategies.md)**
 
 [⬆ Return to top](#task-orchestration)
 
 ## Communication and Quality Protocols
 
-**[Apply orchestration-protocols.md for communication and quality oversight](../components/orchestration-protocols.md)**
+**[Apply orchestration-protocols.md for communication and quality oversight](../templates/templates/components/orchestration-protocols.md)**
 
 [⬆ Return to top](#task-orchestration)
 
@@ -82,7 +82,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Return to documentation hub for navigation](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse agents directory for catalog](../agents/)
 
 ### Related Principles
@@ -99,6 +99,6 @@ last_review: "2025-08-18"
 
 ### Related Components
 - [Apply workflow.md for systematic execution phases](workflow.md)
-- [Use navigation.md for consistent links](../components/navigation.md)
+- [Use navigation.md for consistent links](../templates/templates/components/navigation.md)
 
 [⬆ Return to top](#task-orchestration)

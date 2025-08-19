@@ -3,7 +3,7 @@ title: "Execute Parallel Plan Command"
 author: "Claude Code System"
 date: "2025-08-18"
 version: "1.0.0"
-dependencies: ["../docs/planning/components/ticket-parallel-executor.md", "analyze-dependencies.md", "../docs/principles/agent-selection.md"]
+dependencies: ["../planning/components/ticket-parallel-executor.md", "analyze-dependencies.md", "../docs/principles/agent-selection.md"]
 prerequisites: ["Generated execution plan", "Agent deployment system", "Resource monitoring"]
 audience: "System operators, project managers, and automation engineers"
 purpose: "Execute multiple tickets in parallel using coordinated agents while managing dependencies and conflicts"
@@ -304,7 +304,7 @@ execute-parallel-plan plan.yaml --monitor --pause-on-conflicts
 ### Primary Navigation
 - [Navigate to Documentation Hub](../docs/index.md)
 - [Browse commands index](index.md)
-- [Access TICKET_REGISTRY.md](../docs/planning/TICKET_REGISTRY.md)
+- [Access TICKET_REGISTRY.md](../planning/TICKET_REGISTRY.md)
 
 ### Related Commands
 - [Generate dependencies analysis](analyze-dependencies.md)
@@ -312,7 +312,7 @@ execute-parallel-plan plan.yaml --monitor --pause-on-conflicts
 - [Execute individual tickets](execute-ticket.md)
 
 ### Framework References
-- [Study parallel execution framework](../docs/planning/components/ticket-parallel-executor.md)
+- [Study parallel execution framework](../planning/components/ticket-parallel-executor.md)
 - [Apply agent selection principles](../docs/principles/agent-selection.md)
 - [Follow workflow methodology](../docs/principles/workflow.md)
 

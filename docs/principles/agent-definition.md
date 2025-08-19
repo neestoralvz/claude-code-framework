@@ -11,7 +11,7 @@ keywords: ["agent-definition", "expert-scope", "specialization", "precision", "b
 last_review: "2025-08-18"
 ---
 
-[Previous: Study agent-selection.md for systematic selection](agent-selection.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study expert-documentation.md for expert authorship](expert-documentation.md)
+[Previous: Study agent-selection.md for systematic selection](agent-selection.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study expert-documentation.md for expert authorship](expert-documentation.md)
 
 # AGENT DEFINITION
 
@@ -168,7 +168,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Return to documentation hub for navigation](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse agents documentation](../agents-documentation/README.md)
 
 ### Related Principles

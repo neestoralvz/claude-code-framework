@@ -52,7 +52,7 @@ The command registry and related documentation contain references to deleted com
 # scripts/registry-validator.sh - Command registry validation
 
 FRAMEWORK_ROOT="/Users/nalve/.claude"
-REGISTRY_DIR="$FRAMEWORK_ROOT/docs/planning"
+REGISTRY_DIR="$FRAMEWORK_ROOT/planning"
 COMMANDS_DIR="$FRAMEWORK_ROOT/commands"  # May not exist
 OUTPUT_DIR="$FRAMEWORK_ROOT/operations/registry-validation"
 TIMESTAMP=$(date +"%Y%m%d-%H%M%S")
@@ -229,7 +229,7 @@ identify_unregistered_files() {
   "validation_results": {
     "broken_references": [
       {
-        "registry_file": "docs/planning/TICKET_REGISTRY.md",
+        "registry_file": "planning/TICKET_REGISTRY.md",
         "line_number": 89,
         "link_text": "System Audit Command",
         "target_path": "commands/analysis/system-audit.md",

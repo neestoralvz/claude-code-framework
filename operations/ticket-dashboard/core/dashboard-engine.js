@@ -16,7 +16,7 @@ class TicketDashboardEngine {
         this.baseDir = '/Users/nalve/.claude';
         this.dashboardDir = path.join(this.baseDir, 'operations/ticket-dashboard');
         this.todosDir = path.join(this.baseDir, 'todos');
-        this.registryFile = path.join(this.baseDir, 'docs/planning/TICKET_REGISTRY.md');
+        this.registryFile = path.join(this.baseDir, 'planning/TICKET_REGISTRY.md');
         
         this.statusMap = {
             'pending': '⏳',

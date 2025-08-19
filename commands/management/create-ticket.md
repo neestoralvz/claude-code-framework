@@ -3,7 +3,7 @@ title: "Create Ticket Command - Enhanced Architecture"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "3.0.0"
-dependencies: ["../../docs/planning/TICKET_METHODOLOGY.md", "../../docs/planning/TICKET_REGISTRY.md", "../../docs/principles/workflow.md"]
+dependencies: ["../../planning/TICKET_METHODOLOGY.md", "../../planning/TICKET_REGISTRY.md", "../../docs/principles/workflow.md"]
 prerequisites: ["Command-centered architecture understanding", "Integrated execution environment access", "Task description input"]
 audience: "Developers, project managers, system operators, and architectural implementers"
 purpose: "Complete execution environment for standardized ticket generation with embedded agent deployment, automatic template application, and built-in validation"

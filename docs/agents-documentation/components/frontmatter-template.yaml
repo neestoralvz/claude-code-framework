@@ -1,7 +1,0 @@
----
-name: {{AGENT_NAME}}
-description: {{COMPREHENSIVE_DESCRIPTION_WITH_EXAMPLES}}
-tools: {{TOOLS_LIST}}
-model: sonnet
-color: {{COLOR}}
----

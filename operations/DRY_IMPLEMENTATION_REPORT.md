@@ -191,7 +191,7 @@ optimization_results:
 ### Successfully Updated Commands
 
 #### 1. system-audit.md
-**Location**: `/docs/commands/analysis/system-audit.md`
+**Location**: `/commands-docs/analysis/system-audit.md`
 **Replacements Completed**:
 - Embedded Principle Application → EnhancedTemplate reference
 - Automatic Agent Deployment → AgentManager reference with analysis_agent_deployment
@@ -200,7 +200,7 @@ optimization_results:
 - Cross-References → Shared components navigation
 
 #### 2. create-ticket.md
-**Location**: `/docs/commands/management/create-ticket.md`
+**Location**: `/commands-docs/management/create-ticket.md`
 **Replacements Completed**:
 - Embedded Principle Application → EnhancedTemplate reference
 - Automatic Agent Deployment → AgentManager reference with management_agent_deployment
@@ -209,7 +209,7 @@ optimization_results:
 - Cross-References → Shared components navigation
 
 #### 3. modularize.md
-**Location**: `/docs/commands/analysis/modularize.md`
+**Location**: `/commands-docs/analysis/modularize.md`
 **Replacements Completed**:
 - Embedded Principle Application → EnhancedTemplate reference
 - Automatic Agent Deployment → AgentManager reference with analysis_agent_deployment
@@ -217,7 +217,7 @@ optimization_results:
 - Complete Workflow Integration → WorkflowPhases reference with analysis_workflow_phases
 
 #### 4. review-tickets.md
-**Location**: `/docs/commands/management/review-tickets.md`
+**Location**: `/commands-docs/management/review-tickets.md`
 **Replacements Completed**:
 - Embedded Principle Application → EnhancedTemplate reference
 - Automatic Agent Deployment → AgentManager reference with management_agent_deployment
@@ -225,7 +225,7 @@ optimization_results:
 - Complete Workflow Integration → WorkflowPhases reference with management_workflow_phases
 
 #### 5. enhanced-command-template.md
-**Location**: `/docs/commands/templates/enhanced-command-template.md`
+**Location**: `/commands-docs/templates/enhanced-command-template.md`
 **Complete Restructure**:
 - Converted from duplicate pattern source to shared component usage guide
 - Added template usage instructions

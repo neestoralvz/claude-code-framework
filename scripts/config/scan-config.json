@@ -40,7 +40,7 @@
       "priority": "medium"
     },
     "registry": {
-      "patterns": ["docs/planning/**", "**/tickets/**", "**/registry*"],
+      "patterns": ["planning/**", "**/tickets/**", "**/registry*"],
       "priority": "medium"
     },
     "component": {

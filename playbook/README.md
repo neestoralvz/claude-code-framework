@@ -137,7 +137,7 @@ Detailed command documentation with usage contexts and timing:
 ### ⚡ EXECUTION RESOURCES
 - **[Commands Index](../commands/index.md)** - Primary execution workspace
 - **[Documentation Hub](../docs/index.md)** - Complete framework reference
-- **[Ticket Management](../docs/planning/TICKET_REGISTRY.md)** - Task tracking and organization
+- **[Ticket Management](../planning/TICKET_REGISTRY.md)** - Task tracking and organization
 
 ---
 

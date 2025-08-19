@@ -14,7 +14,7 @@ automation_level: "comprehensive"
 validation_embedding: "four_gate_system"
 ---
 
-[Previous: Study Enhanced Command Template](../enhanced-command-template.md) | [Return to Pattern Hub](../index.md) | [Study Generator Framework](../../components/command-architecture-patterns.md) | [Next: Apply Agent Generator](agent-generator-template.md)
+[Previous: Study Enhanced Command Template](../enhanced-command-template.md) | [Return to Pattern Hub](../index.md) | [Study Generator Framework](../../templates/templates/components/command-architecture-patterns.md) | [Next: Apply Agent Generator](agent-generator-template.md)
 
 # COMMAND PATTERN GENERATOR TEMPLATE
 
@@ -435,8 +435,8 @@ generate_command \
 
 ### Architecture Integration
 - [Study Enhanced Command Architecture](../enhanced-command-template.md)
-- [Review Command Architecture Patterns](../../components/command-architecture-patterns.md)
-- [Access Validation Framework](../../components/validation-framework-components.md)
+- [Review Command Architecture Patterns](../../templates/templates/components/command-architecture-patterns.md)
+- [Access Validation Framework](../../templates/templates/components/validation-framework-components.md)
 
 ### Framework References
 - [Apply Workflow Methodology](../../principles/workflow.md)

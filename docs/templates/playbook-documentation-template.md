@@ -12,7 +12,7 @@ last_review: "2025-08-19"
 authority_scope: "Documentation structure standards and playbook methodology implementation"
 ---
 
-[Previous: Templates Hub](../components/templates/) | [Return to Documentation Hub](../index.md) | [Framework Playbook](../CLAUDE.md) | [Next: Apply Template](./README.md)
+[Previous: Templates Hub](../templates/templates/components/templates/) | [Return to Documentation Hub](../index.md) | [Framework Playbook](../CLAUDE.md) | [Next: Apply Template](./README.md)
 
 # PLAYBOOK DOCUMENTATION TEMPLATE
 
@@ -282,7 +282,7 @@ STEP 1: ANALYZE → Task requirements
         ACTION: Parse user request, determine task boundaries
         VERIFICATION: Clear understanding of what to accomplish
 
-STEP 2: NAVIGATE → [command-selection.md](components/core-framework/command-selection.md)
+STEP 2: NAVIGATE → [command-selection.md](templates/components/core-framework/command-selection.md)
         OBJECTIVE: Select optimal command for task
         ACTION: Apply decision frameworks, use selection criteria
         VERIFICATION: Command selection justified and optimal
@@ -336,8 +336,8 @@ COMMANDS:        commands/index.md → SELECT by type
 
 ### Framework Integration
 - **[CLAUDE.md Framework Playbook](../CLAUDE.md)** - Primary playbook implementation example
-- **[Component Templates](../components/templates/)** - Additional template resources
-- **[Documentation Standards](../components/documentation-metadata.md)** - Documentation requirements
+- **[Component Templates](../templates/templates/components/templates/)** - Additional template resources
+- **[Documentation Standards](../templates/templates/components/documentation-metadata.md)** - Documentation requirements
 
 ### Related Templates
 - **[Command Template](../templates/command-template.md)** - Command-specific documentation template

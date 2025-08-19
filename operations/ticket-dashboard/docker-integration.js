@@ -124,7 +124,7 @@ class DockerIntegration {
     setupFileWatchers() {
         try {
             const todosDir = path.join(this.containerDataDir, 'todos');
-            const registryFile = path.join(this.containerDataDir, 'docs/planning/TICKET_REGISTRY.md');
+            const registryFile = path.join(this.containerDataDir, 'planning/TICKET_REGISTRY.md');
             
             // Watch todos directory
             if (fs.existsSync(todosDir)) {
@@ -200,7 +200,7 @@ class DockerIntegration {
     
     syncRegistryUpdates() {
         try {
-            const registryFile = path.join(this.containerDataDir, 'docs/planning/TICKET_REGISTRY.md');
+            const registryFile = path.join(this.containerDataDir, 'planning/TICKET_REGISTRY.md');
             
             if (!fs.existsSync(registryFile)) {
                 return;

@@ -1,7 +1,8 @@
-How to navigate the Claude Code documentation system. Start here when you need to find guides, principles, or specific commands.
-# Find What You Need
+# CLAUDE CODE DOCUMENTATION HUB
 
-**Quick Links**: [Commands](../commands/index.md) | [Main Guide](../CLAUDE.md) | [Core Principles](PRINCIPLES.md) | [All Commands](../commands/index.md)
+How to navigate the Claude Code documentation system. Start here when you need to find guides, principles, or specific commands.
+
+**Quick Links**: [Commands](../commands/index.md) | [Main Guide](../CLAUDE.md) | [Core Principles](principles/PRINCIPLES.md) | [Agents](agents/) | [Architecture](architecture/)
 
 ## What You Can Do Here
 
@@ -133,22 +134,22 @@ Create standardized commands that follow the established patterns.
 - **Browse architecture documentation for design patterns** - Use [architecture/](architecture/) for complete architecture documentation and design guidance
 
 ### Core Framework Components
-- **Access command-architecture for execution environments** - Use [command-architecture.md](components/core-framework/command-architecture.md) for complete execution patterns
-- **Access command-selection for optimal command choice** - Use [command-selection.md](components/core-framework/command-selection.md) for decision frameworks  
-- **Access session-management for initialization** - Use [session-management.md](components/core-framework/session-management.md) for streamlined startup
-- **Access quality-integration for validation** - Use [quality-integration.md](components/core-framework/quality-integration.md) for embedded validation
-- **Access compliance-framework for adherence** - Use [compliance-framework.md](components/core-framework/compliance-framework.md) for automatic compliance
-- **Access navigation-hub for framework access** - Use [navigation-hub.md](components/core-framework/navigation-hub.md) for navigation patterns
-- **Access command-flow-triggers for automation** - Use [command-flow-triggers.md](components/core-framework/command-flow-triggers.md) for execution automation
+- **Access command-architecture for execution environments** - Use [command-architecture.md](templates/components/core-framework/command-architecture.md) for complete execution patterns
+- **Access command-selection for optimal command choice** - Use [command-selection.md](templates/components/core-framework/command-selection.md) for decision frameworks  
+- **Access session-management for initialization** - Use [session-management.md](templates/components/core-framework/session-management.md) for streamlined startup
+- **Access quality-integration for validation** - Use [quality-integration.md](templates/components/core-framework/quality-integration.md) for embedded validation
+- **Access compliance-framework for adherence** - Use [compliance-framework.md](templates/components/core-framework/compliance-framework.md) for automatic compliance
+- **Access navigation-hub for framework access** - Use [navigation-hub.md](templates/components/core-framework/navigation-hub.md) for navigation patterns
+- **Access command-flow-triggers for automation** - Use [command-flow-triggers.md](templates/components/core-framework/command-flow-triggers.md) for execution automation
 
 ### Helpful Components
 - **Apply workflow principles for systematic execution methodology**
 - **Use link standards for consistent navigation patterns**
 
 ### Component Categories
-- **Access formatting components** - Use [formatting/](components/formatting/) for formatting standards and guidelines
-- **Access template components** - Use [templates/](components/templates/) for reusable templates and patterns
-- **Access command components** - Browse [components/](components/) for command architecture and patterns
-- **Apply frontmatter templates** - Use [frontmatter-template.yaml](components/frontmatter-template.yaml) for metadata standards
+- **Access formatting components** - Use [formatting/](templates/components/formatting/) for formatting standards and guidelines
+- **Access template components** - Use [templates/](templates/components/templates/) for reusable templates and patterns
+- **Access command components** - Browse [templates/components/](templates/components/) for command architecture and patterns
+- **Apply frontmatter templates** - Use [frontmatter-template.yaml](templates/components/frontmatter-template.yaml) for metadata standards
 
 [⬆ Return to top](#claude-documentation-hub)

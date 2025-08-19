@@ -35,7 +35,7 @@ execution_mode: "integrated"
 ### Enhanced Priority Commands
 
 #### Core Enhanced Commands
-- **[Execute system-audit.md for comprehensive system analysis with auto-ticket generation](analysis/system-audit.md)**
+- **[Execute system-audit.md for comprehensive system analysis with auto-ticket generation](workflows/system-audit.md)**
   Complete execution environment for system audit with embedded validation, automatic agent deployment, built-in quality gates, and automatic ticket generation for detected violations.
 
 - **[Execute create-ticket.md for integrated ticket generation](management/create-ticket.md)**
@@ -44,63 +44,76 @@ execution_mode: "integrated"
 - **[Execute review-tickets.md for priority-based execution](management/review-tickets.md)**
   Complete execution environment for ticket analysis and execution with embedded validation, automatic agent deployment, and quality gates.
 
-- **[Execute modularize.md for component extraction](analysis/modularize.md)**
+- **[Execute modularize.md for component extraction](workflows/modularize.md)**
   Complete execution environment for modularization with embedded patterns, automatic validation, and built-in quality gates.
 
+#### Composable Command Framework
+- **[Explore Composable Commands Hub](workflows/index.md)**
+  Comprehensive command building block system enabling commands to work together as orchestrated compositions, with intelligent agent coordination and sophisticated data flow management.
+
+- **[Execute CompleteSystemAnalysis composition](workflows/CompleteSystemAnalysis.md)**
+  Real-world demonstration of command composition featuring parallel analysis execution, intelligent result correlation, and automated ticket generation.
+
+- **[Study CommandComposer engine](workflows/CommandComposer.md)**
+  Central composition engine providing fluent interface for building command workflows with multiple execution strategies and comprehensive error handling.
+
+- **[Review CompositionAgentIntegration](workflows/CompositionAgentIntegration.md)**
+  Advanced integration between command composition and agent deployment frameworks, enabling intelligent agent selection and multi-agent coordination.
+
 #### Intent Analysis Commands
-- **[Execute parallel-intent-analysis.md for multi-perspective request analysis](orchestration/parallel-intent-analysis.md)**
+- **[Execute parallel-intent-analysis.md for multi-perspective request analysis](workflows/parallel-intent-analysis.md)**
   Complete execution environment for parallel agent deployment to analyze user intent from all perspectives and generate structured analysis for orchestrator consumption.
 
 #### Multi-Analysis Commands
-- **[Execute multi-analysis-execution.md for comprehensive multi-perspective analysis with JSON synthesis](orchestration/multi-analysis-execution.md)**
+- **[Execute multi-analysis-execution.md for comprehensive multi-perspective analysis with JSON synthesis](workflows/multi-analysis-execution.md)**
   Complete execution environment for deploying specialized analysis agents, generating JSON outputs, synthesizing consolidated reports, and providing orchestrator decision-making guidance.
 
 ### Workflow Phase Commands
-- **[Execute 1-clarify.md for requirement understanding](workflow/1-clarify.md)**
+- **[Execute 1-clarify.md for requirement understanding](workflows/1-clarify.md)**
   Execute Phase 1 workflow: Establish complete request understanding and success criteria through systematic clarification methodology.
 
-- **[Execute 2-explore.md for context gathering](workflow/2-explore.md)**
+- **[Execute 2-explore.md for context gathering](workflows/2-explore.md)**
   Execute Phase 2 workflow: Gather comprehensive contextual information through systematic exploration of codebase, documentation, and dependencies.
 
-- **[Execute 3-analyze.md for solution frameworks](workflow/3-analyze.md)**
+- **[Execute 3-analyze.md for solution frameworks](workflows/3-analyze.md)**
   Execute Phase 3 workflow: Transform exploration findings into actionable solution frameworks through comprehensive analysis.
 
-- **[Execute 4-present-solutions.md for decision facilitation](workflow/4-present-solutions.md)**
+- **[Execute 4-present-solutions.md for decision facilitation](workflows/4-present-solutions.md)**
   Execute Phase 4 workflow: Enable informed decision-making through structured dialogue and comparative solution presentation.
 
-- **[Execute 5-plan.md for implementation design](workflow/5-plan.md)**
+- **[Execute 5-plan.md for implementation design](workflows/5-plan.md)**
   Execute Phase 5 workflow: Design atomic, hierarchical implementation approach with agent coordination and task breakdown.
 
-- **[Execute 6-implement.md for agent-based execution](workflow/6-implement.md)**
+- **[Execute 6-implement.md for agent-based execution](workflows/6-implement.md)**
   Execute Phase 6 workflow: Execute planned solution through specialized agent deployment with quality oversight and coordination.
 
-- **[Execute 7-ripple-effect.md for consequence management](workflow/7-ripple-effect.md)**
+- **[Execute 7-ripple-effect.md for consequence management](workflows/7-ripple-effect.md)**
   Execute Phase 7 workflow: Manage implementation consequences and dependencies through systematic impact analysis and updates.
 
-- **[Execute 8-validate.md for completion verification](workflow/8-validate.md)**
+- **[Execute 8-validate.md for completion verification](workflows/8-validate.md)**
   Execute Phase 8 workflow: Verify completion against established success criteria through comprehensive validation methodology.
 
 ### Workflow Support Commands
-- **[Execute 9-debug.md for troubleshooting](workflow/9-debug.md)**
+- **[Execute 9-debug.md for troubleshooting](workflows/9-debug.md)**
   Diagnose and resolve workflow execution issues, blockages, and quality problems through systematic diagnostic analysis.
 
-- **[Execute 10-recurse.md for iterative improvement](workflow/10-recurse.md)**
+- **[Execute 10-recurse.md for iterative improvement](workflows/10-recurse.md)**
   Execute workflow recursion for iterative improvement and requirement evolution through intelligent iteration strategies.
 
 ### Analysis Commands
-- **[Execute system-audit.md for comprehensive examination with auto-ticket generation](analysis/system-audit.md)**
+- **[Execute system-audit.md for comprehensive examination with auto-ticket generation](workflows/system-audit.md)**
   Perform systematic analysis of system files, identify violations, inefficiencies, and automatically generate actionable improvement tickets with registry integration.
 
-- **[Execute audit-commands.md for command analysis](analysis/audit-commands.md)**
+- **[Execute audit-commands.md for command analysis](workflows/audit-commands.md)**
   Audit and review existing commands for concatenation and modularization opportunities through systematic pattern analysis.
 
-- **[Deploy analyze-dependencies.md for intelligent planning](analysis/analyze-dependencies.md)**
+- **[Deploy analyze-dependencies.md for intelligent planning](workflows/analyze-dependencies.md)**
   Analyze ticket dependencies, detect conflicts, and generate optimized parallel execution plans for efficient task completion.
 
-- **[Apply modularize.md for component extraction](analysis/modularize.md)**
+- **[Apply modularize.md for component extraction](workflows/modularize.md)**
   Generate tickets for modularization opportunities and refactor code into modular, reusable components using systematic analysis.
 
-- **[Execute system-evolve.md for evolutionary coherence](analysis/system-evolve.md)**
+- **[Execute system-evolve.md for evolutionary coherence](workflows/system-evolve.md)**
   Analyze system inconsistencies, align components with current changes, and ensure coherence across the entire system through evolutionary improvement identification.
 
 ### Execution Commands  
@@ -124,13 +137,13 @@ execution_mode: "integrated"
   Review pending tickets by priority, assess execution readiness, and systematically execute the highest priority task using workflow methodology.
 
 ### Composition Commands
-- **[Execute complete-analysis.md for comprehensive workflows](composition/complete-analysis.md)**
+- **[Execute complete-analysis.md for comprehensive workflows](workflows/complete-analysis.md)**
   Pre-built command composition for end-to-end system analysis through coordinated workflow phases and specialized analysis commands.
 
-- **[Execute optimization-cycle.md for iterative improvement](composition/optimization-cycle.md)**
+- **[Execute optimization-cycle.md for iterative improvement](workflows/optimization-cycle.md)**
   Pre-built command composition for iterative system optimization through recursive workflow improvement and quality enhancement.
 
-- **[Execute parallel-development.md for coordinated execution](composition/parallel-development.md)**
+- **[Execute parallel-development.md for coordinated execution](workflows/parallel-development.md)**
   Pre-built command composition for coordinated parallel development workflows with intelligent dependency management.
 
 [⬆ Return to top](#commands-index)
@@ -158,7 +171,7 @@ execution_mode: "integrated"
 - `modularize`: Pattern discovery and component extraction
 - `system-evolve`: Evolutionary coherence and system-wide alignment analysis
 
-### Orchestration Commands (`orchestration/`)
+### Orchestration Commands (`workflows/`)
 - `parallel-intent-analysis`: Multi-perspective user request analysis with parallel agent deployment
 - `multi-analysis-execution`: Comprehensive multi-perspective analysis with JSON synthesis and report generation
 
@@ -172,7 +185,7 @@ execution_mode: "integrated"
 - `init-claude-md`: Project CLAUDE.md file generation with framework integration
 - `review-tickets`: Priority-based ticket execution and planning
 
-### Composition Commands (`composition/`)
+### Composition Commands (`workflows/`)
 - `complete-analysis`: End-to-end analysis workflow automation
 - `optimization-cycle`: Iterative quality improvement workflows
 - `parallel-development`: Coordinated parallel development workflows
@@ -286,26 +299,31 @@ Each command defines specific phase implementations while maintaining core workf
 - [Apply formatting.md documentation standards](../docs/principles/formatting.md)
 - [Use command-template.md new command creation](../docs/templates/command-template.md)
 
+### Restructuring Documentation
+- [Command Reference Matrix](COMMAND_REFERENCE_MATRIX.md) - Intelligent command selection guidance
+- [Agent Workflow Mapping](AGENT_WORKFLOW_MAPPING.md) - Comprehensive agent deployment guidance
+- [Restructuring Registry](RESTRUCTURING_TICKET_REGISTRY.md) - Complete restructuring documentation
+
 ### Workflow Command Files
-- [Execute 1-clarify.md for requirement understanding](workflow/1-clarify.md)
-- [Execute 2-explore.md for context gathering](workflow/2-explore.md)
-- [Execute 3-analyze.md for solution frameworks](workflow/3-analyze.md)
-- [Execute 4-present-solutions.md for decision facilitation](workflow/4-present-solutions.md)
-- [Execute 5-plan.md for implementation design](workflow/5-plan.md)
-- [Execute 6-implement.md for agent-based execution](workflow/6-implement.md)
-- [Execute 7-ripple-effect.md for consequence management](workflow/7-ripple-effect.md)
-- [Execute 8-validate.md for completion verification](workflow/8-validate.md)
+- [Execute 1-clarify.md for requirement understanding](workflows/1-clarify.md)
+- [Execute 2-explore.md for context gathering](workflows/2-explore.md)
+- [Execute 3-analyze.md for solution frameworks](workflows/3-analyze.md)
+- [Execute 4-present-solutions.md for decision facilitation](workflows/4-present-solutions.md)
+- [Execute 5-plan.md for implementation design](workflows/5-plan.md)
+- [Execute 6-implement.md for agent-based execution](workflows/6-implement.md)
+- [Execute 7-ripple-effect.md for consequence management](workflows/7-ripple-effect.md)
+- [Execute 8-validate.md for completion verification](workflows/8-validate.md)
 
 ### Workflow Support Command Files
-- [Execute 9-debug.md for troubleshooting](workflow/9-debug.md)
-- [Execute 10-recurse.md for iterative improvement](workflow/10-recurse.md)
+- [Execute 9-debug.md for troubleshooting](workflows/9-debug.md)
+- [Execute 10-recurse.md for iterative improvement](workflows/10-recurse.md)
 
 ### Analysis Command Files
-- [Execute system-audit.md for system analysis](analysis/system-audit.md)
-- [Execute audit-commands.md for command analysis](analysis/audit-commands.md)
-- [Deploy analyze-dependencies.md for mapping](analysis/analyze-dependencies.md)
-- [Apply modularize.md for component extraction](analysis/modularize.md)
-- [Execute system-evolve.md for evolutionary coherence](analysis/system-evolve.md)
+- [Execute system-audit.md for system analysis](workflows/system-audit.md)
+- [Execute audit-commands.md for command analysis](workflows/audit-commands.md)
+- [Deploy analyze-dependencies.md for mapping](workflows/analyze-dependencies.md)
+- [Apply modularize.md for component extraction](workflows/modularize.md)
+- [Execute system-evolve.md for evolutionary coherence](workflows/system-evolve.md)
 
 ### Execution Command Files
 - [Execute execute-ticket.md for specific completion](execution/execute-ticket.md)
@@ -318,8 +336,8 @@ Each command defines specific phase implementations while maintaining core workf
 - [Execute review-tickets.md for priority-based execution](management/review-tickets.md)
 
 ### Composition Command Files
-- [Execute complete-analysis.md for comprehensive workflows](composition/complete-analysis.md)
-- [Execute optimization-cycle.md for iterative improvement](composition/optimization-cycle.md)
-- [Execute parallel-development.md for coordinated execution](composition/parallel-development.md)
+- [Execute complete-analysis.md for comprehensive workflows](workflows/complete-analysis.md)
+- [Execute optimization-cycle.md for iterative improvement](workflows/optimization-cycle.md)
+- [Execute parallel-development.md for coordinated execution](workflows/parallel-development.md)
 
 [⬆ Return to top](#commands-index)

@@ -889,8 +889,8 @@ volumes:
 ```javascript
 const claudeIntegration = {
     watchDirectories: [
-        '/claude-data/docs/planning/tickets',
-        '/claude-data/docs/planning/TICKET_REGISTRY.md',
+        '/claude-data/planning/tickets',
+        '/claude-data/planning/TICKET_REGISTRY.md',
         '/claude-data/operations',
         '/claude-data/commands'
     ],

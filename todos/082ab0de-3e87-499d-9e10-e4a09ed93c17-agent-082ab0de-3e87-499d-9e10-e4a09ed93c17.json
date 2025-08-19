@@ -26,12 +26,12 @@
   },
   {
     "content": "Build composable commands that can use other commands",
-    "status": "in_progress",
+    "status": "completed",
     "id": "6"
   },
   {
     "content": "Create consolidated workflows directory",
-    "status": "pending",
+    "status": "in_progress",
     "id": "7"
   },
   {

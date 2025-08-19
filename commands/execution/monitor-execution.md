@@ -3,7 +3,7 @@ title: "Monitor Execution Command"
 author: "Claude Code System"
 date: "2025-08-18"
 version: "1.0.0"
-dependencies: ["execute-parallel-plan.md", "../docs/planning/components/ticket-parallel-executor.md", "../docs/principles/workflow.md"]
+dependencies: ["execute-parallel-plan.md", "../planning/components/ticket-parallel-executor.md", "../docs/principles/workflow.md"]
 prerequisites: ["Active parallel execution", "Agent deployment system", "Real-time monitoring capability"]
 audience: "System operators, project managers, and execution coordinators"
 purpose: "Monitor and control parallel ticket execution with real-time dashboards and intervention capabilities"
@@ -131,7 +131,7 @@ monitor-execution --background --alerts --threshold warning --log monitoring.log
 ### Primary Navigation
 - [Navigate to Documentation Hub](../docs/index.md)
 - [Browse commands index](index.md)
-- [Access TICKET_REGISTRY.md](../docs/planning/TICKET_REGISTRY.md)
+- [Access TICKET_REGISTRY.md](../planning/TICKET_REGISTRY.md)
 
 ### Related Commands
 - [Execute parallel plan](execute-parallel-plan.md)
@@ -139,7 +139,7 @@ monitor-execution --background --alerts --threshold warning --log monitoring.log
 - [Execute individual tickets](execute-ticket.md)
 
 ### Framework References
-- [Study parallel execution framework](../docs/planning/components/ticket-parallel-executor.md)
+- [Study parallel execution framework](../planning/components/ticket-parallel-executor.md)
 - [Apply workflow methodology](../docs/principles/workflow.md)
 - [Follow organization principles](../docs/principles/organization.md)
 

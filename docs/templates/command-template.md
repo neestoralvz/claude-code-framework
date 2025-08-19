@@ -11,7 +11,7 @@ keywords: ["keyword1", "keyword2", "keyword3"]
 last_review: "[YYYY-MM-DD]"
 ---
 
-[Previous: Deploy Previous Command](previous-command.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Deploy Next Command](next-command.md)
+[Previous: Deploy Previous Command](previous-command.md) | [Return to Documentation Hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Deploy Next Command](next-command.md)
 
 # [COMMAND NAME] COMMAND
 
@@ -102,7 +102,7 @@ command-name --flag example-args
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
 - [Browse commands index](index.md)
-- [Study PRINCIPLES.md](../PRINCIPLES.md)
+- [Study PRINCIPLES.md](principles/PRINCIPLES.md)
 
 ### Related Commands
 - [Related command 1](command1.md)

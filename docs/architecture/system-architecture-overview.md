@@ -3,7 +3,7 @@ title: "System Architecture Overview"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["command-consolidation-architecture.md", "agent-orchestration-framework.md", "../components/core-framework/", "../principles/directive.md"]
+dependencies: ["command-consolidation-architecture.md", "agent-orchestration-framework.md", "../templates/templates/components/core-framework/", "../principles/directive.md"]
 prerequisites: ["Understanding of command-centered architecture", "SOLID principles knowledge", "Framework component familiarity"]
 audience: "System architects, developers, framework maintainers, and integration specialists"
 purpose: "Comprehensive system architecture overview synthesizing all framework components, integration patterns, and design principles"
@@ -12,7 +12,7 @@ last_review: "2025-08-19"
 authority_scope: "Complete system architecture, cross-component integration, and overall framework design patterns"
 ---
 
-[Previous: Agent Orchestration Framework](agent-orchestration-framework.md) | [Return to Documentation Hub](../index.md) | [Study Command Consolidation](command-consolidation-architecture.md) | [Next: Browse Architecture Components](../components/core-framework/)
+[Previous: Agent Orchestration Framework](agent-orchestration-framework.md) | [Return to Documentation Hub](../index.md) | [Study Command Consolidation](command-consolidation-architecture.md) | [Next: Browse Architecture Components](../templates/templates/components/core-framework/)
 
 # SYSTEM ARCHITECTURE OVERVIEW
 
@@ -167,7 +167,7 @@ authority_scope: "Complete system architecture, cross-component integration, and
 ### Component Architecture
 
 ```
-Core Framework (docs/components/core-framework/)
+Core Framework (docs/templates/components/core-framework/)
 ├── command-architecture.md     # Execution environments & patterns
 ├── command-selection.md        # Decision frameworks & mapping
 ├── session-management.md       # Initialization & context handling
@@ -179,43 +179,43 @@ Core Framework (docs/components/core-framework/)
 
 ### Component Relationships
 
-#### **[Command Architecture](../components/core-framework/command-architecture.md)**
+#### **[Command Architecture](../templates/templates/components/core-framework/command-architecture.md)**
 - **Authority**: Command execution patterns and complete execution environments
 - **Provides**: Command-centered execution framework with embedded principles
 - **Integrates**: Agent deployment, validation systems, workflow methodology
 - **Benefits**: Complete workflows, automatic quality assurance, systematic execution
 
-#### **[Command Selection](../components/core-framework/command-selection.md)**
+#### **[Command Selection](../templates/templates/components/core-framework/command-selection.md)**
 - **Authority**: Decision frameworks and task-to-command mapping strategies
 - **Provides**: Systematic command selection and optimization criteria
 - **Integrates**: Command architecture, user requirements, complexity assessment
 - **Benefits**: Optimal command choice, efficient task execution, decision transparency
 
-#### **[Session Management](../components/core-framework/session-management.md)**
+#### **[Session Management](../templates/templates/components/core-framework/session-management.md)**
 - **Authority**: Streamlined session startup and context management patterns
 - **Provides**: Automatic integration features and initialization protocols
 - **Integrates**: Principle loading, component activation, system verification
 - **Benefits**: Simplified initialization, context preservation, integration automation
 
-#### **[Quality Integration](../components/core-framework/quality-integration.md)**
+#### **[Quality Integration](../templates/templates/components/core-framework/quality-integration.md)**
 - **Authority**: Embedded validation systems and automatic quality assurance
 - **Provides**: Four-gate validation framework and compliance automation
 - **Integrates**: Command execution, principle adherence, system monitoring
 - **Benefits**: Automatic validation, embedded compliance, quality without overhead
 
-#### **[Compliance Framework](../components/core-framework/compliance-framework.md)**
+#### **[Compliance Framework](../templates/templates/components/core-framework/compliance-framework.md)**
 - **Authority**: Automatic principle application and framework enforcement
 - **Provides**: Seamless compliance without coordination overhead
 - **Integrates**: Principle integration, quality systems, validation frameworks
 - **Benefits**: Automatic adherence, framework consistency, compliance transparency
 
-#### **[Navigation Hub](../components/core-framework/navigation-hub.md)**
+#### **[Navigation Hub](../templates/templates/components/core-framework/navigation-hub.md)**
 - **Authority**: Framework access patterns and navigation guidance
 - **Provides**: Context-aware access to all framework components
 - **Integrates**: Documentation system, command selection, user guidance
 - **Benefits**: Efficient navigation, framework discoverability, access optimization
 
-#### **[Command Flow Triggers](../components/core-framework/command-flow-triggers.md)**
+#### **[Command Flow Triggers](../templates/templates/components/core-framework/command-flow-triggers.md)**
 - **Authority**: Execution automation and Claude Code workflow integration
 - **Provides**: Automated trigger conditions and execution flows
 - **Integrates**: Command architecture, agent orchestration, quality systems
@@ -377,7 +377,7 @@ Algorithm:
 
 ### Component Organization
 
-#### **Core Implementation Components** (`docs/components/`)
+#### **Core Implementation Components** (`docs/templates/components/`)
 ```
 Component Categories:
 ├── core-framework/           # Authoritative framework components
@@ -494,7 +494,7 @@ Principle Authority Levels:
 #### **Philosophy vs Implementation Separation**
 ```
 Separation Model:
-PRINCIPLES (docs/principles/) → COMPONENTS (docs/components/) → COMMANDS/AGENTS
+PRINCIPLES (docs/principles/) → COMPONENTS (docs/templates/components/) → COMMANDS/AGENTS
      ↓                              ↓                           ↓
   Philosophy                    Implementation              Execution
   "WHY & WHAT"                  "HOW"                      "WHEN & WHERE"
@@ -1424,12 +1424,12 @@ Technology Benefits:
 - **[Decision Matrix Specifications](decision-matrix-specifications.md)** - Decision framework and selection criteria
 
 ### Core Framework Components
-- **[Command Architecture](../components/core-framework/command-architecture.md)** - Complete execution environments and patterns
-- **[Command Selection](../components/core-framework/command-selection.md)** - Decision frameworks and selection strategies
-- **[Session Management](../components/core-framework/session-management.md)** - Initialization and context management
-- **[Quality Integration](../components/core-framework/quality-integration.md)** - Embedded validation and compliance systems
-- **[Compliance Framework](../components/core-framework/compliance-framework.md)** - Automatic principle application
-- **[Navigation Hub](../components/core-framework/navigation-hub.md)** - Framework access and navigation patterns
+- **[Command Architecture](../templates/templates/components/core-framework/command-architecture.md)** - Complete execution environments and patterns
+- **[Command Selection](../templates/templates/components/core-framework/command-selection.md)** - Decision frameworks and selection strategies
+- **[Session Management](../templates/templates/components/core-framework/session-management.md)** - Initialization and context management
+- **[Quality Integration](../templates/templates/components/core-framework/quality-integration.md)** - Embedded validation and compliance systems
+- **[Compliance Framework](../templates/templates/components/core-framework/compliance-framework.md)** - Automatic principle application
+- **[Navigation Hub](../templates/templates/components/core-framework/navigation-hub.md)** - Framework access and navigation patterns
 
 ### SOLID Implementation
 - **[SOLID Architecture](../../commands/SOLID_ARCHITECTURE.md)** - Complete SOLID-compliant command framework

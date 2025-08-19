@@ -475,8 +475,8 @@ generate_principle \
 - [Study Engineering Standards](../../principles/engineering.md)
 
 ### Implementation Support
-- [Access Implementation Components](../../components/)
-- [Study Validation Framework](../../components/validation-framework-components.md)
-- [Review Quality Assurance](../../components/pattern-consistency-validation.md)
+- [Access Implementation Components](../../templates/templates/components/)
+- [Study Validation Framework](../../templates/templates/components/validation-framework-components.md)
+- [Review Quality Assurance](../../templates/templates/components/pattern-consistency-validation.md)
 
 [⬆ Return to top](#principle-pattern-generator-template)

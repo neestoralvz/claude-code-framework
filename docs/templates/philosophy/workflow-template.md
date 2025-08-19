@@ -128,7 +128,7 @@ last_review: "[YYYY-MM-DD]"
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
 - [Study workflow.md for authority](../principles/workflow.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse commands for tools](../../commands/index.md)
 
 ### Related Workflows
@@ -141,7 +141,7 @@ last_review: "[YYYY-MM-DD]"
 - [Use engineering.md for technical standards](../principles/engineering.md)
 
 ### Related Components
-- [Apply workflow-phases.md for detailed execution](../components/workflow-phases.md)
+- [Apply workflow-phases.md for detailed execution](../templates/templates/components/workflow-phases.md)
 - [Use validation-methodology.md for verification](../principles/validation.md#validation-methodology)
 
 [⬆ Return to top](#workflow-name)

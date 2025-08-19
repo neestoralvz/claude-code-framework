@@ -11,7 +11,7 @@ keywords: ["[keyword1]", "[keyword2]", "[keyword3]"]
 last_review: "[YYYY-MM-DD]"
 ---
 
-[Previous: [previous-context](previous-link.md) | [Return to hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: [next-context](next-link.md)
+[Previous: [previous-context](previous-link.md) | [Return to hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: [next-context](next-link.md)
 
 # [PRINCIPLE NAME]
 
@@ -86,7 +86,7 @@ last_review: "[YYYY-MM-DD]"
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Previous principle context](previous-principle.md)
 - [Next principle context](next-principle.md)
 
@@ -96,7 +96,7 @@ last_review: "[YYYY-MM-DD]"
 - [Study related principle 3](related-principle-3.md)
 
 ### Related Components
-- [Apply related component 1](../components/component-1.md)
-- [Use related component 2](../components/component-2.md)
+- [Apply related component 1](../templates/templates/components/component-1.md)
+- [Use related component 2](../templates/templates/components/component-2.md)
 
 [⬆ Return to top](#principle-name)

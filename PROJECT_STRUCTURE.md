@@ -97,7 +97,7 @@ This document outlines the complete structure of the Claude operational framewor
 │   ├── code-modularization-specialist.md # File complexity analysis and systematic code architecture restructuring
 │   └── report-generator.md      # Multi-analysis synthesis and report generation agent
 │
-├── docs/commands/               # Enhanced command definitions with integrated architecture
+├── commands-docs/               # Enhanced command definitions with integrated architecture
 │   ├── index.md                # Enhanced command index with command-centered architecture
 │   ├── README.md               # Commands folder structure and usage guide
 │   ├── templates/              # Enhanced command templates
@@ -363,8 +363,8 @@ This document outlines the complete structure of the Claude operational framewor
 - **docs/agents-documentation/**: Complete agent architecture documentation and templates
 
 ### Command System  
-- **docs/commands/index.md**: Central command registry and usage guide (comprehensive command catalog)
-- **docs/commands/README.md**: Commands folder structure and organizational guide
+- **commands-docs/index.md**: Central command registry and usage guide (comprehensive command catalog)
+- **commands-docs/README.md**: Commands folder structure and organizational guide
 - **docs/COMMANDS.md**: Detailed command system documentation
 
 ### Documentation Hub
@@ -372,10 +372,10 @@ This document outlines the complete structure of the Claude operational framewor
 - **docs/PRINCIPLES.md**: Core operational principles
 
 ### Planning System
-- **docs/planning/TICKET_REGISTRY.md**: Ticket tracking and management dashboard
-- **docs/planning/TICKET_METHODOLOGY.md**: Comprehensive ticket management methodology
-- **docs/planning/templates/**: Planning templates (tickets, status reports)
-- **docs/planning/tickets/**: Organized ticket storage (completed/pending/resolved)
+- **planning/TICKET_REGISTRY.md**: Ticket tracking and management dashboard
+- **planning/TICKET_METHODOLOGY.md**: Comprehensive ticket management methodology
+- **planning/templates/**: Planning templates (tickets, status reports)
+- **planning/tickets/**: Organized ticket storage (completed/pending/resolved)
 
 ### Templates
 - **docs/templates/**: Standardized templates for various document types
@@ -404,7 +404,7 @@ This document outlines the complete structure of the Claude operational framewor
 
 Each category maintains clear agent boundaries with specialized expertise and systematic validation protocols.
 
-### /docs/commands/
+### /commands-docs/
 Houses organized command definitions across multiple categories:
 - **generation/**: Comprehensive pattern generation framework with unified orchestration
 - **workflow/**: 8-phase workflow implementation commands
@@ -436,7 +436,7 @@ Key scripts:
 2. **Principles**: Review docs/PRINCIPLES.md before making changes
 3. **Templates**: Use appropriate templates from docs/templates/ for new content
 4. **Agents**: Deploy agents from /agents/ for complex multi-step tasks
-5. **Commands**: Execute commands from /docs/commands/ for specific operations
+5. **Commands**: Execute commands from /commands-docs/ for specific operations
 
 ## File Count Summary
 - Agents: 32 main files + 9 components (includes 3 new analytics agents + report-generator + AGENT-006 + dependency-analysis-specialist + complexity-reduction-specialist + over-engineering-detector)
@@ -450,14 +450,14 @@ Key scripts:
 
 ## Fixed File Placement Issues
 - Removed redundant `/tickets/` directory structure
-- All tickets now properly organized in `/docs/planning/tickets/`
+- All tickets now properly organized in `/planning/tickets/`
 - Eliminated duplicate ticket file locations
 - Maintained single source of truth for ticket organization
 ## Monitoring System Infrastructure
 
 ### Commands - Monitoring Category
 ```
-docs/commands/monitoring/
+commands-docs/monitoring/
 ├── index.md                    # Monitoring commands navigation and selection guide
 └── system-monitor.md          # Comprehensive real-time system health monitoring framework
 ```
@@ -482,8 +482,8 @@ operations/monitoring/
 ### Monitoring System Integration Points
 
 **Framework Integration:**
-- Integrates with `docs/commands/enforcement/command-reference-matrix.md` for automatic remediation
-- Coordinates with `docs/commands/validation/protocol-compliance-verifier.md` for real-time compliance checking
+- Integrates with `commands-docs/enforcement/command-reference-matrix.md` for automatic remediation
+- Coordinates with `commands-docs/validation/protocol-compliance-verifier.md` for real-time compliance checking
 - Provides performance data for intelligent command selection optimization
 - Supports framework-wide performance monitoring and optimization
 

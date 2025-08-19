@@ -1,6 +1,6 @@
 The most important rule for working with Claude Code. Follow this directive before anything else to understand how to execute tasks properly.
 
-**Quick Links**: [Workflow Guide](workflow.md) | [Main Guide](../../CLAUDE.md) | [All Principles](../PRINCIPLES.md) | [Basic Methodology](fundamental.md)
+**Quick Links**: [Workflow Guide](workflow.md) | [Main Guide](../../CLAUDE.md) | [All Principles](principles/PRINCIPLES.md) | [Basic Methodology](fundamental.md)
 
 # The Most Important Rule
 

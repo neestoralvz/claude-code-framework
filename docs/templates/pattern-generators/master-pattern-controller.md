@@ -14,7 +14,7 @@ automation_level: "comprehensive"
 orchestration_scope: "framework_wide"
 ---
 
-[Previous: Study Agent Generator](agent-generator-template.md) | [Return to Pattern Hub](../index.md) | [Study Orchestration Framework](../../components/orchestration-protocols.md) | [Next: Deploy Pattern System](../../commands/generation/)
+[Previous: Study Agent Generator](agent-generator-template.md) | [Return to Pattern Hub](../index.md) | [Study Orchestration Framework](../../templates/templates/components/orchestration-protocols.md) | [Next: Deploy Pattern System](../../commands/generation/)
 
 # MASTER PATTERN CONTROLLER TEMPLATE
 
@@ -454,9 +454,9 @@ master_controller \
 - [Access Component Generator Template](component-generator-template.md)
 
 ### Orchestration Framework
-- [Study Orchestration Protocols](../../components/orchestration-protocols.md)
-- [Review Coordination Strategies](../../components/parallel-agent-coordination.md)
-- [Access Quality Framework](../../components/validation-framework-components.md)
+- [Study Orchestration Protocols](../../templates/templates/components/orchestration-protocols.md)
+- [Review Coordination Strategies](../../templates/templates/components/parallel-agent-coordination.md)
+- [Access Quality Framework](../../templates/templates/components/validation-framework-components.md)
 
 ### Framework Integration
 - [Apply Workflow Methodology](../../principles/workflow.md)

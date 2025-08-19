@@ -101,7 +101,7 @@ categorize_broken_links() {
     # Categories: command, navigation, workflow, registry, component
     case "$link_target" in
         commands/*) category="command" ;;
-        docs/planning/*) category="registry" ;;
+        planning/*) category="registry" ;;
         *breadcrumb*|*navigation*) category="navigation" ;;
         *workflow*|*methodology*) category="workflow" ;;
         docs/components/*) category="component" ;;

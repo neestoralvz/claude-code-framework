@@ -476,7 +476,7 @@ async validateClaudeIntegration() {
         }
         
         // Test registry file access
-        const registryCheck = await exec('docker exec ticket-dashboard-app test -f /claude-data/docs/planning/TICKET_REGISTRY.md');
+        const registryCheck = await exec('docker exec ticket-dashboard-app test -f /claude-data/planning/TICKET_REGISTRY.md');
         
         // Test write access
         const writeTest = await exec('docker exec ticket-dashboard-app touch /claude-data/.write-test && docker exec ticket-dashboard-app rm /claude-data/.write-test');

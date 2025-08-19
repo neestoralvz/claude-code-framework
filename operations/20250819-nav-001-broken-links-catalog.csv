@@ -123,502 +123,502 @@ navigation,medium,docs/agent-capability-matrix.md,192,Use system-auditor for sta
 navigation,medium,docs/agent-capability-matrix.md,193,Apply validation-engineer for quality methodology,../agents/validation-engineer.md,BROKEN,Navigation disruption in navigation system
 other,low,docs/integration/analytics-agent-deployment-guide.md,16,Return to Integration Hub,index.md,BROKEN,Navigation disruption in other system
 workflow,low,docs/integration/analytics-agent-deployment-guide.md,16,Next: Multi-Analysis Workflows,multi-analysis-workflows.md,BROKEN,Navigation disruption in workflow system
-registry,medium,docs/planning/TICKET_REGISTRY.md,58,Comprehensive Link Audit,tickets/pending/nav-001-comprehensive-link-audit.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,59,Link Scanner Script,tickets/pending/nav-002-link-scanner-script.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,60,Link Updater Script,tickets/pending/nav-003-link-updater-script.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,63,Pattern Generation Framework,tickets/completed/agent-creation-002-pattern-generation-framework.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,73,Pattern Generation Framework,tickets/completed/agent-creation-002-pattern-generation-framework.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,77,Breadcrumb Generator Script,tickets/pending/nav-004-breadcrumb-generator-script.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,78,Registry Validator Script,tickets/pending/nav-005-registry-validator-script.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,79,Workflow Fixer Script,tickets/pending/nav-006-workflow-fixer-script.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,80,Integrity Monitor System,tickets/pending/nav-007-integrity-monitor-system.md,BROKEN,Navigation disruption in registry system
-registry,medium,docs/planning/TICKET_REGISTRY.md,81,Automated Link Maintenance Principle,tickets/pending/nav-008-automated-link-maintenance-principle.md,BROKEN,Navigation disruption in registry system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,18,Next: Browse active tickets,../../TICKET_REGISTRY.md#active-tickets---immediate-attention,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,161,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,162,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,163,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,229,agent-capability-matrix.md,../../agent-capability-matrix.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,230,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-004-agent-capability-overlap.md,249,View completed tickets,../../TICKET_REGISTRY.md#completed-tickets,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,26,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,26,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,81,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,91,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,92,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,95,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,96,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,97,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,23,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-workflow,low,docs/planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,89,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-workflow,low,docs/planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,100,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,101,task-orchestration.md,../../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,102,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,25,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,25,modular-design-patterns.md,../../components/modular-design-patterns.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,57,audit-framework-components.md,../../components/audit-framework-components.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,58,validation-framework-components.md,../../components/validation-framework-components.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,59,auto-ticket-generation-framework.md,../../components/auto-ticket-generation-framework.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,60,architecture-documentation-templates.md,../../components/architecture-documentation-templates.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,153,Final Optimized File,/Users/nalve/.claude/commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,158,Simplicity Principle,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,159,Modular Design Patterns,../../components/modular-design-patterns.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,160,Component Integration Guidelines,../../components/command-architecture-patterns.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/007-footer-navigation.md,24,Back to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/consolidation-002-initialization-sequences.md,129,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/consolidation-002-initialization-sequences.md,130,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/consolidation-002-initialization-sequences.md,131,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/agent-001-ticket-executor-agent.md,24,agent-selection.md mandatory requirements,../../docs/principles/agent-selection.md#ticket-generation-requirements,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/agent-001-ticket-executor-agent.md,96,agent-definition.md,../../docs/principles/agent-definition.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/agent-001-ticket-executor-agent.md,96,engineering.md,../../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
-command,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Previous: Study Enhanced Create Ticket,../../commands/management/create-ticket.md,BROKEN,Navigation disruption in command system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Return to Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Study Architecture Patterns,../../components/command-architecture-patterns.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,458,Study Enhanced Command Architecture,../../commands/templates/enhanced-command-template.md,BROKEN,Navigation disruption in command system
-navigation,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,459,Review Command-Centered Architecture,../../docs/components/command-architecture-patterns.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,460,Access Validation Framework,../../docs/components/validation-framework.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,463,ARCH-001: Command-Centered Architecture Integration,completed/arch-001-command-centered-architecture.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,465,Study Agent Selection Principles,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,468,Return to CLAUDE.md ULTIMATE AUTHORITY,../../CLAUDE.md,BROKEN,Navigation disruption in other system
-workflow,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,469,Study Workflow Methodology,../../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
-navigation,high,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,470,Access Engineering Standards,../../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,473,Update TICKET_REGISTRY.md,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,474,Synchronize PROJECT_STRUCTURE.md,../../PROJECT_STRUCTURE.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,475,Review Ticket Methodology,../TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,23,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,104,"Previous:"" docs/ commands/ | head -10
+registry,medium,planning/TICKET_REGISTRY.md,58,Comprehensive Link Audit,tickets/pending/nav-001-comprehensive-link-audit.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,59,Link Scanner Script,tickets/pending/nav-002-link-scanner-script.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,60,Link Updater Script,tickets/pending/nav-003-link-updater-script.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,63,Pattern Generation Framework,tickets/completed/agent-creation-002-pattern-generation-framework.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,73,Pattern Generation Framework,tickets/completed/agent-creation-002-pattern-generation-framework.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,77,Breadcrumb Generator Script,tickets/pending/nav-004-breadcrumb-generator-script.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,78,Registry Validator Script,tickets/pending/nav-005-registry-validator-script.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,79,Workflow Fixer Script,tickets/pending/nav-006-workflow-fixer-script.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,80,Integrity Monitor System,tickets/pending/nav-007-integrity-monitor-system.md,BROKEN,Navigation disruption in registry system
+registry,medium,planning/TICKET_REGISTRY.md,81,Automated Link Maintenance Principle,tickets/pending/nav-008-automated-link-maintenance-principle.md,BROKEN,Navigation disruption in registry system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,18,Next: Browse active tickets,../../TICKET_REGISTRY.md#active-tickets---immediate-attention,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,161,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,162,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,163,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,229,agent-capability-matrix.md,../../agent-capability-matrix.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,230,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-004-agent-capability-overlap.md,249,View completed tickets,../../TICKET_REGISTRY.md#completed-tickets,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,26,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,26,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,81,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,91,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,92,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,95,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,96,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-004-component-extraction-specialist.md,97,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,23,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+workflow,low,planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,89,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+workflow,low,planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,100,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,101,task-orchestration.md,../../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-006-workflow-coordinator-specialist.md,102,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-005-dependency-analysis-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,25,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,25,modular-design-patterns.md,../../components/modular-design-patterns.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,57,audit-framework-components.md,../../components/audit-framework-components.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,58,validation-framework-components.md,../../components/validation-framework-components.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,59,auto-ticket-generation-framework.md,../../components/auto-ticket-generation-framework.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,60,architecture-documentation-templates.md,../../components/architecture-documentation-templates.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,153,Final Optimized File,/Users/nalve/.claude/commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,158,Simplicity Principle,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,159,Modular Design Patterns,../../components/modular-design-patterns.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-002-oversized-system-audit-command.md,160,Component Integration Guidelines,../../components/command-architecture-patterns.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/007-footer-navigation.md,24,Back to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/consolidation-002-initialization-sequences.md,129,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/consolidation-002-initialization-sequences.md,130,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/consolidation-002-initialization-sequences.md,131,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/agent-001-ticket-executor-agent.md,24,agent-selection.md mandatory requirements,../../docs/principles/agent-selection.md#ticket-generation-requirements,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/agent-001-ticket-executor-agent.md,96,agent-definition.md,../../docs/principles/agent-definition.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/agent-001-ticket-executor-agent.md,96,engineering.md,../../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
+command,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Previous: Study Enhanced Create Ticket,../../commands/management/create-ticket.md,BROKEN,Navigation disruption in command system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Return to Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,20,Study Architecture Patterns,../../components/command-architecture-patterns.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,458,Study Enhanced Command Architecture,../../commands/templates/enhanced-command-template.md,BROKEN,Navigation disruption in command system
+navigation,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,459,Review Command-Centered Architecture,../../docs/components/command-architecture-patterns.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,460,Access Validation Framework,../../docs/components/validation-framework.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,463,ARCH-001: Command-Centered Architecture Integration,completed/arch-001-command-centered-architecture.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,465,Study Agent Selection Principles,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,468,Return to CLAUDE.md ULTIMATE AUTHORITY,../../CLAUDE.md,BROKEN,Navigation disruption in other system
+workflow,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,469,Study Workflow Methodology,../../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
+navigation,high,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,470,Access Engineering Standards,../../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,473,Update TICKET_REGISTRY.md,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,474,Synchronize PROJECT_STRUCTURE.md,../../PROJECT_STRUCTURE.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/pattern-gen-001-comprehensive-pattern-generation-framework.md,475,Review Ticket Methodology,../TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,23,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-004-inconsistent-navigation-patterns.md,104,"Previous:"" docs/ commands/ | head -10
 
 # Verify action verbs in links
 grep -r ""\[.*\",.*\.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Previous: Enhanced Ticket Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Return to Planning Hub,../../index.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Next: Review Tickets Command,../../../commands/management/review-tickets.md,BROKEN,Navigation disruption in command system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,58,agent-selection.md deployment protocols,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,91,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,131,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,160,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,219,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,237,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
-workflow,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,257,Command Workflow Implementation Matrix,../../docs/components/command-workflow-implementation-matrix.md,BROKEN,Navigation disruption in workflow system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,319,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,356,Return to Ticket Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,358,Study Agent Selection Principles,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
-command,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,359,Review Task Tool Integration,../../commands/management/review-tickets.md,BROKEN,Navigation disruption in command system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,362,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,363,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,364,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
-workflow,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,365,Command Workflow Implementation Matrix,../../docs/components/command-workflow-implementation-matrix.md,BROKEN,Navigation disruption in workflow system
-navigation,medium,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,368,Exploration Analyst Specification,../../agents/analytics/exploration-analyst.md,BROKEN,Navigation disruption in navigation system
-navigation,medium,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,369,Research Analyst Specification,../../agents/analytics/research-analyst.md,BROKEN,Navigation disruption in navigation system
-navigation,medium,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,370,Sales Analyst Specification,../../agents/analytics/sales-analyst.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,373,Study CLAUDE.md ULTIMATE AUTHORITY,../../CLAUDE.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,374,Review Agent Selection Methodology,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
-workflow,high,docs/planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,375,Access Integration Framework,../../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,24,organization.md,../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,24,engineering.md,../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
-registry,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,169,Browse ticket registry for related modularization tickets,../docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,173,Study PRINCIPLES.md for framework overview,../docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,174,Apply organization.md for structural principles,../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,175,Follow engineering.md for quality standards,../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,176,Use formatting.md for consistency requirements,../docs/principles/formatting.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,179,Access philosophy templates,../docs/templates/philosophy/index.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/mod-017-core-philosophy-templates.md,180,Study template usage guidelines,../docs/templates/philosophy/index.md#usage-guidelines,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Principles,../docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
-command,high,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Commands,../commands/index.md,BROKEN,Navigation disruption in command system
-navigation,medium,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Agents,../agents/project-optimizer.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Previous: X,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Index,../index.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Principles,../PRINCIPLES.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Next: Y,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-003-principle-load-orders.md,135,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-003-principle-load-orders.md,136,directive.md,../../principles/directive.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-003-principle-load-orders.md,137,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-002-missing-templates-directory.md,19,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-002-missing-templates-directory.md,19,files.md,../../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,23,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,43,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,86,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,87,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,88,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,99,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,100,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,103,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,104,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/mod-018-modularize-organization-component-hub.md,105,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-003-oversized-files-complexity.md,21,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/aud-003-oversized-files-complexity.md,21,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/002-completion-report.md,79,View Next Ticket,../pending/003-workflow-phase-structure.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/consolidation-001-authority-claims.md,18,Next: Browse active tickets,../../TICKET_REGISTRY.md#active-tickets---immediate-attention,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-001-authority-claims.md,130,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-001-authority-claims.md,131,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/consolidation-001-authority-claims.md,132,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,14,Previous: Review TICKET_REGISTRY.md for current status,docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,14,Return to hub for navigation,docs/index.md,BROKEN,Navigation disruption in navigation system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,14,Review methodology for context,docs/planning/TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,14,Next: Examine validation systems package,docs/planning/tickets/pending/migration-006-validation-systems-package.md,BROKEN,Navigation disruption in registry system
-workflow,high,docs/planning/tickets/completed/migration-summary-roadmap.md,20,workflow.md,docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,20,organization.md,docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,704,TICKET_REGISTRY.md,docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,705,TICKET_METHODOLOGY.md,docs/planning/TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in registry system
-other,low,docs/planning/tickets/completed/migration-summary-roadmap.md,706,CLAUDE.md,CLAUDE.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,707,docs/PRINCIPLES.md,docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,708,docs/index.md,docs/index.md,BROKEN,Navigation disruption in navigation system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,711,migration-001-component-consolidation-analysis.md,docs/planning/tickets/completed/migration-001-component-consolidation-analysis.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,712,migration-002-critical-systems-package.md,docs/planning/tickets/completed/migration-002-critical-systems-package.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,713,migration-003-directive-authority-package.md,docs/planning/tickets/completed/migration-003-directive-authority-package.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,714,migration-004-documentation-standards-package.md,docs/planning/tickets/completed/migration-004-documentation-standards-package.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,715,migration-005-navigation-crossref-package.md,docs/planning/tickets/completed/migration-005-navigation-crossref-package.md,BROKEN,Navigation disruption in registry system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,716,migration-006-validation-systems-package.md,docs/planning/tickets/pending/migration-006-validation-systems-package.md,BROKEN,Navigation disruption in registry system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,719,docs/principles/validation.md,docs/principles/validation.md,BROKEN,Navigation disruption in navigation system
-workflow,high,docs/planning/tickets/completed/migration-summary-roadmap.md,720,docs/principles/workflow.md,docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,721,docs/principles/directive.md,docs/principles/directive.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/completed/migration-summary-roadmap.md,722,docs/principles/organization.md,docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-navigation,medium,docs/planning/tickets/completed/migration-summary-roadmap.md,725,agents/migration-specialist.md,agents/migration-specialist.md,BROKEN,Navigation disruption in navigation system
-navigation,medium,docs/planning/tickets/completed/migration-summary-roadmap.md,726,agents/ticket-executor.md,agents/ticket-executor.md,BROKEN,Navigation disruption in navigation system
-navigation,medium,docs/planning/tickets/completed/migration-summary-roadmap.md,727,agents/project-optimizer.md,agents/project-optimizer.md,BROKEN,Navigation disruption in navigation system
-registry,high,docs/planning/tickets/completed/migration-summary-roadmap.md,732,docs/planning/templates/ticket-template.md,docs/planning/templates/ticket-template.md,BROKEN,Navigation disruption in registry system
-other,low,docs/planning/tickets/completed/sys-008-broken-directive-references.md,24,directive.md load order,principles/directive.md#initialization,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-008-broken-directive-references.md,30,directive.md initialization sequence,principles/directive.md#system-startup,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/pattern-gen-001-completion-summary.md,15,directive.md ultimate authority,../../principles/directive.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/pattern-gen-001-completion-summary.md,15,engineering.md quality standards,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,26,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,98,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,99,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,100,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,23,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,88,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,23,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,43,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,86,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,97,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,98,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,102,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-019-clean-backup-directory-validation.md,103,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,29,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,89,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,90,modularize.md,../../commands/analysis/modularize.md,BROKEN,Navigation disruption in command system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,103,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,104,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,107,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,108,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,109,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,80,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-005-circular-references.md,18,Previous: View agent capability overlap ticket,consolidation-004-agent-capability-overlap.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-005-circular-references.md,152,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-005-circular-references.md,153,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-005-circular-references.md,154,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,24,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,82,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,83,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,94,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,97,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,98,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-023-principle-marker-component-system.md,99,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,94,audit system,../../commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
-command,high,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,95,ticket system,../../commands/system/create-ticket.md,BROKEN,Navigation disruption in command system
-workflow,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-001-pattern-management-specialist.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,23,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,78,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,80,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,92,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-agent-001-selection-redundancy.md,97,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,94,documentation system,../../docs/index.md,BROKEN,Navigation disruption in navigation system
-workflow,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,115,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,89,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,93,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-command,high,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,94,audit system,../../commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
-command,high,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,95,ticket execution,../../commands/system/review-tickets.md,BROKEN,Navigation disruption in command system
-workflow,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,80,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-dup-002-table-contents-duplication.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,15,Browse pending tickets,../README.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,15,Next: Review architecture tickets,../category/architecture.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,219,Review pending architecture tickets,../category/architecture.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,220,System audit tickets,../category/system.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,221,Command enhancement tickets,../category/modularization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,226,System architecture patterns,../../../components/architecture-patterns.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,230,Enhanced template patterns,../../../docs/components/command-architecture-patterns.md,BROKEN,Navigation disruption in navigation system
-navigation,high,docs/planning/tickets/pending/arch-001-command-centered-architecture.md,231,Validation frameworks,../../../docs/components/validation-methodology.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,93,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,94,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,95,modularization system,../../commands/system/modularize.md,BROKEN,Navigation disruption in command system
-command,high,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,96,ticket system,../../commands/system/create-ticket.md,BROKEN,Navigation disruption in command system
-workflow,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,114,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,115,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,116,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,94,modularization system,../../commands/system/modularize.md,BROKEN,Navigation disruption in command system
-navigation,medium,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,95,simplicity enforcement,agents/simplicity-enforcement-specialist.md,BROKEN,Navigation disruption in navigation system
-workflow,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-004-component-architecture-specialist.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,89,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-workflow,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,93,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-005-standardize-navigation.md,79,Previous: Action verb for previous,previous.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-005-standardize-navigation.md,79,Return to hub,index.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-005-standardize-navigation.md,79,Study framework,PRINCIPLES.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-005-standardize-navigation.md,79,Next: Action verb for next,next.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-command,high,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,94,command architecture,../../commands/index.md,BROKEN,Navigation disruption in command system
-workflow,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,114,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-005-voice-integration-specialist.md,115,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,24,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,82,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,83,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,94,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,97,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,98,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-022-cross-reference-template-system.md,99,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/006-cross-reference-link-patterns.md,23,Link,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/006-cross-reference-link-patterns.md,24,Reference,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/006-cross-reference-link-patterns.md,25,Method,file.md#section,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/006-cross-reference-link-patterns.md,26,Document,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/006-cross-reference-link-patterns.md,27,Tool,file.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-006-workflow-definitions.md,18,Next: View low priority consolidation tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-006-workflow-definitions.md,143,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/consolidation-006-workflow-definitions.md,144,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/consolidation-006-workflow-definitions.md,145,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-006-workflow-definitions.md,198,View low priority tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-007-business-intelligence-analyst.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-007-business-intelligence-analyst.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-007-business-intelligence-analyst.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-workflow,low,docs/planning/tickets/pending/agent-007-business-intelligence-analyst.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-007-business-intelligence-analyst.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,43,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-command,high,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,86,audit-navigation.md,../../commands/audit-navigation.md,BROKEN,Navigation disruption in command system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,87,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,97,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,98,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,102,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,103,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-navigation,high,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,23,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,43,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,86,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,87,imperative-tone-patterns.md,../components/imperative-tone-patterns.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,88,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,97,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,98,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,102,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/doc-019-imperative-communication-conversion.md,103,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,93,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,23,validation.md,../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,88,validation.md,../principles/validation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,89,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,24,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,81,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,82,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,97,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,78,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,79,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,89,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,90,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,23,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-workflow,low,docs/planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,78,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,90,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,91,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,24,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,81,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,82,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,88,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,89,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,24,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,80,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,81,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,82,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,18,Next: Browse other low priority tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,155,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,156,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,157,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,182,Return to hub,../index.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,182,View related,component.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-008-crossref-architecture.md,221,View other tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-007-orphaned-content.md,151,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-007-orphaned-content.md,152,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/consolidation-007-orphaned-content.md,153,files.md,../../principles/files.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,78,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,79,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,90,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,91,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-integration.md,63,Follow priority guidelines for classification,../guides/priority-guidelines.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-integration.md,64,Use status management for transitions,../guides/status-management.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-parallel-executor.md,14,Next: Review execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-parallel-executor.md,173,Access execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-parallel-executor.md,174,Review monitoring dashboard,ticket-metrics-dashboard.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-parallel-executor.md,175,Study automation scripts,ticket-automation-scripts.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-dependency-analysis.md,240,Review execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/components/ticket-dependency-analysis.md,241,Access automation scripts,ticket-automation-scripts.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/templates/ticket-template.md,23,relevant-principle.md,../principles/relevant-principle.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/templates/ticket-template.md,91,principle-name.md,../principles/principle-name.md,BROKEN,Navigation disruption in other system
-other,low,docs/planning/templates/ticket-template.md,92,principle-name.md,../principles/principle-name.md,BROKEN,Navigation disruption in other system
-workflow,low,docs/planning/templates/ticket-template.md,95,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
-other,low,docs/planning/templates/ticket-template.md,96,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Previous: Enhanced Ticket Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Return to Planning Hub,../../index.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,23,Next: Review Tickets Command,../../../commands/management/review-tickets.md,BROKEN,Navigation disruption in command system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,58,agent-selection.md deployment protocols,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,91,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,131,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,160,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,219,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,237,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
+workflow,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,257,Command Workflow Implementation Matrix,../../docs/components/command-workflow-implementation-matrix.md,BROKEN,Navigation disruption in workflow system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,319,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,356,Return to Ticket Registry,../TICKET_REGISTRY.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,358,Study Agent Selection Principles,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
+command,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,359,Review Task Tool Integration,../../commands/management/review-tickets.md,BROKEN,Navigation disruption in command system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,362,Command Integration Points,../../docs/components/command-integration-points.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,363,Command Success Criteria Framework,../../docs/components/command-success-criteria-framework.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,364,Command Priority Assignment Matrix,../../docs/components/command-priority-assignment-matrix.md,BROKEN,Navigation disruption in navigation system
+workflow,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,365,Command Workflow Implementation Matrix,../../docs/components/command-workflow-implementation-matrix.md,BROKEN,Navigation disruption in workflow system
+navigation,medium,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,368,Exploration Analyst Specification,../../agents/analytics/exploration-analyst.md,BROKEN,Navigation disruption in navigation system
+navigation,medium,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,369,Research Analyst Specification,../../agents/analytics/research-analyst.md,BROKEN,Navigation disruption in navigation system
+navigation,medium,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,370,Sales Analyst Specification,../../agents/analytics/sales-analyst.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,373,Study CLAUDE.md ULTIMATE AUTHORITY,../../CLAUDE.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,374,Review Agent Selection Methodology,../../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
+workflow,high,planning/tickets/completed/int-ana-001-analytics-agents-task-registration.md,375,Access Integration Framework,../../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,24,organization.md,../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,24,engineering.md,../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
+registry,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,169,Browse ticket registry for related modularization tickets,../planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,173,Study PRINCIPLES.md for framework overview,../docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,174,Apply organization.md for structural principles,../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,175,Follow engineering.md for quality standards,../docs/principles/engineering.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,176,Use formatting.md for consistency requirements,../docs/principles/formatting.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,179,Access philosophy templates,../docs/templates/philosophy/index.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/mod-017-core-philosophy-templates.md,180,Study template usage guidelines,../docs/templates/philosophy/index.md#usage-guidelines,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Principles,../docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
+command,high,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Commands,../commands/index.md,BROKEN,Navigation disruption in command system
+navigation,medium,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,26,Agents,../agents/project-optimizer.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Previous: X,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Index,../index.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Principles,../PRINCIPLES.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/002-navigation-breadcrumb-patterns.md,28,Next: Y,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-003-principle-load-orders.md,135,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-003-principle-load-orders.md,136,directive.md,../../principles/directive.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-003-principle-load-orders.md,137,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-002-missing-templates-directory.md,19,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-002-missing-templates-directory.md,19,files.md,../../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,23,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,43,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,86,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,87,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,88,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,99,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,100,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,103,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,104,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/mod-018-modularize-organization-component-hub.md,105,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-003-oversized-files-complexity.md,21,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/aud-003-oversized-files-complexity.md,21,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/002-completion-report.md,79,View Next Ticket,../pending/003-workflow-phase-structure.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/consolidation-001-authority-claims.md,18,Next: Browse active tickets,../../TICKET_REGISTRY.md#active-tickets---immediate-attention,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-001-authority-claims.md,130,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-001-authority-claims.md,131,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/consolidation-001-authority-claims.md,132,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,14,Previous: Review TICKET_REGISTRY.md for current status,planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,14,Return to hub for navigation,docs/index.md,BROKEN,Navigation disruption in navigation system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,14,Review methodology for context,planning/TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,14,Next: Examine validation systems package,planning/tickets/pending/migration-006-validation-systems-package.md,BROKEN,Navigation disruption in registry system
+workflow,high,planning/tickets/completed/migration-summary-roadmap.md,20,workflow.md,docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,20,organization.md,docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,704,TICKET_REGISTRY.md,planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,705,TICKET_METHODOLOGY.md,planning/TICKET_METHODOLOGY.md,BROKEN,Navigation disruption in registry system
+other,low,planning/tickets/completed/migration-summary-roadmap.md,706,CLAUDE.md,CLAUDE.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,707,docs/PRINCIPLES.md,docs/PRINCIPLES.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,708,docs/index.md,docs/index.md,BROKEN,Navigation disruption in navigation system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,711,migration-001-component-consolidation-analysis.md,planning/tickets/completed/migration-001-component-consolidation-analysis.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,712,migration-002-critical-systems-package.md,planning/tickets/completed/migration-002-critical-systems-package.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,713,migration-003-directive-authority-package.md,planning/tickets/completed/migration-003-directive-authority-package.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,714,migration-004-documentation-standards-package.md,planning/tickets/completed/migration-004-documentation-standards-package.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,715,migration-005-navigation-crossref-package.md,planning/tickets/completed/migration-005-navigation-crossref-package.md,BROKEN,Navigation disruption in registry system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,716,migration-006-validation-systems-package.md,planning/tickets/pending/migration-006-validation-systems-package.md,BROKEN,Navigation disruption in registry system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,719,docs/principles/validation.md,docs/principles/validation.md,BROKEN,Navigation disruption in navigation system
+workflow,high,planning/tickets/completed/migration-summary-roadmap.md,720,docs/principles/workflow.md,docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,721,docs/principles/directive.md,docs/principles/directive.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/completed/migration-summary-roadmap.md,722,docs/principles/organization.md,docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+navigation,medium,planning/tickets/completed/migration-summary-roadmap.md,725,agents/migration-specialist.md,agents/migration-specialist.md,BROKEN,Navigation disruption in navigation system
+navigation,medium,planning/tickets/completed/migration-summary-roadmap.md,726,agents/ticket-executor.md,agents/ticket-executor.md,BROKEN,Navigation disruption in navigation system
+navigation,medium,planning/tickets/completed/migration-summary-roadmap.md,727,agents/project-optimizer.md,agents/project-optimizer.md,BROKEN,Navigation disruption in navigation system
+registry,high,planning/tickets/completed/migration-summary-roadmap.md,732,planning/templates/ticket-template.md,planning/templates/ticket-template.md,BROKEN,Navigation disruption in registry system
+other,low,planning/tickets/completed/sys-008-broken-directive-references.md,24,directive.md load order,principles/directive.md#initialization,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-008-broken-directive-references.md,30,directive.md initialization sequence,principles/directive.md#system-startup,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/pattern-gen-001-completion-summary.md,15,directive.md ultimate authority,../../principles/directive.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/pattern-gen-001-completion-summary.md,15,engineering.md quality standards,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,26,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,98,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,99,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/audit-simp-001-oversized-create-ticket-command.md,100,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,23,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,88,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/agent-creation-001-code-modularization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,23,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,43,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,86,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,97,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,98,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,102,files.md,../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-019-clean-backup-directory-validation.md,103,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,29,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,89,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,90,modularize.md,../../commands/analysis/modularize.md,BROKEN,Navigation disruption in command system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,103,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,104,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,107,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,108,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/completed/sys-aud-001-system-audit-simplicity-violation.md,109,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,80,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-dup-001-success-criteria-duplication.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-005-circular-references.md,18,Previous: View agent capability overlap ticket,consolidation-004-agent-capability-overlap.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-005-circular-references.md,152,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-005-circular-references.md,153,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-005-circular-references.md,154,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,24,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,82,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,83,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,94,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,97,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,98,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-023-principle-marker-component-system.md,99,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/pending/agent-001-pattern-management-specialist.md,94,audit system,../../commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
+command,high,planning/tickets/pending/agent-001-pattern-management-specialist.md,95,ticket system,../../commands/system/create-ticket.md,BROKEN,Navigation disruption in command system
+workflow,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-001-pattern-management-specialist.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,23,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,78,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,80,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,92,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-agent-001-selection-redundancy.md,97,agent-selection.md,../../principles/agent-selection.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-simp-002-oversized-system-audit-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,94,documentation system,../../docs/index.md,BROKEN,Navigation disruption in navigation system
+workflow,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-006-cross-reference-integrity-specialist.md,115,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,89,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,93,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-011-claude-code-framework-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+command,high,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,94,audit system,../../commands/analysis/system-audit.md,BROKEN,Navigation disruption in command system
+command,high,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,95,ticket execution,../../commands/system/review-tickets.md,BROKEN,Navigation disruption in command system
+workflow,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-003-ticket-automation-orchestrator.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,80,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-dup-002-table-contents-duplication.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,15,Browse pending tickets,../README.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,15,Next: Review architecture tickets,../category/architecture.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,219,Review pending architecture tickets,../category/architecture.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,220,System audit tickets,../category/system.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,221,Command enhancement tickets,../category/modularization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/arch-001-command-centered-architecture.md,226,System architecture patterns,../../../components/architecture-patterns.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/arch-001-command-centered-architecture.md,230,Enhanced template patterns,../../../docs/components/command-architecture-patterns.md,BROKEN,Navigation disruption in navigation system
+navigation,high,planning/tickets/pending/arch-001-command-centered-architecture.md,231,Validation frameworks,../../../docs/components/validation-methodology.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,93,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,94,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,95,modularization system,../../commands/system/modularize.md,BROKEN,Navigation disruption in command system
+command,high,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,96,ticket system,../../commands/system/create-ticket.md,BROKEN,Navigation disruption in command system
+workflow,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,114,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,115,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-002-simplicity-enforcement-specialist.md,116,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-simp-004-oversized-modularize-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/pending/agent-004-component-architecture-specialist.md,94,modularization system,../../commands/system/modularize.md,BROKEN,Navigation disruption in command system
+navigation,medium,planning/tickets/pending/agent-004-component-architecture-specialist.md,95,simplicity enforcement,agents/simplicity-enforcement-specialist.md,BROKEN,Navigation disruption in navigation system
+workflow,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-004-component-architecture-specialist.md,115,validation.md,../../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,89,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+workflow,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,93,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-006-voice-integration-specialist.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-005-standardize-navigation.md,79,Previous: Action verb for previous,previous.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-005-standardize-navigation.md,79,Return to hub,index.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-005-standardize-navigation.md,79,Study framework,PRINCIPLES.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-005-standardize-navigation.md,79,Next: Action verb for next,next.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+command,high,planning/tickets/pending/agent-005-voice-integration-specialist.md,94,command architecture,../../commands/index.md,BROKEN,Navigation disruption in command system
+workflow,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,114,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-005-voice-integration-specialist.md,115,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-007-business-intelligence-analyst.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,24,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,82,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,83,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,93,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,94,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,97,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,98,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-022-cross-reference-template-system.md,99,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/006-cross-reference-link-patterns.md,23,Link,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/006-cross-reference-link-patterns.md,24,Reference,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/006-cross-reference-link-patterns.md,25,Method,file.md#section,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/006-cross-reference-link-patterns.md,26,Document,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/006-cross-reference-link-patterns.md,27,Tool,file.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-006-workflow-definitions.md,18,Next: View low priority consolidation tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-006-workflow-definitions.md,143,engineering.md,../../principles/engineering.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/consolidation-006-workflow-definitions.md,144,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/consolidation-006-workflow-definitions.md,145,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-006-workflow-definitions.md,198,View low priority tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-007-business-intelligence-analyst.md,23,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-007-business-intelligence-analyst.md,92,agent-definition.md,../../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-007-business-intelligence-analyst.md,93,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+workflow,low,planning/tickets/pending/agent-007-business-intelligence-analyst.md,113,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-007-business-intelligence-analyst.md,114,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,43,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+command,high,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,86,audit-navigation.md,../../commands/audit-navigation.md,BROKEN,Navigation disruption in command system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,87,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,97,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,98,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,102,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/sys-018-cross-reference-integrity-validation.md,103,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,23,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,78,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+navigation,high,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,80,modularization guidelines,../../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,91,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,92,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,95,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-simp-005-oversized-review-tickets-command.md,96,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,23,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,43,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,86,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,87,imperative-tone-patterns.md,../components/imperative-tone-patterns.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,88,formatting.md,../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,97,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,98,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,101,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,102,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/doc-019-imperative-communication-conversion.md,103,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,93,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-010-translation-localization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,23,validation.md,../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,88,validation.md,../principles/validation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,89,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-008-compliance-automation-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,23,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,88,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-002-pattern-generation-framework.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,24,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,81,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,82,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,97,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-020-navigation-breadcrumb-component-system.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,78,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,79,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,89,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-001-navigation-breadcrumb-extraction.md,90,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,23,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+workflow,low,planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,78,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,79,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,90,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/audit-comp-003-workflow-phase-template-extraction.md,91,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,24,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,81,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,82,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-021-return-to-top-component-consolidation.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,23,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,88,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,89,communication.md,../principles/communication.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,93,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-003-metadata-management-specialist.md,94,simplicity.md,../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,24,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,24,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,80,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,81,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,82,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,92,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,93,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,96,workflow.md,../../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,97,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/mod-019-yaml-frontmatter-component-system.md,98,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,23,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,23,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,78,agent-definition.md,../principles/agent-definition.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,88,engineering.md,../principles/engineering.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,89,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,92,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,93,dynamic-adaptation.md,../principles/dynamic-adaptation.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/agent-creation-009-resource-optimization-specialist.md,94,task-orchestration.md,../principles/task-orchestration.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,18,Next: Browse other low priority tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,155,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,156,communication.md,../../principles/communication.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,157,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,182,Return to hub,../index.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,182,View related,component.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-008-crossref-architecture.md,221,View other tickets,../../TICKET_REGISTRY.md#-low-priority-pending,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-007-orphaned-content.md,151,simplicity.md,../../principles/simplicity.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-007-orphaned-content.md,152,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/consolidation-007-orphaned-content.md,153,files.md,../../principles/files.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,23,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,78,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,79,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,90,organization.md,../../principles/organization.md,BROKEN,Navigation disruption in other system
+other,low,planning/tickets/pending/audit-comp-002-frontmatter-template-extraction.md,91,formatting.md,../../principles/formatting.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-integration.md,63,Follow priority guidelines for classification,../guides/priority-guidelines.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-integration.md,64,Use status management for transitions,../guides/status-management.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-parallel-executor.md,14,Next: Review execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-parallel-executor.md,173,Access execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-parallel-executor.md,174,Review monitoring dashboard,ticket-metrics-dashboard.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-parallel-executor.md,175,Study automation scripts,ticket-automation-scripts.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-dependency-analysis.md,240,Review execution scheduler,ticket-execution-scheduler.md,BROKEN,Navigation disruption in other system
+other,low,planning/components/ticket-dependency-analysis.md,241,Access automation scripts,ticket-automation-scripts.md,BROKEN,Navigation disruption in other system
+other,low,planning/templates/ticket-template.md,23,relevant-principle.md,../principles/relevant-principle.md,BROKEN,Navigation disruption in other system
+other,low,planning/templates/ticket-template.md,91,principle-name.md,../principles/principle-name.md,BROKEN,Navigation disruption in other system
+other,low,planning/templates/ticket-template.md,92,principle-name.md,../principles/principle-name.md,BROKEN,Navigation disruption in other system
+workflow,low,planning/templates/ticket-template.md,95,workflow.md,../principles/workflow.md,BROKEN,Navigation disruption in workflow system
+other,low,planning/templates/ticket-template.md,96,organization.md,../principles/organization.md,BROKEN,Navigation disruption in other system
 other,low,docs/components/footer.md,10,Previous: Execute navigation-usage.md for guidance,navigation-usage.md,BROKEN,Navigation disruption in other system
 navigation,high,docs/components/footer.md,40,Return to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
 navigation,high,docs/components/footer.md,46,Return to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
@@ -1547,7 +1547,7 @@ other,low,commands/system-evolve.md,14,Next: Browse commands index,../index.md,B
 workflow,high,commands/system-evolve.md,20,workflow.md systematic execution,../../docs/principles/workflow.md#evolutionary-analysis,BROKEN,Navigation disruption in workflow system
 navigation,high,commands/system-evolve.md,20,engineering.md quality standards,../../docs/principles/engineering.md#coherence-validation,BROKEN,Navigation disruption in navigation system
 other,low,commands/system-evolve.md,143,create-ticket.md,../management/create-ticket.md,BROKEN,Navigation disruption in other system
-registry,high,commands/system-evolve.md,144,TICKET_REGISTRY.md,../../docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/system-evolve.md,144,TICKET_REGISTRY.md,../../planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
 other,low,commands/system-evolve.md,145,execute-parallel-plan.md,../execution/execute-parallel-plan.md,BROKEN,Navigation disruption in other system
 navigation,medium,commands/system-evolve.md,148,project-optimizer,../../agents/project-optimizer.md,BROKEN,Navigation disruption in navigation system
 navigation,medium,commands/system-evolve.md,149,validation-engineer,../../agents/validation-engineer.md,BROKEN,Navigation disruption in navigation system
@@ -1831,7 +1831,7 @@ workflow,high,commands/execution/execute-ticket.md,145,Apply workflow.md validat
 navigation,high,commands/execution/execute-ticket.md,263,Apply agent-selection.md systematic methodology optimal matching,../../docs/principles/agent-selection.md#selection-methodology,BROKEN,Navigation disruption in navigation system
 navigation,high,commands/execution/execute-ticket.md,303,Navigate to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
 other,low,commands/execution/execute-ticket.md,304,Browse commands index,index.md,BROKEN,Navigation disruption in other system
-registry,high,commands/execution/execute-ticket.md,305,Access TICKET_REGISTRY.md,../docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/execution/execute-ticket.md,305,Access TICKET_REGISTRY.md,../planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
 other,low,commands/execution/execute-ticket.md,308,Deploy review-tickets for selection,review-tickets.md,BROKEN,Navigation disruption in other system
 other,low,commands/execution/execute-ticket.md,309,Deploy create-ticket for new tasks,create-ticket.md,BROKEN,Navigation disruption in other system
 other,low,commands/execution/execute-ticket.md,310,Execute system-audit for analysis,system-audit.md,BROKEN,Navigation disruption in other system
@@ -1847,9 +1847,9 @@ navigation,high,commands/execution/execute-parallel-plan.md,20,agent-selection.m
 workflow,high,commands/execution/execute-parallel-plan.md,20,workflow.md,../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
 navigation,high,commands/execution/execute-parallel-plan.md,305,Navigate to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
 other,low,commands/execution/execute-parallel-plan.md,306,Browse commands index,index.md,BROKEN,Navigation disruption in other system
-registry,high,commands/execution/execute-parallel-plan.md,307,Access TICKET_REGISTRY.md,../docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/execution/execute-parallel-plan.md,307,Access TICKET_REGISTRY.md,../planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
 other,low,commands/execution/execute-parallel-plan.md,310,Generate dependencies analysis,analyze-dependencies.md,BROKEN,Navigation disruption in other system
-registry,high,commands/execution/execute-parallel-plan.md,315,Study parallel execution framework,../docs/planning/components/ticket-parallel-executor.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/execution/execute-parallel-plan.md,315,Study parallel execution framework,../planning/components/ticket-parallel-executor.md,BROKEN,Navigation disruption in registry system
 navigation,high,commands/execution/execute-parallel-plan.md,316,Apply agent selection principles,../docs/principles/agent-selection.md,BROKEN,Navigation disruption in navigation system
 workflow,high,commands/execution/execute-parallel-plan.md,317,Follow workflow methodology,../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
 other,low,commands/execution/monitor-execution.md,14,Return to Commands Index,index.md,BROKEN,Navigation disruption in other system
@@ -1863,9 +1863,9 @@ navigation,high,commands/execution/monitor-execution.md,54,Apply execution-contr
 navigation,high,commands/execution/monitor-execution.md,58,Use execution-monitoring-reports.md for comprehensive reporting and analytics,../docs/components/execution-monitoring-reports.md,BROKEN,Navigation disruption in navigation system
 navigation,high,commands/execution/monitor-execution.md,132,Navigate to Documentation Hub,../docs/index.md,BROKEN,Navigation disruption in navigation system
 other,low,commands/execution/monitor-execution.md,133,Browse commands index,index.md,BROKEN,Navigation disruption in other system
-registry,high,commands/execution/monitor-execution.md,134,Access TICKET_REGISTRY.md,../docs/planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/execution/monitor-execution.md,134,Access TICKET_REGISTRY.md,../planning/TICKET_REGISTRY.md,BROKEN,Navigation disruption in registry system
 other,low,commands/execution/monitor-execution.md,138,Analyze dependencies,analyze-dependencies.md,BROKEN,Navigation disruption in other system
-registry,high,commands/execution/monitor-execution.md,142,Study parallel execution framework,../docs/planning/components/ticket-parallel-executor.md,BROKEN,Navigation disruption in registry system
+registry,high,commands/execution/monitor-execution.md,142,Study parallel execution framework,../planning/components/ticket-parallel-executor.md,BROKEN,Navigation disruption in registry system
 workflow,high,commands/execution/monitor-execution.md,143,Apply workflow methodology,../docs/principles/workflow.md,BROKEN,Navigation disruption in workflow system
 navigation,high,commands/execution/monitor-execution.md,144,Follow organization principles,../docs/principles/organization.md,BROKEN,Navigation disruption in navigation system
 other,low,commands/examples/SystemAuditCommand.md,15,Return to Commands Hub,../../index.md,BROKEN,Navigation disruption in other system

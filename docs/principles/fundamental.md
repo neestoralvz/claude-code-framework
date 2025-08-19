@@ -11,7 +11,7 @@ keywords: ["simplicity", "evidence", "context", "methods", "approach"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study directive.md for primary guidance](directive.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study engineering.md for technical standards](engineering.md)
+[Previous: Study directive.md for primary guidance](directive.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study engineering.md for technical standards](engineering.md)
 
 # FUNDAMENTAL
 
@@ -96,7 +96,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Navigate to Documentation Hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Return to directive.md for core command](directive.md)
 - [Continue to engineering.md for technical standards](engineering.md)
 

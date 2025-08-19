@@ -356,7 +356,7 @@ Adaptive Resource Allocation:
 
 ### Command Reference Matrix Optimization
 
-**Intelligent command selection enhancement for /Users/nalve/.claude/docs/commands/enforcement/command-reference-matrix.md:**
+**Intelligent command selection enhancement for /Users/nalve/.claude/commands-docs/enforcement/command-reference-matrix.md:**
 
 - **ML-Driven Command Ranking**: Neural networks provide probabilistic command success scores
 - **Context-Aware Selection**: Deep learning models optimize command selection based on current context

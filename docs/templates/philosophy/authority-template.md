@@ -152,7 +152,7 @@ last_review: "[YYYY-MM-DD]"
 
 ### Related Documentation
 - [Navigate to Documentation Hub](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse commands for tools](../../commands/index.md)
 
 [⬆ Return to top](#authority-name)

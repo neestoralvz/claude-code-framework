@@ -116,8 +116,8 @@ authority_scope: "Framework navigation and direct access patterns"
 
 ### 🎫 PLANNING AND TRACKING
 ```
-🎫 Ticket Registry       → /Users/nalve/.claude/docs/planning/TICKET_REGISTRY.md
-📊 Planning Documentation → /Users/nalve/.claude/docs/planning/
+🎫 Ticket Registry       → /Users/nalve/.claude/planning/TICKET_REGISTRY.md
+📊 Planning Documentation → /Users/nalve/.claude/planning/
 🏗️ Project Structure    → /Users/nalve/.claude/PROJECT_STRUCTURE.md
 ```
 

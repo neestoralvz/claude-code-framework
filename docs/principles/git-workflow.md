@@ -11,7 +11,7 @@ keywords: ["git", "version control", "workflow", "integration", "standards"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study engineering.md for technical standards](engineering.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study dynamic-adaptation.md for framework evolution](dynamic-adaptation.md)
+[Previous: Study engineering.md for technical standards](engineering.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study dynamic-adaptation.md for framework evolution](dynamic-adaptation.md)
 
 # GIT WORKFLOW
 
@@ -278,7 +278,7 @@ git push origin --delete feature/completed-task
 
 ### Primary Navigation
 - [Navigate to documentation hub](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Return to workflow.md for systematic execution](workflow.md)
 - [Continue to engineering.md for technical standards](engineering.md)
 

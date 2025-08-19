@@ -11,7 +11,7 @@ keywords: ["simplicity", "minimal", "clarity", "brevity"]
 last_review: "2025-08-18"
 ---
 
-[Previous: Study expert-documentation.md for expert authorship](expert-documentation.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study communication standards](communication.md)
+[Previous: Study expert-documentation.md for expert authorship](expert-documentation.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study communication standards](communication.md)
 
 # SIMPLICITY
 

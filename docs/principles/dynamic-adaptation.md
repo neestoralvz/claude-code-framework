@@ -11,7 +11,7 @@ keywords: ["adaptation", "flexibility", "guidelines", "framework", "evolution", 
 last_review: "2025-08-18"
 ---
 
-[Previous: Study engineering.md for standards](engineering.md) | [Return to CLAUDE.md for ultimate authority](../../CLAUDE.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study context-efficiency.md for optimization](context-efficiency.md)
+[Previous: Study engineering.md for standards](engineering.md) | [Return to CLAUDE.md for ultimate authority](../../CLAUDE.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study context-efficiency.md for optimization](context-efficiency.md)
 
 # DYNAMIC ADAPTATION
 
@@ -104,7 +104,7 @@ last_review: "2025-08-18"
 ### Primary Navigation
 - [Return to CLAUDE.md for ultimate authority](../../CLAUDE.md)
 - [Navigate to documentation hub](../index.md)
-- [Study Principles for framework](../PRINCIPLES.md)
+- [Study Principles for framework](principles/PRINCIPLES.md)
 - [Continue to context-efficiency.md for optimization](context-efficiency.md)
 
 ### Related Principles
@@ -116,6 +116,6 @@ last_review: "2025-08-18"
 
 ### Related Components
 - [Apply workflow.md for systematic execution phases](workflow.md)
-- [Use navigation.md for consistent link patterns](../components/navigation.md)
+- [Use navigation.md for consistent link patterns](../templates/templates/components/navigation.md)
 
 [⬆ Return to top](#dynamic-adaptation)

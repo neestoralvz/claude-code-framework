@@ -179,7 +179,7 @@ class DashboardHealthCheck {
     async checkRegistryAccess() {
         try {
             // Check if Claude registry is accessible
-            const registryFile = path.join(this.baseDir, 'docs/planning/TICKET_REGISTRY.md');
+            const registryFile = path.join(this.baseDir, 'planning/TICKET_REGISTRY.md');
             
             if (fs.existsSync(registryFile)) {
                 const content = fs.readFileSync(registryFile, 'utf8');

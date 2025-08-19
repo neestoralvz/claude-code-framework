@@ -11,7 +11,7 @@ keywords: ["context", "efficiency", "delegation", "agents", "task-tool", "optimi
 last_review: "2025-08-18"
 ---
 
-[Previous: Study simplicity.md for minimal communication](simplicity.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Study communication.md for imperative tone](communication.md)
+[Previous: Study simplicity.md for minimal communication](simplicity.md) | [Return to documentation hub for navigation](../index.md) | [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Study communication.md for imperative tone](communication.md)
 
 # CONTEXT EFFICIENCY
 
@@ -142,7 +142,7 @@ last_review: "2025-08-18"
 
 ### Primary Navigation
 - [Return to documentation hub for navigation](../index.md)
-- [Study PRINCIPLES.md for framework](../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework](principles/PRINCIPLES.md)
 - [Browse commands index for tools](../commands/index.md)
 
 ### Related Principles

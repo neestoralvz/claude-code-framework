@@ -3,7 +3,7 @@ title: "Analysis Molecules - Atomic Analysis Patterns"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["../atoms/FileAtoms.md", "../atoms/ValidationAtoms.md", "../atoms/AgentAtoms.md"]
+dependencies: ["../atoms/FileAtoms.md", "../atoms/ValidationAtoms.md", "../atoms/AgentAtoms.md", "../atoms/GitAtoms.md"]
 prerequisites: ["Atomic operations understanding", "Analysis methodology knowledge"]
 audience: "System developers, analysis specialists, command builders"
 purpose: "Molecular patterns combining atomic operations for comprehensive analysis workflows"
@@ -528,7 +528,7 @@ scalability_approaches:
 - [QualityAssuranceAssembly.md](../assemblies/QualityAssuranceAssembly.md) - Comprehensive quality workflows
 
 ### Framework Integration
-- [Analysis Commands](../../docs/commands/analysis/) - Command implementations using analysis molecules
+- [Analysis Commands](../../commands-docs/analysis/) - Command implementations using analysis molecules
 - [System Architecture](../../docs/architecture/system-architecture-overview.md) - Framework architecture patterns
 - [Quality Framework](../../docs/principles/validation.md) - Quality assurance principles
 

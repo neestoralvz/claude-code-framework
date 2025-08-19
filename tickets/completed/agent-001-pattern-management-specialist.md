@@ -9,7 +9,7 @@ completion_date: "2025-08-19"
 success_metrics: "Agent operational, 4 components created, consolidation demonstrated"
 ---
 
-[Previous: Navigate to ticket registry](../../docs/planning/TICKET_REGISTRY.md) | [Hub: Commands](../../commands/index.md) | [Framework: Claude Code] | [Next: Execute ticket](../../commands/execution/execute-ticket.md)
+[Previous: Navigate to ticket registry](../../planning/TICKET_REGISTRY.md) | [Hub: Commands](../../commands/index.md) | [Framework: Claude Code] | [Next: Execute ticket](../../commands/execution/execute-ticket.md)
 
 # TICKET AGENT-001: PATTERN MANAGEMENT SPECIALIST
 
@@ -233,7 +233,7 @@ docs/patterns/
 ## 🔗 CROSS-REFERENCES
 
 ### Navigation
-- [Return to Ticket Registry](../../docs/planning/TICKET_REGISTRY.md)
+- [Return to Ticket Registry](../../planning/TICKET_REGISTRY.md)
 - [Commands Hub](../../commands/index.md)
 - [Execute Ticket Command](../../commands/execution/execute-ticket.md)
 - [Pattern Management Specialist](../../agents/pattern-management-specialist.md)

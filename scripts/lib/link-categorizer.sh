@@ -11,7 +11,7 @@ categorize_link_type() {
     case "$target" in
         commands/*|**/command-*.md|**/commands.md)
             category="command" ;;
-        docs/planning/*|**/tickets/**|**/registry*|**/TICKET*.md)
+        planning/*|**/tickets/**|**/registry*|**/TICKET*.md)
             category="registry" ;;
         *breadcrumb*|*navigation*|**/nav-*.md|**/index.md|docs/index.md)
             category="navigation" ;;

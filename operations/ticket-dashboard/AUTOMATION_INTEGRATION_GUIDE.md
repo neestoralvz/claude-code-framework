@@ -186,10 +186,10 @@ const commandIntegration = {
 class FileMovementAutomation {
     constructor() {
         this.directories = {
-            pending: '/claude-data/docs/planning/tickets/pending',
-            inProgress: '/claude-data/docs/planning/tickets/in-progress',
-            completed: '/claude-data/docs/planning/tickets/completed',
-            resolved: '/claude-data/docs/planning/tickets/resolved'
+            pending: '/claude-data/planning/tickets/pending',
+            inProgress: '/claude-data/planning/tickets/in-progress',
+            completed: '/claude-data/planning/tickets/completed',
+            resolved: '/claude-data/planning/tickets/resolved'
         };
         this.fileWatcher = new FileWatcher();
     }
@@ -268,7 +268,7 @@ async validateFileIntegrity(filePath) {
 ```javascript
 class RegistrySync {
     constructor() {
-        this.registryFile = '/claude-data/docs/planning/TICKET_REGISTRY.md';
+        this.registryFile = '/claude-data/planning/TICKET_REGISTRY.md';
         this.updateQueue = [];
         this.updateInterval = 5000; // 5 seconds
         this.isUpdating = false;
@@ -585,8 +585,8 @@ class FileSystemMonitor {
         this.changeQueue = [];
         this.isProcessing = false;
         this.watchPaths = [
-            '/claude-data/docs/planning/tickets',
-            '/claude-data/docs/planning/TICKET_REGISTRY.md',
+            '/claude-data/planning/tickets',
+            '/claude-data/planning/TICKET_REGISTRY.md',
             '/claude-data/operations',
             '/claude-data/commands'
         ];
@@ -714,7 +714,7 @@ class BidirectionalSync {
 class SecureFileOperations {
     constructor() {
         this.allowedPaths = [
-            '/claude-data/docs/planning',
+            '/claude-data/planning',
             '/claude-data/operations',
             '/claude-data/commands'
         ];
@@ -1091,7 +1091,7 @@ class ClaudeIntegrationCheck {
         await fs.unlink(testFile);
         
         // Test registry access
-        const registryFile = path.join(claudeDir, 'docs/planning/TICKET_REGISTRY.md');
+        const registryFile = path.join(claudeDir, 'planning/TICKET_REGISTRY.md');
         const registryAccessible = await fs.pathExists(registryFile);
         
         return {
