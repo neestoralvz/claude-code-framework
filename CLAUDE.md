@@ -21,8 +21,8 @@ This document serves as the orchestration hub for the Claude Code framework, pro
 
 **[Access navigation-hub.md for framework access](docs/components/core-framework/navigation-hub.md)** - Navigation patterns, quick start guidance, and context-aware access to all framework components
 
-### CloudEco Integration
-**[Access command-flow-triggers.md for execution automation](docs/components/core-framework/command-flow-triggers.md)** - Automated trigger conditions, workflow integration patterns, and CloudEco execution protocols
+### Claude Code Integration
+**[Access command-flow-triggers.md for execution automation](docs/components/core-framework/command-flow-triggers.md)** - Automated trigger conditions, workflow integration patterns, and Claude Code execution protocols
 
 ## Quick Start Guide
 
@@ -37,7 +37,7 @@ This document serves as the orchestration hub for the Claude Code framework, pro
 3. **Execute selected command** - Commands handle complete workflows with embedded quality assurance
 
 ### For Framework Integration
-1. **[Access command-flow-triggers.md for automation](docs/components/core-framework/command-flow-triggers.md)** - CloudEco integration and execution triggers
+1. **[Access command-flow-triggers.md for automation](docs/components/core-framework/command-flow-triggers.md)** - Claude Code integration and execution triggers
 2. **[Access compliance-framework.md for adherence](docs/components/core-framework/compliance-framework.md)** - Automatic principle application and enforcement
 3. **[Access quality-integration.md for validation](docs/components/core-framework/quality-integration.md)** - Embedded quality systems and validation frameworks
 
