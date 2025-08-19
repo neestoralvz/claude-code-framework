@@ -13,12 +13,12 @@ purpose: "Define comprehensive naming conventions for files, directories, and en
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [File Naming Patterns](#file-naming-patterns)
-- [Case Conventions by Context](#case-conventions-by-context)
-- [Directory Naming](#directory-naming)
-- [Special Cases](#special-cases)
-- [Validation Rules](#validation-rules)
-- [Cross-Platform Compatibility](#cross-platform-compatibility)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

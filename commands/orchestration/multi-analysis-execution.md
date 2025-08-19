@@ -20,13 +20,14 @@ execution_mode: "parallel-synthesis"
 ⏺ **Principle**: This command implements [intent-recognition.md multi-perspective analysis](../../docs/principles/intent-recognition.md#intent-analysis-matrix) by orchestrating specialized analysis agents to generate JSON outputs and consolidated reports for orchestrator decision-making.
 
 ## Table of Contents
-- [Integrated Execution Environment](#integrated-execution-environment)
-- [Analysis Type Detection](#analysis-type-detection)
-- [Parallel Agent Orchestration](#parallel-agent-orchestration)
-- [Report Generation Pipeline](#report-generation-pipeline)
-- [Orchestrator Interface](#orchestrator-interface)
-- [Quality Assurance](#quality-assurance)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
 - [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Integrated Execution Environment

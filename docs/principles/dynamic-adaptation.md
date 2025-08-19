@@ -16,10 +16,11 @@ last_review: "2025-08-18"
 # DYNAMIC ADAPTATION
 
 ## Table of Contents
-- [Core Adaptation Framework](#core-adaptation-framework)
-- [Guidelines Compliance](#guidelines-compliance)
-- [Adaptation Boundaries](#adaptation-boundaries)
-- [Evolution Protocols](#evolution-protocols)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

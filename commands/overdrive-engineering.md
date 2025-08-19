@@ -19,14 +19,15 @@ validation_level: "comprehensive"
 # OVERDRIVE ENGINEERING COMMAND - ENHANCED ARCHITECTURE
 
 ## Table of Contents
-- [Integrated Execution Environment](#integrated-execution-environment)
-- [Embedded SIMPLE Framework](#embedded-simple-framework)
-- [Automatic Complexity Detection](#automatic-complexity-detection)
-- [Built-in Refactoring Workflows](#built-in-refactoring-workflows)
-- [Complete Monitoring Integration](#complete-monitoring-integration)
-- [Quality Gates and Success Criteria](#quality-gates-and-success-criteria)
-- [Architecture Integration Patterns](#architecture-integration-patterns)
-- [Command Execution Modes](#command-execution-modes)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
+- [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Integrated Execution Environment
 

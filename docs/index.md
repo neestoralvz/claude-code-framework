@@ -85,7 +85,7 @@ Create standardized commands that follow the established patterns.
 
 ### Project Planning
 
-- **Monitor the ticket registry for project status**
+- **Monitor the ticket registry for project status** - Access [TICKET_REGISTRY.md](../TICKET_REGISTRY.md) for centralized ticket tracking
 - **Study the ticket methodology for process guidance**
 
 ### Working Standards
@@ -114,14 +114,41 @@ Create standardized commands that follow the established patterns.
 - **Apply formatting principles for document structure**
 - **Use organization principles for content structure**
 - **Implement engineering principles for technical standards**
+- **Apply directive principles for ultimate authority** - Use [directive.md](principles/directive.md) for command adherence patterns
+- **Follow fundamental principles for methodology** - Use [fundamental.md](principles/fundamental.md) for basic methodology  
+- **Apply content-deduplication principles** - Use [content-deduplication.md](principles/content-deduplication.md) for single-source truth
+- **Use communication principles for clarity** - Use [communication.md](principles/communication.md) for direct communication
+- **Apply simplicity principles for essential content** - Use [simplicity.md](principles/simplicity.md) for essential information only
 
 ### Useful Commands
 - **Run update-docs to maintain documentation**
 - **Run analyze-file to examine structure**
 - **Use audit-navigation to verify links**
 
+### Core Framework Commands
+- **Apply ValidationFramework for extensible validation** - Use [ValidationFramework.md](../commands/core/ValidationFramework.md) for reusable validation systems
+
+### System Architecture
+- **Access system architecture overview for complete framework understanding** - Use [system-architecture-overview.md](architecture/system-architecture-overview.md) for comprehensive architecture, SOLID compliance, and integration patterns
+- **Browse architecture documentation for design patterns** - Use [architecture/](architecture/) for complete architecture documentation and design guidance
+
+### Core Framework Components
+- **Access command-architecture for execution environments** - Use [command-architecture.md](components/core-framework/command-architecture.md) for complete execution patterns
+- **Access command-selection for optimal command choice** - Use [command-selection.md](components/core-framework/command-selection.md) for decision frameworks  
+- **Access session-management for initialization** - Use [session-management.md](components/core-framework/session-management.md) for streamlined startup
+- **Access quality-integration for validation** - Use [quality-integration.md](components/core-framework/quality-integration.md) for embedded validation
+- **Access compliance-framework for adherence** - Use [compliance-framework.md](components/core-framework/compliance-framework.md) for automatic compliance
+- **Access navigation-hub for framework access** - Use [navigation-hub.md](components/core-framework/navigation-hub.md) for navigation patterns
+- **Access command-flow-triggers for automation** - Use [command-flow-triggers.md](components/core-framework/command-flow-triggers.md) for execution automation
+
 ### Helpful Components
 - **Apply workflow principles for systematic execution methodology**
 - **Use link standards for consistent navigation patterns**
+
+### Component Categories
+- **Access formatting components** - Use [formatting/](components/formatting/) for formatting standards and guidelines
+- **Access template components** - Use [templates/](components/templates/) for reusable templates and patterns
+- **Access command components** - Browse [components/](components/) for command architecture and patterns
+- **Apply frontmatter templates** - Use [frontmatter-template.yaml](components/frontmatter-template.yaml) for metadata standards
 
 [⬆ Return to top](#claude-documentation-hub)

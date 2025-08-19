@@ -27,6 +27,8 @@ This document outlines the complete structure of the Claude operational framewor
 │   ├── core-system/             # System Integrity & Enforcement Agents
 │   │   ├── enforcement-monitor.md       # CLAUDE.md compliance enforcement specialist
 │   │   ├── protocol-compliance-verifier.md # Real-time protocol adherence verification specialist
+│   │   ├── real-time-state-monitor.md   # Real-time system state monitoring with violation detection
+│   │   ├── real-time-monitoring-components.md # Advanced monitoring algorithms and optimization systems
 │   │   ├── system-auditor.md            # Static analysis & compliance validation specialist
 │   │   └── validation-engineer.md       # Quality methodology & validation specialist
 │   │
@@ -95,7 +97,7 @@ This document outlines the complete structure of the Claude operational framewor
 │   ├── code-modularization-specialist.md # File complexity analysis and systematic code architecture restructuring
 │   └── report-generator.md      # Multi-analysis synthesis and report generation agent
 │
-├── commands/                    # Enhanced command definitions with integrated architecture
+├── docs/commands/               # Enhanced command definitions with integrated architecture
 │   ├── index.md                # Enhanced command index with command-centered architecture
 │   ├── README.md               # Commands folder structure and usage guide
 │   ├── templates/              # Enhanced command templates
@@ -138,6 +140,9 @@ This document outlines the complete structure of the Claude operational framewor
 │   ├── management/             # Enhanced Task Management Commands
 │   │   ├── create-ticket.md    # Enhanced ticket generation with integrated agent deployment
 │   │   ├── init-claude-md.md   # Project CLAUDE.md file generation
+│   │   ├── command-guidance-system.md # Contextual command recommendations and intelligent selection
+│   │   ├── guidance-algorithms.md # Advanced learning algorithms for command guidance
+│   │   ├── guidance-integrations.md # Integration frameworks for guidance system coordination
 │   │   └── review-tickets.md   # Enhanced priority-based ticket execution with quality validation
 │   │
 │   └── composition/            # Command Composition Examples
@@ -358,8 +363,8 @@ This document outlines the complete structure of the Claude operational framewor
 - **docs/agents-documentation/**: Complete agent architecture documentation and templates
 
 ### Command System  
-- **commands/index.md**: Central command registry and usage guide (comprehensive command catalog)
-- **commands/README.md**: Commands folder structure and organizational guide
+- **docs/commands/index.md**: Central command registry and usage guide (comprehensive command catalog)
+- **docs/commands/README.md**: Commands folder structure and organizational guide
 - **docs/COMMANDS.md**: Detailed command system documentation
 
 ### Documentation Hub
@@ -399,7 +404,7 @@ This document outlines the complete structure of the Claude operational framewor
 
 Each category maintains clear agent boundaries with specialized expertise and systematic validation protocols.
 
-### /commands/
+### /docs/commands/
 Houses organized command definitions across multiple categories:
 - **generation/**: Comprehensive pattern generation framework with unified orchestration
 - **workflow/**: 8-phase workflow implementation commands
@@ -431,7 +436,7 @@ Key scripts:
 2. **Principles**: Review docs/PRINCIPLES.md before making changes
 3. **Templates**: Use appropriate templates from docs/templates/ for new content
 4. **Agents**: Deploy agents from /agents/ for complex multi-step tasks
-5. **Commands**: Execute commands from /commands/ for specific operations
+5. **Commands**: Execute commands from /docs/commands/ for specific operations
 
 ## File Count Summary
 - Agents: 32 main files + 9 components (includes 3 new analytics agents + report-generator + AGENT-006 + dependency-analysis-specialist + complexity-reduction-specialist + over-engineering-detector)
@@ -452,7 +457,7 @@ Key scripts:
 
 ### Commands - Monitoring Category
 ```
-commands/monitoring/
+docs/commands/monitoring/
 ├── index.md                    # Monitoring commands navigation and selection guide
 └── system-monitor.md          # Comprehensive real-time system health monitoring framework
 ```
@@ -477,8 +482,8 @@ operations/monitoring/
 ### Monitoring System Integration Points
 
 **Framework Integration:**
-- Integrates with `commands/enforcement/command-reference-matrix.md` for automatic remediation
-- Coordinates with `commands/validation/protocol-compliance-verifier.md` for real-time compliance checking
+- Integrates with `docs/commands/enforcement/command-reference-matrix.md` for automatic remediation
+- Coordinates with `docs/commands/validation/protocol-compliance-verifier.md` for real-time compliance checking
 - Provides performance data for intelligent command selection optimization
 - Supports framework-wide performance monitoring and optimization
 

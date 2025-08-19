@@ -16,10 +16,11 @@ last_review: "2025-08-18"
 # FUNDAMENTAL
 
 ## Table of Contents
-- [Simplicity](#simplicity)
-- [Evidence](#evidence)
-- [Context](#context)
-- [Context Methods](#context-methods)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

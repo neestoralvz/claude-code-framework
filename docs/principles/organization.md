@@ -18,10 +18,9 @@ last_review: "2025-08-18"
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
 - [Fundamental Concepts](#fundamental-concepts)
-  - [Hierarchical Philosophy](#hierarchical-philosophy)
-  - [Modular Philosophy](#modular-philosophy)
-  - [Clarity Philosophy](#clarity-philosophy)
 - [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

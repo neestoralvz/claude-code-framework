@@ -19,12 +19,11 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
-- [Workflow Phase Integration](#workflow-phase-integration)
-- [Git Operation Standards](#git-operation-standards)
-- [Branch Management](#branch-management)
-- [Commit Standards](#commit-standards)
-- [Collaboration Protocols](#collaboration-protocols)
-- [Quality Gates](#quality-gates)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Core Philosophy

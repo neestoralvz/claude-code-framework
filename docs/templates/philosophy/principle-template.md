@@ -16,9 +16,18 @@ last_review: "[YYYY-MM-DD]"
 # [PRINCIPLE NAME]
 
 ## Table of Contents
-- [Core Philosophy](#core-philosophy)
-- [Fundamental Concepts](#fundamental-concepts)
-- [Implementation Guidelines](#implementation-guidelines)
+  - [Core Philosophy](#core-philosophy)
+  - [Fundamental Concepts](#fundamental-concepts)
+- [[Concept Category 1]](#-concept-category-1-)
+- [[Concept Category 2]](#-concept-category-2-)
+  - [Implementation Guidelines](#implementation-guidelines)
+- [[Implementation Area 1]](#-implementation-area-1-)
+- [[Implementation Area 2]](#-implementation-area-2-)
+  - [Principle References](#principle-references)
+  - [Cross-References](#cross-references)
+- [Primary Navigation](#primary-navigation)
+- [Related Principles](#related-principles)
+- [Related Components](#related-components)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

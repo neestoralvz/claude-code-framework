@@ -188,147 +188,33 @@ Management Commands:
 
 ### Phase 3: Adaptive Guidance Learning
 
-**Execute continuous guidance optimization and personalization:**
+**Advanced learning systems and personalization detailed in**: [guidance-algorithms.md](guidance-algorithms.md)
 
-#### Learning Framework Integration
-```
-Guidance Learning System:
-1. Recommendation Outcome Tracking
-   ├─ User acceptance rate of recommendations
-   ├─ Command execution success following guidance
-   ├─ Task completion efficiency with guidance
-   └─ User satisfaction with recommendation quality
+Core learning capabilities:
+- **Outcome Tracking**: Monitor recommendation success and user satisfaction
+- **Pattern Recognition**: Identify successful context-recommendation patterns
+- **Adaptive Enhancement**: Refine algorithms based on performance feedback
+- **Predictive Development**: Anticipate user needs and prepare proactive guidance
 
-2. Context Pattern Recognition
-   ├─ Successful context-recommendation patterns
-   ├─ Failed recommendation scenarios analysis
-   ├─ User preference pattern identification
-   └─ System state correlation with success
+### Phase 4: Dynamic Guidance Delivery  
 
-3. Adaptive Recommendation Enhancement
-   ├─ Context weight adjustment based on outcomes
-   ├─ Recommendation algorithm refinement
-   ├─ Personalization parameter optimization
-   └─ Success pattern reinforcement
+**Dynamic delivery and integration systems detailed in**: [guidance-integrations.md](guidance-integrations.md)
 
-4. Predictive Guidance Development
-   ├─ User need prediction based on patterns
-   ├─ Proactive recommendation preparation
-   ├─ Context anticipation algorithms
-   └─ Guidance delivery optimization
-```
-
-#### Personalization Engine
-```
-Personalization Framework:
-├─ User Expertise Level Assessment
-│  ├─ Beginner: Detailed guidance with explanations
-│  ├─ Intermediate: Balanced guidance with options
-│  ├─ Advanced: Concise guidance with alternatives
-│  └─ Expert: Context-aware suggestions with minimal explanation
-├─ Task Preference Pattern Learning
-│  ├─ Preferred command categories identification
-│  ├─ Working style pattern recognition
-│  ├─ Efficiency preference optimization
-│  └─ Quality vs speed preference analysis
-├─ Context Sensitivity Adaptation
-│  ├─ High context users: Detailed environmental analysis
-│  ├─ Medium context users: Balanced context with focus
-│  ├─ Low context users: Essential context only
-│  └─ Context-minimal users: Direct recommendations
-└─ Success Pattern Reinforcement
-   ├─ Successful recommendation pattern emphasis
-   ├─ Failed pattern avoidance
-   ├─ Efficiency optimization based on history
-   └─ Quality maintenance through pattern analysis
-```
-
-### Phase 4: Dynamic Guidance Delivery
-
-**Execute intelligent, context-aware guidance presentation:**
-
-#### Guidance Delivery Framework
-```
-Guidance Presentation System:
-1. Urgency-Based Delivery
-   ├─ Emergency: Immediate, critical guidance with clear action steps
-   ├─ Urgent: Priority guidance with alternative options
-   ├─ Standard: Comprehensive guidance with explanation
-   └─ Background: Detailed guidance with learning opportunities
-
-2. Complexity-Aware Presentation
-   ├─ Simple Tasks: Direct command recommendation
-   ├─ Moderate Tasks: Command sequence with rationale
-   ├─ Complex Tasks: Analysis approach with multiple options
-   └─ Unknown Tasks: Clarification guidance with diagnostic steps
-
-3. Context-Sensitive Formatting
-   ├─ High-Stakes Context: Detailed guidance with risk assessment
-   ├─ Standard Context: Balanced guidance with options
-   ├─ Learning Context: Educational guidance with explanations
-   └─ Efficiency Context: Concise guidance with essential information
-
-4. Interactive Guidance Features
-   ├─ Confidence Scoring: Recommendation confidence levels
-   ├─ Alternative Options: Multiple viable command choices
-   ├─ Risk Assessment: Potential issues and mitigation
-   └─ Success Prediction: Expected outcomes and benefits
-```
-
-#### Real-Time Guidance Adaptation
-```
-Dynamic Guidance Adjustment:
-├─ System State Changes: Real-time guidance updates
-├─ Context Evolution: Adaptive recommendation refinement
-├─ User Feedback Integration: Immediate guidance improvement
-└─ Performance Impact: Resource-aware guidance delivery
-
-Guidance Quality Metrics:
-├─ Relevance Score: Context-recommendation alignment
-├─ Accuracy Score: Prediction vs actual outcome alignment
-├─ Efficiency Score: Time-to-decision improvement
-└─ Satisfaction Score: User experience quality measurement
-```
+Core delivery capabilities:
+- **Urgency-Based Delivery**: Adapt presentation to task urgency
+- **Complexity-Aware Presentation**: Match guidance detail to task complexity
+- **Context-Sensitive Formatting**: Optimize guidance for user context
+- **Real-Time Adaptation**: Update guidance based on changing conditions
 
 ## Integration Framework
 
-### System Monitoring Integration
-- **Real-Time State Monitor**: Current system state data for context analysis
-- **System Monitor**: Performance metrics and health status for guidance
-- **Protocol Compliance Verifier**: Compliance status for enforcement guidance
-- **Automatic Trigger System**: Proactive guidance based on trigger conditions
+**Comprehensive integration and performance optimization detailed in**: [guidance-integrations.md](guidance-integrations.md)
 
-### Command Framework Integration
-- **Command Reference Matrix**: Problem-command mapping for guidance generation
-- **Intelligent Command Selection**: Advanced selection algorithms for recommendations
-- **Problem Classification Matrix**: Severity-based guidance prioritization
-- **All Commands**: Capability assessment for recommendation accuracy
-
-### User Experience Integration
-- **Context-Aware Delivery**: Guidance adapted to user expertise and preferences
-- **Learning Integration**: Continuous improvement based on user interactions
-- **Efficiency Optimization**: Reduced decision time through intelligent guidance
-- **Quality Assurance**: Validated recommendations for optimal outcomes
-
-## Performance Optimization
-
-### Sub-Second Guidance Generation
-```
-Performance Targets:
-├─ Context Analysis: < 100ms (system state and history evaluation)
-├─ Recommendation Generation: < 200ms (command assessment and ranking)
-├─ Guidance Formatting: < 100ms (presentation and delivery preparation)
-└─ Total Delivery Time: < 400ms (with 100ms buffer for sub-500ms delivery)
-```
-
-### Efficiency Framework
-```
-Optimization Strategies:
-├─ Intelligent Caching: Pre-computed guidance for common scenarios
-├─ Pattern Recognition: Fast pattern matching for context analysis
-├─ Parallel Processing: Concurrent recommendation evaluation
-└─ Resource Awareness: Guidance complexity adapted to system load
-```
+### Core Integration Points
+- **System Monitoring**: Real-time state and compliance data integration
+- **Command Framework**: Command capability assessment and mapping coordination
+- **User Experience**: Context-aware delivery and optimization
+- **Performance**: Sub-500ms guidance generation with resource efficiency
 
 ## Validation Requirements
 

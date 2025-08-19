@@ -18,13 +18,11 @@ last_review: "2025-08-18"
 ⏺ **Principle**: ALL tasks MUST use agents from /agents/ folder. When no suitable agent exists, MANDATORY ticket generation ensures agent creation or conversation termination with tracking.
 
 ## Table of Contents
-- [Mandatory Agent Usage](#mandatory-agent-usage)
-- [Selection Methodology](#selection-methodology)
-- [Multi-Perspective Analysis](#multi-perspective-analysis)
-- [Agent Catalog Assessment](#agent-catalog-assessment)
-- [Agent Creation Decision](#agent-creation-decision)
-- [Ticket Generation Requirements](#ticket-generation-requirements)
-- [Deployment Validation](#deployment-validation)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

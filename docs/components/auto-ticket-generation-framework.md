@@ -16,13 +16,13 @@ last_review: "2025-08-19"
 # AUTO-TICKET GENERATION FRAMEWORK
 
 ## Table of Contents
-- [Framework Overview](#framework-overview)
-- [Violation Detection Matrix](#violation-detection-matrix)
-- [Automatic Ticket Generation Workflow](#automatic-ticket-generation-workflow)
-- [Registry Integration Patterns](#registry-integration-patterns)
-- [Quality Validation System](#quality-validation-system)
-- [Implementation Examples](#implementation-examples)
-- [Success Criteria](#success-criteria)
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Framework Overview

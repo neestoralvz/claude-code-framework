@@ -1,0 +1,60 @@
+{
+  "audit_metadata": {
+    "execution_date": "2025-08-19",
+    "ticket_id": "NAV-001",
+    "audit_scope": "Complete framework (.md files)",
+    "methodology": "8-phase systematic workflow",
+    "quality_gates": "4-gate validation framework"
+  },
+  "summary_statistics": {
+    "total_files_scanned": 1478,
+    "total_links_found": 5074,
+    "broken_links_count": 2085,
+    "valid_links_count": 2989,
+    "failure_rate_percentage": 41.1
+  },
+  "category_breakdown": {
+    "other": 1229,
+    "navigation": 478,
+    "workflow": 235,
+    "command": 114,
+    "registry": 29
+  },
+  "priority_classification": {
+    "low": 1345,
+    "high": 603,
+    "medium": 87,
+    "critical": 50
+  },
+  "top_broken_files": [
+    {"file": "commands/system-audit.md", "count": 41},
+    {"file": "docs/components/workflow-phases.md", "count": 30},
+    {"file": "docs/components/formatting/link-use-cases.md", "count": 30},
+    {"file": "docs/templates/playbook-documentation-template.md", "count": 28},
+    {"file": "docs/planning/tickets/completed/migration-summary-roadmap.md", "count": 25}
+  ],
+  "repair_strategy": {
+    "phase_1_critical": {"effort_hours": "4-6", "target_links": 50, "priority": "CRITICAL"},
+    "phase_2_commands": {"effort_hours": "8-12", "target_links": 114, "priority": "HIGH"},
+    "phase_3_navigation": {"effort_hours": "12-16", "target_links": 478, "priority": "HIGH"},
+    "phase_4_workflow": {"effort_hours": "6-8", "target_links": 264, "priority": "MEDIUM-HIGH"}
+  },
+  "automation_foundation": {
+    "nav_002_requirements": "Link scanner patterns and detection rules established",
+    "nav_003_requirements": "Batch replacement and redirection mapping defined",
+    "nav_004_requirements": "Breadcrumb generation patterns identified",
+    "nav_007_requirements": "Integrity monitoring baseline established"
+  },
+  "success_criteria_status": {
+    "complete_catalog": true,
+    "categorization_complete": true,
+    "priority_classification_complete": true,
+    "impact_assessment_complete": true,
+    "repair_plan_complete": true
+  },
+  "next_actions": [
+    "Deploy NAV-002: Link Scanner Script (10-15h)",
+    "Execute Phase 1: Critical infrastructure repair (4-6h)",
+    "Begin Phase 2: Command system restoration (8-12h)"
+  ]
+}

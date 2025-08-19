@@ -17,10 +17,12 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Minimal Structure](#minimal-structure)
-- [Template Variables](#template-variables)
-- [Integration Blocks](#integration-blocks)
-- [Customization Guidelines](#customization-guidelines)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

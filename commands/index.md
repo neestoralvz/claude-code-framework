@@ -18,12 +18,13 @@ execution_mode: "integrated"
 # COMMANDS INDEX - ENHANCED ARCHITECTURE
 
 ## Table of Contents
-- [Available Commands](#available-commands)
-- [Command Categories](#command-categories)
-- [Usage Guidelines](#usage-guidelines)
-- [Creating New Commands](#creating-new-commands)
-- [Standards and Requirements](#standards-and-requirements)
-- [Workflow Integration](#workflow-integration)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
+- [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

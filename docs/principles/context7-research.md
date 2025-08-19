@@ -16,10 +16,11 @@ last_review: "2025-08-18"
 # CONTEXT7 RESEARCH
 
 ## Table of Contents
-- [Research Requirements](#research-requirements)
-- [Research Process](#research-process)
-- [Documentation Patterns](#documentation-patterns)
-- [Implementation Integration](#implementation-integration)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

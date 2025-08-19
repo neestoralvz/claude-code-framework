@@ -16,10 +16,11 @@ last_review: "2025-08-18"
 # CLAUDE MD
 
 ## Table of Contents
-- [Core Directive](#core-directive)
-- [Implementation Standards](#implementation-standards)
-- [Content Guidelines](#content-guidelines)
-- [Quality Checklist](#quality-checklist)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

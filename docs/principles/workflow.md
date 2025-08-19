@@ -17,12 +17,11 @@ last_review: "2025-08-18"
 ⏺ **Principle**: This document implements systematic workflow methodology as defined by CLAUDE.md ultimate authority. All workflow implementations follow this methodology while maintaining deference to CLAUDE.md for operational directives.
 
 ## Table of Contents
-
 - [Core Philosophy](#core-philosophy)
 - [Fundamental Concepts](#fundamental-concepts)
-- [Eight-Phase Methodology](#eight-phase-methodology)
 - [Implementation Framework](#implementation-framework)
-- [Operational Guidance](#operational-guidance)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

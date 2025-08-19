@@ -19,12 +19,10 @@ last_review: "2025-08-19"
 
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
-- [Single-Source Truth Methodology](#single-source-truth-methodology)
-- [Instructional Link Strategy](#instructional-link-strategy)
-- [Content Modularization Framework](#content-modularization-framework)
-- [Duplication Detection and Elimination](#duplication-detection-and-elimination)
-- [Implementation Protocols](#implementation-protocols)
-- [Validation and Maintenance](#validation-and-maintenance)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

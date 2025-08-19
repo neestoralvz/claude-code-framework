@@ -16,10 +16,26 @@ last_review: "2025-08-18"
 # CORE PHILOSOPHY TEMPLATES
 
 ## Table of Contents
-- [Overview](#overview)
-- [Template Categories](#template-categories)
-- [Usage Guidelines](#usage-guidelines)
-- [Template Standards](#template-standards)
+  - [Overview](#overview)
+  - [Template Categories](#template-categories)
+- [🎯 Principle Templates](#-principle-templates)
+- [🔄 Workflow Templates](#-workflow-templates)
+- [🏛️ Authority Templates](#-authority-templates)
+- [📋 Methodology Templates](#-methodology-templates)
+  - [Usage Guidelines](#usage-guidelines)
+- [Template Selection](#template-selection)
+- [Customization Guidelines](#customization-guidelines)
+- [Quality Standards](#quality-standards)
+  - [Template Standards](#template-standards)
+- [YAML Frontmatter Standards](#yaml-frontmatter-standards)
+- [Content Structure Standards](#content-structure-standards)
+- [Principle Integration Standards](#principle-integration-standards)
+  - [Cross-References](#cross-references)
+- [Primary Navigation](#primary-navigation)
+- [Related Principles](#related-principles)
+- [Template Usage](#template-usage)
+- [Framework Integration](#framework-integration)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Overview

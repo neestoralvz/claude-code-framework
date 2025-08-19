@@ -3,13 +3,14 @@
 ## Standard TOC Pattern
 ```markdown
 ## Table of Contents
-- [Section 1](#section-1)
-- [Section 2](#section-2)
-- [Implementation](#implementation)
-- [Guidelines/Standards](#guidelines-standards)
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
-```
 
 ## Extended TOC Pattern (Complex Documents)
 ```markdown

@@ -20,11 +20,9 @@ last_review: "2025-08-18"
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
 - [Fundamental Concepts](#fundamental-concepts)
-- [Validation Framework](#validation-framework)
-- [Success Criteria Framework](#success-criteria-framework)
-- [Validation Types and Applications](#validation-types-and-applications)
-- [Operational Guidance](#operational-guidance)
-- [Template Integration](#template-integration)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

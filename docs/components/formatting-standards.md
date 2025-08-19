@@ -102,18 +102,14 @@ Every link MUST include:
 
 # Table of Contents (Long documents)
 ## Table of Contents
-- [Section One](#section-one)
-- [Section Two](#section-two)
-- [Section Three](#section-three)
-```
-
-### Cross-Reference Standards
-- Add cross-references to all major sections
-- Link related concepts with clear purpose
-- Reference dependencies explicitly
-- Connect to source materials with action verbs
-- Direct readers with imperative commands
-- Validate every link has clear intent
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Code Block Standards
 

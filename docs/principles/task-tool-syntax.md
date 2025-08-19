@@ -13,27 +13,13 @@ keywords: ["Task Tool", "agent deployment", "syntax", "prompt structure", "paral
 # TASK TOOL SYNTAX AND DEPLOYMENT FRAMEWORK
 
 ## Table of Contents
-- [Complete Task Tool Invocation Syntax](#complete-task-tool-invocation-syntax)
-  - [XML Structure Pattern](#xml-structure-pattern)
-  - [Critical Syntax Requirements](#critical-syntax-requirements)
-- [Parameter Specifications](#parameter-specifications)
-  - [subagent_type Parameter](#subagent_type-parameter)
-  - [description Parameter](#description-parameter)
-  - [prompt Parameter](#prompt-parameter)
-- [Structured Prompt Framework](#structured-prompt-framework)
-  - [Required Prompt Sections](#required-prompt-sections)
-- [Deployment Patterns](#deployment-patterns)
-  - [Single Agent Deployment](#single-agent-deployment)
-  - [Parallel Agent Deployment](#parallel-agent-deployment)
-  - [Wave-Based Deployment](#wave-based-deployment)
-- [Quality Assurance Framework](#quality-assurance-framework)
-  - [Pre-Deployment Validation](#pre-deployment-validation)
-  - [Post-Deployment Monitoring](#post-deployment-monitoring)
-- [Framework Integration](#framework-integration)
-  - [Related Principles](#related-principles)
-  - [Implementation Guidance](#implementation-guidance)
-
-⏺ **Principle**: Task Tool invocations require precise XML syntax with structured prompts to ensure optimal agent deployment and execution coordination.
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Complete Task Tool Invocation Syntax
 

@@ -18,10 +18,11 @@ last_review: "2025-08-18"
 ⏺ **Principle**: The main Claude Code instance preserves context through strategic Task Tool delegation while maintaining workflow orchestration control.
 
 ## Table of Contents
-- [Core Methodology](#core-methodology)
-- [Agent Delegation Framework](#agent-delegation-framework)
-- [Context Preservation Rules](#context-preservation-rules)
-- [Quality Control](#quality-control)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

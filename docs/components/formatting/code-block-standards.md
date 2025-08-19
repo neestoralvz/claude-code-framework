@@ -13,11 +13,12 @@ purpose: "Define standards for code block usage, language specifications, and do
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Documentation Standards](#documentation-standards)
-- [Language-Specific Blocks](#language-specific-blocks)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
 - [Usage Guidelines](#usage-guidelines)
-- [Validation Rules](#validation-rules)
-- [Common Patterns](#common-patterns)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

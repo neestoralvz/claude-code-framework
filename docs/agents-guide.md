@@ -16,10 +16,21 @@ last_review: 2025-08-18
 # AGENTS DIRECTORY
 
 ## Table of Contents
-- [Critical Rule](#critical-rule)
-- [Available Agents](#available-agents)
+  - [Critical Rule](#critical-rule)
+  - [Available Agents](#available-agents)
+- [Active Deployment Agents](#active-deployment-agents)
+  - [Agent Documentation](#agent-documentation)
+- [Complete Documentation System](#complete-documentation-system)
+- [Key Documentation Files](#key-documentation-files)
+  - [Deployment Guidelines](#deployment-guidelines)
+- [Selection Criteria](#selection-criteria)
+- [Usage Patterns](#usage-patterns)
+  - [Principle References](#principle-references)
+  - [Cross-References](#cross-references)
+- [Primary Navigation](#primary-navigation)
 - [Agent Documentation](#agent-documentation)
-- [Deployment Guidelines](#deployment-guidelines)
+- [Related Principles](#related-principles)
+- [Related Commands](#related-commands)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

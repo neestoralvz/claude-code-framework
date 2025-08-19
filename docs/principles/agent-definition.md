@@ -18,11 +18,11 @@ last_review: "2025-08-18"
 ⏺ **Principle**: All agents must have excellently and precisely defined expert scopes to ensure maximum effectiveness and specialization.
 
 ## Table of Contents
-- [Expert Scope Requirements](#expert-scope-requirements)
-- [Precision Definition Standards](#precision-definition-standards)
-- [Specialization Boundaries](#specialization-boundaries)
-- [Capability Documentation](#capability-documentation)
-- [Quality Assurance](#quality-assurance)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

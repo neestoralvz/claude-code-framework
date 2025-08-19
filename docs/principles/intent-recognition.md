@@ -18,13 +18,12 @@ last_review: "2025-08-19"
 ⏺ **Principle**: This recognition system implements [directive.md execution requirements](../principles/directive.md) by establishing immediate command/agent selection from first user interaction.
 
 ## Table of Contents
-- [Framework Integration](#framework-integration)
-- [Recognition Triggers](#recognition-triggers)
-- [Intent Analysis Matrix](#intent-analysis-matrix)
-- [Command Mapping Rules](#command-mapping-rules)
-- [Agent Selection Integration](#agent-selection-integration)
-- [Implementation Protocol](#implementation-protocol)
-- [Validation Framework](#validation-framework)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Framework Integration

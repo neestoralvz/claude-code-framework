@@ -4,17 +4,17 @@ author: "Claude Code System"
 date: "2025-08-19"
 version: "1.0.0"
 dependencies: ["command-selection.md", "../../principles/workflow.md"]
-prerequisites: ["Understanding of command execution patterns", "CloudEco integration requirements"]
-audience: "System integrators and CloudEco workflow designers"
+prerequisites: ["Understanding of command execution patterns", "Claude Code integration requirements"]
+audience: "System integrators and Claude Code workflow designers"
 purpose: "Define authoritative command execution triggers and workflow integration patterns"
-keywords: ["command-triggers", "execution-flows", "cloudeco-integration", "automation-triggers", "workflow-integration"]
+keywords: ["command-triggers", "execution-flows", "claude-code-integration", "automation-triggers", "workflow-integration"]
 last_review: "2025-08-19"
-authority_scope: "Command execution triggers, automation patterns, and CloudEco workflow integration"
+authority_scope: "Command execution triggers, automation patterns, and Claude Code workflow integration"
 ---
 
 # Command Flow Triggers
 
-⏺ **Authority**: This component serves as the single authoritative source for command execution triggers, automation patterns, and CloudEco workflow integration within the Claude Code framework.
+⏺ **Authority**: This component serves as the single authoritative source for command execution triggers, automation patterns, and Claude Code workflow integration within the Claude Code framework.
 
 ## Execution Trigger Framework
 
@@ -41,10 +41,10 @@ Direct user requests and manual operations:
 - **Improvement opportunities identified** → [Execute 10-recurse.md](../../../commands/workflow/10-recurse.md) for enhancement
 - **Complex analysis required** → [Execute multi-analysis-execution.md](../../../commands/orchestration/multi-analysis-execution.md)
 
-### CloudEco Integration Patterns
+### Claude Code Integration Patterns
 
 #### Workflow Execution Triggers
-Integration points for CloudEco automation:
+Integration points for Claude Code automation:
 
 ##### Development Workflow Triggers
 ```yaml
@@ -155,11 +155,11 @@ User Request → Analysis Requirements → Parallel Command Deployment → Resul
 
 ## Integration Protocol Implementation
 
-### CloudEco Webhook Integration
+### Claude Code Webhook Integration
 
 #### Trigger Event Handling
 ```javascript
-// Example CloudEco integration pattern
+// Example Claude Code integration pattern
 const handleWorkflowTrigger = (event) => {
   const triggerMapping = {
     'complexity_violation': 'commands/analysis/modularize.md',
@@ -190,7 +190,7 @@ const handleWorkflowTrigger = (event) => {
 - **Standard parameters** for common execution options
 - **Context parameters** for workflow state and history
 - **Quality parameters** for validation and compliance requirements
-- **Integration parameters** for CloudEco coordination
+- **Integration parameters** for Claude Code coordination
 
 ## Trigger Validation and Testing
 
@@ -202,7 +202,7 @@ const handleWorkflowTrigger = (event) => {
 
 ### Integration Testing Protocols
 - **End-to-end workflow testing** from trigger to completion
-- **CloudEco integration validation** across different trigger types
+- **Claude Code integration validation** across different trigger types
 - **Performance testing** for high-frequency automated triggers
 - **Error handling validation** for failed or invalid triggers
 
@@ -226,7 +226,7 @@ const handleWorkflowTrigger = (event) => {
 
 ### Included in This Component
 - Command execution trigger definitions and categories
-- CloudEco integration patterns and webhook handling
+- Claude Code integration patterns and webhook handling
 - Automated trigger conditions and response protocols
 - Workflow execution flow patterns and implementation
 - Trigger validation and testing methodologies

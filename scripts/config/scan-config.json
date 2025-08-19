@@ -1,0 +1,72 @@
+{
+  "framework_root": "/Users/nalve/.claude",
+  "output_dir": "/Users/nalve/.claude/operations/link-validation",
+  "scan_paths": [
+    "docs/",
+    "agents/",
+    "tickets/",
+    "operations/",
+    "commands/",
+    "playbook/",
+    "CLAUDE.md",
+    "README.md"
+  ],
+  "exclude_patterns": [
+    "*.tmp",
+    "*.backup",
+    "*.bak",
+    "*~",
+    ".git/*",
+    "node_modules/*",
+    "*/logs/*",
+    "*/cache/*",
+    "docker-volumes/*",
+    ".claude/*",
+    "statsig/*",
+    "shell-snapshots/*",
+    "todos/*"
+  ],
+  "link_categories": {
+    "command": {
+      "patterns": ["commands/**/*.md", "**/command-*.md"],
+      "priority": "high"
+    },
+    "navigation": {
+      "patterns": ["**/navigation/**", "**/nav-*.md", "**/breadcrumb*", "**/index.md"],
+      "priority": "high"
+    },
+    "workflow": {
+      "patterns": ["**/workflow/**", "**/methodology/**", "**/procedures/**"],
+      "priority": "medium"
+    },
+    "registry": {
+      "patterns": ["docs/planning/**", "**/tickets/**", "**/registry*"],
+      "priority": "medium"
+    },
+    "component": {
+      "patterns": ["docs/components/**", "**/templates/**"],
+      "priority": "low"
+    },
+    "agent": {
+      "patterns": ["agents/**", "**/agent-*.md"],
+      "priority": "medium"
+    }
+  },
+  "performance": {
+    "max_parallel_jobs": 4,
+    "timeout_seconds": 300,
+    "cache_results": true,
+    "incremental_scan": true
+  },
+  "output_formats": {
+    "json": true,
+    "csv": true,
+    "human_readable": true
+  },
+  "validation": {
+    "check_file_existence": true,
+    "resolve_relative_paths": true,
+    "validate_anchors": false,
+    "ignore_external_links": true
+  }
+}

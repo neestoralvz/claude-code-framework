@@ -16,8 +16,11 @@ last_review: "2025-08-18"
 # FORBIDDEN
 
 ## Table of Contents
-- [Prohibited Practices](#prohibited-practices)
-- [Guidelines](#guidelines)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

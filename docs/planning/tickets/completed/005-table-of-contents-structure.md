@@ -23,10 +23,17 @@ Table of contents patterns duplicated across 20 files with 80% structural simila
 ## Current Pattern
 ```markdown
 ## Table of Contents
-- [Section 1](#section-1)
-- [Section 2](#section-2)
-  - [Subsection](#subsection)
-```
+  - [Problem](#problem)
+  - [Impact](#impact)
+  - [Current Pattern](#current-pattern)
+  - [Solution](#solution)
+  - [Implementation Steps](#implementation-steps)
+  - [Expected Benefits](#expected-benefits)
+  - [Acceptance Criteria](#acceptance-criteria)
+  - [Dependencies](#dependencies)
+  - [Notes](#notes)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Solution
 Create standardized TOC generator and patterns.

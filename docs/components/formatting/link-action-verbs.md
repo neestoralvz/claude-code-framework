@@ -17,9 +17,12 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Primary Action Verbs](#primary-action-verbs)
-- [Secondary Action Verbs](#secondary-action-verbs)
-- [Context-Specific Examples](#context-specific-examples)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

@@ -17,10 +17,12 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Web Application Template](#web-application-template)
-- [API Service Template](#api-service-template)
-- [Library/Tool Template](#librarytool-template)
-- [Template Variables](#template-variables)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

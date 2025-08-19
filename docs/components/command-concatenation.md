@@ -16,13 +16,13 @@ last_review: "2025-08-18"
 # COMMAND CONCATENATION SYSTEM
 
 ## Table of Contents
-- [Architecture Overview](#architecture-overview)
-- [Concatenation Patterns](#concatenation-patterns)
-- [Interface Specifications](#interface-specifications)
-- [Orchestration Engine](#orchestration-engine)
-- [Implementation Framework](#implementation-framework)
-- [Error Handling](#error-handling)
-- [Performance Considerations](#performance-considerations)
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Architecture Overview

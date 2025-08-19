@@ -16,12 +16,12 @@
   },
   {
     "content": "Add appropriate files to Git tracking",
-    "status": "in_progress",
+    "status": "completed",
     "id": "4"
   },
   {
     "content": "Verify Git functionality is restored",
-    "status": "pending",
+    "status": "completed",
     "id": "5"
   }
 ]

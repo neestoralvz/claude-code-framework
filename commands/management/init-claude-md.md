@@ -16,13 +16,14 @@ last_review: "2025-08-18"
 # INITIALIZE CLAUDE.MD FOR NEW PROJECTS
 
 ## Table of Contents
-- [Purpose](#purpose)
-- [Command Overview](#command-overview)
-- [Execution Process](#execution-process)
-- [Template Generation](#template-generation)
-- [Framework Integration](#framework-integration)
-- [Validation Requirements](#validation-requirements)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
 - [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

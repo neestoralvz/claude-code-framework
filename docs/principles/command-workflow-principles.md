@@ -17,11 +17,10 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
-- [Workflow Identification Principles](#workflow-identification-principles)
-- [Command Conversion Framework](#command-conversion-framework)
-- [Command Concatenation System](#command-concatenation-system)
-- [Implementation Standards](#implementation-standards)
-- [Quality Assurance](#quality-assurance)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

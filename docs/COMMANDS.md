@@ -14,14 +14,31 @@ last_review: "2025-08-18"
 # COMMANDS
 
 ## Navigation
-[Previous: Study PRINCIPLES.md for framework](PRINCIPLES.md) | [Return to hub for navigation](index.md) | [Study PRINCIPLES.md for framework](PRINCIPLES.md) | [Next: Browse commands index for tools](../commands/index.md)
+[Previous: Study PRINCIPLES.md for framework](PRINCIPLES.md) | [Return to hub for navigation](index.md) | [Study PRINCIPLES.md for framework](PRINCIPLES.md) | [Next: Browse commands index for tools](commands/index.md)
 
 ## Table of Contents
-1. [Understand Definition](#definition)
-2. [Learn Structure](#structure)
-3. [Execute Phases](#execution-phases)
-4. [Apply Instructions](#writing-instructions)
-5. [Use Commands](#available-commands)
+  - [Navigation](#navigation)
+  - [Definition](#definition)
+  - [Structure](#structure)
+  - [Execution Phases](#execution-phases)
+- [Clarification](#clarification)
+- [Exploration](#exploration)
+- [Analysis](#analysis)
+- [Planning](#planning)
+- [Implementation](#implementation)
+- [Ripple Effect](#ripple-effect)
+- [Validation](#validation)
+- [Recursion](#recursion)
+  - [Writing Instructions](#writing-instructions)
+- [Direct](#direct)
+- [Specific](#specific)
+- [Pattern](#pattern)
+- [Complete](#complete)
+  - [Available Commands](#available-commands)
+- [/optimize [file]](#-optimize-file-)
+- [/modularize [file/directory]](#-modularize-file-directory-)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Definition
 Deploy specialized agents with imperative instructions prefixed with "/"

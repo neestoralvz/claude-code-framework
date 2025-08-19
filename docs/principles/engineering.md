@@ -16,14 +16,11 @@ last_review: "2025-08-18"
 # ENGINEERING
 
 ## Table of Contents
-- [Design Principles](#design-principles)
-- [Complexity Management](#complexity-management)
-- [Decision Frameworks](#decision-frameworks)
-- [Simplicity Maintenance](#simplicity-maintenance)
-- [Standards](#standards)
-- [Methodologies](#methodologies)
-- [Detection and Prevention](#detection-and-prevention)
-- [Review Criteria](#review-criteria)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

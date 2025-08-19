@@ -17,10 +17,11 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [TOC Patterns](#toc-patterns)
-- [Document Types](#document-types)
-- [Generation Rules](#generation-rules)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
 - [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

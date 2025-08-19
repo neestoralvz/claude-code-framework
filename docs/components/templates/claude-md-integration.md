@@ -13,11 +13,12 @@ purpose: "Integrate Claude Code framework with project-specific CLAUDE.md files"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Command Integration Pattern](#command-integration-pattern)
-- [Agent Integration Pattern](#agent-integration-pattern)
-- [Principle Integration](#principle-integration)
-- [Custom Extensions](#custom-extensions)
-- [Integration Workflow](#integration-workflow)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

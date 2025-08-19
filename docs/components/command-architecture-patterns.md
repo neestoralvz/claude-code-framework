@@ -18,14 +18,14 @@ pattern_category: "integration"
 # COMMAND ARCHITECTURE PATTERNS
 
 ## Table of Contents
-- [Architecture Overview](#architecture-overview)
-- [Integration Patterns](#integration-patterns)
-- [Embedded Principle Patterns](#embedded-principle-patterns)
-- [Agent Deployment Patterns](#agent-deployment-patterns)
-- [Validation Framework Patterns](#validation-framework-patterns)
-- [Workflow Integration Patterns](#workflow-integration-patterns)
-- [Quality Gate Patterns](#quality-gate-patterns)
-- [Component Pattern Catalog](#component-pattern-catalog)
+- [Purpose](#purpose)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Architecture Overview
 

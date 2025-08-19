@@ -19,13 +19,15 @@ validation_level: "comprehensive"
 # REVIEW TICKETS COMMAND - ENHANCED ARCHITECTURE
 
 ## Table of Contents
-- [Integrated Execution Environment](#integrated-execution-environment)
-- [Embedded Principle Application](#embedded-principle-application)
-- [Automatic Agent Deployment](#automatic-agent-deployment)
-- [Built-in Validation Framework](#built-in-validation-framework)
-- [Complete Workflow Integration](#complete-workflow-integration)
-- [Quality Gates and Success Criteria](#quality-gates-and-success-criteria)
-- [Architecture Integration Patterns](#architecture-integration-patterns)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
+- [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
 ## Integrated Execution Environment
 
@@ -43,58 +45,23 @@ This command operates with FULL EXECUTION AUTHORITY per command-centered archite
 
 ## Embedded Principle Application
 
-⏺ **Principle Integration**: This command DIRECTLY APPLIES relevant principles rather than referencing them externally, ensuring consistent implementation.
+⏺ **Principle Integration**: This command uses the [shared EnhancedTemplate](../shared/EnhancedTemplate.md) for embedded principle application and automatic enforcement.
 
-### Core Principles Embedded
-```yaml
-principles:
-  workflow:
-    phases: [clarify, explore, analyze, present, plan, implement, ripple, validate]
-    enforcement: automatic
-    validation: built_in
-  
-  organization:
-    priority_management: embedded_priority_matrix
-    systematic_execution: hierarchical_processing
-    quality_assurance: continuous_validation
-  
-  engineering:
-    standards: embedded
-    quality_gates: four-gate-system
-    testing: comprehensive
-```
+**Reference Implementation**: See [EnhancedTemplate.md](../shared/EnhancedTemplate.md) for complete principle integration framework.
 
-### Principle Application Logic
-1. **Workflow Enforcement**: Each ticket processing phase automatically applies workflow.md methodology
-2. **Organization Standards**: Priority-based execution with embedded organizational patterns
-3. **Engineering Standards**: Quality gates enforced at every processing step
-4. **Communication Standards**: Imperative tone and clear action requirements embedded
+**Review-Specific Adaptations**:
+- Priority-based execution with embedded organizational patterns
+- Systematic ticket analysis with quality assurance validation
+- Registry integration with automatic status tracking
+- Multi-ticket coordination with dependency management
 
 ## Automatic Agent Deployment
 
-⏺ **Agent Selection**: This command automatically assesses ticket complexity and deploys appropriate agents without external intervention.
+⏺ **Agent Selection**: Automated management agent deployment via [CentralizedAgentDeploymentFramework](../../docs/components/centralized-agent-deployment-framework.md#management-agent-selection)
 
-### Agent Assessment Framework
-```yaml
-agent_deployment:
-  assessment_criteria:
-    ticket_complexity: [simple, moderate, complex, specialized]
-    domain_expertise: [general, system, documentation, validation]
-    execution_requirements: [minimal, standard, intensive]
-    coordination_needs: [single_ticket, multi_ticket, cross_system]
-  
-  deployment_matrix:
-    simple_tickets: direct_execution_with_validation
-    moderate_tickets: ticket_execution_specialist
-    complex_tickets: project_optimizer_with_coordination
-    specialized_tickets: domain_expert_agent_required
-```
+**Management Specializations**: Ticket analysis, priority assessment, execution coordination, progress tracking
 
-### Deployment Decision Logic
-1. **Ticket Analysis**: Automatic assessment of execution requirements
-2. **Capability Matching**: Match requirements to available execution agents
-3. **Resource Allocation**: Optimize agent deployment for execution efficiency
-4. **Integration Management**: Handle agent coordination internally
+**Reference**: See [Centralized Agent Deployment Framework](../../docs/components/centralized-agent-deployment-framework.md) for complete system.
 
 ## Built-in Validation Framework
 
@@ -126,83 +93,21 @@ validation_gates:
 
 ## Complete Workflow Integration
 
-⏺ **Workflow Authority**: This command implements the complete 8-phase workflow methodology with ticket-review-specific adaptations.
+⏺ **Workflow Authority**: This command implements [management_workflow_phases](../shared/WorkflowPhases.md#management-command-workflow) from the shared WorkflowPhases for specialized ticket review execution.
 
-### Phase Implementation Matrix
-```yaml
-workflow_phases:
-  phase_1_clarify:
-    embedded_logic: ticket_priority_analysis
-    validation: priority_accuracy_verification
-    outputs: [priority_ranking, execution_order, resource_requirements]
-    
-  phase_2_explore:
-    embedded_logic: ticket_context_assessment
-    validation: execution_readiness_check
-    outputs: [dependency_map, prerequisite_analysis, execution_plan]
-    
-  phase_3_analyze:
-    embedded_logic: execution_strategy_development
-    validation: strategy_completeness_verification
-    outputs: [execution_approach, agent_requirements, success_metrics]
-    
-  phase_4_present:
-    embedded_logic: execution_plan_presentation
-    validation: clarity_and_feasibility_check
-    outputs: [execution_proposal, resource_allocation, timeline_estimate]
-    
-  phase_5_plan:
-    embedded_logic: detailed_execution_planning
-    validation: plan_completeness_check
-    outputs: [detailed_plan, agent_coordination, milestone_definition]
-    
-  phase_6_implement:
-    embedded_logic: ticket_execution_coordination
-    validation: execution_quality_assurance
-    outputs: [completed_tickets, status_updates, deliverable_validation]
-    
-  phase_7_ripple:
-    embedded_logic: system_impact_management
-    validation: integration_consistency_check
-    outputs: [registry_updates, cross_references, dependency_resolution]
-    
-  phase_8_validate:
-    embedded_logic: completion_verification
-    validation: success_criteria_confirmation
-    outputs: [validation_report, completion_certificate, metrics_summary]
-```
+**Ticket Review Phase Execution**: Clarify ticket priorities → Explore execution context → Analyze execution strategy → Present execution plan → Plan detailed execution → Implement ticket execution → Ripple registry impact → Validate execution completion
+
+**Reference Implementation**: See [WorkflowPhases.md](../shared/WorkflowPhases.md) for complete workflow framework.
 
 ## Quality Gates and Success Criteria
 
-⏺ **Success Validation**: This command includes built-in success criteria validation that automatically verifies completion against established requirements.
+⏺ **Success Validation**: This command implements [task_management_validation](../shared/ValidationEngine.md#task-management-commands) from the shared ValidationEngine for specialized ticket review validation.
 
-### Success Criteria Framework
-```yaml
-success_criteria:
-  functional_requirements:
-    - [ ] All tickets analyzed and prioritized correctly
-    - [ ] Highest priority tickets executed successfully
-    - [ ] Registry status accurately updated
-    - [ ] Dependencies properly resolved
-    
-  quality_requirements:
-    - [ ] Four-gate validation system executed successfully
-    - [ ] Engineering standards applied throughout execution
-    - [ ] Embedded principle compliance verified
-    - [ ] Documentation standards maintained
-    
-  architectural_requirements:
-    - [ ] Command-centered execution maintained throughout
-    - [ ] Agent deployment functioning correctly if triggered
-    - [ ] Integrated validation framework operational
-    - [ ] Workflow methodology properly implemented
-    
-  system_requirements:
-    - [ ] Registry integration completed without conflicts
-    - [ ] Cross-references updated bidirectionally
-    - [ ] No regressions introduced to system
-    - [ ] Dependency chain integrity maintained
-```
+**Ticket Review Validation Gates**: Requirements → Process → Output → System validation with automatic priority verification and execution completion validation.
+
+**Reference Implementation**: See [ValidationEngine.md](../shared/ValidationEngine.md) for complete validation framework.
+
+**Review-Specific Success Criteria**: Priority accuracy validation, execution completeness verification, registry integrity maintenance, and dependency resolution confirmation.
 
 ## Architecture Integration Patterns
 

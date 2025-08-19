@@ -18,10 +18,24 @@ last_review: "[YYYY-MM-DD]"
 ⏺ **WORKFLOW AUTHORITY**: This document implements [workflow.md](../principles/workflow.md) methodology for [specific domain/application].
 
 ## Table of Contents
-- [Core Philosophy](#core-philosophy)
-- [Workflow Phases](#workflow-phases)
-- [Implementation Framework](#implementation-framework)
-- [Validation Criteria](#validation-criteria)
+  - [Core Philosophy](#core-philosophy)
+  - [Workflow Phases](#workflow-phases)
+- [Phase 1: [Phase Name]](#phase-1-phase-name-)
+- [Phase 2: [Phase Name]](#phase-2-phase-name-)
+- [[Continue for all 8 phases...]](#-continue-for-all-8-phases-)
+  - [Implementation Framework](#implementation-framework)
+- [Execution Pattern](#execution-pattern)
+- [Agent Integration](#agent-integration)
+- [Quality Gates](#quality-gates)
+  - [Validation Criteria](#validation-criteria)
+- [Completion Checklist](#completion-checklist)
+- [Success Metrics](#success-metrics)
+  - [Cross-References](#cross-references)
+- [Primary Navigation](#primary-navigation)
+- [Related Workflows](#related-workflows)
+- [Related Principles](#related-principles)
+- [Related Components](#related-components)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Core Philosophy

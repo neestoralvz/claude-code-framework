@@ -18,11 +18,27 @@ last_review: "[YYYY-MM-DD]"
 ⏺ **[AUTHORITY LEVEL] AUTHORITY**: This document serves as the [definitive/authoritative/specialized] source for [domain/scope] within the Claude Code System. [Authority relationship statement].
 
 ## Table of Contents
-- [Authority Scope](#authority-scope)
-- [Core Governance](#core-governance)
-- [Authority Hierarchy](#authority-hierarchy)
-- [Implementation Requirements](#implementation-requirements)
-- [Compliance Verification](#compliance-verification)
+  - [Authority Scope](#authority-scope)
+  - [Core Governance](#core-governance)
+- [[Governance Area 1]](#-governance-area-1-)
+- [[Governance Area 2]](#-governance-area-2-)
+  - [Authority Hierarchy](#authority-hierarchy)
+- [Superior Authorities](#superior-authorities)
+- [Peer Authorities](#peer-authorities)
+- [Subordinate Areas](#subordinate-areas)
+  - [Implementation Requirements](#implementation-requirements)
+- [Mandatory Compliance](#mandatory-compliance)
+- [Prohibited Practices](#prohibited-practices)
+- [Exception Handling](#exception-handling)
+  - [Compliance Verification](#compliance-verification)
+- [Verification Checklist](#verification-checklist)
+- [Audit Requirements](#audit-requirements)
+- [Non-Compliance Response](#non-compliance-response)
+  - [Cross-References](#cross-references)
+- [Authority Chain](#authority-chain)
+- [Implementation Resources](#implementation-resources)
+- [Related Documentation](#related-documentation)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Authority Scope

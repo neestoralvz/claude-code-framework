@@ -19,11 +19,10 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Core Philosophy](#core-philosophy)
-- [Expert Authorship Requirements](#expert-authorship-requirements)
-- [Scope Definition](#scope-definition)
-- [Quality Assurance Standards](#quality-assurance-standards)
-- [Agent Selection Criteria](#agent-selection-criteria)
-- [Implementation Guidelines](#implementation-guidelines)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 

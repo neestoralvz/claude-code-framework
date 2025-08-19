@@ -2,123 +2,160 @@
 title: "[Command Name] Command - Enhanced Architecture"
 author: "Claude Code System"
 date: "[YYYY-MM-DD]"
-version: "2.0.0"
-dependencies: ["../docs/principles/workflow.md", "../docs/principles/engineering.md", "related-commands"]
-prerequisites: ["Command-centered architecture understanding", "Integrated execution environment access"]
+version: "3.0.0"
+dependencies: ["../shared/EnhancedTemplate.md", "../shared/ValidationEngine.md", "../shared/WorkflowPhases.md", "../shared/AgentManager.md"]
+prerequisites: ["Command-centered architecture understanding", "Shared components access"]
 audience: "System operators, developers, and architectural implementers"
-purpose: "Complete execution environment for [command purpose] with embedded principles, automatic agent deployment, and built-in validation"
-keywords: ["command", "enhanced", "architecture", "integrated", "validation", "agents"]
+purpose: "Template for implementing commands using shared DRY components with embedded principles, automatic agent deployment, and built-in validation"
+keywords: ["command", "enhanced", "architecture", "template", "shared", "DRY"]
 last_review: "[YYYY-MM-DD]"
-architecture_type: "command-centered"
-execution_mode: "integrated"
+architecture_type: "command-template"
+execution_mode: "template"
 validation_level: "comprehensive"
 ---
 
-[Previous: Navigate to related command](../related-command.md) | [Return to Commands Hub for navigation](../index.md) | [Study Enhanced Template Architecture](enhanced-command-template.md) | [Next: Deploy enhanced command](../next-command.md)
+[Previous: Navigate to related command](../related-command.md) | [Return to Commands Hub for navigation](../index.md) | [Study Shared Components](../shared/index.md) | [Next: Deploy enhanced command](../next-command.md)
 
 # [COMMAND NAME] COMMAND - ENHANCED ARCHITECTURE
 
+⏺ **DRY Implementation**: This template demonstrates how to implement commands using [shared components](../shared/index.md) to eliminate code duplication and ensure consistency.
+
 ## Table of Contents
-- [Integrated Execution Environment](#integrated-execution-environment)
-- [Embedded Principle Application](#embedded-principle-application)
-- [Automatic Agent Deployment](#automatic-agent-deployment)
-- [Built-in Validation Framework](#built-in-validation-framework)
-- [Complete Workflow Integration](#complete-workflow-integration)
-- [Quality Gates and Success Criteria](#quality-gates-and-success-criteria)
-- [Architecture Integration Patterns](#architecture-integration-patterns)
+- [Definition](#definition)
+- [Structure](#structure)
+- [Execution Phases](#execution-phases)
+- [Parameters](#parameters)
+- [Success Criteria](#success-criteria)
+- [Usage Examples](#usage-examples)
+- [Implementation Template](#implementation-template)
+- [Principle References](#principle-references)
+- [Cross-References](#cross-references)
 
-## Integrated Execution Environment
+## Shared Component Usage
 
-⏺ **Architecture**: This command serves as a COMPLETE EXECUTION ENVIRONMENT that handles the entire workflow from start to finish, eliminating the need for external coordination.
+⏺ **Template Purpose**: This template shows how to implement commands using the shared components from `/commands/shared/` to eliminate code duplication.
 
+### Core Shared Components Integration
+
+#### 1. Enhanced Template Integration
+```markdown
+⏺ **Enhanced Architecture**: This command implements the [shared EnhancedTemplate](../shared/EnhancedTemplate.md) for complete execution environment with embedded principles and automatic agent deployment.
+
+**Reference Implementation**: See [EnhancedTemplate.md](../shared/EnhancedTemplate.md) for complete architectural framework.
+
+**Command-Specific Adaptations**: [Describe how this command adapts the enhanced template]
+```
+
+#### 2. Validation Engine Integration
+```markdown
+⏺ **Quality Assurance**: This command uses the [shared ValidationEngine](../shared/ValidationEngine.md) for comprehensive four-gate validation, eliminating external quality control dependencies.
+
+**Reference Implementation**: See [ValidationEngine.md](../shared/ValidationEngine.md) for complete validation framework.
+
+**Specialized Validation**: [Choose appropriate validation pattern from ValidationEngine]
+```
+
+#### 3. Workflow Phases Integration
+```markdown
+⏺ **Workflow Authority**: This command uses the [shared WorkflowPhases](../shared/WorkflowPhases.md) for complete 8-phase workflow methodology implementation.
+
+**Reference Implementation**: See [WorkflowPhases.md](../shared/WorkflowPhases.md) for complete workflow framework.
+
+**Phase Specialization**: [Choose appropriate workflow pattern from WorkflowPhases]
+```
+
+#### 4. Agent Manager Integration
+```markdown
+⏺ **Agent Selection**: Automated agent deployment via [CentralizedAgentDeploymentFramework](../../docs/components/centralized-agent-deployment-framework.md)
+
+**Reference**: See [Centralized Agent Deployment Framework](../../docs/components/centralized-agent-deployment-framework.md) for complete system.
+
+**Specializations**: [Choose appropriate agent specialization based on command type]
+```
+
+## Command-Specific Implementation
+
+⏺ **Implementation Guide**: After integrating shared components, implement command-specific logic and adaptations.
+
+### 1. Command Purpose Definition
+```markdown
 ### Command Purpose
 [Brief description of command's specific role in command-centered architecture]
 
 ### Execution Authority
 This command operates with FULL EXECUTION AUTHORITY per command-centered architecture:
-- **Complete Workflow Ownership**: Manages entire task lifecycle internally
-- **Integrated Quality Assurance**: Built-in validation at every phase
+- **Complete Workflow Ownership**: Manages entire [task type] lifecycle internally
+- **Integrated Quality Assurance**: Built-in validation at every [task] phase
 - **Automatic Resource Management**: Handles all dependencies and integrations
-- **Self-Contained Results**: Delivers complete, validated outcomes
-
-## Embedded Principle Application
-
-⏺ **Principle Integration**: This command DIRECTLY APPLIES relevant principles rather than referencing them externally, ensuring consistent implementation.
-
-### Core Principles Embedded
-```yaml
-principles:
-  workflow:
-    phases: [clarify, explore, analyze, present, plan, implement, ripple, validate]
-    enforcement: automatic
-    validation: built-in
-  
-  engineering:
-    standards: embedded
-    quality_gates: four-gate-system
-    testing: comprehensive
-  
-  organization:
-    structure: hierarchical
-    components: atomic
-    relationships: explicit
+- **Self-Contained Results**: Delivers complete, validated [task] outcomes
 ```
 
-### Principle Application Logic
-1. **Workflow Enforcement**: Each command phase automatically applies workflow.md methodology
-2. **Engineering Standards**: Quality gates enforced at every execution step
-3. **Organization Patterns**: Modular execution with clear component boundaries
-4. **Communication Standards**: Imperative tone and clear action requirements embedded
-
-## Automatic Agent Deployment
-
-⏺ **Agent Selection**: This command automatically assesses requirements and deploys appropriate agents without external intervention.
-
-### Agent Assessment Framework
-```yaml
-agent_deployment:
-  assessment_criteria:
-    - task_complexity: [simple, moderate, complex]
-    - domain_expertise: [required_specializations]
-    - resource_requirements: [minimal, standard, intensive]
-    - integration_points: [internal, external, hybrid]
-  
-  deployment_matrix:
-    simple_tasks: direct_execution
-    moderate_tasks: single_agent_deployment
-    complex_tasks: multi_agent_orchestration
-    specialized_tasks: expert_agent_required
+### 2. Command-Specific Adaptations
+```markdown
+**[Command Type]-Specific Adaptations**:
+- [Adaptation 1 specific to this command type]
+- [Adaptation 2 specific to this command type]
+- [Adaptation 3 specific to this command type]
+- [Adaptation 4 specific to this command type]
 ```
 
-### Deployment Decision Logic
-1. **Complexity Analysis**: Automatic assessment of task requirements
-2. **Capability Matching**: Match requirements to available agent capabilities
-3. **Resource Allocation**: Optimize agent deployment for efficiency
-4. **Integration Management**: Handle agent coordination internally
+## Template Usage Instructions
 
+⏺ **Usage Guide**: Follow these steps to create a new command using this template.
+
+### Step 1: Copy Template Structure
+1. Copy this template file to your new command location
+2. Update the YAML frontmatter with command-specific information
+3. Replace `[COMMAND NAME]` with your actual command name
+4. Update navigation breadcrumbs with correct file paths
+
+### Step 2: Integrate Shared Components
+1. **Choose Validation Pattern**: Select appropriate pattern from [ValidationEngine.md](../shared/ValidationEngine.md)
+   - `system_analysis_validation` for analysis commands
+   - `task_management_validation` for management commands
+   - `code_organization_validation` for organization commands
+
+2. **Choose Workflow Pattern**: Select appropriate pattern from [WorkflowPhases.md](../shared/WorkflowPhases.md)
+   - `analysis_workflow_phases` for analysis commands
+   - `management_workflow_phases` for management commands
+   - `workflow_command_phases` for workflow commands
+
+3. **Choose Agent Pattern**: Select appropriate pattern from [AgentManager.md](../shared/AgentManager.md)
+   - `analysis_agent_deployment` for analysis commands
+   - `management_agent_deployment` for management commands
+   - `workflow_agent_deployment` for workflow commands
+
+### Step 3: Implement Command-Specific Logic
+1. Define command purpose and execution authority
+2. Specify command-specific adaptations
+3. Add custom functionality that extends shared components
+4. Include command syntax and expected output sections
+
+## Component Integration Examples
+
+⏺ **Integration Examples**: Real examples of how to integrate shared components.
+
+### Analysis Command Example
+```markdown
 ## Built-in Validation Framework
 
-⏺ **Quality Assurance**: This command includes comprehensive validation at every phase, eliminating external quality control dependencies.
+⏺ **Quality Assurance**: This command implements [system_analysis_validation](../shared/ValidationEngine.md#system-analysis-commands) from the shared ValidationEngine for specialized analysis validation.
 
-### Four-Gate Validation System
-```yaml
-validation_gates:
-  requirements_gate:
-    - input_validation: complete
-    - scope_verification: defined
-    - success_criteria: established
-    
-  process_gate:
-    - workflow_compliance: verified
-    - principle_adherence: enforced
-    - phase_completion: validated
-    
-  output_gate:
-    - deliverable_quality: assessed
-    - completeness_check: performed
-    - specification_match: confirmed
-    
-  system_gate:
+**Analysis Validation Gates**: Requirements → Process → Output → System validation with automatic compliance checking and comprehensive analysis validation.
+
+**Reference Implementation**: See [ValidationEngine.md](../shared/ValidationEngine.md) for complete validation framework.
+```
+
+### Management Command Example
+```markdown
+## Complete Workflow Integration
+
+⏺ **Workflow Authority**: This command implements [management_workflow_phases](../shared/WorkflowPhases.md#management-command-workflow) from the shared WorkflowPhases for specialized management execution.
+
+**Management Phase Execution**: Clarify management requirements → Explore management context → Analyze management approach → Present management decision → Plan execution strategy → Implement management task → Ripple organizational impact → Validate management completion
+
+**Reference Implementation**: See [WorkflowPhases.md](../shared/WorkflowPhases.md) for complete workflow framework.
+```
     - integration_validation: tested
     - dependency_verification: confirmed
     - regression_prevention: assured

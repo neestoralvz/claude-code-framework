@@ -17,9 +17,12 @@ last_review: "2025-08-18"
 
 ## Table of Contents
 - [Purpose](#purpose)
-- [Mandatory Format](#mandatory-format)
-- [Heading Reference Syntax](#heading-reference-syntax)
-- [Format Validation](#format-validation)
+- [Architecture](#architecture)
+- [Available Components](#available-components)
+- [Usage Guidelines](#usage-guidelines)
+- [Implementation Guide](#implementation-guide)
+- [Benefits](#benefits)
+- [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
 ## Purpose

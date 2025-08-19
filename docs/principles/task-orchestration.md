@@ -18,16 +18,11 @@ last_review: "2025-08-18"
 ⏺ **Principle**: The main Claude Code instance orchestrates all complex tasks through strategic Task Tool deployment while maintaining continuous user context and workflow control.
 
 ## Table of Contents
-- [Orchestration Methodology](#orchestration-methodology)
-- [Task Analysis Framework](#task-analysis-framework)
-- [Agent Selection Algorithm](#agent-selection-algorithm)
-- [Parallel vs Sequential Coordination](#parallel-vs-sequential-coordination)
-- [Task Tool Usage Framework](#task-tool-usage-framework)
-- [Delegation Decision Matrix](#delegation-decision-matrix)
-- [Communication Protocol Framework](#communication-protocol-framework)
-- [Task Tool Usage Methodology](#task-tool-usage-methodology)
-- [Coordination Protocols](#coordination-protocols)
-- [Quality Oversight](#quality-oversight)
+- [Core Philosophy](#core-philosophy)
+- [Fundamental Concepts](#fundamental-concepts)
+- [Implementation Framework](#implementation-framework)
+- [Standards Guidelines](#standards-guidelines)
+- [Validation](#validation)
 - [Principle References](#principle-references)
 - [Cross-References](#cross-references)
 
