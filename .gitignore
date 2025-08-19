@@ -4,9 +4,13 @@
 shell-snapshots/
 logs/
 projects/
-dashboard/generated/
-dashboard/cache/
-dashboard/tmp/
+dashboard/
+
+# Statsig session files
+statsig/*.session_id.*
+
+# Dynamic todo files (UUID-based)
+todos/*-agent-*.json
 
 # User-specific files
 settings.json
