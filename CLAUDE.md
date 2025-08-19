@@ -70,7 +70,7 @@ This orchestration hub provides access to authoritative framework components imp
 **[Access navigation-hub.md for framework access](docs/components/core-framework/navigation-hub.md)** - Primary navigation hubs, core documentation access, and context-aware navigation patterns for efficient framework utilization.
 
 ### Execution Automation
-**[Access command-flow-triggers.md for CloudEco integration](docs/components/core-framework/command-flow-triggers.md)** - Automated trigger conditions, execution flows, and CloudEco workflow integration for systematic automation.
+**[Access command-flow-triggers.md for Claude Code integration](docs/components/core-framework/command-flow-triggers.md)** - Automated trigger conditions, execution flows, and Claude Code workflow integration for systematic automation.
 
 [⬆ Return to top](#claude-code-framework---command-centered-architecture)
 
@@ -87,7 +87,7 @@ This orchestration hub implements [content-deduplication.md single-source truth 
 - **Maintenance efficiency** - Updates required in only one location per information domain
 - **Framework coherence** - Modular architecture maintains system integrity and consistency
 
-### CloudEco Integration Ready
-The framework provides comprehensive execution triggers and automation patterns through the [command-flow-triggers.md component](docs/components/core-framework/command-flow-triggers.md), enabling seamless CloudEco workflow integration with automated command execution based on systematic trigger conditions.
+### Claude Code Integration Ready
+The framework provides comprehensive execution triggers and automation patterns through the [command-flow-triggers.md component](docs/components/core-framework/command-flow-triggers.md), enabling seamless Claude Code workflow integration with automated command execution based on systematic trigger conditions.
 
 *This document serves as the orchestration hub for the modularized Claude Code framework, providing efficient access to all framework capabilities through single-source authoritative components while eliminating content duplication and coordination overhead.*
