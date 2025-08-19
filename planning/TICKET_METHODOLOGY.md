@@ -62,7 +62,7 @@ Define standardized methodology for creating, managing, and tracking tickets thr
 
 ### 1. Single Source of Truth
 ⏺ **Principle**: Follows [fundamental.md](../principles/fundamental.md) by maintaining one authoritative location for all ticket information through centralized registry patterns.
-- All tickets stored in `/docs/planning/tickets/`
+- All tickets stored in `/planning/tickets/`
 - Registry dashboard provides unified view
 - Status changes reflected immediately
 
