@@ -1,0 +1,7 @@
+./docs/templates/components/agent-coordination-strategies.md
+./docs/principles/principle-validation-checkpoints.md
+./docs/principles/workflow-support-operations.md
+./docs/principles/task-tool-syntax.md
+./commands/domains/management/commands/init-claude-md.md
+./backups/20250819-mass-refactoring/pre-refactoring-state/commands/domains/management/commands/init-claude-md.md
+./CLAUDE.md

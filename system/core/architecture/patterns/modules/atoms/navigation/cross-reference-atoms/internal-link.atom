@@ -1,0 +1,137 @@
+pattern_metadata:
+  id: "internal-link-v1"
+  name: "Internal Framework Link"
+  version: "1.0.0"
+  category: "navigation"
+  subcategory: "cross-reference"
+  description: "Standardized internal framework linking with validation and accessibility"
+  author: "Claude Code System"
+  created_date: "2025-08-19"
+  last_modified: "2025-08-19"
+  
+dependencies:
+  required: []
+  optional: ["validation-atoms/path-validator"]
+  conflicts: []
+  
+composition:
+  composable: true
+  standalone: true
+  customization_points: ["link_text", "link_path", "link_type", "context", "accessibility"]
+  
+performance:
+  caching_strategy: "static"
+  lazy_loading: false
+  generation_cost: "low"
+  
+pattern_content:
+  template: |
+    {{#if (eq link_type 'instruction')}}**[{{link_text}}]({{link_path}})**{{/if}}
+    {{#if (eq link_type 'reference')}}[{{link_text}}]({{link_path}}){{/if}}
+    {{#if (eq link_type 'navigation')}}[{{link_text}}]({{link_path}}){{/if}}
+    {{#if (eq link_type 'hub')}}[{{icon}} {{link_text}}]({{link_path}}){{/if}}
+    {{#if (eq link_type 'authority')}}**[{{authority_marker}} {{link_text}}]({{link_path}})**{{/if}}
+    
+  customization_schema:
+    link_text:
+      type: "string"
+      required: true
+      description: "Display text for the link"
+      validation: "length >= 3 && length <= 100"
+    link_path:
+      type: "string"
+      required: true
+      description: "Relative path to target resource"
+      pattern: "^(?!http).*\\.md(#.*)?$"
+      validation: "file_exists(link_path)"
+    link_type:
+      type: "string"
+      required: false
+      default: "reference"
+      options: ["instruction", "reference", "navigation", "hub", "authority"]
+      description: "Type of link for appropriate formatting and validation"
+    context:
+      type: "string"
+      required: false
+      description: "Context information for accessibility and validation"
+    accessibility:
+      type: "object"
+      required: false
+      description: "Accessibility enhancements"
+      schema:
+        aria_label: "string"
+        title: "string"
+        description: "string"
+    icon:
+      type: "string"
+      required: false
+      description: "Icon for hub-type links"
+      validation: "icon_exists(icon)"
+    authority_marker:
+      type: "string"
+      required: false
+      default: "⏺"
+      description: "Authority marker for authority-type links"
+      
+validation_rules:
+  - rule_id: "path-exists-validation"
+    description: "Link path must reference existing file"
+    validation_logic: "file_exists(resolve_path(link_path))"
+    severity: "error"
+    
+  - rule_id: "instruction-action-verb"
+    description: "Instruction links should use action verbs"
+    validation_logic: "link_type !== 'instruction' || /^(Access|Study|Apply|Use|Browse|Navigate|Execute|Implement)/.test(link_text)"
+    severity: "warning"
+    
+  - rule_id: "hub-icon-required"
+    description: "Hub links should include appropriate icons"
+    validation_logic: "link_type !== 'hub' || icon !== undefined"
+    severity: "warning"
+    
+  - rule_id: "authority-marker-required"
+    description: "Authority links should include authority marker"
+    validation_logic: "link_type !== 'authority' || authority_marker !== undefined"
+    severity: "warning"
+    
+  - rule_id: "relative-path-format"
+    description: "Internal links should use relative paths"
+    validation_logic: "!link_path.startsWith('/') && !link_path.includes('http')"
+    severity: "error"
+    
+usage_examples:
+  - name: "Basic internal reference"
+    description: "Standard reference to another document"
+    example: |
+      link_text: "System Architecture Overview"
+      link_path: "core/system-architecture-overview.md"
+      link_type: "reference"
+      context: "Core architecture documentation"
+          
+  - name: "Hub navigation link"
+    description: "Navigation to framework hub with icon"
+    example: |
+      link_text: "Framework Hub"
+      link_path: "../../../index.md"
+      link_type: "hub"
+      icon: "🏠"
+      accessibility:
+        aria_label: "Navigate to main framework hub"
+        title: "Framework Hub - Main Navigation"
+        
+  - name: "Authority reference"
+    description: "Reference to authoritative principle or directive"
+    example: |
+      link_text: "Directive Authority"
+      link_path: "../principles/core-authority/directive.md"
+      link_type: "authority"
+      authority_marker: "⏺"
+      context: "Framework execution authority"
+      
+  - name: "Instruction link"
+    description: "Action-oriented link for user instructions"
+    example: |
+      link_text: "Apply Validation Framework"
+      link_path: "../principles/quality-assurance/validation.md"
+      link_type: "instruction"
+      context: "Quality assurance implementation"

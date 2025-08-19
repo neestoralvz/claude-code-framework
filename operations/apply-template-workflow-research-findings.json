@@ -1,0 +1,235 @@
+{
+  "research_summary": {
+    "research_depth": "Think Harder - Complex multi-system analysis requiring synthesis of template structures, quality frameworks, and implementation patterns",
+    "research_scope": "Comprehensive analysis of master template architecture, universal workflow catalog, quality standards, and current content organization patterns",
+    "key_findings": {
+      "master_template_structure": {
+        "source": "system/commands-docs/.claude/workflows/templates/tpl-create-workflows.md",
+        "architecture": "10-section composite workflow template",
+        "core_sections": [
+          "1. Define Complex Multi-Phase Goals",
+          "2. Deploy Multi-System Exploration Agents", 
+          "3. Read Essential Documentation",
+          "4. Establish Success Criteria",
+          "5. Create Implementation Plan",
+          "6. Deploy Multi-Agent Orchestration",
+          "7. Validate Complete Success",
+          "8. Iterate Until Perfect Results",
+          "9. Manage System-Wide Impact",
+          "10. Connect Related Workflows"
+        ],
+        "universal_integration": "All templates MUST integrate universal workflows from idx-catalog-workflows.md using modular inclusion pattern"
+      },
+      "universal_workflow_catalog": {
+        "source": "system/workflows/modules/idx-catalog-workflows.md",
+        "architecture": "Modular universal workflow components with systematic methodology",
+        "core_components": [
+          "Universal Planning Workflow (wfl-plan-execution.md)",
+          "Universal Success Validation Workflow (wfl-validate-success.md)",
+          "Universal Recursion Workflow (wfl-recurse-improvement.md)",
+          "Universal Ripple Effect Workflow (wfl-manage-effects.md)",
+          "Universal Plan Execution Workflow (wfl-execute-plans.md)"
+        ],
+        "integration_pattern": "Import workflows systematically through Planning → Execution → Validation → Ripple → Recursion phases",
+        "orchestrator_requirements": "MANDATORY: Orchestrators must use Task tools for agent deployment. AGENT FREEDOM: Deployed agents execute directly with Read, Edit, Write, Bash, Grep, Glob tools"
+      },
+      "quality_standards_framework": {
+        "source": "system/commands-docs/principles/gui-apply-solid.md",
+        "methodology": "SOLID Principles applied to natural language documentation",
+        "core_principles": {
+          "single_responsibility": "Each documentation file has one clear purpose - execution, architecture, or templates separated",
+          "open_closed": "Templates open for extension through composition, closed for modification of stable content",
+          "liskov_substitution": "Template variants must be substitutable for base templates without breaking system",
+          "interface_segregation": "Documentation consumers should not depend on interfaces they don't use - role-based entry points",
+          "dependency_inversion": "Documentation should depend on abstractions (templates/patterns) rather than concrete implementations"
+        },
+        "implementation_requirements": [
+          "Template composition over direct modification",
+          "Abstraction-based design patterns",
+          "Interface compliance validation",
+          "Substitution safety verification"
+        ]
+      }
+    },
+    "imperative_tone_requirements": {
+      "source": "system/core/content-management/communication.md",
+      "core_philosophy": "Communication serves clarity, directness, and actionable understanding",
+      "implementation_standards": [
+        "Apply imperative tone patterns throughout all content",
+        "Transform passive voice constructions to direct commands", 
+        "Eliminate uncertain language and qualification phrases",
+        "Structure information for immediate actionable understanding",
+        "Use active voice for all instructional content"
+      ],
+      "conversion_patterns": [
+        "Convert suggestions into specific action directives",
+        "Focus on what to do rather than what could be done",
+        "Structure sentences for maximum clarity and minimal cognitive load",
+        "Eliminate redundant phrases and unnecessary complexity"
+      ],
+      "validation_criteria": [
+        "All communication follows imperative patterns",
+        "Clarity metrics meet cognitive efficiency standards",
+        "Actionable understanding throughout documentation",
+        "Consistency with framework communication philosophy"
+      ]
+    },
+    "hierarchical_numbering_patterns": {
+      "source": "system/core/content-management/formatting.md and organization.md",
+      "heading_hierarchy": "# → ## → ### progression throughout documentation",
+      "organizational_limits": "Three-level maximum depth principles",
+      "structure_requirements": [
+        "Apply consistent heading hierarchy using # → ## → ### progression",
+        "Organize directories following three-level maximum depth principles",
+        "Apply three-level architecture patterns preventing excessive nesting",
+        "Implement content flow hierarchies from general to specific understanding"
+      ],
+      "formatting_standards": [
+        "Implement standard code block formatting with language specification",
+        "Enforce consistent link formatting using descriptive text and absolute path references",
+        "Apply standard list formatting with appropriate bullet and enumeration patterns",
+        "Maintain consistent paragraph structure with logical spacing and flow patterns"
+      ]
+    },
+    "current_content_organization": {
+      "analysis_source": "system/workflows/modules/wfl-deploy-exploration-agents.md",
+      "structure_pattern": "Hierarchical numbered sections with imperative subsections",
+      "organization_approach": [
+        "Numbered main sections (1, 2, 3, 4, 5)",
+        "Descriptive subsections (1.1, 1.2) with action-oriented headings",
+        "Imperative language throughout section headers",
+        "Task tool deployment patterns with orchestrator coordination requirements",
+        "Success criteria with mathematical validation formulas"
+      ],
+      "content_flow": "Objective definition → Agent deployment → Coordination → Validation → Integration",
+      "integration_patterns": [
+        "ORCHESTRATOR COORDINATION REQUIREMENTS section with mandatory Task tool usage",
+        "Parallel agent deployment with simultaneous task execution",
+        "Success criteria with quantifiable metrics and formulas",
+        "Quality standards with percentage-based validation targets"
+      ]
+    }
+  },
+  "template_compliance_framework": {
+    "mandatory_components": {
+      "frontmatter_standardization": {
+        "source": "system/core/components/frontmatter-template.yaml",
+        "required_fields": [
+          "title: descriptive, under 60 characters",
+          "author: 'Claude Code System'",
+          "date: ISO format YYYY-MM-DD", 
+          "version: semantic versioning x.y.z",
+          "dependencies: array of relative file paths",
+          "prerequisites: array of requirement strings",
+          "audience: target user description",
+          "purpose: clear objective statement",
+          "keywords: array of relevant terms",
+          "last_review: ISO date format"
+        ]
+      },
+      "imperative_tone_conversion": {
+        "requirements": [
+          "Transform all passive voice to direct commands",
+          "Convert suggestions to specific action directives", 
+          "Eliminate uncertainty phrases ('might', 'could', 'should consider')",
+          "Structure all instructional content in active voice",
+          "Focus on 'what to do' rather than 'what could be done'"
+        ],
+        "validation_patterns": [
+          "Section headers must use imperative verbs",
+          "Action items must be direct commands",
+          "No passive voice constructions allowed",
+          "All content must enable immediate action"
+        ]
+      },
+      "hierarchical_structure_compliance": {
+        "heading_patterns": [
+          "# WORKFLOW/COMMAND NAME (Level 1 - Document title)",
+          "## Numbered Main Sections (Level 2 - Major phases)",
+          "### Numbered Subsections (Level 3 - Specific actions)"
+        ],
+        "numbering_requirements": [
+          "Main sections: 1, 2, 3, 4, 5... (sequential numbering)",
+          "Subsections: 1.1, 1.2, 1.3... (hierarchical numbering)",
+          "Maximum depth: Three levels (# → ## → ###)",
+          "No fourth level headings (#### prohibited)"
+        ]
+      }
+    },
+    "quality_assurance_requirements": {
+      "four_gate_validation": [
+        "Requirements Gate: Verify all template requirements met",
+        "Process Gate: Validate workflow methodology compliance", 
+        "Output Gate: Ensure deliverable quality standards",
+        "System Gate: Confirm framework integration"
+      ],
+      "compliance_metrics": [
+        "Template consistency: 100% compliance required",
+        "Imperative tone: All action items must be direct commands",
+        "Hierarchical structure: Maximum three-level depth",
+        "Universal integration: All workflows must reference universal modules"
+      ],
+      "validation_evidence": [
+        "Mathematical calculations for success criteria",
+        "Quantifiable metrics with percentage targets",
+        "Evidence-based verification documentation",
+        "Cross-reference integrity validation"
+      ]
+    }
+  },
+  "implementation_methodology": {
+    "template_application_process": [
+      "1. Read target workflow content and analyze current structure",
+      "2. Apply master template structure (10-section composite pattern)",
+      "3. Integrate universal workflow modules using inclusion patterns",
+      "4. Convert all content to imperative tone following communication standards",
+      "5. Implement hierarchical numbering with three-level maximum depth",
+      "6. Add standardized frontmatter using template variables",
+      "7. Apply SOLID principles for modular, reusable composition",
+      "8. Validate using four-gate quality framework",
+      "9. Verify orchestrator coordination requirements and Task tool patterns",
+      "10. Test mathematical success criteria and validation formulas"
+    ],
+    "quality_verification_checklist": [
+      "✅ Template structure follows 10-section composite pattern",
+      "✅ Universal workflow integration via idx-catalog-workflows.md modules", 
+      "✅ Imperative tone conversion complete (no passive voice)",
+      "✅ Hierarchical numbering follows # → ## → ### progression",
+      "✅ Frontmatter standardization with required fields",
+      "✅ SOLID principles applied (SRP, OCP, LSP, ISP, DIP)",
+      "✅ Four-gate validation framework implemented",
+      "✅ Orchestrator Task tool deployment patterns included",
+      "✅ Mathematical success criteria with quantifiable metrics",
+      "✅ Cross-reference integrity and link validation"
+    ]
+  },
+  "actionable_template_guidelines": {
+    "immediate_implementation_actions": [
+      "Execute template structure transformation using 10-section composite workflow pattern",
+      "Apply universal workflow module integration from idx-catalog-workflows.md",
+      "Convert all passive voice to imperative commands throughout content",
+      "Implement # → ## → ### hierarchical heading progression",
+      "Add standardized frontmatter using frontmatter-template.yaml variables",
+      "Include ORCHESTRATOR COORDINATION REQUIREMENTS section with Task tool deployment",
+      "Apply mathematical success criteria with percentage-based validation targets",
+      "Validate using four-gate framework (Requirements → Process → Output → System)"
+    ],
+    "compliance_verification_actions": [
+      "Verify no fourth-level headings (#### prohibited)",
+      "Ensure all action items use imperative verbs",
+      "Validate universal workflow module references are accurate",
+      "Check orchestrator Task tool patterns are correctly implemented",
+      "Confirm mathematical formulas for success criteria are included",
+      "Verify cross-reference links use absolute paths",
+      "Test template substitution compatibility with base patterns"
+    ]
+  },
+  "root_cause_analysis": {
+    "template_standardization_need": "Current workflows lack consistent structure, causing cognitive load and implementation inconsistency across the framework",
+    "imperative_tone_requirement": "Framework demands actionable, direct communication to reduce ambiguity and enable immediate execution",
+    "hierarchical_organization_necessity": "Three-level maximum depth prevents cognitive overload while maintaining logical information flow",
+    "universal_integration_importance": "Modular workflow components enable systematic reuse and consistent methodology application",
+    "quality_framework_integration": "SOLID principles ensure maintainable, extensible documentation architecture that scales effectively"
+  },
+  "evidence_based_methodology": "Research synthesized from 15+ foundational documents including master templates, quality frameworks, communication standards, and current implementation patterns to provide comprehensive template compliance guidelines for systematic workflow transformation"
+}

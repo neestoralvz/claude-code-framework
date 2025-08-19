@@ -26,7 +26,7 @@ Centralized registry system for managing components, services, and configuration
 - **Schema**: Agent name, expertise, status, deployment info
 
 ## Registry Manager
-- **Location**: `/scripts/registry-manager.sh`
+- **Location**: `/scripts/core/registry/registry-manager.sh`
 - **Purpose**: CRUD operations for all registries
 - **Features**: Validation, versioning, backup, search
 

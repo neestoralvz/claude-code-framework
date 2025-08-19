@@ -1,0 +1,56 @@
+COMPREHENSIVE LINK VALIDATION REPORT
+Generated: Tue Aug 19 11:21:32 CST 2025
+Target Directory: /Users/nalve/.claude/docs/commands-docs/.claude/workflows
+
+=== SUMMARY ===
+Files Processed:       13
+Total Links Found: 43
+Valid Links: 31
+Broken Links: 12
+
+=== BROKEN LINKS DETAILS ===
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/workflow-template.md:25 → path/to/document-1.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/path/to/document-1.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/workflow-template.md:26 → path/to/document-2.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/path/to/document-2.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/workflow-template.md:27 → path/to/document-3.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/templates/path/to/document-3.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:217 → validate-workflow-integrity.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/validate-workflow-integrity.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:218 → create-workflow-standards.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/create-workflow-standards.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:180 → ../validate-navigation.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/../validate-navigation.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:181 → ../update-documentation.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/../update-documentation.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:182 → ../system-configuration-audit.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/../system-configuration-audit.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-simple-workflows.md:20 → ../docs/key-document.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/../docs/key-document.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:27 → ../docs/document-1.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/../docs/document-1.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:28 → ../docs/document-2.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/../docs/document-2.md)
+✗ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:29 → ../docs/document-3.md (MISSING: /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/../docs/document-3.md)
+
+=== VALID LINKS DETAILS ===
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:31 → templates/workflow-template.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:33 → ../../../principles/gui-create-commands.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:215 → wfl-organize-structure.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-apply-templates.md:216 → wfl-maintain-system.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:26 → ../../../CLAUDE.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:27 → ../../../index.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:28 → wfl-organize-structure.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-maintain-system.md:179 → wfl-organize-structure.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:26 → ../../../reference/mtx-reference-commands.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:27 → ../../../navigation/mtx-discover-commands.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:28 → ../../../index.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:179 → wfl-maintain-system.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:180 → wfl-apply-templates.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/components/wfl-organize-structure.md:181 → ../modules/idx-catalog-workflows.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:9 → wfl-plan-execution.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:27 → wfl-validate-success.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:45 → wfl-recurse-improvement.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:63 → wfl-manage-effects.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/idx-catalog-workflows.md:81 → wfl-execute-plans.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/wfl-execute-plans.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/wfl-manage-effects.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/wfl-plan-execution.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/wfl-recurse-improvement.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/modules/wfl-validate-success.md:3 → ../../../principles/gui-apply-solid.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:3 → ../modules/idx-catalog-workflows.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:46 → ../modules/wfl-plan-execution.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:50 → ../modules/wfl-execute-plans.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:54 → ../modules/wfl-validate-success.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:58 → ../modules/wfl-recurse-improvement.md (exists)
+✓ /Users/nalve/.claude/docs/commands-docs/.claude/workflows/templates/tpl-create-workflows.md:62 → ../modules/wfl-manage-effects.md (exists)

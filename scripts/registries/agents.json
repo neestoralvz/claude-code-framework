@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "registry_type": "agents",
-  "last_updated": "2025-08-19T03:57:10Z",
+  "last_updated": "2025-08-19T15:30:00Z",
   "agents": {
     "system-auditor": {
       "id": "system-auditor",
@@ -169,6 +169,387 @@
         "simplicity_enforcer": "monitoring_integration_and_alert_coordination",
         "complexity_reduction_specialist": "refactoring_tracking_and_impact_visualization"
       }
+    },
+    "database-performance-optimizer": {
+      "id": "database-performance-optimizer",
+      "name": "Database Performance Optimizer",
+      "location": "agents/database/database-performance-optimizer.md",
+      "category": "database",
+      "specialization": "Cross-platform database performance specialist focused on query optimization, resource monitoring, capacity planning, and systematic performance tuning across SQL and NoSQL database systems",
+      "capabilities": [
+        "cross-platform-performance-analysis",
+        "query-optimization-index-management",
+        "resource-monitoring-capacity-planning",
+        "bottleneck-identification-resolution",
+        "performance-testing-validation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "database-performance-optimizer",
+        "tools": [
+          "Bash",
+          "BashOutput",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "database-performance",
+        "created": "2025-08-19"
+      }
+    },
+    "sql-database-specialist": {
+      "id": "sql-database-specialist",
+      "name": "SQL Database Specialist",
+      "location": "agents/database/sql-database-specialist.md",
+      "category": "database",
+      "specialization": "Expert in relational database design, SQL optimization, transaction management, and ACID compliance across PostgreSQL, MySQL, SQL Server, and Oracle platforms",
+      "capabilities": [
+        "schema-design-data-modeling",
+        "query-optimization-performance-tuning",
+        "transaction-management-concurrency-control",
+        "database-security-access-control",
+        "backup-recovery-strategy-implementation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "sql-database-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "relational-databases",
+        "created": "2025-08-19"
+      }
+    },
+    "nosql-database-specialist": {
+      "id": "nosql-database-specialist",
+      "name": "NoSQL Database Specialist",
+      "location": "agents/database/nosql-database-specialist.md",
+      "category": "database",
+      "specialization": "Expert in NoSQL database design, distributed systems, horizontal scaling, and eventual consistency across MongoDB, Cassandra, Redis, DynamoDB, and Elasticsearch platforms",
+      "capabilities": [
+        "document-schemaless-data-modeling",
+        "distributed-architecture-sharding-strategies",
+        "eventual-consistency-conflict-resolution",
+        "performance-optimization-caching-strategies",
+        "multi-model-database-integration"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "nosql-database-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "distributed-databases",
+        "created": "2025-08-19"
+      }
+    },
+    "api-design-specialist": {
+      "id": "api-design-specialist",
+      "name": "API Design Specialist",
+      "location": "agents/backend/api-design-specialist.md",
+      "category": "development-backend",
+      "specialization": "API design and standards specialist focused on RESTful API patterns, OpenAPI specifications, endpoint optimization, request/response design, and comprehensive API documentation",
+      "capabilities": [
+        "restful-api-design-endpoint-architecture",
+        "openapi-specification-documentation-creation",
+        "request-response-pattern-optimization",
+        "api-authentication-security-design",
+        "developer-experience-api-governance"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "api-design-specialist",
+        "tools": [
+          "Read",
+          "Write",
+          "Edit",
+          "MultiEdit",
+          "WebFetch",
+          "Grep",
+          "Glob",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "api-design",
+        "created": "2025-08-19"
+      }
+    },
+    "backend-development-specialist": {
+      "id": "backend-development-specialist",
+      "name": "Backend Development Specialist",
+      "location": "agents/backend/backend-development-specialist.md",
+      "category": "development-backend",
+      "specialization": "Comprehensive backend development specialist focused on server architecture, database design, security patterns, performance optimization, and modern backend technologies",
+      "capabilities": [
+        "server-architecture-application-design",
+        "database-design-performance-optimization",
+        "security-implementation-authentication-systems",
+        "performance-optimization-scalability-design",
+        "integration-patterns-event-driven-architecture"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "backend-development-specialist",
+        "tools": [
+          "Read",
+          "Write",
+          "Edit",
+          "MultiEdit",
+          "Bash",
+          "Grep",
+          "Glob",
+          "WebFetch",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "backend-development",
+        "created": "2025-08-19"
+      }
+    },
+    "microservices-architect": {
+      "id": "microservices-architect",
+      "name": "Microservices Architect",
+      "location": "agents/backend/microservices-architect.md",
+      "category": "development-backend",
+      "specialization": "Microservices architecture specialist focused on distributed systems design, service decomposition, inter-service communication, event-driven patterns, and comprehensive microservices governance",
+      "capabilities": [
+        "service-decomposition-domain-boundary-design",
+        "inter-service-communication-architecture",
+        "event-driven-architecture-data-consistency",
+        "distributed-systems-resilience-fault-tolerance",
+        "microservices-governance-operational-excellence"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "microservices-architect",
+        "tools": [
+          "Read",
+          "Write",
+          "Edit",
+          "MultiEdit",
+          "Bash",
+          "WebFetch",
+          "Grep",
+          "Glob",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "microservices-architecture",
+        "created": "2025-08-19"
+      }
+    },
+    "context7-specialist": {
+      "id": "context7-specialist",
+      "name": "Context7 Documentation Research Specialist",
+      "location": "agents/research/context7-specialist.md",
+      "category": "research",
+      "specialization": "Library documentation retrieval and technical documentation synthesis specialist using Context7 MCP tools for accessing up-to-date API references, code examples, and technical specifications across programming libraries and frameworks",
+      "capabilities": [
+        "library-identification-resolution",
+        "documentation-retrieval-analysis",
+        "technical-synthesis-curation",
+        "code-example-integration",
+        "documentation-quality-assurance"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "context7-specialist",
+        "tools": [
+          "mcp__context7__resolve-library-id",
+          "mcp__context7__get-library-docs",
+          "Read",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "technical-documentation",
+        "created": "2025-08-19"
+      }
+    },
+    "websearch-specialist": {
+      "id": "websearch-specialist",
+      "name": "Web Search Research Specialist",
+      "location": "agents/research/websearch-specialist.md",
+      "category": "research",
+      "specialization": "Web search and current information retrieval specialist focused on real-time information gathering, trend analysis, current events monitoring, and market intelligence using WebSearch capabilities for up-to-date knowledge synthesis",
+      "capabilities": [
+        "search-strategy-development",
+        "real-time-information-retrieval",
+        "trend-analysis-pattern-recognition",
+        "market-intelligence-integration",
+        "information-quality-assurance"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "websearch-specialist",
+        "tools": [
+          "WebSearch",
+          "Read",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "market-intelligence",
+        "created": "2025-08-19"
+      }
+    },
+    "aws-expert-specialist": {
+      "id": "aws-expert-specialist",
+      "name": "AWS Expert Specialist",
+      "location": "agents/operations/cloud/aws-expert-specialist.md",
+      "category": "operations-cloud",
+      "specialization": "Amazon Web Services architecture, cost optimization, security patterns, and real-time platform updates with Context7 integration for comprehensive AWS expertise",
+      "capabilities": [
+        "aws-service-architecture-design",
+        "cost-optimization-finops-strategies",
+        "security-compliance-implementation",
+        "real-time-platform-intelligence",
+        "multi-service-integration-patterns"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "aws-expert-specialist",
+        "tools": [
+          "WebSearch",
+          "WebFetch",
+          "Read",
+          "Write",
+          "Edit"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "cloud-aws",
+        "created": "2025-08-19"
+      }
+    },
+    "azure-expert-specialist": {
+      "id": "azure-expert-specialist",
+      "name": "Azure Expert Specialist",
+      "location": "agents/operations/cloud/azure-expert-specialist.md",
+      "category": "operations-cloud",
+      "specialization": "Microsoft Azure services, enterprise integration patterns, DevOps excellence, and Microsoft ecosystem optimization with Context7 integration",
+      "capabilities": [
+        "azure-service-architecture-design",
+        "enterprise-integration-hybrid-cloud",
+        "devops-cicd-excellence-patterns",
+        "identity-security-management",
+        "data-analytics-platform-design"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "azure-expert-specialist",
+        "tools": [
+          "WebSearch",
+          "WebFetch",
+          "Read",
+          "Write",
+          "Edit"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "cloud-azure",
+        "created": "2025-08-19"
+      }
+    },
+    "gcp-expert-specialist": {
+      "id": "gcp-expert-specialist",
+      "name": "GCP Expert Specialist",
+      "location": "agents/operations/cloud/gcp-expert-specialist.md",
+      "category": "operations-cloud",
+      "specialization": "Google Cloud Platform services, data analytics excellence, ML/AI innovation, and serverless-first architecture with Context7 integration",
+      "capabilities": [
+        "gcp-service-architecture-design",
+        "data-analytics-excellence-bigquery",
+        "ml-ai-platform-vertex-mastery",
+        "serverless-first-architecture",
+        "multi-cloud-anthos-strategy"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "gcp-expert-specialist",
+        "tools": [
+          "WebSearch",
+          "WebFetch",
+          "Read",
+          "Write",
+          "Edit"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "cloud-gcp",
+        "created": "2025-08-19"
+      }
+    },
+    "container-orchestration-specialist": {
+      "id": "container-orchestration-specialist",
+      "name": "Container Orchestration Specialist",
+      "location": "agents/operations/orchestration/container-orchestration-specialist.md",
+      "category": "operations-orchestration",
+      "specialization": "Docker, Kubernetes, and modern containerization patterns for microservices architecture and cloud-native applications with Context7 integration",
+      "capabilities": [
+        "kubernetes-cluster-architecture",
+        "docker-container-optimization",
+        "microservices-deployment-patterns",
+        "cicd-container-integration",
+        "observability-monitoring-stacks"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "container-orchestration-specialist",
+        "tools": [
+          "WebSearch",
+          "WebFetch",
+          "Read",
+          "Write",
+          "Edit"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "container-orchestration",
+        "created": "2025-08-19"
+      }
     }
   },
   "categories": {
@@ -190,6 +571,14 @@
         "infrastructure-architect"
       ]
     },
+    "development-backend": {
+      "description": "Backend development & architecture specialists",
+      "agents": [
+        "api-design-specialist",
+        "backend-development-specialist",
+        "microservices-architect"
+      ]
+    },
     "development-quality": {
       "description": "Quality assurance & complexity management specialists",
       "agents": [
@@ -199,6 +588,14 @@
         "over-engineering-detector",
         "code-quality-auditor",
         "pattern-deduplicator"
+      ]
+    },
+    "database": {
+      "description": "Database design, optimization & management specialists",
+      "agents": [
+        "database-performance-optimizer",
+        "sql-database-specialist",
+        "nosql-database-specialist"
       ]
     },
     "operations-infrastructure": {
@@ -215,18 +612,44 @@
         "performance-optimizer",
         "metrics-analyst"
       ]
+    },
+    "research": {
+      "description": "Research & information retrieval specialists",
+      "agents": [
+        "context7-specialist",
+        "websearch-specialist"
+      ]
+    },
+    "operations-cloud": {
+      "description": "Cloud platform expertise specialists",
+      "agents": [
+        "aws-expert-specialist",
+        "azure-expert-specialist", 
+        "gcp-expert-specialist"
+      ]
+    },
+    "operations-orchestration": {
+      "description": "Container & orchestration specialists",
+      "agents": [
+        "container-orchestration-specialist"
+      ]
     }
   },
   "statistics": {
-    "total_agents": 5,
+    "total_agents": 17,
     "by_category": {
       "core-system": 2,
       "development-architecture": 1,
+      "development-backend": 3,
       "development-quality": 1,
-      "operations-infrastructure": 1
+      "database": 3,
+      "operations-infrastructure": 1,
+      "operations-cloud": 3,
+      "operations-orchestration": 1,
+      "research": 2
     },
     "by_status": {
-      "active": 5,
+      "active": 17,
       "inactive": 0,
       "deprecated": 0
     }

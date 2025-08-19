@@ -1,0 +1,40 @@
+category: "navigation"
+subcategory: "breadcrumb"
+description: "Navigation breadcrumb atomic patterns for consistent framework navigation"
+version: "1.0.0"
+created_date: "2025-08-19"
+last_modified: "2025-08-19"
+
+patterns:
+  standard-breadcrumb:
+    id: "standard-breadcrumb-v1"
+    file: "standard-breadcrumb.atom"
+    priority: "high"
+    usage_frequency: "very-high"
+    dependencies: []
+    
+  hub-breadcrumb:
+    id: "hub-breadcrumb-v1"
+    file: "hub-breadcrumb.atom"
+    priority: "high"
+    usage_frequency: "high"
+    dependencies: ["standard-breadcrumb"]
+    
+  hierarchical-breadcrumb:
+    id: "hierarchical-breadcrumb-v1"
+    file: "hierarchical-breadcrumb.atom"
+    priority: "medium"
+    usage_frequency: "medium"
+    dependencies: ["standard-breadcrumb"]
+
+usage_analytics:
+  total_usage_instances: 47
+  duplication_elimination_potential: "89 lines"
+  maintenance_reduction: "automated generation"
+  consistency_improvement: "100% standardized patterns"
+
+integration_points:
+  - "All architecture documentation files"
+  - "Cross-reference navigation systems"
+  - "Hub-based navigation patterns"
+  - "Template generation systems"

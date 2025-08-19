@@ -1,21 +1,9 @@
----
-title: "Command Registry Validator Script"
-author: "Claude Code System"
-date: "2025-08-19"
-version: "1.0.0"
-dependencies: ["NAV-004", "organization.md", "registry.md"]
-prerequisites: ["Registry structure understanding", "Command validation knowledge"]
-audience: "Developers, documentation maintainers"
-purpose: "Create script to validate command registry references and maintain registry integrity"
-keywords: ["registry", "validation", "commands", "references", "integrity", "automation"]
-last_review: "2025-08-19"
----
 
-[Previous: Breadcrumb Generator](nav-004-breadcrumb-generator-script.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Workflow Fixer](nav-006-workflow-fixer-script.md)
+[Previous: Breadcrumb Generator](nav-004-breadcrumb-generator-script.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: Workflow Fixer](../../../tickets/pending/nav-006-workflow-fixer-script.md)
 
 # COMMAND REGISTRY VALIDATOR SCRIPT
 
-⏺ **Principle**: Implement [organization.md](../../docs/principles/organization.md) systematic registry management and apply [registry.md](../../docs/principles/registry.md) reference integrity through automated validation.
+⏺ **Principle**: Implement [organization.md](../../../docs/principles/organization.md) systematic registry management and apply [registry.md](../../docs/principles/registry.md) reference integrity through automated validation.
 
 ## PROBLEM STATEMENT
 
@@ -385,15 +373,14 @@ fix_broken_references() {
 
 ### Related Tickets
 - [NAV-004: Breadcrumb Generator](nav-004-breadcrumb-generator-script.md)
-- [NAV-006: Workflow Fixer](nav-006-workflow-fixer-script.md)
-- [NAV-007: Integrity Monitor](nav-007-integrity-monitor-system.md)
+- [NAV-006: Workflow Fixer](../../../tickets/pending/nav-006-workflow-fixer-script.md)
+- [NAV-007: Integrity Monitor](../../../tickets/pending/nav-007-integrity-monitor-system.md)
 
 ### Framework References
-- [Apply organization.md registry management](../../docs/principles/organization.md)
+- [Apply organization.md registry management](../../../docs/principles/organization.md)
 - [Follow registry.md integrity standards](../../docs/principles/registry.md)
-- [Use workflow.md systematic methodology](../../docs/principles/workflow.md)
+- [Use workflow.md systematic methodology](../../../docs/principles/workflow.md)
 
----
 
 **Priority**: 🔴 HIGH  
 **Category**: validation  

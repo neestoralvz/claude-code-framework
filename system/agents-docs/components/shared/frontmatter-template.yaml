@@ -1,0 +1,55 @@
+# FRONTMATTER CENTRALIZADO - UNA SOLA FUENTE DE LA VERDAD
+# Propósito: Eliminar duplicación de metadatos YAML frontmatter
+# Uso: Referenciar desde todos los archivos de documentación
+
+# TEMPLATE BÁSICO PARA DOCUMENTACIÓN
+documentation_basic: |
+  ---
+  title: "{{TITLE}}"
+  author: "{{AUTHOR}}"
+  date: "{{DATE}}"
+  version: "{{VERSION}}"
+  purpose: "{{PURPOSE}}"
+  ---
+
+# TEMPLATE PARA GUÍAS
+guide_template: |
+  ---
+  title: "{{TITLE}}"
+  author: "System"
+  date: "{{DATE}}"
+  version: "{{VERSION}}"
+  audience: "{{AUDIENCE}}"
+  purpose: "{{PURPOSE}}"
+  keywords: [{{KEYWORDS}}]
+  ---
+
+# TEMPLATE PARA REFERENCIAS
+reference_template: |
+  ---
+  title: "{{TITLE}}"
+  author: "{{AUTHOR}}"
+  date: "{{DATE}}"
+  version: "{{VERSION}}"
+  dependencies: [{{DEPENDENCIES}}]
+  scope: "{{SCOPE}}"
+  ---
+
+# TEMPLATE PARA AGENTES (MINIMAL)
+agent_template: |
+  ---
+  name: "{{AGENT_NAME}}"
+  description: "{{DESCRIPTION}}"
+  tools: [{{TOOLS}}]
+  model: "{{MODEL}}"
+  color: "{{COLOR}}"
+  ---
+
+# TEMPLATE PARA ÍNDICES
+index_template: |
+  ---
+  title: "{{TITLE}}"
+  purpose: "{{PURPOSE}}"
+  structure: "hierarchical"
+  maintenance: "centralized"
+  ---

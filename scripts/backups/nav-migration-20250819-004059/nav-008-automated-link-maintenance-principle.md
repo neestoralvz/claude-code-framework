@@ -1,17 +1,5 @@
----
-title: "Automated Link Maintenance System Principle"
-author: "Claude Code System"
-date: "2025-08-19"
-version: "1.0.0"
-dependencies: ["NAV-007", "PRINCIPLES.md", "automation.md"]
-prerequisites: ["Principle integration understanding", "System automation knowledge"]
-audience: "Framework architects, system designers"
-purpose: "Add automated link maintenance as core system principle for continuous integrity"
-keywords: ["principle", "automation", "links", "maintenance", "integrity", "continuous", "system"]
-last_review: "2025-08-19"
----
 
-[Previous: Integrity Monitor](nav-007-integrity-monitor-system.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Return to Registry](../../planning/TICKET_REGISTRY.md)
+[Previous: Integrity Monitor](../../../tickets/pending/nav-007-integrity-monitor-system.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: Return to Registry](../../../planning/TICKET_REGISTRY.md)
 
 # AUTOMATED LINK MAINTENANCE SYSTEM PRINCIPLE
 
@@ -156,12 +144,12 @@ integrate_automation_principle() {
 ```markdown
 ### Framework Principle Hierarchy
 
-1. **[directive.md](directive.md)** - Ultimate authority and command framework
-2. **[workflow.md](workflow.md)** - Eight-phase systematic methodology
+1. **[directive.md](../../../docs/principles/directive.md)** - Ultimate authority and command framework
+2. **[workflow.md](../../../docs/principles/workflow.md)** - Eight-phase systematic methodology
 3. **[automation.md](automation.md)** - Continuous validation and intelligent maintenance
-4. **[organization.md](organization.md)** - Hierarchical structure and navigation
-5. **[engineering.md](engineering.md)** - Quality standards and validation gates
-6. **[content-deduplication.md](content-deduplication.md)** - Single-source truth methodology
+4. **[organization.md](../../../docs/principles/organization.md)** - Hierarchical structure and navigation
+5. **[engineering.md](../../../docs/principles/engineering.md)** - Quality standards and validation gates
+6. **[content-deduplication.md](../../../operations/content-deduplication.md)** - Single-source truth methodology
 ```
 
 ### System Architecture Integration
@@ -385,17 +373,16 @@ ensure_system_wide_adoption() {
 ## CROSS-REFERENCES
 
 ### Related Tickets
-- [NAV-007: Integrity Monitor System](nav-007-integrity-monitor-system.md)
-- [NAV-002: Link Scanner Script](nav-002-link-scanner-script.md)
-- [NAV-001: Comprehensive Link Audit](nav-001-comprehensive-link-audit.md)
+- [NAV-007: Integrity Monitor System](../../../tickets/pending/nav-007-integrity-monitor-system.md)
+- [NAV-002: Link Scanner Script](../../../tickets/completed/nav-002-link-scanner-script.md)
+- [NAV-001: Comprehensive Link Audit](../../../planning/tickets/completed/nav-001-comprehensive-link-audit.md)
 
 ### Framework References
 - [Apply automation.md systematic automation](../../docs/principles/automation.md)
-- [Follow engineering.md quality standards](../../docs/principles/engineering.md)
-- [Use organization.md structural patterns](../../docs/principles/organization.md)
-- [Integrate workflow.md systematic methodology](../../docs/principles/workflow.md)
+- [Follow engineering.md quality standards](../../../docs/principles/engineering.md)
+- [Use organization.md structural patterns](../../../docs/principles/organization.md)
+- [Integrate workflow.md systematic methodology](../../../docs/principles/workflow.md)
 
----
 
 **Priority**: 🔴 HIGH  
 **Category**: principle  

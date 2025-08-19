@@ -1,8 +1,3 @@
----
-title: Agent Structure Status
-date: 2025-01-18
-version: 1.0.0
----
 
 # Agent Structure Status
 

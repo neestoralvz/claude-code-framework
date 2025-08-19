@@ -1,16 +1,3 @@
----
-title: "Project Structure Documentation"
-author: "Claude Code System"
-date: "2025-08-18"
-version: "2.0.0"
-dependencies: ["CLAUDE.md", "docs/index.md"]
-prerequisites: ["Understanding of framework architecture"]
-audience: "System architects, developers, and documentation maintainers"
-purpose: "Define complete directory structure and architectural organization for Claude operational framework"
-keywords: ["structure", "architecture", "directories", "organization", "documentation"]
-last_review: "2025-08-18"
----
-
 # Project Structure
 
 ## Overview
@@ -341,11 +328,11 @@ This document outlines the complete structure of the Claude operational framewor
   - Universal application across system
   - Rarely change
   
-- **Components** (`/docs/components/`): Provide reusable implementations (HOW)
+- **Templates** (`/docs/templates/`): Provide reusable implementation patterns (HOW)
   - Practical implementation patterns
-  - Prevent code duplication (DRY)
+  - Prevent code duplication (DRY) 
   - Evolve with system needs
-  - Example: `workflow-phases.md` implements the `workflow.md` principle for commands
+  - Example: Template generators implement principles for systematic pattern creation
 
 ## Key Files
 

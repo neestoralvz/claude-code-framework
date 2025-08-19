@@ -1,0 +1,480 @@
+{
+  "analysis_metadata": {
+    "analysis_date": "2025-08-19",
+    "analyst": "content-analysis-specialist",
+    "complexity_level": "moderate",
+    "thinking_progression": "Think -> Think Hard -> Think Harder",
+    "target_directory": "system/workflows/modules/",
+    "files_analyzed": 7,
+    "analysis_scope": "template_format_standardization"
+  },
+  
+  "current_content_structure": {
+    "organizational_patterns": {
+      "inconsistent_header_hierarchy": {
+        "severity": "high",
+        "description": "Files use different header levels and numbering systems",
+        "affected_files": [
+          "idx-catalog-workflows.md",
+          "wfl-deploy-exploration-agents.md", 
+          "wfl-execute-plans.md",
+          "wfl-manage-effects.md",
+          "wfl-plan-execution.md",
+          "wfl-recurse-improvement.md",
+          "wfl-validate-success.md"
+        ],
+        "examples": {
+          "inconsistent_numbering": [
+            "wfl-deploy-exploration-agents.md uses numbered sections (1.1, 1.2, 2.1)",
+            "wfl-execute-plans.md uses descriptive headers without numbers",
+            "wfl-validate-success.md uses 'Stage' terminology instead of numbered phases"
+          ]
+        }
+      },
+      
+      "mixed_content_types": {
+        "severity": "high",
+        "description": "Files mix execution instructions, architectural explanations, and templates",
+        "violates_srp": true,
+        "affected_files": [
+          "idx-catalog-workflows.md",
+          "wfl-execute-plans.md"
+        ],
+        "examples": [
+          "idx-catalog-workflows.md contains execution, architecture, and template patterns in single file",
+          "Multiple responsibilities per file violating Single Responsibility Principle"
+        ]
+      },
+      
+      "workflow_pattern_consistency": {
+        "severity": "medium", 
+        "description": "Some consistency in workflow phase structure but lacks standardization",
+        "common_patterns": [
+          "Preparation/Setup phases",
+          "Execution/Implementation phases", 
+          "Validation/Quality phases",
+          "Integration/Coordination phases"
+        ]
+      }
+    },
+    
+    "content_organization_analysis": {
+      "idx-catalog-workflows.md": {
+        "structure_type": "index_catalog",
+        "sections": [
+          "Universal Workflow Components",
+          "Integration Architecture", 
+          "Usage Guidelines",
+          "Workflow Maintenance",
+          "Emergency Procedures"
+        ],
+        "issues": [
+          "Mixes execution with architectural documentation",
+          "Contains template integration patterns mixed with usage instructions",
+          "Lacks consistent numbering system"
+        ]
+      },
+      
+      "wfl-deploy-exploration-agents.md": {
+        "structure_type": "procedural_workflow",
+        "sections": [
+          "1. Figure Out What You Need to Explore",
+          "2. Send Out Your Investigation Teams", 
+          "3. Make Sure Everyone Works Together",
+          "4. Check That You Got Everything",
+          "5. Pull Everything Together"
+        ],
+        "issues": [
+          "Inconsistent imperative tone in headers",
+          "Mixed formal/informal language patterns",
+          "Some passive voice constructions"
+        ]
+      },
+      
+      "wfl-execute-plans.md": {
+        "structure_type": "comprehensive_guide",
+        "sections": [
+          "Prepare for Execution",
+          "Execute Your Implementation",
+          "Choose Your Execution Pattern",
+          "Manage Your Resources",
+          "Monitor and Control Progress"
+        ],
+        "issues": [
+          "Lacks numbered hierarchy",
+          "Mixed instructional styles",
+          "Some descriptive rather than imperative headers"
+        ]
+      },
+      
+      "wfl-manage-effects.md": {
+        "structure_type": "process_guide", 
+        "sections": [
+          "Quick Start Guide",
+          "Core Process: Analyze Impact Before Acting",
+          "Response Strategies",
+          "Scale Your Response to Impact Size"
+        ],
+        "issues": [
+          "Inconsistent section numbering",
+          "Mix of quick reference and detailed instructions",
+          "Some passive voice in explanations"
+        ]
+      },
+      
+      "wfl-plan-execution.md": {
+        "structure_type": "planning_methodology",
+        "sections": [
+          "Execute This Three-Step Planning Process",
+          "How to Use This Planning Method",
+          "Match Your Planning to Your Task Size",
+          "Customize Your Planning Approach"
+        ],
+        "issues": [
+          "Inconsistent header capitalization",
+          "Mixed imperative and descriptive styles",
+          "Lacks systematic numbering"
+        ]
+      },
+      
+      "wfl-recurse-improvement.md": {
+        "structure_type": "iterative_methodology",
+        "sections": [
+          "When to Try Again",
+          "How to Analyze What Went Wrong", 
+          "How to Execute Your Next Attempt",
+          "Three Types of Improvement Rounds"
+        ],
+        "issues": [
+          "Question-based headers instead of imperative",
+          "Informal tone in some sections",
+          "Lacks systematic organization structure"
+        ]
+      },
+      
+      "wfl-validate-success.md": {
+        "structure_type": "validation_framework",
+        "sections": [
+          "Four-Stage Success Check",
+          "Validation Intensity Levels",
+          "Integration Instructions", 
+          "Success Measurement"
+        ],
+        "issues": [
+          "Uses 'Stage' terminology instead of numbered sections",
+          "Mixed validation and integration content",
+          "Inconsistent imperative tone application"
+        ]
+      }
+    }
+  },
+  
+  "template_format_conversion_needs": {
+    "header_standardization": {
+      "priority": "critical",
+      "required_changes": [
+        "Implement consistent hierarchical numbering system (1., 1.1, 1.2)",
+        "Convert all headers to imperative tone",
+        "Standardize capitalization patterns",
+        "Remove question-based headers"
+      ],
+      "examples_needing_conversion": {
+        "wfl-recurse-improvement.md": [
+          "Change 'When to Try Again' to '1. Identify Iteration Triggers'",
+          "Change 'How to Analyze What Went Wrong' to '2. Execute Failure Analysis'"
+        ],
+        "wfl-validate-success.md": [
+          "Change 'Four-Stage Success Check' to '1. Execute Four-Stage Validation'",
+          "Change 'Validation Intensity Levels' to '2. Select Validation Intensity'"
+        ]
+      }
+    },
+    
+    "section_organization": {
+      "priority": "high",
+      "required_changes": [
+        "Implement consistent section ordering across all workflow modules",
+        "Separate execution instructions from architectural explanations", 
+        "Create standard subsection patterns",
+        "Apply uniform content structure"
+      ],
+      "standard_template_structure": {
+        "phase_1": "1. Define Objectives and Requirements",
+        "phase_2": "2. Execute Systematic Methodology", 
+        "phase_3": "3. Deploy Coordinated Resources",
+        "phase_4": "4. Validate Success Criteria",
+        "phase_5": "5. Integrate with System Context"
+      }
+    },
+    
+    "content_separation": {
+      "priority": "high", 
+      "srp_violations": [
+        "idx-catalog-workflows.md contains execution, architecture, and templates",
+        "Multiple files mix instructional content with explanatory content"
+      ],
+      "required_separations": [
+        "Extract architectural explanations to separate documentation files",
+        "Isolate pure execution instructions",
+        "Separate template patterns from usage instructions",
+        "Create focused single-responsibility documents"
+      ]
+    }
+  },
+  
+  "imperative_tone_conversion": {
+    "header_conversions_needed": {
+      "high_priority": [
+        {
+          "file": "wfl-deploy-exploration-agents.md",
+          "current": "Figure Out What You Need to Explore",
+          "convert_to": "1. Define Exploration Requirements"
+        },
+        {
+          "file": "wfl-recurse-improvement.md", 
+          "current": "When to Try Again",
+          "convert_to": "1. Identify Iteration Triggers"
+        },
+        {
+          "file": "wfl-recurse-improvement.md",
+          "current": "How to Analyze What Went Wrong", 
+          "convert_to": "2. Execute Failure Analysis"
+        },
+        {
+          "file": "wfl-manage-effects.md",
+          "current": "Quick Start Guide",
+          "convert_to": "1. Execute Rapid Impact Assessment"
+        }
+      ]
+    },
+    
+    "content_tone_issues": {
+      "passive_voice_examples": [
+        {
+          "file": "wfl-execute-plans.md",
+          "text": "Tasks can be run simultaneously", 
+          "convert_to": "Run tasks simultaneously"
+        },
+        {
+          "file": "wfl-validate-success.md",
+          "text": "Validation should be performed",
+          "convert_to": "Perform validation"
+        }
+      ],
+      
+      "descriptive_vs_imperative": [
+        {
+          "file": "wfl-plan-execution.md",
+          "current": "Planning helps you deliver successful results",
+          "convert_to": "Plan systematically to deliver successful results"  
+        },
+        {
+          "file": "wfl-manage-effects.md",
+          "current": "Every action creates ripples",
+          "convert_to": "Anticipate ripple effects from every action"
+        }
+      ]
+    },
+    
+    "action_directive_enhancement": {
+      "conversion_patterns": [
+        "Transform suggestions into specific commands",
+        "Convert 'you can' to direct imperatives", 
+        "Change 'should' statements to 'must' or direct action",
+        "Replace 'consider' with 'evaluate' or 'analyze'"
+      ]
+    }
+  },
+  
+  "hierarchical_numbering_needs": {
+    "current_state": {
+      "files_with_numbering": [
+        "wfl-deploy-exploration-agents.md (partial - main sections only)"
+      ],
+      "files_without_numbering": [
+        "idx-catalog-workflows.md",
+        "wfl-execute-plans.md", 
+        "wfl-manage-effects.md",
+        "wfl-plan-execution.md",
+        "wfl-recurse-improvement.md",
+        "wfl-validate-success.md"
+      ]
+    },
+    
+    "implementation_requirements": {
+      "numbering_system": "1., 1.1, 1.1.1 format",
+      "section_depth": "Maximum 3 levels deep",
+      "consistency_rule": "All workflow modules use identical numbering pattern",
+      "integration_rule": "Numbers must align with workflow phase structure"
+    },
+    
+    "logical_organization_needs": [
+      "Implement consistent phase ordering across all modules",
+      "Align subsection numbering with workflow methodology",
+      "Create predictable navigation structure",
+      "Enable cross-module reference consistency"
+    ]
+  },
+  
+  "template_format_deviations": {
+    "structural_inconsistencies": {
+      "missing_components": [
+        "Consistent frontmatter/metadata sections",
+        "Standard success criteria sections",
+        "Uniform cross-reference patterns",
+        "Systematic integration instructions"
+      ],
+      
+      "format_variations": [
+        "Different approaches to agent deployment instructions",
+        "Inconsistent task orchestration patterns", 
+        "Variable quality checkpoint implementations",
+        "Mixed validation methodology presentations"
+      ]
+    },
+    
+    "content_block_deviations": {
+      "agent_deployment_patterns": {
+        "current_variations": [
+          "idx-catalog-workflows.md uses Task tool examples extensively",
+          "wfl-deploy-exploration-agents.md has embedded Task patterns",
+          "Other files lack consistent orchestration patterns"
+        ],
+        "standardization_needed": "Uniform agent deployment section across all modules"
+      },
+      
+      "success_criteria_patterns": {
+        "inconsistent_implementation": [
+          "wfl-validate-success.md has detailed success measurement",
+          "wfl-deploy-exploration-agents.md has basic success criteria",
+          "Other modules lack systematic success definition"
+        ],
+        "template_requirement": "Standard success criteria section in all modules"
+      }
+    }
+  },
+  
+  "pattern_duplication_analysis": {
+    "repetitive_content_blocks": {
+      "agent_coordination_patterns": {
+        "frequency": "appears_in_5_files",
+        "duplication_level": "high",
+        "affected_files": [
+          "idx-catalog-workflows.md",
+          "wfl-deploy-exploration-agents.md",
+          "wfl-execute-plans.md", 
+          "wfl-validate-success.md",
+          "wfl-apply-templates.md"
+        ],
+        "extraction_opportunity": "Create universal agent coordination module"
+      },
+      
+      "task_orchestration_instructions": {
+        "frequency": "appears_in_4_files", 
+        "duplication_level": "high",
+        "pattern_variations": [
+          "Task tool syntax examples",
+          "Parallel deployment instructions",
+          "Orchestrator coordination requirements"
+        ],
+        "extraction_opportunity": "Create standard task orchestration template"
+      },
+      
+      "success_validation_frameworks": {
+        "frequency": "appears_in_6_files",
+        "duplication_level": "medium", 
+        "content_variations": [
+          "Different success criteria definitions",
+          "Variable validation approaches",
+          "Inconsistent measurement standards"
+        ],
+        "consolidation_needed": "Unified validation template reference"
+      }
+    }
+  },
+  
+  "atomic_task_identification": {
+    "template_application_tasks": [
+      {
+        "task_id": "TEMP-001",
+        "description": "Implement hierarchical numbering system across all 7 workflow modules",
+        "complexity": "medium",
+        "dependencies": [],
+        "files_affected": "all_7_modules"
+      },
+      {
+        "task_id": "TEMP-002", 
+        "description": "Convert headers to imperative tone",
+        "complexity": "low",
+        "dependencies": ["TEMP-001"],
+        "files_affected": "all_7_modules"
+      },
+      {
+        "task_id": "TEMP-003",
+        "description": "Standardize agent deployment section format",
+        "complexity": "high", 
+        "dependencies": ["TEMP-001", "TEMP-002"],
+        "files_affected": "5_modules_with_agent_coordination"
+      },
+      {
+        "task_id": "TEMP-004",
+        "description": "Extract duplicate agent coordination patterns to universal module",
+        "complexity": "high",
+        "dependencies": ["TEMP-003"], 
+        "files_affected": "all_modules_plus_new_universal_module"
+      },
+      {
+        "task_id": "TEMP-005",
+        "description": "Implement standard success criteria sections",
+        "complexity": "medium",
+        "dependencies": ["TEMP-001", "TEMP-002"],
+        "files_affected": "all_7_modules"
+      },
+      {
+        "task_id": "TEMP-006",
+        "description": "Convert passive voice to active imperative throughout content",
+        "complexity": "medium", 
+        "dependencies": ["TEMP-002"],
+        "files_affected": "all_7_modules"
+      }
+    ]
+  },
+  
+  "recommendations": {
+    "immediate_priority_actions": [
+      "1. Implement consistent hierarchical numbering system (1., 1.1, 1.1.1)",
+      "2. Convert all headers to imperative tone patterns",
+      "3. Separate execution instructions from architectural explanations",
+      "4. Standardize agent deployment coordination sections"
+    ],
+    
+    "template_compliance_strategy": [
+      "Apply SOLID Single Responsibility Principle to separate concerns",
+      "Implement consistent imperative communication patterns",
+      "Create standard template structure across all modules", 
+      "Extract repetitive patterns to reusable components"
+    ],
+    
+    "quality_improvement_opportunities": [
+      "Reduce content duplication by 90% through pattern extraction",
+      "Achieve 100% imperative tone compliance",
+      "Implement mathematical success criteria measurement",
+      "Create unified cross-reference and navigation structure"
+    ]
+  },
+  
+  "success_criteria_validation": {
+    "template_format_compliance": "Currently 30% - needs 100%",
+    "imperative_tone_conversion": "Currently 60% - needs 100%", 
+    "hierarchical_numbering": "Currently 15% - needs 100%",
+    "content_deduplication": "Currently 10% reduction possible - needs 90%",
+    "srp_compliance": "Currently violating - needs full compliance"
+  },
+  
+  "progressive_thinking_evidence": {
+    "thinking_level_applied": "Think Hard -> Think Harder",
+    "complexity_rationale": "Multi-file analysis requiring systematic pattern recognition, template requirement synthesis, and atomic task decomposition",
+    "analysis_depth": "Comprehensive content structure examination with template compliance mapping",
+    "strategic_considerations": "Integration with broader framework requirements, SOLID principle compliance, and universal workflow module architecture"
+  }
+}

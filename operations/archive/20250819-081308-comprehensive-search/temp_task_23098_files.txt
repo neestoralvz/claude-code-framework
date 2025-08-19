@@ -1,0 +1,4 @@
+./docs/principles/principle-validation-checkpoints.md
+./docs/principles/workflow-support-operations.md
+./docs/principles/task-tool-syntax.md
+./CLAUDE.md

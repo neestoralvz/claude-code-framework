@@ -1,0 +1,126 @@
+{
+  "update_inventory": {
+    "critical_priority_files": [
+      {
+        "file": "docs/principles/workflow.md",
+        "line": 34,
+        "current": "An eight-phase methodology",
+        "required": "A ten-phase methodology",
+        "impact": "CRITICAL - Core workflow definition",
+        "effort_hours": 8,
+        "dependencies": ["All workflow implementations"]
+      },
+      {
+        "file": "commands/core/WorkflowDefinition.md", 
+        "line": 19,
+        "current": "9-phase workflow methodology",
+        "required": "10-phase workflow methodology",
+        "impact": "HIGH - Single source of truth conflict",
+        "effort_hours": 6,
+        "dependencies": ["WorkflowPhases.md", "All command templates"]
+      },
+      {
+        "file": "commands/shared/WorkflowPhases.md",
+        "line": 23,
+        "current": "eight-phase workflow implementation",
+        "required": "ten-phase workflow implementation", 
+        "impact": "HIGH - Shared component used by 29+ commands",
+        "effort_hours": 12,
+        "dependencies": ["All commands using WorkflowPhases"]
+      },
+      {
+        "file": "commands/workflows/CoreWorkflow.md",
+        "line": 23,
+        "current": "essential 8-phase methodology",
+        "required": "essential 10-phase methodology",
+        "impact": "HIGH - Core orchestration definition", 
+        "effort_hours": 10,
+        "dependencies": ["Agent coordination", "Workflow execution"]
+      }
+    ],
+    "high_priority_files": [
+      {
+        "file": "playbook/procedures/system-initialization.md",
+        "lines": [88, 95],
+        "current": "eight-phase workflow training",
+        "required": "ten-phase workflow training",
+        "impact": "MODERATE - User training sequence",
+        "effort_hours": 4
+      },
+      {
+        "file": "commands/README.md",
+        "line": 97,
+        "current": "1-clarify | 2-explore | ... | 8-validate",
+        "required": "1-clarify | 2-explore | 3-research | ... | 10-closure",
+        "impact": "MODERATE - Command reference documentation",
+        "effort_hours": 6
+      },
+      {
+        "file": "commands/index.md",
+        "lines": [154, 155, 156, 157, 158, 159, 160, 161],
+        "current": "Phase 1-8 command descriptions",
+        "required": "Phase 1-10 command descriptions with research and closure",
+        "impact": "HIGH - Primary command navigation",
+        "effort_hours": 8
+      }
+    ],
+    "template_files": [
+      "commands/templates/enhanced-command-template.md",
+      "commands/shared/EnhancedTemplate.md", 
+      "docs/templates/pattern-generators/command-generator-template.md",
+      "docs/templates/generators/enhanced-command-template.md"
+    ],
+    "agent_files": [
+      "agents/development/workflow/workflow-coordinator.md",
+      "agents/project-management/execution/ticket-executor-agent.md",
+      "agents/project-management/execution/ticket-automation-orchestrator.md"
+    ],
+    "cross_reference_files": [
+      "tickets/pending/nav-006-workflow-fixer-script.md",
+      "commands/shared/CrossReferenceEngine.md",
+      "commands/execution/execute-ticket.md"
+    ],
+    "systematic_replacements": {
+      "terminology_updates": [
+        {"find": "eight-phase methodology", "replace": "ten-phase methodology"},
+        {"find": "8-phase methodology", "replace": "10-phase methodology"}, 
+        {"find": "8-phase workflow", "replace": "10-phase workflow"},
+        {"find": "eight-phase workflow", "replace": "ten-phase workflow"},
+        {"find": "complete 8-phase", "replace": "complete 10-phase"},
+        {"find": "all 8 phases", "replace": "all 10 phases"},
+        {"find": "8-phase systematic", "replace": "10-phase systematic"}
+      ],
+      "sequence_updates": [
+        {
+          "find": "clarify→explore→analyze→present→plan→implement→ripple→validate",
+          "replace": "clarify→explore→research→analyze→present→plan→implement→ripple→validate→closure"
+        }
+      ],
+      "hardcoded_assumptions": [
+        {"find": "phases: 8", "replace": "phases: 10"},
+        {"find": "phase_count: 8", "replace": "phase_count: 10"},
+        {"find": "[1-8]", "replace": "[1-10]"},
+        {"find": "phase-[1-8]", "replace": "phase-[1-10]"}
+      ]
+    }
+  },
+  "preservation_requirements": {
+    "preserve_8_phase_sequence": {
+      "current_phases": [
+        "1-clarify", "2-explore", "3-analyze", "4-present-solutions",
+        "5-plan", "6-implement", "7-ripple-effect", "8-validate"
+      ],
+      "new_mapping": [
+        "1-clarify", "2-explore", "3-research", "4-analyze", 
+        "5-present-solutions", "6-plan", "7-implement", "8-ripple-effect",
+        "9-validate", "10-closure"
+      ]
+    },
+    "preserve_agent_patterns": [
+      "Phase-to-agent coordination",
+      "Validation checkpoint logic", 
+      "Cross-reference navigation",
+      "Template inheritance"
+    ]
+  }
+}

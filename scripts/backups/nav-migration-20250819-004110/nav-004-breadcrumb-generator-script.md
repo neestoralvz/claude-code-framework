@@ -1,21 +1,9 @@
----
-title: "Dynamic Breadcrumb Generator Script"
-author: "Claude Code System"
-date: "2025-08-19"
-version: "1.0.0"
-dependencies: ["NAV-003", "organization.md", "navigation.md"]
-prerequisites: ["Framework structure understanding", "Navigation patterns knowledge"]
-audience: "Developers, documentation maintainers"
-purpose: "Create script to generate navigation breadcrumbs dynamically"
-keywords: ["navigation", "breadcrumbs", "dynamic", "generation", "automation", "hierarchy"]
-last_review: "2025-08-19"
----
 
-[Previous: Link Updater](nav-003-link-updater-script.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Registry Validator](nav-005-registry-validator-script.md)
+[Previous: Link Updater](../../../tickets/pending/nav-003-link-updater-script.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: Registry Validator](nav-005-registry-validator-script.md)
 
 # DYNAMIC BREADCRUMB GENERATOR SCRIPT
 
-⏺ **Principle**: Implement [organization.md](../../docs/principles/organization.md) hierarchical navigation and apply [navigation.md](../../docs/principles/navigation.md) systematic wayfinding through dynamic breadcrumb generation.
+⏺ **Principle**: Implement [organization.md](../../../docs/principles/organization.md) hierarchical navigation and apply [navigation.md](../../docs/principles/navigation.md) systematic wayfinding through dynamic breadcrumb generation.
 
 ## PROBLEM STATEMENT
 
@@ -152,22 +140,22 @@ generate_breadcrumb_sequence() {
 
 #### Principle Document Template
 ```
-[Previous: Return to Hub](../../docs/PRINCIPLES.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Browse Components](../../docs/components/)
+[Previous: Return to Hub](../../docs/PRINCIPLES.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: Browse Components](../../docs/components/)
 ```
 
 #### Component Document Template
 ```
-[Previous: Return to Hub](../../docs/index.md) | [Navigate to {{SECTION}}]({{SECTION_INDEX}}) | [Framework: Claude Code] | [Next: {{NEXT_COMPONENT}}]({{NEXT_TARGET}})
+[Previous: Return to Hub](../../../docs/index.md) | [Navigate to {{SECTION}}]({{SECTION_INDEX}}) | [Framework: Claude Code] | [Next: {{NEXT_COMPONENT}}]({{NEXT_TARGET}})
 ```
 
 #### Agent Document Template
 ```
-[Previous: Return to Registry](../../agents/README.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: Browse Agents](../../agents/)
+[Previous: Return to Registry](../../agents/README.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: Browse Agents](../../agents/)
 ```
 
 #### Ticket Document Template
 ```
-[Previous: Return to Registry](../../planning/TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../docs/index.md) | [Framework: Claude Code] | [Next: {{NEXT_TICKET}}]({{NEXT_TARGET}})
+[Previous: Return to Registry](../../../planning/TICKET_REGISTRY.md) | [Navigate to Documentation Hub](../../../docs/index.md) | [Framework: Claude Code] | [Next: {{NEXT_TICKET}}]({{NEXT_TARGET}})
 ```
 
 ### Hierarchy Configuration
@@ -369,16 +357,15 @@ update_file_breadcrumb() {
 ## CROSS-REFERENCES
 
 ### Related Tickets
-- [NAV-003: Link Updater Script](nav-003-link-updater-script.md)
+- [NAV-003: Link Updater Script](../../../tickets/pending/nav-003-link-updater-script.md)
 - [NAV-005: Registry Validator](nav-005-registry-validator-script.md)
-- [NAV-007: Integrity Monitor](nav-007-integrity-monitor-system.md)
+- [NAV-007: Integrity Monitor](../../../tickets/pending/nav-007-integrity-monitor-system.md)
 
 ### Framework References
-- [Apply organization.md hierarchical structure](../../docs/principles/organization.md)
+- [Apply organization.md hierarchical structure](../../../docs/principles/organization.md)
 - [Follow navigation.md wayfinding patterns](../../docs/principles/navigation.md)
-- [Use workflow.md systematic methodology](../../docs/principles/workflow.md)
+- [Use workflow.md systematic methodology](../../../docs/principles/workflow.md)
 
----
 
 **Priority**: 🔴 HIGH  
 **Category**: automation  

@@ -1,0 +1,61 @@
+# ENTERPRISE YAML FRONTMATTER TEMPLATE SYSTEM
+# Base template for systematic deduplication across framework
+
+# STANDARD AGENT FRONTMATTER TEMPLATE
+agent_template: &agent_template
+  name: "${AGENT_ID}"
+  description: "${AGENT_DESCRIPTION}"
+  tools: ["Read", "Write", "Edit", "MultiEdit", "Grep", "Bash", "TodoWrite"]
+  model: "sonnet"
+  color: "blue"
+
+# COMMAND FRONTMATTER TEMPLATE  
+command_template: &command_template
+  title: "${COMMAND_TITLE}"
+  author: "Claude Code System"
+  date: "2025-08-19"
+  version: "${VERSION}"
+  purpose: "${PURPOSE_DESCRIPTION}"
+  dependencies: ["${DEPENDENCIES_LIST}"]
+
+# DOCUMENT FRONTMATTER TEMPLATE
+document_template: &document_template
+  title: "${DOCUMENT_TITLE}"
+  author: "Claude Code System"
+  date: "2025-08-19"
+  version: "${VERSION}"
+  purpose: "${PURPOSE_DESCRIPTION}"
+
+# COMPONENT FRONTMATTER TEMPLATE
+component_template: &component_template
+  title: "${COMPONENT_TITLE}"
+  type: "component"
+  category: "${CATEGORY}"
+  version: "${VERSION}"
+  dependencies: ["${DEPENDENCIES_LIST}"]
+
+# TEMPLATE INHERITANCE PATTERNS
+inheritance_patterns:
+  agent_variants:
+    - ai_ml_agent: 
+        <<: *agent_template
+        category: "ai-ml"
+        color: "purple"
+    - backend_agent:
+        <<: *agent_template  
+        category: "backend"
+        color: "green"
+    - database_agent:
+        <<: *agent_template
+        category: "database" 
+        color: "orange"
+
+# MASS REPLACEMENT PATTERNS FOR MultiEdit
+replacement_patterns:
+  agent_frontmatter:
+    pattern_detection: "^---\\nname: (.+)\\ndescription: (.+)\\ntools: (.+)\\nmodel: (.+)\\ncolor: (.+)\\n---"
+    standardized_replacement: "---\\nname: ${1}\\ndescription: ${2}\\ntools: [\"Read\", \"Write\", \"Edit\", \"MultiEdit\", \"Grep\", \"Bash\", \"TodoWrite\"]\\nmodel: sonnet\\ncolor: blue\\n---"
+  
+  command_frontmatter:
+    pattern_detection: "^---\\ntitle: (.+)\\nauthor: (.+)\\ndate: (.+)\\nversion: (.+)\\npurpose: (.+)\\n"
+    standardized_replacement: "---\\ntitle: ${1}\\nauthor: \"Claude Code System\"\\ndate: \"2025-08-19\"\\nversion: ${4}\\npurpose: ${5}\\n"

@@ -1,0 +1,11 @@
+---
+# CENTRALIZED AGENT YAML TEMPLATE
+
+# STANDARD AGENT TEMPLATE STRUCTURE
+agent_template:
+  name: "{AGENT_NAME}"
+  description: "{AGENT_DESCRIPTION}"
+  tools: "{AGENT_TOOLS_ARRAY}"
+  model: "{AGENT_MODEL}"
+  color: "{AGENT_COLOR}"
+

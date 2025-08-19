@@ -1,0 +1,226 @@
+{
+  "title": "Enterprise Agent Registry Schema Template",
+  "description": "Centralized schema for systematic registry deduplication and consolidation",
+  "version": "1.0.0",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$",
+      "description": "Registry version following semantic versioning"
+    },
+    "registry_type": {
+      "type": "string",
+      "enum": ["agents", "components", "services"],
+      "description": "Registry category for systematic organization"
+    },
+    "last_updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp for registry updates"
+    },
+    "agents": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9-]+$": {
+          "$ref": "#/definitions/agent_entry"
+        }
+      },
+      "description": "Agent registry entries with standardized structure"
+    },
+    "categories": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9-]+$": {
+          "$ref": "#/definitions/category_entry"
+        }
+      },
+      "description": "Category definitions for agent organization"
+    },
+    "statistics": {
+      "$ref": "#/definitions/statistics_entry",
+      "description": "Automatically generated registry statistics"
+    }
+  },
+  "required": ["version", "registry_type", "last_updated"],
+  "additionalProperties": false,
+  
+  "definitions": {
+    "agent_entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Unique agent identifier"
+        },
+        "name": {
+          "type": "string",
+          "description": "Human-readable agent name"
+        },
+        "location": {
+          "type": "string",
+          "pattern": "^agents/.+\\.md$",
+          "description": "Agent file path relative to root"
+        },
+        "category": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Agent category for organization"
+        },
+        "specialization": {
+          "type": "string",
+          "description": "Agent domain expertise description"
+        },
+        "capabilities": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "description": "List of agent capabilities"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["active", "inactive", "deprecated"],
+          "description": "Agent deployment status"
+        },
+        "deployment_info": {
+          "$ref": "#/definitions/deployment_info",
+          "description": "Agent deployment configuration"
+        },
+        "metadata": {
+          "$ref": "#/definitions/agent_metadata",
+          "description": "Agent metadata and classification"
+        }
+      },
+      "required": ["id", "name", "location", "category", "specialization", "capabilities", "status", "deployment_info", "metadata"],
+      "additionalProperties": false
+    },
+    
+    "deployment_info": {
+      "type": "object",
+      "properties": {
+        "subagent_type": {
+          "type": "string",
+          "description": "Agent type for Task tool deployment"
+        },
+        "tools": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": ["Read", "Write", "Edit", "MultiEdit", "Bash", "Grep", "Glob", "LS", "TodoWrite", "WebSearch", "WebFetch", "BashOutput", "KillBash", "NotebookEdit"]
+          },
+          "description": "Available tools for agent execution"
+        }
+      },
+      "required": ["subagent_type", "tools"],
+      "additionalProperties": false
+    },
+    
+    "agent_metadata": {
+      "type": "object",
+      "properties": {
+        "expertise_level": {
+          "type": "string",
+          "enum": ["doctorate", "master", "bachelor", "specialist"],
+          "description": "Agent expertise classification"
+        },
+        "domain": {
+          "type": "string",
+          "pattern": "^[a-z0-9-]+$",
+          "description": "Primary domain expertise"
+        },
+        "created": {
+          "type": "string",
+          "format": "date",
+          "description": "Agent creation date"
+        }
+      },
+      "required": ["expertise_level", "domain", "created"],
+      "additionalProperties": false
+    },
+    
+    "category_entry": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "type": "string",
+          "description": "Category description"
+        },
+        "agents": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "description": "List of agents in this category"
+        }
+      },
+      "required": ["description", "agents"],
+      "additionalProperties": false
+    },
+    
+    "statistics_entry": {
+      "type": "object",
+      "properties": {
+        "total_agents": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Total number of agents"
+        },
+        "by_category": {
+          "type": "object",
+          "patternProperties": {
+            "^[a-z0-9-]+$": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "description": "Agent count by category"
+        },
+        "by_status": {
+          "type": "object",
+          "properties": {
+            "active": {"type": "integer", "minimum": 0},
+            "inactive": {"type": "integer", "minimum": 0},
+            "deprecated": {"type": "integer", "minimum": 0}
+          },
+          "required": ["active", "inactive", "deprecated"],
+          "description": "Agent count by status"
+        }
+      },
+      "required": ["total_agents", "by_category", "by_status"],
+      "additionalProperties": false
+    }
+  },
+  
+  "registry_consolidation_strategy": {
+    "description": "Mass refactoring approach for JSON registry deduplication",
+    "phases": [
+      {
+        "phase": "1-schema_standardization",
+        "description": "Apply centralized schema across all registry files",
+        "risk_level": "critical",
+        "validation_required": true
+      },
+      {
+        "phase": "2-data_consolidation", 
+        "description": "Merge registry data with conflict resolution",
+        "risk_level": "high",
+        "backup_required": true
+      },
+      {
+        "phase": "3-integrity_validation",
+        "description": "Comprehensive registry integrity testing",
+        "risk_level": "medium",
+        "testing_required": true
+      }
+    ],
+    "rollback_strategy": {
+      "backup_location": "/Users/nalve/.claude/backups/20250819-mass-refactoring/selective-restore/json-registries/",
+      "restoration_script": "restore-json-registries.sh",
+      "validation_command": "validate-registry-integrity.sh"
+    }
+  }
+}
