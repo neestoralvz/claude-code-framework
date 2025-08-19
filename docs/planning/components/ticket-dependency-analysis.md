@@ -11,7 +11,7 @@ keywords: ["dependencies", "analysis", "parallel", "execution", "graph", "schedu
 last_review: "2025-08-18"
 ---
 
-[Previous: Study ticket methodology](../TICKET_METHODOLOGY.md) | [Return to hub](../../index.md) | [Master PRINCIPLES.md](../../PRINCIPLES.md) | [Next: Review parallel executor](ticket-parallel-executor.md)
+[Previous: Study ticket methodology](../TICKET_METHODOLOGY.md) | [Return to hub](../../index.md) | [Master PRINCIPLES.md](../principles/PRINCIPLES.md) | [Next: Review parallel executor](ticket-parallel-executor.md)
 
 # TICKET DEPENDENCY ANALYSIS FRAMEWORK
 

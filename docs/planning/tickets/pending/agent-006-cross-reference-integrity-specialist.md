@@ -105,9 +105,9 @@ Create a specialized Cross-Reference Integrity Specialist agent that systematica
 
 **Files to Create**:
 - `agents/cross-reference-integrity-specialist.md` - Core agent specification
-- `docs/components/cross-reference-validation-framework.md` - Validation algorithms and workflows
-- `docs/components/navigation-standardization-templates.md` - Navigation consistency standards
-- `docs/components/link-integrity-monitoring.md` - Monitoring and maintenance systems
+- `docs/templates/components/cross-reference-validation-framework.md` - Validation algorithms and workflows
+- `docs/templates/components/navigation-standardization-templates.md` - Navigation consistency standards
+- `docs/templates/components/link-integrity-monitoring.md` - Monitoring and maintenance systems
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase integrity management

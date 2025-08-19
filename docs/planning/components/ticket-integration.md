@@ -54,7 +54,7 @@ sed -i 's/status: old/status: new/' ticket-file.md
 
 ### Primary Navigation
 - [Navigate to Documentation Hub for central access](../../index.md)
-- [Study PRINCIPLES.md for framework understanding](../../PRINCIPLES.md)
+- [Study PRINCIPLES.md for framework understanding](../principles/PRINCIPLES.md)
 - [Access TICKET_REGISTRY.md for status dashboard](../TICKET_REGISTRY.md)
 - [Browse commands index for available tools](../../../commands/index.md)
 

@@ -16,11 +16,11 @@ dependencies:
   resource_conflicts: []
 affected_files: 
   - "agents/core-system/simplicity-enforcer.md" # EXISTING AGENT used instead of creating new
-  - "docs/components/agent-orchestration-framework.md" # CREATED
-  - "docs/components/analysis-framework-system.md" # CREATED
-  - "docs/components/output-generation-system.md" # CREATED
-  - "docs/components/modularization-categories.md" # CREATED
-  - "docs/components/component-integration-matrix.md" # CREATED
+  - "docs/templates/components/agent-orchestration-framework.md" # CREATED
+  - "docs/templates/components/analysis-framework-system.md" # CREATED
+  - "docs/templates/components/output-generation-system.md" # CREATED
+  - "docs/templates/components/modularization-categories.md" # CREATED
+  - "docs/templates/components/component-integration-matrix.md" # CREATED
 parallel_group: "agent-creation"
 execution_strategy: "existing-agent-optimization"
 violation_type: "capability-gap"
@@ -54,11 +54,11 @@ completion_type: "existing-agent-utilization"
 ### ✅ **Framework Components Created**
 **5 NEW SUPPORTING COMPONENTS EXTRACTED**:
 
-1. `/docs/components/agent-orchestration-framework.md` - Parallel agent deployment patterns
-2. `/docs/components/analysis-framework-system.md` - Multi-perspective analysis coordination
-3. `/docs/components/output-generation-system.md` - Structured output generation
-4. `/docs/components/modularization-categories.md` - Systematic component classification
-5. `/docs/components/component-integration-matrix.md` - Architectural integration patterns
+1. `/docs/templates/templates/components/agent-orchestration-framework.md` - Parallel agent deployment patterns
+2. `/docs/templates/templates/components/analysis-framework-system.md` - Multi-perspective analysis coordination
+3. `/docs/templates/templates/components/output-generation-system.md` - Structured output generation
+4. `/docs/templates/templates/components/modularization-categories.md` - Systematic component classification
+5. `/docs/templates/templates/components/component-integration-matrix.md` - Architectural integration patterns
 
 ### ✅ **Cross-Reference Integrity Maintained**
 - All modularized content maintains functionality through reference links

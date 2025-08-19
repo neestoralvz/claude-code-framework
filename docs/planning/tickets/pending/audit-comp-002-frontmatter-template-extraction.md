@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/frontmatter-template-system.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
+affected_files: ["docs/templates/components/frontmatter-template-system.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
 parallel_group: "component-extraction"
 execution_strategy: "parallel"
 violation_type: "maintenance"
@@ -81,8 +81,8 @@ Extract frontmatter patterns into a centralized, reusable component system with 
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/frontmatter-template-system.md` - Central template system
-- `docs/components/frontmatter-validation.md` - Metadata validation framework
+- `docs/templates/components/frontmatter-template-system.md` - Central template system
+- `docs/templates/components/frontmatter-validation.md` - Metadata validation framework
 - `docs/templates/frontmatter/` - Document type-specific templates
 - Various files across commands/, agents/, docs/ directories for template integration
 

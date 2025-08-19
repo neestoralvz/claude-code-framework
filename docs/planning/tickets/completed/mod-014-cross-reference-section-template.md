@@ -15,8 +15,8 @@ dependencies:
   file_conflicts: []
   resource_conflicts: []
 affected_files: 
-  - "docs/components/cross-reference-template.md"
-  - "docs/components/section-templates-hub.md"
+  - "docs/templates/components/cross-reference-template.md"
+  - "docs/templates/components/section-templates-hub.md"
 parallel_group: "modularization-templates"
 execution_strategy: "isolated"
 ---
@@ -68,13 +68,13 @@ Create a comprehensive cross-reference section template that standardizes:
    - ✅ Created implementation examples for each document type
 
 3. **Integrate with Framework**
-   - ✅ Created docs/components/cross-reference-template.md
+   - ✅ Created docs/templates/components/cross-reference-template.md
    - ✅ Updated section-templates-hub.md to include new template
    - ✅ Provided validation checklist for quality assurance
 
 ## Acceptance Criteria
 
-- [x] Cross-reference template created in docs/components/
+- [x] Cross-reference template created in docs/templates/components/
 - [x] Template includes structure for Primary Navigation, Related Components, Framework References
 - [x] Action verb guidelines defined for different contexts (Navigate, Study, Apply, Follow, etc.)
 - [x] Link formatting standards established (under 60 characters, clear purpose)
@@ -94,11 +94,11 @@ Create a comprehensive cross-reference section template that standardizes:
 ## Notes
 
 **Files Created**:
-- docs/components/cross-reference-template.md - Comprehensive template with examples
+- docs/templates/components/cross-reference-template.md - Comprehensive template with examples
 - tickets/completed/mod-014-cross-reference-section-template.md - This ticket file
 
 **Files Modified**:
-- docs/components/section-templates-hub.md - Added cross-reference template integration
+- docs/templates/components/section-templates-hub.md - Added cross-reference template integration
 
 **Template Benefits**:
 - Reduces cross-reference maintenance by 75%

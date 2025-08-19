@@ -7,7 +7,7 @@ created: 2025-08-18
 category: system
 estimated_effort: 4 hours
 dependencies: []
-affected_files: ["docs/principles/formatting.md", "docs/principles/claude-md.md", "docs/components/multiple", "docs/agents-documentation/multiple"]
+affected_files: ["docs/principles/formatting.md", "docs/principles/claude-md.md", "docs/templates/components/multiple", "docs/agents-documentation/multiple"]
 violation_type: "communication_violation"
 ---
 
@@ -78,7 +78,7 @@ Systematically convert all non-imperative language to imperative commands throug
 3. **Systematic File Updates**
    - **docs/principles/formatting.md**: Fix "Why should I click?" and related
    - **docs/principles/claude-md.md**: Fix multiple should/would instances
-   - **docs/components/**: Review all component files for violations
+   - **docs/templates/components/**: Review all component files for violations
    - **docs/agents-documentation/**: Fix passive language in agent guidance
 
 4. **Validate Imperative Compliance**
@@ -121,7 +121,7 @@ Generated from high-priority system audit finding. Imperative communication is f
 **Files Requiring Major Updates**:
 - `docs/principles/formatting.md` - Link guidance and structure rules
 - `docs/principles/claude-md.md` - Multiple instruction examples
-- `docs/components/communication-templates.md` - Template language
+- `docs/templates/components/communication-templates.md` - Template language
 - `docs/agents-documentation/AGENTS_ONLY.md` - Directory enforcement
 
 **Validation Tests**:

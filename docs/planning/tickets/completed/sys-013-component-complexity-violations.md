@@ -9,7 +9,7 @@ estimated_effort: 5 hours
 actual_effort: 3 hours
 completed: 2025-08-18
 dependencies: []
-affected_files: ["docs/components/claude-md-templates.md", "docs/components/organization-structure.md", "docs/components/section-templates.md", "docs/components/communication-templates.md", "docs/components/files-management.md"]
+affected_files: ["docs/templates/components/claude-md-templates.md", "docs/templates/components/organization-structure.md", "docs/templates/components/section-templates.md", "docs/templates/components/communication-templates.md", "docs/templates/components/files-management.md"]
 violation_type: "complexity_violation"
 ---
 

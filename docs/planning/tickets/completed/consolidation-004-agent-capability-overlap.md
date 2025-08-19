@@ -226,7 +226,7 @@ All success criteria have been systematically achieved through comprehensive age
 
 #### Documentation and Integration
 - **Updated agent descriptions** to reflect distinct capabilities and boundaries
-- **Created [agent-capability-matrix.md](../../agent-capability-matrix.md)** with comprehensive selection guidance
+- **Created [architecture/agent-capability-matrix.md](../../architecture/agent-capability-matrix.md)** with comprehensive selection guidance
 - **Enhanced [agent-selection.md](../../principles/agent-selection.md)** with updated agent catalog
 - **Validated integration patterns** ensuring seamless agent coordination without conflicts
 

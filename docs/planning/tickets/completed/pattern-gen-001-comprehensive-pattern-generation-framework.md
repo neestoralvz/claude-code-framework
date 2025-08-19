@@ -3,7 +3,7 @@ title: "Implement Comprehensive Pattern Generation Framework"
 author: "Claude Code System"  
 date: "2025-08-19"
 version: "1.0.0"
-dependencies: ["../../PRINCIPLES.md", "../../commands/management/create-ticket.md", "../TICKET_METHODOLOGY.md"]
+dependencies: ["../principles/PRINCIPLES.md", "../../commands/management/create-ticket.md", "../TICKET_METHODOLOGY.md"]
 prerequisites: ["Enhanced command-centered architecture (ARCH-001)", "Agent selection principles", "Template system understanding"]
 audience: "System architects, developers, framework builders, and pattern designers"
 purpose: "Implement comprehensive pattern generation framework for systematic creation of all framework building blocks"
@@ -17,7 +17,7 @@ status: "⏳ PENDING"
 creation_date: "2025-08-19"
 ---
 
-[Previous: Study Enhanced Create Ticket](../../commands/management/create-ticket.md) | [Return to Registry](../TICKET_REGISTRY.md) | [Study Architecture Patterns](../../components/command-architecture-patterns.md) | [Next: Review Pattern Templates](../../templates/)
+[Previous: Study Enhanced Create Ticket](../../commands/management/create-ticket.md) | [Return to Registry](../TICKET_REGISTRY.md) | [Study Architecture Patterns](../../templates/templates/components/command-architecture-patterns.md) | [Next: Review Pattern Templates](../../templates/)
 
 # IMPLEMENT COMPREHENSIVE PATTERN GENERATION FRAMEWORK
 
@@ -456,8 +456,8 @@ principle_generator:
 
 ### Architecture Documentation
 - [Study Enhanced Command Architecture](../../commands/templates/enhanced-command-template.md)
-- [Review Command-Centered Architecture](../../docs/components/command-architecture-patterns.md)
-- [Access Validation Framework](../../docs/components/validation-framework.md)
+- [Review Command-Centered Architecture](../../docs/templates/templates/components/command-architecture-patterns.md)
+- [Access Validation Framework](../../docs/templates/templates/components/validation-framework.md)
 
 ### Related Tickets
 - [ARCH-001: Command-Centered Architecture Integration](completed/arch-001-command-centered-architecture.md)

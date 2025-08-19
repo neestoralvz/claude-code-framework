@@ -24,11 +24,11 @@ YAML frontmatter blocks are duplicated across 72+ markdown files with 98% struct
 - **Severity**: HIGH - Changes to frontmatter structure require 72+ file updates
 
 ## Solution
-Extract common YAML frontmatter structure to reusable template component in docs/components/.
+Extract common YAML frontmatter structure to reusable template component in docs/templates/components/.
 
 ## Implementation Steps
 1. Analyze existing frontmatter patterns across all 72 files
-2. Create standardized frontmatter template in docs/components/frontmatter-template.yaml
+2. Create standardized frontmatter template in docs/templates/components/frontmatter-template.yaml
 3. Document template usage and field definitions
 4. Update affected files to reference template structure
 5. Verify consistency across all documentation files
@@ -44,7 +44,7 @@ Extract common YAML frontmatter structure to reusable template component in docs
 ## Files Affected
 - All .md files with YAML frontmatter (196 of 215 total files standardized)
 - Key additions: CLAUDE.md and PROJECT_STRUCTURE.md frontmatter
-- Target template: docs/components/frontmatter-template.yaml
+- Target template: docs/templates/components/frontmatter-template.yaml
 
 ## Notes
 Generated from modularization analysis: "Extract duplicate YAML frontmatter patterns"

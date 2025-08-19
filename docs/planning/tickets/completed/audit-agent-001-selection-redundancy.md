@@ -2,7 +2,7 @@
 title: "Eliminate Agent Selection and Deployment Pattern Redundancy"
 ticket_id: "AUDIT-AGENT-001"
 priority: "HIGH"
-status: pending
+status: completed
 created: "2025-08-19"
 category: "audit"
 estimated_effort: "6 hours"
@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/agent-deployment-framework.md", "commands/*.md", "agents/*.md"]
+affected_files: ["docs/templates/components/agent-deployment-framework.md", "commands/*.md", "agents/*.md"]
 parallel_group: "agent-redundancy-elimination"
 execution_strategy: "sequential"
 violation_type: "principle-violation"
@@ -82,11 +82,11 @@ Create centralized agent deployment framework with automated selection logic and
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/agent-deployment-framework.md` - Central agent deployment system
-- `docs/components/agent-selection-automation.md` - Automated selection logic
+- `docs/templates/components/agent-deployment-framework.md` - Central agent deployment system
+- `docs/templates/components/agent-selection-automation.md` - Automated selection logic
 - Update 249 files across commands/, agents/ directories
-- `docs/components/agent-coordination-patterns.md` - Standardized coordination templates
-- `docs/components/agent-deployment-validation.md` - Deployment validation framework
+- `docs/templates/components/agent-coordination-patterns.md` - Standardized coordination templates
+- `docs/templates/components/agent-deployment-validation.md` - Deployment validation framework
 
 **Principle Violations**:
 - Violates [agent-selection.md](../../principles/agent-selection.md) through massive pattern duplication

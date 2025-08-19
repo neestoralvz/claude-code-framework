@@ -3,7 +3,7 @@ title: "Ticket Management Methodology"
 author: "Claude Code System"
 date: "2025-08-18"
 version: "2.0.0"
-dependencies: ["../PRINCIPLES.md", "TICKET_REGISTRY.md"]
+dependencies: ["principles/PRINCIPLES.md", "TICKET_REGISTRY.md"]
 prerequisites: ["Understanding of project structure", "Familiarity with ticket lifecycle"]
 audience: "Project managers, developers, and system administrators"
 purpose: "Define standardized methodology for creating, managing, and tracking tickets throughout their lifecycle"
@@ -11,7 +11,7 @@ keywords: ["tickets", "methodology", "workflow", "management", "tracking", "life
 last_review: "2025-08-18"
 ---
 
-[Previous: Study index.md for navigation](../index.md) | [Return to hub for navigation](../index.md) | [Review PRINCIPLES.md for framework](../PRINCIPLES.md) | [Next: Access TICKET_REGISTRY.md for dashboard](TICKET_REGISTRY.md)
+[Previous: Study index.md for navigation](../index.md) | [Return to hub for navigation](../index.md) | [Review PRINCIPLES.md for framework](principles/PRINCIPLES.md) | [Next: Access TICKET_REGISTRY.md for dashboard](TICKET_REGISTRY.md)
 
 # TICKET MANAGEMENT METHODOLOGY
 
@@ -84,7 +84,7 @@ Define standardized methodology for creating, managing, and tracking tickets thr
 
 Tickets progress through four phases: **Creation** → **Activation** → **Completion** → **Archival**
 
-**📋 [View complete lifecycle documentation](components/ticket-lifecycle.md)**
+**📋 [View complete lifecycle documentation](templates/components/ticket-lifecycle.md)**
 
 ## Ticket Structure
 
@@ -138,7 +138,7 @@ Priority levels: **HIGH** (critical impact) | **MEDIUM** (important functionalit
 
 Core categories: bug, feature, enhancement, refactor, documentation, performance, security, modularization
 
-**📊 [View complete classification guide](components/ticket-classification.md)**
+**📊 [View complete classification guide](templates/components/ticket-classification.md)**
 
 [⬆ Return to top](#ticket-management-methodology)
 
@@ -260,6 +260,6 @@ cancelled
 
 Integration with documentation, version control, and CI/CD systems ensures seamless workflow.
 
-**🔗 [View complete integration guide](components/ticket-integration.md)**
+**🔗 [View complete integration guide](templates/components/ticket-integration.md)**
 
 [⬆ Return to top](#ticket-management-methodology)

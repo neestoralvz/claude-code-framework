@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/navigation-breadcrumb-component.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
+affected_files: ["docs/templates/components/navigation-breadcrumb-component.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
 parallel_group: "component-extraction"
 execution_strategy: "parallel"
 violation_type: "maintenance"
@@ -81,8 +81,8 @@ Extract navigation breadcrumb patterns into a centralized, reusable component wi
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/navigation-breadcrumb-component.md` - Central breadcrumb component
-- `docs/components/breadcrumb-generator.md` - Automated generation logic
+- `docs/templates/components/navigation-breadcrumb-component.md` - Central breadcrumb component
+- `docs/templates/components/breadcrumb-generator.md` - Automated generation logic
 - Various files across commands/, agents/, docs/ directories for component integration
 
 **Framework Integration**:

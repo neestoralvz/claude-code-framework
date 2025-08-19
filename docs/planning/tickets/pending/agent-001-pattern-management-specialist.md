@@ -105,9 +105,9 @@ Create a specialized Pattern Management Specialist agent that automatically dete
 
 **Files to Create**:
 - `agents/pattern-management-specialist.md` - Core agent specification
-- `docs/components/pattern-detection-framework.md` - Pattern detection algorithms
-- `docs/components/pattern-consolidation-workflows.md` - Consolidation processes
-- `docs/components/pattern-registry-system.md` - Pattern tracking and management
+- `docs/templates/components/pattern-detection-framework.md` - Pattern detection algorithms
+- `docs/templates/components/pattern-consolidation-workflows.md` - Consolidation processes
+- `docs/templates/components/pattern-registry-system.md` - Pattern tracking and management
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase pattern management

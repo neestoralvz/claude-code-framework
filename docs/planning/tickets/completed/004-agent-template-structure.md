@@ -29,7 +29,7 @@ Agent template sections duplicated across 4 agent files with 90% structural simi
 Create modular agent components for reusable sections.
 
 ## Implementation Steps
-1. Create `/agents/components/` directory
+1. Create `/agents/templates/components/` directory
 2. Extract common components:
    - `agent-frontmatter.yaml`
    - `core-responsibilities-template.md`

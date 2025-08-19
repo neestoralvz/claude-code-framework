@@ -33,7 +33,7 @@ Create comprehensive principle marker standardization system with consistent for
 8. Document principle marker usage and best practices
 
 ## Acceptance Criteria
-- [ ] Standardized principle marker template created in docs/components/
+- [ ] Standardized principle marker template created in docs/templates/components/
 - [ ] All 47 principle marker instances use consistent formatting
 - [ ] Principle reference validation implemented
 - [ ] Principle relationship mapping system functional
@@ -49,7 +49,7 @@ Create comprehensive principle marker standardization system with consistent for
 
 ## Files Affected
 - All .md files with principle markers (~20+ files)
-- docs/components/principle-marker-template.md (new)
+- docs/templates/components/principle-marker-template.md (new)
 - scripts/validate-principle-markers.sh (new)
 - scripts/update-principle-markers.sh (new)
 

@@ -27,7 +27,7 @@ Successfully executed comprehensive Table of Contents deduplication across the C
 - **Results**: 111 files successfully processed with standardized TOCs
 
 ### 2. TOC Validation Framework
-- **File**: `/docs/components/toc-validation.md`
+- **File**: `/docs/templates/templates/components/toc-validation.md`
 - **Capability**: Four-gate validation protocol for TOC quality assurance
 - **Features**: Accuracy validation, consistency checking, integrity verification
 - **Results**: 100% functional preservation across all operations
@@ -77,12 +77,12 @@ Successfully executed comprehensive Table of Contents deduplication across the C
 
 ### New Components
 - `/scripts/generate-toc.sh` - Automated TOC generation script
-- `/docs/components/toc-validation.md` - TOC validation framework
+- `/docs/templates/templates/components/toc-validation.md` - TOC validation framework
 - `/operations/AUDIT-DUP-002-COMPLETION-REPORT.md` - Comprehensive completion report
 
 ### Enhanced Components
-- `/docs/components/toc-generator.md` - Enhanced with standardized patterns
-- `/docs/components/toc-template.md` - Updated with document-specific templates
+- `/docs/templates/templates/components/toc-generator.md` - Enhanced with standardized patterns
+- `/docs/templates/templates/components/toc-template.md` - Updated with document-specific templates
 
 ### Updated Files
 - 111 framework files with standardized automated TOCs

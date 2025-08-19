@@ -84,8 +84,8 @@ Create centralized YAML frontmatter component system with templates, validation,
 ## Notes
 
 **Files to Create/Modify**:
-- `/docs/components/frontmatter-component-system.md` - Central component system
-- `/docs/components/templates/frontmatter-templates.yaml` - Template definitions
+- `/docs/templates/templates/components/frontmatter-component-system.md` - Central component system
+- `/docs/templates/templates/components/templates/frontmatter-templates.yaml` - Template definitions
 - 497+ documentation files - Migrate to component system
 
 **Principle Violations**:

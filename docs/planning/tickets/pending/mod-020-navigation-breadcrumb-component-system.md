@@ -84,8 +84,8 @@ Create centralized navigation breadcrumb component system with intelligent path 
 ## Notes
 
 **Files to Create/Modify**:
-- `/docs/components/navigation-breadcrumb-system.md` - Central navigation system
-- `/docs/components/templates/breadcrumb-templates.md` - Template definitions
+- `/docs/templates/templates/components/navigation-breadcrumb-system.md` - Central navigation system
+- `/docs/templates/templates/components/templates/breadcrumb-templates.md` - Template definitions
 - 4400+ documentation files - Migrate to component system
 
 **Principle Violations**:

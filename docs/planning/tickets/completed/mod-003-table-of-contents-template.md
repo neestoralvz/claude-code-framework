@@ -29,7 +29,7 @@ Extract table of contents structure to reusable template component supporting di
 ## Implementation Steps
 1. Analyze existing TOC patterns across all 40 files
 2. Identify common section types and hierarchies
-3. Create flexible TOC template in docs/components/
+3. Create flexible TOC template in docs/templates/components/
 4. Define template variables for different document types
 5. Update all affected files to use consistent TOC structure
 6. Verify all TOC links function correctly
@@ -44,13 +44,13 @@ Extract table of contents structure to reusable template component supporting di
 ## Files Affected
 - Commands: All command files (5 files)
 - Docs: Principles, components, and planning files (35 files)
-- Target template: docs/components/toc-template.md
+- Target template: docs/templates/components/toc-template.md
 
 ## Notes
 Generated from modularization analysis: "Extract duplicate table of contents patterns"
 
 ## Completion Summary
-✅ **Completed 2025-08-18**: Successfully created comprehensive TOC template at `docs/components/toc-template.md`
+✅ **Completed 2025-08-18**: Successfully created comprehensive TOC template at `docs/templates/components/toc-template.md`
 
 ### Delivered Components
 - Standard, Extended, and Minimal TOC patterns
@@ -65,4 +65,4 @@ Generated from modularization analysis: "Extract duplicate table of contents pat
 - Includes comprehensive documentation and examples
 
 ### Files Created
-- `/docs/components/toc-template.md` - Main template file
+- `/docs/templates/templates/components/toc-template.md` - Main template file

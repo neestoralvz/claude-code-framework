@@ -8,7 +8,7 @@ completed: 2025-08-18
 category: system
 estimated_effort: 2 hours
 dependencies: []
-affected_files: ["docs/principles/", "docs/components/", "docs/PRINCIPLES.md", "docs/index.md"]
+affected_files: ["docs/principles/", "docs/templates/components/", "docs/PRINCIPLES.md", "docs/index.md"]
 violation_type: "conceptual_pollution"
 ---
 
@@ -31,7 +31,7 @@ Conceptual confusion exists between principles (philosophical framework) and too
    - Tools and patterns confused with foundational concepts
 
 3. **Architectural Boundary Violations**:
-   - docs/components/README.md clearly separates principles vs components
+   - docs/templates/components/README.md clearly separates principles vs components
    - Current practice violates this documented separation
    - Principles become polluted with non-essential implementation details
 
@@ -112,7 +112,7 @@ None - this is a content organization and clarity task that can be completed ind
 
 Generated from medium-priority system audit finding. Clear conceptual separation is critical for framework usability and maintainability.
 
-**Principle vs Component Separation** (from docs/components/README.md):
+**Principle vs Component Separation** (from docs/templates/components/README.md):
 
 **Principles** (/docs/principles/):
 - Define philosophical framework (WHY and WHAT)
@@ -120,7 +120,7 @@ Generated from medium-priority system audit finding. Clear conceptual separation
 - Universal application across system
 - Rarely change
 
-**Components** (/docs/components/):
+**Components** (/docs/templates/templates/components/):
 - Provide reusable implementations (HOW)
 - Practical implementation patterns
 - Prevent code duplication (DRY)

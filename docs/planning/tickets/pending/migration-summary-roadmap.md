@@ -96,12 +96,12 @@ Systematic consolidation of 92+ component files into principles/ to eliminate du
 
 ### Week 3: Templates & Cleanup
 - Create and execute remaining package tickets
-- Final cleanup of components/
+- Final cleanup of templates/components/
 - System-wide testing
 - Documentation updates
 
 ## Success Metrics
-- [ ] Reduce components/ from 92+ files to <20 essential files
+- [ ] Reduce templates/components/ from 92+ files to <20 essential files
 - [ ] Consolidate all duplicated content into principles/
 - [ ] Maintain 100% system functionality
 - [ ] Eliminate all broken references
@@ -112,7 +112,7 @@ Systematic consolidation of 92+ component files into principles/ to eliminate du
 - Preserve content before deleting components
 - Update references before removing files
 - Test thoroughly after each package migration
-- Maintain backup of original components/
+- Maintain backup of original templates/components/
 
 ## Dependencies
 - All migrations depend on migration-001 (analysis)

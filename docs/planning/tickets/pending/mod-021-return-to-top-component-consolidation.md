@@ -84,8 +84,8 @@ Create centralized return-to-top component system with intelligent anchor detect
 ## Notes
 
 **Files to Create/Modify**:
-- `/docs/components/return-to-top-component-system.md` - Central component system
-- `/docs/components/templates/return-to-top-templates.md` - Template definitions
+- `/docs/templates/templates/components/return-to-top-component-system.md` - Central component system
+- `/docs/templates/templates/components/templates/return-to-top-templates.md` - Template definitions
 - 2750+ documentation files - Migrate to component system
 
 **Principle Violations**:

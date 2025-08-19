@@ -28,7 +28,7 @@ Extract principle reference pattern to reusable template component for consisten
 
 ## Implementation Steps
 1. Catalog all existing principle reference patterns across 39 files
-2. Create standardized principle reference template in docs/components/
+2. Create standardized principle reference template in docs/templates/components/
 3. Define template variables for principle file, section, and relationship type
 4. Update all affected files to use consistent pattern
 5. Validate principle reference accuracy and completeness
@@ -43,7 +43,7 @@ Extract principle reference pattern to reusable template component for consisten
 ## Files Affected
 - Commands: index.md, create-ticket.md, modularize.md, review-tickets.md
 - Docs: Various component and principle files (35 additional files)
-- Target template: docs/components/principle-reference-template.md
+- Target template: docs/templates/components/principle-reference-template.md
 
 ## Notes
 Generated from modularization analysis: "Extract duplicate principle reference patterns"

@@ -105,9 +105,9 @@ Create a specialized Business Intelligence Analyst agent that systematically ana
 
 **Files to Create**:
 - `agents/business-intelligence-analyst.md` - Core agent specification
-- `docs/components/roi-analysis-framework.md` - ROI calculation and assessment workflows
-- `docs/components/strategic-kpi-development.md` - KPI identification and measurement systems
-- `docs/components/business-intelligence-dashboard.md` - Reporting and visualization interfaces
+- `docs/templates/components/roi-analysis-framework.md` - ROI calculation and assessment workflows
+- `docs/templates/components/strategic-kpi-development.md` - KPI identification and measurement systems
+- `docs/templates/components/business-intelligence-dashboard.md` - Reporting and visualization interfaces
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase business analysis

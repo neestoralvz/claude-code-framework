@@ -31,7 +31,7 @@ Cross-reference phraseology duplicated across all principle files with 85% ident
 Create standardized cross-reference templates and phraseology.
 
 ## Implementation Steps
-1. Create `/docs/components/cross-references.md`
+1. Create `/docs/templates/templates/components/cross-references.md`
 2. Define standard link phraseology:
    - Action links (Follow, Apply, Execute)
    - Reference links (See, Read, Review)

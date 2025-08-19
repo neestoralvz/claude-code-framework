@@ -26,7 +26,7 @@ Extract return-to-top navigation pattern to reusable component with consistent f
 
 ## Implementation Steps
 1. Catalog all existing return-to-top link patterns
-2. Create standardized navigation component in docs/components/
+2. Create standardized navigation component in docs/templates/components/
 3. Define template for automatic anchor generation
 4. Update all 42 files to use consistent pattern
 5. Verify all return-to-top links function correctly
@@ -40,7 +40,7 @@ Extract return-to-top navigation pattern to reusable component with consistent f
 
 ## Files Affected
 - All files with [⬆ Return to top] links (42 files)
-- Target template: docs/components/return-to-top-template.md
+- Target template: docs/templates/components/return-to-top-template.md
 
 ## Notes
 Generated from modularization analysis: "Extract duplicate return-to-top navigation patterns"

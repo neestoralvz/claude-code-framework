@@ -85,8 +85,8 @@ Create centralized principle marker component system with intelligent principle 
 ## Notes
 
 **Files to Create/Modify**:
-- `/docs/components/principle-marker-component-system.md` - Central component system
-- `/docs/components/templates/principle-marker-templates.md` - Template definitions
+- `/docs/templates/templates/components/principle-marker-component-system.md` - Central component system
+- `/docs/templates/templates/components/templates/principle-marker-templates.md` - Template definitions
 - 3034+ documentation files - Migrate to component system
 
 **Principle Violations**:

@@ -35,7 +35,7 @@ Develop comprehensive navigation breadcrumb component system with automated gene
 8. Document breadcrumb usage and customization options
 
 ## Acceptance Criteria
-- [ ] Standardized breadcrumb component created in docs/components/
+- [ ] Standardized breadcrumb component created in docs/templates/components/
 - [ ] Automated breadcrumb generation implemented
 - [ ] All documentation files use consistent breadcrumb patterns
 - [ ] Breadcrumb formatting follows established standards
@@ -51,8 +51,8 @@ Develop comprehensive navigation breadcrumb component system with automated gene
 
 ## Files Affected
 - All .md files with navigation breadcrumbs (~25+ files)
-- docs/components/navigation-breadcrumb.md (new)
-- docs/components/breadcrumb-generator.sh (new)
+- docs/templates/components/navigation-breadcrumb.md (new)
+- docs/templates/components/breadcrumb-generator.sh (new)
 - scripts/update-breadcrumbs.sh (new)
 
 ## Implementation Metrics

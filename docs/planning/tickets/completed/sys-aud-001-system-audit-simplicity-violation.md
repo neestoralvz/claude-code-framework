@@ -14,10 +14,10 @@ dependencies:
   resource_conflicts: []
 affected_files: [
   "commands/analysis/system-audit.md",
-  "docs/components/audit-framework-components.md",
-  "docs/components/validation-framework-components.md",
-  "docs/components/agent-deployment-framework.md",
-  "docs/components/architecture-documentation-templates.md"
+  "docs/templates/components/audit-framework-components.md",
+  "docs/templates/components/validation-framework-components.md",
+  "docs/templates/components/agent-deployment-framework.md",
+  "docs/templates/components/architecture-documentation-templates.md"
 ]
 parallel_group: "simplicity-compliance"
 execution_strategy: "isolated"
@@ -62,10 +62,10 @@ Extract reusable components from system-audit.md into specialized component file
    - Validate extraction approach against framework principles
 
 2. **Core Implementation**
-   - Extract architecture documentation to `/docs/components/audit-framework-components.md`
-   - Modularize validation framework into `/docs/components/validation-framework-components.md`
-   - Separate agent deployment logic into `/docs/components/agent-deployment-framework.md`
-   - Create architecture documentation templates in `/docs/components/architecture-documentation-templates.md`
+   - Extract architecture documentation to `/docs/templates/templates/components/audit-framework-components.md`
+   - Modularize validation framework into `/docs/templates/templates/components/validation-framework-components.md`
+   - Separate agent deployment logic into `/docs/templates/templates/components/agent-deployment-framework.md`
+   - Create architecture documentation templates in `/docs/templates/templates/components/architecture-documentation-templates.md`
    - Update system-audit.md to reference extracted components
 
 3. **Validation and Integration**
@@ -88,16 +88,16 @@ Extract reusable components from system-audit.md into specialized component file
 List any prerequisites, related tickets, or external requirements:
 - Reference to [simplicity.md](../principles/simplicity.md) for 500-line threshold enforcement
 - Reference to [modularize.md](../../commands/analysis/modularize.md) for component extraction methodology
-- Integration with existing component architecture in `/docs/components/`
+- Integration with existing component architecture in `/docs/templates/templates/components/`
 
 ## Notes
 
 **Files to Create/Modify**:
 - `commands/analysis/system-audit.md` - Reduce to <500 lines through component extraction
-- `docs/components/audit-framework-components.md` - NEW: Extract audit framework architecture
-- `docs/components/validation-framework-components.md` - NEW: Extract validation framework logic
-- `docs/components/agent-deployment-framework.md` - NEW: Extract agent deployment patterns
-- `docs/components/architecture-documentation-templates.md` - NEW: Extract documentation templates
+- `docs/templates/components/audit-framework-components.md` - NEW: Extract audit framework architecture
+- `docs/templates/components/validation-framework-components.md` - NEW: Extract validation framework logic
+- `docs/templates/components/agent-deployment-framework.md` - NEW: Extract agent deployment patterns
+- `docs/templates/components/architecture-documentation-templates.md` - NEW: Extract documentation templates
 
 **Principle Violations**:
 - Violates [simplicity.md](../principles/simplicity.md) by exceeding 500-line limit (current: 577 lines)

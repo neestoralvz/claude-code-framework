@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["commands/monitor-execution.md", "docs/principles/task-orchestration.md", "commands/execute-parallel-plan.md", "docs/planning/components/ticket-parallel-executor.md"]
+affected_files: ["commands/monitor-execution.md", "docs/principles/task-orchestration.md", "commands/execute-parallel-plan.md", "docs/planning/templates/components/ticket-parallel-executor.md"]
 parallel_group: "complexity-reduction"
 execution_strategy: "sequential"
 violation_type: "simplicity-principle"

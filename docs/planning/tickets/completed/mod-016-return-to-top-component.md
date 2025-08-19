@@ -33,7 +33,7 @@ Create reusable return-to-top navigation component with automated insertion capa
 8. Document return-to-top component usage and customization
 
 ## Acceptance Criteria
-- [ ] Standardized return-to-top component created in docs/components/
+- [ ] Standardized return-to-top component created in docs/templates/components/
 - [ ] Automated return-to-top link insertion implemented
 - [ ] All 59 instances replaced with component usage
 - [ ] Return-to-top formatting follows established standards
@@ -49,7 +49,7 @@ Create reusable return-to-top navigation component with automated insertion capa
 
 ## Files Affected
 - All .md files with return-to-top links (~30+ files)
-- docs/components/return-to-top-component.md (new)
+- docs/templates/components/return-to-top-component.md (new)
 - scripts/insert-return-to-top.sh (new)
 - scripts/validate-return-to-top.sh (new)
 

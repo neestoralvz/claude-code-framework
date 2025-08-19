@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/toc-template.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
+affected_files: ["docs/templates/components/toc-template.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
 parallel_group: "duplication-elimination"
 execution_strategy: "sequential"
 violation_type: "principle-violation"
@@ -82,11 +82,11 @@ Create automated Table of Contents generation system with centralized templates 
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/toc-generator.md` - Automated TOC generation system
-- `docs/components/toc-templates.md` - Document type-specific templates
+- `docs/templates/components/toc-generator.md` - Automated TOC generation system
+- `docs/templates/components/toc-templates.md` - Document type-specific templates
 - Update 358 files across commands/, agents/, docs/ directories
 - `scripts/generate-toc.sh` - Automation script for TOC generation
-- `docs/components/toc-validation.md` - TOC accuracy validation
+- `docs/templates/components/toc-validation.md` - TOC accuracy validation
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) through massive TOC pattern duplication

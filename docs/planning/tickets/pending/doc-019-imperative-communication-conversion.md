@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/principles/communication.md", "docs/components/imperative-tone-patterns.md"]
+affected_files: ["docs/principles/communication.md", "docs/templates/components/imperative-tone-patterns.md"]
 parallel_group: "evolutionary-improvements"
 execution_strategy: "isolated"
 violation_type: "principle-violation"
@@ -84,14 +84,14 @@ Systematically convert non-imperative language to imperative communication stand
 ## Dependencies
 
 - Reference to [communication.md](../principles/communication.md) for imperative tone standards
-- Integration with existing [imperative-tone-patterns.md](../components/imperative-tone-patterns.md) component
+- Integration with existing [imperative-tone-patterns.md](../templates/templates/components/imperative-tone-patterns.md) component
 - Alignment with [formatting.md](../principles/formatting.md) for header structure
 
 ## Notes
 
 **Files to Create/Modify**:
 - Multiple documentation files throughout the framework requiring imperative tone conversion
-- `docs/components/imperative-tone-patterns.md` - Apply existing patterns systematically
+- `docs/templates/components/imperative-tone-patterns.md` - Apply existing patterns systematically
 
 **Principle Violations**:
 - Violates [communication.md](../principles/communication.md) by using non-imperative language forms

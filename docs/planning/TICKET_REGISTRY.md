@@ -3,7 +3,7 @@ title: "Ticket Registry Dashboard"
 author: "Claude Code System"
 date: "2025-08-19"
 version: "4.0.0"
-dependencies: ["TICKET_METHODOLOGY.md", "../PRINCIPLES.md"]
+dependencies: ["TICKET_METHODOLOGY.md", "principles/PRINCIPLES.md"]
 prerequisites: ["Understanding of ticket lifecycle", "Knowledge of project structure"]
 audience: "Project managers, developers, and stakeholders"
 purpose: "Simplified single-table registry for efficient ticket status tracking and management"
@@ -11,7 +11,7 @@ keywords: ["tickets", "registry", "dashboard", "status", "tracking", "metrics", 
 last_review: "2025-08-19"
 ---
 
-[Previous: Study TICKET_METHODOLOGY.md](TICKET_METHODOLOGY.md) | [Return to hub](../index.md) | [Review PRINCIPLES.md](../PRINCIPLES.md) | [Next: Browse commands](../../commands/index.md)
+[Previous: Study TICKET_METHODOLOGY.md](TICKET_METHODOLOGY.md) | [Return to hub](../index.md) | [Review PRINCIPLES.md](principles/PRINCIPLES.md) | [Next: Browse commands](../../commands/index.md)
 
 # TICKET REGISTRY DASHBOARD
 
@@ -32,10 +32,10 @@ Central registry with single comprehensive table containing all tickets, status 
 ### Key Metrics
 | Status | Count | Percentage | Focus Area |
 |--------|-------|------------|------------|
-| ✅ **Completed** | **57** | **47.1%** | Major system overhaul complete |
+| ✅ **Completed** | **60** | **49.6%** | Major system overhaul + documentation restructuring complete |
 | ✔️ **Resolved** | **1** | **0.8%** | Workflow structure standardized |
-| ⏳ **Pending** | **63** | **52.1%** | Navigation integrity & agent specialization |
-| **TOTAL** | **121** | **100%** | **Navigation integrity & automation focus** |
+| ⏳ **Pending** | **60** | **49.6%** | Navigation integrity & agent specialization |
+| **TOTAL** | **121** | **100%** | **Documentation restructuring & system evolution complete** |
 
 ### Priority Distribution
 ```
@@ -56,13 +56,14 @@ Central registry with single comprehensive table containing all tickets, status 
 | 🔥 | 🎫 | Title | 📂 | 📊 | Dependencies |
 |----|----|-----|----|----|------------|
 | 🔥 | NAV-002 | [Link Scanner Script](tickets/completed/nav-002-link-scanner-script.md) | 🗺️ | ✅ | - |
+| 🔥 | EVOLVE-001 | [Documentation System Restructuring Complete](tickets/completed/evolve-001-documentation-system-restructuring.md) | 🏗️ | ✅ | NAV-002 |
 | 🔴 | AUDIT-SIMP-002 | [System Audit Command Simplification](tickets/pending/audit-simp-002-oversized-system-audit-command.md) | 🔍 | ⏳ | - |
 | 🔴 | AUDIT-SIMP-003 | [Parallel Intent Analysis Simplification](tickets/pending/audit-simp-003-oversized-parallel-intent-analysis.md) | 🔍 | ⏳ | - |
 | 🔴 | AUDIT-SIMP-004 | [Modularize Command Simplification](tickets/pending/audit-simp-004-oversized-modularize-command.md) | 🔍 | ⏳ | - |
 | 🔴 | AUDIT-SIMP-005 | [Review Tickets Command Simplification](tickets/pending/audit-simp-005-oversized-review-tickets-command.md) | 🔍 | ⏳ | - |
 | 🔴 | AUDIT-DUP-001 | [Success Criteria Duplication Elimination](tickets/pending/audit-dup-001-success-criteria-duplication.md) | 🔍 | ⏳ | - |
 | 🔴 | AUDIT-DUP-002 | [Table of Contents Duplication Elimination](tickets/pending/audit-dup-002-table-contents-duplication.md) | 🔍 | ⏳ | - |
-| 🔴 | AUDIT-AGENT-001 | [Agent Selection Pattern Redundancy](tickets/pending/audit-agent-001-selection-redundancy.md) | 🔍 | 🔄 | - |
+| 🔴 | AUDIT-AGENT-001 | [Agent Selection Pattern Redundancy](tickets/completed/audit-agent-001-selection-redundancy.md) | 🔍 | ✅ | - |
 | 🔴 | AGENT-001 | [Pattern Management Specialist](tickets/pending/agent-001-pattern-management-specialist.md) | 🤖 | ⏳ | - |
 | 🔴 | sys-aud-auto-001 | [Business Analyst Agent Exceeds Line Limit](tickets/pending/auto-generated/sys-aud-auto-001-simplicity-violations-business-analyst.md) | 🔧 | ⏳ | - |
 | 🔴 | sys-aud-auto-004 | [TODO File Proliferation](tickets/pending/auto-generated/sys-aud-auto-004-organization-todo-file-proliferation.md) | 🔧 | ⏳ | - |
@@ -145,13 +146,13 @@ Central registry with single comprehensive table containing all tickets, status 
 ### Navigation
 - [Return to Documentation Hub](../index.md)
 - [Study TICKET_METHODOLOGY.md](TICKET_METHODOLOGY.md)
-- [Review PRINCIPLES.md](../PRINCIPLES.md)
+- [Review PRINCIPLES.md](principles/PRINCIPLES.md)
 - [Browse Commands](../../commands/index.md)
 
 ### Related Systems
 - [Agent Directory](../../agents/) - Specialist agent catalog
 - [Commands Directory](../../commands/) - Command execution system
-- [Components Directory](../components/) - Reusable component library
+- [Components Directory](../templates/templates/components/) - Reusable component library
 - [Templates Directory](../templates/) - Standardized templates
 
 ### Framework References
@@ -165,8 +166,8 @@ Central registry with single comprehensive table containing all tickets, status 
 ---
 
 **Last Updated**: 2025-08-19  
-**Registry Version**: 4.0.0 (Simplified)  
-**Total Tickets**: 115 (57 completed, 1 resolved, 58 pending)  
+**Registry Version**: 4.0.1 (AUDIT-AGENT-001 Completed)  
+**Total Tickets**: 121 (59 completed, 1 resolved, 61 pending)  
 **Completion Rate**: 49.6%  
 **Next Milestone**: Critical agent framework completion (47-51h)  
 **Simplification Impact**: 70% reduction in document complexity through single-table approach

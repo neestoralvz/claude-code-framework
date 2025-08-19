@@ -85,8 +85,8 @@ Create centralized cross-reference template system with categorized link managem
 ## Notes
 
 **Files to Create/Modify**:
-- `/docs/components/cross-reference-template-system.md` - Central template system
-- `/docs/components/templates/cross-reference-templates.md` - Template definitions
+- `/docs/templates/templates/components/cross-reference-template-system.md` - Central template system
+- `/docs/templates/templates/components/templates/cross-reference-templates.md` - Template definitions
 - 2535+ documentation files - Migrate to template system
 
 **Principle Violations**:

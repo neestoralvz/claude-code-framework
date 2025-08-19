@@ -45,7 +45,7 @@ User Request → Command → Integrated Execution Environment
 ### ✅ Phase 1: Enhanced Command Template (2h)
 **COMPLETED**: Created comprehensive command template with integrated architecture
 - **File Created**: `/commands/templates/enhanced-command-template.md`
-- **File Created**: `/docs/components/command-architecture-patterns.md`
+- **File Created**: `/docs/templates/templates/components/command-architecture-patterns.md`
 - **Features Implemented**:
   - Embedded principle application logic
   - Integrated agent deployment framework
@@ -171,7 +171,7 @@ User Request → Command → Integrated Execution Environment
 
 ### NEW FILES CREATED:
 - ✅ `/commands/templates/enhanced-command-template.md` - Comprehensive command template
-- ✅ `/docs/components/command-architecture-patterns.md` - Integration guidance
+- ✅ `/docs/templates/templates/components/command-architecture-patterns.md` - Integration guidance
 - ✅ `/docs/planning/tickets/completed/arch-001-command-centered-architecture.md` - This completion document
 
 ### ENHANCED EXISTING COMMANDS:

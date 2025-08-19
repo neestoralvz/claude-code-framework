@@ -11,7 +11,7 @@ keywords: ["parallel", "execution", "scheduling", "agents", "optimization", "mon
 last_review: "2025-08-18"
 ---
 
-[Previous: Study dependency analysis](ticket-dependency-analysis.md) | [Return to hub](../../index.md) | [Master PRINCIPLES.md](../../PRINCIPLES.md) | [Next: Review execution scheduler](ticket-execution-scheduler.md)
+[Previous: Study dependency analysis](ticket-dependency-analysis.md) | [Return to hub](../../index.md) | [Master PRINCIPLES.md](../principles/PRINCIPLES.md) | [Next: Review execution scheduler](ticket-execution-scheduler.md)
 
 # TICKET PARALLEL EXECUTION ENGINE
 
@@ -48,15 +48,15 @@ High-performance execution engine that coordinates multiple agents to execute ti
 
 ## Execution Architecture
 
-**[Apply execution-architecture-core.md for core components and execution flow](../../components/execution-architecture-core.md)**
+**[Apply execution-architecture-core.md for core components and execution flow](../../templates/templates/components/execution-architecture-core.md)**
 
 ## Agent Coordination
 
-**[Use parallel-coordination-protocols.md for agent assignment and synchronization](../../components/parallel-coordination-protocols.md)**
+**[Use parallel-coordination-protocols.md for agent assignment and synchronization](../../templates/templates/components/parallel-coordination-protocols.md)**
 
 ## Resource Management
 
-**[Apply parallel-resource-management.md for resource allocation and conflict resolution](../../components/parallel-resource-management.md)**
+**[Apply parallel-resource-management.md for resource allocation and conflict resolution](../../templates/templates/components/parallel-resource-management.md)**
 
 ## Monitoring and Control
 
@@ -132,7 +132,7 @@ stop-execution --force --preserve-state
 
 ## Implementation
 
-**[Apply parallel-implementation-engine.md for execution engine and code examples](../../components/parallel-implementation-engine.md)**
+**[Apply parallel-implementation-engine.md for execution engine and code examples](../../templates/templates/components/parallel-implementation-engine.md)**
 
 ## Usage Examples
 

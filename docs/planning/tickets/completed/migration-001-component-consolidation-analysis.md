@@ -16,10 +16,10 @@ related_tickets: []
 # Component Consolidation Analysis and Planning
 
 ## Context
-The /docs/components/ directory contains 92+ files that duplicate and fragment information that should be consolidated in /docs/principles/. This creates maintenance overhead and information fragmentation.
+The /docs/templates/templates/components/ directory contains 92+ files that duplicate and fragment information that should be consolidated in /docs/principles/. This creates maintenance overhead and information fragmentation.
 
 ## Objective
-Systematically analyze, categorize, and plan the consolidation of components/ content into principles/ to eliminate duplication and reduce system complexity.
+Systematically analyze, categorize, and plan the consolidation of templates/components/ content into principles/ to eliminate duplication and reduce system complexity.
 
 ## Component Categories Identified
 
@@ -113,7 +113,7 @@ Systematically analyze, categorize, and plan the consolidation of components/ co
 
 ## Risk Mitigation
 
-- Create backup of components/ before any deletion
+- Create backup of templates/components/ before any deletion
 - Migrate content first, delete components last
 - Update all references before removing components
 - Test system functionality after each package migration

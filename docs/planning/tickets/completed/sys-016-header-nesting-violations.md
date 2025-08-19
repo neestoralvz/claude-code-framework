@@ -9,7 +9,7 @@ category: system
 estimated_effort: 2 hours
 actual_effort: 2 hours
 dependencies: []
-affected_files: ["docs/transcription-superwhisper.md", "docs/components/section-templates.md", "docs/components/README.md", "docs/principles/formatting.md", "docs/agents-documentation/NAMING_COMPLIANCE_REPORT.md", "docs/agents-documentation/archive/INTEGRATION_COMPLETE.md"]
+affected_files: ["docs/transcription-superwhisper.md", "docs/templates/components/section-templates.md", "docs/templates/components/README.md", "docs/principles/formatting.md", "docs/agents-documentation/NAMING_COMPLIANCE_REPORT.md", "docs/agents-documentation/archive/INTEGRATION_COMPLETE.md"]
 violation_type: "formatting_violation"
 ---
 
@@ -26,8 +26,8 @@ Multiple documentation files use excessive header nesting (level 4: ####) that v
    - `principles/formatting.md`: 17 level-4 headers  
    - `agents-documentation/NAMING_COMPLIANCE_REPORT.md`: 6 level-4 headers
    - `agents-documentation/archive/INTEGRATION_COMPLETE.md`: 5 level-4 headers
-   - `components/README.md`: 4 level-4 headers
-   - `components/section-templates.md`: 1 level-4 header
+   - `templates/components/README.md`: 4 level-4 headers
+   - `templates/components/section-templates.md`: 1 level-4 header
 
 2. **Document Structure Issues**:
    - Deep nesting creates complex, hard-to-navigate documents

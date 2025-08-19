@@ -25,14 +25,14 @@ Navigation breadcrumbs repeated across 18 files with 90% structural similarity.
 ## Navigation
 [Documentation Hub](../docs/index.md) | [Principles](../docs/PRINCIPLES.md) | [Commands](../commands/index.md) | [Agents](../agents/project-optimizer.md)
 
-[Previous: X](file.md) | [Index](../index.md) | [Principles](../PRINCIPLES.md) | [Next: Y](file.md)
+[Previous: X](file.md) | [Index](../index.md) | [Principles](principles/PRINCIPLES.md) | [Next: Y](file.md)
 ```
 
 ## Solution
 Create centralized navigation component with variable substitution.
 
 ## Implementation Steps
-1. Create `/docs/components/navigation.md`
+1. Create `/docs/templates/templates/components/navigation.md`
 2. Define navigation patterns with variables:
    - `{{prev}}` - previous document
    - `{{next}}` - next document

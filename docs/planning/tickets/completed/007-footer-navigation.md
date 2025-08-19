@@ -28,7 +28,7 @@ Footer navigation patterns 100% identical across 15 files.
 Create single footer component for all documents.
 
 ## Implementation Steps
-1. Create `/docs/components/footer.md`
+1. Create `/docs/templates/templates/components/footer.md`
 2. Define footer template with variables:
    - `{{title}}` - document title for anchor
    - `{{hub_path}}` - path to documentation hub
@@ -57,6 +57,6 @@ Quick win with 100% duplication elimination.
 
 ## Completion Summary
 - **Completed**: 2025-08-18
-- **Component Created**: `/docs/components/footer.md`
+- **Component Created**: `/docs/templates/templates/components/footer.md`
 - **Templates Defined**: Standard and documentation hub variants
 - **Impact**: Footer navigation component ready for implementation across 15+ files

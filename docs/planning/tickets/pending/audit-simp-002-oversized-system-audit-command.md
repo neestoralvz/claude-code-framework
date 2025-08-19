@@ -83,9 +83,9 @@ Implement systematic modularization by extracting complex architectural document
 
 **Files to Create/Modify**:
 - `commands/analysis/system-audit.md` - Reduce to essential audit workflow
-- `docs/components/audit-validation-framework.md` - Extract validation details
-- `docs/components/audit-architecture-patterns.md` - Extract architectural documentation
-- `docs/components/audit-quality-gates.md` - Extract quality gate systems
+- `docs/templates/components/audit-validation-framework.md` - Extract validation details
+- `docs/templates/components/audit-architecture-patterns.md` - Extract architectural documentation
+- `docs/templates/components/audit-quality-gates.md` - Extract quality gate systems
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) by exceeding 250-line complexity threshold

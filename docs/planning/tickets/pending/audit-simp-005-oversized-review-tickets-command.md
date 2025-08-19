@@ -83,9 +83,9 @@ Implement systematic modularization by extracting review strategies and prioriti
 
 **Files to Create/Modify**:
 - `commands/management/review-tickets.md` - Reduce to essential review workflow
-- `docs/components/ticket-review-strategies.md` - Extract review strategies
-- `docs/components/ticket-prioritization-framework.md` - Extract prioritization methods
-- `docs/components/execution-coordination-patterns.md` - Extract coordination documentation
+- `docs/templates/components/ticket-review-strategies.md` - Extract review strategies
+- `docs/templates/components/ticket-prioritization-framework.md` - Extract prioritization methods
+- `docs/templates/components/execution-coordination-patterns.md` - Extract coordination documentation
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) by exceeding 250-line complexity threshold

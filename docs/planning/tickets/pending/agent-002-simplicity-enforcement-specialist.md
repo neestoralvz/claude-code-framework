@@ -106,9 +106,9 @@ Create a specialized Simplicity Enforcement Specialist agent that automatically 
 
 **Files to Create**:
 - `agents/simplicity-enforcement-specialist.md` - Core agent specification
-- `docs/components/complexity-monitoring-framework.md` - Complexity detection algorithms
-- `docs/components/automated-modularization-workflows.md` - Modularization processes
-- `docs/components/simplicity-compliance-dashboard.md` - Compliance tracking and reporting
+- `docs/templates/components/complexity-monitoring-framework.md` - Complexity detection algorithms
+- `docs/templates/components/automated-modularization-workflows.md` - Modularization processes
+- `docs/templates/components/simplicity-compliance-dashboard.md` - Compliance tracking and reporting
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase simplicity enforcement

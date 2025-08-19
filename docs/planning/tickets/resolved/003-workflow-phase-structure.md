@@ -46,7 +46,7 @@ Eight-phase workflow structure duplicated across all 5 command files with 95% id
 Create centralized workflow phase module with command-specific customization.
 
 ## Implementation Steps
-1. Create `/docs/components/workflow-phases.md`
+1. Create `/docs/templates/templates/components/workflow-phases.md`
 2. Define standard 8-phase structure:
    - Clarification
    - Exploration

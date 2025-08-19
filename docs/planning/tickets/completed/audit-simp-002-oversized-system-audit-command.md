@@ -15,14 +15,14 @@ audience: "System architects, command developers"
 purpose: "Reduce oversized system audit command file to framework compliance"
 keywords: ["simplification", "modularization", "component", "extraction", "compliance"]
 validation_status: "PASSED"
-cross_references: ["../../../commands/analysis/system-audit.md", "../../components/"]
+cross_references: ["../../../commands/analysis/system-audit.md", "../../templates/templates/components/"]
 ---
 
 [Previous: Review other audit tickets](../pending/) | [Return to registry](../../TICKET_REGISTRY.md) | [Next: Review command optimization](../pending/audit-simp-003-oversized-parallel-intent-analysis.md)
 
 # System Audit Command Simplification - COMPLETED
 
-⏺ **Principle**: This ticket implements [simplicity.md](../../principles/simplicity.md) file size compliance and applies [modular-design-patterns.md](../../components/modular-design-patterns.md) component extraction methodology.
+⏺ **Principle**: This ticket implements [simplicity.md](../../principles/simplicity.md) file size compliance and applies [modular-design-patterns.md](../../templates/templates/components/modular-design-patterns.md) component extraction methodology.
 
 ## COMPLETION SUMMARY
 
@@ -54,10 +54,10 @@ Successfully reduced the system audit command file from 289 lines to 141 lines (
 - **Cross-Reference Management**: Streamlined to essential navigation with component links
 
 **Component Integration:**
-- Enhanced integration with [audit-framework-components.md](../../components/audit-framework-components.md)
-- Leveraged [validation-framework-components.md](../../components/validation-framework-components.md)
-- Utilized [auto-ticket-generation-framework.md](../../components/auto-ticket-generation-framework.md)
-- Connected to [architecture-documentation-templates.md](../../components/architecture-documentation-templates.md)
+- Enhanced integration with [audit-framework-components.md](../../templates/templates/components/audit-framework-components.md)
+- Leveraged [validation-framework-components.md](../../templates/templates/components/validation-framework-components.md)
+- Utilized [auto-ticket-generation-framework.md](../../templates/templates/components/auto-ticket-generation-framework.md)
+- Connected to [architecture-documentation-templates.md](../../templates/templates/components/architecture-documentation-templates.md)
 
 ## RESULTS ACHIEVED
 
@@ -151,13 +151,13 @@ Successfully reduced the system audit command file from 289 lines to 141 lines (
 
 ### Completed Work
 - [Final Optimized File](/Users/nalve/.claude/commands/analysis/system-audit.md)
-- [Framework Components Used](../../components/)
+- [Framework Components Used](../../templates/templates/components/)
 - [Ticket Registry Entry](../../TICKET_REGISTRY.md)
 
 ### Related Documentation
 - [Simplicity Principle](../../principles/simplicity.md)
-- [Modular Design Patterns](../../components/modular-design-patterns.md)
-- [Component Integration Guidelines](../../components/command-architecture-patterns.md)
+- [Modular Design Patterns](../../templates/templates/components/modular-design-patterns.md)
+- [Component Integration Guidelines](../../templates/templates/components/command-architecture-patterns.md)
 
 ### Follow-up Tickets
 - [AUDIT-SIMP-003: Parallel Intent Analysis](../pending/audit-simp-003-oversized-parallel-intent-analysis.md)

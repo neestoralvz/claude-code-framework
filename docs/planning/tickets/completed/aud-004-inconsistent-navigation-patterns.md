@@ -92,7 +92,7 @@ Navigation patterns evolved organically without:
 
 ## Implementation Notes
 
-**Standard Pattern**: Based on components/navigation.md
+**Standard Pattern**: Based on templates/components/navigation.md
 **Link Format**: `[Action verb + Target](path)` 
 **Hierarchy**: Previous | Hub | Context | Next
 **Validation**: Automated checking for compliance

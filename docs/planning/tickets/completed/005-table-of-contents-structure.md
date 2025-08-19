@@ -39,7 +39,7 @@ Table of contents patterns duplicated across 20 files with 80% structural simila
 Create standardized TOC generator and patterns.
 
 ## Implementation Steps
-1. Create `/docs/components/toc-generator.md`
+1. Create `/docs/templates/templates/components/toc-generator.md`
 2. Define TOC patterns by document type:
    - Command TOC pattern
    - Principle TOC pattern

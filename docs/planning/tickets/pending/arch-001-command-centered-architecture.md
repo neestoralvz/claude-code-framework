@@ -163,7 +163,7 @@ Complete architectural integration:
 
 ### Core Command Templates
 - `/commands/templates/enhanced-command-template.md` (NEW)
-- `/docs/components/command-architecture-patterns.md` (NEW)
+- `/docs/templates/templates/components/command-architecture-patterns.md` (NEW)
 
 ### High-Priority Commands
 - `/commands/analysis/system-audit.md` (ENHANCE)
@@ -223,12 +223,12 @@ Complete architectural integration:
 ### Framework Integration
 - [Command principles](../../../principles/workflow.md)
 - [Agent selection methodology](../../../principles/agent-selection.md)
-- [System architecture patterns](../../../components/architecture-patterns.md)
+- [System architecture patterns](../../../templates/templates/components/architecture-patterns.md)
 
 ### Implementation Resources
 - [Command templates](../../../commands/templates/)
-- [Enhanced template patterns](../../../docs/components/command-architecture-patterns.md)
-- [Validation frameworks](../../../docs/components/validation-methodology.md)
+- [Enhanced template patterns](../../../docs/templates/templates/components/command-architecture-patterns.md)
+- [Validation frameworks](../../../docs/templates/templates/components/validation-methodology.md)
 
 ## Notes
 

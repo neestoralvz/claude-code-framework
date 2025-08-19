@@ -81,7 +81,7 @@ Standardize navigation breadcrumb patterns across all documentation:
    - Define standard navigation structure
 
 3. **Create Navigation Component**
-   - Document standard navigation template in components/
+   - Document standard navigation template in templates/components/
    - Define usage guidelines and examples
    - Establish variation rules for different contexts
 

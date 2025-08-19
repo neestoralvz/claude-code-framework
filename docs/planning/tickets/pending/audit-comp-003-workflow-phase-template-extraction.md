@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/workflow-phase-template-system.md", "commands/*.md", "docs/principles/workflow.md"]
+affected_files: ["docs/templates/components/workflow-phase-template-system.md", "commands/*.md", "docs/principles/workflow.md"]
 parallel_group: "component-extraction"
 execution_strategy: "parallel"
 violation_type: "maintenance"
@@ -81,8 +81,8 @@ Extract workflow phase patterns into a centralized, reusable component system wi
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/workflow-phase-template-system.md` - Central template system
-- `docs/components/workflow-validation-framework.md` - Phase validation system
+- `docs/templates/components/workflow-phase-template-system.md` - Central template system
+- `docs/templates/components/workflow-validation-framework.md` - Phase validation system
 - `docs/templates/workflow/` - 8-phase methodology templates
 - Various commands/ files for template integration
 

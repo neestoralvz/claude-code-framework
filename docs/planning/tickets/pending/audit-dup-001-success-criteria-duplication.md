@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/components/success-criteria-template.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
+affected_files: ["docs/templates/components/success-criteria-template.md", "commands/*.md", "agents/*.md", "docs/principles/*.md"]
 parallel_group: "duplication-elimination"
 execution_strategy: "sequential"
 violation_type: "principle-violation"
@@ -82,10 +82,10 @@ Create centralized success criteria component templates and systematically repla
 ## Notes
 
 **Files to Create/Modify**:
-- `docs/components/success-criteria-template.md` - Central success criteria component
-- `docs/components/validation-criteria-patterns.md` - Validation pattern templates
+- `docs/templates/components/success-criteria-template.md` - Central success criteria component
+- `docs/templates/components/validation-criteria-patterns.md` - Validation pattern templates
 - Update 271 files across commands/, agents/, docs/principles/ directories
-- `docs/components/success-criteria-usage-guide.md` - Implementation guidelines
+- `docs/templates/components/success-criteria-usage-guide.md` - Implementation guidelines
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) through massive pattern duplication

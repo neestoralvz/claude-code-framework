@@ -106,9 +106,9 @@ Create a specialized Component Architecture Specialist agent that systematically
 
 **Files to Create**:
 - `agents/component-architecture-specialist.md` - Core agent specification
-- `docs/components/component-detection-framework.md` - Component identification algorithms
-- `docs/components/architecture-standardization-workflows.md` - Standardization processes
-- `docs/components/component-quality-validation.md` - Quality assurance frameworks
+- `docs/templates/components/component-detection-framework.md` - Component identification algorithms
+- `docs/templates/components/architecture-standardization-workflows.md` - Standardization processes
+- `docs/templates/components/component-quality-validation.md` - Quality assurance frameworks
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase component management

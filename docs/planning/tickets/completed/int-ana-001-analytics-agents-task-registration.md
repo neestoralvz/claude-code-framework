@@ -128,7 +128,7 @@ task_tool_registry:
 
 ## Technical Analysis
 
-⏺ **Integration Framework**: This analysis uses [Command Integration Points](../../docs/components/command-integration-points.md) to identify registration requirements and deployment protocols.
+⏺ **Integration Framework**: This analysis uses [Command Integration Points](../../docs/templates/templates/components/command-integration-points.md) to identify registration requirements and deployment protocols.
 
 ### Agent Specification Review
 ```yaml
@@ -168,7 +168,7 @@ sales_analyst:
 
 ## Implementation Requirements
 
-⏺ **Quality Standards**: This implementation applies [Command Success Criteria Framework](../../docs/components/command-success-criteria-framework.md) with integration-specific validation gates.
+⏺ **Quality Standards**: This implementation applies [Command Success Criteria Framework](../../docs/templates/templates/components/command-success-criteria-framework.md) with integration-specific validation gates.
 
 ### Primary Requirements
 1. **Task Tool Registry Update**
@@ -197,7 +197,7 @@ sales_analyst:
 
 ## Success Criteria
 
-⏺ **Validation Framework**: Success validation uses [Command Priority Assignment Matrix](../../docs/components/command-priority-assignment-matrix.md) for comprehensive integration verification.
+⏺ **Validation Framework**: Success validation uses [Command Priority Assignment Matrix](../../docs/templates/templates/components/command-priority-assignment-matrix.md) for comprehensive integration verification.
 
 ### Primary Success Criteria
 - [ ] **Agent Registry Integration**: All 3 analytics agents available in Task tool deployment registry
@@ -256,7 +256,7 @@ integration_validation:
 
 ## Dependencies
 
-⏺ **Dependency Management**: Dependencies analyzed using [Command Integration Points](../../docs/components/command-integration-points.md) framework for coordination requirements.
+⏺ **Dependency Management**: Dependencies analyzed using [Command Integration Points](../../docs/templates/templates/components/command-integration-points.md) framework for coordination requirements.
 
 ### Internal Dependencies
 - **Agent Files**: `/agents/analytics/` directory with all 3 analytics agents validated
@@ -274,7 +274,7 @@ integration_validation:
 
 ## Risk Assessment
 
-⏺ **Risk Analysis**: Risk evaluation uses [Command Priority Assignment Matrix](../../docs/components/command-priority-assignment-matrix.md) for impact and mitigation assessment.
+⏺ **Risk Analysis**: Risk evaluation uses [Command Priority Assignment Matrix](../../docs/templates/templates/components/command-priority-assignment-matrix.md) for impact and mitigation assessment.
 
 ### Technical Risks
 - **Integration Complexity**: Low - Standard agent registration protocols apply
@@ -294,7 +294,7 @@ integration_validation:
 
 ## Implementation Plan
 
-⏺ **Implementation Strategy**: Plan follows [Command Workflow Implementation Matrix](../../docs/components/command-workflow-implementation-matrix.md) with integration-specific adaptations.
+⏺ **Implementation Strategy**: Plan follows [Command Workflow Implementation Matrix](../../docs/templates/templates/components/command-workflow-implementation-matrix.md) with integration-specific adaptations.
 
 ### Phase 1: Pre-Integration Validation (30 minutes)
 1. **Current State Assessment**
@@ -356,7 +356,7 @@ integration_validation:
 
 ## Validation Framework
 
-⏺ **Validation Authority**: This framework implements comprehensive validation using [Command Success Criteria Framework](../../docs/components/command-success-criteria-framework.md) with integration-specific metrics.
+⏺ **Validation Authority**: This framework implements comprehensive validation using [Command Success Criteria Framework](../../docs/templates/templates/components/command-success-criteria-framework.md) with integration-specific metrics.
 
 ### Integration Testing Protocol
 ```yaml
@@ -399,10 +399,10 @@ validation_metrics:
 - [Review Task Tool Integration](../../commands/management/review-tickets.md)
 
 ### Component References
-- [Command Integration Points](../../docs/components/command-integration-points.md)
-- [Command Success Criteria Framework](../../docs/components/command-success-criteria-framework.md)
-- [Command Priority Assignment Matrix](../../docs/components/command-priority-assignment-matrix.md)
-- [Command Workflow Implementation Matrix](../../docs/components/command-workflow-implementation-matrix.md)
+- [Command Integration Points](../../docs/templates/templates/components/command-integration-points.md)
+- [Command Success Criteria Framework](../../docs/templates/templates/components/command-success-criteria-framework.md)
+- [Command Priority Assignment Matrix](../../docs/templates/templates/components/command-priority-assignment-matrix.md)
+- [Command Workflow Implementation Matrix](../../docs/templates/templates/components/command-workflow-implementation-matrix.md)
 
 ### Analytics Agent References
 - [Exploration Analyst Specification](../../agents/analytics/exploration-analyst.md)

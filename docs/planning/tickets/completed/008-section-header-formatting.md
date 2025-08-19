@@ -32,7 +32,7 @@ Section header patterns repeated across all files with 70% similarity.
 Create section header templates and formatting standards.
 
 ## Implementation Steps
-1. Create `/docs/components/section-templates.md`
+1. Create `/docs/templates/templates/components/section-templates.md`
 2. Define header patterns:
    - Action headers (Execute, Apply, Implement)
    - Category headers (Standards, References, Notes)

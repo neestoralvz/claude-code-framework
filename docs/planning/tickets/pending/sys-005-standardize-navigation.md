@@ -101,7 +101,7 @@ Implement standardized navigation patterns across all files:
 ## Files Requiring Updates
 - All principle files in /docs/principles/
 - All command files in /commands/
-- All component files in /docs/components/
+- All component files in /docs/templates/templates/components/
 - All agent documentation files
 - Main navigation files (index.md, PRINCIPLES.md, etc.)
 

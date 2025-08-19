@@ -140,7 +140,7 @@ The Claude Code System has undergone substantial architectural transformation wi
 ### Before: Component-Based Architecture
 ```
 Component Fragmentation Issues:
-├── 92+ files in /docs/components/
+├── 92+ files in /docs/templates/templates/components/
 ├── Information duplication across multiple files
 ├── Maintenance overhead from scattered content
 ├── Inconsistent reference patterns
@@ -770,7 +770,7 @@ Operational Excellence:
 
 ### Template Systems
 - [docs/templates/philosophy/](docs/templates/philosophy/) - Core philosophy templates directory
-- [docs/components/frontmatter-template.yaml](docs/components/frontmatter-template.yaml) - Standardized metadata template
+- [docs/templates/components/frontmatter-template.yaml](docs/templates/components/frontmatter-template.yaml) - Standardized metadata template
 - [docs/planning/templates/ticket-template.md](docs/planning/templates/ticket-template.md) - Ticket creation template
 
 [⬆ Return to top](#claude-code-migration-summary-roadmap)

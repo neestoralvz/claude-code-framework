@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/commands/audit-navigation.md", "docs/principles/*.md", "docs/components/*.md"]
+affected_files: ["commands-docs/audit-navigation.md", "docs/principles/*.md", "docs/templates/components/*.md"]
 parallel_group: "evolutionary-improvements"
 execution_strategy: "isolated"
 violation_type: "system-issue"
@@ -91,7 +91,7 @@ Execute audit-navigation.md systematically to identify, catalog, and repair all 
 
 **Files to Create/Modify**:
 - Multiple documentation files requiring cross-reference repairs
-- `docs/commands/audit-navigation.md` - Execute systematic link validation
+- `commands-docs/audit-navigation.md` - Execute systematic link validation
 
 **Principle Violations**:
 - Violates [organization.md](../principles/organization.md) by maintaining broken bidirectional navigation

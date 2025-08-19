@@ -32,7 +32,7 @@ Create comprehensive YAML frontmatter standardization system with reusable templ
 7. Add validation hooks to prevent future inconsistencies
 
 ## Acceptance Criteria
-- [ ] Standardized frontmatter template created in docs/components/
+- [ ] Standardized frontmatter template created in docs/templates/components/
 - [ ] All 16 files use consistent frontmatter structure
 - [ ] Frontmatter validation schema implemented
 - [ ] Automated generation tools created for new files
@@ -42,12 +42,12 @@ Create comprehensive YAML frontmatter standardization system with reusable templ
 
 ## Dependencies
 - Requires completion of existing template infrastructure
-- Must coordinate with docs/components/ organization system
+- Must coordinate with docs/templates/components/ organization system
 
 ## Files Affected
 - 16 core documentation files with frontmatter patterns
-- docs/components/frontmatter-template.yaml (new)
-- docs/components/frontmatter-schema.yaml (new)
+- docs/templates/components/frontmatter-template.yaml (new)
+- docs/templates/components/frontmatter-schema.yaml (new)
 - scripts/validate-frontmatter.sh (new)
 
 ## Implementation Metrics

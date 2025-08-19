@@ -8,7 +8,7 @@ completed: 2025-08-18
 category: system
 estimated_effort: 2 hours
 dependencies: []
-affected_files: ["docs/components/workflow-phases.md", "docs/principles/workflow.md", "commands/create-ticket.md", "commands/system-audit.md"]
+affected_files: ["docs/templates/components/workflow-phases.md", "docs/principles/workflow.md", "commands/create-ticket.md", "commands/system-audit.md"]
 violation_type: "missing_implementation"
 ---
 
@@ -145,8 +145,8 @@ Generated from medium-priority system audit finding. Validation is critical for 
 
 **Files Requiring Validation Implementation**:
 - `docs/principles/workflow.md` - Add concrete validation methodology
-- `docs/components/workflow-phases.md` - Implement validation phase details
-- `docs/components/` - Create validation component templates
+- `docs/templates/components/workflow-phases.md` - Implement validation phase details
+- `docs/templates/components/` - Create validation component templates
 - Command files - Standardize validation procedures
 
 **Principle Violations**:

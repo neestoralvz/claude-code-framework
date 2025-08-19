@@ -105,9 +105,9 @@ Create a specialized Ticket Automation Orchestrator agent that systematically co
 
 **Files to Create**:
 - `agents/ticket-automation-orchestrator.md` - Core agent specification
-- `docs/components/ticket-coordination-framework.md` - Coordination algorithms and workflows
-- `docs/components/ticket-quality-validation.md` - Quality assurance and validation systems
-- `docs/components/ticket-orchestration-dashboard.md` - Monitoring and reporting interfaces
+- `docs/templates/components/ticket-coordination-framework.md` - Coordination algorithms and workflows
+- `docs/templates/components/ticket-quality-validation.md` - Quality assurance and validation systems
+- `docs/templates/components/ticket-orchestration-dashboard.md` - Monitoring and reporting interfaces
 
 **Framework Integration**:
 - Connects to [workflow.md](../../principles/workflow.md) through systematic 8-phase ticket coordination

@@ -12,7 +12,7 @@ dependencies:
   soft: []
   file_conflicts: []
   resource_conflicts: []
-affected_files: ["docs/principles/organization.md", "docs/components/organization-structure.md", "docs/components/modular-design-patterns.md", "docs/components/hierarchical-structure-patterns.md"]
+affected_files: ["docs/principles/organization.md", "docs/templates/components/organization-structure.md", "docs/templates/components/modular-design-patterns.md", "docs/templates/components/hierarchical-structure-patterns.md"]
 parallel_group: "evolutionary-improvements"
 execution_strategy: "isolated"
 violation_type: "principle-violation"
@@ -91,9 +91,9 @@ Refactor organization.md into a component hub pattern by extracting specialized 
 
 **Files to Create/Modify**:
 - `docs/principles/organization.md` - Refactor to component hub pattern
-- `docs/components/organization-structure.md` - Extract structural patterns  
-- `docs/components/modular-design-patterns.md` - Extract atomic design principles
-- `docs/components/hierarchical-structure-patterns.md` - Extract hierarchy guidance
+- `docs/templates/components/organization-structure.md` - Extract structural patterns  
+- `docs/templates/components/modular-design-patterns.md` - Extract atomic design principles
+- `docs/templates/components/hierarchical-structure-patterns.md` - Extract hierarchy guidance
 
 **Principle Violations**:
 - Violates [simplicity.md](../principles/simplicity.md) by exceeding 500-line essential information limit

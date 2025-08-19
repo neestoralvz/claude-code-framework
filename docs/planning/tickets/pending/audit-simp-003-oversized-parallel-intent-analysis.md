@@ -83,9 +83,9 @@ Implement systematic modularization by extracting orchestration protocols and ag
 
 **Files to Create/Modify**:
 - `commands/orchestration/parallel-intent-analysis.md` - Reduce to essential intent analysis workflow
-- `docs/components/orchestration-protocols.md` - Extract orchestration protocols
-- `docs/components/agent-coordination-schemas.md` - Extract coordination documentation
-- `docs/components/parallel-validation-framework.md` - Extract validation details
+- `docs/templates/components/orchestration-protocols.md` - Extract orchestration protocols
+- `docs/templates/components/agent-coordination-schemas.md` - Extract coordination documentation
+- `docs/templates/components/parallel-validation-framework.md` - Extract validation details
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) by exceeding 250-line complexity threshold

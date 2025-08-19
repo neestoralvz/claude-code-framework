@@ -83,9 +83,9 @@ Implement systematic modularization by extracting complex extraction strategies 
 
 **Files to Create/Modify**:
 - `commands/analysis/modularize.md` - Reduce to essential modularization workflow
-- `docs/components/extraction-strategies.md` - Extract modularization strategies
-- `docs/components/dependency-mapping-patterns.md` - Extract dependency analysis
-- `docs/components/component-identification-framework.md` - Extract identification methods
+- `docs/templates/components/extraction-strategies.md` - Extract modularization strategies
+- `docs/templates/components/dependency-mapping-patterns.md` - Extract dependency analysis
+- `docs/templates/components/component-identification-framework.md` - Extract identification methods
 
 **Principle Violations**:
 - Violates [simplicity.md](../../principles/simplicity.md) by exceeding 250-line complexity threshold
