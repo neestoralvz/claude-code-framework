@@ -18,7 +18,7 @@ These files and folders are fixed and define our organizational foundation:
 ├── todos/                    # Persistent todo lists (system-managed)
 ├── CLAUDE.local.md          # Local project customizations
 ├── CLAUDE.md                # Main framework instructions
-├── PROJECT-STRUCTURE.md     # Organization guidelines
+├── README.md                # Project overview and organization guidelines
 ├── .gitignore              # Git ignore patterns
 ├── projects/               # Project-specific workspaces
 ├── logs/                   # System logs and debugging
@@ -105,7 +105,7 @@ ls documentation/*/
 ├── [IMMOVABLE - Core Configuration]
 │   ├── CLAUDE.md                    # Main framework instructions
 │   ├── CLAUDE.local.md             # Local customizations
-│   ├── PROJECT-STRUCTURE.md        # Organization guide
+│   ├── README.md                   # Project overview and organization guide
 │   ├── .gitignore                  # Git patterns
 │   └── package.json                # Dependencies
 │

@@ -1,447 +1,340 @@
-# Sum Function - TDD Demonstration Project
+# Claude Framework
 
 [![Tests](https://img.shields.io/badge/tests-passing-brightgreen.svg)](/)
 [![Coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)](/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D%2014.0.0-brightgreen.svg)](https://nodejs.org/)
 
-A professional JavaScript project demonstrating Test-Driven Development (TDD) and Behavior-Driven Development (BDD) best practices through the implementation of a robust sum function with comprehensive input validation and edge case handling.
+A comprehensive Claude Code framework implementing Simple and Easy principles through systematic organization, specialized agents, and evidence-based development workflows.
 
 ## Table of Contents
 
 - [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
+- [Project Structure](#project-structure)
+- [Immovable System Constraints](#immovable-system-constraints)
+- [Organization Guidelines](#organization-guidelines)
+- [Framework Components](#framework-components)
+- [Getting Started](#getting-started)
 - [Development](#development)
 - [Contributing](#contributing)
 - [License](#license)
-- [Support](#support)
 
 ## Overview
 
-This project showcases professional software development practices by implementing a seemingly simple sum function using rigorous TDD methodology. The function includes comprehensive input validation, edge case handling, and 100% test coverage, making it an excellent reference for development best practices.
+This framework provides a structured approach to working with Claude Code, emphasizing simplicity, clarity, and systematic organization. Built around the core principle: **Keep it simple. Make it easy.**
 
-### Key Highlights
+### Key Features
 
-- **Test-Driven Development**: Built using Red-Green-Refactor cycle
-- **Behavior-Driven Development**: Includes BDD scenarios with Given-When-Then structure
-- **100% Test Coverage**: Complete code coverage with edge case handling
-- **Professional Documentation**: Comprehensive JSDoc and inline comments
-- **Input Validation**: Robust error handling for invalid inputs
-- **Edge Case Support**: Handles infinity, NaN, floating-point precision, and boundary values
+- **Systematic Organization**: Clear hierarchical structure with logical file placement
+- **Specialized Agents**: Task-specific agents for complex workflows
+- **Evidence-Based Development**: TDD/BDD methodologies with validation requirements
+- **Immovable Constraint Support**: Respects system-managed directories
+- **Progressive Enhancement**: Evolving structure that adapts to needs
 
-## Features
+## Project Structure
 
-- ✅ **Robust Addition**: Safely adds two numbers with comprehensive validation
-- ✅ **Input Validation**: Throws descriptive errors for invalid input types
-- ✅ **Edge Case Handling**: Properly handles NaN, Infinity, and floating-point precision
-- ✅ **Type Safety**: Strict type checking with meaningful error messages
-- ✅ **Performance Optimized**: Minimal overhead with efficient validation
-- ✅ **Well Tested**: 100% test coverage with comprehensive test suite
-- ✅ **BDD Scenarios**: Behavior-driven test scenarios for clear requirements
+The framework is organized into distinct categories that respect system constraints while providing logical organization:
 
-## Installation
+```
+.claude/
+├── [CORE CONFIGURATION FILES - Root Level Only]
+├── CLAUDE.md                    # Main framework instructions
+├── CLAUDE.local.md             # Local project customizations  
+├── ORGANIZATION-WORKFLOW.md    # File organization workflow guide
+├── README.md                   # This documentation (project overview)
+├── package.json                # Node.js dependencies and scripts
+├── settings.json               # Claude Code configuration
+├── .gitignore                  # Git ignore patterns
+│
+├── [IMMOVABLE SYSTEM DIRECTORIES - Cannot be moved]
+├── agents/                     # Specialized agent definitions
+├── commands/                   # Custom command definitions
+├── ide/                        # IDE-specific configurations
+├── logs/                       # System logs and debugging info
+├── projects/                   # Project-specific work areas
+├── shell-snapshots/            # Shell state snapshots (system-managed)
+├── statsig/                    # Statsig configuration and cache
+├── todos/                      # Persistent todo lists (system-managed)
+│
+├── [ORGANIZED WORKING DIRECTORIES - Structured by function]
+├── scripts/                    # Organized utility scripts
+│   ├── performance/           # Performance analysis and monitoring
+│   ├── testing/               # Test execution and management
+│   ├── validation/            # Validation and verification utilities
+│   └── utilities/             # General-purpose utilities
+│
+├── tests/                     # Organized test files
+│   ├── unit/                  # Unit tests
+│   ├── integration/           # Integration tests
+│   └── performance/           # Performance tests
+│
+├── documentation/             # Organized documentation
+│   ├── reports/               # Generated reports and demonstrations
+│   └── guides/                # User guides and tutorials
+│
+├── [FRAMEWORK DIRECTORIES - Keep as structured]
+├── system/                    # Core framework system files
+│   ├── index.md              # System overview and navigation
+│   ├── VISION.md             # Strategic vision and objectives
+│   ├── PRINCIPLES.md         # Decision-making principles
+│   ├── PERSONALITIES.md      # Personality system documentation
+│   ├── STANDARDS.md          # Quality and technical standards
+│   ├── PROCESSES.md          # Core processes overview
+│   ├── EXAMPLES.md           # Usage examples
+│   ├── ROADMAP.md            # Development roadmap
+│   ├── personalities/        # Individual personality definitions
+│   ├── processes/            # Detailed process workflows
+│   └── standards/            # Detailed standards documentation
+│
+├── operations/               # Operational work sessions and experiments
+│   ├── YYYYMMDD-HHMMSS-description/  # Timestamped operation directories
+│   └── [session-specific files]
+│
+├── hooks/                   # Claude Code hooks
+│   ├── README.md           # Hook configuration documentation
+│   └── [hook-scripts]      # Individual hook implementations
+│
+├── integrations/           # External tool integrations
+├── plugins/               # Plugin configurations
+└── metrics/               # Performance and usage metrics
+```
+
+## Immovable System Constraints
+
+### What These Directories Are
+
+The following directories cannot be moved or reorganized due to system constraints. They serve specific purposes and are managed by Claude Code or external systems:
+
+#### `/shell-snapshots/`
+- **Purpose**: Stores shell state snapshots for session management
+- **Managed By**: Claude Code system
+- **Content**: Shell environment state, command history, working directory snapshots
+- **Why Immovable**: Referenced by system processes for session restoration
+
+#### `/statsig/` 
+- **Purpose**: Configuration and cache for Statsig analytics service
+- **Managed By**: Statsig SDK and Claude Code integration
+- **Content**: 
+  - `statsig.cached.evaluations.*` - Cached feature flag evaluations
+  - `statsig.last_modified_time.evaluations` - Cache timestamp management
+  - `statsig.session_id.*` - Session tracking data
+- **Why Immovable**: External service integration requires fixed paths
+
+#### `/todos/`
+- **Purpose**: Persistent todo lists and task management
+- **Managed By**: Claude Code TodoWrite system
+- **Content**: Serialized todo lists, task state management
+- **Why Immovable**: System-managed persistence layer
+
+#### `/ide/`
+- **Purpose**: IDE-specific configurations and state
+- **Managed By**: Claude Code IDE integration
+- **Content**: IDE settings, workspace configurations, language server data
+- **Why Immovable**: IDE integration requires stable configuration paths
+
+#### `/logs/`
+- **Purpose**: System logs and debugging information
+- **Managed By**: Claude Code logging system  
+- **Content**: Execution logs, error traces, debugging output
+- **Why Immovable**: Logging system expects fixed path structure
+
+#### Other System Directories
+
+The following are also immovable but represent more traditional configuration areas:
+
+- `/agents/` - Agent definitions for Task tool (Claude Code system)
+- `/commands/` - Custom command definitions (user-configurable but location-dependent)
+- `/projects/` - Project-specific workspaces (system-managed isolation)
+
+### Working With Constraints
+
+#### Design Principles
+1. **Respect the Immovable**: Never attempt to move or reorganize constrained directories
+2. **Organize Around Constraints**: Design file structure that works with fixed elements
+3. **Document the Why**: Always explain why certain directories can't be moved
+4. **Plan for Constraints**: Consider system constraints when designing workflows
+
+#### File Organization Strategy
+- **Root Level**: Only essential configuration files
+- **System Level**: Respect immovable system directories
+- **Working Level**: Organize functional directories around constraints
+- **Content Level**: Group similar files within organized directories
+
+## Organization Guidelines
+
+### What Goes Where
+
+#### Root Directory (Only These Files)
+- `CLAUDE.md` - Main framework instructions
+- `CLAUDE.local.md` - Local customizations
+- `ORGANIZATION-WORKFLOW.md` - File organization workflow  
+- `README.md` - This project documentation
+- `package.json` - Dependencies and scripts
+- `settings.json` - Claude Code settings
+- `.gitignore` - Git ignore patterns
+
+#### Organized Directories (Movable Files)
+- **Test files** (`*.test.js`, `*.spec.js`) → `tests/unit/`
+- **Script files** (`run-*.js`, `execute-*.js`) → `scripts/testing/`
+- **Performance files** (`performance-*.js`, `*-analysis.js`) → `scripts/performance/`
+- **Validation files** (`validate-*.js`, `quick-*.js`) → `scripts/validation/`
+- **Documentation files** (`*-REPORT.md`, `*-DEMONSTRATION.md`) → `documentation/reports/`
+- **Utility scripts** → `scripts/utilities/`
+
+### Maintenance Rules
+
+#### When Creating New Files
+1. **Identify Purpose**: Determine what the file does
+2. **Check Category**: See if it fits existing organized categories
+3. **Place Correctly**: Put in appropriate organized directory
+4. **Avoid Root**: Never place working files in root directory
+5. **Respect Constraints**: Never place files in immovable directories
+
+#### When System Creates Files
+1. **System Directories**: Files created by Claude Code go in system-managed directories
+2. **User Files**: Files created by user work go in organized directories
+3. **Temporary Files**: Session work goes in `operations/[timestamped]/`
+4. **Documentation**: Generated docs go in `documentation/`
+
+#### Regular Cleanup
+1. **Monthly Review**: Check for misplaced files in root
+2. **Categorize New**: Move any new files to organized locations
+3. **Document Changes**: Update this README when structure evolves
+4. **Maintain Constraints**: Verify immovable directories remain untouched
+
+## Framework Components
+
+### Core System (`/system/`)
+- **Navigation**: System overview and guidance documents
+- **Principles**: Decision-making frameworks and standards  
+- **Processes**: Detailed workflows and methodologies
+- **Personalities**: Role-based interaction patterns
+
+### Specialized Agents (`/agents/`)
+Task-specific agents for complex workflows:
+- **testing-strategy-specialist**: TDD/BDD methodology implementation
+- **performance-optimization-specialist**: System performance analysis
+- **security-validator**: Security validation and vulnerability assessment
+- **integration-specialist**: API and service integration
+- And many more specialized agents
+
+### Hooks System (`/hooks/`)
+Event-driven automation:
+- Pre/post tool execution hooks
+- Validation and security hooks
+- Workflow automation triggers
+
+### Operations (`/operations/`)
+Timestamped work sessions:
+- Experimental work areas
+- Session-specific files and reports
+- Temporary development artifacts
+
+## Getting Started
 
 ### Prerequisites
-
 - Node.js >= 14.0.0
-- npm >= 6.0.0
+- Claude Code CLI installed
+- Git repository initialized
 
-### Install Dependencies
-
+### Initial Setup
 ```bash
-# Clone the repository (if applicable)
-git clone <repository-url>
-cd sum-function-tdd-demo
+# Clone or initialize in existing Claude workspace
+cd ~/.claude
 
-# Install dependencies
+# Install dependencies if package.json exists
 npm install
+
+# Verify framework structure
+ls -la
 ```
-
-### Verify Installation
-
-```bash
-# Run tests to verify everything works
-npm test
-```
-
-## Usage
 
 ### Basic Usage
-
-```javascript
-const sum = require('./sum.js');
-
-// Basic addition
-const result = sum(5, 3);
-console.log(result); // Output: 8
-
-// Works with decimals
-const decimalResult = sum(1.5, 2.5);
-console.log(decimalResult); // Output: 4
-
-// Handles negative numbers
-const negativeResult = sum(-10, 5);
-console.log(negativeResult); // Output: -5
-```
-
-### Advanced Examples
-
-```javascript
-const sum = require('./sum.js');
-
-// Zero handling
-console.log(sum(42, 0)); // Output: 42
-console.log(sum(0, 0));  // Output: 0
-
-// Large numbers
-console.log(sum(1000000, 2000000)); // Output: 3000000
-
-// Floating-point numbers
-console.log(sum(0.1, 0.2)); // Output: 0.30000000000000004
-
-// Special values
-console.log(sum(Infinity, 10)); // Output: Infinity
-console.log(sum(NaN, 5));       // Output: NaN
-```
-
-### Error Handling
-
-```javascript
-const sum = require('./sum.js');
-
-try {
-  sum('hello', 5);
-} catch (error) {
-  console.log(error.message); // Output: "Both arguments must be numbers"
-}
-
-try {
-  sum(null, 10);
-} catch (error) {
-  console.log(error.message); // Output: "Both arguments must be numbers"
-}
-```
-
-## API Documentation
-
-### `sum(a, b)`
-
-Adds two numbers together with comprehensive input validation.
-
-#### Parameters
-
-| Parameter | Type     | Description                    |
-|-----------|----------|--------------------------------|
-| `a`       | `number` | First number to add            |
-| `b`       | `number` | Second number to add           |
-
-#### Returns
-
-| Type     | Description              |
-|----------|--------------------------|
-| `number` | The sum of `a` and `b`   |
-
-#### Throws
-
-| Error Type | Condition                                    |
-|------------|----------------------------------------------|
-| `Error`    | When either argument is not a number type    |
-
-#### Special Cases
-
-| Input Condition           | Output Behavior                |
-|---------------------------|--------------------------------|
-| Either argument is `NaN`  | Returns `NaN`                  |
-| Either argument is `Infinity` | Returns `Infinity` or `-Infinity` |
-| Both arguments are `Infinity` and `-Infinity` | Returns `NaN` |
-
-#### Examples
-
-```javascript
-// Valid usage
-sum(2, 3)        // Returns: 5
-sum(-1, 1)       // Returns: 0
-sum(1.1, 2.2)    // Returns: 3.3
-sum(NaN, 5)      // Returns: NaN
-sum(Infinity, 1) // Returns: Infinity
-
-// Invalid usage (throws Error)
-sum('2', 3)      // Throws: "Both arguments must be numbers"
-sum(null, 5)     // Throws: "Both arguments must be numbers"
-sum(undefined, 1) // Throws: "Both arguments must be numbers"
-```
-
-## Testing
-
-This project includes a comprehensive test suite demonstrating both TDD and BDD methodologies.
-
-### Running Tests
-
 ```bash
-# Run all tests
-npm test
+# Start with main framework instructions
+cat CLAUDE.md
 
-# Run tests in watch mode (during development)
-npm run test:watch
+# Check current organization
+cat ORGANIZATION-WORKFLOW.md
 
-# Run tests with coverage report
-npm run test:coverage
-
-# Run tests with verbose output
-npm run test:verbose
-```
-
-### Test Coverage
-
-The project maintains 100% test coverage across all metrics:
-
-- **Statements**: 100%
-- **Branches**: 100%
-- **Functions**: 100%
-- **Lines**: 100%
-
-### Test Categories
-
-#### 1. Basic Functionality Tests
-- Positive integer addition
-- Decimal number addition  
-- Zero handling
-
-#### 2. Negative Number Tests
-- Negative number addition
-- Mixed positive/negative operations
-- Negative results
-
-#### 3. Edge Case Tests
-- Very large numbers (up to `MAX_SAFE_INTEGER`)
-- Very small numbers (down to `MIN_SAFE_INTEGER`)
-- Floating-point precision handling
-- Infinity operations
-
-#### 4. Input Validation Tests
-- Non-numeric input rejection
-- NaN input handling
-- Null and undefined input handling
-
-#### 5. Behavior Tests (BDD)
-- Given-When-Then scenarios
-- Real-world usage patterns
-- Error condition verification
-
-### Sample Test Output
-
-```bash
-$ npm test
-
-PASS  ./sum.test.js
-  sum function
-    basic functionality
-      ✓ should add two positive integers
-      ✓ should add two positive decimals
-      ✓ should handle addition with zero
-    negative number handling
-      ✓ should add two negative numbers
-      ✓ should add positive and negative numbers
-      ✓ should handle negative result
-    edge cases
-      ✓ should handle very large numbers
-      ✓ should handle very small numbers
-      ✓ should handle floating point precision
-      ✓ should handle infinity
-    input validation
-      ✓ should throw error for non-numeric inputs
-      ✓ should handle NaN inputs
-    performance and behavior
-      ✓ should return a number
-      ✓ should be commutative
-      ✓ should handle many decimal places
-    BDD scenarios
-      Given two valid numbers
-        ✓ When I add them together, Then I get the correct sum
-      Given one number is zero
-        ✓ When I add it to another number, Then I get the other number
-      Given invalid input types
-        ✓ When I try to add them, Then I get a descriptive error
-
-Test Suites: 1 passed, 1 total
-Tests:       16 passed, 16 total
+# Review system documentation
+ls system/
 ```
 
 ## Development
 
+### Framework Principles
+1. **Simple and Easy**: Keep complexity minimal, make tasks straightforward
+2. **Evidence-Based**: All claims must be backed by tests, measurements, or verification
+3. **Systematic**: Follow established workflows and patterns
+4. **Organized**: Maintain clear file structure and logical organization
+
 ### Development Workflow
+1. **Planning**: Use TodoWrite for multi-step tasks
+2. **Implementation**: Follow TDD/BDD methodologies
+3. **Validation**: Provide evidence and demonstration
+4. **Documentation**: Update relevant documentation
+5. **Organization**: Ensure proper file placement
 
-This project follows Test-Driven Development (TDD) principles:
-
-1. **Red**: Write a failing test first
-2. **Green**: Write minimal code to make the test pass
-3. **Refactor**: Improve the implementation while keeping tests green
-
-### Project Structure
-
-```
-.
-├── sum.js              # Main implementation file
-├── sum.test.js         # Comprehensive test suite
-├── package.json        # Project configuration and dependencies
-├── README.md          # This documentation file
-└── coverage/          # Test coverage reports (generated)
-```
-
-### Code Quality Standards
-
-- **JSDoc Comments**: All functions include comprehensive documentation
-- **Input Validation**: Strict type checking with meaningful error messages
-- **Error Handling**: Comprehensive error conditions with descriptive messages
-- **Test Coverage**: 100% coverage requirement across all metrics
-- **Code Style**: Consistent formatting and clear variable names
-
-### Adding New Features
-
-1. Write failing tests first (TDD Red phase)
-2. Implement minimal code to pass tests (TDD Green phase)
-3. Refactor and optimize while maintaining test coverage (TDD Refactor phase)
-4. Update documentation
-5. Verify 100% test coverage is maintained
+### Quality Standards
+- **100% Test Coverage**: All code must be fully tested
+- **Evidence Required**: Claims must be demonstrable
+- **Clear Organization**: Files must be properly categorized
+- **Documentation**: Changes must be documented
 
 ## Contributing
 
-We welcome contributions! Please follow these guidelines:
-
 ### Getting Started
+1. Understand the immovable constraints
+2. Follow organization guidelines
+3. Respect the Simple and Easy principles
+4. Provide evidence for all changes
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature-name`)
-3. Make your changes following TDD methodology
-4. Ensure all tests pass and maintain 100% coverage
-5. Update documentation as needed
-6. Commit your changes (`git commit -am 'Add some feature'`)
-7. Push to the branch (`git push origin feature/your-feature-name`)
-8. Create a Pull Request
-
-### Development Standards
-
-- **Follow TDD**: Write tests first, then implementation
-- **Maintain Coverage**: All new code must have 100% test coverage
-- **Document Changes**: Update README.md and JSDoc comments
-- **Use BDD**: Include Given-When-Then scenarios for new behaviors
-- **Code Quality**: Follow existing code style and conventions
-
-### Pull Request Checklist
-
-- [ ] Tests written and passing
-- [ ] 100% test coverage maintained
-- [ ] Documentation updated
-- [ ] BDD scenarios included for new features
-- [ ] Code follows project conventions
-- [ ] All CI checks pass
+### Pull Request Guidelines
+- [ ] Files organized according to structure guidelines
+- [ ] No working files left in root directory
+- [ ] Immovable directories left untouched
+- [ ] Documentation updated for structural changes
+- [ ] Tests included where applicable
+- [ ] Evidence provided for claims
 
 ### Reporting Issues
-
-When reporting issues, please include:
-
-- Node.js version
-- Operating system
-- Steps to reproduce
-- Expected vs actual behavior
-- Any error messages
+When reporting structural or organizational issues:
+- Identify specific files that seem misplaced
+- Explain why current organization isn't working
+- Suggest improvements that respect constraints
+- Consider impact on system functionality
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### MIT License Summary
-
 - ✅ **Use**: Commercial and private use allowed
 - ✅ **Modify**: Modification allowed
-- ✅ **Distribute**: Distribution allowed
+- ✅ **Distribute**: Distribution allowed  
 - ✅ **Sublicense**: Sublicensing allowed
 - ⚠️ **Limitation**: No liability or warranty provided
 - 📋 **Condition**: License and copyright notice must be included
-
-## Support
-
-### Documentation
-
-- **API Documentation**: See [API Documentation](#api-documentation) section
-- **Usage Examples**: See [Usage](#usage) section
-- **Testing Guide**: See [Testing](#testing) section
-
-### Getting Help
-
-- **Issues**: Report bugs or request features via [GitHub Issues](../../issues)
-- **Discussions**: Ask questions in [GitHub Discussions](../../discussions)
-- **Documentation**: Refer to this README for comprehensive guidance
-
-### Troubleshooting
-
-#### Common Issues
-
-**Tests failing after installation:**
-```bash
-# Ensure dependencies are installed
-npm install
-
-# Run tests with verbose output
-npm run test:verbose
-```
-
-**Coverage reports not generating:**
-```bash
-# Run coverage command explicitly
-npm run test:coverage
-
-# Check if coverage directory exists
-ls -la coverage/
-```
-
-**Node.js version compatibility:**
-```bash
-# Check Node.js version (requires >= 14.0.0)
-node --version
-
-# Update Node.js if needed
-nvm use 14  # or higher
-```
 
 ---
 
 ## Appendix
 
-### Development Philosophy
+### Historical Context
 
-This project demonstrates that even simple functions deserve professional treatment. By applying TDD/BDD methodologies to a basic sum function, we showcase how proper software engineering practices create robust, maintainable, and trustworthy code.
+This framework evolved from recognizing the need to work within system constraints while maintaining logical organization. The immovable directories represent integration points with Claude Code's core systems and external services.
 
-### Learning Outcomes
+### Design Philosophy
 
-Developers studying this project will learn:
+**Constraint-Aware Organization**: Rather than fighting system constraints, the framework embraces them as fixed points around which to build logical structure. This creates a more stable and predictable development environment.
 
-- Test-Driven Development workflow
-- Behavior-Driven Development scenarios
-- Comprehensive input validation techniques
-- Edge case identification and handling
-- Professional documentation standards
-- Code quality maintenance practices
+**Evidence-Based Iteration**: Every organizational decision is backed by evidence of improved workflow, reduced confusion, or better system integration.
 
-### Technical Notes
-
-#### Floating-Point Precision
-
-JavaScript's floating-point arithmetic can produce unexpected results (e.g., `0.1 + 0.2 !== 0.3`). This implementation acknowledges this limitation and handles it appropriately in tests using `toBeCloseTo()` for precision-sensitive assertions.
-
-#### Performance Considerations
-
-While this sum function includes comprehensive validation, the overhead is minimal due to:
-- Early return patterns
-- Efficient type checking
-- Optimized validation order
+**Progressive Enhancement**: The structure evolves based on actual usage patterns while maintaining backward compatibility and system integration.
 
 ---
 
-**Built with ❤️ using Test-Driven Development**
+**Built with constraint awareness and systematic organization principles**
 
-*This README demonstrates professional documentation standards and serves as a template for JavaScript projects of all sizes.*
+*This README serves as the definitive guide to the Claude Framework's structure and the rationale behind its organization decisions.*
