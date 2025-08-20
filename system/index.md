@@ -11,15 +11,20 @@
 - **Main Framework**: [CLAUDE.md](../CLAUDE.md) - Your complete Simple and Easy Framework
 - **System Overview**: [README.md](README.md) - How our system is organized
 
+## Strategic Foundation
+- **[Vision](VISION.md)** - Strategic framework vision and objectives
+- **[Core](CORE.md)** - Essential framework principles and values
+- **[Roadmap](ROADMAP.md)** - Development roadmap and milestones
+
 ## Detailed Indices
-- **[Principles](PRINCIPLES.md)** - 13 core decision-making guidelines
+- **[Principles](PRINCIPLES.md)** - 15 core decision-making guidelines
 - **[Personalities](PERSONALITIES.md)** - 7 collaborative interaction styles
-- **[Standards](STANDARDS.md)** - 10 consistent ways of doing things
-- **[Processes](PROCESSES.md)** - 14 workflows for getting work done
-- **[Examples](EXAMPLES.md)** - 5 real demonstrations of our standards
-- **[Checks](CHECKS.md)** - 1 quality validation tool
-- **[Tools](TOOLS.md)** - 2 utilities for system maintenance
-- **[Hooks](../hooks/README.md)** - 4 Claude Code automation scripts
+- **[Standards](STANDARDS.md)** - 13 consistent ways of doing things
+- **[Processes](PROCESSES.md)** - 40+ workflows for getting work done
+- **[Examples](EXAMPLES.md)** - 6+ real demonstrations of our standards
+- **[Checks](CHECKS.md)** - 12 quality validation tools
+- **[Tools](TOOLS.md)** - 3 utilities for system maintenance
+- **[Hooks](../hooks/README.md)** - 5 Claude Code automation scripts
 
 ## System Structure
 ```
@@ -44,6 +49,9 @@ hooks/              # Claude Code automation
 ```
 
 ## Navigation Tips
+- Begin with [vision](VISION.md) to understand strategic direction
+- Review [core](CORE.md) for fundamental framework values
+- Check [roadmap](ROADMAP.md) for development planning
 - Start with [principles](PRINCIPLES.md) when making decisions
 - Use [personalities](PERSONALITIES.md) for interaction style
 - Follow [standards](STANDARDS.md) for consistent implementation
