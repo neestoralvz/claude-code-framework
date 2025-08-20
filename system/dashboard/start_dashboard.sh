@@ -1,10 +1,10 @@
 #!/bin/bash
-"""
-Claude Framework Dashboard Startup Script
-
-Starts the dashboard server and opens it in the default browser.
-Handles dependencies, port checking, and error recovery.
-"""
+#
+# Claude Framework Dashboard Startup Script
+#
+# Starts the dashboard server and opens it in the default browser.
+# Handles dependencies, port checking, and error recovery.
+#
 
 # Configuration
 DASHBOARD_HOST="127.0.0.1"

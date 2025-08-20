@@ -10,9 +10,17 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF user makes request** → Understand what they need. Deliver results. Done.
 
+**IF getting lost or overwhelmed** → READ [system/CORE.md](system/CORE.md) to return to center
+
+**IF things are getting too complex** → STOP. Return to Simple and Easy principles
+
+**IF losing sight of purpose** → Remember: Framework exists to improve MY performance, not create complexity
+
 ## System Commands
 
 **IF need complete overview** → Read [system/index.md](system/index.md)
+
+**IF need strategic vision and objectives** → Read [system/VISION.md](system/VISION.md)
 
 **IF need decision guidance** → Read [system/PRINCIPLES.md](system/PRINCIPLES.md)
 
@@ -102,13 +110,13 @@ System prompt with agent specialization
 
 **IF user requests new behavior** → Document the behavior in CLAUDE.md immediately for future sessions
 
-**IF debugging fails** → Use TDD: test ACTUAL execution environment, not assumptions
+**IF debugging fails** → MUST use testing-strategy-specialist with TDD methodology, never attempt direct fixes
 
 **IF testing hooks/scripts** → Must test with exact same input/environment as production (e.g., `stdin=subprocess.DEVNULL`)
 
 **IF agents claim to fix but problem persists** → Write failing test first, then validate fix works in real environment
 
-**IF debugging ANY production system** → Never trust "it should work" - always test with production conditions exactly
+**IF debugging ANY production system** → Deploy testing-strategy-specialist first, then apply Red-Green-Refactor methodology with exact production conditions
 
 **IF making ANY claim** → Must provide evidence - no assumptions, no hallucinations, only verifiable facts
 
@@ -164,6 +172,12 @@ System prompt with agent specialization
 
 **IF user corrects you** → Document the correction immediately in CLAUDE.md to prevent repeat errors
 
+**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](system/standards/personalities-vs-agents-distinction.md)
+
+**IF personality command fails** → I adopt the personality directly, NOT deploy as agent
+
+**IF agent command fails** → I deploy with Task tool, NOT adopt as personality
+
 **IF referencing Claude models** → Use haiku (fast/simple), sonnet (balanced/common), opus (most capable/complex reasoning)
 
 **IF discovering new patterns** → Document in appropriate system files for future reference
@@ -210,6 +224,10 @@ System prompt with agent specialization
 **IF need process management** → Read [system/PROCESSES.md](system/PROCESSES.md)
 
 **IF need technical standards** → Read [system/STANDARDS.md](system/STANDARDS.md)
+
+**IF need specialized testing workflows** → Check [system/ROADMAP.md](system/ROADMAP.md) for implementation status
+
+**IF checking system development status** → Read [system/ROADMAP.md](system/ROADMAP.md) for current progress and pending items
 
 ## User Preference Commands
 

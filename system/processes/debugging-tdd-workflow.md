@@ -7,9 +7,61 @@ This workflow applies Test-Driven Development principles to debugging, ensuring 
 ## Core Principles
 
 - **Test First**: Create failing test that reproduces the bug
+- **Agent First**: Deploy testing-strategy-specialist for systematic debugging
 - **Minimal Fix**: Implement smallest change to make test pass
 - **Refactor Safely**: Improve code while maintaining test coverage
 - **Evidence Required**: All debugging steps must be verifiable
+- **No Direct Fixes**: Never attempt direct fixes without TDD agent methodology
+
+## Agent-First Debugging Methodology
+
+### Critical Learning: Direct Fix Attempts Fail
+
+**ESTABLISHED PATTERN**: When production systems have bugs, attempting direct fixes without systematic methodology leads to:
+- Incomplete problem analysis
+- Symptom fixes instead of root cause fixes
+- Introduction of new bugs
+- Wasted time and effort
+- Repeated failures
+
+### Mandatory Agent Deployment
+
+**IF debugging fails** → MUST use testing-strategy-specialist with TDD methodology
+
+**Implementation Steps**:
+
+1. **Deploy Testing Agent First**
+   ```
+   Task: Deploy testing-strategy-specialist for systematic debugging of [specific problem]
+   
+   Context: Production system showing [error symptoms]
+   Requirements: Apply Red-Green-Refactor methodology with exact production conditions
+   Evidence: Must provide failing tests, root cause analysis, and verified fix
+   ```
+
+2. **Agent Applies TDD Systematically**
+   - RED: Creates failing test reproducing exact bug
+   - GREEN: Implements minimal fix to pass test
+   - REFACTOR: Improves code while maintaining test coverage
+   - VALIDATES: Confirms fix works in production conditions
+
+3. **Evidence-Based Validation**
+   - Failing test demonstrates bug exists
+   - Passing test proves fix works
+   - No regressions in existing functionality
+   - Production environment testing confirms resolution
+
+### Success Pattern Documentation
+
+**Evidence from Dashboard Debugging Experience**:
+- **Direct approach**: Failed with TypeError and bash syntax errors
+- **Agent approach**: Systematic resolution using Red-Green-Refactor
+- **Result**: Dashboard fixed completely with proper validation
+- **Time efficiency**: Agent approach resolved faster than repeated direct attempts
+
+### Integration with Existing Workflows
+
+This agent-first methodology integrates with existing TDD debugging principles while ensuring systematic application through specialized agents.
 
 ## TDD Debugging Cycle
 

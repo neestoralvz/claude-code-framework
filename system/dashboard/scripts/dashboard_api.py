@@ -397,7 +397,7 @@ class DashboardAPIHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         """Override log message to reduce noise."""
         # Only log errors
-        if args and args[1] >= 400:
+        if args and len(args) > 1 and int(args[1]) >= 400:
             super().log_message(format, *args)
 
 class DashboardServer:
