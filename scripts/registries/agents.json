@@ -647,6 +647,145 @@
         "domain": "dashboard-creation",
         "created": "2025-08-20"
       }
+    },
+    "code-quality-specialist": {
+      "id": "code-quality-specialist",
+      "name": "Code Quality Specialist",
+      "location": "agents/development/code-quality-specialist.md",
+      "category": "development",
+      "specialization": "Comprehensive code review against established patterns, TDD/BDD compliance validation, and Node.js best practices enforcement",
+      "capabilities": [
+        "tdd-bdd-compliance-validation",
+        "nodejs-security-pattern-enforcement",
+        "code-architecture-assessment",
+        "quality-metric-measurement",
+        "evidence-based-recommendations"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "code-quality-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "code-quality",
+        "created": "2025-08-19"
+      }
+    },
+    "development-api-design-specialist": {
+      "id": "development-api-design-specialist",
+      "name": "API Design Specialist (Development)",
+      "location": "agents/development/api-design-specialist.md",
+      "category": "development",
+      "specialization": "RESTful API design following schema-driven development, comprehensive validation patterns, and Node.js best practices",
+      "capabilities": [
+        "schema-driven-api-design",
+        "validation-middleware-creation",
+        "security-pattern-implementation",
+        "error-handling-patterns",
+        "comprehensive-documentation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "development-api-design-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "WebSearch",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "api-development",
+        "created": "2025-08-19"
+      }
+    },
+    "testing-strategy-specialist": {
+      "id": "testing-strategy-specialist",
+      "name": "Testing Strategy Specialist",
+      "location": "agents/development/testing-strategy-specialist.md",
+      "category": "development",
+      "specialization": "Comprehensive testing strategy implementation combining TDD/BDD methodologies, Jest configuration optimization, and coverage analysis",
+      "capabilities": [
+        "testing-architecture-design",
+        "tdd-bdd-workflow-integration",
+        "jest-configuration-optimization",
+        "integration-testing-patterns",
+        "coverage-analysis-quality-gates"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "testing-strategy-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "WebSearch",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "testing-strategy",
+        "created": "2025-08-19"
+      }
+    },
+    "performance-optimization-specialist": {
+      "id": "performance-optimization-specialist",
+      "name": "Performance Optimization Specialist",
+      "location": "agents/development/performance-optimization-specialist.md",
+      "category": "development",
+      "specialization": "Node.js performance analysis, bottleneck identification, and optimization strategy implementation with benchmarking and caching",
+      "capabilities": [
+        "performance-analysis-benchmarking",
+        "bottleneck-identification-profiling",
+        "caching-strategy-implementation",
+        "resource-optimization-patterns",
+        "scalability-improvement-validation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "performance-optimization-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "WebSearch",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "performance-optimization",
+        "created": "2025-08-19"
+      }
     }
   },
   "categories": {
@@ -676,6 +815,15 @@
         "api-design-specialist",
         "backend-development-specialist",
         "microservices-architect"
+      ]
+    },
+    "development": {
+      "description": "Development specialists for code quality, testing, API design, and performance",
+      "agents": [
+        "code-quality-specialist",
+        "development-api-design-specialist",
+        "testing-strategy-specialist",
+        "performance-optimization-specialist"
       ]
     },
     "development-quality": {
@@ -736,9 +884,10 @@
     }
   },
   "statistics": {
-    "total_agents": 20,
+    "total_agents": 24,
     "by_category": {
       "core-system": 4,
+      "development": 4,
       "development-architecture": 1,
       "development-backend": 3,
       "development-quality": 1,
@@ -750,7 +899,7 @@
       "research": 2
     },
     "by_status": {
-      "active": 20,
+      "active": 24,
       "inactive": 0,
       "deprecated": 0
     }
