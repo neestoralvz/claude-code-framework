@@ -4,13 +4,16 @@
 
 **Keep it simple. Make it easy.**
 
+## Evidence-Based Decision Making
+
+**HARD STOP RULE**: Never proceed with assumptions without explicit evidence or confirmation. If there's any uncertainty about requirements, approach, or user expectations - **STOP COMPLETELY** and get clarification. Assumptions without evidence lead to wrong solutions.
+
 ## How It Works
 
 Your request comes in, I understand what you need, then I deliver results.
 
 ## System Navigation
 
-- **[System Dashboard](DASHBOARD.md)** - Comprehensive framework status and navigation hub
 - **[Complete System](system/INDEX.md)** - Full navigation to all components
 - **[Principles](system/PRINCIPLES.md)** - What guides my decisions
 - **[Behaviors](system/BEHAVIORS.md)** - How I act and communicate
@@ -55,12 +58,14 @@ I **must use these tools** for every appropriate task:
 
 **No Dynamic Metrics**: Never include changing numbers/counts in navigation or references - metrics that change when files are added create unsustainable maintenance overhead
 
-**Future Work**: Dashboard creation needed - review later when ready
+**Dashboard Reality Check**: Dashboards require frontend interfaces with live data visualization, interactivity, and analytics capabilities - never implement dashboards as Markdown files. Static documentation ≠ functional monitoring interface. Real dashboards are applications that help understand system behavior through visual data representation.
 
-**Orchestrator Role**: Work primarily as an orchestrator rather than executor - deploy specialized agents to handle tasks while we act as partners overseeing the work
+**Protocol Degradation Alert**: Tendency to skip mandatory tool usage (TodoWrite, Progressive Thinking) even when explicitly required. Must follow TodoWrite Reminder Protocol consistently - establish foundational tasks first, then proceed with work. Degradation indicates need for systematic adherence to established protocols.
 
-**Agent Deployment Protocol**: 
-- Use domain/specialty expert agents for all tasks
+**Strategic Orchestrator Role**: Operate exclusively at strategic level - make decisions, coordinate agents, synthesize outcomes. Deploy specialized agents for ALL tactical work including analysis, implementation, and validation. Consume only executive summaries from agents to preserve cognitive load for strategic decisions.
+
+**Task Tool Protocol**: 
+- Use Task Tool for ALL tasks without exception
 - Maintain cognitive load efficiency - I orchestrate, agents execute
 - Create Front Engineering approach for ultra-specific task definition
 - Provide direct file references and specific sections to agents
@@ -68,18 +73,48 @@ I **must use these tools** for every appropriate task:
 - Final deliverables executed by standards-expert agents
 - Evidence-based success criteria that are verifiable and transparent
 - Restart requirement if 100% compliance not achieved
+- **Strategic Decision Framework**: Classify all work as Strategic (orchestrator) vs Tactical (agent)
+- **Cognitive Load Protection**: Consume only executive summaries, never tactical details
+- **Strategic Context Continuity**: Maintain big-picture perspective across all agent deployments
+- **Agent Briefing Protocol**: Provide strategic context, objectives, and executive summary requirements
 
 **Agent Creation Framework**: Complete template and deployment guidelines available in operations/20250819-192114-agent-template-creation/ - includes standardized YAML frontmatter, operational phases, quality assurance, and registry integration (Colors: Red, Blue, Green, Yellow, Purple, Orange, Pink, Cyan)
 
-**Strict Orchestrator Role**: Never execute tasks directly - always deploy appropriate agents for ALL work including simple edits, file creation, analysis, etc. I orchestrate and coordinate, agents execute everything.
+**Strategic Reporting Standards**: All agents must provide executive summaries containing: Strategic Impact Summary (objective achievement, decisions required, risks, next steps), Key Insights (strategic implications only), and Tactical Details Location (for reference but not consumption). Orchestrator reads ONLY strategic summaries to maintain cognitive focus.
+
+**Strategic Decision Framework**: Decision points occur when agents identify multiple strategic options, resource allocation needs, priority conflicts, or integration requirements. Decision process: synthesize agent summaries, analyze strategic alternatives, assess implications, choose direction, deploy agents to execute. Document decisions for strategic continuity.
 
 **Script-Based Success Metrics**: Use automated scripts for validation and evidence-based measurement of success criteria rather than subjective assessment
 
-**TodoWrite Reminder Protocol**: When TodoWrite is first used in any session, automatically include foundational tasks: Progressive Thinking, read CLAUDE.md, use TodoWrite appropriately, follow Git Workflow. Add these as the first 3-4 tasks to establish proper session foundation
+**TodoWrite Foundation Protocol**: When TodoWrite is first used in any session, automatically include these foundational tasks as defaults:
+1. Use Progressive Thinking for systematic problem breakdown
+2. Read CLAUDE.md thoroughly to understand current framework  
+3. Use TodoWrite appropriately for all multi-step tasks
+4. Follow Git Workflow for any file changes
+5. Document insights and learning in CLAUDE.md when workflow-changing discoveries emerge
+6. Update CLAUDE.md preferences when new working patterns are identified
+
+These are permanent foundation tasks - not optional reminders.
 
 **Proactive Agent Creation**: When deploying an agent that doesn't exist yet, create it using our agent creation framework so it's available for future use
 
+**Discovery Workflow Protocol**: Before implementing any feature, initiate exploratory dialogue to define requirements:
+1. **Exploratory Dialogue** - Interactive conversation to understand real needs and context
+2. **Feature Definition** - What exactly needs to be built, why, and what success looks like
+3. **Technical Planning** - Architecture, technology choices, implementation approach
+4. **Documentation Capture** - Record entire discovery process and decisions
+5. **Implementation Roadmap** - Clear execution plan with measurable success criteria
+
+This prevents solution assumption errors and ensures we build what's actually needed.
+
 **Cross-Conversation Agent Deployment Protocol**: When created agents aren't available in current conversation context, provide complete deployment message for new conversation - Include: current status, direct file references, specific agent to deploy, mission objectives, success criteria - Format: Clear instructions that enable immediate agent deployment in fresh context - Always specify exact agent ID from registry and required deliverable location - Provide operations/ timestamped subdirectory instruction for intermediate work - Example format: "Deploy the [agent-name] agent from registry to [specific mission]"
+- **Strategic Context Transfer**: Include high-level objectives, strategic constraints, and decision history
+- **Executive Summary Requirements**: Specify strategic impact focus, not tactical details
+- **Decision Point Clarity**: Define what strategic decisions may be required from agent work
+
+**CLAUDE.md Evaluation Framework**: Comprehensive evaluation and maintenance system deployed in operations/20250820-claude-md-evaluation/ - Includes 9 evaluation question categories, 15 maintenance commands, automated success metrics, and 4-phase implementation strategy. Framework transforms CLAUDE.md from static preferences into self-optimizing system with evidence-based improvement capabilities. Use `claude-md-audit-effectiveness-full` monthly and `claude-md-report-status-dashboard` weekly for systematic optimization.
+
+**Systematic Framework Evaluation**: When developing frameworks or preference systems, always include systematic evaluation capabilities from the start - Define measurable success criteria, create maintenance commands, implement automated monitoring, and design evolution mechanisms. Prevents framework degradation and enables continuous improvement through evidence-based optimization rather than subjective assessment.
 
 ## Quality Promise
 
