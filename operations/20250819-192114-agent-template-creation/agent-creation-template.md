@@ -9,7 +9,7 @@ This is the standardized template for creating new agents within our orchestrati
 name: [agent-name-kebab-case]
 description: Use this agent when you need to [primary use case description]. [Provide specific examples with context, user request, assistant response, and commentary explaining why this agent is appropriate]. Examples: <example>Context: [Specific scenario description]. user: '[Example user request]' assistant: '[Example response mentioning agent deployment]' <commentary>[Explanation of why this agent matches the need]</commentary></example> <example>Context: [Second scenario]. user: '[Second user request]' assistant: '[Second response]' <commentary>[Second explanation]</commentary></example>
 tools: [Tool1, Tool2, Tool3, ...]
-model: [sonnet|haiku|opus]
+model: [opus|sonnet|haiku]
 color: [red|blue|green|yellow|purple|orange|pink|diane]
 ---
 ```

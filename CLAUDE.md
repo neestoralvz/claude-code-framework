@@ -152,15 +152,19 @@ System prompt with agent specialization
 
 **IF need color options** → Available: `blue`, `green`, `orange`, `pink`, `purple`, `yellow`, `red`, `cyan` - choose based on agent category/function
 
-**IF multiple tasks can run simultaneously** → Always deploy agents in parallel for maximum efficiency (MAX 10 per message)
+**IF multiple tasks can run simultaneously** → MANDATORY: Deploy specialized agents in parallel for maximum efficiency (MAX 10 per message) - NO direct implementation
 
-**IF doing parallel work** → Use multiple Task tool calls in ONE SINGLE message, not sequential messages
+**IF doing parallel work** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
+
+**IF complex multi-domain project** → Use [Parallel Conversation Coordination](system/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
 
 **IF user gives important reminders** → Use TodoWrite immediately to track and not forget
 
 **IF starting any significant work** → First deploy agents, then coordinate results rather than doing work directly
 
 **IF user corrects you** → Document the correction immediately in CLAUDE.md to prevent repeat errors
+
+**IF referencing Claude models** → Use haiku (fast/simple), sonnet (balanced/common), opus (most capable/complex reasoning)
 
 **IF discovering new patterns** → Document in appropriate system files for future reference
 
