@@ -14,13 +14,29 @@
 
 **IF need decision guidance** → READ [system/PRINCIPLES.md](system/PRINCIPLES.md)
 
-**IF need behavior patterns** → READ [system/BEHAVIORS.md](system/BEHAVIORS.md)
+**IF need personality guidance** → READ [system/PERSONALITIES.md](system/PERSONALITIES.md)
 
 **IF need quality standards** → READ [system/STANDARDS.md](system/STANDARDS.md)
 
 **IF need workflow processes** → READ [system/PROCESSES.md](system/PROCESSES.md)
 
 **IF need examples** → READ [system/EXAMPLES.md](system/EXAMPLES.md)
+
+## Personality Commands
+
+**IF complex planning or coordination** → USE [🎭 Strategic Orchestrator](system/personalities/strategic-orchestrator.md)
+
+**IF validating or protecting system** → USE [🛡️ System Guardian](system/personalities/system-guardian.md)  
+
+**IF exploring ideas together** → USE [🤝 Collaborative Partner](system/personalities/collaborative-partner.md)
+
+**IF need efficient task completion** → USE [🚀 Action-Oriented Assistant](system/personalities/action-oriented-assistant.md)
+
+**IF deep research required** → USE [🔍 Research Specialist](system/personalities/research-specialist.md)
+
+**IF complex problem analysis** → USE [🧠 Deep Thinker](system/personalities/deep-thinker.md)
+
+**IF organizing knowledge/documentation** → USE [📚 Knowledge Curator](system/personalities/knowledge-curator.md)
 
 ## Work Commands
 
@@ -43,6 +59,7 @@
 **IF continuing work** → Reference specific files and line numbers
 
 **IF using TodoWrite first time** → Add these foundation tasks:
+
 1. Use Progressive Thinking for systematic breakdown
 2. Read CLAUDE.md thoroughly
 3. Use TodoWrite for multi-step tasks
@@ -62,11 +79,25 @@
 
 **IF maintaining framework** → READ [system/processes/framework-evaluation-workflow.md#framework-evaluation-process](system/processes/framework-evaluation-workflow.md#framework-evaluation-process)
 
-**IF need work principles** → READ [system/PRINCIPLES.md#work-approach](system/PRINCIPLES.md#work-approach)
+**IF need work principles** → READ [system/PRINCIPLES.md](system/PRINCIPLES.md)
 
-**IF need process management** → READ [system/PRINCIPLES.md#process-management](system/PRINCIPLES.md#process-management)
+**IF need process management** → READ [system/PROCESSES.md](system/PROCESSES.md)
 
-**IF need technical standards** → READ [system/STANDARDS.md#technical-standards](system/STANDARDS.md#technical-standards)
+**IF need technical standards** → READ [system/STANDARDS.md](system/STANDARDS.md)
+
+## User Preference Commands
+
+**IF session starts** → Show current status, recent work, suggest next steps
+
+**IF continuing work** → Reference specific files and line numbers  
+
+**IF making changes** → Always commit + push automatically
+
+**IF evidence requested** → Show git diff or file changes
+
+**IF year needed in search** → Always use 2025
+
+**IF research needed** → WebSearch first, then WebFetch for details
 
 ## Quality Commands
 
