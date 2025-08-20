@@ -1,7 +1,7 @@
 {
   "version": "1.0.0",
   "registry_type": "agents",
-  "last_updated": "2025-08-19T15:30:00Z",
+  "last_updated": "2025-08-20T12:00:00Z",
   "agents": {
     "system-auditor": {
       "id": "system-auditor",
@@ -550,6 +550,103 @@
         "domain": "container-orchestration",
         "created": "2025-08-19"
       }
+    },
+    "system-maintenance-validator": {
+      "id": "system-maintenance-validator",
+      "name": "System Maintenance Validator",
+      "location": "agents/core-system/system-maintenance-validator.md",
+      "category": "core-system",
+      "specialization": "System coherence and validation specialist for .claude framework maintenance",
+      "capabilities": [
+        "directory-structure-validation",
+        "internal-link-integrity-checks",
+        "principle-compliance-verification",
+        "file-organization-standards",
+        "content-consistency-validation"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "system-maintenance-validator",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "system-maintenance",
+        "created": "2025-08-20"
+      }
+    },
+    "system-enhancement-specialist": {
+      "id": "system-enhancement-specialist",
+      "name": "System Enhancement Specialist",
+      "location": "agents/core-system/system-enhancement-specialist.md",
+      "category": "core-system",
+      "specialization": "Optimize workflow systems, update framework preferences, and enhance foundational processes for better user experience and system efficiency",
+      "capabilities": [
+        "framework-preference-optimization",
+        "workflow-system-enhancement",
+        "foundational-process-integration",
+        "user-experience-improvements",
+        "system-efficiency-optimization"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "system-enhancement-specialist",
+        "tools": [
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "TodoWrite",
+          "Bash",
+          "Grep",
+          "LS"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "system-optimization",
+        "created": "2025-08-20"
+      }
+    },
+    "dashboard-management-specialist": {
+      "id": "dashboard-management-specialist",
+      "name": "Dashboard Management Specialist",
+      "location": "agents/operations/dashboard-management-specialist.md",
+      "category": "operations-monitoring",
+      "specialization": "Create and maintain system dashboards that provide visibility into framework status, metrics, and navigation",
+      "capabilities": [
+        "system-state-visualization",
+        "agent-registry-organization",
+        "framework-metrics-compilation",
+        "navigation-hub-creation",
+        "dashboard-maintenance-updates"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "dashboard-management-specialist",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "dashboard-creation",
+        "created": "2025-08-20"
+      }
     }
   },
   "categories": {
@@ -558,6 +655,8 @@
       "agents": [
         "system-auditor",
         "validation-engineer",
+        "system-maintenance-validator",
+        "system-enhancement-specialist",
         "enforcement-monitor"
       ]
     },
@@ -608,6 +707,7 @@
     "operations-monitoring": {
       "description": "Monitoring & analytics specialists",
       "agents": [
+        "dashboard-management-specialist",
         "monitoring-specialist",
         "performance-optimizer",
         "metrics-analyst"
@@ -636,20 +736,21 @@
     }
   },
   "statistics": {
-    "total_agents": 17,
+    "total_agents": 20,
     "by_category": {
-      "core-system": 2,
+      "core-system": 4,
       "development-architecture": 1,
       "development-backend": 3,
       "development-quality": 1,
       "database": 3,
       "operations-infrastructure": 1,
+      "operations-monitoring": 1,
       "operations-cloud": 3,
       "operations-orchestration": 1,
       "research": 2
     },
     "by_status": {
-      "active": 17,
+      "active": 20,
       "inactive": 0,
       "deprecated": 0
     }
