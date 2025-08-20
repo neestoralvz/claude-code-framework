@@ -356,19 +356,63 @@ progress_update:
 - **Timeline Pressure**: Realistic scheduling and progress monitoring
 - **Quality Compromises**: Non-negotiable quality standards and gates
 
+## Cross-Agent Validation Patterns
+
+### Agent-to-Agent Validation Framework
+
+**Compatibility Testing Protocol:**
+```yaml
+cross_agent_validation:
+  interface_compatibility:
+    - data_format_validation: automated_tests
+    - communication_protocol_tests: compatibility_verification
+    - error_handling_consistency: unified_error_responses
+  behavioral_compatibility:
+    - output_quality_consistency: cross_agent_quality_validation
+    - performance_consistency: uniform_performance_standards
+    - integration_readiness: validated_integration_points
+  evidence_cross_validation:
+    - agent_evidence_verification: peer_validation_of_evidence
+    - quality_standard_consistency: uniform_quality_metrics
+    - completeness_validation: comprehensive_evidence_checking
+```
+
+**TDD/BDD Compliance Validation:**
+- **Red-Green-Refactor Evidence**: Each agent must provide proof of TDD cycle completion
+- **BDD Scenario Implementation**: Cross-validation that scenarios are properly implemented
+- **Quality Gate Validation**: Agents validate each other's quality gate compliance
+- **Integration Test Validation**: Agents provide evidence of successful integration testing
+
+### Multi-Agent Evidence Collection
+
+**Evidence Cross-Validation Process:**
+1. **Individual Agent Evidence Collection**: Each agent provides comprehensive evidence package
+2. **Cross-Agent Evidence Review**: Agents validate each other's evidence quality
+3. **Integration Evidence Validation**: System-level evidence is validated by all participating agents
+4. **Quality Consistency Verification**: Evidence quality is verified to be consistent across agents
+
+**Evidence Templates Integration:**
+- **Agent Evidence Package**: Standardized evidence collection from each agent
+- **Cross-Validation Evidence**: Evidence of successful agent-to-agent validation
+- **Integration Evidence Package**: System-level evidence of successful multi-agent coordination
+
 ## Integration with Framework
 
 ### Tool Integration
-- **TodoWrite**: Track coordination phases and agent assignments
-- **Parallel Execution**: Coordinate multiple tool usage
-- **Progressive Thinking**: Structure complex coordination decisions
-- **Quality Standards**: Ensure output consistency and excellence
+- **TodoWrite**: Track coordination phases and agent assignments with TDD/BDD validation
+- **Parallel Execution**: Coordinate multiple tool usage with evidence collection
+- **Progressive Thinking**: Structure complex coordination decisions with validation
+- **Quality Standards**: Ensure output consistency and excellence through cross-validation
+- **TDD/BDD Workflow**: Integration with Agent Coordination TDD Workflow for comprehensive validation
 
 ### Framework Compatibility
-- **Simple and Easy**: Maintain simplicity through clear protocols
-- **Evidence-Based**: All coordination decisions backed by evidence
-- **Quality Focus**: Rigorous quality gates and validation
-- **Continuous Improvement**: Learning integration and optimization
+- **Simple and Easy**: Maintain simplicity through clear protocols and validation standards
+- **Evidence-Based**: All coordination decisions backed by evidence and cross-validated
+- **Quality Focus**: Rigorous quality gates and validation with multi-agent verification
+- **Continuous Improvement**: Learning integration and optimization through evidence analysis
+
+### Related TDD/BDD Integration
+- **Agent Coordination TDD Workflow**: READ [agent-coordination-tdd-workflow.md](agent-coordination-tdd-workflow.md) for comprehensive TDD/BDD integration with multi-agent coordination
 
 ---
 

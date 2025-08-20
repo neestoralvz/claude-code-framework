@@ -83,10 +83,13 @@ When deploying an agent that doesn't exist yet, create it using our agent creati
 - Include agent capabilities and use cases
 - Document strategic integration patterns
 
-### 5. Test Deployment
-- Deploy agent in controlled scenario
-- Validate agent performance against criteria
-- Refine agent based on initial results
+### 5. Test Deployment with TDD/BDD Validation
+- Deploy agent in controlled scenario with TDD/BDD requirements
+- Validate agent TDD cycle compliance (red-green-refactor evidence)
+- Validate agent BDD scenario implementation (behavior demonstration)
+- Test agent evidence collection capabilities
+- Validate cross-agent compatibility (if applicable)
+- Refine agent based on TDD/BDD compliance results
 
 ### 6. Documentation
 - Update agent registry with lessons learned
@@ -99,9 +102,14 @@ Agents must follow:
 - **Category Organization**: Organized in subdirectories by specialization
 - **Registry Discovery**: Discoverable through system navigation and registries
 - **Strategic Reporting**: Provide executive summaries for orchestrator consumption
+- **TDD/BDD Compliance**: Must demonstrate TDD/BDD capability and evidence collection
+- **Cross-Agent Compatibility**: Must be able to integrate with other agents
+- **Quality Standards**: Must meet consistent quality and evidence requirements
 
 ## Related Documentation
 When creating agents, READ these files:
 - **Template Guidelines**: READ operations/20250819-192114-agent-template-creation/ for complete creation framework
 - **Model/Color Analysis**: READ operations/20250820-061303-agent-model-color-documentation/agent-options-analysis.md for evidence-based model and color selection guidance
 - **Agent Registry**: READ agents/registry/ to avoid duplication and understand patterns
+- **TDD/BDD Compliance**: READ operations/20250820-155000-agent-coordination-templates/agent-specialization-tdd-compliance.md for agent TDD/BDD requirements
+- **Agent Coordination**: READ [agent-coordination-tdd-workflow.md](agent-coordination-tdd-workflow.md) for multi-agent coordination patterns

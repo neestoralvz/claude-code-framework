@@ -48,6 +48,7 @@ Workflows and procedures for getting work done.
 ## Development Methodology Processes
 - **IF TDD workflow needed** → READ [processes/test-driven-development-workflow.md#tdd-implementation-process](processes/test-driven-development-workflow.md#tdd-implementation-process)
 - **IF BDD workflow needed** → READ [processes/behavior-driven-development-workflow.md#bdd-specification-process](processes/behavior-driven-development-workflow.md#bdd-specification-process)
+- **IF quality assurance integration needed** → READ [processes/quality-assurance-tdd-workflow.md#quality-assurance-integration-points](processes/quality-assurance-tdd-workflow.md#quality-assurance-integration-points)
 
 ## Strategic Planning Processes
 - **IF strategic vision needed** → READ [processes/strategic-vision-definition-workflow.md#vision-definition-process](processes/strategic-vision-definition-workflow.md#vision-definition-process)

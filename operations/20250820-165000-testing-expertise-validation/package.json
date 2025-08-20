@@ -1,0 +1,70 @@
+{
+  "name": "testing-strategy-demonstration",
+  "version": "1.0.0",
+  "description": "Comprehensive testing strategy demonstration showcasing TDD/BDD implementation with Jest optimization",
+  "main": "test-strategy-demonstration.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --coverage --watchAll=false",
+    "test:debug": "jest --debug",
+    "test:verbose": "jest --verbose",
+    "test:silent": "jest --silent",
+    "test:update-snapshots": "jest --updateSnapshot",
+    "test:clear-cache": "jest --clearCache",
+    "test:performance": "jest --testNamePattern=\"Performance\"",
+    "test:integration": "jest --testNamePattern=\"Integration\"",
+    "test:unit": "jest --testNamePattern=\"Unit|should\"",
+    "test:bdd": "jest --testNamePattern=\"Behavior\"",
+    "coverage:open": "open coverage/lcov-report/index.html",
+    "coverage:serve": "npx http-server coverage/lcov-report -p 8080",
+    "lint": "eslint . --ext .js,.ts,.jsx,.tsx",
+    "lint:fix": "eslint . --ext .js,.ts,.jsx,.tsx --fix",
+    "validate": "npm run lint && npm run test:ci"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@jest/globals": "^29.7.0",
+    "jest-junit": "^16.0.0",
+    "jest-html-reporters": "^3.1.5",
+    "jest-watch-typeahead": "^2.2.2",
+    "@swc/jest": "^0.2.29",
+    "eslint": "^8.57.0",
+    "identity-obj-proxy": "^3.0.0",
+    "enzyme-to-json": "^3.6.2",
+    "http-server": "^14.1.1"
+  },
+  "jest": {
+    "preset": "./jest.config.js"
+  },
+  "keywords": [
+    "testing",
+    "tdd",
+    "bdd",
+    "jest",
+    "coverage",
+    "quality-assurance",
+    "test-driven-development",
+    "behavior-driven-development"
+  ],
+  "author": "Testing Strategy Specialist",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/example/testing-strategy-demo.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}

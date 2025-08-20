@@ -33,5 +33,6 @@ Consistent ways of doing things across our system.
 - **IF evidence validation needed** → READ [standards/evidence-based-validation.md#validation-methodology](standards/evidence-based-validation.md#validation-methodology)
 - **IF complexity assessment needed** → READ [standards/complexity-assessment-standards.md#assessment-criteria](standards/complexity-assessment-standards.md#assessment-criteria)
 - **IF stakeholder integration needed** → READ [standards/stakeholder-integration-requirements.md#integration-protocols](standards/stakeholder-integration-requirements.md#integration-protocols)
+- **IF quality gates needed** → READ [standards/quality-gates-metrics.md#quality-gate-categories](standards/quality-gates-metrics.md#quality-gate-categories)
 
 ---
