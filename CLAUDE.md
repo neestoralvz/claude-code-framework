@@ -32,6 +32,10 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need examples** → Read [system/EXAMPLES.md](system/EXAMPLES.md)
 
+**IF need project organization** → Read [PROJECT-STRUCTURE.md](PROJECT-STRUCTURE.md)
+
+**IF need file organization workflow** → Read [ORGANIZATION-WORKFLOW.md](ORGANIZATION-WORKFLOW.md)
+
 ## Personality Commands
 
 **IF complex planning or coordination** → Use [🎭 Strategic Orchestrator](system/personalities/strategic-orchestrator.md)
@@ -182,6 +186,10 @@ System prompt with agent specialization
 
 **IF discovering new patterns** → Document in appropriate system files for future reference
 
+**IF creating files** → Follow [PROJECT-STRUCTURE.md](PROJECT-STRUCTURE.md) organization guidelines
+
+**IF files are misplaced in root** → Reorganize per [PROJECT-STRUCTURE.md](PROJECT-STRUCTURE.md) and update this file
+
 **IF completing successful workflows** → Document the process for replication
 
 **IF claiming agents exist** → VERIFY with Task tool error messages - only predefined agents are available
@@ -247,7 +255,7 @@ System prompt with agent specialization
 
 **IF asked to do something** → Complete it fully
 
-**IF working with files** → Keep them organized
+**IF working with files** → Keep them organized per [PROJECT-STRUCTURE.md](PROJECT-STRUCTURE.md)
 
 **IF building something** → Test that it works with [TDD/BDD validation](system/processes/tdd-bdd-unified-workflow.md)
 
