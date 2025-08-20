@@ -1,359 +1,355 @@
-# Claude Framework Dashboard
+# Claude Framework v4.0 Dashboard Architecture
 
-A comprehensive metrics and monitoring dashboard for the Claude Simple and Easy Framework. Provides real-time visibility into framework health, agent usage, git status, operations, and system performance.
+## Universal Operation Mode Dashboard System
 
-## 🚀 Quick Start
+This dashboard provides comprehensive real-time monitoring and control for the Claude Framework v4.0 Universal Operation Mode, featuring framework coherence visualization, agent deployment coordination, and system performance analytics.
 
-### Starting the Dashboard
+## Architecture Overview
 
-1. **Local File Access** (Simplest):
-   ```bash
-   # Open dashboard directly in browser
-   open /Users/nalve/.claude/system/dashboard/index.html
-   ```
+The dashboard follows a modular architecture designed for scalability, real-time performance, and intuitive user experience while maintaining backward compatibility with existing framework components.
 
-2. **Full Server Mode** (Recommended):
-   ```bash
-   # Start the dashboard API server
-   cd /Users/nalve/.claude/system/dashboard/scripts
-   python3 dashboard_api.py
-   
-   # Then open browser to:
-   # http://127.0.0.1:8080
-   ```
+### Core Components
 
-3. **Custom Configuration**:
-   ```bash
-   # Start server with custom settings
-   python3 dashboard_api.py --host 0.0.0.0 --port 8081 --framework-root /path/to/framework
-   ```
+- **Universal Execution Mandates Grid**: Visual status monitoring for all 16 mandates
+- **Framework Coherence Monitoring**: System integrity and component alignment tracking
+- **Agent Deployment Coordination**: Real-time agent management and orchestration
+- **Performance Analytics**: System performance metrics and optimization insights
 
-## 📊 Dashboard Features
+### Technical Implementation
 
-### System Health Overview
-- **Framework Health Score**: Overall framework integrity and compliance
-- **Hook Status**: Active hooks and execution health
-- **Git Repository**: Changes, commits, and repository status
-- **Operations Activity**: Recent operations and session metrics
+- Responsive CSS Grid/Flexbox layout system
+- Real-time WebSocket data binding engine
+- Modular JavaScript component architecture
+- ARIA-compliant accessibility features
 
-### Framework Components
-- **Principles**: Core decision-making guidelines (13 principles)
-- **Personalities**: Collaborative interaction styles (7 personalities) 
-- **Processes**: Workflows and procedures (14+ processes)
-- **Standards**: Quality and consistency rules (10+ standards)
+## Files Structure
 
-### Usage Analytics
-- **Agent Usage Trends**: Deployment patterns and preferences
-- **Hook Execution Stats**: Performance and success rates
-- **Quick Metrics**: Sessions, activity, and framework updates
-- **Performance Data**: Response times and resource usage
-
-### Operations Timeline
-- **Recent Operations**: Last 10 framework operations
-- **Activity Summary**: Development patterns and trends
-- **Git Integration**: Commit history and repository health
-
-### Navigation Hub
-- **Quick Links**: Direct access to framework components
-- **Tools & Utilities**: Scripts, hooks, and maintenance tools
-- **Framework Structure**: Organized access to all system files
-- **Action Buttons**: Health checks, metrics updates, data export
-
-## 🔧 API Endpoints
-
-The dashboard provides a REST API for programmatic access:
-
-### Core Endpoints
-
-```http
-GET /api/health          # Framework health check
-GET /api/metrics         # Comprehensive metrics
-GET /api/agents          # Agent usage analytics  
-GET /api/git-status      # Git repository status
-GET /api/operations      # Operations directory status
-GET /api/navigation      # Framework navigation data
-GET /api/realtime-metrics # Real-time hook metrics
-GET /api/status          # Overall dashboard status
+```
+05-dashboard/
+├── index.html                 # Main dashboard interface
+├── assets/
+│   ├── css/
+│   │   ├── core-framework.css # Base framework styles
+│   │   ├── universal-operation.css # Universal Operation Mode styles
+│   │   └── responsive-grid.css # Responsive grid system
+│   ├── js/
+│   │   ├── data-binding-engine.js # Real-time data binding
+│   │   ├── universal-operation-core.js # Core functionality
+│   │   └── dashboard-orchestrator.js # Dashboard coordination
+│   └── data/
+│       ├── mandates-config.json # Mandates configuration
+│       ├── agents-registry.json # Agents registry
+│       └── performance-baseline.json # Performance baselines
+└── components/
+    ├── mandate-cards.js       # Mandate visualization components
+    ├── coherence-monitor.js   # Framework coherence components
+    ├── agent-coordinator.js   # Agent management components
+    └── analytics-engine.js    # Performance analytics components
 ```
 
-### Example Usage
+## Universal Operation Mode Integration
 
-```bash
-# Get framework health
-curl http://127.0.0.1:8080/api/health
+### Real-time Mandate Monitoring
 
-# Get agent usage analytics
-curl http://127.0.0.1:8080/api/agents
+The dashboard provides live monitoring of all 16 Universal Execution Mandates organized into four clusters:
 
-# Get real-time metrics
-curl http://127.0.0.1:8080/api/realtime-metrics
-```
+#### Core Methodology Cluster (Mandates 1-4)
+- **Progressive Think**: 4-level analysis methodology monitoring
+- **Agent Deployment**: Specialized agent deployment tracking
+- **TodoWrite Tracking**: Atomic task breakdown validation
+- **Evidence Validation**: Proof and verification monitoring
 
-## 📈 Metrics Collection
+#### Research & Preparation Cluster (Mandates 5-8)
+- **Context7 Research**: Library research compliance tracking
+- **System Documentation**: Framework documentation adherence
+- **Quality Standards**: TDD/BDD methodology monitoring
+- **Pattern Documentation**: Discovery recording validation
 
-### Manual Collection
-```bash
-# Collect comprehensive metrics
-/Users/nalve/.claude/system/dashboard/scripts/collect_metrics.py
+#### Workflow Automation Cluster (Mandates 9-12)
+- **Git Integration**: Auto-commit and version control tracking
+- **Parallel Execution**: Concurrent agent coordination monitoring
+- **Session Management**: RECENTER workflow status tracking
+- **Framework Updates**: Real-time documentation updates
 
-# Run health check
-/Users/nalve/.claude/system/dashboard/scripts/health_check.py
+#### Intelligence Amplification Cluster (Mandates 13-16)
+- **Personality Orchestration**: Dynamic personality adaptation
+- **Knowledge Integration**: Framework knowledge loading
+- **Quality Assurance**: Excellence standards monitoring
+- **Optimization Detection**: Continuous improvement tracking
 
-# Analyze agent usage
-/Users/nalve/.claude/system/dashboard/scripts/agent_tracker.py
+### Framework Coherence Visualization
 
-# Monitor git and operations
-/Users/nalve/.claude/system/dashboard/scripts/git_operations_monitor.py
-```
+Comprehensive system integrity monitoring including:
 
-### Automated Collection
-Metrics are automatically updated via hooks:
-- **post_tool_use.py**: Updates metrics after tool execution
-- **session_start.py**: Tracks session initiation
-- **Real-time Updates**: Dashboard reflects live activity
+- **Coherence Score**: Real-time framework alignment percentage
+- **Component Integration**: Inter-component communication health
+- **Dependency Health**: System dependency status monitoring
+- **Performance Index**: Overall system performance scoring
+- **Error Rate Tracking**: System reliability monitoring
 
-### Data Storage
-- **Metrics Cache**: `/Users/nalve/.claude/system/dashboard/data/metrics_cache.json`
-- **Activity Log**: `/Users/nalve/.claude/system/dashboard/data/activity_log.jsonl`
-- **Health Reports**: `/Users/nalve/.claude/system/dashboard/data/health_report_*.json`
-- **Usage Data**: `/Users/nalve/.claude/system/dashboard/data/agent_usage_*.json`
+### Agent Deployment Coordination
 
-## 🛠️ Configuration
+Advanced agent management featuring:
 
-### Dashboard Settings
-The dashboard adapts to your framework configuration automatically. Key settings:
+- **Specialized Agents**: Expert domain agents for complex tasks
+- **Task Agents**: Lightweight agents for specific operations
+- **Orchestration Agents**: Coordination and parallel execution management
+- **Real-time Activity Feed**: Live agent deployment and execution tracking
+- **Deployment Queue**: Pending agent deployment management
 
-- **Framework Root**: `/Users/nalve/.claude` (configurable)
-- **Auto-refresh**: Every 5 minutes (configurable in JS)
-- **API Cache**: 2-15 minutes depending on data type
-- **Chart Colors**: Consistent with framework branding
+### Performance Analytics
 
-### Hook Integration
-Dashboard metrics are updated automatically when hooks are enabled:
+Comprehensive performance monitoring including:
 
-1. **Enable Hooks**: Ensure Claude Code hooks are configured
-2. **Automatic Updates**: Metrics update after each tool use
-3. **Real-time Data**: Dashboard shows live framework activity
+- **Real-time Performance Charts**: Live system performance visualization
+- **Agent Utilization Trends**: Resource usage and efficiency tracking
+- **Optimization Opportunities**: AI-driven improvement suggestions
+- **Performance Recommendations**: Actionable enhancement proposals
 
-### Customization
-Modify dashboard behavior by editing:
-- **CSS**: `/Users/nalve/.claude/system/dashboard/assets/css/dashboard.css`
-- **JavaScript**: `/Users/nalve/.claude/system/dashboard/assets/js/dashboard.js`
-- **API Server**: `/Users/nalve/.claude/system/dashboard/scripts/dashboard_api.py`
+## Key Features
 
-## 📋 Dashboard Sections
+### Real-time Data Binding
 
-### 1. Health Cards
-- **Framework**: Overall health score and status
-- **Hooks**: Active hooks and execution rate
-- **Git**: Repository status and changes
-- **Operations**: Session count and activity
+- **Automatic Updates**: All metrics update in real-time without page refresh
+- **WebSocket Integration**: Ready for live server data integration
+- **Performance Optimized**: Efficient update mechanisms prevent UI lag
+- **Error Recovery**: Automatic reconnection and error handling
 
-### 2. Component Statistics  
-- **File Counts**: Actual counts from framework directories
-- **Links**: Direct access to component documentation
-- **Status**: Health indicators for each component
+### Responsive Design
 
-### 3. Analytics Charts
-- **Agent Usage**: Doughnut chart of agent deployments
-- **Hook Stats**: Bar chart of hook execution counts
-- **Trends**: Time-series data for usage patterns
+- **Mobile First**: Optimized for all screen sizes and devices
+- **Adaptive Layout**: CSS Grid and Flexbox for flexible layouts
+- **High Contrast**: Accessibility-compliant color schemes
+- **Reduced Motion**: Respects user motion preferences
 
-### 4. Quick Metrics
-- **Total Sessions**: Cumulative framework usage
-- **Session Frequency**: Average sessions per day
-- **Top Personality**: Most-used agent personality
-- **Framework Updates**: Recent tool executions
+### Accessibility Features
 
-### 5. Operations Timeline
-- **Recent Activity**: Last 10 operations with timestamps
-- **Operation Types**: Categorized by activity type
-- **File Counts**: Documents generated per operation
+- **ARIA Labels**: Complete screen reader support
+- **Keyboard Navigation**: Full keyboard accessibility
+- **Focus Management**: Enhanced focus indicators
+- **Screen Reader Announcements**: Important changes announced automatically
 
-### 6. Navigation Grid
-- **Documentation**: Links to core framework files
-- **Tools**: Access to utilities and maintenance scripts  
-- **Structure**: Organized view of framework directories
-- **Actions**: Quick dashboard operations
+### Interactive Controls
 
-## 🔍 Troubleshooting
+- **RECENTER Workflow**: One-click framework realignment
+- **Optimization Scan**: Automated improvement detection
+- **Framework Validation**: Comprehensive system health checking
+- **Agent Deployment**: Direct agent deployment controls
+
+## Integration Points
+
+The dashboard integrates seamlessly with:
+
+- **CLAUDE.md**: Universal Operation Mode specifications
+- **Agent System**: Existing agent deployment infrastructure
+- **Framework Validation**: Built-in validation workflows
+- **Performance Monitoring**: Real-time system monitoring APIs
+- **Git Integration**: Version control and change tracking
+- **Session Management**: Framework session coordination
+
+## Usage Instructions
+
+### Getting Started
+
+1. **Open Dashboard**: Navigate to `index.html` in a modern web browser
+2. **Auto-Initialization**: Dashboard automatically loads Universal Operation Mode
+3. **Real-time Updates**: All metrics begin updating immediately
+4. **Interactive Use**: Click any component for detailed information
+
+### Keyboard Shortcuts
+
+- **Ctrl/Cmd + R**: Execute RECENTER workflow
+- **Ctrl/Cmd + O**: Run optimization scan
+- **Ctrl/Cmd + V**: Validate framework integrity
+- **Ctrl/Cmd + H**: Show help overlay
+- **Alt + Tab**: Cycle through dashboard sections
+- **Esc**: Close modals and overlays
+
+### Dashboard Sections
+
+1. **Header**: System status overview and operation mode indicator
+2. **Mandates Grid**: All 16 Universal Execution Mandates with live status
+3. **Coherence Monitor**: Framework integrity and health metrics
+4. **Agent Coordination**: Real-time agent management and deployment
+5. **Performance Analytics**: System performance charts and recommendations
+6. **Footer**: Quick actions and system information
+
+### Status Indicators
+
+- **Green (Active)**: Component operating optimally
+- **Yellow (Warning)**: Component needs attention
+- **Red (Critical)**: Component requires immediate action
+- **Blue (Info)**: Component information or status update
+
+### Action Buttons
+
+- **RECENTER**: Execute comprehensive framework realignment
+- **OPTIMIZE**: Scan for performance improvement opportunities
+- **VALIDATE**: Run complete framework integrity validation
+- **Deploy Agent**: Launch specialized or task agents
+- **Orchestrate**: Coordinate parallel agent execution
+
+## Data Sources
+
+The dashboard utilizes several data sources:
+
+### Configuration Files
+
+- **mandates-config.json**: Universal Execution Mandates specifications
+- **agents-registry.json**: Available agent types and configurations
+- **performance-baseline.json**: Performance thresholds and targets
+
+### Real-time APIs
+
+- **Framework Status API**: Live mandate and coherence data
+- **Agent Management API**: Agent deployment and coordination
+- **Performance Metrics API**: System performance and analytics
+- **WebSocket Updates**: Real-time data streaming
+
+### Local Storage
+
+- **User Preferences**: Theme, layout, and notification settings
+- **Session State**: Dashboard configuration and view preferences
+- **Performance Cache**: Recent performance data for offline viewing
+
+## Customization
+
+### Themes
+
+- **Adaptive (Default)**: Follows system light/dark preference
+- **Light Mode**: Light theme for bright environments
+- **Dark Mode**: Dark theme for low-light conditions
+
+### Layout Options
+
+- **Compact View**: Dense information display
+- **Comfortable View**: Standard spacing and sizing
+- **Spacious View**: Maximum readability and accessibility
+
+### Notification Settings
+
+- **All Notifications**: Complete system alerts
+- **Critical Only**: Only urgent system alerts
+- **Silent Mode**: Visual indicators only
+
+## Performance Considerations
+
+### Optimization Features
+
+- **Lazy Loading**: Components load only when visible
+- **Virtual Scrolling**: Efficient handling of large data sets
+- **Debounced Updates**: Prevents excessive re-rendering
+- **Background Processing**: Non-blocking data operations
+
+### Browser Compatibility
+
+- **Modern Browsers**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
+- **Mobile Support**: iOS Safari 14+, Android Chrome 90+
+- **Progressive Enhancement**: Graceful degradation for older browsers
+- **WebSocket Fallback**: Polling fallback for connectivity issues
+
+## Security Features
+
+### Data Protection
+
+- **No Sensitive Data**: Dashboard displays only operational metrics
+- **Local Processing**: All calculations performed client-side
+- **Secure Communications**: HTTPS and WSS protocols required
+- **Session Security**: Automatic session timeout and cleanup
+
+### Access Control
+
+- **Read-Only Interface**: Dashboard provides monitoring only
+- **Action Confirmation**: Critical actions require confirmation
+- **Audit Trail**: All actions logged for accountability
+- **Privacy Compliance**: No personal data collection
+
+## Troubleshooting
 
 ### Common Issues
 
-**Dashboard Won't Load**
-```bash
-# Check if files exist
-ls -la /Users/nalve/.claude/system/dashboard/
+**Dashboard not loading:**
+- Check browser JavaScript console for errors
+- Verify all CSS and JS files are accessible
+- Ensure modern browser with required features
 
-# Verify permissions
-chmod +x /Users/nalve/.claude/system/dashboard/scripts/*.py
-```
+**Real-time updates not working:**
+- Check browser console for WebSocket errors
+- Verify network connectivity and firewall settings
+- Try refreshing the dashboard
 
-**API Server Won't Start**
-```bash
-# Check port availability
-lsof -i :8080
+**Performance issues:**
+- Check browser performance tab for bottlenecks
+- Reduce dashboard complexity if needed
+- Close other browser tabs to free resources
 
-# Start with debug output
-python3 dashboard_api.py --host 127.0.0.1 --port 8081
-```
+**Accessibility problems:**
+- Enable browser accessibility features
+- Check keyboard navigation functionality
+- Verify screen reader compatibility
 
-**No Data Showing**
-```bash
-# Run manual metrics collection
-cd /Users/nalve/.claude/system/dashboard/scripts
-python3 collect_metrics.py
+### Support Resources
 
-# Check hook integration
-/Users/nalve/.claude/hooks/test_hooks.py
-```
+- **Framework Documentation**: See core framework documentation
+- **Browser DevTools**: Use F12 tools for debugging
+- **Console Logging**: Check browser console for detailed information
+- **Performance Monitor**: Built-in performance monitoring and alerts
 
-**Permission Errors**
-```bash
-# Fix hook permissions
-chmod +x /Users/nalve/.claude/hooks/*.py
+## Development
 
-# Fix script permissions
-chmod +x /Users/nalve/.claude/system/dashboard/scripts/*.py
-```
+### Architecture Principles
 
-### Debug Mode
-Enable debug output for troubleshooting:
+- **Modular Design**: Independent, reusable components
+- **Event-Driven**: Loose coupling through event system
+- **Performance First**: Optimized for real-time operation
+- **Accessibility Native**: Built-in accessibility from ground up
 
-```bash
-# Run health check with verbose output
-python3 health_check.py 2>&1 | tee debug.log
+### Extension Points
 
-# Check API responses
-curl -v http://127.0.0.1:8080/api/health
-```
+- **Custom Components**: Add new dashboard sections
+- **Data Sources**: Integrate additional data providers
+- **Themes**: Create custom visual themes
+- **Widgets**: Develop specialized monitoring widgets
 
-## 🚀 Performance
+### Code Organization
 
-### Optimization Features
-- **Smart Caching**: API responses cached for 2-15 minutes
-- **Incremental Updates**: Only changed data refreshed  
-- **Lazy Loading**: Charts rendered on demand
-- **Compression**: JSON data minimized for transfer
+- **CSS Architecture**: BEM methodology with CSS custom properties
+- **JavaScript Modules**: ES6 modules with clear dependencies
+- **Data Layer**: Centralized data management and binding
+- **Component System**: Reusable, testable component architecture
 
-### Resource Usage
-- **Memory**: ~10-20MB for dashboard server
-- **Storage**: ~1-5MB for metrics cache and logs
-- **CPU**: Minimal, spikes during metrics collection
-- **Network**: Local-only by default
+## Future Enhancements
 
-## 🔐 Security
+### Planned Features
 
-### Access Control
-- **Local Only**: Default binding to 127.0.0.1
-- **No Authentication**: Designed for local framework use
-- **File Permissions**: Respects system file permissions
-- **Sandboxed**: Limited to framework directory
+- **Advanced Analytics**: Machine learning performance insights
+- **Custom Dashboards**: User-configurable dashboard layouts
+- **Mobile Apps**: Native mobile applications
+- **API Integration**: Extended third-party integrations
+- **Collaborative Features**: Multi-user dashboard sharing
 
-### Data Privacy
-- **Local Data**: All metrics stored locally
-- **No External Calls**: Dashboard works offline
-- **Framework Only**: Only monitors framework activity
-- **Opt-in**: Dashboard use is optional
+### Technology Roadmap
 
-## 🎯 Integration
-
-### With Framework Workflows
-- **Automatic Updates**: Hooks update metrics seamlessly
-- **Workflow Visibility**: Operations show in timeline
-- **Health Monitoring**: Issues surface in dashboard
-- **Performance Tracking**: Framework efficiency visible
-
-### With Git Workflow  
-- **Commit Tracking**: Recent commits displayed
-- **Change Monitoring**: Uncommitted changes tracked
-- **Repository Health**: Branch and remote status
-- **Activity Correlation**: Git activity vs framework usage
-
-### With Agent System
-- **Usage Analytics**: Agent deployment patterns
-- **Performance Metrics**: Agent effectiveness tracking
-- **Trend Analysis**: Agent preference evolution
-- **Recommendation Engine**: Usage optimization suggestions
-
-## 📚 Advanced Usage
-
-### Programmatic Access
-```python
-# Using the API directly
-import requests
-
-# Get current health status
-response = requests.get('http://127.0.0.1:8080/api/health')
-health_data = response.json()
-
-print(f"Framework health: {health_data['health_score']}%")
-```
-
-### Custom Metrics
-Extend the dashboard with custom metrics:
-
-```python
-# Add custom metric collection
-from update_dashboard_metrics import DashboardMetricsUpdater
-
-updater = DashboardMetricsUpdater()
-custom_data = {"custom_metric": "value"}
-updater.update_from_hook_data({
-    "event": "custom_event",
-    "custom_data": custom_data
-})
-```
-
-### Automation Scripts
-```bash
-#!/bin/bash
-# Daily dashboard maintenance script
-
-cd /Users/nalve/.claude/system/dashboard/scripts
-
-# Collect fresh metrics
-python3 collect_metrics.py
-
-# Run health check
-python3 health_check.py
-
-# Archive old logs
-find ../data -name "*.log" -mtime +30 -delete
-```
-
-## 🤝 Contributing
-
-### Dashboard Improvements
-1. **Fork**: Copy dashboard files to development location
-2. **Modify**: Update HTML, CSS, JS, or Python as needed
-3. **Test**: Ensure dashboard functions correctly
-4. **Document**: Update README with changes
-5. **Deploy**: Copy changes back to framework
-
-### Adding Metrics
-1. **Identify Data Source**: Determine what to measure
-2. **Update Collector**: Modify collection scripts
-3. **Update API**: Add new endpoint if needed
-4. **Update Frontend**: Add display components
-5. **Test Integration**: Ensure end-to-end functionality
-
-### Reporting Issues
-- **Framework Issues**: Report via framework channels
-- **Dashboard Bugs**: Create detailed reproduction steps
-- **Feature Requests**: Describe use case and requirements
-- **Performance Issues**: Include system information and logs
+- **WebAssembly**: High-performance computation modules
+- **Service Workers**: Offline functionality and caching
+- **Progressive Web App**: App-like installation and features
+- **Advanced Visualizations**: 3D graphics and immersive displays
 
 ---
 
-## 📄 License
+## Compatibility
 
-Part of the Claude Simple and Easy Framework. Use in accordance with framework licensing.
+- **Framework Version**: Claude Framework v4.0+
+- **Node.js**: >= 14.0.0 (for development)
+- **Browser Support**: Modern browsers with ES6+ support
+- **Mobile**: iOS 14+, Android 8+
 
-## 🔗 Related Documentation
+## License
 
-- [Framework Overview](../README.md)
-- [System Index](../INDEX.md)  
-- [Hooks Documentation](../../hooks/README.md)
-- [Processes](../PROCESSES.md)
-- [Standards](../STANDARDS.md)
+This dashboard is part of the Claude Framework and follows the same MIT License terms as the parent project.
+
+---
+
+**Built with Universal Operation Mode principles: Maximum Capability. Universal Excellence. Perpetual Optimization.**
+
+*This README serves as the definitive guide to the Claude Framework v4.0 Dashboard Architecture and its Universal Operation Mode integration.*

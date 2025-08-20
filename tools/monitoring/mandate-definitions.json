@@ -1,0 +1,864 @@
+{
+  "version": "4.0",
+  "description": "Universal Execution Mandates - Comprehensive Pattern Tracking Configuration",
+  "lastUpdated": "2025-08-20",
+  "universalOperationMode": true,
+  "mandates": {
+    "core-methodology": {
+      "clusterId": 1,
+      "clusterName": "Core Methodology",
+      "clusterDescription": "Primary Pattern Cluster - Critical Foundation Mandates",
+      "priority": "CRITICAL",
+      "mandates": {
+        "progressive-think": {
+          "id": 1,
+          "name": "Progressive Think",
+          "description": "4-level analysis tracking (Think → Think Hard → Think Harder → Ultra Think)",
+          "weight": "CRITICAL",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "think-level-1",
+              "name": "Think Level 1",
+              "description": "Initial analysis and understanding",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "think-level-2", 
+              "name": "Think Level 2",
+              "description": "Deep analysis and pattern recognition",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "think-level-3",
+              "name": "Think Level 3", 
+              "description": "Strategic optimization and risk assessment",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "think-level-4",
+              "name": "Think Level 4",
+              "description": "Meta-analysis and system integration",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "SKIP_LEVEL",
+              "severity": "HIGH",
+              "description": "Skipping progressive thinking levels"
+            },
+            {
+              "type": "INCOMPLETE_ANALYSIS",
+              "severity": "MEDIUM", 
+              "description": "Not completing all 4 levels before acting"
+            }
+          ]
+        },
+        "agent-deployment": {
+          "id": 2,
+          "name": "Agent Deployment",
+          "description": "Specialized agent usage monitoring - NEVER work directly",
+          "weight": "CRITICAL",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "agent-required",
+              "name": "Agent Required",
+              "description": "Specialized work identified requiring agent",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "agent-deployed", 
+              "name": "Agent Deployed",
+              "description": "Appropriate specialized agent deployed",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "direct-work-blocked",
+              "name": "Direct Work Blocked",
+              "description": "Direct implementation prevented, agent coordination only",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "specialization-verified",
+              "name": "Specialization Verified",
+              "description": "Agent specialization matches task requirements",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "DIRECT_WORK",
+              "severity": "CRITICAL",
+              "description": "Attempting direct work instead of agent deployment"
+            },
+            {
+              "type": "WRONG_SPECIALIZATION",
+              "severity": "HIGH",
+              "description": "Using non-specialized agent for specialized work"
+            }
+          ]
+        },
+        "todowrite-tracking": {
+          "id": 3,
+          "name": "TodoWrite Tracking", 
+          "description": "Task atomization compliance - ALL tasks broken down",
+          "weight": "CRITICAL",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "task-received",
+              "name": "Task Received",
+              "description": "Complex task requiring breakdown identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "atomization-applied",
+              "name": "Atomization Applied", 
+              "description": "Task broken into atomic components",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "indivisible-verified",
+              "name": "Indivisible Verified",
+              "description": "Each subtask is truly indivisible",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "actionable-confirmed",
+              "name": "Actionable Confirmed",
+              "description": "All subtasks are immediately actionable",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "SKIPPED_BREAKDOWN",
+              "severity": "HIGH",
+              "description": "Starting complex work without TodoWrite breakdown"
+            },
+            {
+              "type": "NON_ATOMIC",
+              "severity": "MEDIUM",
+              "description": "Task breakdown contains non-atomic components"
+            }
+          ]
+        },
+        "evidence-validation": {
+          "id": 4,
+          "name": "Evidence Validation",
+          "description": "Proof requirement verification for ALL claims",
+          "weight": "CRITICAL", 
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "claim-identified",
+              "name": "Claim Identified",
+              "description": "Statement requiring evidence identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "evidence-required",
+              "name": "Evidence Required",
+              "description": "Evidence requirement triggered for claim",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "proof-provided",
+              "name": "Proof Provided", 
+              "description": "Verifiable proof provided for claim",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "validation-complete",
+              "name": "Validation Complete",
+              "description": "Evidence validated and claim verified",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "UNSUPPORTED_CLAIM",
+              "severity": "CRITICAL",
+              "description": "Making claims without providing evidence"
+            },
+            {
+              "type": "INVALID_PROOF",
+              "severity": "HIGH",
+              "description": "Providing proof that doesn't validate claim"
+            }
+          ]
+        }
+      }
+    },
+    "research-preparation": {
+      "clusterId": 2,
+      "clusterName": "Research & Preparation",
+      "clusterDescription": "Secondary Pattern Cluster - Research and Documentation Mandates",
+      "priority": "MANDATORY",
+      "mandates": {
+        "context7-research": {
+          "id": 5,
+          "name": "Context7 Research",
+          "description": "MANDATORY library integration before coding",
+          "weight": "MANDATORY",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "coding-task-identified",
+              "name": "Coding Task Identified",
+              "description": "Task requiring library integration identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "context7-triggered",
+              "name": "Context7 Triggered",
+              "description": "Context7 tool activated before coding",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "library-docs-loaded", 
+              "name": "Library Docs Loaded",
+              "description": "Current library documentation loaded",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "best-practices-reviewed",
+              "name": "Best Practices Reviewed",
+              "description": "Current best practices and examples analyzed",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "BYPASSED_CONTEXT7",
+              "severity": "CRITICAL",
+              "description": "Starting code implementation without Context7 research"
+            },
+            {
+              "type": "OUTDATED_KNOWLEDGE",
+              "severity": "HIGH",
+              "description": "Using outdated library patterns without current research"
+            }
+          ]
+        },
+        "system-documentation": {
+          "id": 6,
+          "name": "System Documentation",
+          "description": "Framework adherence tracking - check docs first",
+          "weight": "MANDATORY",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "framework-task-identified",
+              "name": "Framework Task Identified", 
+              "description": "Task requiring framework guidance identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "docs-checked",
+              "name": "Docs Checked",
+              "description": "Relevant framework documentation checked first",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "framework-referenced",
+              "name": "Framework Referenced",
+              "description": "Framework patterns and standards referenced",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "compliance-verified",
+              "name": "Compliance Verified",
+              "description": "Implementation matches framework standards",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "IGNORED_FRAMEWORK",
+              "severity": "HIGH",
+              "description": "Implementing solutions without checking framework docs"
+            },
+            {
+              "type": "NON_COMPLIANT",
+              "severity": "MEDIUM",
+              "description": "Implementation doesn't follow framework patterns"
+            }
+          ]
+        },
+        "quality-standards": {
+          "id": 7,
+          "name": "Quality Standards",
+          "description": "TDD/BDD methodology monitoring - Red-Green-Refactor",
+          "weight": "MANDATORY",
+          "enforcement": "MANDATORY",
+          "trackingPoints": [
+            {
+              "id": "development-task-identified",
+              "name": "Development Task Identified",
+              "description": "Development work requiring TDD/BDD identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "test-first-applied",
+              "name": "Test First Applied",
+              "description": "TDD Red phase - test written first",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "implementation-green",
+              "name": "Implementation Green", 
+              "description": "TDD Green phase - minimal implementation passes",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "refactor-completed",
+              "name": "Refactor Completed",
+              "description": "TDD Refactor phase - code optimized",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "SKIPPED_TDD",
+              "severity": "HIGH",
+              "description": "Implementing code without TDD methodology"
+            },
+            {
+              "type": "NO_REFACTOR",
+              "severity": "MEDIUM",
+              "description": "Skipping refactor phase in Red-Green-Refactor cycle"
+            }
+          ]
+        },
+        "pattern-documentation": {
+          "id": 8,
+          "name": "Pattern Documentation",
+          "description": "Discovery recording verification - document immediately",
+          "weight": "MANDATORY",
+          "enforcement": "MANDATORY", 
+          "trackingPoints": [
+            {
+              "id": "pattern-discovered",
+              "name": "Pattern Discovered",
+              "description": "New pattern or optimization discovered",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "immediate-capture",
+              "name": "Immediate Capture",
+              "description": "Pattern captured immediately upon discovery",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "system-files-updated",
+              "name": "System Files Updated",
+              "description": "Relevant framework files updated with pattern",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "replication-enabled",
+              "name": "Replication Enabled",
+              "description": "Pattern documented for future replication",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "UNDOCUMENTED_DISCOVERY",
+              "severity": "MEDIUM",
+              "description": "Discovering patterns without immediate documentation"
+            },
+            {
+              "type": "DELAYED_RECORDING",
+              "severity": "LOW",
+              "description": "Delaying pattern documentation beyond immediate capture"
+            }
+          ]
+        }
+      }
+    },
+    "workflow-automation": {
+      "clusterId": 3,
+      "clusterName": "Workflow Automation", 
+      "clusterDescription": "Tertiary Pattern Cluster - Automation and Integration Mandates",
+      "priority": "AUTOMATED",
+      "mandates": {
+        "git-integration": {
+          "id": 9,
+          "name": "Git Integration",
+          "description": "Auto-commit + push behavior tracking",
+          "weight": "AUTOMATED",
+          "enforcement": "AUTOMATED",
+          "trackingPoints": [
+            {
+              "id": "changes-detected",
+              "name": "Changes Detected",
+              "description": "File changes requiring commit detected",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "auto-commit-triggered",
+              "name": "Auto-commit Triggered",
+              "description": "Automatic commit process initiated",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "commit-message-generated",
+              "name": "Commit Message Generated",
+              "description": "Descriptive commit message generated",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "push-executed",
+              "name": "Push Executed",
+              "description": "Changes pushed to remote repository",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "MANUAL_ONLY",
+              "severity": "LOW",
+              "description": "Requiring manual commits instead of automation"
+            },
+            {
+              "type": "POOR_MESSAGES",
+              "severity": "MEDIUM",
+              "description": "Generated commit messages lack descriptive detail"
+            }
+          ]
+        },
+        "parallel-execution": {
+          "id": 10,
+          "name": "Parallel Execution",
+          "description": "Concurrent agent monitoring (MAX 10 per message)",
+          "weight": "AUTOMATED",
+          "enforcement": "AUTOMATED", 
+          "trackingPoints": [
+            {
+              "id": "parallelizable-tasks-identified",
+              "name": "Parallelizable Tasks Identified",
+              "description": "Independent tasks suitable for parallel execution",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "agents-queued",
+              "name": "Agents Queued",
+              "description": "Multiple specialized agents queued for execution",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "parallel-deployment",
+              "name": "Parallel Deployment",
+              "description": "Agents deployed concurrently (MAX 10)",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "results-synchronized",
+              "name": "Results Synchronized", 
+              "description": "Parallel results coordinated and synchronized",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "SEQUENTIAL_ONLY",
+              "severity": "MEDIUM",
+              "description": "Processing parallelizable tasks sequentially"
+            },
+            {
+              "type": "EXCEEDED_LIMIT",
+              "severity": "HIGH",
+              "description": "Deploying more than 10 agents per message"
+            }
+          ]
+        },
+        "session-management": {
+          "id": 11,
+          "name": "Session Management",
+          "description": "RECENTER workflow activation tracking",
+          "weight": "AUTOMATED",
+          "enforcement": "AUTOMATED",
+          "trackingPoints": [
+            {
+              "id": "complexity-detected",
+              "name": "Complexity Detected",
+              "description": "Overwhelming complexity requiring RECENTER",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "recenter-triggered",
+              "name": "RECENTER Triggered", 
+              "description": "RECENTER workflow automatically activated",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "patterns-activated",
+              "name": "Patterns Activated",
+              "description": "All 16 universal patterns reactivated",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "optimization-applied",
+              "name": "Optimization Applied",
+              "description": "Session optimized with framework realignment",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "COMPLEXITY_OVERWHELM",
+              "severity": "HIGH",
+              "description": "Allowing complexity to overwhelm without RECENTER"
+            },
+            {
+              "type": "MANUAL_RECENTER",
+              "severity": "LOW",
+              "description": "Requiring manual RECENTER instead of auto-trigger"
+            }
+          ]
+        },
+        "framework-updates": {
+          "id": 12,
+          "name": "Framework Updates",
+          "description": "CLAUDE.md correction tracking - immediate updates",
+          "weight": "AUTOMATED",
+          "enforcement": "AUTOMATED",
+          "trackingPoints": [
+            {
+              "id": "error-identified",
+              "name": "Error Identified",
+              "description": "Framework error or improvement identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "correction-documented",
+              "name": "Correction Documented",
+              "description": "Correction documented with evidence",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "claude-md-updated",
+              "name": "CLAUDE.md Updated",
+              "description": "Framework file immediately updated",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "prevention-enabled",
+              "name": "Prevention Enabled",
+              "description": "Future prevention mechanism implemented",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "DELAYED_UPDATE",
+              "severity": "HIGH",
+              "description": "Delaying framework updates beyond immediate correction"
+            },
+            {
+              "type": "INCOMPLETE_LEARNING",
+              "severity": "MEDIUM",
+              "description": "Not implementing prevention for identified errors"
+            }
+          ]
+        }
+      }
+    },
+    "intelligence-amplification": {
+      "clusterId": 4,
+      "clusterName": "Intelligence Amplification",
+      "clusterDescription": "Quaternary Pattern Cluster - Advanced Intelligence and Optimization Mandates",
+      "priority": "INTELLIGENT",
+      "mandates": {
+        "personality-orchestration": {
+          "id": 13,
+          "name": "Personality Orchestration",
+          "description": "Dynamic optimal adaptation monitoring - 7 personalities active",
+          "weight": "INTELLIGENT",
+          "enforcement": "INTELLIGENT",
+          "trackingPoints": [
+            {
+              "id": "interaction-analyzed",
+              "name": "Interaction Analyzed",
+              "description": "User interaction style and task requirements analyzed",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "personalities-assessed",
+              "name": "Personalities Assessed",
+              "description": "7 available personalities evaluated for optimal blend",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "optimal-blend-calculated",
+              "name": "Optimal Blend Calculated",
+              "description": "Best personality combination calculated dynamically",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "dynamic-adaptation",
+              "name": "Dynamic Adaptation",
+              "description": "Real-time personality adaptation during interaction",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "SINGLE_PERSONALITY",
+              "severity": "MEDIUM",
+              "description": "Using single personality instead of optimal blend"
+            },
+            {
+              "type": "STATIC_APPROACH",
+              "severity": "LOW",
+              "description": "Not adapting personality dynamically during interaction"
+            }
+          ]
+        },
+        "knowledge-integration": {
+          "id": 14,
+          "name": "Knowledge Integration", 
+          "description": "Framework knowledge loading - auto-load relevant info",
+          "weight": "INTELLIGENT",
+          "enforcement": "INTELLIGENT",
+          "trackingPoints": [
+            {
+              "id": "knowledge-requirements-identified",
+              "name": "Knowledge Requirements Identified",
+              "description": "Specific knowledge requirements for task identified",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "relevant-docs-identified",
+              "name": "Relevant Docs Identified",
+              "description": "Framework documentation relevant to task identified",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "context-integrated",
+              "name": "Context Integrated",
+              "description": "Relevant knowledge integrated into working context",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "expertise-activated",
+              "name": "Expertise Activated",
+              "description": "Domain expertise activated for optimal performance",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "KNOWLEDGE_GAP",
+              "severity": "HIGH",
+              "description": "Operating without relevant framework knowledge"
+            },
+            {
+              "type": "INCOMPLETE_INTEGRATION",
+              "severity": "MEDIUM",
+              "description": "Partial knowledge integration affecting performance"
+            }
+          ]
+        },
+        "quality-assurance": {
+          "id": 15,
+          "name": "Quality Assurance",
+          "description": "Excellence standards compliance - maximum quality always", 
+          "weight": "INTELLIGENT",
+          "enforcement": "INTELLIGENT",
+          "trackingPoints": [
+            {
+              "id": "quality-requirements-defined",
+              "name": "Quality Requirements Defined",
+              "description": "Maximum quality standards defined for deliverable",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "standards-applied",
+              "name": "Standards Applied",
+              "description": "Quality standards actively applied during work",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "quality-gates-checked",
+              "name": "Quality Gates Checked",
+              "description": "Quality gates verified before delivery",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "excellence-achieved",
+              "name": "Excellence Achieved",
+              "description": "Maximum excellence standards achieved",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "QUALITY_COMPROMISE",
+              "severity": "HIGH",
+              "description": "Compromising on quality for speed or convenience"
+            },
+            {
+              "type": "SKIPPED_GATES",
+              "severity": "MEDIUM",
+              "description": "Bypassing quality gates before delivery"
+            }
+          ]
+        },
+        "optimization-detection": {
+          "id": 16,
+          "name": "Optimization Detection",
+          "description": "Improvement identification tracking - continuous enhancement",
+          "weight": "INTELLIGENT", 
+          "enforcement": "INTELLIGENT",
+          "trackingPoints": [
+            {
+              "id": "performance-baseline-established",
+              "name": "Performance Baseline Established",
+              "description": "Current performance and efficiency baseline measured",
+              "required": true,
+              "sequence": 1
+            },
+            {
+              "id": "opportunities-scanned",
+              "name": "Opportunities Scanned",
+              "description": "Continuous scanning for optimization opportunities",
+              "required": true,
+              "sequence": 2
+            },
+            {
+              "id": "improvements-identified",
+              "name": "Improvements Identified",
+              "description": "Specific improvements identified with impact analysis",
+              "required": true,
+              "sequence": 3
+            },
+            {
+              "id": "optimizations-implemented",
+              "name": "Optimizations Implemented",
+              "description": "Identified optimizations implemented and measured",
+              "required": true,
+              "sequence": 4
+            }
+          ],
+          "violations": [
+            {
+              "type": "MISSED_OPPORTUNITIES",
+              "severity": "MEDIUM",
+              "description": "Missing obvious optimization opportunities"
+            },
+            {
+              "type": "NO_MEASUREMENT",
+              "severity": "LOW",
+              "description": "Implementing optimizations without measuring impact"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "complianceThresholds": {
+    "excellent": 95.0,
+    "good": 80.0,
+    "acceptable": 60.0,
+    "poor": 40.0,
+    "critical": 20.0
+  },
+  "alertRules": [
+    {
+      "type": "MANDATE_VIOLATION",
+      "severity": "CRITICAL",
+      "threshold": 1,
+      "action": "IMMEDIATE_ALERT"
+    },
+    {
+      "type": "LOW_COMPLIANCE",
+      "severity": "HIGH", 
+      "threshold": 40.0,
+      "action": "ESCALATED_MONITORING"
+    },
+    {
+      "type": "PATTERN_DEGRADATION",
+      "severity": "MEDIUM",
+      "threshold": 20.0,
+      "action": "RECENTER_TRIGGER"
+    },
+    {
+      "type": "CLUSTER_FAILURE",
+      "severity": "CRITICAL",
+      "threshold": 0.5,
+      "action": "EMERGENCY_PROTOCOL"
+    }
+  ],
+  "performanceTargets": {
+    "overallCompliance": 95.0,
+    "clusterActivation": 100.0,
+    "violationRate": 0.0,
+    "responseTime": 50,
+    "patternSync": 100.0
+  }
+}

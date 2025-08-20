@@ -1,0 +1,138 @@
+{
+  "model": "sonnet",
+  "project_info": {
+    "name": "project-name",
+    "framework_version": "4.0-universal",
+    "hooks_integration": "seamless"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "name": "project-session-initialization",
+        "description": "Project-specific session initialization with framework integration",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $(pwd) && python3 .claude/hooks/project_session_start.py",
+            "timeout": 10,
+            "priority": 1,
+            "project_integration": {
+              "project_status": "analyze-current-state",
+              "framework_alignment": "validate-compliance",
+              "local_customizations": "apply-claude-local-md",
+              "work_continuity": "restore-context"
+            }
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "name": "project-context-enhancement",
+        "description": "Project-aware context injection and validation",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $(pwd) && python3 .claude/hooks/project_context_injection.py",
+            "timeout": 5,
+            "priority": 1,
+            "project_integration": {
+              "project_context": "inject-relevant-info",
+              "local_patterns": "apply-project-specific",
+              "agent_recommendations": "project-optimized",
+              "workflow_guidance": "context-aware"
+            }
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "name": "project-workflow-validation",
+        "description": "Project-specific workflow validation with framework compliance",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $(pwd) && python3 .claude/hooks/project_validation.py",
+            "timeout": 5,
+            "priority": 1,
+            "project_integration": {
+              "project_standards": "enforce-local-standards",
+              "file_organization": "validate-structure",
+              "git_workflow": "project-specific-validation",
+              "quality_gates": "project-appropriate"
+            }
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "name": "project-maintenance-optimization",
+        "description": "Project-aware maintenance with framework updates",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd $(pwd) && python3 .claude/hooks/project_maintenance.py",
+            "timeout": 10,
+            "priority": 1,
+            "project_integration": {
+              "project_organization": "maintain-structure",
+              "local_documentation": "update-project-docs",
+              "git_integration": "project-aware-commits",
+              "performance_tracking": "project-metrics"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "project_framework_integration": {
+    "inheritance": {
+      "global_settings": "inherit-and-extend",
+      "universal_patterns": "all-active",
+      "framework_compliance": "mandatory",
+      "quality_standards": "project-enhanced"
+    },
+    "customization": {
+      "local_overrides": "claude-local-md-based",
+      "project_patterns": "extend-not-replace",
+      "workflow_adaptations": "context-appropriate",
+      "agent_specializations": "project-optimized"
+    }
+  },
+  "project_hook_features": {
+    "intelligent_adaptation": {
+      "project_type_detection": true,
+      "workflow_optimization": true,
+      "context_awareness": true,
+      "progressive_enhancement": true
+    },
+    "local_state_management": {
+      "project_continuity": true,
+      "local_pattern_learning": true,
+      "context_persistence": true,
+      "optimization_tracking": true
+    },
+    "integration_validation": {
+      "framework_coherence": "continuous",
+      "local_compliance": "enforced",
+      "cross_project_consistency": "validated",
+      "quality_maintenance": "automatic"
+    }
+  },
+  "coordination_with_global": {
+    "hook_hierarchy": {
+      "global_hooks": "execute-first",
+      "project_hooks": "extend-and-enhance", 
+      "conflict_resolution": "project-specific-wins",
+      "fallback_behavior": "global-defaults"
+    },
+    "state_synchronization": {
+      "global_patterns": "inherit-and-adapt",
+      "project_learnings": "contribute-to-global",
+      "cross_pollination": "bidirectional",
+      "optimization_sharing": "intelligent"
+    }
+  }
+}

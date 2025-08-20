@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Pattern Visualization Dashboard</title>
+    <style>
+        :root {
+            --primary-color: #6366f1;
+            --success-color: #10b981;
+            --warning-color: #f59e0b;
+            --danger-color: #ef4444;
+            --info-color: #06b6d4;
+            --purple-color: #8b5cf6;
+            --accent-color: #00d4ff;
+            --background: #0f172a;
+            --surface: #1e293b;
+            --surface-light: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --border: #475569;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--background);
+            color: var(--text-primary);
+            line-height: 1.5;
+            overflow-x: hidden;
+        }
+
+        .dashboard-container {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            padding: 2rem 0;
+            position: fixed;
+            width: 280px;
+            height: 100vh;
+            overflow-y: auto;
+        }
+
+        .sidebar-header {
+            padding: 0 2rem 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, var(--accent-color), var(--primary-color));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .nav-section {
+            margin-bottom: 2rem;
+        }
+
+        .nav-title {
+            padding: 0 2rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1rem;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem 2rem;
+            color: var(--text-secondary);
+            text-decoration: none;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+
+        .nav-item:hover,
+        .nav-item.active {
+            background: var(--surface-light);
+            color: var(--text-primary);
+        }
+
+        .nav-item.active {
+            border-right: 3px solid var(--accent-color);
+        }
+
+        .nav-icon {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-content {
+            margin-left: 280px;
+            padding: 2rem;
+        }
+
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .page-title {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .action-button {
+            padding: 0.75rem 1.5rem;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-weight: 600;
+        }
+
+        .action-button:hover {
+            background: #5856eb;
+            transform: translateY(-1px);
+        }
+
+        .action-button.secondary {
+            background: transparent;
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+        }
+
+        .action-button.secondary:hover {
+            background: var(--surface-light);
+            color: var(--text-primary);
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1rem;
+            background: var(--surface);
+            border-radius: 20px;
+            border: 1px solid var(--border);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success-color);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.6; }
+        }
+
+        .content-area {
+            position: relative;
+        }
+
+        .visualization-frame {
+            width: 100%;
+            height: calc(100vh - 200px);
+            border: none;
+            border-radius: 12px;
+            background: var(--surface);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .stat-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+        }
+
+        .loading-overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(15, 23, 42, 0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top: 3px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .notifications {
+            position: fixed;
+            top: 2rem;
+            right: 2rem;
+            z-index: 1000;
+            max-width: 400px;
+        }
+
+        .notification {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            transform: translateX(100%);
+            animation: slideIn 0.3s ease forwards;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        .notification.success {
+            border-left: 4px solid var(--success-color);
+        }
+
+        .notification.warning {
+            border-left: 4px solid var(--warning-color);
+        }
+
+        .notification.error {
+            border-left: 4px solid var(--danger-color);
+        }
+
+        .notification-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .notification-title {
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+
+        .notification-close {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            font-size: 1.25rem;
+        }
+
+        .notification-text {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+        }
+
+        @media (max-width: 1024px) {
+            .dashboard-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+                z-index: 1000;
+            }
+            
+            .sidebar.mobile-open {
+                transform: translateX(0);
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .mobile-menu-button {
+                display: block;
+                background: none;
+                border: none;
+                color: var(--text-primary);
+                font-size: 1.5rem;
+                cursor: pointer;
+            }
+        }
+
+        @media (min-width: 1025px) {
+            .mobile-menu-button {
+                display: none;
+            }
+        }
+
+        .export-options {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            min-width: 200px;
+            z-index: 100;
+        }
+
+        .export-option {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: background 0.2s ease;
+        }
+
+        .export-option:hover {
+            background: var(--surface-light);
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">📊</div>
+                    Pattern Dashboard
+                </div>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-title">Visualizations</div>
+                <a href="#" class="nav-item active" data-view="heatmap">
+                    <div class="nav-icon">🔥</div>
+                    <span>Pattern Activation Heatmap</span>
+                </a>
+                <a href="#" class="nav-item" data-view="realtime">
+                    <div class="nav-icon">⚡</div>
+                    <span>Real-time Dashboard</span>
+                </a>
+                <a href="#" class="nav-item" data-view="coherence">
+                    <div class="nav-icon">🎯</div>
+                    <span>Framework Coherence</span>
+                </a>
+                <a href="#" class="nav-item" data-view="advanced">
+                    <div class="nav-icon">🚀</div>
+                    <span>Advanced 3D Views</span>
+                </a>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-title">Analysis</div>
+                <a href="#" class="nav-item" data-view="performance">
+                    <div class="nav-icon">📈</div>
+                    <span>Performance Metrics</span>
+                </a>
+                <a href="#" class="nav-item" data-view="trends">
+                    <div class="nav-icon">📊</div>
+                    <span>Trend Analysis</span>
+                </a>
+                <a href="#" class="nav-item" data-view="optimization">
+                    <div class="nav-icon">⚙️</div>
+                    <span>Optimization Reports</span>
+                </a>
+            </div>
+
+            <div class="nav-section">
+                <div class="nav-title">System</div>
+                <a href="#" class="nav-item" data-view="alerts">
+                    <div class="nav-icon">🚨</div>
+                    <span>Active Alerts</span>
+                </a>
+                <a href="#" class="nav-item" data-view="settings">
+                    <div class="nav-icon">⚙️</div>
+                    <span>Settings</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <div class="content-header">
+                <div>
+                    <button class="mobile-menu-button" id="mobileMenuButton">☰</button>
+                    <h1 class="page-title" id="pageTitle">Pattern Activation Heatmap</h1>
+                </div>
+                <div class="header-actions">
+                    <div class="status-indicator">
+                        <div class="status-dot"></div>
+                        <span>System Active</span>
+                    </div>
+                    <button class="action-button secondary" id="refreshButton">🔄 Refresh</button>
+                    <div style="position: relative;">
+                        <button class="action-button" id="exportButton">📤 Export</button>
+                        <div class="export-options" id="exportOptions" style="display: none;">
+                            <div class="export-option" data-format="png">
+                                <span>🖼️</span>
+                                <span>Export as PNG</span>
+                            </div>
+                            <div class="export-option" data-format="svg">
+                                <span>🎨</span>
+                                <span>Export as SVG</span>
+                            </div>
+                            <div class="export-option" data-format="pdf">
+                                <span>📄</span>
+                                <span>Export as PDF</span>
+                            </div>
+                            <div class="export-option" data-format="json">
+                                <span>📋</span>
+                                <span>Export Data (JSON)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Stats Overview -->
+            <div class="quick-stats">
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--success-color);" id="overallScore">92.3%</div>
+                    <div class="stat-label">Overall Performance</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--info-color);" id="activeMandates">14/16</div>
+                    <div class="stat-label">Active Mandates</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--accent-color);" id="coherenceScore">98.7%</div>
+                    <div class="stat-label">System Coherence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" style="color: var(--warning-color);" id="alertsCount">3</div>
+                    <div class="stat-label">Active Alerts</div>
+                </div>
+            </div>
+
+            <!-- Content Area -->
+            <div class="content-area">
+                <iframe 
+                    class="visualization-frame" 
+                    id="visualizationFrame" 
+                    src="../components/pattern-activation-heatmap.html"
+                    title="Pattern Visualization">
+                </iframe>
+                <div class="loading-overlay" id="loadingOverlay">
+                    <div class="loading-spinner"></div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Notifications Container -->
+    <div class="notifications" id="notifications"></div>
+
+    <script>
+        // Global state
+        let currentView = 'heatmap';
+        let refreshInterval;
+        
+        // View configurations
+        const viewConfigs = {
+            heatmap: {
+                title: 'Pattern Activation Heatmap',
+                src: '../components/pattern-activation-heatmap.html'
+            },
+            realtime: {
+                title: 'Real-time Dashboard',
+                src: '../components/real-time-dashboard.html'
+            },
+            coherence: {
+                title: 'Framework Coherence Indicators',
+                src: '../components/framework-coherence-indicators.html'
+            },
+            advanced: {
+                title: 'Advanced 3D Visualizations',
+                src: '../components/advanced-visualizations.html'
+            },
+            performance: {
+                title: 'Performance Analytics',
+                src: '../components/pattern-activation-heatmap.html' // Placeholder - would have dedicated component
+            },
+            trends: {
+                title: 'Trend Analysis',
+                src: '../components/real-time-dashboard.html' // Placeholder - would have dedicated component
+            },
+            optimization: {
+                title: 'Optimization Reports',
+                src: '../components/framework-coherence-indicators.html' // Placeholder - would have dedicated component
+            },
+            alerts: {
+                title: 'System Alerts',
+                src: '../components/real-time-dashboard.html' // Placeholder - would have dedicated component
+            },
+            settings: {
+                title: 'Dashboard Settings',
+                src: '../components/pattern-activation-heatmap.html' // Placeholder - would have dedicated component
+            }
+        };
+
+        // Navigation functionality
+        function switchView(viewId) {
+            const config = viewConfigs[viewId];
+            if (!config) return;
+
+            // Update active navigation item
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.classList.remove('active');
+            });
+            document.querySelector(`[data-view="${viewId}"]`).classList.add('active');
+
+            // Update page title
+            document.getElementById('pageTitle').textContent = config.title;
+
+            // Show loading overlay
+            document.getElementById('loadingOverlay').style.display = 'flex';
+
+            // Update iframe source
+            const frame = document.getElementById('visualizationFrame');
+            frame.src = config.src;
+
+            // Hide loading overlay after a delay
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').style.display = 'none';
+            }, 1000);
+
+            currentView = viewId;
+            showNotification('success', 'View Updated', `Switched to ${config.title}`);
+        }
+
+        // Notification system
+        function showNotification(type, title, message, duration = 5000) {
+            const container = document.getElementById('notifications');
+            const notification = document.createElement('div');
+            notification.className = `notification ${type}`;
+            
+            notification.innerHTML = `
+                <div class="notification-header">
+                    <div class="notification-title">${title}</div>
+                    <button class="notification-close">&times;</button>
+                </div>
+                <div class="notification-text">${message}</div>
+            `;
+
+            container.appendChild(notification);
+
+            // Close button functionality
+            notification.querySelector('.notification-close').addEventListener('click', () => {
+                notification.remove();
+            });
+
+            // Auto-remove after duration
+            if (duration > 0) {
+                setTimeout(() => {
+                    if (notification.parentNode) {
+                        notification.remove();
+                    }
+                }, duration);
+            }
+        }
+
+        // Refresh functionality
+        function refreshCurrentView() {
+            const frame = document.getElementById('visualizationFrame');
+            document.getElementById('loadingOverlay').style.display = 'flex';
+            
+            // Force iframe reload
+            frame.src = frame.src;
+            
+            setTimeout(() => {
+                document.getElementById('loadingOverlay').style.display = 'none';
+                showNotification('success', 'Refreshed', 'Visualization data updated');
+                updateQuickStats();
+            }, 1000);
+        }
+
+        // Export functionality
+        function exportVisualization(format) {
+            showNotification('info', 'Export Started', `Exporting visualization as ${format.toUpperCase()}...`);
+            
+            // Simulate export process
+            setTimeout(() => {
+                showNotification('success', 'Export Complete', `Visualization exported as ${format.toUpperCase()}`);
+            }, 2000);
+        }
+
+        // Update quick stats with simulated data
+        function updateQuickStats() {
+            const stats = {
+                overallScore: (90 + Math.random() * 10).toFixed(1) + '%',
+                activeMandates: Math.floor(12 + Math.random() * 4) + '/16',
+                coherenceScore: (95 + Math.random() * 5).toFixed(1) + '%',
+                alertsCount: Math.floor(Math.random() * 5)
+            };
+
+            Object.keys(stats).forEach(key => {
+                const element = document.getElementById(key);
+                if (element) {
+                    element.textContent = stats[key];
+                }
+            });
+        }
+
+        // Mobile menu functionality
+        function toggleMobileMenu() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('mobile-open');
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Navigation items
+            document.querySelectorAll('.nav-item').forEach(item => {
+                item.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const viewId = this.dataset.view;
+                    if (viewId) {
+                        switchView(viewId);
+                    }
+                });
+            });
+
+            // Mobile menu button
+            document.getElementById('mobileMenuButton').addEventListener('click', toggleMobileMenu);
+
+            // Refresh button
+            document.getElementById('refreshButton').addEventListener('click', refreshCurrentView);
+
+            // Export button
+            const exportButton = document.getElementById('exportButton');
+            const exportOptions = document.getElementById('exportOptions');
+            
+            exportButton.addEventListener('click', function(e) {
+                e.stopPropagation();
+                exportOptions.style.display = exportOptions.style.display === 'none' ? 'block' : 'none';
+            });
+
+            // Export options
+            document.querySelectorAll('.export-option').forEach(option => {
+                option.addEventListener('click', function() {
+                    const format = this.dataset.format;
+                    exportVisualization(format);
+                    exportOptions.style.display = 'none';
+                });
+            });
+
+            // Click outside to close export options
+            document.addEventListener('click', function() {
+                exportOptions.style.display = 'none';
+            });
+
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(e) {
+                const sidebar = document.getElementById('sidebar');
+                const mobileButton = document.getElementById('mobileMenuButton');
+                
+                if (window.innerWidth <= 1024 && 
+                    !sidebar.contains(e.target) && 
+                    !mobileButton.contains(e.target)) {
+                    sidebar.classList.remove('mobile-open');
+                }
+            });
+
+            // Initial loading
+            document.getElementById('loadingOverlay').style.display = 'none';
+            
+            // Start auto-refresh for stats
+            refreshInterval = setInterval(updateQuickStats, 30000); // Every 30 seconds
+
+            // Initial stats update
+            updateQuickStats();
+
+            // Welcome notification
+            setTimeout(() => {
+                showNotification('success', 'Dashboard Ready', 'Universal Pattern Visualization Dashboard is now active');
+            }, 500);
+        });
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                switch(e.key) {
+                    case 'r':
+                        e.preventDefault();
+                        refreshCurrentView();
+                        break;
+                    case 'e':
+                        e.preventDefault();
+                        document.getElementById('exportButton').click();
+                        break;
+                    case '1':
+                        e.preventDefault();
+                        switchView('heatmap');
+                        break;
+                    case '2':
+                        e.preventDefault();
+                        switchView('realtime');
+                        break;
+                    case '3':
+                        e.preventDefault();
+                        switchView('coherence');
+                        break;
+                    case '4':
+                        e.preventDefault();
+                        switchView('advanced');
+                        break;
+                }
+            }
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', function() {
+            if (window.innerWidth > 1024) {
+                document.getElementById('sidebar').classList.remove('mobile-open');
+            }
+        });
+
+        // Cleanup on page unload
+        window.addEventListener('beforeunload', function() {
+            if (refreshInterval) {
+                clearInterval(refreshInterval);
+            }
+        });
+    </script>
+</body>
+</html>

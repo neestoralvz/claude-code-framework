@@ -1,0 +1,135 @@
+{
+  "name": "universal-mandate-monitor",
+  "version": "1.0.0",
+  "description": "Real-time monitoring system for Universal Execution Mandates with pattern activation tracking",
+  "main": "mandate-monitor-dashboard.js",
+  "bin": {
+    "mandate-monitor": "./mandate-monitor-dashboard.js",
+    "mandate-server": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node server.js --demo",
+    "monitor": "node mandate-monitor-dashboard.js",
+    "dev": "NODE_ENV=development node server.js --demo",
+    "test": "node test/mandate-monitor.test.js",
+    "validate": "node validate-monitoring-system.js",
+    "build": "echo 'Building monitoring dashboard...' && npm run validate",
+    "deploy": "echo 'Deploying monitoring system...' && npm run build",
+    "health-check": "curl -f http://localhost:3000/api/status || exit 1",
+    "export-data": "node -e \"const {UniversalMandateMonitor} = require('./mandate-monitor-dashboard.js'); const monitor = new UniversalMandateMonitor(); console.log(monitor.exportMonitoringData());\"",
+    "generate-report": "node -e \"const {UniversalMandateMonitor} = require('./mandate-monitor-dashboard.js'); const monitor = new UniversalMandateMonitor(); console.log(JSON.stringify(monitor.generateComplianceReport(), null, 2));\""
+  },
+  "keywords": [
+    "monitoring",
+    "mandate-tracking",
+    "pattern-activation",
+    "real-time-dashboard",
+    "compliance-monitoring",
+    "universal-execution",
+    "claude-framework",
+    "performance-tracking"
+  ],
+  "author": "Universal Mandate Monitor Specialist",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claude-framework/universal-mandate-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/claude-framework/universal-mandate-monitor/issues"
+  },
+  "homepage": "https://github.com/claude-framework/universal-mandate-monitor#readme",
+  "dependencies": {
+    "ws": "^8.14.0",
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.0",
+    "nodemon": "^3.0.0"
+  },
+  "optionalDependencies": {
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "inquirer": "^9.2.0"
+  },
+  "peerDependencies": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "mandate-monitor-dashboard.js",
+    "mandate-monitor-web.html",
+    "server.js",
+    "mandate-definitions.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "config": {
+    "port": 3000,
+    "refreshRate": 1000,
+    "maxActivities": 50,
+    "complianceThreshold": 80.0
+  },
+  "nodemonConfig": {
+    "watch": [
+      "*.js",
+      "*.json",
+      "*.html"
+    ],
+    "ignore": [
+      "node_modules/**",
+      "logs/**",
+      "*.log"
+    ],
+    "ext": "js,json,html",
+    "env": {
+      "NODE_ENV": "development"
+    }
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": [
+      "text",
+      "lcov",
+      "html"
+    ],
+    "testMatch": [
+      "**/test/**/*.test.js",
+      "**/?(*.)+(spec|test).js"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "preferGlobal": true,
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/claude-framework"
+  },
+  "contributors": [
+    {
+      "name": "Universal Mandate Monitor Specialist",
+      "role": "System Architect"
+    },
+    {
+      "name": "Claude Framework Team",
+      "role": "Core Development"
+    }
+  ]
+}

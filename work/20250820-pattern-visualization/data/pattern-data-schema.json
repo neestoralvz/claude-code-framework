@@ -1,0 +1,433 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Universal Pattern Visualization Data Schema",
+  "description": "Data structure for Universal Operation Mode pattern visualization system",
+  "type": "object",
+  "properties": {
+    "universalExecutionMandates": {
+      "description": "16 Universal Execution Mandates with performance metrics",
+      "type": "array",
+      "minItems": 16,
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Unique mandate identifier"
+          },
+          "name": {
+            "type": "string",
+            "description": "Mandate name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed mandate description"
+          },
+          "cluster": {
+            "type": "string",
+            "enum": ["primary", "secondary", "tertiary", "quaternary"],
+            "description": "Pattern cluster classification"
+          },
+          "clusterName": {
+            "type": "string",
+            "enum": ["Core Methodology", "Research & Preparation", "Workflow Automation", "Intelligence Amplification"],
+            "description": "Human-readable cluster name"
+          },
+          "performance": {
+            "type": "object",
+            "properties": {
+              "current": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Current performance percentage"
+              },
+              "target": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Target performance percentage (typically 95%+)"
+              },
+              "trend": {
+                "type": "string",
+                "enum": ["up", "down", "stable"],
+                "description": "Performance trend direction"
+              },
+              "history": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "timestamp": {
+                      "type": "string",
+                      "format": "date-time",
+                      "description": "Measurement timestamp"
+                    },
+                    "value": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 100,
+                      "description": "Performance value at timestamp"
+                    }
+                  },
+                  "required": ["timestamp", "value"]
+                },
+                "description": "Historical performance data"
+              }
+            },
+            "required": ["current", "target", "trend"]
+          },
+          "status": {
+            "type": "string",
+            "enum": ["active", "partial", "inactive"],
+            "description": "Current activation status"
+          },
+          "priority": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low"],
+            "description": "Mandate priority level"
+          }
+        },
+        "required": ["id", "name", "description", "cluster", "clusterName", "performance", "status", "priority"]
+      }
+    },
+    "patternClusters": {
+      "description": "Pattern cluster aggregated metrics",
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "enum": ["primary", "secondary", "tertiary", "quaternary"],
+            "description": "Cluster identifier"
+          },
+          "name": {
+            "type": "string",
+            "enum": ["Core Methodology", "Research & Preparation", "Workflow Automation", "Intelligence Amplification"],
+            "description": "Cluster name"
+          },
+          "icon": {
+            "type": "string",
+            "description": "Cluster icon/emoji"
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{6}$",
+            "description": "Cluster color (hex)"
+          },
+          "performance": {
+            "type": "object",
+            "properties": {
+              "average": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Average cluster performance"
+              },
+              "sync": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Cluster synchronization percentage"
+              },
+              "coherence": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100,
+                "description": "Cluster coherence score"
+              }
+            },
+            "required": ["average", "sync", "coherence"]
+          },
+          "mandateCount": {
+            "type": "integer",
+            "minimum": 4,
+            "maximum": 4,
+            "description": "Number of mandates in cluster"
+          },
+          "activeMandates": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 4,
+            "description": "Number of active mandates"
+          }
+        },
+        "required": ["id", "name", "icon", "color", "performance", "mandateCount", "activeMandates"]
+      }
+    },
+    "systemMetrics": {
+      "description": "Overall system health and performance metrics",
+      "type": "object",
+      "properties": {
+        "overallPerformance": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Overall system performance percentage"
+        },
+        "systemCoherence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Framework coherence percentage"
+        },
+        "integrationEfficiency": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Cross-component integration efficiency"
+        },
+        "optimizationIndex": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "System optimization capability index"
+        },
+        "activeMandateCount": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 16,
+          "description": "Number of currently active mandates"
+        },
+        "alertCount": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of active system alerts"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Last system update timestamp"
+        }
+      },
+      "required": ["overallPerformance", "systemCoherence", "integrationEfficiency", "optimizationIndex", "activeMandateCount", "alertCount", "lastUpdated"]
+    },
+    "alerts": {
+      "description": "Active system alerts and notifications",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique alert identifier"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["critical", "warning", "info", "success"],
+            "description": "Alert severity level"
+          },
+          "title": {
+            "type": "string",
+            "description": "Alert title"
+          },
+          "message": {
+            "type": "string",
+            "description": "Detailed alert message"
+          },
+          "mandateId": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Related mandate ID (optional)"
+          },
+          "clusterId": {
+            "type": "string",
+            "enum": ["primary", "secondary", "tertiary", "quaternary"],
+            "description": "Related cluster ID (optional)"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Alert creation timestamp"
+          },
+          "acknowledged": {
+            "type": "boolean",
+            "description": "Alert acknowledgment status"
+          },
+          "resolved": {
+            "type": "boolean",
+            "description": "Alert resolution status"
+          }
+        },
+        "required": ["id", "type", "title", "message", "timestamp", "acknowledged", "resolved"]
+      }
+    },
+    "optimizationRecommendations": {
+      "description": "System optimization recommendations",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique recommendation identifier"
+          },
+          "title": {
+            "type": "string",
+            "description": "Recommendation title"
+          },
+          "description": {
+            "type": "string",
+            "description": "Detailed recommendation description"
+          },
+          "impact": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Expected impact level"
+          },
+          "effort": {
+            "type": "string",
+            "enum": ["high", "medium", "low"],
+            "description": "Implementation effort level"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["performance", "efficiency", "coherence", "integration"],
+            "description": "Recommendation category"
+          },
+          "mandateIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 16
+            },
+            "description": "Related mandate IDs"
+          },
+          "estimatedImprovement": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 100,
+            "description": "Estimated performance improvement percentage"
+          },
+          "priority": {
+            "type": "integer",
+            "minimum": 1,
+            "description": "Recommendation priority (1 = highest)"
+          }
+        },
+        "required": ["id", "title", "description", "impact", "effort", "category", "estimatedImprovement", "priority"]
+      }
+    },
+    "integrationMatrix": {
+      "description": "Cross-component integration health matrix",
+      "type": "object",
+      "properties": {
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "List of system components"
+        },
+        "matrix": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            }
+          },
+          "description": "Integration health matrix (NxN)"
+        }
+      },
+      "required": ["components", "matrix"]
+    },
+    "realTimeMetrics": {
+      "description": "Real-time monitoring metrics",
+      "type": "object",
+      "properties": {
+        "activeNodes": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of active system nodes"
+        },
+        "connections": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Number of active connections"
+        },
+        "flowRate": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Data flow rate (units per second)"
+        },
+        "throughput": {
+          "type": "number",
+          "minimum": 0,
+          "description": "System throughput"
+        },
+        "responseTime": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Average response time (ms)"
+        },
+        "errorRate": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Error rate percentage"
+        }
+      },
+      "required": ["activeNodes", "connections", "flowRate", "throughput", "responseTime", "errorRate"]
+    },
+    "activityFeed": {
+      "description": "System activity feed entries",
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique activity identifier"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["success", "warning", "error", "info"],
+            "description": "Activity type"
+          },
+          "message": {
+            "type": "string",
+            "description": "Activity message"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "Activity timestamp"
+          },
+          "mandateId": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 16,
+            "description": "Related mandate ID (optional)"
+          },
+          "clusterId": {
+            "type": "string",
+            "enum": ["primary", "secondary", "tertiary", "quaternary"],
+            "description": "Related cluster ID (optional)"
+          }
+        },
+        "required": ["id", "type", "message", "timestamp"]
+      }
+    }
+  },
+  "required": [
+    "universalExecutionMandates",
+    "patternClusters", 
+    "systemMetrics",
+    "alerts",
+    "optimizationRecommendations",
+    "integrationMatrix",
+    "realTimeMetrics",
+    "activityFeed"
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "model": "sonnet",
+  "env": {
+    "CLAUDE_REGISTRY_PATH": "scripts/registries",
+    "CLAUDE_VAULT_PATH": "scripts/vault", 
+    "CLAUDE_LOGS_PATH": "logs",
+    "CLAUDE_FRAMEWORK_VERSION": "4.0-universal",
+    "CLAUDE_HOOKS_VERSION": "1.0-integrated"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "name": "framework-session-orchestration",
+        "description": "Comprehensive session orchestration with Universal Operation Mode activation",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/nalve/.claude && python3 hooks/session_start.py",
+            "timeout": 10,
+            "priority": 1,
+            "framework_integration": {
+              "progressive_thinking": "auto-activate",
+              "agent_deployment": "initialize-ecosystem", 
+              "todowrite_recovery": "restore-state",
+              "personality_optimization": "dynamic-blend"
+            }
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "name": "context-injection-and-agent-enforcement",
+        "description": "Context injection with mandatory agent deployment enforcement",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/nalve/.claude && python3 hooks/user_prompt_submit.py",
+            "timeout": 5,
+            "priority": 1,
+            "framework_integration": {
+              "error_attention_protocol": "enforce",
+              "agent_deployment": "mandatory",
+              "context7_validation": "required",
+              "evidence_requirements": "validate"
+            }
+          },
+          {
+            "type": "command", 
+            "command": "cd /Users/nalve/.claude && python3 hooks/user_prompt_agent_enforcer.py",
+            "timeout": 5,
+            "priority": 2,
+            "framework_integration": {
+              "specialized_agents": "enforce",
+              "direct_implementation": "block",
+              "task_tool_usage": "mandatory"
+            }
+          }
+        ]
+      }
+    ],
+    "PreToolUse": [
+      {
+        "name": "comprehensive-workflow-validation",
+        "description": "Multi-layer validation before tool execution",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/nalve/.claude && python3 hooks/pre_tool_use.py",
+            "timeout": 5,
+            "priority": 1,
+            "framework_integration": {
+              "simple_easy_compliance": "validate",
+              "todowrite_usage": "enforce",
+              "tdd_bdd_methodology": "validate",
+              "security_validation": "comprehensive"
+            }
+          }
+        ],
+        "parallel_execution": {
+          "enabled": true,
+          "max_concurrent": 3,
+          "coordination": "sequential-validation"
+        }
+      }
+    ],
+    "PostToolUse": [
+      {
+        "name": "automatic-framework-maintenance", 
+        "description": "Comprehensive post-execution maintenance and optimization",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cd /Users/nalve/.claude && python3 hooks/post_tool_use.py",
+            "timeout": 10,
+            "priority": 1,
+            "framework_integration": {
+              "git_workflow": "auto-commit-with-evidence",
+              "pattern_documentation": "auto-update-claude-md",
+              "quality_assurance": "run-validation",
+              "optimization_detection": "continuous-improvement"
+            }
+          }
+        ],
+        "maintenance_features": {
+          "auto_organization": true,
+          "framework_updates": true,
+          "quality_metrics": true,
+          "performance_optimization": true
+        }
+      }
+    ]
+  },
+  "framework_integration": {
+    "universal_operation_mode": {
+      "enabled": true,
+      "version": "4.0",
+      "patterns": {
+        "progressive_thinking": "mandatory",
+        "agent_deployment": "mandatory", 
+        "todowrite_tracking": "mandatory",
+        "evidence_validation": "mandatory",
+        "personality_orchestration": "dynamic",
+        "knowledge_integration": "auto-load",
+        "quality_assurance": "maximum",
+        "research_methodology": "context7-cascade"
+      }
+    },
+    "error_attention_protocol": {
+      "enabled": true,
+      "enforcement_level": "maximum",
+      "violation_handling": "immediate-correction",
+      "recovery_workflows": "auto-activate"
+    },
+    "workflow_automation": {
+      "session_management": "comprehensive",
+      "user_optimization": "auto-apply",
+      "git_integration": "auto-commit",
+      "pattern_documentation": "auto-record"
+    }
+  },
+  "hook_orchestration": {
+    "parallel_execution": {
+      "enabled": true,
+      "max_concurrent_hooks": 10,
+      "coordination_strategy": "intelligent-sequencing",
+      "resource_management": "optimized"
+    },
+    "state_management": {
+      "persistent_state": true,
+      "cross_session_continuity": true,
+      "recovery_mechanisms": "comprehensive",
+      "state_synchronization": "real-time"
+    },
+    "performance_optimization": {
+      "hook_caching": true,
+      "result_memoization": true,
+      "execution_profiling": true,
+      "bottleneck_detection": "automatic"
+    }
+  },
+  "quality_assurance": {
+    "evidence_requirements": {
+      "all_claims": "proof-required",
+      "all_implementations": "test-validated",
+      "all_changes": "documented",
+      "all_decisions": "evidence-based"
+    },
+    "validation_gates": {
+      "pre_execution": "comprehensive",
+      "post_execution": "thorough",
+      "framework_compliance": "mandatory",
+      "quality_metrics": "measurable"
+    }
+  },
+  "integration_metrics": {
+    "success_tracking": true,
+    "performance_monitoring": true,
+    "user_satisfaction": true,
+    "framework_compliance": true,
+    "optimization_opportunities": true
+  }
+}

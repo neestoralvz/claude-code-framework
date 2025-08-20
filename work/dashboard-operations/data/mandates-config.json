@@ -1,0 +1,338 @@
+{
+  "version": "4.0",
+  "lastUpdated": "2025-08-20T22:45:00Z",
+  "mandates": {
+    "1": {
+      "id": 1,
+      "name": "Progressive Think",
+      "cluster": "core-methodology",
+      "description": "4-level analysis methodology: Think → Think Hard → Think Harder → Ultra Think",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Always progress through all 4 levels before acting",
+        "Document insights in TodoWrite and system files",
+        "Must complete Ultra Think level before proceeding"
+      ]
+    },
+    "2": {
+      "id": 2,
+      "name": "Agent Deployment",
+      "cluster": "core-methodology",
+      "description": "Deploy specialized agents FIRST - NEVER work directly",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "MUST deploy specialized agents for ALL tasks",
+        "NEVER work directly - agent orchestration only",
+        "Agent deployment is PRIMARY response, not secondary option"
+      ]
+    },
+    "3": {
+      "id": 3,
+      "name": "TodoWrite Tracking",
+      "cluster": "core-methodology",
+      "description": "Break ALL tasks into atomic components immediately",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)",
+        "Use TodoWrite immediately - no exceptions",
+        "Maintain task continuity across sessions"
+      ]
+    },
+    "4": {
+      "id": 4,
+      "name": "Evidence Validation",
+      "cluster": "core-methodology",
+      "description": "Provide proof for ALL claims, statements, and implementations",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Must provide evidence - no assumptions, no hallucinations",
+        "Must demonstrate with actual test results",
+        "Must verify with external validation or research tools"
+      ]
+    },
+    "5": {
+      "id": 5,
+      "name": "Context7 Research",
+      "cluster": "research-preparation",
+      "description": "MANDATORY for ALL coding/library integration before agents",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "MANDATORY Context7 first for ALL library docs and best practices",
+        "No code without Context7 - NO exceptions",
+        "Context7 research must precede agent deployment"
+      ]
+    },
+    "6": {
+      "id": 6,
+      "name": "System Documentation",
+      "cluster": "research-preparation",
+      "description": "Check framework docs BEFORE improvising solutions",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-load relevant framework knowledge for ALL sessions",
+        "Check documentation before improvising",
+        "Follow existing project patterns for consistency"
+      ]
+    },
+    "7": {
+      "id": 7,
+      "name": "Quality Standards",
+      "cluster": "research-preparation",
+      "description": "Apply TDD/BDD methodology to ALL development work",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Red-Green-Refactor cycle for ALL development",
+        "Given-When-Then scenarios for behavior definition",
+        "Run linters/typecheckers after ALL changes"
+      ]
+    },
+    "8": {
+      "id": 8,
+      "name": "Pattern Documentation",
+      "cluster": "research-preparation",
+      "description": "Record ALL discoveries in system files immediately",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Document patterns in appropriate system files",
+        "Record discoveries for future reference",
+        "Update CLAUDE.md for corrections and patterns"
+      ]
+    },
+    "9": {
+      "id": 9,
+      "name": "Git Integration",
+      "cluster": "workflow-automation",
+      "description": "Auto-commit + push for ALL changes",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-commit + push with comprehensive change documentation",
+        "Auto-generate git diff and file change demonstrations",
+        "Maintain version control for ALL work progress"
+      ]
+    },
+    "10": {
+      "id": 10,
+      "name": "Parallel Execution",
+      "cluster": "workflow-automation",
+      "description": "Multiple agents concurrently (MAX 10 per message)",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 80,
+        "efficiency": 85,
+        "coverage": 90
+      },
+      "requirements": [
+        "Use multiple Task tool calls with specialized agents in ONE message",
+        "Maximum 10 agents per message for optimal efficiency",
+        "Deploy agents in parallel for maximum efficiency"
+      ]
+    },
+    "11": {
+      "id": 11,
+      "name": "Session Management",
+      "cluster": "workflow-automation",
+      "description": "RECENTER workflow active for ALL requests",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-activate RECENTER workflow with ALL patterns",
+        "Comprehensive session orchestration for ALL interactions",
+        "Seamless context maintenance across sessions"
+      ]
+    },
+    "12": {
+      "id": 12,
+      "name": "Framework Updates",
+      "cluster": "workflow-automation",
+      "description": "Document corrections in CLAUDE.md immediately",
+      "priority": "medium",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-update CLAUDE.md with corrections and improvements",
+        "Document ALL error patterns for prevention",
+        "Record framework improvements immediately"
+      ]
+    },
+    "13": {
+      "id": 13,
+      "name": "Personality Orchestration",
+      "cluster": "intelligence-amplification",
+      "description": "Auto-optimal personality adaptation for ALL interactions",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Dynamic personality matrix activation with intelligent blending",
+        "Auto-optimize personality blend based on task requirements",
+        "Seamlessly blend optimal personality characteristics"
+      ]
+    },
+    "14": {
+      "id": 14,
+      "name": "Knowledge Integration",
+      "cluster": "intelligence-amplification",
+      "description": "Auto-load relevant framework knowledge for ALL sessions",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-load framework overview for ALL sessions",
+        "Auto-reference strategic vision and objectives",
+        "Auto-apply principles and standards universally"
+      ]
+    },
+    "15": {
+      "id": 15,
+      "name": "Quality Assurance",
+      "cluster": "intelligence-amplification",
+      "description": "Maximum excellence standards for ALL requests",
+      "priority": "critical",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Auto-apply maximum quality assurance and validation protocols",
+        "Complete with maximum excellence standards automatically",
+        "Auto-optimize for clarity, accuracy, and actionable value"
+      ]
+    },
+    "16": {
+      "id": 16,
+      "name": "Optimization Detection",
+      "cluster": "intelligence-amplification",
+      "description": "Continuous improvement identification for ALL actions",
+      "priority": "high",
+      "status": "active",
+      "metrics": {
+        "compliance": 100,
+        "efficiency": 100,
+        "coverage": 100
+      },
+      "requirements": [
+        "Continuous monitoring for ALL optimizations",
+        "Performance awareness for ALL actions",
+        "Auto-maintain currency and optimal performance standards"
+      ]
+    }
+  },
+  "clusters": {
+    "core-methodology": {
+      "name": "Core Methodology",
+      "description": "Primary Pattern Cluster - Essential operational patterns",
+      "color": "#2563eb",
+      "mandates": [1, 2, 3, 4],
+      "priority": "critical",
+      "status": "active"
+    },
+    "research-preparation": {
+      "name": "Research & Preparation",
+      "description": "Secondary Pattern Cluster - Research and preparation workflows",
+      "color": "#10b981",
+      "mandates": [5, 6, 7, 8],
+      "priority": "high",
+      "status": "active"
+    },
+    "workflow-automation": {
+      "name": "Workflow Automation",
+      "description": "Tertiary Pattern Cluster - Automated workflow management",
+      "color": "#f59e0b",
+      "mandates": [9, 10, 11, 12],
+      "priority": "high",
+      "status": "active"
+    },
+    "intelligence-amplification": {
+      "name": "Intelligence Amplification",
+      "description": "Quaternary Pattern Cluster - Advanced intelligence enhancement",
+      "color": "#8b5cf6",
+      "mandates": [13, 14, 15, 16],
+      "priority": "high",
+      "status": "active"
+    }
+  },
+  "settings": {
+    "updateInterval": 5000,
+    "alertThreshold": 85,
+    "criticalThreshold": 70,
+    "autoRecovery": true,
+    "notifications": {
+      "enabled": true,
+      "types": ["critical", "warning", "success"]
+    }
+  }
+}

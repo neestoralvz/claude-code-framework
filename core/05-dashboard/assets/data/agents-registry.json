@@ -1,0 +1,282 @@
+{
+  "version": "4.0",
+  "lastUpdated": "2025-08-20T22:45:00Z",
+  "agentTypes": {
+    "specialized": {
+      "testing-strategy-specialist": {
+        "name": "Testing Strategy Specialist",
+        "description": "TDD/BDD methodology implementation and test strategy",
+        "capabilities": [
+          "Red-Green-Refactor cycle implementation",
+          "BDD scenario design",
+          "Test automation strategy",
+          "Quality assurance validation"
+        ],
+        "model": "sonnet",
+        "color": "blue",
+        "priority": "high"
+      },
+      "performance-optimization-specialist": {
+        "name": "Performance Optimization Specialist",
+        "description": "System performance analysis and optimization",
+        "capabilities": [
+          "Performance bottleneck identification",
+          "Resource utilization optimization",
+          "Scalability analysis",
+          "Efficiency improvement recommendations"
+        ],
+        "model": "sonnet",
+        "color": "green",
+        "priority": "high"
+      },
+      "security-validator": {
+        "name": "Security Validator",
+        "description": "Security validation and vulnerability assessment",
+        "capabilities": [
+          "Vulnerability scanning",
+          "Security best practices validation",
+          "Access control verification",
+          "Data protection assessment"
+        ],
+        "model": "sonnet",
+        "color": "red",
+        "priority": "critical"
+      },
+      "integration-specialist": {
+        "name": "Integration Specialist",
+        "description": "API and service integration management",
+        "capabilities": [
+          "API integration design",
+          "Service connectivity validation",
+          "Data flow optimization",
+          "Integration testing"
+        ],
+        "model": "sonnet",
+        "color": "purple",
+        "priority": "medium"
+      },
+      "documentation-curator": {
+        "name": "Documentation Curator",
+        "description": "Documentation management and pattern recording",
+        "capabilities": [
+          "Pattern documentation",
+          "Knowledge organization",
+          "Documentation quality assurance",
+          "Framework evolution tracking"
+        ],
+        "model": "sonnet",
+        "color": "yellow",
+        "priority": "medium"
+      },
+      "pattern-recognition-specialist": {
+        "name": "Pattern Recognition Specialist",
+        "description": "Pattern identification and optimization detection",
+        "capabilities": [
+          "Pattern identification",
+          "Optimization opportunity detection",
+          "Workflow efficiency analysis",
+          "Best practice recommendation"
+        ],
+        "model": "sonnet",
+        "color": "cyan",
+        "priority": "high"
+      },
+      "context7-research-specialist": {
+        "name": "Context7 Research Specialist",
+        "description": "Context7 research and library documentation analysis",
+        "capabilities": [
+          "Library documentation analysis",
+          "Best practices research",
+          "Current examples validation",
+          "Implementation guidance"
+        ],
+        "model": "sonnet",
+        "color": "orange",
+        "priority": "critical"
+      },
+      "framework-coherence-analyst": {
+        "name": "Framework Coherence Analyst",
+        "description": "Framework integrity and coherence monitoring",
+        "capabilities": [
+          "System integrity validation",
+          "Component alignment analysis",
+          "Dependency health monitoring",
+          "Coherence score calculation"
+        ],
+        "model": "sonnet",
+        "color": "pink",
+        "priority": "high"
+      }
+    },
+    "task": {
+      "file-processor": {
+        "name": "File Processor",
+        "description": "File operations and processing tasks",
+        "capabilities": [
+          "File reading and writing",
+          "Content transformation",
+          "Batch processing",
+          "Format conversion"
+        ],
+        "model": "haiku",
+        "color": "blue",
+        "priority": "medium"
+      },
+      "data-analyzer": {
+        "name": "Data Analyzer",
+        "description": "Data analysis and metrics processing",
+        "capabilities": [
+          "Data structure analysis",
+          "Metrics calculation",
+          "Trend identification",
+          "Report generation"
+        ],
+        "model": "haiku",
+        "color": "green",
+        "priority": "medium"
+      },
+      "test-runner": {
+        "name": "Test Runner",
+        "description": "Test execution and validation",
+        "capabilities": [
+          "Test suite execution",
+          "Result validation",
+          "Coverage analysis",
+          "Error reporting"
+        ],
+        "model": "haiku",
+        "color": "yellow",
+        "priority": "high"
+      },
+      "code-validator": {
+        "name": "Code Validator",
+        "description": "Code quality and standards validation",
+        "capabilities": [
+          "Syntax validation",
+          "Style guide enforcement",
+          "Best practices checking",
+          "Quality metrics"
+        ],
+        "model": "haiku",
+        "color": "red",
+        "priority": "high"
+      },
+      "metric-collector": {
+        "name": "Metric Collector",
+        "description": "Performance and system metrics collection",
+        "capabilities": [
+          "Performance monitoring",
+          "Resource usage tracking",
+          "Health check execution",
+          "Status reporting"
+        ],
+        "model": "haiku",
+        "color": "purple",
+        "priority": "medium"
+      },
+      "report-generator": {
+        "name": "Report Generator",
+        "description": "Documentation and report creation",
+        "capabilities": [
+          "Report compilation",
+          "Documentation formatting",
+          "Summary generation",
+          "Export processing"
+        ],
+        "model": "haiku",
+        "color": "cyan",
+        "priority": "low"
+      }
+    },
+    "orchestration": {
+      "parallel-orchestrator": {
+        "name": "Parallel Orchestrator",
+        "description": "Coordinates parallel agent execution",
+        "capabilities": [
+          "Agent coordination",
+          "Task distribution",
+          "Resource allocation",
+          "Execution monitoring"
+        ],
+        "model": "opus",
+        "color": "pink",
+        "priority": "critical",
+        "maxAgents": 10
+      },
+      "workflow-orchestrator": {
+        "name": "Workflow Orchestrator",
+        "description": "Manages complex workflow execution",
+        "capabilities": [
+          "Workflow management",
+          "Dependency resolution",
+          "State coordination",
+          "Error recovery"
+        ],
+        "model": "opus",
+        "color": "orange",
+        "priority": "high",
+        "maxAgents": 15
+      },
+      "session-orchestrator": {
+        "name": "Session Orchestrator",
+        "description": "Manages session lifecycle and coordination",
+        "capabilities": [
+          "Session management",
+          "Context preservation",
+          "State synchronization",
+          "Transition coordination"
+        ],
+        "model": "opus",
+        "color": "blue",
+        "priority": "high",
+        "maxAgents": 8
+      }
+    }
+  },
+  "deploymentRules": {
+    "maxConcurrent": 10,
+    "defaultModel": "sonnet",
+    "priorityOrdering": ["critical", "high", "medium", "low"],
+    "specializedAgentLimit": 15,
+    "taskAgentLimit": 20,
+    "orchestrationAgentLimit": 5,
+    "autoCleanupInterval": 1800000,
+    "inactivityTimeout": 1800000
+  },
+  "models": {
+    "haiku": {
+      "description": "Fast and efficient for simple tasks",
+      "capabilities": "Basic processing, quick responses",
+      "cost": "low",
+      "speed": "fast"
+    },
+    "sonnet": {
+      "description": "Balanced performance for most tasks",
+      "capabilities": "Comprehensive analysis, detailed responses",
+      "cost": "medium",
+      "speed": "medium"
+    },
+    "opus": {
+      "description": "Most capable for complex reasoning",
+      "capabilities": "Advanced reasoning, complex orchestration",
+      "cost": "high",
+      "speed": "slower"
+    }
+  },
+  "status": {
+    "totalRegistered": 16,
+    "specializedAgents": 8,
+    "taskAgents": 6,
+    "orchestrationAgents": 3,
+    "activeDeployments": 0,
+    "lastDeployment": null,
+    "systemHealth": "optimal"
+  },
+  "metrics": {
+    "averageDeploymentTime": 250,
+    "successRate": 99.8,
+    "errorRate": 0.2,
+    "utilizationRate": 75.5,
+    "performanceScore": 96.2
+  }
+}
