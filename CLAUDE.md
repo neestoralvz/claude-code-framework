@@ -54,25 +54,25 @@ _Last updated: 2025-08-20 | Version: 4.0 - UNIVERSAL OPERATION MODE_
 
 ## UNIVERSAL SYSTEM INTEGRATION - ALWAYS ACTIVE
 
-**FOR ALL SESSIONS** → Auto-load framework overview from [core/00-system/index.md](core/00-system/index.md)
+**FOR ALL SESSIONS** → Auto-load framework overview from [core/INDEX.md](core/INDEX.md)
 
-**FOR ALL STRATEGIC WORK** → Auto-reference vision and objectives from [core/00-system/vision.md](core/00-system/vision.md)
+**FOR ALL STRATEGIC WORK** → Auto-reference vision and objectives from [core/VISION.md](core/VISION.md)
 
-**FOR ALL DECISIONS** → Auto-apply guidance from [core/01-foundation/principles/README.md](core/01-foundation/principles/README.md)
+**FOR ALL DECISIONS** → Auto-apply guidance from [core/PRINCIPLES.md](core/PRINCIPLES.md)
 
-**FOR ALL INTERACTIONS** → Auto-optimal personality orchestration from [core/01-foundation/personalities/README.md](core/01-foundation/personalities/README.md)
+**FOR ALL INTERACTIONS** → Auto-optimal personality orchestration from [core/PERSONALITIES.md](core/PERSONALITIES.md)
 
-**FOR ALL WORK** → Auto-enforce quality standards from [core/01-foundation/standards/README.md](core/01-foundation/standards/README.md)
+**FOR ALL WORK** → Auto-enforce quality standards from [core/STANDARDS.md](core/STANDARDS.md)
 
-**FOR ALL WORKFLOWS** → Auto-apply processes from [core/02-operations/processes/README.md](core/02-operations/processes/README.md)
+**FOR ALL WORKFLOWS** → Auto-apply processes from [core/PROCESSES.md](core/PROCESSES.md)
 
-**FOR ALL IMPLEMENTATIONS** → Auto-reference examples from [core/04-templates/examples/README.md](core/04-templates/examples/README.md)
+**FOR ALL IMPLEMENTATIONS** → Auto-reference examples from [core/EXAMPLES.md](core/EXAMPLES.md)
 
 **FOR ALL PROJECTS** → Auto-apply organization guidelines from [README.md](README.md#project-structure)
 
-**FOR ALL FILE OPERATIONS** → Auto-follow organization workflow from [core/02-operations/workflows/organization-workflow.md](core/02-operations/workflows/organization-workflow.md)
+**FOR ALL FILE OPERATIONS** → Auto-follow organization workflow from [core/organization-workflow.md](core/organization-workflow.md)
 
-**FOR ALL NEW PROJECTS** → Auto-implement [Project Documentation Template](core/04-templates/project-templates/project-documentation.md) with objectives, challenge, success criteria, and metrics
+**FOR ALL NEW PROJECTS** → Auto-implement [Project Documentation Template](core/PROJECT-DOCUMENTATION-TEMPLATE.md) with objectives, challenge, success criteria, and metrics
 
 ## Progressive Thinking Methodology - MANDATORY FOR ALL ACTIONS
 
@@ -179,13 +179,13 @@ System prompt with agent specialization
 
 **FOR ALL WORK** → NEVER improvise. Check documentation first, then deploy agents.
 
-**FOR ALL CHANGES** → Follow [TDD/BDD Unified Workflow](core/02-operations/processes/tdd-bdd-unified-workflow.md) with mandatory validation
+**FOR ALL CHANGES** → Follow [TDD/BDD Unified Workflow](core/tdd-bdd-unified-workflow.md) with mandatory validation
 
-**FOR ALL ACTIONS** → Must follow [Validation and Demonstration Workflow](core/02-operations/processes/validation-and-demonstration-workflow.md) with evidence
+**FOR ALL ACTIONS** → Must follow [Validation and Demonstration Workflow](core/validation-and-demonstration-workflow.md) with evidence
 
-**FOR ALL TESTS** → Use Red-Green-Refactor cycle from [TDD Workflow](core/02-operations/processes/test-driven-development-workflow.md)
+**FOR ALL TESTS** → Use Red-Green-Refactor cycle from [TDD Workflow](core/test-driven-development-workflow.md)
 
-**FOR ALL BEHAVIOR DEFINITION** → Use Given-When-Then scenarios from [BDD Workflow](core/02-operations/processes/behavior-driven-development-workflow.md)
+**FOR ALL BEHAVIOR DEFINITION** → Use Given-When-Then scenarios from [BDD Workflow](core/behavior-driven-development-workflow.md)
 
 **FOR ALL TODOWRITE** → Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)
 
@@ -231,6 +231,18 @@ System prompt with agent specialization
 
 **FOR ALL FUNCTIONALITY** → CREATE specialized agent immediately. Framework demands proper specialization.
 
+**FOR ALL MEDICAL PROJECTS** → Deploy validated sequence:
+1. Research with medical-literature-researcher
+2. Format with presentation-bibliography-formatter
+3. Validate with medical-bibliography-verifier
+4. System check with system-maintenance-validator
+
+**FOR ALL PARALLEL COORDINATION** → Use ticket-based system:
+1. Create atomic tickets with clear deliverables
+2. Assign specialized agents per ticket
+3. Track progress percentage (current: 42%)
+4. Update coordination tracker regularly
+
 **FOR ALL REQUESTS** → MANDATORY. Create and deploy specialized agents for specialized work.
 
 **FOR ALL TEMPLATES** → DEPLOY templates as functional agents in Claude Code system.
@@ -247,7 +259,7 @@ System prompt with agent specialization
 
 **FOR ALL EXECUTION** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
 
-**FOR ALL PROJECTS** → Use [Parallel Conversation Coordination](core/02-operations/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
+**FOR ALL PROJECTS** → Use [Parallel Conversation Coordination](core/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
 
 **FOR ALL REMINDERS** → Use TodoWrite immediately to track and not forget
 
@@ -255,7 +267,7 @@ System prompt with agent specialization
 
 **FOR ALL CORRECTIONS** → Document the correction immediately in CLAUDE.md to prevent repeat errors
 
-**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/01-foundation/standards/personalities-vs-agents-distinction.md)
+**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/personalities-vs-agents-distinction.md)
 
 **IF personality command fails** → I adopt the personality directly, NOT deploy as agent
 
@@ -293,7 +305,7 @@ System prompt with agent specialization
 - Auto-optimize workflow efficiency based on session learnings
 
 **FOR ALL SESSION ENDINGS** → Execute comprehensive conclusion workflow:
-- Auto-implement [session-conclusion-workflow.md](core/02-operations/processes/session-conclusion-workflow.md)
+- Auto-implement [session-conclusion-workflow.md](core/session-conclusion-workflow.md)
 - Auto-commit work progress and pattern discoveries
 - Auto-prepare optimal transition states for future sessions
 - Auto-document learning patterns and framework improvements
@@ -301,8 +313,8 @@ System prompt with agent specialization
 ## Execution Optimization Commands
 
 **`/recenter`** → Activate comprehensive execution analysis with auto-triggered patterns (slash command in `/commands/`):
-- Read [core/02-operations/processes/recenter-workflow.md](core/02-operations/processes/recenter-workflow.md) for complete workflow
-- Read [core/02-operations/processes/perpetual-alertness-system.md](core/02-operations/processes/perpetual-alertness-system.md) for continuous optimization
+- Read [core/recenter-workflow.md](core/recenter-workflow.md) for complete workflow
+- Read [core/perpetual-alertness-system.md](core/perpetual-alertness-system.md) for continuous optimization
 
 **FOR ALL REQUESTS** → Auto-activate RECENTER workflow with ALL patterns MANDATORY:
 
@@ -387,25 +399,25 @@ System prompt with agent specialization
 
 ## Workflow Commands
 
-**IF coordinating agents** → Read [core/02-operations/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](core/02-operations/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
+**IF coordinating agents** → Read [core/strategic-orchestration-workflow.md#strategic-orchestrator-role](core/strategic-orchestration-workflow.md#strategic-orchestrator-role)
 
-**IF creating agents** → Read [core/02-operations/processes/agent-creation-workflow.md#agent-creation-process](core/02-operations/processes/agent-creation-workflow.md#agent-creation-process)
+**IF creating agents** → Read [core/agent-creation-workflow.md#agent-creation-process](core/agent-creation-workflow.md#agent-creation-process)
 
-**IF ending session** → Read [core/02-operations/processes/session-conclusion-workflow.md#step-by-step-process](core/02-operations/processes/session-conclusion-workflow.md#step-by-step-process)
+**IF ending session** → Read [core/session-conclusion-workflow.md#step-by-step-process](core/session-conclusion-workflow.md#step-by-step-process)
 
-**IF doing development** → Read [core/02-operations/processes/development-workflow.md#development-process](core/02-operations/processes/development-workflow.md#development-process)
+**IF doing development** → Read [core/development-workflow.md#development-process](core/development-workflow.md#development-process)
 
-**IF maintaining framework** → Read [core/02-operations/processes/framework-evaluation-workflow.md#framework-evaluation-process](core/02-operations/processes/framework-evaluation-workflow.md#framework-evaluation-process)
+**IF maintaining framework** → Read [core/framework-evaluation-workflow.md#framework-evaluation-process](core/framework-evaluation-workflow.md#framework-evaluation-process)
 
-**IF need work principles** → Read [core/01-foundation/principles/README.md](core/01-foundation/principles/README.md)
+**IF need work principles** → Read [core/PRINCIPLES.md](core/PRINCIPLES.md)
 
-**IF need process management** → Read [core/02-operations/processes/README.md](core/02-operations/processes/README.md)
+**IF need process management** → Read [core/PROCESSES.md](core/PROCESSES.md)
 
-**IF need technical standards** → Read [core/01-foundation/standards/README.md](core/01-foundation/standards/README.md)
+**IF need technical standards** → Read [core/STANDARDS.md](core/STANDARDS.md)
 
-**IF need specialized testing workflows** → Check [core/00-system/roadmap.md](core/00-system/roadmap.md) for implementation status
+**IF need specialized testing workflows** → Check [core/ROADMAP.md](core/ROADMAP.md) for implementation status
 
-**IF checking system development status** → Read [core/00-system/roadmap.md](core/00-system/roadmap.md) for current progress and pending items
+**IF checking system development status** → Read [core/ROADMAP.md](core/ROADMAP.md) for current progress and pending items
 
 ## UNIVERSAL USER PREFERENCE OPTIMIZATION - ALWAYS ACTIVE
 
@@ -431,9 +443,9 @@ System prompt with agent specialization
 
 **FOR ALL FILE OPERATIONS** → Auto-organize per [README.md](README.md#organization-guidelines) guidelines
 
-**FOR ALL DEVELOPMENT** → Auto-test with [TDD/BDD validation](core/02-operations/processes/tdd-bdd-unified-workflow.md) methodology
+**FOR ALL DEVELOPMENT** → Auto-test with [TDD/BDD validation](core/tdd-bdd-unified-workflow.md) methodology
 
-**FOR ALL DELIVERABLES** → Auto-provide evidence with [Validation and Demonstration](core/02-operations/processes/validation-and-demonstration-workflow.md)
+**FOR ALL DELIVERABLES** → Auto-provide evidence with [Validation and Demonstration](core/validation-and-demonstration-workflow.md)
 
 **FOR ALL TASK COMPLETIONS** → Auto-demonstrate with passing tests, BDD scenarios, and comprehensive evidence documentation
 
@@ -486,9 +498,9 @@ System prompt with agent specialization
 
 ---
 
-## CRITICAL LEARNING: Framework Violation Example
+## CRITICAL LEARNING: Framework Violation Examples
 
-**VIOLATION CASE STUDY (2025-08-20)**: Metrics service crash caused by framework violations:
+**VIOLATION CASE STUDY 1 (2025-08-20)**: Metrics service crash caused by framework violations:
 
 1. **What happened**: Application crash due to missing `metrics-api-service.py` file
 2. **Root cause**: Direct code creation WITHOUT Context7 research or specialized agent deployment
@@ -500,15 +512,28 @@ System prompt with agent specialization
 5. **Correct approach**: Context7 → Agent deployment → Proper implementation
 6. **Learning**: ALL code creation MUST follow: Context7 research → Specialized agent → Validation
 
-**NEVER REPEAT**: This violation demonstrates why framework requirements exist - they prevent system failures.
+**VIOLATION CASE STUDY 2 (2025-08-20)**: Medical validation hook failure from encoding issues:
+
+1. **What happened**: Pre-commit hooks crashed due to Spanish medical terminology
+2. **Root cause**: Validation system not handling UTF-8 encoding properly
+3. **Recovery pattern**:
+   - Deploy system-maintenance-validator for diagnosis
+   - Restore original hook configuration
+   - Test with simple validation before complex operations
+   - Document pattern for future prevention
+4. **Consequences**: Temporary inability to commit medical content
+5. **Correct approach**: Pre-validate encoding → Test incrementally → Full deployment
+6. **Learning**: Medical projects require bilingual support validation
+
+**NEVER REPEAT**: These violations demonstrate why framework requirements and proper agent deployment exist - they prevent system failures.
 
 ## CRITICAL FRAMEWORK PROTECTION WORKFLOWS
 
-**IF framework violations detected** → IMMEDIATELY activate [Framework Violation Recovery Workflow](core/02-operations/processes/framework-violation-recovery-workflow.md)
+**IF framework violations detected** → IMMEDIATELY activate [Framework Violation Recovery Workflow](core/framework-violation-recovery-workflow.md)
 
-**IF Context7 bypassed** → MANDATORY [Context7 Compliance Enforcement Process](core/02-operations/processes/context7-compliance-enforcement-workflow.md)
+**IF Context7 bypassed** → MANDATORY [Context7 Compliance Enforcement Process](core/context7-compliance-enforcement-workflow.md)
 
-**IF system crisis occurs** → EMERGENCY activate [System Crisis Response Protocol](core/02-operations/processes/system-crisis-response-workflow.md)
+**IF system crisis occurs** → EMERGENCY activate [System Crisis Response Protocol](core/system-crisis-response-workflow.md)
 
 **FRAMEWORK PROTECTION AUTOMATIC TRIGGERS:**
 - Direct implementation without Context7 research → BLOCK and require Context7
