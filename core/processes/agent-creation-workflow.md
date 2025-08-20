@@ -12,7 +12,7 @@
 - Building reusable agent capabilities
 
 ## Agent Creation Framework
-Complete template and deployment guidelines available in operations/20250819-192114-agent-template-creation/ - includes standardized YAML frontmatter, operational phases, quality assurance, and registry integration.
+Complete template and deployment guidelines available in work/20250819-192114-agent-template-creation/ - includes standardized YAML frontmatter, operational phases, quality assurance, and registry integration.
 
 ### Model Selection Guidelines
 
@@ -55,7 +55,7 @@ When deploying an agent that doesn't exist yet, create it using our agent creati
 - Assess complexity and specialization level needed
 
 ### 2. Design Agent
-- READ operations/20250819-192114-agent-template-creation/ for complete template
+- READ work/20250819-192114-agent-template-creation/ for complete template
 - Define agent purpose, tools, and operational phases
 - Establish quality assurance criteria
 - **Select model**: Choose `opus` for most complex reasoning, `sonnet` for standard tasks, `haiku` for simple validation
@@ -108,8 +108,8 @@ Agents must follow:
 
 ## Related Documentation
 When creating agents, READ these files:
-- **Template Guidelines**: READ operations/20250819-192114-agent-template-creation/ for complete creation framework
-- **Model/Color Analysis**: READ operations/20250820-061303-agent-model-color-documentation/agent-options-analysis.md for evidence-based model and color selection guidance
+- **Template Guidelines**: READ work/20250819-192114-agent-template-creation/ for complete creation framework
+- **Model/Color Analysis**: READ work/20250820-061303-agent-model-color-documentation/agent-options-analysis.md for evidence-based model and color selection guidance
 - **Agent Registry**: READ agents/registry/ to avoid duplication and understand patterns
-- **TDD/BDD Compliance**: READ operations/20250820-155000-agent-coordination-templates/agent-specialization-tdd-compliance.md for agent TDD/BDD requirements
+- **TDD/BDD Compliance**: READ work/20250820-155000-agent-coordination-templates/agent-specialization-tdd-compliance.md for agent TDD/BDD requirements
 - **Agent Coordination**: READ [agent-coordination-tdd-workflow.md](agent-coordination-tdd-workflow.md) for multi-agent coordination patterns

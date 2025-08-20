@@ -12,7 +12,7 @@
 - CLAUDE.md effectiveness assessment
 
 ## CLAUDE.md Evaluation Framework
-Comprehensive evaluation and maintenance system deployed in operations/20250820-claude-md-evaluation/ - Includes 9 evaluation question categories, 15 maintenance commands, automated success metrics, and 4-phase implementation strategy. Framework transforms CLAUDE.md from static preferences into self-optimizing system with evidence-based improvement capabilities.
+Comprehensive evaluation and maintenance system deployed in work/20250820-claude-md-evaluation/ - Includes 9 evaluation question categories, 15 maintenance commands, automated success metrics, and 4-phase implementation strategy. Framework transforms CLAUDE.md from static preferences into self-optimizing system with evidence-based improvement capabilities.
 
 ## Systematic Framework Evaluation
 When developing frameworks or preference systems, always include systematic evaluation capabilities from the start - Define measurable success criteria, create maintenance commands, implement automated monitoring, and design evolution mechanisms. Prevents framework degradation and enables continuous improvement through evidence-based optimization rather than subjective assessment.
@@ -55,7 +55,7 @@ Regularly audit and remove unused documentation, principles, and processes - mai
 Only document what's truly essential and relevant - avoid unnecessary details.
 
 ## Operations Insights Integration
-Valuable strategic insights accumulate in operations/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed.
+Valuable strategic insights accumulate in work/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed.
 
 ## Evaluation Commands
 The framework includes automated evaluation commands for systematic assessment:
@@ -65,6 +65,6 @@ The framework includes automated evaluation commands for systematic assessment:
 
 ## Related Documentation
 When evaluating framework effectiveness, READ these files:
-- **Evaluation System**: READ operations/20250820-claude-md-evaluation/ for comprehensive evaluation methodology
-- **Performance Metrics**: READ operations/ for historical performance data and insights
-- **System Standards**: READ system/STANDARDS.md for evaluation criteria and quality requirements
+- **Evaluation System**: READ work/20250820-claude-md-evaluation/ for comprehensive evaluation methodology
+- **Performance Metrics**: READ work/ for historical performance data and insights
+- **System Standards**: READ core/STANDARDS.md for evaluation criteria and quality requirements

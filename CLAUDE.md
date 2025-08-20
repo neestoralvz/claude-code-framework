@@ -210,23 +210,43 @@ System prompt with agent specialization
 
 ## Execution Optimization Commands
 
-**`RECENTER`** → Activate comprehensive execution analysis and perpetual alertness:
+**`RECENTER`** → Activate comprehensive execution analysis with auto-triggered patterns:
 - Read [core/processes/recenter-workflow.md](core/processes/recenter-workflow.md) for complete workflow
 - Read [core/processes/perpetual-alertness-system.md](core/processes/perpetual-alertness-system.md) for continuous optimization
 
-**IF any request received** → Auto-activate RECENTER workflow:
+**IF any request received** → Auto-activate RECENTER workflow with ALL patterns:
+
+**CORE EXECUTION PATTERNS:**
 1. **Task Analysis** → TodoWrite for 2+ steps, atomic task breakdown
 2. **Progressive Thinking** → Systematic analysis for complex problems  
-3. **Agent Deployment** → Specialized agents for specialized work
-4. **Parallelization** → Multiple agents in single message for independent tasks
+3. **Agent Deployment** → Specialized agents for specialized work (MANDATORY)
+4. **Parallelization** → Multiple agents in single message for independent tasks (MAX 10)
 5. **Pattern Recognition** → Document discoveries, optimize workflows
 6. **Perpetual Alertness** → Continuous monitoring for missed optimizations
 
-**IF session starts** → RECENTER automatically to ensure optimal execution approach
+**QUALITY ASSURANCE PATTERNS:**
+7. **TDD/BDD Methodology** → Red-Green-Refactor cycle, Given-When-Then scenarios
+8. **Evidence-Based Validation** → Never claim without proof, always test and demonstrate
+9. **Quality Gates** → Run linters/typecheckers after code changes, validate before commit
+10. **Convention Adherence** → Follow existing project patterns, maintain consistency
 
-**IF complex work identified** → RECENTER immediately to maximize efficiency
+**RESEARCH & OPTIMIZATION PATTERNS:**
+11. **Context7 Research** → ALWAYS use Context7 first for library docs and best practices
+12. **Performance Awareness** → Consider optimization opportunities, measure improvements
+13. **Security Consciousness** → Apply defensive practices, validate inputs, handle errors
+
+**WORKFLOW AUTOMATION PATTERNS:**
+14. **Git Workflow Automation** → Auto-commit + push when making changes
+15. **Personality Adaptation** → Match personality to task type automatically
+16. **Documentation Updates** → Update CLAUDE.md when discovering new patterns
+
+**IF session starts** → RECENTER automatically with ALL 16 patterns active
+
+**IF complex work identified** → RECENTER immediately to maximize efficiency with full pattern set
 
 **IF patterns emerge** → Document in system files and continue with RECENTER mindset
+
+**IF any pattern fails** → Re-RECENTER to ensure all patterns are active
 
 ## Parallel Coordination Commands
 
