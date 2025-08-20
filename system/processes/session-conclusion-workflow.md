@@ -42,36 +42,45 @@
 - Session branches created for significant work
 - Repository maintains health and navigability
 
-### Step 2: Pattern Extraction Automation  
+### Step 2: Pattern Extraction & Workflow Gap Analysis
 **Agent**: Pattern Extraction Agent (Pink)
-**Objective**: Strategic pattern identification and reusable insight capture
+**Objective**: Strategic pattern identification, reusable insight capture, and missing workflow detection
 
 **Actions**:
 - Analyze conversation flow for successful interaction patterns
 - Extract strategic decision-making approaches and methodologies
-- Identify optimization opportunities and improvement areas
+- **Identify Missing Workflows**: Analyze session activities against existing PROCESSES.md to detect workflow gaps
+- **Workflow Necessity Assessment**: Evaluate whether discovered patterns warrant new process documentation
 - Document pattern relationships and dependencies
 - Update pattern registry with validated discoveries
+- **Recommend New Workflows**: Specify missing processes that would improve framework efficiency
 
 **Success Criteria**:
 - Valuable interaction patterns identified and documented
 - Strategic decision-making templates created
+- **Missing workflow gaps identified with implementation priority**
+- **New workflow specifications documented with evidence-based justification**
 - Pattern registry enhanced with actionable insights
 - Framework enhancement opportunities identified
 
 ### Step 3: Knowledge Documentation Updates
 **Agent**: Knowledge Documentation Agent (Cyan)
-**Objective**: Framework knowledge base enhancement and consistency maintenance
+**Objective**: Framework knowledge base enhancement, consistency maintenance, and workflow gap resolution
 
 **Actions**:
 - Update CLAUDE.md with validated preferences and behavioral insights
-- Enhance system/PROCESSES.md with refined workflow documentation
+- **Create Missing Workflows**: Implement new processes identified in Step 2 gap analysis
+- **Update PROCESSES.md**: Add new workflows and update process count/index
+- Enhance existing workflow documentation with session refinements
 - Expand system/EXAMPLES.md with session patterns and approaches
+- **Cross-Reference Integration**: Ensure new workflows integrate with existing principles and standards
 - Validate documentation consistency and cross-reference accuracy
 - Archive session insights for future strategic reference
 
 **Success Criteria**:
 - Framework documentation current and strategically valuable
+- **Missing workflows implemented and properly integrated into framework**
+- **PROCESSES.md updated with new workflows and accurate navigation**
 - Session insights integrated seamlessly with existing knowledge
 - Documentation hierarchy supports efficient discovery
 - Framework consistency maintained throughout updates
@@ -146,7 +155,9 @@
 
 **Strategic Value**:
 - Session learning captured and systematically integrated
+- **Missing workflow gaps automatically identified and resolved**
 - Framework optimization opportunities identified and documented
+- **Process completeness maintained through systematic gap analysis**
 - Knowledge base enhanced with validated insights
 - Future conversation readiness achieved
 
@@ -185,8 +196,17 @@ conclude-session "Completed framework integration with 3 new agents"
 **Expected Outcomes**:
 - Clean repository with descriptive commits
 - Updated framework documentation with session insights
+- **New workflows automatically created when gaps identified**
 - Enhanced agent ecosystem with optimization recommendations
 - Comprehensive transition materials for future work
+
+**Workflow Gap Detection Example**:
+```
+Session Activity: "User repeatedly asked for code security reviews"
+Gap Analysis Result: No "Security Review Workflow" exists in PROCESSES.md
+Action Taken: Created security-review-workflow.md with systematic code security assessment process
+Integration: Updated PROCESSES.md security section and cross-referenced with standards
+```
 
 ---
 
