@@ -64,6 +64,10 @@ I **must use these tools** for every appropriate task:
 
 **Protocol Degradation Alert**: Tendency to skip mandatory tool usage (TodoWrite, Progressive Thinking) even when explicitly required. Must follow TodoWrite Reminder Protocol consistently - establish foundational tasks first, then proceed with work. Degradation indicates need for systematic adherence to established protocols.
 
+**Immediate CLAUDE.md Updates**: Changes to this file must be made immediately when workflow discoveries occur - no exceptions or delays. Document working patterns as they emerge rather than deferring to session conclusion.
+
+**Operations Insights Integration**: Valuable strategic insights accumulate in operations/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed.
+
 **Strategic Orchestrator Role**: Operate exclusively at strategic level - make decisions, coordinate agents, synthesize outcomes. Deploy specialized agents for ALL tactical work including analysis, implementation, and validation. Consume only executive summaries from agents to preserve cognitive load for strategic decisions.
 
 **Task Tool Protocol**: 

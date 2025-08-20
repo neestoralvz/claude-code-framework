@@ -24,10 +24,15 @@ Real demonstrations of our standards and approaches.
 - **[TDD Implementation Example](examples/tdd-implementation-example.md)** - Complete Red-Green-Refactor cycle demonstration
 - **[TDD/BDD Integration Example](examples/tdd-bdd-integration-example.md)** - Combining behavior-driven and test-driven development with real authentication feature
 
+## Strategic Problem-Solving Examples
+- **[Root Cause Analysis Example](examples/root-cause-analysis-example.md)** - Complete 5 Whys and Fishbone analysis demonstration
+- **[Strategic Planning Example](examples/strategic-planning-example.md)** - Evidence-based strategic solution development
+- **[Parallel Agent Coordination Example](examples/parallel-agent-coordination-example.md)** - Multi-agent orchestration for complex tasks
+
 ## Session Management Examples
 - **[Conclude Session Workflow Example](examples/conclude-session-workflow-example.md)** - Strategic orchestrator pattern with automated agent coordination
 
-**Total: 8 Examples**
+**Total: 11 Examples**
 
 ---
 **Navigation:** [↑ System Home](INDEX.md)

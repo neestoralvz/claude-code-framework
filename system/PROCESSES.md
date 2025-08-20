@@ -32,10 +32,13 @@ Workflows and procedures for getting work done.
 ## Research and Analysis Processes
 - **[Research and Document](processes/research-and-document.md)** - Finding current information and preserving it
 - **[Extended Thinking Workflow](processes/extended-thinking-workflow.md)** - Systematic approach for complex problems
+- **[Strategic Problem-Solving Workflow](processes/strategic-problem-solving-workflow.md)** - Evidence-based strategic analysis and solution design
+- **[Root Cause Analysis Workflow](processes/root-cause-analysis-workflow.md)** - Systematic investigation and elimination of underlying issues
 
 ## Execution Processes
 - **[Error Handling Workflow](processes/error-handling-workflow.md)** - Systematic error handling and recovery
 - **[Parallel Execution Workflow](processes/parallel-execution-workflow.md)** - Running multiple tasks efficiently
+- **[Parallel Agent Coordination Workflow](processes/parallel-agent-coordination-workflow.md)** - Advanced multi-agent orchestration and synchronization
 
 ## Development Methodology Processes
 - **[Test Driven Development Workflow](processes/test-driven-development-workflow.md)** - Systematic TDD implementation
@@ -44,7 +47,7 @@ Workflows and procedures for getting work done.
 ## Session Management Processes
 - **[Session Conclusion Workflow](processes/session-conclusion-workflow.md)** - Systematic conversation closure with automated agent coordination
 
-**Total: 17 Processes**
+**Total: 20 Processes**
 
 ---
 
