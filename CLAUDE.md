@@ -35,6 +35,7 @@ I **must use these tools** for every appropriate task:
 - **WebSearch** - Find updated Anthropic documentation and recent information
 - **Reference my own documentation** - Check examples and processes before improvising
 - **Follow complete workflow** - Explore → Execute → Validate → Maintain
+- **Conditional Navigation Process** - Use decision trees from CLAUDE.md to load context just-in-time rather than auto-loading everything
 
 ## User Preferences
 
@@ -69,6 +70,12 @@ I **must use these tools** for every appropriate task:
 **Operations Insights Integration**: Valuable strategic insights accumulate in operations/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed. Key finding: 58 strategic patterns identified in operations/1755658515-session-pattern-extraction/ showing framework sophistication evolution.
 
 **Session Command Modularization**: Keep commands lightweight by modularizing complex workflows into separate process files - commands should orchestrate, not contain heavy implementation details.
+
+**Commands Directory Purity**: The `/commands/` directory must contain ONLY executable commands - never INDEX.md files or documentation. Commands are discovered through system navigation, not internal indices.
+
+**Agents Directory Purity**: The `/agents/` directory must contain ONLY agent files - never INDEX.md files or documentation. Agents are organized in subdirectories by category and discovered through system navigation and registries.
+
+**Scripts Location Standard**: All executable scripts belong in `/system/tools/` directory, not `/scripts/`. The `/scripts/` directory should be consolidated into the proper tools organization within the system framework.
 
 **Strategic Orchestrator Role**: Operate exclusively at strategic level - make decisions, coordinate agents, synthesize outcomes. Deploy specialized agents for ALL tactical work including analysis, implementation, and validation. Consume only executive summaries from agents to preserve cognitive load for strategic decisions.
 
@@ -127,6 +134,24 @@ This prevents solution assumption errors and ensures we build what's actually ne
 **CLAUDE.md Evaluation Framework**: Comprehensive evaluation and maintenance system deployed in operations/20250820-claude-md-evaluation/ - Includes 9 evaluation question categories, 15 maintenance commands, automated success metrics, and 4-phase implementation strategy. Framework transforms CLAUDE.md from static preferences into self-optimizing system with evidence-based improvement capabilities. Use `claude-md-audit-effectiveness-full` monthly and `claude-md-report-status-dashboard` weekly for systematic optimization.
 
 **Systematic Framework Evaluation**: When developing frameworks or preference systems, always include systematic evaluation capabilities from the start - Define measurable success criteria, create maintenance commands, implement automated monitoring, and design evolution mechanisms. Prevents framework degradation and enables continuous improvement through evidence-based optimization rather than subjective assessment.
+
+**Time-Agnostic Strategic Planning**: Never use time-based objectives, metrics, or roadmaps when planning. Time is meaningless between user context variability and agent planning. Use milestone-based progression: "After completing X capability, Y becomes possible" rather than "Complete X by date Y". Focus on outcome achievement and capability dependencies, not calendar compliance. Eliminates artificial pressure while maintaining clear progression paths.
+
+**Evidence-Based Context Management**: Claude Code context loading operates through systematic tool usage and automatic CLAUDE.md inclusion:
+- **CLAUDE.md Auto-loading**: Complete file content loads automatically at conversation start - optimize through content reduction, not alternative syntax
+- **Tool-Based File Access**: Use Read, LS, Grep tools for explicit file loading - no alternative @ syntax exists
+- **MCP Integration**: `@server:resource` format confirmed for external tool integration and data access (MongoDB, GitHub, etc.)
+- **Tab Completion**: Built-in Claude Code feature for efficient file discovery within repository scope
+- **Performance Strategy**: Use `/clear` command frequently to reset context window as officially recommended
+- **Context Window Management**: Monitor context consumption through systematic tool usage rather than assumed @ syntax shortcuts
+
+**Conditional Navigation Methodology**: Playbook-style decision trees for just-in-time context loading:
+- **Core Principle**: CLAUDE.md contains only essentials plus conditional instructions like "READ X when working on Y"
+- **Decision Trees**: Navigate from general to specific context based on conversation type and complexity
+- **Just-in-Time Loading**: Load additional files only when conversation actually requires that specific knowledge
+- **Playbook Structure**: "IF conversation involves X, THEN READ file Y" rather than auto-loading all possible contexts
+- **Performance Optimization**: Reduces context bloat while maintaining comprehensive coverage through guided navigation
+- **Complete Process**: See system/PROCESSES.md for full conditional navigation implementation details
 
 ## Quality Promise
 
