@@ -291,6 +291,41 @@ def update_documentation_references(modified_files):
     return actions
 
 
+def update_dashboard_metrics(hook_data):
+    """Update dashboard metrics with hook execution data"""
+    actions = []
+    
+    try:
+        claude_dir = get_claude_directory()
+        metrics_updater = claude_dir / 'system' / 'dashboard' / 'scripts' / 'update_dashboard_metrics.py'
+        
+        if metrics_updater.exists() and os.access(metrics_updater, os.X_OK):
+            # Call the metrics updater script
+            import sys
+            import importlib.util
+            
+            # Load the metrics updater module
+            spec = importlib.util.spec_from_file_location("dashboard_updater", metrics_updater)
+            dashboard_updater = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(dashboard_updater)
+            
+            # Update metrics using the loaded module
+            updater = dashboard_updater.DashboardMetricsUpdater()
+            success = updater.update_from_hook_data(hook_data)
+            
+            if success:
+                actions.append("✓ Dashboard metrics updated")
+            else:
+                actions.append("⚠ Dashboard metrics update failed")
+        else:
+            actions.append("Dashboard metrics updater not found or not executable")
+            
+    except Exception as e:
+        actions.append(f"Dashboard metrics update error: {e}")
+    
+    return actions
+
+
 def main():
     """Main hook execution"""
     try:
@@ -309,6 +344,9 @@ def main():
             file_path = tool_params.get('file_path', '')
             if file_path:
                 modified_files.append(file_path)
+        
+        # Add modified files to hook data for metrics
+        hook_data['modified_files'] = modified_files
         
         # Perform maintenance tasks
         maintenance_actions = []
@@ -334,6 +372,11 @@ def main():
         # 5. Cleanup and optimize
         cleanup_actions = cleanup_and_optimize()
         maintenance_actions.extend(cleanup_actions)
+        
+        # 6. Update dashboard metrics
+        hook_data['warnings'] = warnings  # Add warnings to hook data for metrics
+        metrics_actions = update_dashboard_metrics(hook_data)
+        maintenance_actions.extend(metrics_actions)
         
         # Generate result
         result = {

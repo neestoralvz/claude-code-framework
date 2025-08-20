@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Framework Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.min.js"></script>
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>🤖 Claude Framework Dashboard</h1>
+        <div class="header-info">
+            <span id="last-updated">Last updated: <time></time></span>
+            <button id="refresh-btn" class="refresh-btn">🔄 Refresh</button>
+        </div>
+    </header>
+
+    <main class="dashboard-main">
+        <!-- System Health Overview -->
+        <section class="dashboard-section">
+            <h2>🏥 System Health</h2>
+            <div class="health-grid">
+                <div class="health-card" id="framework-health">
+                    <div class="health-status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Framework</span>
+                    </div>
+                    <div class="health-metrics">
+                        <span class="metric-value" id="framework-score">-</span>
+                        <span class="metric-label">Health Score</span>
+                    </div>
+                </div>
+                
+                <div class="health-card" id="hooks-health">
+                    <div class="health-status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Hooks</span>
+                    </div>
+                    <div class="health-metrics">
+                        <span class="metric-value" id="hooks-active">-</span>
+                        <span class="metric-label">Active</span>
+                    </div>
+                </div>
+                
+                <div class="health-card" id="git-health">
+                    <div class="health-status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Git Status</span>
+                    </div>
+                    <div class="health-metrics">
+                        <span class="metric-value" id="git-changes">-</span>
+                        <span class="metric-label">Changes</span>
+                    </div>
+                </div>
+                
+                <div class="health-card" id="operations-health">
+                    <div class="health-status">
+                        <span class="status-indicator"></span>
+                        <span class="status-text">Operations</span>
+                    </div>
+                    <div class="health-metrics">
+                        <span class="metric-value" id="operations-count">-</span>
+                        <span class="metric-label">Sessions</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Framework Components -->
+        <section class="dashboard-section">
+            <h2>🧱 Framework Components</h2>
+            <div class="components-grid">
+                <div class="component-card">
+                    <h3>📋 Principles</h3>
+                    <div class="component-stats">
+                        <span class="stat-number" id="principles-count">-</span>
+                        <span class="stat-label">Active Principles</span>
+                    </div>
+                    <a href="../PRINCIPLES.md" class="component-link">View All</a>
+                </div>
+                
+                <div class="component-card">
+                    <h3>🎭 Personalities</h3>
+                    <div class="component-stats">
+                        <span class="stat-number" id="personalities-count">-</span>
+                        <span class="stat-label">Available Styles</span>
+                    </div>
+                    <a href="../PERSONALITIES.md" class="component-link">View All</a>
+                </div>
+                
+                <div class="component-card">
+                    <h3>⚡ Processes</h3>
+                    <div class="component-stats">
+                        <span class="stat-number" id="processes-count">-</span>
+                        <span class="stat-label">Workflows</span>
+                    </div>
+                    <a href="../PROCESSES.md" class="component-link">View All</a>
+                </div>
+                
+                <div class="component-card">
+                    <h3>📏 Standards</h3>
+                    <div class="component-stats">
+                        <span class="stat-number" id="standards-count">-</span>
+                        <span class="stat-label">Quality Rules</span>
+                    </div>
+                    <a href="../STANDARDS.md" class="component-link">View All</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Usage Analytics -->
+        <section class="dashboard-section">
+            <h2>📊 Usage Analytics</h2>
+            <div class="analytics-grid">
+                <div class="chart-container">
+                    <h3>Agent Usage Trends</h3>
+                    <canvas id="agent-usage-chart"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h3>Hook Execution Stats</h3>
+                    <canvas id="hooks-stats-chart"></canvas>
+                </div>
+                
+                <div class="metrics-summary">
+                    <h3>Quick Metrics</h3>
+                    <div class="metrics-list">
+                        <div class="metric-item">
+                            <span class="metric-name">Total Sessions</span>
+                            <span class="metric-value" id="total-sessions">-</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-name">Average Session Length</span>
+                            <span class="metric-value" id="avg-session-length">-</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-name">Most Used Personality</span>
+                            <span class="metric-value" id="top-personality">-</span>
+                        </div>
+                        <div class="metric-item">
+                            <span class="metric-name">Framework Updates</span>
+                            <span class="metric-value" id="framework-updates">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Operations Timeline -->
+        <section class="dashboard-section">
+            <h2>🕒 Recent Operations</h2>
+            <div class="operations-timeline" id="operations-timeline">
+                <div class="loading">Loading recent operations...</div>
+            </div>
+        </section>
+
+        <!-- Navigation Hub -->
+        <section class="dashboard-section">
+            <h2>🧭 Quick Navigation</h2>
+            <div class="navigation-grid">
+                <div class="nav-category">
+                    <h3>📚 Documentation</h3>
+                    <ul class="nav-list">
+                        <li><a href="../INDEX.md">System Index</a></li>
+                        <li><a href="../README.md">Overview</a></li>
+                        <li><a href="../EXAMPLES.md">Examples</a></li>
+                        <li><a href="../CHECKS.md">Checks</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-category">
+                    <h3>🔧 Tools & Utilities</h3>
+                    <ul class="nav-list">
+                        <li><a href="../TOOLS.md">System Tools</a></li>
+                        <li><a href="../../hooks/README.md">Hooks</a></li>
+                        <li><a href="../../operations/">Operations</a></li>
+                        <li><a href="scripts/">Dashboard Scripts</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-category">
+                    <h3>📁 Framework Structure</h3>
+                    <ul class="nav-list">
+                        <li><a href="../principles/">Principles</a></li>
+                        <li><a href="../personalities/">Personalities</a></li>
+                        <li><a href="../processes/">Processes</a></li>
+                        <li><a href="../standards/">Standards</a></li>
+                    </ul>
+                </div>
+                
+                <div class="nav-category">
+                    <h3>🎯 Quick Actions</h3>
+                    <ul class="nav-list">
+                        <li><button onclick="runHealthCheck()">Run Health Check</button></li>
+                        <li><button onclick="updateMetrics()">Update Metrics</button></li>
+                        <li><button onclick="validateFramework()">Validate Framework</button></li>
+                        <li><button onclick="exportData()">Export Data</button></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="dashboard-footer">
+        <p>Claude Framework Dashboard v1.0 | Simple and Easy Framework</p>
+        <div class="footer-links">
+            <a href="../INDEX.md">System Index</a>
+            <a href="../../CLAUDE.md">Main Framework</a>
+            <a href="scripts/README.md">Scripts Documentation</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/dashboard.js"></script>
+</body>
+</html>
