@@ -12,7 +12,7 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 ## System Commands
 
-**IF need complete overview** → Read [system/INDEX.md](system/INDEX.md)
+**IF need complete overview** → Read [system/index.md](system/index.md)
 
 **IF need decision guidance** → Read [system/PRINCIPLES.md](system/PRINCIPLES.md)
 
