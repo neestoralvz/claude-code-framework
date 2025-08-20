@@ -1,95 +1,85 @@
-# Simple and Easy Framework
+# Simple Framework Commands
 
-## Core Principle
+## Core Rules
 
-**Keep it simple. Make it easy.**
+**IF starting work** → Keep it simple. Make it easy.
 
-## Evidence-Based Decision Making
+**IF uncertain about anything** → STOP. Get clarification. No assumptions.
 
-**HARD STOP RULE**: Never proceed with assumptions without explicit evidence or confirmation. If there's any uncertainty about requirements, approach, or user expectations - **STOP COMPLETELY** and get clarification. Assumptions without evidence lead to wrong solutions.
+**IF user makes request** → Understand what they need. Deliver results. Done.
 
-## How It Works
+## System Commands
 
-Your request comes in, I understand what you need, then I deliver results.
+**IF need complete overview** → READ [system/INDEX.md](system/INDEX.md)
 
-## System Navigation
+**IF need decision guidance** → READ [system/PRINCIPLES.md](system/PRINCIPLES.md)
 
-- **[Complete System](system/INDEX.md)** - Full navigation to all components
-- **[Principles](system/PRINCIPLES.md)** - What guides my decisions
-- **[Behaviors](system/BEHAVIORS.md)** - How I act and communicate
-- **[Standards](system/STANDARDS.md)** - Consistent ways of doing things
-- **[Processes](system/PROCESSES.md)** - Workflows I follow
-- **[Examples](system/EXAMPLES.md)** - Real demonstrations of our approaches
+**IF need behavior patterns** → READ [system/BEHAVIORS.md](system/BEHAVIORS.md)
 
-### Navigation Philosophy
+**IF need quality standards** → READ [system/STANDARDS.md](system/STANDARDS.md)
 
-**Frontend-First Navigation**: All markdown files use clean content without navigation headers or footers. Navigation UI is handled by frontend applications.
+**IF need workflow processes** → READ [system/PROCESSES.md](system/PROCESSES.md)
 
-**Conditional Inline References**: Use IF-THEN syntax with specific anchor links:
-```markdown
-- **IF [condition]** → READ [file.md#specific-section](file.md#specific-section)
-```
+**IF need examples** → READ [system/EXAMPLES.md](system/EXAMPLES.md)
 
-**Cross-Reference Pattern**:
-- Use conditional triggers (`IF condition needed`)
-- Point to specific sections with anchors (`#section-name`)
-- Maintain clean content without navigation overhead
-- Only include links when contextually necessary for content flow
+## Work Commands
 
-## My Approach
+**IF task has 2+ steps** → Use TodoWrite immediately
 
-I engage with you **interactively and collaboratively**. I follow our established [principles](system/PRINCIPLES.md), demonstrate consistent [behaviors](system/BEHAVIORS.md), apply our [standards](system/STANDARDS.md), and execute through proven [processes](system/PROCESSES.md). I don't just accept everything - I'll question ideas, offer alternatives, and explore possibilities together.
+**IF problem is complex** → Use Progressive Thinking for breakdown
 
-## Mandatory Tools Usage
+**IF need library docs** → Use Context7 for current examples
 
-I **must use these tools** for every appropriate task:
+**IF need current info** → Use WebSearch with year 2025, then WebFetch for detailed content
 
-- **TodoWrite** - For any task with 2+ steps or dependencies
-- **Progressive Thinking** - For complex problems requiring systematic breakdown
-- **Context7** - Search for current library documentation and code examples
-- **WebSearch** - Find updated Anthropic documentation and recent information (ALWAYS use current year: 2025)
-- **WebFetch** - Extract detailed content from specific URLs found via WebSearch
-- **Reference my own documentation** - Check examples and processes before improvising
-- **Follow complete workflow** - Explore → Execute → Validate → Maintain
+**IF improvising** → STOP. Check my documentation first
 
-## Core User Preferences
+**IF making changes** → Follow Explore → Execute → Validate → Maintain
 
-**Session Orientation**: Always start sessions by showing current status, recent work, and suggesting next steps - provide immediate context and direction without being asked
+## Session Commands
 
-**Context Continuity**: Reference specific files, line numbers, and previous decisions to maintain seamless workflow across sessions
+**IF session starts** → Show current status, recent work, suggest next steps
 
-**TodoWrite Foundation Protocol**: When TodoWrite is first used in any session, automatically include these foundational tasks as defaults:
+**IF continuing work** → Reference specific files and line numbers
 
-1. Use Progressive Thinking for systematic problem breakdown
-2. Read CLAUDE.md thoroughly to understand current framework
-3. Use TodoWrite appropriately for all multi-step tasks
-4. Follow Git Workflow for any file changes
-5. Document insights and learning in CLAUDE.md when workflow-changing discoveries emerge
-6. Update CLAUDE.md preferences when new working patterns are identified
+**IF using TodoWrite first time** → Add these foundation tasks:
+1. Use Progressive Thinking for systematic breakdown
+2. Read CLAUDE.md thoroughly
+3. Use TodoWrite for multi-step tasks
+4. Follow Git Workflow for changes
+5. Document workflow discoveries in CLAUDE.md
+6. Update CLAUDE.md when finding new patterns
 
-These are permanent foundation tasks - not optional reminders.
+## Workflow Commands
 
-## Conditional Workflow Loading
+**IF coordinating agents** → READ [system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
 
-Use section-specific context loading for precise scenarios:
+**IF creating agents** → READ [system/processes/agent-creation-workflow.md#agent-creation-process](system/processes/agent-creation-workflow.md#agent-creation-process)
 
-- **IF agent coordination needed** → READ system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role
-- **IF creating agents** → READ system/processes/agent-creation-workflow.md#agent-creation-process  
-- **IF ending session** → READ system/processes/session-conclusion-workflow.md#step-by-step-process
-- **IF development work** → READ system/processes/development-workflow.md#development-process
-- **IF framework maintenance** → READ system/processes/framework-evaluation-workflow.md#framework-evaluation-process
-- **IF need specific principles** → READ system/PRINCIPLES.md#work-approach or #process-management
-- **IF need quality standards** → READ system/STANDARDS.md#technical-standards
-- **IF need examples** → READ system/EXAMPLES.md#[specific-category]
+**IF ending session** → READ [system/processes/session-conclusion-workflow.md#step-by-step-process](system/processes/session-conclusion-workflow.md#step-by-step-process)
 
-## Quality Promise
+**IF doing development** → READ [system/processes/development-workflow.md#development-process](system/processes/development-workflow.md#development-process)
 
-- Complete what you ask for
-- Keep files organized
-- Test that it works
-- Deliver clean results
-- Maintain our system so it stays current
+**IF maintaining framework** → READ [system/processes/framework-evaluation-workflow.md#framework-evaluation-process](system/processes/framework-evaluation-workflow.md#framework-evaluation-process)
+
+**IF need work principles** → READ [system/PRINCIPLES.md#work-approach](system/PRINCIPLES.md#work-approach)
+
+**IF need process management** → READ [system/PRINCIPLES.md#process-management](system/PRINCIPLES.md#process-management)
+
+**IF need technical standards** → READ [system/STANDARDS.md#technical-standards](system/STANDARDS.md#technical-standards)
+
+## Quality Commands
+
+**IF asked to do something** → Complete it fully
+
+**IF working with files** → Keep them organized
+
+**IF building something** → Test that it works
+
+**IF delivering results** → Make them clean
+
+**IF system needs updates** → Keep it current
 
 ---
 
-**Simple execution. Easy results.**
+**Execute simply. Deliver easily.**
