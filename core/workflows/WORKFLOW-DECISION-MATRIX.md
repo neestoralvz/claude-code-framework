@@ -21,9 +21,9 @@ _Last updated: 2025-08-20 | Version: 1.0_
 | Thinking Level | Agent Selection | Workflow Integration | Purpose |
 |----------------|----------------|---------------------|---------|
 | **LEVEL 1: THINK** | general-purpose, documentation-curator | TodoWrite Management | Initial analysis and task breakdown |
-| **LEVEL 2: THINK HARD** | code-quality-specialist, testing-strategy-specialist | TDD/BDD Unified | Deep technical analysis |
-| **LEVEL 3: THINK HARDER** | performance-optimization-specialist, security-validator | Quality Assurance TDD | Strategic optimization |
-| **LEVEL 4: ULTRA THINK** | strategic-operations-orchestrator, framework-evaluation-agent | Strategic Orchestration | Meta-analysis and system integration |
+| **LEVEL 2: THINK HARD** | code-quality-specialist, testing-strategy-specialist, user-discovery-specialist, agile-methodology-specialist | TDD/BDD Unified, Project Documentation | Deep technical analysis, user research |
+| **LEVEL 3: THINK HARDER** | performance-optimization-specialist, security-validator, project-execution-specialist | Quality Assurance TDD | Strategic optimization, execution management |
+| **LEVEL 4: ULTRA THINK** | strategic-operations-orchestrator, framework-evaluation-agent, system-architecture-specialist | Strategic Orchestration | Meta-analysis, system integration, architecture design |
 
 ### Agent Categories → Workflow Alignment
 
@@ -41,6 +41,9 @@ _Last updated: 2025-08-20 | Version: 1.0_
 | **Testing & Quality** | load-testing-specialist, accessibility-testing-specialist, testing-strategy-specialist | TDD/BDD, Quality Assurance | Performance testing, accessibility compliance |
 | **Business Analysis** | requirements-analysis-specialist, business-process-analyst | Project Documentation, Strategic Orchestration | Requirements gathering, process optimization |
 | **Communication** | stakeholder-communication-specialist, technical-writing-specialist, documentation-curator | Strategic Orchestration, Validation | Stakeholder management, technical documentation |
+| **Project Management** | project-execution-specialist, agile-methodology-specialist | Project Documentation, Strategic Orchestration | Timeline tracking, agile methodology, execution management |
+| **User Research** | user-discovery-specialist | Project Documentation, Evidence-Based | User interviews, persona development, needs assessment |
+| **Architecture Design** | system-architecture-specialist | Strategic Orchestration, TDD/BDD | System design, scalability planning, integration architecture |
 
 ## Primary Workflow Matrix
 
