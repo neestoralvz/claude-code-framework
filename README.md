@@ -39,9 +39,9 @@ The framework is organized into distinct categories that respect system constrai
 .claude/
 ├── [CORE CONFIGURATION FILES - Root Level Only]
 ├── CLAUDE.md                    # Main framework instructions
-├── CLAUDE.local.md             # Local project customizations  
-├── ORGANIZATION-WORKFLOW.md    # File organization workflow guide
-├── README.md                   # This documentation (project overview)
+├── claude-local.md             # Local project customizations  
+├── organization-workflow.md    # File organization workflow guide
+├── readme.md                   # This documentation (project overview)
 ├── package.json                # Node.js dependencies and scripts
 ├── settings.json               # Claude Code configuration
 ├── .gitignore                  # Git ignore patterns
@@ -57,7 +57,7 @@ The framework is organized into distinct categories that respect system constrai
 ├── todos/                      # Persistent todo lists (system-managed)
 │
 ├── [ORGANIZED WORKING DIRECTORIES - Structured by function]
-├── scripts/                    # Organized utility scripts
+├── tools/                    # Organized utility scripts
 │   ├── performance/           # Performance analysis and monitoring
 │   ├── testing/               # Test execution and management
 │   ├── validation/            # Validation and verification utilities
@@ -68,12 +68,12 @@ The framework is organized into distinct categories that respect system constrai
 │   ├── integration/           # Integration tests
 │   └── performance/           # Performance tests
 │
-├── documentation/             # Organized documentation
+├── docs/             # Organized documentation
 │   ├── reports/               # Generated reports and demonstrations
 │   └── guides/                # User guides and tutorials
 │
 ├── [FRAMEWORK DIRECTORIES - Keep as structured]
-├── system/                    # Core framework system files
+├── core/                    # Core framework system files
 │   ├── index.md              # System overview and navigation
 │   ├── VISION.md             # Strategic vision and objectives
 │   ├── PRINCIPLES.md         # Decision-making principles
@@ -86,12 +86,12 @@ The framework is organized into distinct categories that respect system constrai
 │   ├── processes/            # Detailed process workflows
 │   └── standards/            # Detailed standards documentation
 │
-├── operations/               # Operational work sessions and experiments
+├── work/               # Operational work sessions and experiments
 │   ├── YYYYMMDD-HHMMSS-description/  # Timestamped operation directories
 │   └── [session-specific files]
 │
 ├── hooks/                   # Claude Code hooks
-│   ├── README.md           # Hook configuration documentation
+│   ├── readme.md           # Hook configuration documentation
 │   └── [hook-scripts]      # Individual hook implementations
 │
 ├── integrations/           # External tool integrations
@@ -166,20 +166,20 @@ The following are also immovable but represent more traditional configuration ar
 
 #### Root Directory (Only These Files)
 - `CLAUDE.md` - Main framework instructions
-- `CLAUDE.local.md` - Local customizations
-- `ORGANIZATION-WORKFLOW.md` - File organization workflow  
-- `README.md` - This project documentation
+- `claude-local.md` - Local customizations
+- `organization-workflow.md` - File organization workflow  
+- `readme.md` - This project documentation
 - `package.json` - Dependencies and scripts
 - `settings.json` - Claude Code settings
 - `.gitignore` - Git ignore patterns
 
 #### Organized Directories (Movable Files)
 - **Test files** (`*.test.js`, `*.spec.js`) → `tests/unit/`
-- **Script files** (`run-*.js`, `execute-*.js`) → `scripts/testing/`
-- **Performance files** (`performance-*.js`, `*-analysis.js`) → `scripts/performance/`
-- **Validation files** (`validate-*.js`, `quick-*.js`) → `scripts/validation/`
-- **Documentation files** (`*-REPORT.md`, `*-DEMONSTRATION.md`) → `documentation/reports/`
-- **Utility scripts** → `scripts/utilities/`
+- **Script files** (`run-*.js`, `execute-*.js`) → `tools/testing/`
+- **Performance files** (`performance-*.js`, `*-analysis.js`) → `tools/performance/`
+- **Validation files** (`validate-*.js`, `quick-*.js`) → `tools/validation/`
+- **Documentation files** (`*-REPORT.md`, `*-DEMONSTRATION.md`) → `docs/reports/`
+- **Utility scripts** → `tools/utilities/`
 
 ### Maintenance Rules
 
@@ -193,8 +193,8 @@ The following are also immovable but represent more traditional configuration ar
 #### When System Creates Files
 1. **System Directories**: Files created by Claude Code go in system-managed directories
 2. **User Files**: Files created by user work go in organized directories
-3. **Temporary Files**: Session work goes in `operations/[timestamped]/`
-4. **Documentation**: Generated docs go in `documentation/`
+3. **Temporary Files**: Session work goes in `work/[timestamped]/`
+4. **Documentation**: Generated docs go in `docs/`
 
 #### Regular Cleanup
 1. **Monthly Review**: Check for misplaced files in root
@@ -204,7 +204,7 @@ The following are also immovable but represent more traditional configuration ar
 
 ## Framework Components
 
-### Core System (`/system/`)
+### Core System (`/core/`)
 - **Navigation**: System overview and guidance documents
 - **Principles**: Decision-making frameworks and standards  
 - **Processes**: Detailed workflows and methodologies
@@ -224,7 +224,7 @@ Event-driven automation:
 - Validation and security hooks
 - Workflow automation triggers
 
-### Operations (`/operations/`)
+### Operations (`/work/`)
 Timestamped work sessions:
 - Experimental work areas
 - Session-specific files and reports
@@ -255,10 +255,10 @@ ls -la
 cat CLAUDE.md
 
 # Check current organization
-cat ORGANIZATION-WORKFLOW.md
+cat organization-workflow.md
 
 # Review system documentation
-ls system/
+ls core/
 ```
 
 ## Development

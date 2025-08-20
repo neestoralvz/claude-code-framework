@@ -16,9 +16,9 @@ These files and folders are fixed and define our organizational foundation:
 ├── shell-snapshots/          # Shell state snapshots (system-managed)
 ├── statsig/                  # Statsig configuration and cache
 ├── todos/                    # Persistent todo lists (system-managed)
-├── CLAUDE.local.md          # Local project customizations
+├── claude-local.md          # Local project customizations
 ├── CLAUDE.md                # Main framework instructions
-├── README.md                # Project overview and organization guidelines
+├── readme.md                # Project overview and organization guidelines
 ├── .gitignore              # Git ignore patterns
 ├── projects/               # Project-specific workspaces
 ├── logs/                   # System logs and debugging
@@ -38,10 +38,10 @@ Create organized directories for movable files:
 
 ```bash
 # Create script organization
-mkdir -p scripts/testing
-mkdir -p scripts/performance  
-mkdir -p scripts/validation
-mkdir -p scripts/utilities
+mkdir -p tools/testing
+mkdir -p tools/performance  
+mkdir -p tools/validation
+mkdir -p tools/utilities
 
 # Create test organization
 mkdir -p tests/unit
@@ -49,13 +49,13 @@ mkdir -p tests/integration
 mkdir -p tests/performance
 
 # Create documentation organization
-mkdir -p documentation/reports
-mkdir -p documentation/guides
+mkdir -p docs/reports
+mkdir -p docs/guides
 ```
 
 ### Step 2: Categorize and Move Files
 
-**Performance Files → `scripts/performance/`**
+**Performance Files → `tools/performance/`**
 - `performance-analysis.js`
 - `performance-monitoring.js`
 - `load-testing.js`
@@ -68,15 +68,15 @@ mkdir -p documentation/guides
 - `sum.js`
 - `sum.test.js`
 
-**Execution Scripts → `scripts/testing/`**
+**Execution Scripts → `tools/testing/`**
 - `run-tests.js`
 - `direct-test-execution.js`
 
-**Validation Scripts → `scripts/validation/`**
+**Validation Scripts → `tools/validation/`**
 - `validate-implementation.js`
 - `quick-validation.js`
 
-**Documentation → `documentation/reports/`**
+**Documentation → `docs/reports/`**
 - `PERFORMANCE-ANALYSIS-REPORT.md`
 - `TDD-DEMONSTRATION.md`
 
@@ -86,7 +86,7 @@ After moving files, verify the structure:
 
 ```bash
 # Check script organization
-ls scripts/*/
+ls tools/*/
 # Should show: performance/, testing/, validation/, utilities/
 
 # Check test organization  
@@ -94,7 +94,7 @@ ls tests/*/
 # Should show: unit/, integration/, performance/
 
 # Check documentation
-ls documentation/*/
+ls docs/*/
 # Should show: reports/, guides/
 ```
 
@@ -120,7 +120,7 @@ ls documentation/*/
 │   └── todos/                      # Persistent todos
 │
 ├── [ORGANIZED - Working Directories]
-│   ├── scripts/                    # Organized scripts
+│   ├── tools/                    # Organized scripts
 │   │   ├── performance/           # Performance analysis
 │   │   ├── testing/               # Test execution
 │   │   ├── validation/            # Validation utilities
@@ -131,7 +131,7 @@ ls documentation/*/
 │   │   ├── integration/           # Integration tests
 │   │   └── performance/           # Performance tests
 │   │
-│   ├── documentation/             # Organized documentation
+│   ├── docs/             # Organized documentation
 │   │   ├── reports/               # Generated reports
 │   │   └── guides/                # User guides
 │   │
@@ -139,9 +139,9 @@ ls documentation/*/
 │       ├── hooks/                 # Hook implementations
 │       ├── integrations/          # External integrations
 │       ├── metrics/               # Usage metrics
-│       ├── operations/            # Work sessions
+│       ├── work/            # Work sessions
 │       ├── plugins/               # Plugin configs
-│       └── system/                # Framework system files
+│       └── core/                # Framework core files
 ```
 
 ## Organization Principles
@@ -153,9 +153,9 @@ ls documentation/*/
 4. **Content Level**: Files grouped by purpose
 
 ### Logic
-- **scripts/**: Executable utilities organized by function
+- **tools/**: Executable utilities organized by function
 - **tests/**: All test files organized by test type
-- **documentation/**: Generated and manual documentation
+- **docs/**: Generated and manual documentation
 - **[immovable]/**: System-managed, leave untouched
 
 ### Simplicity
@@ -196,8 +196,8 @@ ls documentation/*/
 
 ### With Operations
 - Work sessions create files in appropriate directories
-- Temporary files go to operations/ then get organized
-- Permanent utilities move to scripts/
+- Temporary files go to work/ then get organized
+- Permanent utilities move to tools/
 
 ### With Git
 - Moves tracked in git history
@@ -207,14 +207,14 @@ ls documentation/*/
 ## Automation Opportunities
 
 ### File Organization Script
-Create `scripts/utilities/organize-files.sh` that:
+Create `tools/utilities/organize-files.sh` that:
 - Scans root for misplaced files
 - Categorizes by file patterns
 - Moves to appropriate directories
 - Reports changes made
 
 ### Validation Script  
-Create `scripts/validation/check-organization.sh` that:
+Create `tools/validation/check-organization.sh` that:
 - Verifies structure compliance
 - Reports misplaced files
 - Suggests corrections
@@ -225,7 +225,7 @@ Create `scripts/validation/check-organization.sh` that:
 ### Immediate
 - [ ] No executable files in root except package.json scripts
 - [ ] All tests in tests/ directory
-- [ ] All documentation in documentation/ directory
+- [ ] All documentation in docs/ directory
 - [ ] All scripts organized by function
 
 ### Ongoing

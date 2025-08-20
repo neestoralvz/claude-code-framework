@@ -10,7 +10,7 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF user makes request** → Understand what they need. Deliver results. Done.
 
-**IF getting lost or overwhelmed** → READ [system/CORE.md](system/CORE.md) to return to center
+**IF getting lost or overwhelmed** → READ [core/CORE.md](core/CORE.md) to return to center
 
 **IF things are getting too complex** → STOP. Return to Simple and Easy principles
 
@@ -18,39 +18,39 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 ## System Commands
 
-**IF need complete overview** → Read [system/index.md](system/index.md)
+**IF need complete overview** → Read [core/index.md](core/index.md)
 
-**IF need strategic vision and objectives** → Read [system/VISION.md](system/VISION.md)
+**IF need strategic vision and objectives** → Read [core/VISION.md](core/VISION.md)
 
-**IF need decision guidance** → Read [system/PRINCIPLES.md](system/PRINCIPLES.md)
+**IF need decision guidance** → Read [core/PRINCIPLES.md](core/PRINCIPLES.md)
 
-**IF need personality guidance** → Read [system/PERSONALITIES.md](system/PERSONALITIES.md)
+**IF need personality guidance** → Read [core/PERSONALITIES.md](core/PERSONALITIES.md)
 
-**IF need quality standards** → Read [system/STANDARDS.md](system/STANDARDS.md)
+**IF need quality standards** → Read [core/STANDARDS.md](core/STANDARDS.md)
 
-**IF need workflow processes** → Read [system/PROCESSES.md](system/PROCESSES.md)
+**IF need workflow processes** → Read [core/PROCESSES.md](core/PROCESSES.md)
 
-**IF need examples** → Read [system/EXAMPLES.md](system/EXAMPLES.md)
+**IF need examples** → Read [core/EXAMPLES.md](core/EXAMPLES.md)
 
-**IF need project organization** → Read [README.md](README.md#project-structure)
+**IF need project organization** → Read [readme.md](readme.md#project-structure)
 
-**IF need file organization workflow** → Read [ORGANIZATION-WORKFLOW.md](ORGANIZATION-WORKFLOW.md)
+**IF need file organization workflow** → Read [organization-workflow.md](organization-workflow.md)
 
 ## Personality Commands
 
-**IF complex planning or coordination** → Use [🎭 Strategic Orchestrator](system/personalities/strategic-orchestrator.md)
+**IF complex planning or coordination** → Use [🎭 Strategic Orchestrator](core/personalities/strategic-orchestrator.md)
 
-**IF validating or protecting system** → Use [🛡️ System Guardian](system/personalities/system-guardian.md)  
+**IF validating or protecting system** → Use [🛡️ System Guardian](core/personalities/system-guardian.md)  
 
-**IF exploring ideas together** → Use [🤝 Collaborative Partner](system/personalities/collaborative-partner.md)
+**IF exploring ideas together** → Use [🤝 Collaborative Partner](core/personalities/collaborative-partner.md)
 
-**IF need efficient task completion** → Use [🚀 Action-Oriented Assistant](system/personalities/action-oriented-assistant.md)
+**IF need efficient task completion** → Use [🚀 Action-Oriented Assistant](core/personalities/action-oriented-assistant.md)
 
-**IF deep research required** → Use [🔍 Research Specialist](system/personalities/research-specialist.md)
+**IF deep research required** → Use [🔍 Research Specialist](core/personalities/research-specialist.md)
 
-**IF complex problem analysis** → Use [🧠 Deep Thinker](system/personalities/deep-thinker.md)
+**IF complex problem analysis** → Use [🧠 Deep Thinker](core/personalities/deep-thinker.md)
 
-**IF organizing knowledge/documentation** → Use [📚 Knowledge Curator](system/personalities/knowledge-curator.md)
+**IF organizing knowledge/documentation** → Use [📚 Knowledge Curator](core/personalities/knowledge-curator.md)
 
 ## Work Commands
 
@@ -102,13 +102,13 @@ System prompt with agent specialization
 
 **IF improvising** → Stop. Check my documentation first
 
-**IF making changes** → Follow [TDD/BDD Unified Workflow](system/processes/tdd-bdd-unified-workflow.md) with mandatory validation
+**IF making changes** → Follow [TDD/BDD Unified Workflow](core/processes/tdd-bdd-unified-workflow.md) with mandatory validation
 
-**IF doing ANY action** → Must follow [Validation and Demonstration Workflow](system/processes/validation-and-demonstration-workflow.md) with evidence
+**IF doing ANY action** → Must follow [Validation and Demonstration Workflow](core/processes/validation-and-demonstration-workflow.md) with evidence
 
-**IF writing tests** → Use Red-Green-Refactor cycle from [TDD Workflow](system/processes/test-driven-development-workflow.md)
+**IF writing tests** → Use Red-Green-Refactor cycle from [TDD Workflow](core/processes/test-driven-development-workflow.md)
 
-**IF defining behavior** → Use Given-When-Then scenarios from [BDD Workflow](system/processes/behavior-driven-development-workflow.md)
+**IF defining behavior** → Use Given-When-Then scenarios from [BDD Workflow](core/processes/behavior-driven-development-workflow.md)
 
 **IF using TodoWrite** → Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)
 
@@ -134,7 +134,7 @@ System prompt with agent specialization
 
 **IF coding/implementing** → Always use Context7 first for best practices and current examples
 
-**IF setting up hooks** → Read [hooks/README.md](hooks/README.md) for configuration and testing
+**IF setting up hooks** → Read [hooks/readme.md](hooks/readme.md) for configuration and testing
 
 **IF validating system behavior** → Use Task agents for independent verification
 
@@ -168,7 +168,7 @@ System prompt with agent specialization
 
 **IF doing parallel work** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
 
-**IF complex multi-domain project** → Use [Parallel Conversation Coordination](system/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
+**IF complex multi-domain project** → Use [Parallel Conversation Coordination](core/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
 
 **IF user gives important reminders** → Use TodoWrite immediately to track and not forget
 
@@ -176,7 +176,7 @@ System prompt with agent specialization
 
 **IF user corrects you** → Document the correction immediately in CLAUDE.md to prevent repeat errors
 
-**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](system/standards/personalities-vs-agents-distinction.md)
+**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/standards/personalities-vs-agents-distinction.md)
 
 **IF personality command fails** → I adopt the personality directly, NOT deploy as agent
 
@@ -186,9 +186,9 @@ System prompt with agent specialization
 
 **IF discovering new patterns** → Document in appropriate system files for future reference
 
-**IF creating files** → Follow [README.md](README.md#organization-guidelines) organization guidelines
+**IF creating files** → Follow [readme.md](readme.md#organization-guidelines) organization guidelines
 
-**IF files are misplaced in root** → Reorganize per [README.md](README.md#organization-guidelines) and update this file
+**IF files are misplaced in root** → Reorganize per [readme.md](readme.md#organization-guidelines) and update this file
 
 **IF completing successful workflows** → Document the process for replication
 
@@ -204,7 +204,7 @@ System prompt with agent specialization
 
 **IF continuing work** → Reference specific files and line numbers
 
-**IF session ends** → Read [system/processes/session-conclusion-workflow.md](system/processes/session-conclusion-workflow.md)
+**IF session ends** → Read [core/processes/session-conclusion-workflow.md](core/processes/session-conclusion-workflow.md)
 
 **IF using TodoWrite first time** → Add these foundation tasks:
 
@@ -217,25 +217,25 @@ System prompt with agent specialization
 
 ## Workflow Commands
 
-**IF coordinating agents** → Read [system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
+**IF coordinating agents** → Read [core/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](core/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
 
-**IF creating agents** → Read [system/processes/agent-creation-workflow.md#agent-creation-process](system/processes/agent-creation-workflow.md#agent-creation-process)
+**IF creating agents** → Read [core/processes/agent-creation-workflow.md#agent-creation-process](core/processes/agent-creation-workflow.md#agent-creation-process)
 
-**IF ending session** → Read [system/processes/session-conclusion-workflow.md#step-by-step-process](system/processes/session-conclusion-workflow.md#step-by-step-process)
+**IF ending session** → Read [core/processes/session-conclusion-workflow.md#step-by-step-process](core/processes/session-conclusion-workflow.md#step-by-step-process)
 
-**IF doing development** → Read [system/processes/development-workflow.md#development-process](system/processes/development-workflow.md#development-process)
+**IF doing development** → Read [core/processes/development-workflow.md#development-process](core/processes/development-workflow.md#development-process)
 
-**IF maintaining framework** → Read [system/processes/framework-evaluation-workflow.md#framework-evaluation-process](system/processes/framework-evaluation-workflow.md#framework-evaluation-process)
+**IF maintaining framework** → Read [core/processes/framework-evaluation-workflow.md#framework-evaluation-process](core/processes/framework-evaluation-workflow.md#framework-evaluation-process)
 
-**IF need work principles** → Read [system/PRINCIPLES.md](system/PRINCIPLES.md)
+**IF need work principles** → Read [core/PRINCIPLES.md](core/PRINCIPLES.md)
 
-**IF need process management** → Read [system/PROCESSES.md](system/PROCESSES.md)
+**IF need process management** → Read [core/PROCESSES.md](core/PROCESSES.md)
 
-**IF need technical standards** → Read [system/STANDARDS.md](system/STANDARDS.md)
+**IF need technical standards** → Read [core/STANDARDS.md](core/STANDARDS.md)
 
-**IF need specialized testing workflows** → Check [system/ROADMAP.md](system/ROADMAP.md) for implementation status
+**IF need specialized testing workflows** → Check [core/ROADMAP.md](core/ROADMAP.md) for implementation status
 
-**IF checking system development status** → Read [system/ROADMAP.md](system/ROADMAP.md) for current progress and pending items
+**IF checking system development status** → Read [core/ROADMAP.md](core/ROADMAP.md) for current progress and pending items
 
 ## User Preference Commands
 
@@ -247,7 +247,7 @@ System prompt with agent specialization
 
 **IF research needed** → WebSearch first, then WebFetch for details
 
-**IF hooks workflow needed** → Read [hooks/README.md](hooks/README.md)
+**IF hooks workflow needed** → Read [hooks/readme.md](hooks/readme.md)
 
 **IF Context7 needed** → Use Context7 tool for current library documentation and examples
 
@@ -255,11 +255,11 @@ System prompt with agent specialization
 
 **IF asked to do something** → Complete it fully
 
-**IF working with files** → Keep them organized per [README.md](README.md#organization-guidelines)
+**IF working with files** → Keep them organized per [readme.md](readme.md#organization-guidelines)
 
-**IF building something** → Test that it works with [TDD/BDD validation](system/processes/tdd-bdd-unified-workflow.md)
+**IF building something** → Test that it works with [TDD/BDD validation](core/processes/tdd-bdd-unified-workflow.md)
 
-**IF delivering results** → Provide evidence with [Validation and Demonstration](system/processes/validation-and-demonstration-workflow.md)
+**IF delivering results** → Provide evidence with [Validation and Demonstration](core/processes/validation-and-demonstration-workflow.md)
 
 **IF completing ANY task** → Must demonstrate with passing tests, BDD scenarios, and evidence documentation
 
