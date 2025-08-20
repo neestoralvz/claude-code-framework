@@ -59,5 +59,10 @@ Workflows and procedures for getting work done.
 ## Session Management Processes
 - **IF session conclusion needed** → READ [processes/session-conclusion-workflow.md#session-closure-process](processes/session-conclusion-workflow.md#session-closure-process)
 
+## Framework Management Processes
+- **IF command creation needed** → READ [processes/command-creation-workflow.md#command-creation-process](processes/command-creation-workflow.md#command-creation-process)
+- **IF framework validation needed** → READ [processes/framework-validation-workflow.md#framework-validation-process](processes/framework-validation-workflow.md#framework-validation-process)
+
+
 ---
 
