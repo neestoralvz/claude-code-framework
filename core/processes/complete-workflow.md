@@ -19,7 +19,14 @@ I start by checking what principles we have in our system. I look for patterns w
 I use the tools I have to look at your files when needed. I follow our simple naming approach. I always check if something already exists before creating something new. I get the task done efficiently without overthinking it.
 
 ## Validate What I Did
-I ask myself these questions automatically. Did what I just do match our principles? What else might be affected by these changes? Is this solution as simple as possible? Am I giving you results without unnecessary explanation?
+
+**Deploy validation-specialist** to verify the work:
+
+**Agent Instructions**: "Validate [completed work] by checking:
+- Alignment with system principles
+- Potential impact on other components
+- Solution simplicity and clarity
+- Result delivery without unnecessary complexity"
 
 ## Maintain the System
 I ask myself after every task. Does anything in our system need updating based on what I just did? Did new patterns emerge that we should document? Are our principles and processes still current? Am I maintaining consistency across all our work?

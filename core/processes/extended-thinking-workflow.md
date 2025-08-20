@@ -9,7 +9,9 @@
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-How to systematically work through complex problems that require deep analysis.
+How to deploy specialized agents to systematically work through complex problems that require deep analysis.
+
+**MANDATORY**: All extended thinking must be performed through agent deployment. Never attempt direct analysis.
 
 ## When to Use Extended Thinking
 
@@ -17,22 +19,52 @@ When facing complex problems with multiple components, unclear requirements, or 
 
 ## Think Through the Problem
 
-Break down the problem into smaller components. Identify what you know, what you need to find out, and what assumptions you're making. Map out relationships between different parts of the problem.
+**Deploy deep-analysis-specialist** to decompose the problem:
+
+**Agent Instructions**: "Analyze [complex problem] by:
+- Breaking down into smaller components
+- Identifying known facts and unknowns
+- Documenting assumptions being made
+- Mapping relationships between components"
 
 ## Explore Multiple Approaches
 
-Generate several possible solutions before committing to one. Consider the tradeoffs of each approach including complexity, maintainability, performance, and future flexibility.
+**Deploy solution-architect** to generate and evaluate approaches:
+
+**Agent Instructions**: "Generate multiple solutions for [problem]:
+- Create at least 3 distinct approaches
+- Evaluate tradeoffs: complexity, maintainability, performance
+- Consider future flexibility and scalability
+- Recommend optimal approach with justification"
 
 ## Plan Implementation Steps
 
-Once you choose an approach, break it down into specific, actionable steps. Identify dependencies between steps and potential risks or obstacles.
+**Deploy strategic-orchestrator** to create detailed implementation plan:
+
+**Agent Instructions**: "Create implementation plan for [chosen approach]:
+- Break down into specific, actionable steps
+- Identify dependencies between steps
+- Map potential risks and mitigation strategies
+- Define validation criteria for each step"
 
 ## Execute with Validation
 
-Implement one step at a time, validating results before moving to the next step. This allows you to catch problems early and adjust your approach if needed.
+**Deploy implementation-specialist** with continuous validation:
+
+**Agent Instructions**: "Execute [implementation plan] with validation:
+- Implement one step at a time
+- Deploy validation-specialist after each step
+- Catch and address problems immediately
+- Adjust approach based on validation results"
 
 ## Reflect and Document
 
-After completing the work, document what you learned, what worked well, and what you would do differently next time. This builds knowledge for future complex problems.
+**Deploy documentation-specialist** to capture learnings:
+
+**Agent Instructions**: "Document learnings from [project]:
+- Capture what was learned
+- Document what worked well
+- Identify improvement opportunities
+- Create knowledge base for future problems"
 
 ---

@@ -9,7 +9,9 @@
 
 ---
 
-This workflow ensures TodoWrite is used effectively with atomic tasks, proper status management, and evidence-based completion tracking.
+This workflow ensures TodoWrite is used effectively through specialized agent deployment for atomic task breakdown, proper status management, and evidence-based completion tracking.
+
+**MANDATORY**: All TodoWrite management must be performed through agent deployment. Never manage tasks directly.
 
 ## BDD Scenario: Task Management
 
@@ -26,18 +28,28 @@ Then I should:
 ## Phase 1: Task Analysis (BDD)
 
 ### Atomic Task Definition
-```gherkin
-Given I need to break down complex work
-When I create TodoWrite tasks
-Then each task must be:
+
+**Deploy task-breakdown-specialist** to create atomic tasks:
+
+**Agent Instructions**: "Break down [project/work] into atomic TodoWrite tasks. Each task must be:
 - Indivisible: Cannot be broken down further meaningfully
 - Actionable: Has clear action verb and deliverable
 - Completable: Has definitive completion criteria
 - Specific: Precisely describes what needs to be done
-- Testable: Success can be objectively verified
+- Testable: Success can be objectively verified"
+
+```gherkin
+Given task-breakdown-specialist analyzes complex work
+When the agent creates TodoWrite tasks
+Then each task must meet atomicity criteria
 ```
 
 **Atomic Task Validation:**
+
+**Deploy validation-specialist** to verify task atomicity:
+
+**Agent Instructions**: "Validate that all TodoWrite tasks meet atomicity criteria. Run tests to verify each task has single action, completable scope, measurable outcome, and no blocking dependencies."
+
 ```javascript
 describe('Task Atomicity', () => {
   it('should have single, clear action', () => {
