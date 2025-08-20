@@ -77,18 +77,28 @@ describe('User Authentication Behavior', () => {
 ## Phase 4: Quality Improvement (Refactor Phase)
 
 ### Improve Code Quality
-- Refactor for clarity, maintainability, and performance
+
+**Deploy code-quality-specialist** to refactor code while maintaining test coverage.
+
+**Agent Instructions**: "Refactor [code/module] to:
+- Improve clarity, maintainability, and performance
 - Apply design patterns and best practices
 - Ensure code follows project conventions
+- Remove duplication and improve naming
+Run tests after each change to prevent regressions."
 
-**Validation**: All tests remain passing after refactoring
+**Validation**: Deploy validation-specialist to confirm all tests remain passing after refactoring
 
 ## Phase 5: Behavior Verification (BDD Validation)
 
 ### Demonstrate Behavior
-1. **Run Acceptance Tests**: Prove BDD scenario is implemented
-2. **Execute Manual Validation**: Verify behavior in real context
-3. **Document Evidence**: Show test results and system behavior
+
+**Deploy demonstration-specialist** to verify and document behavior implementation.
+
+**Agent Instructions**: "Verify [feature] behavior by:
+1. Running acceptance tests to prove BDD scenario is implemented
+2. Executing manual validation in real context
+3. Documenting evidence with test results and system behavior"
 
 ### Validation Checklist
 - [ ] All unit tests pass
