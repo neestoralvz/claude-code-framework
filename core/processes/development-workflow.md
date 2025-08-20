@@ -12,40 +12,59 @@
 - Test-driven development scenarios
 
 ## Test Driven Development
-Proven effective approach - write tests first, then implement to pass them - significantly improves development quality and design.
+
+**MANDATORY**: Deploy testing-strategy-specialist for all TDD activities. Never attempt direct test writing or implementation.
+
+Proven effective approach - deploy agents to write tests first, then deploy implementation agents to pass them - significantly improves development quality and design.
 
 ## Research Before Acting
-Always research current best practices and gather evidence before implementing solutions - leads to better decisions and reusable knowledge.
+
+**Deploy research-specialist** to investigate current best practices and gather evidence before implementation. Agent deployment leads to better decisions and reusable knowledge.
 
 ## Document Research Findings
-Capture research results systematically so knowledge builds over time rather than being rediscovered repeatedly.
+
+**Deploy documentation-specialist** to capture research results systematically so knowledge builds over time rather than being rediscovered repeatedly.
 
 ## Development Process
 
 ### 1. Discovery and Planning
-Before implementing any feature, initiate exploratory dialogue to define requirements:
-1. **Exploratory Dialogue** - Interactive conversation to understand real needs and context
-2. **Feature Definition** - What exactly needs to be built, why, and what success looks like
-3. **Technical Planning** - Architecture, technology choices, implementation approach
-4. **Documentation Capture** - Record entire discovery process and decisions
-5. **Implementation Roadmap** - Clear execution plan with measurable success criteria
+
+**Deploy requirements-analysis-specialist** to initiate exploratory dialogue and define requirements:
+
+**Agent Instructions**: "Conduct discovery for [feature] including:
+1. Exploratory Dialogue - Understand real needs and context
+2. Feature Definition - Define what needs to be built, why, and success criteria
+3. Technical Planning - Determine architecture and implementation approach
+4. Documentation Capture - Record discovery process and decisions
+5. Implementation Roadmap - Create execution plan with measurable criteria"
 
 This prevents solution assumption errors and ensures we build what's actually needed.
 
 ### 2. Test-First Implementation
+
+**Deploy testing-strategy-specialist** to coordinate TDD cycle:
+
+**Agent Instructions**: "Implement [feature] using TDD methodology:
 - Write tests first that define expected behavior
-- Implement minimal code to pass tests
-- Refactor while maintaining test coverage
-- Validate behavior meets requirements
+- Deploy implementation-specialist for minimal code to pass tests
+- Deploy code-quality-specialist to refactor while maintaining coverage
+- Deploy validation-specialist to validate behavior meets requirements"
 
 ### 3. Quality Validation
-- Follow established coding standards and patterns
-- Use available tools and libraries in codebase
-- Maintain consistency with existing patterns
-- Document approach and decisions
+
+**Deploy code-quality-specialist** for comprehensive quality assurance:
+
+**Agent Instructions**: "Validate [feature] quality by:
+- Following established coding standards and patterns
+- Using available tools and libraries in codebase
+- Maintaining consistency with existing patterns
+- Documenting approach and decisions"
 
 ### 4. Script-Based Success Metrics
-Use automated scripts for validation and evidence-based measurement of success criteria rather than subjective assessment.
+
+**Deploy metrics-specialist** to create and run validation scripts:
+
+**Agent Instructions**: "Create automated validation scripts for [feature] to provide evidence-based measurement of success criteria rather than subjective assessment."
 
 ## Development Standards
 
@@ -56,10 +75,14 @@ Use automated scripts for validation and evidence-based measurement of success c
 - Maintain clean, organized code structure
 
 ### Testing Standards
-- READ system/processes/test-driven-development-workflow.md for detailed TDD methodology
-- READ system/processes/behavior-driven-development-workflow.md for user-focused behavior validation
-- Comprehensive test coverage for new functionality
-- Integration tests for system behavior validation
+
+**Deploy testing-strategy-specialist** to implement comprehensive testing:
+
+**Agent Instructions**: "Implement testing standards for [feature]:
+- Follow TDD methodology from test-driven-development-workflow.md
+- Apply BDD for user-focused validation from behavior-driven-development-workflow.md
+- Ensure comprehensive test coverage for new functionality
+- Create integration tests for system behavior validation"
 
 ### Quality Assurance
 - Follow framework principles and standards
