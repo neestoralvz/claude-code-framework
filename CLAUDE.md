@@ -36,6 +36,8 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need file organization workflow** → Read [core/organization-workflow.md](core/organization-workflow.md)
 
+**IF starting new project** → Use [Project Documentation Template](core/PROJECT-DOCUMENTATION-TEMPLATE.md) to document objectives, challenge, success criteria, and metrics immediately
+
 ## Personality Commands
 
 **IF complex planning or coordination** → Use [🎭 Strategic Orchestrator](core/personalities/strategic-orchestrator.md)
@@ -205,6 +207,17 @@ System prompt with agent specialization
 **IF continuing work** → Reference specific files and line numbers
 
 **IF session ends** → Read [core/processes/session-conclusion-workflow.md](core/processes/session-conclusion-workflow.md)
+
+## Parallel Coordination Commands
+
+**IF complex multi-domain project** → Use `PARALLEL` command to initiate parallel conversation coordination
+
+**`PARALLEL [project-name]`** → Generate tickets for parallel conversation coordination:
+- Analyzes current project requirements
+- Identifies independent work streams and domains
+- Creates structured tickets with specific deliverables
+- Generates ticket files in `operations/[timestamp]-parallel-[project]/tickets/`
+- Provides coordination instructions for managing parallel work
 
 **IF using TodoWrite first time** → Add these foundation tasks:
 
