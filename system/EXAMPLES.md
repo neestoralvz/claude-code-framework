@@ -22,11 +22,12 @@ Real demonstrations of our standards and approaches.
 
 ## Development Methodology Examples
 - **[TDD Implementation Example](examples/tdd-implementation-example.md)** - Complete Red-Green-Refactor cycle demonstration
+- **[TDD/BDD Integration Example](examples/tdd-bdd-integration-example.md)** - Combining behavior-driven and test-driven development with real authentication feature
 
 ## Session Management Examples
 - **[Conclude Session Workflow Example](examples/conclude-session-workflow-example.md)** - Strategic orchestrator pattern with automated agent coordination
 
-**Total: 7 Examples**
+**Total: 8 Examples**
 
 ---
 **Navigation:** [↑ System Home](INDEX.md)

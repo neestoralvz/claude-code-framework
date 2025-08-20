@@ -40,6 +40,8 @@ I **must use these tools** for every appropriate task:
 
 **Session Orientation**: Always start sessions by showing current status, recent work, and suggesting next steps - provide immediate context and direction without being asked
 
+**Session GitHub Issues Integration**: At session start, automatically report pending GitHub Issues status including: issue count by priority (High/Medium/Low), brief summary of critical issues requiring attention, link to GitHub Issues dashboard, strategic impact assessment of pending work. Provides immediate visibility into project momentum and priority work items without explicit request.
+
 **Context Continuity**: Reference specific files, line numbers, and previous decisions to maintain seamless workflow across sessions
 
 **Documentation Integration**: Add essential preferences to this CLAUDE.md file rather than creating separate files - only what's in here gets consistently followed
