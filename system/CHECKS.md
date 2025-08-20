@@ -13,5 +13,6 @@ Quick validations to ensure quality and consistency.
 
 ## Quality Checks
 - **IF naming validation needed** → READ [checks/naming-check.md#naming-validation-criteria](checks/naming-check.md#naming-validation-criteria)
+- **IF CLAUDE.md validation needed** → READ [checks/claude-md-check.md#claude-md-validation-criteria](checks/claude-md-check.md#claude-md-validation-criteria)
 
 ---
