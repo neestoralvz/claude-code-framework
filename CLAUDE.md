@@ -56,21 +56,35 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF using Task tool** → Use [Task Prompt Structure](operations/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
 
-**AGENT SYSTEM REALITY:**
+**AGENT CREATION IMPERATIVE:**
 
-**IF thinking custom agents can be deployed** → STOP. Claude Code has FIXED predefined agents only. No dynamic agent deployment exists.
+**IF need specialized functionality** → MUST create proper specialized agents. Never accept general-purpose workarounds.
 
-**IF need specialized functionality** → Use general-purpose agent with detailed domain-specific prompts instead of impossible custom agents.
+**IF agent-template-architect creates templates** → Templates are first step. MUST follow with actual agent deployment to Claude Code system.
 
-**IF agent-template-architect creates templates** → Templates are documentation only. Claude Code cannot deploy new agent types. Use existing agents.
+**IF requesting agent deployment** → REQUIRED. Framework demands specialized agents for specialized tasks.
 
-**IF requesting agent deployment** → Impossible. Claude Code system is closed. Available agents are fixed at: [Task tool agent types](https://docs.anthropic.com/en/docs/claude-code/settings#task-tool)
+**IF no specialized agent exists** → CREATE ONE. Agent specialization is mandatory, not optional.
 
-**PRACTICAL WORKAROUND STRATEGY:**
+**AGENT DEPLOYMENT WORKFLOW:**
 
-**IF need medical bibliography verification** → Use general-purpose agent with prompt: "Act as medical bibliography verification specialist. Verify references for medical literature about [topic]. Check DOI validity, publication existence, author verification..."
+**IF templates created** → Deploy as subagents in `~/.claude/agents/` (user-level) or `.claude/agents/` (project-level)
 
-**IF need specialized domain work** → Use general-purpose + detailed domain context instead of impossible custom agents. Provide specific instructions, context, and examples in Task prompt.
+**IF custom agents needed** → Create Markdown files with YAML frontmatter in agent directories
+
+**IF agent structure needed** → Use format:
+```
+---
+name: agent-name
+description: When this agent should be invoked
+tools: tool1, tool2, tool3
+---
+System prompt with agent specialization
+```
+
+**IF need medical bibliography verification** → Create `~/.claude/agents/medical-bibliography-verifier.md` with proper YAML frontmatter and specialized prompt
+
+**IF multiple specialized agents required** → Create separate .md files for each agent in appropriate agent directory
 
 **IF improvising** → Stop. Check my documentation first
 
@@ -120,11 +134,17 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need independent verification** → Deploy second agent to validate first agent's work
 
-**IF no specialized agent exists for the task** → Use general-purpose agent with domain-specific detailed prompts. Custom agent deployment is impossible in Claude Code.
+**IF no specialized agent exists for the task** → CREATE specialized agent immediately. Framework demands proper specialization.
 
-**IF requesting custom agents** → Not possible. Claude Code has fixed agent types only. Adapt existing agents with specific instructions.
+**IF requesting custom agents** → MANDATORY. Create and deploy specialized agents for specialized work.
 
-**IF agent-template-architect suggests deployment** → Ignore deployment suggestions. Templates cannot become functional agents in Claude Code system.
+**IF agent-template-architect creates templates** → DEPLOY templates as functional agents in Claude Code system.
+
+**IF creating subagents interactively** → Use `/agents` command for guided creation
+
+**IF creating subagents manually** → Create .md files directly in `~/.claude/agents/` or `.claude/agents/` directories
+
+**IF subagents not working** → Verify YAML frontmatter format and agent directory location
 
 **IF multiple tasks can run simultaneously** → Always deploy agents in parallel for maximum efficiency (MAX 10 per message)
 
