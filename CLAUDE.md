@@ -114,7 +114,7 @@ This prevents solution assumption errors and ensures we build what's actually ne
 - **Executive Summary Requirements**: Specify strategic impact focus, not tactical details
 - **Decision Point Clarity**: Define what strategic decisions may be required from agent work
 
-**Session Conclusion Protocol**: Use conclude-session command for systematic conversation closure - Automates 5-step workflow: Git Operations → Pattern Extraction → Knowledge Documentation → Agent Opportunity Analysis → Transition Preparation - Captures session learning and optimizes framework - Maintains strategic orchestrator role throughout automated workflow - Prepares comprehensive handoff materials for future conversations
+**Session Conclusion Protocol**: Use conclude-session command for systematic conversation closure - Automates 7-step workflow: Git Operations → Pattern Extraction → Knowledge Documentation → Agent Opportunity Analysis → Transition Preparation → GitHub Issues Generation → CLAUDE.md Framework Evaluation - Captures session learning, optimizes framework through systematic effectiveness assessment, and generates evidence-based improvement recommendations - Maintains strategic orchestrator role throughout automated workflow - Prepares comprehensive handoff materials for future conversations
 
 **Conversation Closure Automation**: Prefer automated conclude-session workflow over manual session management - Ensures consistent learning capture and framework optimization - Maintains cognitive load efficiency through systematic agent coordination - Provides evidence-based session value measurement and strategic enhancement
 

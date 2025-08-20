@@ -1,0 +1,118 @@
+{
+  "evaluation_id": "eval-20250819-204121",
+  "framework_version": "current",
+  "evaluation_data": {
+    "timestamp": "20250819-204121",
+    "cognitive_load": {
+      "decision_speed": {
+        "metric": "time_to_action",
+        "target": "<30_seconds",
+        "questions": [
+          "How quickly were decisions made using CLAUDE.md guidance?",
+          "Which preferences required interpretation vs immediate action?",
+          "How many cross-references were needed per task?"
+        ]
+      },
+      "friction_points": {
+        "metric": "hesitation_frequency",
+        "assessment": [
+          "Identify points where guidance was unclear",
+          "Document preferences that caused confusion",
+          "Note areas requiring multiple reference checks"
+        ]
+      },
+      "memory_load": {
+        "metric": "recall_accuracy",
+        "evaluation": "Assess which preferences are consistently remembered vs forgotten"
+      }
+    },
+    "practical_utility": {
+      "problem_resolution": {
+        "questions": [
+          "Which preferences actively solved problems in this session?",
+          "What measurable improvements resulted from following preferences?",
+          "Which preferences prevented errors or saved time?"
+        ]
+      },
+      "usage_patterns": {
+        "assessment": [
+          "Which preferences were consistently applied?",
+          "Which preferences were ignored or forgotten?",
+          "How well did preferences adapt to session context?"
+        ]
+      },
+      "value_delivery": {
+        "metrics": [
+          "Quality improvements observed",
+          "Efficiency gains measured",
+          "Consistency achievements noted"
+        ]
+      }
+    },
+    "system_coherence": {
+      "principle_alignment": {
+        "evaluation": "Do all applied preferences support 'Simple and Easy' principle?",
+        "conflicts": "Identify any contradictory guidance patterns"
+      },
+      "hierarchy_clarity": {
+        "assessment": "Evaluate clarity of preference relationships and priorities",
+        "integration": "Note challenges with new pattern integration"
+      },
+      "evolution_capacity": {
+        "opportunities": "Identify areas where framework could adapt better",
+        "maintenance": "Assess effort required to keep guidance current"
+      }
+    },
+    "optimization_opportunities": {
+      "consolidation_opportunities": [
+        "Identify preferences that could be merged",
+        "Find redundant or overlapping guidance",
+        "Simplify complex multi-part preferences"
+      ],
+      "cognitive_load_reductions": [
+        "Preferences that add mental overhead",
+        "Complex decision trees that could be simplified",
+        "Reference patterns that cause context switching"
+      ],
+      "effectiveness_improvements": [
+        "Preferences that need clearer action language",
+        "Guidance that requires better examples",
+        "Workflows that need automation opportunities"
+      ]
+    }
+  },
+  "recommendations": {
+    "high_priority": [
+      "Consolidate preferences showing low utility scores",
+      "Simplify preferences causing cognitive load spikes",
+      "Clarify preferences with high interpretation requirements"
+    ],
+    "medium_priority": [
+      "Add automation for frequently manual preferences",
+      "Create examples for abstract guidance patterns",
+      "Optimize cross-reference patterns for efficiency"
+    ],
+    "framework_evolution": [
+      "Consider preference categorization by usage frequency",
+      "Implement progressive disclosure for complex workflows",
+      "Add measurement integration for key preferences"
+    ]
+  },
+  "action_items": {
+    "immediate_actions": [
+      "Update high-friction preferences with clearer language",
+      "Add examples to preferences requiring interpretation",
+      "Consolidate redundant preference patterns identified"
+    ],
+    "framework_updates": [
+      "Modify CLAUDE.md structure based on usage patterns",
+      "Implement measurement tracking for key preferences",
+      "Create automation scripts for manual preference tasks"
+    ],
+    "validation_requirements": [
+      "Test revised preferences in next session",
+      "Measure cognitive load improvements",
+      "Validate framework coherence after changes"
+    ]
+  }
+}
