@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-08-20T06:51:33.365223",
+  "health": {
+    "framework_integrity": 100,
+    "hooks_status": 100,
+    "file_permissions": 100,
+    "directory_structure": 100,
+    "overall_score": 100.0
+  },
+  "components": {
+    "principles": 0,
+    "personalities": 7,
+    "processes": 43,
+    "standards": 20,
+    "examples": 12,
+    "tools": 2,
+    "hooks": 9
+  },
+  "usage": {
+    "project_sessions": 539,
+    "recent_activity": {
+      "sessions_last_7_days": 539,
+      "avg_session_length": 54.18051391465677,
+      "most_active_day": "Monday"
+    },
+    "session_patterns": {
+      "peak_hours": [
+        17,
+        14,
+        15
+      ],
+      "session_distribution": {
+        "morning": 77,
+        "afternoon": 263,
+        "evening": 143,
+        "night": 56
+      },
+      "framework_engagement": 10.8
+    },
+    "operation_frequency": {
+      "165000-testing-expertise-validation": 1,
+      "224627-github-issues-generation": 1,
+      "framework-validation": 1,
+      "193200-file-organization-standards": 1,
+      "strategic-planning-processes": 2,
+      "195724-collaborative-analysis-framework": 1,
+      "202200-conclude-session-implementation": 1,
+      "062114-parallel-agent-mandate": 1,
+      "130000-claude-hooks-testing": 1,
+      "framework-strategic-planning": 2,
+      "223634-parallel-orchestration-architecture": 1,
+      "211645-agent-ecosystem-optimization": 1,
+      "211726-agent-ecosystem-optimization": 1,
+      "session-pattern-extraction": 1,
+      "%H%M%S)-navigation-standardization": 1,
+      "063456-parallel-coordination": 1,
+      "201636-navigation-standardization": 1,
+      "152000-claude-hooks-fix": 1,
+      "061303-agent-model-color-documentation": 1,
+      "session-conclusion": 1,
+      "060148-system-enhancement": 1,
+      "claude-md-evaluation": 1,
+      "dashboard-creation": 1,
+      "203945-specialized-development-agents": 1,
+      "194347-agent-template-creation": 1,
+      "192114-agent-template-creation": 1,
+      "150000-agent-template-creation": 1,
+      "205508-system-enhancement": 1,
+      "195316-parallel-orchestration-architecture": 1,
+      "201257-conversation-closure-framework": 1,
+      "213547-github-issues-generation": 1,
+      "154500-system-enhancement": 1,
+      "063057-agent-model-optimization": 1,
+      "scripts-consolidation-evaluation": 1,
+      "200709-strategic-orchestrator-optimization": 1,
+      "203953-specialized-development-agents": 1,
+      "session-transition-preparation": 1,
+      "142500-claude-hooks-integration": 1,
+      "strategic-planning-framework": 1,
+      "210445-framework-documentation-update": 1,
+      "201718-navigation-standardization": 1,
+      "170000-testing-strategy": 1,
+      "conclude-session-integration": 1,
+      "155000-agent-coordination-templates": 1,
+      "strategic-problem-solving-research": 1,
+      "062817-parallel-coordination": 1,
+      "201259-conversation-closure-framework": 1,
+      "063026-medical-agent-templates": 1,
+      "202204-conclude-session-implementation": 1
+    }
+  },
+  "operations": [
+    {
+      "name": "20250820-150000-agent-template-creation",
+      "created": "2025-08-20T06:51:06.646920",
+      "modified": "2025-08-20T06:51:06.646920",
+      "files_count": 3,
+      "size_mb": 0.01801013946533203
+    },
+    {
+      "name": "20250820-154500-system-enhancement",
+      "created": "2025-08-20T06:43:38.295166",
+      "modified": "2025-08-20T06:43:38.295166",
+      "files_count": 1,
+      "size_mb": 0.008553504943847656
+    },
+    {
+      "name": "20250820-063057-agent-model-optimization",
+      "created": "2025-08-20T06:37:43.437394",
+      "modified": "2025-08-20T06:37:43.437394",
+      "files_count": 6,
+      "size_mb": 0.0774240493774414
+    },
+    {
+      "name": "20250820-063026-medical-agent-templates",
+      "created": "2025-08-20T06:34:28.976359",
+      "modified": "2025-08-20T06:34:28.976359",
+      "files_count": 7,
+      "size_mb": 0.042572975158691406
+    },
+    {
+      "name": "20250820-063456-parallel-coordination",
+      "created": "2025-08-20T06:28:33.807524",
+      "modified": "2025-08-20T06:28:33.807524",
+      "files_count": 1,
+      "size_mb": 0.0020303726196289062
+    },
+    {
+      "name": "20250820-062817-parallel-coordination",
+      "created": "2025-08-20T06:28:17.728814",
+      "modified": "2025-08-20T06:28:17.728785",
+      "files_count": 0,
+      "size_mb": 0.0
+    },
+    {
+      "name": "20250820-155000-agent-coordination-templates",
+      "created": "2025-08-20T06:24:33.493699",
+      "modified": "2025-08-20T06:24:33.493699",
+      "files_count": 3,
+      "size_mb": 0.09117984771728516
+    },
+    {
+      "name": "20250820-165000-testing-expertise-validation",
+      "created": "2025-08-20T06:23:10.253062",
+      "modified": "2025-08-20T06:23:10.253062",
+      "files_count": 3,
+      "size_mb": 0.037200927734375
+    },
+    {
+      "name": "20250820-062114-parallel-agent-mandate",
+      "created": "2025-08-20T06:21:38.872275",
+      "modified": "2025-08-20T06:21:38.872275",
+      "files_count": 1,
+      "size_mb": 0.00342559814453125
+    },
+    {
+      "name": "20250819-192114-agent-template-creation",
+      "created": "2025-08-20T06:21:17.823179",
+      "modified": "2025-08-20T06:21:17.823179",
+      "files_count": 5,
+      "size_mb": 0.03555107116699219
+    }
+  ],
+  "git": {
+    "current_branch": "main",
+    "uncommitted_changes": 6,
+    "recent_commits": [
+      "d3a5b41 CRITICAL FIX: Resolve personality-agent mapping gap that broke framework integrity",
+      "214be28 Complete parallel coordination: agent optimization + medical agents creation",
+      "575ec8b Create comprehensive evidence patterns and validation templates with TDD/BDD integration",
+      "fbd7317 Add comprehensive Claude Framework Dashboard",
+      "8c062f9 Implement specialized agents system for .claude framework",
+      "c5d1106 CRITICAL: Mandate agent usage in parallel conversations",
+      "b73459f Update agent model documentation: add opus as most capable option",
+      "7208fe0 Add three critical workflows with TDD/BDD methodology: Evidence-Based Decision, Debugging, and Web Research workflows",
+      "8e7d052 Fix system/INDEX.md reference case sensitivity",
+      "ce2356d Major system reorganization: behaviors \u2192 personalities + workflows"
+    ],
+    "repository_healthy": true,
+    "last_commit_date": "2025-08-20 06:51:25 -0600"
+  },
+  "performance": {
+    "framework_size": {
+      "system": 1747384,
+      "hooks": 75478,
+      "operations": 1714646
+    },
+    "file_counts": {
+      ".js": 32,
+      ".json": 713,
+      ".md": 336,
+      "no_extension": 28,
+      ".lock": 2,
+      ".py": 37,
+      ".jsonl": 540,
+      ".sh": 163,
+      ".log": 9,
+      ".backup": 73,
+      ".html": 1,
+      ".css": 1,
+      ".pid": 1,
+      ".238713f0a5": 1,
+      ".evaluations": 1,
+      ".2656274335": 2,
+      ".idx": 4,
+      ".pack": 4,
+      ".rev": 4,
+      ".sample": 14
+    },
+    "disk_usage": 567002391,
+    "cache_size": 8446236
+  }
+}

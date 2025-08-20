@@ -1,0 +1,143 @@
+{
+  "last_updated": "2025-08-20T08:20:51.738676",
+  "tool_usage": {
+    "total_executions": 366,
+    "tool_counts": {
+      "unknown": 366
+    },
+    "recent_tools": [
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:51.721787",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:48.734433",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:45.468524",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:42.226399",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:33.322151",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:32.629410",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:27.134738",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:23.237344",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:18.905910",
+        "parameters": {}
+      },
+      {
+        "tool": "unknown",
+        "timestamp": "2025-08-20T08:20:15.859813",
+        "parameters": {}
+      }
+    ]
+  },
+  "session_data": {
+    "total_sessions": 0,
+    "session_starts_today": 0,
+    "last_session_start": null
+  },
+  "file_modifications": {
+    "total_modifications": 0,
+    "files_modified_today": 0,
+    "recent_modifications": []
+  },
+  "hook_performance": {
+    "total_hook_executions": 366,
+    "hook_success_rate": 100.0,
+    "average_execution_time": 0.0
+  },
+  "framework_health": {
+    "last_health_check": null,
+    "health_score": 100,
+    "issues_detected": 0
+  },
+  "agent_activity": {
+    "agent_mentions": {
+      "strategic": 53,
+      "research": 51,
+      "collaborative": 7,
+      "knowledge-curator": 5,
+      "orchestrator": 2
+    },
+    "total_agent_deployments": 118,
+    "recent_agent_activity": [
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:20:33.322151",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:19:58.975879",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:19:34.919328",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:19:10.949825",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:19:06.822934",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "strategic",
+        "timestamp": "2025-08-20T08:18:51.295298",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "strategic",
+        "timestamp": "2025-08-20T08:18:46.493692",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "research",
+        "timestamp": "2025-08-20T08:18:46.441765",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "strategic",
+        "timestamp": "2025-08-20T08:18:42.484674",
+        "context": "tool_execution"
+      },
+      {
+        "agent_type": "strategic",
+        "timestamp": "2025-08-20T08:18:31.315791",
+        "context": "tool_execution"
+      }
+    ]
+  }
+}

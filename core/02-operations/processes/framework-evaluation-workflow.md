@@ -98,4 +98,4 @@ The framework includes automated evaluation commands for systematic assessment:
 When evaluating framework effectiveness, READ these files:
 - **Evaluation System**: READ work/20250820-claude-md-evaluation/ for comprehensive evaluation methodology
 - **Performance Metrics**: READ work/ for historical performance data and insights
-- **System Standards**: READ core/STANDARDS.md for evaluation criteria and quality requirements
+- **System Standards**: READ core/01-foundation/standards/README.md for evaluation criteria and quality requirements

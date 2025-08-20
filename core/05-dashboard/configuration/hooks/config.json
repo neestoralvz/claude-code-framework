@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "user_prompt_submit": [
+      {
+        "name": "agent_enforcer",
+        "script": "user_prompt_agent_enforcer.py",
+        "enabled": true,
+        "description": "Enforces agent usage for implementation requests"
+      }
+    ]
+  },
+  "global_settings": {
+    "timeout_seconds": 30,
+    "max_retries": 3,
+    "log_level": "INFO"
+  }
+}

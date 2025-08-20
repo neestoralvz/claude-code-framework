@@ -46,25 +46,25 @@ _Last updated: 2025-08-20 | Version: 4.0 - UNIVERSAL OPERATION MODE_
 
 ## UNIVERSAL SYSTEM INTEGRATION - ALWAYS ACTIVE
 
-**FOR ALL SESSIONS** → Auto-load framework overview from [core/index.md](core/index.md)
+**FOR ALL SESSIONS** → Auto-load framework overview from [core/00-system/index.md](core/00-system/index.md)
 
-**FOR ALL STRATEGIC WORK** → Auto-reference vision and objectives from [core/VISION.md](core/VISION.md)
+**FOR ALL STRATEGIC WORK** → Auto-reference vision and objectives from [core/00-system/vision.md](core/00-system/vision.md)
 
-**FOR ALL DECISIONS** → Auto-apply guidance from [core/PRINCIPLES.md](core/PRINCIPLES.md)
+**FOR ALL DECISIONS** → Auto-apply guidance from [core/01-foundation/principles/README.md](core/01-foundation/principles/README.md)
 
-**FOR ALL INTERACTIONS** → Auto-optimal personality orchestration from [core/PERSONALITIES.md](core/PERSONALITIES.md)
+**FOR ALL INTERACTIONS** → Auto-optimal personality orchestration from [core/01-foundation/personalities/README.md](core/01-foundation/personalities/README.md)
 
-**FOR ALL WORK** → Auto-enforce quality standards from [core/STANDARDS.md](core/STANDARDS.md)
+**FOR ALL WORK** → Auto-enforce quality standards from [core/01-foundation/standards/README.md](core/01-foundation/standards/README.md)
 
-**FOR ALL WORKFLOWS** → Auto-apply processes from [core/PROCESSES.md](core/PROCESSES.md)
+**FOR ALL WORKFLOWS** → Auto-apply processes from [core/02-operations/processes/README.md](core/02-operations/processes/README.md)
 
-**FOR ALL IMPLEMENTATIONS** → Auto-reference examples from [core/EXAMPLES.md](core/EXAMPLES.md)
+**FOR ALL IMPLEMENTATIONS** → Auto-reference examples from [core/04-templates/examples/README.md](core/04-templates/examples/README.md)
 
 **FOR ALL PROJECTS** → Auto-apply organization guidelines from [README.md](README.md#project-structure)
 
-**FOR ALL FILE OPERATIONS** → Auto-follow organization workflow from [core/organization-workflow.md](core/organization-workflow.md)
+**FOR ALL FILE OPERATIONS** → Auto-follow organization workflow from [core/02-operations/workflows/organization-workflow.md](core/02-operations/workflows/organization-workflow.md)
 
-**FOR ALL NEW PROJECTS** → Auto-implement [Project Documentation Template](core/PROJECT-DOCUMENTATION-TEMPLATE.md) with objectives, challenge, success criteria, and metrics
+**FOR ALL NEW PROJECTS** → Auto-implement [Project Documentation Template](core/04-templates/project-templates/project-documentation.md) with objectives, challenge, success criteria, and metrics
 
 ## Progressive Thinking Methodology - MANDATORY FOR ALL ACTIONS
 
@@ -171,13 +171,13 @@ System prompt with agent specialization
 
 **FOR ALL WORK** → NEVER improvise. Check documentation first, then deploy agents.
 
-**FOR ALL CHANGES** → Follow [TDD/BDD Unified Workflow](core/processes/tdd-bdd-unified-workflow.md) with mandatory validation
+**FOR ALL CHANGES** → Follow [TDD/BDD Unified Workflow](core/02-operations/processes/tdd-bdd-unified-workflow.md) with mandatory validation
 
-**FOR ALL ACTIONS** → Must follow [Validation and Demonstration Workflow](core/processes/validation-and-demonstration-workflow.md) with evidence
+**FOR ALL ACTIONS** → Must follow [Validation and Demonstration Workflow](core/02-operations/processes/validation-and-demonstration-workflow.md) with evidence
 
-**FOR ALL TESTS** → Use Red-Green-Refactor cycle from [TDD Workflow](core/processes/test-driven-development-workflow.md)
+**FOR ALL TESTS** → Use Red-Green-Refactor cycle from [TDD Workflow](core/02-operations/processes/test-driven-development-workflow.md)
 
-**FOR ALL BEHAVIOR DEFINITION** → Use Given-When-Then scenarios from [BDD Workflow](core/processes/behavior-driven-development-workflow.md)
+**FOR ALL BEHAVIOR DEFINITION** → Use Given-When-Then scenarios from [BDD Workflow](core/02-operations/processes/behavior-driven-development-workflow.md)
 
 **FOR ALL TODOWRITE** → Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)
 
@@ -239,7 +239,7 @@ System prompt with agent specialization
 
 **FOR ALL EXECUTION** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
 
-**FOR ALL PROJECTS** → Use [Parallel Conversation Coordination](core/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
+**FOR ALL PROJECTS** → Use [Parallel Conversation Coordination](core/02-operations/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
 
 **FOR ALL REMINDERS** → Use TodoWrite immediately to track and not forget
 
@@ -247,7 +247,7 @@ System prompt with agent specialization
 
 **FOR ALL CORRECTIONS** → Document the correction immediately in CLAUDE.md to prevent repeat errors
 
-**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/standards/personalities-vs-agents-distinction.md)
+**IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/01-foundation/standards/personalities-vs-agents-distinction.md)
 
 **IF personality command fails** → I adopt the personality directly, NOT deploy as agent
 
@@ -285,7 +285,7 @@ System prompt with agent specialization
 - Auto-optimize workflow efficiency based on session learnings
 
 **FOR ALL SESSION ENDINGS** → Execute comprehensive conclusion workflow:
-- Auto-implement [session-conclusion-workflow.md](core/processes/session-conclusion-workflow.md)
+- Auto-implement [session-conclusion-workflow.md](core/02-operations/processes/session-conclusion-workflow.md)
 - Auto-commit work progress and pattern discoveries
 - Auto-prepare optimal transition states for future sessions
 - Auto-document learning patterns and framework improvements
@@ -293,8 +293,8 @@ System prompt with agent specialization
 ## Execution Optimization Commands
 
 **`/recenter`** → Activate comprehensive execution analysis with auto-triggered patterns (slash command in `/commands/`):
-- Read [core/processes/recenter-workflow.md](core/processes/recenter-workflow.md) for complete workflow
-- Read [core/processes/perpetual-alertness-system.md](core/processes/perpetual-alertness-system.md) for continuous optimization
+- Read [core/02-operations/processes/recenter-workflow.md](core/02-operations/processes/recenter-workflow.md) for complete workflow
+- Read [core/02-operations/processes/perpetual-alertness-system.md](core/02-operations/processes/perpetual-alertness-system.md) for continuous optimization
 
 **FOR ALL REQUESTS** → Auto-activate RECENTER workflow with ALL patterns MANDATORY:
 
@@ -379,25 +379,25 @@ System prompt with agent specialization
 
 ## Workflow Commands
 
-**IF coordinating agents** → Read [core/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](core/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
+**IF coordinating agents** → Read [core/02-operations/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role](core/02-operations/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role)
 
-**IF creating agents** → Read [core/processes/agent-creation-workflow.md#agent-creation-process](core/processes/agent-creation-workflow.md#agent-creation-process)
+**IF creating agents** → Read [core/02-operations/processes/agent-creation-workflow.md#agent-creation-process](core/02-operations/processes/agent-creation-workflow.md#agent-creation-process)
 
-**IF ending session** → Read [core/processes/session-conclusion-workflow.md#step-by-step-process](core/processes/session-conclusion-workflow.md#step-by-step-process)
+**IF ending session** → Read [core/02-operations/processes/session-conclusion-workflow.md#step-by-step-process](core/02-operations/processes/session-conclusion-workflow.md#step-by-step-process)
 
-**IF doing development** → Read [core/processes/development-workflow.md#development-process](core/processes/development-workflow.md#development-process)
+**IF doing development** → Read [core/02-operations/processes/development-workflow.md#development-process](core/02-operations/processes/development-workflow.md#development-process)
 
-**IF maintaining framework** → Read [core/processes/framework-evaluation-workflow.md#framework-evaluation-process](core/processes/framework-evaluation-workflow.md#framework-evaluation-process)
+**IF maintaining framework** → Read [core/02-operations/processes/framework-evaluation-workflow.md#framework-evaluation-process](core/02-operations/processes/framework-evaluation-workflow.md#framework-evaluation-process)
 
-**IF need work principles** → Read [core/PRINCIPLES.md](core/PRINCIPLES.md)
+**IF need work principles** → Read [core/01-foundation/principles/README.md](core/01-foundation/principles/README.md)
 
-**IF need process management** → Read [core/PROCESSES.md](core/PROCESSES.md)
+**IF need process management** → Read [core/02-operations/processes/README.md](core/02-operations/processes/README.md)
 
-**IF need technical standards** → Read [core/STANDARDS.md](core/STANDARDS.md)
+**IF need technical standards** → Read [core/01-foundation/standards/README.md](core/01-foundation/standards/README.md)
 
-**IF need specialized testing workflows** → Check [core/ROADMAP.md](core/ROADMAP.md) for implementation status
+**IF need specialized testing workflows** → Check [core/00-system/roadmap.md](core/00-system/roadmap.md) for implementation status
 
-**IF checking system development status** → Read [core/ROADMAP.md](core/ROADMAP.md) for current progress and pending items
+**IF checking system development status** → Read [core/00-system/roadmap.md](core/00-system/roadmap.md) for current progress and pending items
 
 ## UNIVERSAL USER PREFERENCE OPTIMIZATION - ALWAYS ACTIVE
 
@@ -423,9 +423,9 @@ System prompt with agent specialization
 
 **FOR ALL FILE OPERATIONS** → Auto-organize per [README.md](README.md#organization-guidelines) guidelines
 
-**FOR ALL DEVELOPMENT** → Auto-test with [TDD/BDD validation](core/processes/tdd-bdd-unified-workflow.md) methodology
+**FOR ALL DEVELOPMENT** → Auto-test with [TDD/BDD validation](core/02-operations/processes/tdd-bdd-unified-workflow.md) methodology
 
-**FOR ALL DELIVERABLES** → Auto-provide evidence with [Validation and Demonstration](core/processes/validation-and-demonstration-workflow.md)
+**FOR ALL DELIVERABLES** → Auto-provide evidence with [Validation and Demonstration](core/02-operations/processes/validation-and-demonstration-workflow.md)
 
 **FOR ALL TASK COMPLETIONS** → Auto-demonstrate with passing tests, BDD scenarios, and comprehensive evidence documentation
 
@@ -496,11 +496,11 @@ System prompt with agent specialization
 
 ## CRITICAL FRAMEWORK PROTECTION WORKFLOWS
 
-**IF framework violations detected** → IMMEDIATELY activate [Framework Violation Recovery Workflow](core/processes/framework-violation-recovery-workflow.md)
+**IF framework violations detected** → IMMEDIATELY activate [Framework Violation Recovery Workflow](core/02-operations/processes/framework-violation-recovery-workflow.md)
 
-**IF Context7 bypassed** → MANDATORY [Context7 Compliance Enforcement Process](core/processes/context7-compliance-enforcement-workflow.md)
+**IF Context7 bypassed** → MANDATORY [Context7 Compliance Enforcement Process](core/02-operations/processes/context7-compliance-enforcement-workflow.md)
 
-**IF system crisis occurs** → EMERGENCY activate [System Crisis Response Protocol](core/processes/system-crisis-response-workflow.md)
+**IF system crisis occurs** → EMERGENCY activate [System Crisis Response Protocol](core/02-operations/processes/system-crisis-response-workflow.md)
 
 **FRAMEWORK PROTECTION AUTOMATIC TRIGGERS:**
 - Direct implementation without Context7 research → BLOCK and require Context7

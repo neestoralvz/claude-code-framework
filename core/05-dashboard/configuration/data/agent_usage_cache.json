@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-08-20T08:42:01.901060",
+  "usage_summary": {
+    "total_deployments": 0,
+    "unique_agents_used": 0,
+    "most_used_agent": [
+      "strategic-orchestrator",
+      0
+    ],
+    "least_used_agent": [
+      "strategic-orchestrator",
+      0
+    ],
+    "average_deployments_per_session": 0.0,
+    "agent_diversity_score": 0.0
+  },
+  "agent_patterns": {
+    "daily_patterns": {
+      "total_periods": 0,
+      "average_agents_per_period": 0,
+      "most_active_period": null
+    },
+    "weekly_patterns": {
+      "total_periods": 0,
+      "average_agents_per_period": 0,
+      "most_active_period": null
+    },
+    "usage_consistency": 0.0,
+    "peak_usage_periods": []
+  },
+  "deployment_trends": {
+    "trend": "insufficient_data",
+    "growth_rate": 0,
+    "trending_agents": []
+  },
+  "performance_metrics": {},
+  "recommendations": [
+    {
+      "type": "specialization",
+      "priority": "medium",
+      "title": "Increase Specialized Agent Usage",
+      "description": "Consider using more specialized agents for specific tasks to improve efficiency"
+    },
+    {
+      "type": "adoption",
+      "priority": "high",
+      "title": "Increase Agent Adoption",
+      "description": "Consider using agents more frequently for complex tasks to improve productivity"
+    }
+  ]
+}

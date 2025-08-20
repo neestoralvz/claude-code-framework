@@ -1,0 +1,213 @@
+{
+  "timestamp": "2025-08-20T06:53:38.088675",
+  "health_score": 91.4,
+  "status": "excellent",
+  "checks_passed": 24,
+  "warnings": 5,
+  "errors": 0,
+  "details": {
+    "checks": [
+      {
+        "type": "file_exists",
+        "file": "CLAUDE.md",
+        "description": "\u2705 Main framework configuration",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "system/INDEX.md",
+        "description": "\u2705 System navigation index",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "system/PRINCIPLES.md",
+        "description": "\u2705 Framework principles",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "system/PERSONALITIES.md",
+        "description": "\u2705 Personality definitions",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "system/PROCESSES.md",
+        "description": "\u2705 Process documentation",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "system/STANDARDS.md",
+        "description": "\u2705 Quality standards",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "hooks/README.md",
+        "description": "\u2705 Hooks documentation",
+        "status": "passed"
+      },
+      {
+        "type": "file_exists",
+        "file": "hooks/config.json",
+        "description": "\u2705 Hook configuration",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system",
+        "description": "\u2705 Core system directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system/principles",
+        "description": "\u2705 Principles directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system/personalities",
+        "description": "\u2705 Personalities directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system/processes",
+        "description": "\u2705 Processes directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system/standards",
+        "description": "\u2705 Standards directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "system/examples",
+        "description": "\u2705 Examples directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "hooks",
+        "description": "\u2705 Hooks directory",
+        "status": "passed"
+      },
+      {
+        "type": "directory_exists",
+        "directory": "operations",
+        "description": "\u2705 Operations directory",
+        "status": "passed"
+      },
+      {
+        "type": "hook_ready",
+        "hook": "session_start.py",
+        "description": "\u2705 Hook ready: session_start.py",
+        "status": "passed"
+      },
+      {
+        "type": "hook_ready",
+        "hook": "user_prompt_submit.py",
+        "description": "\u2705 Hook ready: user_prompt_submit.py",
+        "status": "passed"
+      },
+      {
+        "type": "hook_ready",
+        "hook": "pre_tool_use.py",
+        "description": "\u2705 Hook ready: pre_tool_use.py",
+        "status": "passed"
+      },
+      {
+        "type": "hook_ready",
+        "hook": "post_tool_use.py",
+        "description": "\u2705 Hook ready: post_tool_use.py",
+        "status": "passed"
+      },
+      {
+        "type": "config_valid",
+        "description": "\u2705 Hook configuration is valid JSON",
+        "status": "passed"
+      },
+      {
+        "type": "permissions_correct",
+        "description": "\u2705 All 9 hook files are executable",
+        "status": "passed"
+      },
+      {
+        "type": "git_active",
+        "description": "\u2705 Git repository shows recent activity",
+        "status": "passed"
+      },
+      {
+        "type": "index_consistent",
+        "description": "\u2705 System index links are consistent",
+        "status": "passed"
+      }
+    ],
+    "warnings": [
+      {
+        "type": "many_git_changes",
+        "description": "Git has many uncommitted changes (7)",
+        "severity": "warning"
+      },
+      {
+        "type": "many_broken_links",
+        "description": "Found 9 potentially broken internal links",
+        "severity": "warning"
+      },
+      {
+        "type": "naming_violations",
+        "description": "Found 1 naming convention violations",
+        "severity": "info"
+      },
+      {
+        "type": "large_files",
+        "description": "Found 6 files larger than 10MB",
+        "files": [
+          [
+            "e317614a-9d61-4b28-9743-0308e318041c.jsonl",
+            11.488068580627441
+          ],
+          [
+            "e93ddcc6-2621-4110-9aa6-36411c81e642.jsonl",
+            10.7011079788208
+          ],
+          [
+            "4f1cfe42-5854-4368-b968-7a01b30587cc.jsonl",
+            20.642210960388184
+          ],
+          [
+            "df8a470b-b884-4453-9119-c313057a9c84.jsonl",
+            13.630130767822266
+          ],
+          [
+            "9c3072ad-b2a1-4c15-afe8-5a2e2645cdad.jsonl",
+            12.352744102478027
+          ],
+          [
+            "pack-91010ab85e0ecff2ef7cd839b4109e46c313ef2d.pack",
+            26.030346870422363
+          ]
+        ],
+        "severity": "info"
+      },
+      {
+        "type": "framework_size_large",
+        "description": "Framework size is large: 541.1MB",
+        "severity": "info"
+      }
+    ],
+    "errors": []
+  },
+  "recommendations": [
+    {
+      "priority": "low",
+      "action": "Maintain Excellence",
+      "description": "Framework health is excellent. Continue regular monitoring."
+    }
+  ]
+}
