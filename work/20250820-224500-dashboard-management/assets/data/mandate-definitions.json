@@ -1,0 +1,370 @@
+{
+  "universalExecutionMandates": {
+    "version": "4.0",
+    "lastUpdated": "2025-08-20",
+    "description": "16 Universal Execution Mandates for Maximum Capability and Universal Excellence",
+    "mandateClusters": {
+      "primary": {
+        "name": "Core Methodology",
+        "description": "Primary Pattern Cluster - Fundamental operational requirements",
+        "priority": 1,
+        "mandates": [
+          {
+            "id": "progressive-think",
+            "name": "Progressive Think",
+            "requirement": "4-level analysis (Think → Think Hard → Think Harder → Ultra Think) MANDATORY",
+            "enforcement": "ALWAYS progress through all 4 levels before acting",
+            "metrics": {
+              "completionRequired": 100,
+              "qualityThreshold": 90,
+              "timeoutSeconds": 300
+            },
+            "violations": [
+              "skipping_levels",
+              "incomplete_analysis",
+              "rushing_to_action",
+              "quality_below_threshold"
+            ]
+          },
+          {
+            "id": "agent-deployment",
+            "name": "Agent Deployment",
+            "requirement": "Deploy specialized agents FIRST - NEVER work directly",
+            "enforcement": "MANDATORY specialized agent deployment for ALL work",
+            "metrics": {
+              "specializationRate": 100,
+              "directWorkViolations": 0,
+              "deploymentSpeed": 5
+            },
+            "violations": [
+              "direct_work_attempt",
+              "non_specialized_agent",
+              "agent_bypass",
+              "improper_coordination"
+            ]
+          },
+          {
+            "id": "todowrite-tracking",
+            "name": "TodoWrite Tracking",
+            "requirement": "Break ALL tasks into atomic components immediately",
+            "enforcement": "Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)",
+            "metrics": {
+              "atomicBreakdownRate": 100,
+              "taskCompletionRate": 95,
+              "specificityScore": 90
+            },
+            "violations": [
+              "non_atomic_tasks",
+              "vague_requirements",
+              "incomplete_breakdown",
+              "tracking_omission"
+            ]
+          },
+          {
+            "id": "evidence-validation",
+            "name": "Evidence Validation",
+            "requirement": "Provide proof for ALL claims, statements, and implementations",
+            "enforcement": "NEVER claim without proof, ALWAYS test and demonstrate",
+            "metrics": {
+              "proofCoverage": 100,
+              "validationMethods": 5,
+              "evidenceQuality": "A+",
+              "unverifiedClaims": 0
+            },
+            "violations": [
+              "unsubstantiated_claims",
+              "missing_evidence",
+              "weak_proof",
+              "assumption_based_statements"
+            ]
+          }
+        ]
+      },
+      "secondary": {
+        "name": "Research & Preparation",
+        "description": "Secondary Pattern Cluster - Knowledge and preparation requirements",
+        "priority": 2,
+        "mandates": [
+          {
+            "id": "context7-research",
+            "name": "Context7 Research",
+            "requirement": "MANDATORY for ALL coding/library integration before agents",
+            "enforcement": "Context7 research MANDATORY before ANY code creation",
+            "metrics": {
+              "researchCompletion": 100,
+              "libraryDocumentation": 100,
+              "bestPracticesApplications": 100
+            },
+            "violations": [
+              "research_bypass",
+              "inadequate_documentation",
+              "outdated_practices",
+              "insufficient_context"
+            ]
+          },
+          {
+            "id": "system-documentation",
+            "name": "System Documentation",
+            "requirement": "Check framework docs BEFORE improvising solutions",
+            "enforcement": "Framework documentation reference required before solutions",
+            "metrics": {
+              "documentationChecks": 100,
+              "frameworkCompliance": 100,
+              "improvisationPrevention": 100
+            },
+            "violations": [
+              "documentation_skip",
+              "framework_deviation",
+              "improvisation_without_check",
+              "standards_violation"
+            ]
+          },
+          {
+            "id": "quality-standards",
+            "name": "Quality Standards",
+            "requirement": "Apply TDD/BDD methodology to ALL development work",
+            "enforcement": "TDD/BDD methodology mandatory for ALL development",
+            "metrics": {
+              "testCoverage": 100,
+              "bddScenarios": 100,
+              "qualityGates": 100,
+              "methodologyCompliance": 100
+            },
+            "violations": [
+              "test_skip",
+              "bdd_omission",
+              "quality_gate_bypass",
+              "methodology_deviation"
+            ]
+          },
+          {
+            "id": "pattern-documentation",
+            "name": "Pattern Documentation",
+            "requirement": "Record ALL discoveries in system files immediately",
+            "enforcement": "Document ALL discoveries and patterns immediately",
+            "metrics": {
+              "discoveryCapture": 100,
+              "patternRecording": 100,
+              "systemFileUpdates": 100,
+              "knowledgeRetention": 100
+            },
+            "violations": [
+              "undocumented_discovery",
+              "pattern_loss",
+              "delayed_recording",
+              "incomplete_documentation"
+            ]
+          }
+        ]
+      },
+      "tertiary": {
+        "name": "Workflow Automation",
+        "description": "Tertiary Pattern Cluster - Process and workflow requirements",
+        "priority": 3,
+        "mandates": [
+          {
+            "id": "git-integration",
+            "name": "Git Integration",
+            "requirement": "Auto-commit + push for ALL changes",
+            "enforcement": "Auto-commit and push for ALL changes with documentation",
+            "metrics": {
+              "commitGeneration": 100,
+              "pushCompletion": 100,
+              "changeDocumentation": 100,
+              "branchManagement": 100
+            },
+            "violations": [
+              "uncommitted_changes",
+              "push_failure",
+              "undocumented_changes",
+              "branch_mismanagement"
+            ]
+          },
+          {
+            "id": "parallel-execution",
+            "name": "Parallel Execution",
+            "requirement": "Multiple agents concurrently (MAX 10 per message)",
+            "enforcement": "Multiple agents in parallel for maximum efficiency (MAX 10)",
+            "metrics": {
+              "concurrentAgents": 10,
+              "maxUtilization": 100,
+              "coordinationEfficiency": 95,
+              "resourceOptimization": 95
+            },
+            "violations": [
+              "sequential_processing",
+              "agent_limit_exceeded",
+              "poor_coordination",
+              "resource_waste"
+            ]
+          },
+          {
+            "id": "session-management",
+            "name": "Session Management",
+            "requirement": "RECENTER workflow active for ALL requests",
+            "enforcement": "RECENTER workflow automatically active for ALL requests",
+            "metrics": {
+              "recenterActivation": 100,
+              "sessionOptimization": 100,
+              "workflowConsistency": 100,
+              "alertnessLevel": 100
+            },
+            "violations": [
+              "recenter_skip",
+              "session_drift",
+              "workflow_inconsistency",
+              "alertness_degradation"
+            ]
+          },
+          {
+            "id": "framework-updates",
+            "name": "Framework Updates",
+            "requirement": "Document corrections in CLAUDE.md immediately",
+            "enforcement": "Document ALL corrections in CLAUDE.md immediately",
+            "metrics": {
+              "correctionDocumentation": 100,
+              "frameworkEvolution": 100,
+              "learningCapture": 100,
+              "improvementTracking": 100
+            },
+            "violations": [
+              "undocumented_corrections",
+              "framework_stagnation",
+              "learning_loss",
+              "improvement_neglect"
+            ]
+          }
+        ]
+      },
+      "quaternary": {
+        "name": "Intelligence Amplification",
+        "description": "Quaternary Pattern Cluster - Advanced intelligence and optimization",
+        "priority": 4,
+        "mandates": [
+          {
+            "id": "personality-orchestration",
+            "name": "Personality Orchestration",
+            "requirement": "Auto-optimal personality adaptation for ALL interactions",
+            "enforcement": "Dynamic personality blending for optimal interaction effectiveness",
+            "metrics": {
+              "personalityAdaptation": 100,
+              "blendingOptimization": 95,
+              "interactionEffectiveness": 93,
+              "adaptationSpeed": 90
+            },
+            "violations": [
+              "static_personality",
+              "poor_adaptation",
+              "ineffective_blending",
+              "slow_adjustment"
+            ]
+          },
+          {
+            "id": "knowledge-integration",
+            "name": "Knowledge Integration",
+            "requirement": "Auto-load relevant framework knowledge for ALL sessions",
+            "enforcement": "Framework knowledge auto-loaded for ALL sessions",
+            "metrics": {
+              "knowledgeLoading": 100,
+              "frameworkIntegration": 100,
+              "sessionEnhancement": 100,
+              "contextualAccuracy": 98
+            },
+            "violations": [
+              "knowledge_miss",
+              "integration_failure",
+              "session_degradation",
+              "context_inaccuracy"
+            ]
+          },
+          {
+            "id": "quality-assurance",
+            "name": "Quality Assurance",
+            "requirement": "Maximum excellence standards for ALL requests",
+            "enforcement": "Universal excellence standards applied to ALL work",
+            "metrics": {
+              "excellenceScore": 97,
+              "qualityGateEnforcement": 100,
+              "standardsCompliance": 100,
+              "perfectionRate": 95
+            },
+            "violations": [
+              "quality_compromise",
+              "standard_deviation",
+              "excellence_shortfall",
+              "gate_bypass"
+            ]
+          },
+          {
+            "id": "optimization-detection",
+            "name": "Optimization Detection",
+            "requirement": "Continuous improvement identification for ALL actions",
+            "enforcement": "Continuous optimization opportunity detection and implementation",
+            "metrics": {
+              "optimizationDetection": 100,
+              "improvementImplementation": 95,
+              "efficiencyGains": 92,
+              "continuousImprovement": 100
+            },
+            "violations": [
+              "optimization_miss",
+              "improvement_delay",
+              "efficiency_loss",
+              "stagnation"
+            ]
+          }
+        ]
+      }
+    },
+    "complianceThresholds": {
+      "excellent": 95,
+      "good": 85,
+      "warning": 70,
+      "critical": 50
+    },
+    "violationSeverity": {
+      "critical": {
+        "score": 10,
+        "description": "Immediate attention required",
+        "escalation": "automatic"
+      },
+      "high": {
+        "score": 7,
+        "description": "Priority correction needed",
+        "escalation": "flagged"
+      },
+      "medium": {
+        "score": 4,
+        "description": "Correction needed",
+        "escalation": "monitored"
+      },
+      "low": {
+        "score": 1,
+        "description": "Minor adjustment needed",
+        "escalation": "logged"
+      }
+    },
+    "frameworkCoherenceBenefits": {
+      "userExperience": {
+        "description": "Predictable high-quality interactions",
+        "measurableOutcome": "Consistent excellence in all user interactions",
+        "evidence": "User satisfaction scores, interaction quality metrics"
+      },
+      "capabilityMaximization": {
+        "description": "95%+ activation prevents missed opportunities",
+        "measurableOutcome": "No optimization opportunities missed",
+        "evidence": "Capability utilization tracking, optimization detection rates"
+      },
+      "scalability": {
+        "description": "Universal patterns scale infinitely",
+        "measurableOutcome": "Pattern effectiveness maintained across all contexts",
+        "evidence": "Pattern application success rates, scalability metrics"
+      },
+      "reliability": {
+        "description": "Consistent application of best practices",
+        "measurableOutcome": "100% compliance with quality standards",
+        "evidence": "Standards compliance tracking, quality assurance metrics"
+      }
+    }
+  }
+}

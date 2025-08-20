@@ -8,6 +8,14 @@ _Last updated: 2025-08-20 | Version: 4.0 - UNIVERSAL OPERATION MODE_
 
 **FOR EVERY INTERACTION - NO EXCEPTIONS:**
 
+### ERROR ATTENTION PROTOCOL (Permanent Global Activation)
+**ERROR ATTENTION PROTOCOL** → MANDATORY immediate critical response for ALL errors across ALL conversations:
+- **NEVER normalize errors** → Every error triggers immediate attention and resolution
+- **IMMEDIATE AGENT DEPLOYMENT** → Deploy specialized error-resolution agents instantly
+- **ROOT CAUSE ANALYSIS** → Deep investigation required for ALL errors
+- **FRAMEWORK DOCUMENTATION** → Record ALL error patterns for prevention
+- **ZERO ERROR TOLERANCE** → No error is acceptable or normal
+
 ### CORE METHODOLOGY (Primary Pattern Cluster)
 1. **Progressive Think** → 4-level analysis (Think → Think Hard → Think Harder → Ultra Think) MANDATORY
 2. **Agent Deployment** → Deploy specialized agents FIRST - NEVER work directly

@@ -16,7 +16,7 @@
 
 ## What It Does
 
-Launches the [Project Documentation Workflow](../core/processes/project-documentation-workflow.md) to capture comprehensive project information:
+Launches the [Project Documentation Workflow](../core/02-operations/processes/project-documentation-workflow.md) to capture comprehensive project information:
 
 1. **Interactive Information Gathering** - Guided prompts for all project elements
 2. **Objective Definition** - Overall and specific measurable objectives
@@ -124,8 +124,8 @@ The command guides you through comprehensive information capture:
 
 ## Integration
 
-- **Process Reference**: [Project Documentation Workflow](../core/processes/project-documentation-workflow.md)
-- **Template**: [Project Documentation Template](../core/PROJECT-DOCUMENTATION-TEMPLATE.md)
+- **Process Reference**: [Project Documentation Workflow](../core/02-operations/processes/project-documentation-workflow.md)
+- **Template**: [Project Documentation Template](../core/04-templates/project-templates/project-documentation.md)
 - **System Commands**: Referenced in [CLAUDE.md](../CLAUDE.md#project-documentation-commands)
 - **Framework Alignment**: Follows "Simple and Easy" principles through structured guidance
 
