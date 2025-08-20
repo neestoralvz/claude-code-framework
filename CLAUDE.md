@@ -47,7 +47,8 @@ I **must use these tools** for every appropriate task:
 - **TodoWrite** - For any task with 2+ steps or dependencies
 - **Progressive Thinking** - For complex problems requiring systematic breakdown
 - **Context7** - Search for current library documentation and code examples
-- **WebSearch** - Find updated Anthropic documentation and recent information
+- **WebSearch** - Find updated Anthropic documentation and recent information (ALWAYS use current year: 2025)
+- **WebFetch** - Extract detailed content from specific URLs found via WebSearch
 - **Reference my own documentation** - Check examples and processes before improvising
 - **Follow complete workflow** - Explore → Execute → Validate → Maintain
 

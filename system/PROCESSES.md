@@ -35,6 +35,7 @@ Workflows and procedures for getting work done.
 
 ## Research and Analysis Processes
 - **IF research needed** → READ [processes/research-and-document.md#research-methodology](processes/research-and-document.md#research-methodology)
+- **IF web research needed** → READ [processes/web-research-workflow.md#web-research-process](processes/web-research-workflow.md#web-research-process)
 - **IF extended thinking needed** → READ [processes/extended-thinking-workflow.md#extended-thinking-process](processes/extended-thinking-workflow.md#extended-thinking-process)
 - **IF strategic problem-solving needed** → READ [processes/strategic-problem-solving-workflow.md#strategic-analysis-approach](processes/strategic-problem-solving-workflow.md#strategic-analysis-approach)
 - **IF root cause analysis needed** → READ [processes/root-cause-analysis-workflow.md#root-cause-investigation-process](processes/root-cause-analysis-workflow.md#root-cause-investigation-process)
