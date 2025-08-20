@@ -417,3 +417,20 @@ System prompt with agent specialization
 6. **Learning**: ALL code creation MUST follow: Context7 research → Specialized agent → Validation
 
 **NEVER REPEAT**: This violation demonstrates why framework requirements exist - they prevent system failures.
+
+## CRITICAL FRAMEWORK PROTECTION WORKFLOWS
+
+**IF framework violations detected** → IMMEDIATELY activate [Framework Violation Recovery Workflow](core/processes/framework-violation-recovery-workflow.md)
+
+**IF Context7 bypassed** → MANDATORY [Context7 Compliance Enforcement Process](core/processes/context7-compliance-enforcement-workflow.md)
+
+**IF system crisis occurs** → EMERGENCY activate [System Crisis Response Protocol](core/processes/system-crisis-response-workflow.md)
+
+**FRAMEWORK PROTECTION AUTOMATIC TRIGGERS:**
+- Direct implementation without Context7 research → BLOCK and require Context7
+- Agent deployment avoidance → MANDATORY agent deployment
+- Evidence-free claims → REQUIRE validation and proof
+- Multiple framework violations → ACTIVATE System Guardian personality
+- Framework authority challenges → MAXIMUM enforcement protocols
+
+**PREVENTION IS CRITICAL**: These workflows prevent system failures and maintain framework integrity.

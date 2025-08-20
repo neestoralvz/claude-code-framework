@@ -32,8 +32,15 @@ _Last updated: 2025-08-20 | Version: 1.0_
 | **Core System** | system-enhancement-specialist, framework-evaluation-agent | Framework Evaluation, System Enhancement | System maintenance, framework updates |
 | **Development** | code-quality-specialist, testing-strategy-specialist, api-design-specialist | TDD/BDD Unified, Quality Assurance | Code creation, testing, API development |
 | **Strategic** | strategic-operations-orchestrator, agent-template-architect | Strategic Orchestration, Agent Creation | Multi-domain coordination, agent design |
-| **Operations** | dashboard-management-specialist, git-operations-agent | Validation & Demonstration, Development | System monitoring, version control |
+| **Operations** | dashboard-management-specialist, git-operations-agent, monitoring-observability-specialist | Validation & Demonstration, Development | System monitoring, version control |
 | **Technical Implementation** | command-architecture-specialist, transition-preparation-agent | Development, Strategic Orchestration | Architecture design, system transitions |
+| **Data Management** | database-design-specialist, data-validation-specialist | TDD/BDD, Quality Assurance | Database design, data integrity validation |
+| **Frontend Development** | frontend-architecture-specialist, ux-validation-specialist | TDD/BDD, Quality Assurance | Component architecture, user experience |
+| **Infrastructure** | infrastructure-automation-specialist | Strategic Orchestration, TDD/BDD | IaC, CI/CD, cloud architecture |
+| **Security & Compliance** | application-security-specialist, data-privacy-compliance-specialist, security-validator | Quality Assurance, Evidence-Based | Security assessment, privacy compliance |
+| **Testing & Quality** | load-testing-specialist, accessibility-testing-specialist, testing-strategy-specialist | TDD/BDD, Quality Assurance | Performance testing, accessibility compliance |
+| **Business Analysis** | requirements-analysis-specialist, business-process-analyst | Project Documentation, Strategic Orchestration | Requirements gathering, process optimization |
+| **Communication** | stakeholder-communication-specialist, technical-writing-specialist, documentation-curator | Strategic Orchestration, Validation | Stakeholder management, technical documentation |
 
 ## Primary Workflow Matrix
 

@@ -45,10 +45,23 @@ Workflows and procedures for getting work done.
 - **IF parallel execution needed** → READ [processes/parallel-execution-workflow.md#parallel-execution-approach](processes/parallel-execution-workflow.md#parallel-execution-approach)
 - **IF agent coordination needed** → READ [processes/parallel-agent-coordination-workflow.md#agent-coordination-process](processes/parallel-agent-coordination-workflow.md#agent-coordination-process)
 
+## Framework Protection Processes
+- **IF framework violations detected** → READ [processes/framework-violation-recovery-workflow.md#framework-violation-recovery-process](processes/framework-violation-recovery-workflow.md#framework-violation-recovery-process)
+- **IF Context7 compliance needed** → READ [processes/context7-compliance-enforcement-workflow.md#context7-enforcement-process](processes/context7-compliance-enforcement-workflow.md#context7-enforcement-process)
+- **IF system crisis occurs** → READ [processes/system-crisis-response-workflow.md#crisis-response-protocol](processes/system-crisis-response-workflow.md#crisis-response-protocol)
+
 ## Development Methodology Processes
 - **IF TDD workflow needed** → READ [processes/test-driven-development-workflow.md#tdd-implementation-process](processes/test-driven-development-workflow.md#tdd-implementation-process)
 - **IF BDD workflow needed** → READ [processes/behavior-driven-development-workflow.md#bdd-specification-process](processes/behavior-driven-development-workflow.md#bdd-specification-process)
+- **IF TDD/BDD unified approach needed** → READ [processes/tdd-bdd-unified-workflow.md#unified-development-methodology](processes/tdd-bdd-unified-workflow.md#unified-development-methodology)
 - **IF quality assurance integration needed** → READ [processes/quality-assurance-tdd-workflow.md#quality-assurance-integration-points](processes/quality-assurance-tdd-workflow.md#quality-assurance-integration-points)
+- **IF Context7 integration needed** → READ [processes/context7-integration-workflow.md#context7-integration-process](processes/context7-integration-workflow.md#context7-integration-process)
+
+## Specialized TDD Integration Processes
+- **IF agent coordination with TDD needed** → READ [processes/agent-coordination-tdd-workflow.md#agent-tdd-integration](processes/agent-coordination-tdd-workflow.md#agent-tdd-integration)
+- **IF debugging with TDD needed** → READ [processes/debugging-tdd-workflow.md#debugging-tdd-process](processes/debugging-tdd-workflow.md#debugging-tdd-process)
+- **IF progressive thinking with TDD needed** → READ [processes/progressive-thinking-tdd-workflow.md#progressive-tdd-process](processes/progressive-thinking-tdd-workflow.md#progressive-tdd-process)
+- **IF web research with TDD needed** → READ [processes/web-research-tdd-workflow.md#web-research-tdd-process](processes/web-research-tdd-workflow.md#web-research-tdd-process)
 
 ## Strategic Planning Processes
 - **IF strategic vision needed** → READ [processes/strategic-vision-definition-workflow.md#vision-definition-process](processes/strategic-vision-definition-workflow.md#vision-definition-process)
@@ -56,12 +69,30 @@ Workflows and procedures for getting work done.
 - **IF metrics system needed** → READ [processes/success-metrics-system-workflow.md#metrics-framework-process](processes/success-metrics-system-workflow.md#metrics-framework-process)
 - **IF strategic integration needed** → READ [processes/strategic-planning-integration-workflow.md#integration-coordination-process](processes/strategic-planning-integration-workflow.md#integration-coordination-process)
 
+## Advanced Coordination Processes
+- **IF strategic orchestration needed** → READ [processes/strategic-orchestration-workflow.md#strategic-coordination-process](processes/strategic-orchestration-workflow.md#strategic-coordination-process)
+- **IF parallel conversation coordination needed** → READ [processes/parallel-conversation-coordination-workflow.md#parallel-coordination-process](processes/parallel-conversation-coordination-workflow.md#parallel-coordination-process)
+- **IF agent creation needed** → READ [processes/agent-creation-workflow.md#agent-creation-process](processes/agent-creation-workflow.md#agent-creation-process)
+- **IF development workflow needed** → READ [processes/development-workflow.md#development-process](processes/development-workflow.md#development-process)
+
+## Validation and Evidence Processes
+- **IF validation and demonstration needed** → READ [processes/validation-and-demonstration-workflow.md#validation-process](processes/validation-and-demonstration-workflow.md#validation-process)
+- **IF evidence-based decisions needed** → READ [processes/evidence-based-decision-workflow.md#evidence-decision-process](processes/evidence-based-decision-workflow.md#evidence-decision-process)
+- **IF git workflow validation needed** → READ [processes/git-workflow-validation.md#git-validation-process](processes/git-workflow-validation.md#git-validation-process)
+
+## Specialized Task Management
+- **IF TodoWrite management needed** → READ [processes/todowrite-management-workflow.md#todowrite-process](processes/todowrite-management-workflow.md#todowrite-process)
+- **IF project documentation needed** → READ [processes/project-documentation-workflow.md#project-documentation-process](processes/project-documentation-workflow.md#project-documentation-process)
+- **IF perpetual alertness needed** → READ [processes/perpetual-alertness-system.md#perpetual-alertness-process](processes/perpetual-alertness-system.md#perpetual-alertness-process)
+- **IF recenter workflow needed** → READ [processes/recenter-workflow.md#recenter-process](processes/recenter-workflow.md#recenter-process)
+
 ## Session Management Processes
 - **IF session conclusion needed** → READ [processes/session-conclusion-workflow.md#session-closure-process](processes/session-conclusion-workflow.md#session-closure-process)
 
 ## Framework Management Processes
 - **IF command creation needed** → READ [processes/command-creation-workflow.md#command-creation-process](processes/command-creation-workflow.md#command-creation-process)
 - **IF framework validation needed** → READ [processes/framework-validation-workflow.md#framework-validation-process](processes/framework-validation-workflow.md#framework-validation-process)
+- **IF framework evaluation needed** → READ [processes/framework-evaluation-workflow.md#framework-evaluation-process](processes/framework-evaluation-workflow.md#framework-evaluation-process)
 
 
 ---
