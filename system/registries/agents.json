@@ -786,6 +786,114 @@
         "domain": "performance-optimization",
         "created": "2025-08-19"
       }
+    },
+    "claude-hooks-developer": {
+      "id": "claude-hooks-developer",
+      "name": "Claude Hooks Developer",
+      "location": "agents/development/claude-hooks-developer.md",
+      "category": "development",
+      "specialization": "PEP 723 compliant Python hook development, JSON validation, exit code management, and secure Claude Code hook implementation",
+      "capabilities": [
+        "python-pep723-hook-development",
+        "json-validation-stdin-processing",
+        "exit-code-management-strategies",
+        "security-validation-implementation",
+        "claude-code-integration-patterns"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "claude-hooks-developer",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite",
+          "WebSearch",
+          "WebFetch"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "claude-hooks-development",
+        "created": "2025-08-20"
+      }
+    },
+    "claude-hooks-tester": {
+      "id": "claude-hooks-tester",
+      "name": "Claude Hooks Tester",
+      "location": "agents/development/claude-hooks-tester.md",
+      "category": "development",
+      "specialization": "Comprehensive testing strategies, systematic debugging, exit code validation, and performance analysis for Claude Code hook systems",
+      "capabilities": [
+        "comprehensive-hook-testing-frameworks",
+        "systematic-debugging-procedures",
+        "exit-code-validation-testing",
+        "performance-analysis-benchmarking",
+        "security-validation-protocols"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "claude-hooks-tester",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite",
+          "WebSearch",
+          "WebFetch"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "claude-hooks-testing",
+        "created": "2025-08-20"
+      }
+    },
+    "claude-hooks-integrator": {
+      "id": "claude-hooks-integrator",
+      "name": "Claude Hooks Integrator",
+      "location": "agents/development/claude-hooks-integrator.md",
+      "category": "development",
+      "specialization": "System architecture integration, workflow orchestration, hook lifecycle management, and Simple and Easy Framework coherence",
+      "capabilities": [
+        "system-architecture-integration",
+        "workflow-orchestration-patterns",
+        "hook-lifecycle-management",
+        "framework-coherence-validation",
+        "integration-architecture-design"
+      ],
+      "status": "active",
+      "deployment_info": {
+        "subagent_type": "claude-hooks-integrator",
+        "tools": [
+          "Bash",
+          "Glob",
+          "Grep",
+          "LS",
+          "Read",
+          "Edit",
+          "MultiEdit",
+          "Write",
+          "TodoWrite",
+          "WebSearch",
+          "WebFetch"
+        ]
+      },
+      "metadata": {
+        "expertise_level": "doctorate",
+        "domain": "claude-hooks-integration",
+        "created": "2025-08-20"
+      }
     }
   },
   "categories": {
@@ -818,12 +926,15 @@
       ]
     },
     "development": {
-      "description": "Development specialists for code quality, testing, API design, and performance",
+      "description": "Development specialists for code quality, testing, API design, performance, and Claude Code hooks",
       "agents": [
         "code-quality-specialist",
         "development-api-design-specialist",
         "testing-strategy-specialist",
-        "performance-optimization-specialist"
+        "performance-optimization-specialist",
+        "claude-hooks-developer",
+        "claude-hooks-tester",
+        "claude-hooks-integrator"
       ]
     },
     "development-quality": {
@@ -884,10 +995,10 @@
     }
   },
   "statistics": {
-    "total_agents": 24,
+    "total_agents": 27,
     "by_category": {
       "core-system": 4,
-      "development": 4,
+      "development": 7,
       "development-architecture": 1,
       "development-backend": 3,
       "development-quality": 1,
@@ -899,7 +1010,7 @@
       "research": 2
     },
     "by_status": {
-      "active": 24,
+      "active": 27,
       "inactive": 0,
       "deprecated": 0
     }
