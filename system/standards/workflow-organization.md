@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Workflow Organization
 
@@ -34,4 +36,3 @@ Define resource requirements for workflows including compute, memory, and extern
 Include monitoring and logging points throughout workflows to track progress and diagnose issues. Create artifacts and reports that provide visibility into workflow execution.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

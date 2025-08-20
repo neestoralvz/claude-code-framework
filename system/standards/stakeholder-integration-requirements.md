@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Standards](../STANDARDS.md) | [📖 Current Standard](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Stakeholder Integration Requirements
 
@@ -326,4 +328,3 @@ This standard ensures comprehensive stakeholder integration throughout strategic
 
 ---
 
-**Navigation:** [↑ Standards](../STANDARDS.md) | [🏠 System Hub](../INDEX.md)

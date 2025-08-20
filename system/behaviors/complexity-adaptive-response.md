@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Behaviors](../BEHAVIORS.md) | [📖 Current Behavior](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Complexity-Adaptive Response
 
@@ -298,4 +300,3 @@ This behavior ensures optimal resource allocation and solution effectiveness by 
 
 ---
 
-**Navigation:** [↑ Behaviors](../BEHAVIORS.md) | [🏠 System Hub](../INDEX.md)

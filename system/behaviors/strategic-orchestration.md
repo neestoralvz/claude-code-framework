@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Behaviors](../BEHAVIORS.md) | [📖 Current Behavior](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Strategic Orchestration
 
@@ -270,4 +272,3 @@ This behavior ensures effective strategic leadership through systematic delegati
 
 ---
 
-**Navigation:** [↑ Behaviors](../BEHAVIORS.md) | [🏠 System Hub](../INDEX.md)

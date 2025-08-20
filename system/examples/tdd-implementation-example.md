@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # TDD Implementation Example
 
@@ -108,4 +110,3 @@ def validate_email(email: str) -> EmailResult:
 Tests drove the interface design - we knew exactly what the function should return. Each test failure gave us specific guidance about what to implement next. Refactoring was safe because tests caught any regressions.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

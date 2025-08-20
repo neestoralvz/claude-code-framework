@@ -15,7 +15,6 @@
 ### Standard Header Template
 
 ```markdown
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
 
@@ -29,7 +28,6 @@
 
 ---
 
-**Navigation:** [← Back to [Parent]](../[PARENT].md) | [↑ System Home](../INDEX.md)
 ```
 
 ### Navigation Components
@@ -72,29 +70,23 @@
 
 ### Root Level Files (system/PRINCIPLES.md, etc.)
 ```markdown
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
 
-**Navigation:** [↑ System Home](INDEX.md)
 ```
 
 ### Subdirectory Files (system/principles/*, etc.)
 ```markdown
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
 
-**Navigation:** [← Back to [Parent]](../[PARENT].md) | [↑ System Home](../INDEX.md)
 ```
 
 ### Special Cases (INDEX.md files)
 ```markdown
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Navigation](#)
 
 ---
 
-**Navigation:** [↑ System Home](INDEX.md)
 ```
 
 ## Success Metrics
@@ -111,4 +103,3 @@
 2. Process files systematically by directory
 3. Validate all links after implementation
 4. Test navigation flow across entire framework
-5. Generate compliance report

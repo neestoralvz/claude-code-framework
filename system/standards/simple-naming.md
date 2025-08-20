@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Simple Naming
 
 **Context**: Quality standard ensuring consistency and compliance requirements
 
 
-**[System](../INDEX.md) › [Standards](../STANDARDS.md) › Simple Naming**
 
 Use straightforward, clear names for everything.
 
@@ -19,4 +20,3 @@ Use straightforward, clear names for everything.
 No clever abbreviations or complex terminology.
 
 ---
-**Navigation:** [← Back to Standards](../STANDARDS.md) | [↑ System Home](../INDEX.md)

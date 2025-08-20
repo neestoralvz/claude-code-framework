@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF using this template** → READ [INDEX.md](../INDEX.md#system-structure) for framework context, THEN apply this template
+
 
 # [Principle Name]
 
 **Context**: Template component for consistent framework documentation structure
 
 
-**[System](../INDEX.md) › [Principles](../PRINCIPLES.md) › [Principle Name]**
 
 [One sentence description of what this principle guides]
 
@@ -17,4 +18,3 @@
 - [Keep it focused and actionable]
 
 ---
-**Navigation:** [← Back to Principles](../PRINCIPLES.md) | [↑ System Home](../INDEX.md)

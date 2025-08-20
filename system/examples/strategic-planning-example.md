@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Examples](../EXAMPLES.md) | [📖 Current Example](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Strategic Planning Example
 
@@ -319,4 +321,3 @@ This example demonstrates how strategic planning integrates evidence collection,
 
 ---
 
-**Navigation:** [↑ Examples](../EXAMPLES.md) | [🏠 System Hub](../INDEX.md)

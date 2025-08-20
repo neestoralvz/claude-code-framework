@@ -1,6 +1,8 @@
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
+
+**IF seeking specific tool** → READ [system/INDEX.md](INDEX.md#system-structure) for system overview, THEN navigate here for tool details
+
 
 # Tools
 
@@ -10,10 +12,7 @@
 Utilities for maintaining and improving our system.
 
 ## File Management Tools
-- **[File Renamer](tools/file-renamer.md)** - Standardize file names quickly
-- **[Breadcrumb Remover](tools/breadcrumb-remover.md)** - Remove manual navigation to keep content clean
-
-**Total: 2 Tools**
+- **IF file renaming needed** → READ [tools/file-renamer.md#renaming-process](tools/file-renamer.md#renaming-process)
+- **IF navigation cleanup needed** → READ [tools/breadcrumb-remover.md#breadcrumb-removal-process](tools/breadcrumb-remover.md#breadcrumb-removal-process)
 
 ---
-**Navigation:** [↑ System Home](INDEX.md)

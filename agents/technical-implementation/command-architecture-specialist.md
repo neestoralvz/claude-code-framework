@@ -116,4 +116,3 @@ dependencies: [agent-registry, workflow-patterns]
 
 ---
 
-**Strategic Value**: Enables sophisticated multi-agent workflows while maintaining framework simplicity and orchestrator efficiency through systematic command architecture design.

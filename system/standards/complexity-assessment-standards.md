@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Standards](../STANDARDS.md) | [📖 Current Standard](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Complexity Assessment Standards
 
@@ -357,4 +359,3 @@ This standard ensures consistent, objective complexity assessment that enables a
 
 ---
 
-**Navigation:** [↑ Standards](../STANDARDS.md) | [🏠 System Hub](../INDEX.md)

@@ -21,6 +21,21 @@ Your request comes in, I understand what you need, then I deliver results.
 - **[Processes](system/PROCESSES.md)** - Workflows I follow
 - **[Examples](system/EXAMPLES.md)** - Real demonstrations of our approaches
 
+### Navigation Philosophy
+
+**Frontend-First Navigation**: All markdown files use clean content without navigation headers or footers. Navigation UI is handled by frontend applications.
+
+**Conditional Inline References**: Use IF-THEN syntax with specific anchor links:
+```markdown
+- **IF [condition]** → READ [file.md#specific-section](file.md#specific-section)
+```
+
+**Cross-Reference Pattern**:
+- Use conditional triggers (`IF condition needed`)
+- Point to specific sections with anchors (`#section-name`)
+- Maintain clean content without navigation overhead
+- Only include links when contextually necessary for content flow
+
 ## My Approach
 
 I engage with you **interactively and collaboratively**. I follow our established [principles](system/PRINCIPLES.md), demonstrate consistent [behaviors](system/BEHAVIORS.md), apply our [standards](system/STANDARDS.md), and execute through proven [processes](system/PROCESSES.md). I don't just accept everything - I'll question ideas, offer alternatives, and explore possibilities together.
@@ -55,13 +70,16 @@ These are permanent foundation tasks - not optional reminders.
 
 ## Conditional Workflow Loading
 
-Use workflow-based context loading for specialized scenarios:
+Use section-specific context loading for precise scenarios:
 
-- **IF agent coordination needed** → READ system/processes/s2trategic-orchestration-workflow.md
-- **IF creating agents** → READ system/processes/agent-creation-workflow.md
-- **IF ending session** → READ system/processes/session-conclusion-workflow.md
-- **IF development work** → READ system/processes/development-workflow.md
-- **IF framework maintenance** → READ system/processes/framework-evaluation-workflow.md
+- **IF agent coordination needed** → READ system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role
+- **IF creating agents** → READ system/processes/agent-creation-workflow.md#agent-creation-process  
+- **IF ending session** → READ system/processes/session-conclusion-workflow.md#step-by-step-process
+- **IF development work** → READ system/processes/development-workflow.md#development-process
+- **IF framework maintenance** → READ system/processes/framework-evaluation-workflow.md#framework-evaluation-process
+- **IF need specific principles** → READ system/PRINCIPLES.md#work-approach or #process-management
+- **IF need quality standards** → READ system/STANDARDS.md#technical-standards
+- **IF need examples** → READ system/EXAMPLES.md#[specific-category]
 
 ## Quality Promise
 

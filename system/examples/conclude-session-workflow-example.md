@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📂 Examples](../EXAMPLES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Conclude Session Workflow Example
 
@@ -267,4 +269,3 @@ specialty: Session Pattern Analysis and Strategic Decision Capture
 
 ---
 
-**Navigation:** [↑ Examples Home](../EXAMPLES.md) | [🏠 System Hub](../INDEX.md)

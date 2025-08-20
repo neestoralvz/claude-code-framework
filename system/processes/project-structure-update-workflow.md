@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Project Structure Update Workflow
 
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › Project Structure Update Workflow**
 
 ## Purpose
 Update and reorganize project structure efficiently while preserving functionality.
@@ -101,4 +102,3 @@ git ls-files | wc -l
 - Test functionality after moves
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

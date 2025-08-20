@@ -1,6 +1,8 @@
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
+
+**IF seeking specific check** → READ [system/INDEX.md](INDEX.md#system-structure) for system overview, THEN navigate here for check details
+
 
 # Checks
 
@@ -10,9 +12,6 @@
 Quick validations to ensure quality and consistency.
 
 ## Quality Checks
-- **[Naming Check](checks/naming-check.md)** - Verify names follow simple standards
-
-**Total: 1 Check**
+- **IF naming validation needed** → READ [checks/naming-check.md#naming-validation-criteria](checks/naming-check.md#naming-validation-criteria)
 
 ---
-**Navigation:** [↑ System Home](INDEX.md)

@@ -167,4 +167,3 @@ Agents should be placed in category-specific directories:
 - `agents/database/` - Database specialists
 - `agents/[new-category]/` - Create new categories as needed
 
-This template ensures all agents follow consistent patterns while maintaining the flexibility needed for domain-specific specialization.

@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Automation Decision Example
 
@@ -38,4 +40,3 @@ When you find yourself doing repetitive identical edits, stop and automate inste
 
 ---
 
-**Navigation:** [← Back to Examples](../EXAMPLES.md) | [↑ System Home](../INDEX.md)

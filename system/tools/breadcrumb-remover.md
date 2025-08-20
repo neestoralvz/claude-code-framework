@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [TOOLS.md](../TOOLS.md#system-tools) for context, THEN navigate to this specific tool
+
 
 # Breadcrumb Remover
 
 **Context**: Utility tool supporting framework maintenance and operations
 
 
-**[System](../INDEX.md) › [Tools](../TOOLS.md) › Breadcrumb Remover**
 
 Tool for removing manual navigation from files to keep them clean.
 
@@ -29,4 +30,3 @@ Tool for removing manual navigation from files to keep them clean.
 5. Let index files handle navigation instead
 
 ---
-**Navigation:** [← Back to Tools](../TOOLS.md) | [↑ System Home](../INDEX.md)

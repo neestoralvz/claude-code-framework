@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Tool Integration Patterns
 
@@ -34,4 +36,3 @@ Track tool dependencies and versions explicitly. Use dependency management syste
 Define fallback strategies for when tools are unavailable or fail. This might include alternative tools, manual processes, or graceful degradation of functionality.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

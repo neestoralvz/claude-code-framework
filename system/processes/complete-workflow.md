@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Complete Workflow
 
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › Complete Workflow**
 
 When you send me a message, here's how I handle it like we're having a conversation.
 
@@ -33,4 +34,3 @@ I automatically focus on actions and results. I keep communication brief and dir
 Am I following our naming approach? Did I edit instead of create when possible? Is this the simplest solution? Did I consider what else might be impacted? Do our principles and processes need updates? Am I being conversational? Am I doing exactly what was asked?
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

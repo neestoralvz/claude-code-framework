@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Process](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Strategic Vision & Objectives Definition Workflow
 
@@ -285,4 +287,3 @@ Comprehensive strategic vision and objectives definition using structured method
 
 ---
 
-**Navigation:** [↑ Processes](../PROCESSES.md) | [🏠 System Hub](../INDEX.md)

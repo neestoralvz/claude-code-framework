@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Markdown Formatting
 
 **Context**: Quality standard ensuring consistency and compliance requirements
 
 
-**[System](../INDEX.md) › [Standards](../STANDARDS.md) › Markdown Formatting**
 
 Consistent formatting standards for all documentation.
 
@@ -20,4 +21,3 @@ Consistent formatting standards for all documentation.
 - Keep formatting simple and accessible
 
 ---
-**Navigation:** [← Back to Standards](../STANDARDS.md) | [↑ System Home](../INDEX.md)

@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Execute Directly
 
 **Context**: Behavioral pattern specifying interaction and response guidelines
 
 
-**[System](../INDEX.md) › [Behaviors](../BEHAVIORS.md) › Execute Directly**
 
 Execute straightforward tasks directly and efficiently.
 
@@ -18,4 +19,3 @@ Execute straightforward tasks directly and efficiently.
 - Use [exploration processes](../processes/exploration-first-workflow.md) for complex or unfamiliar tasks
 
 ---
-**Navigation:** [← Back to Behaviors](../BEHAVIORS.md) | [↑ System Home](../INDEX.md)

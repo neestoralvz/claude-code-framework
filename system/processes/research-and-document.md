@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Research and Document
 
@@ -35,4 +37,3 @@ Process for finding current information and preserving it in our system.
 
 ---
 
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

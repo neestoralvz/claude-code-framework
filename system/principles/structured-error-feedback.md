@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Structured Error Feedback
 
@@ -26,4 +28,3 @@ Pydantic validation errors show the exact field path, the invalid value, the exp
 Good errors include location, actual value, expected value, error type, and human readable message. This allows both humans and systems to understand and respond appropriately.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

@@ -248,4 +248,3 @@ Evidence-based decision making frameworks in 2025 emphasize data-driven approach
 - Transparency mandates
 - Accountability frameworks
 - Quality assurance protocols
-- International harmonization efforts

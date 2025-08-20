@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Fail Fast Validation
 
@@ -30,4 +32,3 @@ Design your processes so that early failures are easy to recover from. Make vali
 Don't just validate at the beginning - continue validating throughout your process at key checkpoints to catch problems that might develop along the way.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

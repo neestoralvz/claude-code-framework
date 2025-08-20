@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Principles](../PRINCIPLES.md) | [📖 Current Principle](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Milestone-Based Strategic Planning Principle
 
@@ -151,4 +153,3 @@ Focus on "what" and "evidence" rather than "when":
 
 **Strategic Impact**: Eliminates time pressure while maintaining clear progression, enabling sustainable development at user-optimal pace with focus on quality achievement rather than arbitrary schedule compliance.
 
-**Navigation:** [↑ Principles](../PRINCIPLES.md) | [🏠 System Hub](../INDEX.md)

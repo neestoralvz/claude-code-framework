@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Behaviors](../BEHAVIORS.md) | [📖 Current Behavior](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Evidence-Based Interaction
 
@@ -195,4 +197,3 @@ This behavior ensures all interactions and decisions are grounded in reliable, v
 
 ---
 
-**Navigation:** [↑ Behaviors](../BEHAVIORS.md) | [🏠 System Hub](../INDEX.md)

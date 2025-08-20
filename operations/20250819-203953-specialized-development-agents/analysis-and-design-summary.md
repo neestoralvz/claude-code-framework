@@ -67,4 +67,3 @@ From our system documentation:
 1. Create agents directory structure
 2. Implement each specialized agent following template
 3. Update registry with new agents
-4. Create deployment examples and integration guidance

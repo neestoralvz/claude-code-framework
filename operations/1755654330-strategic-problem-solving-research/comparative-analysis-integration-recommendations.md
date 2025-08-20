@@ -274,4 +274,3 @@ Problem Complexity Assessment
 - Cross-project knowledge sharing
 - Skill development programs
 - Methodology training systems
-- Community of practice development

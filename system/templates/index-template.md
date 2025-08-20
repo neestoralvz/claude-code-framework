@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF using this template** → READ [INDEX.md](../INDEX.md#system-structure) for framework context, THEN apply this template
+
 
 # [Category Name]
 
@@ -10,13 +12,10 @@
 [Brief description of what this category contains]
 
 ## [Subsection Name if Needed]
-- **[Item Name](path/to/file.md)** - Brief description
-- **[Another Item](path/to/file.md)** - Brief description
+- **IF [condition] needed** → READ [path/to/file.md#specific-section](path/to/file.md#specific-section)
+- **IF [another condition] needed** → READ [path/to/file.md#specific-section](path/to/file.md#specific-section)
 
 ## [Another Subsection if Needed]
-- **[Item Name](path/to/file.md)** - Brief description
-
-**Total: [X] [Category Items]**
+- **IF [condition] needed** → READ [path/to/file.md#specific-section](path/to/file.md#specific-section)
 
 ---
-**Navigation:** [↑ System Home](INDEX.md)

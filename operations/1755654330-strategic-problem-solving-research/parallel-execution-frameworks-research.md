@@ -157,4 +157,3 @@ Research reveals sophisticated approaches to coordinating multiple specialized t
 - Dual reporting relationships
 - Functional and project coordination
 - Resource sharing across teams
-- Complex dependency management

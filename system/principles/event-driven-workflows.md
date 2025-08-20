@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Event Driven Workflows
 
@@ -26,4 +28,3 @@ Workflows-py uses async event handling to control workflow execution. GitHub Act
 Instead of scheduling a workflow to run every hour to check for new files, set up a file watcher that triggers the workflow immediately when files arrive.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

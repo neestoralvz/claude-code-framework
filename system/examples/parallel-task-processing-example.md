@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Parallel Task Processing Example
 
@@ -48,4 +50,3 @@ Dramatically reduced processing time for independent tasks. Better resource util
 Use this pattern when you have multiple items that need the same processing and don't depend on each other's results.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

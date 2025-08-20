@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # File Organization
 
 **Context**: Quality standard ensuring consistency and compliance requirements
 
 
-**[System](../INDEX.md) › [Standards](../STANDARDS.md) › File Organization**
 
 Consistent ways to organize and structure files.
 
@@ -19,4 +20,3 @@ Consistent ways to organize and structure files.
 - Place navigation and index files where users expect them
 
 ---
-**Navigation:** [← Back to Standards](../STANDARDS.md) | [↑ System Home](../INDEX.md)

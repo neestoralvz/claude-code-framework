@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Process](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Root Cause Analysis Workflow
 
@@ -333,4 +335,3 @@ Root Cause: Missing performance standards and review process
 
 ---
 
-**Navigation:** [↑ Processes](../PROCESSES.md) | [🏠 System Hub](../INDEX.md)

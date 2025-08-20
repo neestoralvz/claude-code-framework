@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Async First Execution
 
@@ -30,4 +32,3 @@ Be mindful of resource limits when running multiple things simultaneously. Don't
 Provide visibility into the progress of parallel work so you can monitor what's happening and intervene if needed. Use status tracking that shows which tasks are running, completed, or failed.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

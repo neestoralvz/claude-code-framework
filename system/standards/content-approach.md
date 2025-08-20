@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Content Approach
 
 **Context**: Quality standard ensuring consistency and compliance requirements
 
 
-**[System](../INDEX.md) › [Standards](../STANDARDS.md) › Content Approach**
 
 How to create and maintain consistent content.
 
@@ -20,4 +21,3 @@ How to create and maintain consistent content.
 - Maintain single source of truth for each concept
 
 ---
-**Navigation:** [← Back to Standards](../STANDARDS.md) | [↑ System Home](../INDEX.md)

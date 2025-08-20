@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF using this template** → READ [INDEX.md](../INDEX.md#system-structure) for framework context, THEN apply this template
+
 
 # [Process Name]
 
 **Context**: Template component for consistent framework documentation structure
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › [Process Name]**
 
 [One sentence description of what this process accomplishes]
 
@@ -21,4 +22,3 @@
 [Keep steps clear and actionable]
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

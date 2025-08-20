@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Test Driven Development Workflow
 
@@ -34,4 +36,3 @@ Now improve the code structure, naming, and design while keeping the test passin
 Move to the next piece of functionality and repeat: Red (failing test), Green (minimal code), Refactor (improve design). Each cycle should be small and focused.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

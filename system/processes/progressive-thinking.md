@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Progressive Thinking
 
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › Progressive Thinking**
 
 Break complex tasks into manageable steps and build understanding progressively.
 
@@ -40,4 +41,3 @@ Break complex tasks into manageable steps and build understanding progressively.
 - When scope is large or unclear
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

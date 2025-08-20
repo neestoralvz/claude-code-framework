@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Standards](../STANDARDS.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Navigation Standardization
 
@@ -18,7 +20,6 @@ All markdown files in the .claude framework MUST include standardized navigation
 Every markdown file must include this navigation bar at the top:
 
 ```markdown
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
 
@@ -100,7 +101,6 @@ The framework includes validation scripts that verify:
 
 ### Top-Level Index
 ```markdown
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
 
@@ -111,7 +111,6 @@ The framework includes validation scripts that verify:
 
 ### Category Index
 ```markdown
-[🏠 System Hub](../INDEX.md) | [📁 Framework](../) | [📖 Current Section](#)
 
 ---
 
@@ -122,7 +121,6 @@ The framework includes validation scripts that verify:
 
 ### Individual Component
 ```markdown
-[🏠 System Hub](../../INDEX.md) | [📁 Principles](../PRINCIPLES.md) | [📖 Current Section](#)
 
 ---
 
@@ -140,4 +138,3 @@ The framework includes validation scripts that verify:
 
 ---
 
-**Navigation:** [↑ System Hub](../INDEX.md) | [← Standards](../STANDARDS.md)

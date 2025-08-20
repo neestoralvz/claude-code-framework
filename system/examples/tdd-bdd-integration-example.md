@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Examples](../EXAMPLES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # TDD/BDD Integration Example
 
@@ -410,4 +412,3 @@ This example demonstrates how TDD and BDD complement each other, with BDD defini
 
 ---
 
-**Navigation:** [↑ System Hub](../INDEX.md) | [← Examples](../EXAMPLES.md)

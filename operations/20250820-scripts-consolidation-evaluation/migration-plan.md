@@ -225,4 +225,3 @@ mv /scripts/core/registry/* /system/tools/core/
 - Clean, organized `/system/tools/` directory structure
 - Improved framework maintainability
 - Enhanced discoverability of tools and utilities
-- Alignment with framework standards and principles

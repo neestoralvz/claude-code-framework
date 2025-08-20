@@ -76,4 +76,3 @@ Agent successfully added to registry with:
 - **Category**: operations-monitoring
 - **Status**: Active
 - **Total Agents**: 20 (updated count)
-- **Created**: 2025-08-20

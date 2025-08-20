@@ -193,4 +193,3 @@ Current sustainability design methodologies emphasize evidence-based approaches,
 - Third-party verification
 - Stakeholder feedback systems
 - Performance benchmark comparison
-- Impact assessment studies

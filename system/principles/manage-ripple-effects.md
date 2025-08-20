@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Take Charge of Ripple Effect
 
 **Context**: Fundamental principle defining framework behavior and decision-making
 
 
-**[System](../INDEX.md) › [Principles](../PRINCIPLES.md) › Take Charge of Ripple Effect**
 
 Consider downstream impacts of changes.
 
@@ -18,4 +19,3 @@ Consider downstream impacts of changes.
 - Ensure changes maintain system coherence
 
 ---
-**Navigation:** [← Back to Principles](../PRINCIPLES.md) | [↑ System Home](../INDEX.md)

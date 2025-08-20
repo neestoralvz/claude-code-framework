@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # When to Script
 
 **Context**: Practical example demonstrating framework implementation patterns
 
 
-**[System](../INDEX.md) › [Examples](../EXAMPLES.md) › When to Script**
 
 Real example of recognizing when manual work should be automated.
 
@@ -38,4 +39,3 @@ Use scripts when you have:
 Recognize systematic tasks early and automate rather than manually grinding through them.
 
 ---
-**Navigation:** [← Back to Examples](../EXAMPLES.md) | [↑ System Home](../INDEX.md)

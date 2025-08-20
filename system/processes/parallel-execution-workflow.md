@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Parallel Execution Workflow
 
@@ -30,4 +32,3 @@ Collect results from all parallel tasks as they complete. Handle partial failure
 Processing multiple customer records simultaneously, validating several form submissions in parallel, or running tests across multiple configurations at once.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

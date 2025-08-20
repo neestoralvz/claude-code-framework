@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Make It Work
 
 **Context**: Fundamental principle defining framework behavior and decision-making
 
 
-**[System](../INDEX.md) › [Principles](../PRINCIPLES.md) › Make It Work**
 
 Focus on results that matter.
 
@@ -17,4 +18,3 @@ Focus on results that matter.
 - Deliver working results quickly
 
 ---
-**Navigation:** [← Back to Principles](../PRINCIPLES.md) | [↑ System Home](../INDEX.md)

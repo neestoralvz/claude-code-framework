@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Ultra Think
 
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › Ultra Think**
 
 Maximum depth analysis for fundamental changes and highly complex problems.
 
@@ -29,4 +30,3 @@ Maximum depth analysis for fundamental changes and highly complex problems.
 - Execute with continuous learning
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

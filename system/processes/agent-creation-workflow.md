@@ -1,8 +1,9 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Section](#)
----
 # Agent Creation Workflow
 **Context**: Systematic process for creating, deploying, and managing specialized agents within the framework
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 ## When To Use
 - Creating new specialized agents
@@ -63,4 +64,3 @@ Agents must follow:
 When creating agents, READ these files:
 - **Template Guidelines**: READ operations/20250819-192114-agent-template-creation/ for complete creation framework
 - **Agent Registry**: READ agents/registry/ to avoid duplication and understand patterns
-- **Quality Standards**: READ system/STANDARDS.md for compliance requirements

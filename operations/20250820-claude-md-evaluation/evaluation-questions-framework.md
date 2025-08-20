@@ -175,4 +175,3 @@
 - **Evidence Collection**: Use script-based metrics where possible
 - **Documentation Requirements**: Track responses and trends over time
 - **Action Threshold**: Scores below 7/10 trigger optimization review
-- **Continuous Improvement**: Integrate findings into CLAUDE.md evolution

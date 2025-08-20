@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Error Recovery Pattern Example
 
@@ -56,4 +58,3 @@ Graceful handling of common data problems. Automatic recovery reduces user frict
 Use this pattern when you can define reasonable automatic corrections for common validation failures.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

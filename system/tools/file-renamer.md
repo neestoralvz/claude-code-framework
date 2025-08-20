@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [TOOLS.md](../TOOLS.md#system-tools) for context, THEN navigate to this specific tool
+
 
 # File Renamer
 
 **Context**: Utility tool supporting framework maintenance and operations
 
 
-**[System](../INDEX.md) › [Tools](../TOOLS.md) › File Renamer**
 
 Quick tool for standardizing file names.
 
@@ -25,4 +26,3 @@ Quick tool for standardizing file names.
 - Make it immediately clear what the file contains
 
 ---
-**Navigation:** [← Back to Tools](../TOOLS.md) | [↑ System Home](../INDEX.md)

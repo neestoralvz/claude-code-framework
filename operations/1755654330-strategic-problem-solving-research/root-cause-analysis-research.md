@@ -98,4 +98,3 @@ Emphasis on choosing appropriate techniques based on:
 - Appropriate method selection
 - Skilled facilitation
 - Data-driven validation
-- Systematic implementation tracking

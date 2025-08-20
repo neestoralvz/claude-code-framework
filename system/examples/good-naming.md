@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Good Naming Examples
 
 **Context**: Practical example demonstrating framework implementation patterns
 
 
-**[System](../INDEX.md) › [Examples](../EXAMPLES.md) › Good Naming**
 
 Examples of our naming standards in action.
 
@@ -27,4 +28,3 @@ Examples of our naming standards in action.
 - Clear, direct, obvious purpose
 
 ---
-**Navigation:** [← Back to Examples](../EXAMPLES.md) | [↑ System Home](../INDEX.md)

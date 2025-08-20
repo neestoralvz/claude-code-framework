@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [CHECKS.md](../CHECKS.md#quality-checks) for context, THEN navigate to this specific check
+
 
 # Naming Check
 
 **Context**: Validation check ensuring framework integrity and compliance
 
 
-**[System](../INDEX.md) › [Checks](../CHECKS.md) › Naming Check**
 
 Verify names follow our simple naming standard.
 
@@ -18,4 +19,3 @@ Verify names follow our simple naming standard.
 - Would someone immediately understand what it contains?
 
 ---
-**Navigation:** [← Back to Checks](../CHECKS.md) | [↑ System Home](../INDEX.md)

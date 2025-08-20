@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Type Safe Interfaces
 
@@ -30,4 +32,3 @@ Validate data at runtime, not just at development time. Type hints alone don't p
 Document not just what types are expected, but what the valid ranges, formats, and constraints are. Include examples of valid and invalid inputs with explanations.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

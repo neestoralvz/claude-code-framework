@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Validation First Design
 
@@ -26,4 +28,3 @@ Pydantic models validate data as soon as it arrives and tell you exactly which f
 Never skip validation for external data, user inputs, or data crossing system boundaries. Always validate when the cost of bad data is higher than the cost of validation.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

@@ -1,6 +1,8 @@
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
+
+**IF seeking specific example** → READ [CLAUDE.md](../CLAUDE.md#system-navigation) for framework overview, THEN navigate here for detailed examples
+
 
 # Examples
 
@@ -10,29 +12,26 @@
 Real demonstrations of our standards and approaches.
 
 ## Naming Examples
-- **[Good Naming](examples/good-naming.md)** - Examples of our naming standards in action
+- **IF naming examples needed** → READ [examples/good-naming.md#naming-examples](examples/good-naming.md#naming-examples)
 
 ## Decision Examples
-- **[When to Script](examples/when-to-script.md)** - Recognizing when manual work should be automated
+- **IF automation decisions needed** → READ [examples/when-to-script.md#automation-criteria](examples/when-to-script.md#automation-criteria)
 
 ## Implementation Pattern Examples
-- **[Validation Pattern Example](examples/validation-pattern-example.md)** - Robust validation with clear error feedback
-- **[Parallel Task Processing Example](examples/parallel-task-processing-example.md)** - Processing multiple items efficiently
-- **[Error Recovery Pattern Example](examples/error-recovery-pattern-example.md)** - Graceful error handling with automatic recovery
+- **IF validation patterns needed** → READ [examples/validation-pattern-example.md#validation-implementation](examples/validation-pattern-example.md#validation-implementation)
+- **IF parallel processing needed** → READ [examples/parallel-task-processing-example.md#parallel-processing-pattern](examples/parallel-task-processing-example.md#parallel-processing-pattern)
+- **IF error recovery needed** → READ [examples/error-recovery-pattern-example.md#error-recovery-implementation](examples/error-recovery-pattern-example.md#error-recovery-implementation)
 
 ## Development Methodology Examples
-- **[TDD Implementation Example](examples/tdd-implementation-example.md)** - Complete Red-Green-Refactor cycle demonstration
-- **[TDD/BDD Integration Example](examples/tdd-bdd-integration-example.md)** - Combining behavior-driven and test-driven development with real authentication feature
+- **IF TDD implementation needed** → READ [examples/tdd-implementation-example.md#tdd-cycle-demonstration](examples/tdd-implementation-example.md#tdd-cycle-demonstration)
+- **IF TDD/BDD integration needed** → READ [examples/tdd-bdd-integration-example.md#tdd-bdd-integration-pattern](examples/tdd-bdd-integration-example.md#tdd-bdd-integration-pattern)
 
 ## Strategic Problem-Solving Examples
-- **[Root Cause Analysis Example](examples/root-cause-analysis-example.md)** - Complete 5 Whys and Fishbone analysis demonstration
-- **[Strategic Planning Example](examples/strategic-planning-example.md)** - Evidence-based strategic solution development
-- **[Parallel Agent Coordination Example](examples/parallel-agent-coordination-example.md)** - Multi-agent orchestration for complex tasks
+- **IF root cause analysis needed** → READ [examples/root-cause-analysis-example.md#root-cause-methodology](examples/root-cause-analysis-example.md#root-cause-methodology)
+- **IF strategic planning needed** → READ [examples/strategic-planning-example.md#strategic-solution-development](examples/strategic-planning-example.md#strategic-solution-development)
+- **IF agent coordination needed** → READ [examples/parallel-agent-coordination-example.md#agent-orchestration-pattern](examples/parallel-agent-coordination-example.md#agent-orchestration-pattern)
 
 ## Session Management Examples
-- **[Conclude Session Workflow Example](examples/conclude-session-workflow-example.md)** - Strategic orchestrator pattern with automated agent coordination
-
-**Total: 11 Examples**
+- **IF session conclusion needed** → READ [examples/conclude-session-workflow-example.md#session-conclusion-pattern](examples/conclude-session-workflow-example.md#session-conclusion-pattern)
 
 ---
-**Navigation:** [↑ System Home](INDEX.md)

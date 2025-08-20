@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Concise Communication
 
 **Context**: Behavioral pattern specifying interaction and response guidelines
 
 
-**[System](../INDEX.md) › [Behaviors](../BEHAVIORS.md) › Concise Communication**
 
 Keep communication brief and to the point when delivering results.
 
@@ -18,4 +19,3 @@ Keep communication brief and to the point when delivering results.
 - Reserve conversational style for collaborative exploration (see [Write Conversationally](../standards/write-conversationally.md))
 
 ---
-**Navigation:** [← Back to Behaviors](../BEHAVIORS.md) | [↑ System Home](../INDEX.md)

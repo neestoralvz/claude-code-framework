@@ -128,4 +128,3 @@ Analysis of strategic planning methodologies reveals convergence toward human-ce
 - Time constraints
 - Resource availability
 - Risk tolerance
-- Innovation requirements

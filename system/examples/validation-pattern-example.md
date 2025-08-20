@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Examples](../EXAMPLES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Validation Pattern Example
 
@@ -200,4 +202,3 @@ This validation pattern ensures robust, secure, and user-friendly input handling
 
 ---
 
-**Navigation:** [↑ System Hub](../INDEX.md) | [← Examples](../EXAMPLES.md)

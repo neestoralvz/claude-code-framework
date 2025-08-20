@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Exploration-First Workflow
 
 **Context**: Workflow process defining procedural steps and execution patterns
 
 
-**[System](../INDEX.md) › [Processes](../PROCESSES.md) › Exploration-First Workflow**
 
 ## Core Principle
 **Explore → Understand → Act**
@@ -169,4 +170,3 @@ python -m pytest 2>/dev/null || echo "No pytest"
 - **Validation early catches problems before they grow**
 
 ---
-**Navigation:** [← Back to Processes](../PROCESSES.md) | [↑ System Home](../INDEX.md)

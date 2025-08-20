@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Proactive Tool Adoption
 
@@ -30,4 +32,3 @@ When you discover effective tool usage patterns, document them so they can be re
 Think about how different tools can work together rather than using them in isolation. Look for opportunities to chain tools together or use outputs from one tool as inputs to another.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

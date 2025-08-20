@@ -1,4 +1,3 @@
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Current Section](#)
 
 ---
 
@@ -24,4 +23,3 @@ Start with [principles](PRINCIPLES.md), understand [behaviors](BEHAVIORS.md), fo
 
 ---
 
-**Navigation:** [↑ System Home](INDEX.md)

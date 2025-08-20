@@ -68,4 +68,3 @@
 - Evidence-based validation throughout
 - Parallel coordination capabilities
 - Tool integration (TodoWrite, WebSearch, Context7)
-- Universal applicability across project types

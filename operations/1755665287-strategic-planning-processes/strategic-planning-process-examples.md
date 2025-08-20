@@ -166,4 +166,3 @@
 2. **Stakeholder-Centric**: Design processes around stakeholder needs and capabilities
 3. **Evidence-Driven**: Base all decisions on research, feedback, and measurable results
 4. **Iterative Refinement**: Continuous improvement based on usage and outcomes
-5. **Knowledge Capture**: Document learning for future project application

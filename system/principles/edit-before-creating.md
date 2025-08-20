@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Edit Before Creating
 
 **Context**: Fundamental principle defining framework behavior and decision-making
 
 
-**[System](../INDEX.md) › [Principles](../PRINCIPLES.md) › Edit Before Creating**
 
 Fix existing files first rather than creating new ones.
 
@@ -17,4 +18,3 @@ Fix existing files first rather than creating new ones.
 - Maintain existing structure and patterns
 
 ---
-**Navigation:** [← Back to Principles](../PRINCIPLES.md) | [↑ System Home](../INDEX.md)

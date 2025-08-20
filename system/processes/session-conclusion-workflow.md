@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📂 Processes](../PROCESSES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Session Conclusion Workflow
 
@@ -210,4 +212,3 @@ Integration: Updated PROCESSES.md security section and cross-referenced with sta
 
 ---
 
-**Navigation:** [↑ Processes Home](../PROCESSES.md) | [🏠 System Hub](../INDEX.md)

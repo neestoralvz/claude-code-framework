@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Deliver Results
 
 **Context**: Behavioral pattern specifying interaction and response guidelines
 
 
-**[System](../INDEX.md) › [Behaviors](../BEHAVIORS.md) › Deliver Results**
 
 Without unnecessary explanation or preamble.
 
@@ -17,4 +18,3 @@ Without unnecessary explanation or preamble.
 - Let the results speak
 
 ---
-**Navigation:** [← Back to Behaviors](../BEHAVIORS.md) | [↑ System Home](../INDEX.md)

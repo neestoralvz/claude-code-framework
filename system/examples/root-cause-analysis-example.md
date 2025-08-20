@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Examples](../EXAMPLES.md) | [📖 Current Example](#)
 
 ---
+
+**IF reading individually** → READ [EXAMPLES.md](../EXAMPLES.md#implementation-examples) for context, THEN navigate to this specific example
+
 
 # Root Cause Analysis Example
 
@@ -271,4 +273,3 @@ This example demonstrates how root cause analysis scales from simple issues requ
 
 ---
 
-**Navigation:** [↑ Examples](../EXAMPLES.md) | [🏠 System Hub](../INDEX.md)

@@ -1,4 +1,3 @@
-[🏠 System Hub](INDEX.md) | [📁 Framework](./) | [📖 Navigation](#)
 
 ---
 
@@ -46,4 +45,3 @@ system/
 
 ---
 
-**Navigation:** [🏠 System Hub](INDEX.md)

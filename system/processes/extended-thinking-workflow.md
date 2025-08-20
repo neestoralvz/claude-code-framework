@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Extended Thinking Workflow
 
@@ -34,4 +36,3 @@ Implement one step at a time, validating results before moving to the next step.
 After completing the work, document what you learned, what worked well, and what you would do differently next time. This builds knowledge for future complex problems.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

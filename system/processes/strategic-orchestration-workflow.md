@@ -1,8 +1,9 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Section](#)
----
 # Strategic Orchestration Workflow
 **Context**: Agent coordination and strategic decision-making process for complex multi-agent operations
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 ## When To Use
 - Agent coordination needed
@@ -68,4 +69,3 @@ When created agents aren't available in current conversation context, provide co
 When using this workflow, READ these files as needed:
 - **Agent Creation**: READ operations/20250819-192114-agent-template-creation/ for templates and deployment guidelines
 - **Agent Registry**: READ agents/registry/ for available specialized agents
-- **Operations History**: READ operations/ for strategic patterns and lessons learned

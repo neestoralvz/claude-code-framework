@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # File Organization Standards
 
 **Context**: Quality standard ensuring consistency and compliance requirements
 
 
-**[System](../INDEX.md) › [Standards](../STANDARDS.md) › File Organization Standards**
 
 Complete structural organization standards for the .claude directory framework.
 
@@ -280,4 +281,3 @@ echo "Orphaned files: $(./scripts/validation/organization-audit.sh | grep "Orpha
 - Provide clear migration paths for existing content
 
 ---
-**Navigation:** [← Back to Standards](../STANDARDS.md) | [↑ System Home](../INDEX.md)

@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF using this template** → READ [INDEX.md](../INDEX.md#system-structure) for framework context, THEN apply this template
+
 
 # [Behavior Name]
 
 **Context**: Template component for consistent framework documentation structure
 
 
-**[System](../INDEX.md) › [Behaviors](../BEHAVIORS.md) › [Behavior Name]**
 
 [One sentence description of how this behavior manifests]
 
@@ -17,4 +18,3 @@
 - [Keep focused on observable actions]
 
 ---
-**Navigation:** [← Back to Behaviors](../BEHAVIORS.md) | [↑ System Home](../INDEX.md)

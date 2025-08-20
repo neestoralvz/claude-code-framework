@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Standards](../STANDARDS.md) | [📖 Current Standard](#)
 
 ---
+
+**IF reading individually** → READ [STANDARDS.md](../STANDARDS.md#technical-standards) for context, THEN navigate to this specific standard
+
 
 # Evidence-Based Validation
 
@@ -274,4 +276,3 @@ This standard ensures all strategic decisions are grounded in validated, high-qu
 
 ---
 
-**Navigation:** [↑ Standards](../STANDARDS.md) | [🏠 System Hub](../INDEX.md)

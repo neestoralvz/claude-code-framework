@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Conditional Navigation Methodology
 
@@ -55,9 +57,12 @@ Create navigational logic that:
 - Avoids auto-loading everything
 
 ### 4. **Just-in-Time Loading**
-Replace static preferences with dynamic guidance:
+Replace static preferences with precision-targeted guidance:
 - **Before**: All agent creation details in CLAUDE.md
-- **After**: "For agent work, READ operations/agent-template-creation/"
+- **After**: "For agent work, READ system/processes/agent-creation-workflow.md#agent-creation-process"
+- **Section Targeting**: Use #section links for precise context loading
+- **Directory Loading**: Use @directory/ syntax only when comprehensive context needed
+- **Precision Strategy**: Target exact information needed rather than loading entire files
 
 ### 5. **Performance Optimization**
 Monitor and adjust:
@@ -71,26 +76,42 @@ Monitor and adjust:
 ### Framework Maintenance
 ```
 IF maintaining .claude framework
-  → READ system/PRINCIPLES.md for core philosophy
-  → IF structure changes needed: READ system/STANDARDS.md
-  → IF process updates needed: READ system/PROCESSES.md
-  → IF validation needed: READ operations/claude-md-evaluation/
+  → READ system/PRINCIPLES.md#work-approach for core philosophy
+  → IF structure changes: READ system/STANDARDS.md#file-and-organization-standards
+  → IF evaluation needed: READ system/processes/framework-evaluation-workflow.md#evaluation-schedule
 ```
 
 ### Development Work
 ```
 IF implementing new features
-  → READ system/STANDARDS.md for coding conventions
-  → IF testing required: READ processes/test-driven-development-workflow.md
-  → IF complex analysis: READ processes/progressive-thinking.md
+  → READ system/STANDARDS.md#technical-standards for coding conventions
+  → IF testing required: READ system/processes/test-driven-development-workflow.md#tdd-implementation
+  → IF complex analysis: READ system/processes/progressive-thinking.md#breakdown-methodology
 ```
 
 ### Agent Coordination
 ```
 IF deploying agents
-  → READ operations/agent-template-creation/ for templates
-  → IF specialized agents: READ agents/ subdirectories by category
-  → IF parallel coordination: READ processes/parallel-agent-coordination-workflow.md
+  → READ system/processes/strategic-orchestration-workflow.md#strategic-orchestrator-role
+  → IF creating agents: READ system/processes/agent-creation-workflow.md#agent-creation-process
+  → IF parallel coordination: READ system/processes/parallel-agent-coordination-workflow.md#coordination-protocol
+```
+
+### Historical Context & Insights
+```
+IF need strategic patterns
+  → READ operations/[specific-analysis]/#key-findings
+  → IF evaluation metrics: READ operations/claude-md-evaluation/#success-metrics
+  → IF session patterns: READ operations/[timestamp-folder]/#strategic-insights
+```
+
+### Section-Specific Loading Strategy
+```
+system/PRINCIPLES.md#work-approach        → Core working principles
+system/STANDARDS.md#technical-standards   → Code quality requirements  
+system/PROCESSES.md#thinking-processes    → Analysis methodologies
+system/EXAMPLES.md#[category]             → Specific implementation patterns
+operations/[folder]/#[insight-section]    → Targeted historical context
 ```
 
 ## Implementation Guidelines
@@ -112,16 +133,20 @@ IF deploying agents
 
 ### Conditional Instruction Format
 - **Clear triggers**: "IF conversation involves X"
-- **Specific actions**: "READ exact-file-path.md"
-- **Logical chaining**: Guide through related contexts
-- **Purpose clarity**: Explain why each context matters
+- **Precision targeting**: "READ exact-file-path.md#specific-section" for surgical context loading
+- **Fallback options**: Use full file or @directory/ only when section targeting insufficient
+- **Section hierarchy**: Target most specific section first, broader context as needed
+- **Logical chaining**: Guide through related contexts progressively
+- **Purpose clarity**: Explain why each section matters for the specific scenario
 
 ## Benefits
 
 ### Performance
-- **Reduced context bloat**: Only load what's needed
+- **Surgical precision**: Section-specific loading eliminates irrelevant context
+- **Minimal overhead**: Load only the exact information needed for the scenario
 - **Faster conversation starts**: Lean CLAUDE.md loads quickly
-- **Targeted expertise**: Access deep knowledge when relevant
+- **Targeted expertise**: Access precise knowledge sections when relevant
+- **Reduced parsing**: Less content to process and understand
 
 ### Maintainability  
 - **Modular organization**: Specialized knowledge in dedicated files
@@ -148,4 +173,3 @@ IF deploying agents
 
 ---
 
-**Navigation:** [↑ Processes](../PROCESSES.md) | [🏠 System Home](../INDEX.md)

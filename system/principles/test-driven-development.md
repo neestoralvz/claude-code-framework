@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Test Driven Development
 
@@ -30,4 +32,3 @@ Better code design because you think about interfaces first. Fewer bugs because 
 Use descriptive test names that explain the expected behavior. Keep tests simple and focused on one behavior. Use fixtures for test setup and teardown. Group related tests in classes with descriptive names.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

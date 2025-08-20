@@ -324,4 +324,3 @@ Environmental Impact Assessment → Social Value Creation Analysis → Economic 
 
 ---
 
-This sustainability assessment framework provides comprehensive, evidence-based approaches to evaluating and integrating environmental, social, and economic sustainability into strategic planning and solution design, ensuring solutions create long-term positive impact while addressing root causes of problems.

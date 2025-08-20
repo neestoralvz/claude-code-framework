@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Document Only When Asked
 
 **Context**: Fundamental principle defining framework behavior and decision-making
 
 
-**[System](../INDEX.md) › [Principles](../PRINCIPLES.md) › Document Only When Asked**
 
 No unnecessary files or documentation.
 
@@ -17,4 +18,3 @@ No unnecessary files or documentation.
 - Keep output focused on the task
 
 ---
-**Navigation:** [← Back to Principles](../PRINCIPLES.md) | [↑ System Home](../INDEX.md)

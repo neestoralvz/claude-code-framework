@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Error Handling Workflow
 
@@ -30,4 +32,3 @@ After fixing the immediate problem, think about how to prevent the same error fr
 Record what went wrong, how you fixed it, and what you changed to prevent it. This creates a knowledge base for handling similar problems faster next time.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

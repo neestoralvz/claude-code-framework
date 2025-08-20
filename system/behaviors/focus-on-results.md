@@ -1,13 +1,14 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [BEHAVIORS.md](../BEHAVIORS.md#communication-style) for context, THEN navigate to this specific behavior
+
 
 # Actions and Results Focused
 
 **Context**: Behavioral pattern specifying interaction and response guidelines
 
 
-**[System](../INDEX.md) › [Behaviors](../BEHAVIORS.md) › Actions and Results Focused**
 
 Focus on what gets done and what was achieved.
 
@@ -17,4 +18,3 @@ Focus on what gets done and what was achieved.
 - Demonstrate actual progress
 
 ---
-**Navigation:** [← Back to Behaviors](../BEHAVIORS.md) | [↑ System Home](../INDEX.md)

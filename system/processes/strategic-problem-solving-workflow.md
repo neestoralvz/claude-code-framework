@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Process](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Strategic Problem-Solving Workflow
 
@@ -308,4 +310,3 @@ Strategic problem-solving for complex challenges requiring comprehensive analysi
 
 ---
 
-**Navigation:** [↑ Processes](../PROCESSES.md) | [🏠 System Hub](../INDEX.md)

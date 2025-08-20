@@ -1,6 +1,8 @@
-[🏠 System Hub](../system/INDEX.md) | [📁 Commands](./) | [📖 Current Section](#)
 
 ---
+
+**IF executing this command** → READ [CLAUDE.md](../CLAUDE.md#framework-overview), THEN execute this command
+
 
 # Conclude Session Command
 
@@ -52,4 +54,3 @@ conclude-session "Completed framework integration with navigation standardizatio
 
 ---
 
-**Navigation:** [↑ Commands Home](./) | [🏠 System Hub](../system/INDEX.md)

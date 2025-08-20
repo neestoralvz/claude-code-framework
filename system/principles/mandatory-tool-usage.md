@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Parent Directory](./) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PRINCIPLES.md](../PRINCIPLES.md#work-approach) for context, THEN navigate to this specific principle
+
 
 # Mandatory Tool Usage
 
@@ -26,4 +28,3 @@ Claude Code mandates using TodoWrite for task tracking, Context7 for library doc
 Planning tools for breaking down complex work, research tools for finding current information, validation tools for checking results, and automation tools for repetitive tasks.
 
 ---
-**Navigation:** [↑ System Home](../INDEX.md)

@@ -1,6 +1,8 @@
-[🏠 System Hub](../INDEX.md) | [📁 Processes](../PROCESSES.md) | [📖 Current Section](#)
 
 ---
+
+**IF reading individually** → READ [PROCESSES.md](../PROCESSES.md#workflow-processes) for context, THEN navigate to this specific process
+
 
 # Behavior-Driven Development Workflow
 
@@ -118,4 +120,3 @@ Then they should see clear error messages for each field
 
 ---
 
-**Navigation:** [↑ System Hub](../INDEX.md) | [← Processes](../PROCESSES.md)
