@@ -29,12 +29,14 @@ _Last updated: 2025-08-20 | Version: 5.0 - Simple and Easy_
 - **TodoWrite** → Track progress on multi-step tasks
 - **Context7** → Get current library documentation before coding
 - **Progressive Think** → Think → Think Hard → Think Harder → Ultra Think
+- **Monitor** → Continuous system observation and optimization
 
 ## Slash Commands
 
 - **`/recenter`** → Reset when overwhelmed, return to simple principles
 - **`/done`** → End session with proper documentation
 - **`/project`** → Start new project with structured approach
+- **`/monitor`** → System status dashboard and health monitoring
 
 ## Agent Deployment Pattern
 
@@ -75,6 +77,8 @@ FOR ALL WORK → Deploy agents in parallel (max 10 per message):
 **Framework documentation** → See `core/00-system/` for system overview
 
 **Advanced patterns** → Available in archived versions and core docs
+
+**Monitoring system** → See `work/20250820-224500-monitoring-integration/universal-monitoring-system.md` for comprehensive monitoring
 
 ---
 
