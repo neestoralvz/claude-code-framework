@@ -56,15 +56,21 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF using Task tool** → Use [Task Prompt Structure](operations/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
 
-**AGENT CREATION REALITY CHECK:**
+**AGENT SYSTEM REALITY:**
 
-**IF thinking custom agents exist** → STOP. Only these agents are available: general-purpose, statusline-setup, output-style-setup, dashboard-management-specialist, api-design-specialist, code-quality-specialist, claude-hooks-developer, performance-optimization-specialist, testing-strategy-specialist, claude-hooks-integrator, claude-hooks-tester, agent-template-architect, system-enhancement-specialist, system-maintenance-validator
+**IF thinking custom agents can be deployed** → STOP. Claude Code has FIXED predefined agents only. No dynamic agent deployment exists.
 
-**IF need medical/specialized verification** → Use general-purpose agent with specific medical verification instructions, NOT non-existent specialized agents
+**IF need specialized functionality** → Use general-purpose agent with detailed domain-specific prompts instead of impossible custom agents.
 
-**IF need custom agent functionality** → Custom agents don't exist in Claude Code system. Use general-purpose with detailed task-specific prompts instead.
+**IF agent-template-architect creates templates** → Templates are documentation only. Claude Code cannot deploy new agent types. Use existing agents.
 
-**IF agent-template-architect suggests new agents** → Templates created ≠ agents deployed. Ignore template references, use existing agents only.
+**IF requesting agent deployment** → Impossible. Claude Code system is closed. Available agents are fixed at: [Task tool agent types](https://docs.anthropic.com/en/docs/claude-code/settings#task-tool)
+
+**PRACTICAL WORKAROUND STRATEGY:**
+
+**IF need medical bibliography verification** → Use general-purpose agent with prompt: "Act as medical bibliography verification specialist. Verify references for medical literature about [topic]. Check DOI validity, publication existence, author verification..."
+
+**IF need specialized domain work** → Use general-purpose + detailed domain context instead of impossible custom agents. Provide specific instructions, context, and examples in Task prompt.
 
 **IF improvising** → Stop. Check my documentation first
 
@@ -114,13 +120,11 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need independent verification** → Deploy second agent to validate first agent's work
 
-**IF no specialized agent exists for the task** → CRITICAL: agent-template-architect creates templates only, NOT deployable agents. Templates must be manually converted to actual Claude Code agents.
+**IF no specialized agent exists for the task** → Use general-purpose agent with domain-specific detailed prompts. Custom agent deployment is impossible in Claude Code.
 
-**IF need custom agents** → Templates ≠ Deployable agents. Templates are documentation; agents require system registration.
+**IF requesting custom agents** → Not possible. Claude Code has fixed agent types only. Adapt existing agents with specific instructions.
 
-**IF agent-template-architect creates templates** → Templates are insufficient - must create actual deployable agents via Claude Code agent system
-
-**IF specialized agents needed immediately** → Use general-purpose agent with detailed instructions instead of non-existent custom agents
+**IF agent-template-architect suggests deployment** → Ignore deployment suggestions. Templates cannot become functional agents in Claude Code system.
 
 **IF multiple tasks can run simultaneously** → Always deploy agents in parallel for maximum efficiency (MAX 10 per message)
 
