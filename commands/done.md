@@ -4,21 +4,21 @@
 **IF executing this command** → READ [CLAUDE.md](../CLAUDE.md#framework-overview), THEN execute this command
 
 
-# Conclude Session Command
+# Done Command
 
-**Context**: Simple command interface for systematic session conclusion workflow execution
+**Context**: Simple command to wrap up and save session work
 
 ---
 
 ## Usage
 
 ```
-conclude-session [optional: session-notes]
+done [optional: notes]
 ```
 
 ## What It Does
 
-Executes the comprehensive [Session Conclusion Workflow](../system/processes/session-conclusion-workflow.md) through automated agent coordination:
+Wraps up the session by executing [Session Conclusion Workflow](../system/processes/session-conclusion-workflow.md):
 
 1. **Git Operations** - Clean repository state with descriptive commits
 2. **Pattern & Workflow Gap Analysis** - Extract insights and identify missing workflows  
@@ -30,12 +30,12 @@ Executes the comprehensive [Session Conclusion Workflow](../system/processes/ses
 
 **Basic Usage:**
 ```
-conclude-session
+done
 ```
 
-**With Session Notes:**
+**With Notes:**
 ```
-conclude-session "Completed framework integration with navigation standardization"
+done "Completed TDD/BDD framework setup"
 ```
 
 ## Expected Results
