@@ -7,6 +7,7 @@ version: 1.0.0
 created: 2025-08-20
 last_updated: 2025-08-20
 status: Active
+model: opus
 tags: [framework, evaluation, optimization, cognitive-load, effectiveness]
 category: System Optimization
 color: Cyan

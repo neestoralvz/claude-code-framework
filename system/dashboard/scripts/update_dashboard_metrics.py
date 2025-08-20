@@ -10,7 +10,7 @@ import json
 import os
 from pathlib import Path
 from datetime import datetime
-from typing import Dict, Any, Optional
+from typing import Dict, Any, Optional, List
 
 class DashboardMetricsUpdater:
     def __init__(self, framework_root: str = "/Users/nalve/.claude"):

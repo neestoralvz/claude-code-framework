@@ -94,6 +94,15 @@ ENTREGABLES:
 [Expected files and locations]
 [Documentation requirements]
 [Validation criteria]
+
+REPORTE FINAL REQUERIDO:
+Al completar, generar reporte estructurado con:
+- ✅ Entregables completados (ubicación específica)
+- 🤖 Agentes utilizados (cuáles y para qué)
+- 🔍 Validaciones ejecutadas (evidencia)
+- 📝 Patrones descubiertos
+- 🔗 Puntos de integración listos
+- ⚠️ Dependencias o limitaciones identificadas
 [Evidence of agent deployment and utilization]
 ```
 

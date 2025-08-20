@@ -23,6 +23,12 @@
       "description": "Automatic framework maintenance after tool execution",
       "timeout": 10,
       "enabled": true
+    },
+    "user_prompt_agent_enforcer": {
+      "script": "./user_prompt_agent_enforcer.py",
+      "description": "Enforces mandatory agent usage for implementation tasks",
+      "timeout": 5,
+      "enabled": true
     }
   },
   "framework": {

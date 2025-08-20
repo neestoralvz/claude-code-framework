@@ -1,0 +1,36 @@
+{
+  "name": "sum-function-tdd-demo",
+  "version": "1.0.0",
+  "description": "TDD demonstration with comprehensive sum function testing",
+  "main": "sum.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "verbose": true,
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coverageReporters": ["text", "lcov", "html"],
+    "collectCoverageFrom": [
+      "*.js",
+      "!*.test.js",
+      "!jest.config.js",
+      "!coverage/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
+}

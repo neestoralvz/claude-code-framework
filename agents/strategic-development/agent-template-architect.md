@@ -2,7 +2,7 @@
 name: agent-template-architect
 description: Use this agent when you need to create standardized agent templates, analyze existing agent structures for pattern extraction, design reusable agent creation frameworks, or establish systematic agent deployment processes. Examples: <example>Context: User wants to create a consistent framework for deploying new agents across their system. user: 'I need to standardize how we create agents so they all follow the same patterns and integrate properly with our workflow' assistant: 'I'll use the agent-template-architect to analyze our existing agents and create a standardized template framework' <commentary>The user needs systematic agent creation patterns, which is exactly what this agent specializes in.</commentary></example> <example>Context: User has multiple agents but wants to ensure they all follow evidence-based design patterns. user: 'Our agents work but they're inconsistent - some follow different patterns and it's getting hard to manage' assistant: 'Let me engage the agent-template-architect to extract the best patterns from our existing agents and create a unified template structure' <commentary>This requires analyzing existing structures and creating standardized patterns, which is this agent's core expertise.</commentary></example>
 tools: Bash, Glob, Grep, LS, Read, Edit, MultiEdit, Write, NotebookEdit, WebFetch, TodoWrite, WebSearch, BashOutput, KillBash
-model: sonnet
+model: opus
 color: pink
 ---
 
