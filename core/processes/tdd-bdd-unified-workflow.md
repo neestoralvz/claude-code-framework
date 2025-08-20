@@ -9,11 +9,18 @@
 
 ---
 
-This workflow ensures every action is behavior-driven, test-validated, and demonstrably correct through systematic TDD/BDD integration.
+This workflow ensures every action is behavior-driven, test-validated, and demonstrably correct through systematic TDD/BDD integration using specialized agent deployment.
+
+**MANDATORY AGENT DEPLOYMENT**: All TDD/BDD activities must be performed by deploying specialized agents. Direct implementation is strictly prohibited.
 
 ## Phase 1: Behavior Discovery (BDD)
 
 ### Understand the Requirement
+
+**Deploy business-analysis-specialist** to understand and document requirements in BDD format.
+
+**Agent Instructions**: "Analyze requirements for [feature/behavior] and create Given-When-Then scenarios that are specific, measurable, and testable."
+
 ```gherkin
 Given [current system state]
 When [user performs action] 
@@ -21,21 +28,28 @@ Then [expected system behavior]
 And [success criteria are met]
 ```
 
-**Action**: Write behavior scenario before any implementation
-**Validation**: Scenario must be specific, measurable, and testable
+**Validation**: Deploy validation-specialist to verify scenarios are specific, measurable, and testable
 
 ### Define Success Criteria
-- **Business Value**: What problem does this solve?
-- **User Outcome**: What can the user accomplish?
-- **System Behavior**: How should the system respond?
-- **Acceptance Criteria**: When is it considered complete?
+
+**Deploy requirements-analysis-specialist** to define comprehensive success criteria.
+
+**Agent Instructions**: "Define success criteria for [feature] including:
+- Business Value: What problem does this solve?
+- User Outcome: What can the user accomplish?
+- System Behavior: How should the system respond?
+- Acceptance Criteria: When is it considered complete?"
 
 ## Phase 2: Test Design (TDD Setup)
 
 ### Red Phase: Write Failing Tests
-1. **Acceptance Test**: High-level test validating the BDD scenario
-2. **Unit Tests**: Granular tests for each component needed
-3. **Integration Tests**: Tests for component interactions
+
+**Deploy testing-strategy-specialist** to create comprehensive test suite.
+
+**Agent Instructions**: "Create failing tests for [feature] including:
+1. Acceptance Test: High-level test validating the BDD scenario
+2. Unit Tests: Granular tests for each component needed
+3. Integration Tests: Tests for component interactions"
 
 ```javascript
 // Example structure:
@@ -48,16 +62,17 @@ describe('User Authentication Behavior', () => {
 });
 ```
 
-**Validation**: All tests must fail initially (Red phase confirmed)
+**Validation**: Deploy validation-specialist to confirm all tests fail initially (Red phase confirmed)
 
 ## Phase 3: Minimal Implementation (Green Phase)
 
 ### Implement Just Enough Code
-- Write minimal code to make tests pass
-- Focus on behavior, not perfect design
-- Avoid over-engineering or premature optimization
 
-**Validation**: All tests must pass (Green phase confirmed)
+**Deploy implementation-specialist** to write minimal code that makes tests pass.
+
+**Agent Instructions**: "Implement minimal code for [feature] to make all tests pass. Focus on behavior, not perfect design. Avoid over-engineering or premature optimization."
+
+**Validation**: Deploy validation-specialist to confirm all tests pass (Green phase confirmed)
 
 ## Phase 4: Quality Improvement (Refactor Phase)
 

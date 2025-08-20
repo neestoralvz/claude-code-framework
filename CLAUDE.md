@@ -288,6 +288,8 @@ System prompt with agent specialization
 
 **FOR ALL PATTERN EXECUTION** → Re-RECENTER to ensure all patterns are active
 
+**FOR ALL SESSION MANAGEMENT** → Use [Command Specialization Matrix](work/20250820-command-matrix/command-specialization-matrix.md) for optimal command sequencing and workflow orchestration
+
 ## Parallel Coordination Commands
 
 **IF complex multi-domain project** → Use `PARALLEL` command to initiate parallel conversation coordination
@@ -303,12 +305,26 @@ System prompt with agent specialization
 
 **COMMAND CONVENTION**: All commands referenced in CLAUDE.md are slash commands located in `/commands/` folder
 
+**FOR ALL COMMAND SELECTION** → Use [Command Specialization Matrix](work/20250820-command-matrix/command-specialization-matrix.md) for optimal workflow orchestration
+
 **`/project [project-name]`** → Launch interactive project documentation workflow:
 - Guides through comprehensive information gathering
 - Captures objectives, challenges, success criteria, and metrics
 - Generates complete project documentation using template
 - Sets up tracking and creates TodoWrite tasks
 - See [/project command documentation](commands/project.md)
+
+**`/recenter [optional: issue-description]`** → Emergency complexity reset and framework realignment:
+- Returns Claude to Simple Framework principles when overwhelmed
+- Restores user-focused approach over process complexity
+- Simplifies solutions and clarifies communication
+- See [/recenter command documentation](commands/recenter.md)
+
+**`/done [optional: notes]`** → Session conclusion and knowledge capture:
+- Executes comprehensive session conclusion workflow
+- Commits work and documents patterns
+- Optimizes agent ecosystem and prepares transitions
+- See [/done command documentation](commands/done.md)
 
 **IF using TodoWrite first time** → Add these foundation tasks:
 
@@ -383,3 +399,21 @@ System prompt with agent specialization
 **CORE PRINCIPLE:** Agent orchestration with progressive thinking for ALL actions - no exceptions.
 
 **Execute simply. Deliver easily. Always through agents.**
+
+---
+
+## CRITICAL LEARNING: Framework Violation Example
+
+**VIOLATION CASE STUDY (2025-08-20)**: Metrics service crash caused by framework violations:
+
+1. **What happened**: Application crash due to missing `metrics-api-service.py` file
+2. **Root cause**: Direct code creation WITHOUT Context7 research or specialized agent deployment
+3. **Framework violations**:
+   - Bypassed mandatory Context7 usage for code creation
+   - Failed to deploy claude-hooks-developer agent
+   - Improvised solution instead of following methodology
+4. **Consequences**: System instability, error log spam, service failures
+5. **Correct approach**: Context7 → Agent deployment → Proper implementation
+6. **Learning**: ALL code creation MUST follow: Context7 research → Specialized agent → Validation
+
+**NEVER REPEAT**: This violation demonstrates why framework requirements exist - they prevent system failures.

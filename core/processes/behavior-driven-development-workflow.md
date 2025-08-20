@@ -10,17 +10,23 @@
 
 ---
 
-BDD ensures we build the right thing by starting with user behavior and business value, then connecting to technical implementation through TDD.
+BDD ensures we build the right thing by deploying specialized agents to analyze user behavior and business value, then connect to technical implementation through TDD agent deployment.
+
+**MANDATORY**: All BDD activities must be performed through specialized agent deployment. Never attempt direct implementation or analysis.
 
 ## Discover: Understand the Business Value
 
-Start with conversations about what users actually need to accomplish. Use the "Three Amigos" approach - product owner, developer, and tester perspectives. Ask: "What problem are we solving and why does it matter?"
+**Deploy business-analysis-specialist** to facilitate conversations about user needs. The agent will use the "Three Amigos" approach - product owner, developer, and tester perspectives.
+
+**Agent Instructions**: "Analyze the business requirements for [feature/story]. Identify the problem being solved, why it matters, and who benefits. Document user goals and business value."
 
 **Outcome**: Clear understanding of business value and user goals.
 
 ## Formulate: Write Behavior Scenarios
 
-Write scenarios in Given-When-Then format that describe user behavior:
+**Deploy scenario-writing-specialist** to create scenarios in Given-When-Then format that describe user behavior.
+
+**Agent Instructions**: "Write BDD scenarios for [feature/behavior] using Given-When-Then format. Include happy path, edge cases, and error scenarios. Make them concrete and testable."
 
 ```gherkin
 Given [initial context]
@@ -39,11 +45,13 @@ Then the cart should show 1 item and the total price
 
 ## Automate: Connect to TDD Cycle
 
-Transform scenarios into executable tests that drive your TDD workflow:
+**Deploy test-automation-specialist** to transform scenarios into executable tests. The agent will coordinate with testing-strategy-specialist for TDD implementation.
 
-1. **Red**: Write failing acceptance test based on scenario
-2. **Red-Green-Refactor**: Use TDD to implement the behavior
-3. **Green**: Scenario test passes, behavior is complete
+**Agent Instructions**: "Convert BDD scenario [scenario name] into executable tests. Coordinate the TDD cycle:"
+
+1. **Red**: Deploy testing-strategy-specialist to write failing acceptance test
+2. **Red-Green-Refactor**: Deploy implementation-specialist for TDD implementation
+3. **Green**: Deploy validation-specialist to verify scenario passes
 
 **Outcome**: Working software that matches specified behavior.
 
