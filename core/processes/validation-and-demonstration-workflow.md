@@ -9,7 +9,9 @@
 
 ---
 
-This workflow defines the mandatory validation and demonstration process that must be followed for every action, ensuring all work is verifiably correct.
+This workflow defines the mandatory validation and demonstration process that must be followed for every action through specialized agent deployment, ensuring all work is verifiably correct.
+
+**MANDATORY AGENT DEPLOYMENT**: All validation and demonstration activities must be performed by specialized agents. Direct validation is prohibited.
 
 ## Core Validation Principles
 
@@ -23,41 +25,43 @@ This workflow defines the mandatory validation and demonstration process that mu
 
 ### 1. Pre-Action Validation (Setup)
 
-**Before starting any work:**
+**Deploy validation-specialist** to prepare validation environment before starting work:
+
+**Agent Instructions**: "Prepare validation environment for [action] including:
+- Verify test environment is functional
+- Run all existing tests to establish baseline
+- Document clear success criteria
+- Prepare validation checklist and tools"
 
 ```gherkin
-Given I am about to begin work on [action]
-When I prepare my validation environment
-Then I should have:
+Given validation-specialist is preparing for [action]
+When the agent sets up validation environment
+Then the agent should verify:
 - Working test environment
 - Baseline measurements
 - Clear success criteria
 - Validation checklist prepared
 ```
 
-**Required Setup:**
-- [ ] Test environment is functional
-- [ ] All existing tests pass (baseline)
-- [ ] Success criteria are documented
-- [ ] Validation tools are available
-
 ### 2. Development Validation (During Work)
 
-**Throughout the development process:**
+**Deploy continuous-validation-specialist** throughout the development process:
+
+**Agent Instructions**: "Continuously validate [action] implementation by:
+- Running tests after each significant change
+- Validating behavior matches expectations
+- Checking for regressions
+- Ensuring code quality is maintained"
 
 ```gherkin
-Given I am working on implementing [action]
-When I complete each development phase
-Then I must validate:
+Given continuous-validation-specialist is monitoring [action]
+When each development phase completes
+Then the agent must validate:
 - Tests still pass
 - New functionality works
 - No regressions introduced
 - Code quality maintained
 ```
-
-**Continuous Validation:**
-- [ ] Run tests after each significant change
-- [ ] Validate behavior matches expectations
 - [ ] Check for unintended side effects
 - [ ] Maintain code quality standards
 
