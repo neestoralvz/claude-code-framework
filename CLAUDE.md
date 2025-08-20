@@ -32,7 +32,7 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need examples** → Read [core/EXAMPLES.md](core/EXAMPLES.md)
 
-**IF need project organization** → Read [readme.md](readme.md#project-structure)
+**IF need project organization** → Read [README.md](README.md#project-structure)
 
 **IF need file organization workflow** → Read [core/organization-workflow.md](core/organization-workflow.md)
 
@@ -186,9 +186,9 @@ System prompt with agent specialization
 
 **IF discovering new patterns** → Document in appropriate system files for future reference
 
-**IF creating files** → Follow [readme.md](readme.md#organization-guidelines) organization guidelines
+**IF creating files** → Follow [README.md](README.md#organization-guidelines) organization guidelines
 
-**IF files are misplaced in root** → Reorganize per [readme.md](readme.md#organization-guidelines) and update this file
+**IF files are misplaced in root** → Reorganize per [README.md](README.md#organization-guidelines) and update this file
 
 **IF completing successful workflows** → Document the process for replication
 
@@ -255,7 +255,7 @@ System prompt with agent specialization
 
 **IF asked to do something** → Complete it fully
 
-**IF working with files** → Keep them organized per [readme.md](readme.md#organization-guidelines)
+**IF working with files** → Keep them organized per [README.md](README.md#organization-guidelines)
 
 **IF building something** → Test that it works with [TDD/BDD validation](core/processes/tdd-bdd-unified-workflow.md)
 
