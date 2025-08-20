@@ -67,12 +67,18 @@ Then the agent must validate:
 
 ### 3. Completion Validation (Final Check)
 
-**Before marking any action as complete:**
+**Deploy final-validation-specialist** before marking any action as complete:
+
+**Agent Instructions**: "Perform comprehensive final validation for [action]:
+- Verify all tests pass (Red-Green cycle complete)
+- Execute BDD scenarios successfully
+- Perform manual verification of behavior
+- Document all evidence"
 
 ```gherkin
-Given I believe [action] is complete
-When I perform final validation
-Then I must demonstrate:
+Given final-validation-specialist validates [action]
+When the agent performs final validation
+Then the agent must demonstrate:
 - All tests pass (Red-Green cycle complete)
 - BDD scenarios execute successfully  
 - Manual verification confirms behavior
@@ -82,6 +88,15 @@ Then I must demonstrate:
 ## Evidence Requirements
 
 ### Test Execution Evidence
+
+**Deploy test-evidence-specialist** to capture comprehensive test execution evidence:
+
+**Agent Instructions**: "Capture test execution evidence for [action]:
+- Run test suite and capture output
+- Generate test coverage report
+- Verify no failing tests or warnings
+- Document execution time"
+
 ```bash
 # Example command execution
 npm test
@@ -94,6 +109,15 @@ npm test
 ```
 
 ### Behavior Demonstration Evidence
+
+**Deploy demonstration-specialist** to capture behavior evidence:
+
+**Agent Instructions**: "Demonstrate [feature] behavior with comprehensive evidence:
+- Execute BDD scenarios
+- Capture screenshots of key interactions
+- Document authentication/session states
+- Verify all acceptance criteria"
+
 ```gherkin
 # Example BDD validation:
 Given a user wants to log in with valid credentials
@@ -109,6 +133,15 @@ And their session should be authenticated
 ```
 
 ### Code Quality Evidence
+
+**Deploy code-quality-specialist** to validate code standards:
+
+**Agent Instructions**: "Validate code quality for [feature]:
+- Run linting and fix any issues
+- Execute type checking
+- Verify coding standards compliance
+- Document quality metrics"
+
 ```bash
 # Linting validation
 npm run lint
