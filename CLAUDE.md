@@ -112,6 +112,10 @@ This prevents solution assumption errors and ensures we build what's actually ne
 - **Executive Summary Requirements**: Specify strategic impact focus, not tactical details
 - **Decision Point Clarity**: Define what strategic decisions may be required from agent work
 
+**Session Conclusion Protocol**: Use conclude-session command for systematic conversation closure - Automates 5-step workflow: Git Operations → Pattern Extraction → Knowledge Documentation → Agent Opportunity Analysis → Transition Preparation - Captures session learning and optimizes framework - Maintains strategic orchestrator role throughout automated workflow - Prepares comprehensive handoff materials for future conversations
+
+**Conversation Closure Automation**: Prefer automated conclude-session workflow over manual session management - Ensures consistent learning capture and framework optimization - Maintains cognitive load efficiency through systematic agent coordination - Provides evidence-based session value measurement and strategic enhancement
+
 **CLAUDE.md Evaluation Framework**: Comprehensive evaluation and maintenance system deployed in operations/20250820-claude-md-evaluation/ - Includes 9 evaluation question categories, 15 maintenance commands, automated success metrics, and 4-phase implementation strategy. Framework transforms CLAUDE.md from static preferences into self-optimizing system with evidence-based improvement capabilities. Use `claude-md-audit-effectiveness-full` monthly and `claude-md-report-status-dashboard` weekly for systematic optimization.
 
 **Systematic Framework Evaluation**: When developing frameworks or preference systems, always include systematic evaluation capabilities from the start - Define measurable success criteria, create maintenance commands, implement automated monitoring, and design evolution mechanisms. Prevents framework degradation and enables continuous improvement through evidence-based optimization rather than subjective assessment.

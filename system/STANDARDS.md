@@ -13,6 +13,7 @@ Consistent ways of doing things across our system.
 - **[Simple Naming](standards/simple-naming.md)** - Use straightforward, clear names
 - **[File Organization](standards/file-organization.md)** - Logical folder structures and placement
 - **[File Organization Standards](standards/file-organization-standards.md)** - Complete structural organization framework
+- **[Navigation Standardization](standards/navigation-standardization.md)** - Universal navigation patterns for all framework files
 - **[Link Files](standards/link-files.md)** - Link files with Markdown syntax
 
 ## Content and Communication Standards  
@@ -26,7 +27,7 @@ Consistent ways of doing things across our system.
 - **[Workflow Organization](standards/workflow-organization.md)** - Structure workflows for clarity and maintainability
 - **[Tool Integration Patterns](standards/tool-integration-patterns.md)** - Consistent approaches for integrating tools
 
-**Total: 11 Standards**
+**Total: 12 Standards**
 
 ---
 **Navigation:** [↑ System Home](INDEX.md)

@@ -40,7 +40,10 @@ Workflows and procedures for getting work done.
 ## Development Methodology Processes
 - **[Test Driven Development Workflow](processes/test-driven-development-workflow.md)** - Systematic TDD implementation
 
-**Total: 15 Processes**
+## Session Management Processes
+- **[Session Conclusion Workflow](processes/session-conclusion-workflow.md)** - Systematic conversation closure with automated agent coordination
+
+**Total: 16 Processes**
 
 ---
 
