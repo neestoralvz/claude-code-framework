@@ -1,6 +1,6 @@
 # Recenter Workflow
 
-_Last updated: 2025-08-20 | Version: 1.0_
+_Last updated: 2025-08-20 | Version: 2.0_
 
 ## Purpose
 
@@ -281,8 +281,17 @@ The Recenter Workflow ensures perpetual alertness to execution patterns, automat
 - Session begins
 - Complex request received
 - Multiple deliverables identified
+- Code/script creation needed
+- Library integration required
+- Claims or facts need verification
 - Specialized expertise needed
 - Parallel execution possible
+- Quality requirements specified
+- Security implications present
+- Performance concerns identified
+- File changes required
+- Standards compliance needed
+- Complex coordination required
 - New patterns emerge
 - Workflow inefficiencies detected
 
@@ -290,8 +299,17 @@ The Recenter Workflow ensures perpetual alertness to execution patterns, automat
 
 - TodoWrite activated for all multi-step tasks
 - Progressive Thinking used for complex problems
+- TDD/BDD workflows applied to code creation
+- Context7 used for library integrations
+- Evidence provided for all claims
 - Specialized agents deployed when appropriate
 - Parallel execution maximized
+- Quality gates established and passed
+- Security considerations documented
+- Performance impact assessed
+- Git workflows properly executed
+- Convention adherence verified
+- Appropriate personality adopted
 - New patterns documented
 - Workflows continuously optimized
 

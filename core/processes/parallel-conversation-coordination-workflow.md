@@ -105,13 +105,13 @@ assigned_agents: [list of required specialized agents]
 ```
 
 **Ticket File Location:**
-`operations/[timestamp]-parallel-[project]/tickets/[ticket-id].md`
+`work/[timestamp]-parallel-[project]/tickets/[ticket-id].md`
 
 ### 3. Ticket Distribution & Coordination
 **Primary conversation becomes ticket coordinator:**
 
 **Ticket Distribution:**
-- Create `operations/[timestamp]-parallel-[project]/` directory
+- Create `work/[timestamp]-parallel-[project]/` directory
 - Generate individual ticket files in `tickets/` subdirectory
 - Create `coordination-dashboard.md` for tracking progress
 - Provide ticket URLs/paths for parallel conversations
@@ -171,18 +171,18 @@ assigned_agents: [list of required specialized agents]
 ### Ticket-Based Coordinator Setup
 ```bash
 # Create project structure
-mkdir -p operations/[timestamp]-parallel-[project]/tickets/
-mkdir -p operations/[timestamp]-parallel-[project]/deliverables/
+mkdir -p work/[timestamp]-parallel-[project]/tickets/
+mkdir -p work/[timestamp]-parallel-[project]/deliverables/
 
 # Create coordination dashboard
-touch operations/[timestamp]-parallel-[project]/coordination-dashboard.md
+touch work/[timestamp]-parallel-[project]/coordination-dashboard.md
 
 # Generate tickets for each work stream
 # (Coordinator creates individual ticket files)
 
 # Monitor project progress
-ls operations/[timestamp]-parallel-[project]/tickets/     # Track ticket files
-ls operations/[timestamp]-parallel-[project]/deliverables/  # Monitor outputs
+ls work/[timestamp]-parallel-[project]/tickets/     # Track ticket files
+ls work/[timestamp]-parallel-[project]/deliverables/  # Monitor outputs
 ```
 
 ### Ticket Assignment Instructions
@@ -194,7 +194,7 @@ ls operations/[timestamp]-parallel-[project]/deliverables/  # Monitor outputs
 You are assigned to complete the following ticket from our parallel coordination project:
 
 ## Ticket Details
-📋 **Ticket File**: `operations/[timestamp]-parallel-[project]/tickets/[ticket-id].md`
+📋 **Ticket File**: `work/[timestamp]-parallel-[project]/tickets/[ticket-id].md`
 🎯 **Your Assignment**: Read the complete ticket and execute all requirements
 
 ## Framework Requirements

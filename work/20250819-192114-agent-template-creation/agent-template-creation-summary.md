@@ -164,7 +164,7 @@ The template framework eliminates guesswork in agent creation while maintaining 
 
 ## File Locations
 
-All deliverables located in: `/Users/nalve/.claude/operations/20250819-192114-agent-template-creation/`
+All deliverables located in: `/Users/nalve/.claude/work/20250819-192114-agent-template-creation/`
 
 - `template-structure-analysis.md` - Analysis of existing patterns
 - `agent-creation-template.md` - Reusable template for new agents  

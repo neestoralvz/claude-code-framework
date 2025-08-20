@@ -45,7 +45,7 @@ This analysis identifies successful parallel agent coordination patterns discove
 **Context**: Multi-agent collaboration requiring coordination
 **Implementation**:
 ```
-/operations/YYYYMMDD-HHMMSS-[mission-name]/
+/work/YYYYMMDD-HHMMSS-[mission-name]/
 ├── coordination/           # Orchestrator management
 ├── agent-outputs/         # Individual agent deliverables
 ├── integration/           # Synthesis and final outputs

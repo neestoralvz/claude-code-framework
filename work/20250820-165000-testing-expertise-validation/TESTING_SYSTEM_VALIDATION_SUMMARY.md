@@ -37,7 +37,7 @@ The Claude Code system has **successfully demonstrated comprehensive testing exp
 
 ### Comprehensive Testing Architecture Created
 ```
-/operations/20250820-165000-testing-expertise-validation/
+/work/20250820-165000-testing-expertise-validation/
 ├── testing-expertise-validation.md          # Complete validation report
 ├── test-strategy-demonstration.js           # Service implementation
 ├── test-strategy-demonstration.test.js      # TDD/BDD test suite

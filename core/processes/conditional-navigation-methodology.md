@@ -41,11 +41,11 @@ IF conversation involves framework maintenance
   → READ system/STANDARDS.md for consistency guidelines
 
 IF creating or modifying agents
-  → READ operations/agent-template-creation/ for templates
+  → READ work/agent-template-creation/ for templates
   → READ agents/registry/ for existing patterns
 
 IF evaluating framework effectiveness  
-  → READ operations/claude-md-evaluation/ for methodology
+  → READ work/claude-md-evaluation/ for methodology
   → READ system/tools/ for available scripts
 ```
 
@@ -100,9 +100,9 @@ IF deploying agents
 ### Historical Context & Insights
 ```
 IF need strategic patterns
-  → READ operations/[specific-analysis]/#key-findings
-  → IF evaluation metrics: READ operations/claude-md-evaluation/#success-metrics
-  → IF session patterns: READ operations/[timestamp-folder]/#strategic-insights
+  → READ work/[specific-analysis]/#key-findings
+  → IF evaluation metrics: READ work/claude-md-evaluation/#success-metrics
+  → IF session patterns: READ work/[timestamp-folder]/#strategic-insights
 ```
 
 ### Section-Specific Loading Strategy
@@ -111,7 +111,7 @@ system/PRINCIPLES.md#work-approach        → Core working principles
 system/STANDARDS.md#technical-standards   → Code quality requirements  
 system/PROCESSES.md#thinking-processes    → Analysis methodologies
 system/EXAMPLES.md#[category]             → Specific implementation patterns
-operations/[folder]/#[insight-section]    → Targeted historical context
+work/[folder]/#[insight-section]    → Targeted historical context
 ```
 
 ## Implementation Guidelines

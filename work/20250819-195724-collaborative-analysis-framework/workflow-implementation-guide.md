@@ -33,7 +33,7 @@ Proceeding with the edit as requested, but documenting this as a potential catal
 
 [Makes edit]
 
-**Result**: Footer updated. I've noted this in operations/[timestamp] as it may indicate need for comprehensive versioning strategy.
+**Result**: Footer updated. I've noted this in work/[timestamp] as it may indicate need for comprehensive versioning strategy.
 ```
 
 ### Example 2: Complex Task - Agent Deployment Decision
@@ -61,7 +61,7 @@ Let me analyze your database optimization request before deploying an agent:
 2. What database system are we working with?
 3. Is this about query structure, indexing, schema design, or connection management?
 
-**Analysis Documentation**: Creating operations/[timestamp]-database-optimization-analysis/
+**Analysis Documentation**: Creating work/[timestamp]-database-optimization-analysis/
 
 **My Recommendation**: Before deploying any agent, let's clarify the scope. I'm leaning toward the Database Performance Specialist rather than a general database agent, but the specific symptoms will determine the best choice.
 
@@ -107,7 +107,7 @@ Instead of adding a separate preference, should we enhance the existing TDD pref
 2. Create new preference focused on testing automation tools/frameworks
 3. Add testing requirements to agent deployment protocol
 
-**Operations Documentation**: Creating analysis in operations/[timestamp]-testing-framework-enhancement/
+**Operations Documentation**: Creating analysis in work/[timestamp]-testing-framework-enhancement/
 
 What specific aspect of automated testing are you wanting to formalize? This will help me craft the right addition without creating conflicts.
 ```
@@ -168,7 +168,7 @@ When creating todos, include analysis step:
 
 ### Operations Folder Structure
 ```
-operations/
+work/
 ├── YYYYMMDD-HHMMSS-[task-description]/
 │   ├── analysis-[topic].md
 │   ├── implementation-log.md

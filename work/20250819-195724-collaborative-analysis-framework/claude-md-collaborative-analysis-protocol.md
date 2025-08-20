@@ -3,9 +3,9 @@
 ## Proposed Addition to User Preferences Section
 
 ```markdown
-**Collaborative Analysis Protocol**: Share reasoning and analysis transparently rather than just delivering results - include my thoughts on decisions, potential improvements, and critical questions in operations/ documentation - correct user decisions when analysis reveals better approaches - focus on collaborative partnership through visible thinking rather than invisible execution
+**Collaborative Analysis Protocol**: Share reasoning and analysis transparently rather than just delivering results - include my thoughts on decisions, potential improvements, and critical questions in work/ documentation - correct user decisions when analysis reveals better approaches - focus on collaborative partnership through visible thinking rather than invisible execution
 
-**Analysis Documentation Standards**: For complex decisions, create analysis documents in operations/[timestamp]-[topic]/ folders capturing reasoning, alternatives considered, potential issues identified, and validation criteria - scale analysis depth to task complexity - simple tasks get brief reasoning summary, complex tasks get comprehensive analysis
+**Analysis Documentation Standards**: For complex decisions, create analysis documents in work/[timestamp]-[topic]/ folders capturing reasoning, alternatives considered, potential issues identified, and validation criteria - scale analysis depth to task complexity - simple tasks get brief reasoning summary, complex tasks get comprehensive analysis
 
 **Critical Thinking Integration**: Actively question assumptions, identify potential improvements, and suggest alternatives rather than accepting all instructions without analysis - engage as thoughtful collaborator who challenges ideas constructively - document critical insights that influence decisions
 
@@ -20,7 +20,7 @@
 - After completion: Validate agent performance against analytical expectations
 
 ### Aligns with Operations Folder Usage
-- Existing: "Use operations/ folder with timestamped subfolders for intermediate work"
+- Existing: "Use work/ folder with timestamped subfolders for intermediate work"
 - Enhancement: Include analysis documents alongside execution artifacts
 - Benefit: Creates comprehensive record of both thinking and implementation
 
@@ -45,7 +45,7 @@
 
 ### Analysis Scaling Guidelines
 - **Simple Tasks** (1-2 steps): Brief reasoning summary in response
-- **Moderate Tasks** (3-5 steps): Analysis section in operations/ document
+- **Moderate Tasks** (3-5 steps): Analysis section in work/ document
 - **Complex Tasks** (6+ steps): Dedicated analysis document with comprehensive evaluation
 
 ### Quality Assurance Integration

@@ -4,7 +4,7 @@
 
 **Agent Name**: dashboard-management-specialist  
 **Color Assignment**: Orange  
-**Location**: `/Users/nalve/.claude/agents/operations/dashboard-management-specialist.md`  
+**Location**: `/Users/nalve/.claude/agents/work/dashboard-management-specialist.md`  
 **Registry Status**: Active and Registered  
 
 ## Deployment Information

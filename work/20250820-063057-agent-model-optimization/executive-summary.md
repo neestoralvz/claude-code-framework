@@ -252,4 +252,4 @@ The Agent Model Optimization Framework provides a comprehensive, evidence-based 
 
 ---
 
-**Framework Files**: All optimization deliverables located in `/Users/nalve/.claude/operations/20250820-063057-agent-model-optimization/` for immediate implementation reference and deployment guidance.
+**Framework Files**: All optimization deliverables located in `/Users/nalve/.claude/work/20250820-063057-agent-model-optimization/` for immediate implementation reference and deployment guidance.

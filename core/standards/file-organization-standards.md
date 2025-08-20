@@ -40,7 +40,7 @@ Complete structural organization standards for the .claude directory framework.
 ├── agents/                   # Deployed agent instances
 ├── commands/                 # Executable command definitions
 ├── scripts/                  # Automation and utilities
-├── operations/               # Timestamped work sessions
+├── work/               # Timestamped work sessions
 ├── dashboard/                # Monitoring and metrics
 ├── projects/                 # Project-specific contexts
 ├── plugins/                  # External integrations
@@ -110,7 +110,7 @@ system/
 
 ### Operations and Work
 ```
-operations/
+work/
 ├── timestamp-task-name/     # Timestamped work sessions
 │   ├── work-results.md     # Session outcomes
 │   ├── analysis.json       # Structured data

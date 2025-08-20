@@ -42,7 +42,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-dashboard-management/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-dashboard-management/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure dashboards enable immediate usability without additional interpretation
 

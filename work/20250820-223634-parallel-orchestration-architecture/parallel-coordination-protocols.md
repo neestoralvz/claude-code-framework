@@ -93,7 +93,7 @@ NEXT_REQUIRED: [coordination-needs]
 ### 2. File System Coordination
 **Shared Operations Structure**:
 ```
-/operations/YYYYMMDD-HHMMSS-[mission-name]/
+/work/YYYYMMDD-HHMMSS-[mission-name]/
 ├── coordination/
 │   ├── mission-brief.md
 │   ├── agent-assignments.md
@@ -218,7 +218,7 @@ echo "All parallel execution validations passed"
 - Maintains existing single-agent deployment capability
 - Extends protocol for parallel coordination
 - Preserves evidence-based success criteria
-- Integrates with operations/ folder structure
+- Integrates with work/ folder structure
 
 ### 2. Process Integration
 **Complete Workflow Enhancement**:

@@ -68,7 +68,7 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need current info** → Use WebSearch with year 2025, then WebFetch for detailed content
 
-**IF using Task tool** → Use [Task Prompt Structure](operations/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
+**IF using Task tool** → Use [Task Prompt Structure](work/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
 
 **AGENT CREATION IMPERATIVE:**
 
@@ -210,7 +210,7 @@ System prompt with agent specialization
 
 ## Execution Optimization Commands
 
-**`RECENTER`** → Activate comprehensive execution analysis with auto-triggered patterns:
+**`/recenter`** → Activate comprehensive execution analysis with auto-triggered patterns (slash command in `/commands/`):
 - Read [core/processes/recenter-workflow.md](core/processes/recenter-workflow.md) for complete workflow
 - Read [core/processes/perpetual-alertness-system.md](core/processes/perpetual-alertness-system.md) for continuous optimization
 
@@ -252,21 +252,23 @@ System prompt with agent specialization
 
 **IF complex multi-domain project** → Use `PARALLEL` command to initiate parallel conversation coordination
 
-**`PARALLEL [project-name]`** → Generate tickets for parallel conversation coordination:
+**`/parallel [project-name]`** → Generate tickets for parallel conversation coordination (slash command in `/commands/`):
 - Analyzes current project requirements
 - Identifies independent work streams and domains
 - Creates structured tickets with specific deliverables
-- Generates ticket files in `operations/[timestamp]-parallel-[project]/tickets/`
+- Generates ticket files in `work/[timestamp]-parallel-[project]/tickets/`
 - Provides coordination instructions for managing parallel work
 
-## Project Documentation Commands
+## Slash Command System
 
-**`PROJECT [project-name]`** → Launch interactive project documentation workflow:
+**COMMAND CONVENTION**: All commands referenced in CLAUDE.md are slash commands located in `/commands/` folder
+
+**`/project [project-name]`** → Launch interactive project documentation workflow:
 - Guides through comprehensive information gathering
 - Captures objectives, challenges, success criteria, and metrics
 - Generates complete project documentation using template
 - Sets up tracking and creates TodoWrite tasks
-- Follows [Project Documentation Workflow](core/processes/project-documentation-workflow.md)
+- See [/project command documentation](commands/project.md)
 
 **IF using TodoWrite first time** → Add these foundation tasks:
 

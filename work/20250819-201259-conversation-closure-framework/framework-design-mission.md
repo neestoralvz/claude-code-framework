@@ -4,7 +4,7 @@
 
 **Agent**: Strategic Operations Orchestrator
 **Mission**: Design comprehensive conversation closure framework for strategic orchestrator operation
-**Deliverable Location**: /Users/nalve/.claude/operations/20250819-201259-conversation-closure-framework/
+**Deliverable Location**: /Users/nalve/.claude/work/20250819-201259-conversation-closure-framework/
 
 ## Context Analysis
 

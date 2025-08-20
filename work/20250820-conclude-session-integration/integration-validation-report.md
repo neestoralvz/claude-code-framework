@@ -53,7 +53,7 @@
 - Automated assessment script execution and data collection
 
 ### ✅ Automated Assessment Script
-**File**: `/Users/nalve/.claude/operations/20250820-conclude-session-integration/framework-evaluation-agent.py`
+**File**: `/Users/nalve/.claude/work/20250820-conclude-session-integration/framework-evaluation-agent.py`
 **Status**: READY FOR DEPLOYMENT
 
 **Capabilities**:

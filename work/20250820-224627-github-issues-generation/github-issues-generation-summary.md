@@ -98,9 +98,9 @@ Each issue includes comprehensive references to:
 
 ### 📄 **Complete Documentation Portfolio**
 **Operations Evidence**: 
-- `/operations/20250820-224627-github-issues-generation/strategic-work-items-analysis.md`
-- `/operations/20250820-224627-github-issues-generation/issue-validation-and-dependencies.md`
-- `/operations/20250820-224627-github-issues-generation/github-issues-generation-summary.md`
+- `/work/20250820-224627-github-issues-generation/strategic-work-items-analysis.md`
+- `/work/20250820-224627-github-issues-generation/issue-validation-and-dependencies.md`
+- `/work/20250820-224627-github-issues-generation/github-issues-generation-summary.md`
 
 **Research Integration**:
 - Strategic framework evolution session evidence across multiple operations directories

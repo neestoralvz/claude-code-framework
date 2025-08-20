@@ -68,7 +68,7 @@ The Claude Code system demonstrates comprehensive testing capabilities through:
 ## Real-World Testing Evidence
 
 ### Claude Hooks Comprehensive Testing
-**Operation**: `/Users/nalve/.claude/operations/20250820-130000-claude-hooks-testing/`
+**Operation**: `/Users/nalve/.claude/work/20250820-130000-claude-hooks-testing/`
 **Result**: ✅ ALL HOOKS PASS COMPREHENSIVE TESTING
 
 **Test Coverage Achieved**:

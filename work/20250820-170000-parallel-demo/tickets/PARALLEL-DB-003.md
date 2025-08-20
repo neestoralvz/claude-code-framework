@@ -21,26 +21,26 @@ Demo project requiring PostgreSQL database with user management, authentication 
 
 ## Deliverables
 ### Files
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/database/schema/users.sql`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/database/schema/users.sql`
   - **Purpose**: User table schema with authentication fields
   - **Size Estimate**: ~50 lines, user table definition
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/database/migrations/001_create_users.sql`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/database/migrations/001_create_users.sql`
   - **Purpose**: Database migration script for user table
   - **Size Estimate**: ~30 lines, CREATE TABLE with constraints
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/database/config/connection.js`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/database/config/connection.js`
   - **Purpose**: Database connection configuration with pooling
   - **Size Estimate**: ~80 lines, connection pool setup
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/database/indexes/performance.sql`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/database/indexes/performance.sql`
   - **Purpose**: Database indexes for query performance
   - **Size Estimate**: ~25 lines, CREATE INDEX statements
 
 ### Documentation
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/docs/database.md`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/docs/database.md`
   - **Content**: Schema documentation, migration guide, performance tuning
   - **Format**: Markdown with ERD diagrams and SQL examples
 
 ### Testing
-- **Path**: `/Users/nalve/.claude/operations/20250820-170000-parallel-demo/deliverables/tests/database.test.js`
+- **Path**: `/Users/nalve/.claude/work/20250820-170000-parallel-demo/deliverables/tests/database.test.js`
   - **Coverage**: 95% minimum coverage required
   - **Types**: Connection tests, schema validation, performance benchmarks
 

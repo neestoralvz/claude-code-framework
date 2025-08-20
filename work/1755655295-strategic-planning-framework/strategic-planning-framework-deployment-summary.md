@@ -7,7 +7,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 ## Framework Deliverables Overview
 
 ### 1. **Strategic Planning Methodology** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/strategic-planning-methodology.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/strategic-planning-methodology.md`
 
 **Key Features**:
 - Intelligence-driven planning process with automated complexity assessment
@@ -18,7 +18,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 - Stakeholder-centered design principles
 
 ### 2. **Root Cause Analysis Integration Protocols** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/root-cause-analysis-integration-protocols.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/root-cause-analysis-integration-protocols.md`
 
 **Key Features**:
 - Methodology selection matrix based on complexity assessment
@@ -29,7 +29,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 - Integration with solution design preparation
 
 ### 3. **Comprehensive Solution Design Templates** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/comprehensive-solution-design-templates.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/comprehensive-solution-design-templates.md`
 
 **Key Features**:
 - Multi-level solution architecture addressing root causes
@@ -40,7 +40,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 - Evidence-based validation throughout design process
 
 ### 4. **Sustainability Assessment Frameworks** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/sustainability-assessment-frameworks.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/sustainability-assessment-frameworks.md`
 
 **Key Features**:
 - Triple bottom line integration (Environmental, Social, Economic)
@@ -51,7 +51,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 - Evidence-based validation with transparency requirements
 
 ### 5. **Planning Validation and Success Measurement** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/planning-validation-success-measurement.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/planning-validation-success-measurement.md`
 
 **Key Features**:
 - Phase-based validation checkpoints with 100% compliance requirement
@@ -62,7 +62,7 @@ As Strategic Planning Specialist, I have successfully designed and deployed a co
 - Transparent methodology with audit trail maintenance
 
 ### 6. **Framework Integration and Deployment Guide** ✅
-**Location**: `/Users/nalve/.claude/operations/1755655295-strategic-planning-framework/framework-integration-deployment-guide.md`
+**Location**: `/Users/nalve/.claude/work/1755655295-strategic-planning-framework/framework-integration-deployment-guide.md`
 
 **Key Features**:
 - Seamless integration with existing .claude framework patterns

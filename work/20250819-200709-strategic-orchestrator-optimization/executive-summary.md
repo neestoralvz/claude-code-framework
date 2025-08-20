@@ -29,11 +29,11 @@
 
 ## Tactical Details Available
 
-**Detailed Analysis**: `/Users/nalve/.claude/operations/20250819-200709-strategic-orchestrator-optimization/current-state-analysis.md`
+**Detailed Analysis**: `/Users/nalve/.claude/work/20250819-200709-strategic-orchestrator-optimization/current-state-analysis.md`
 
-**Strategic Framework Design**: `/Users/nalve/.claude/operations/20250819-200709-strategic-orchestrator-optimization/strategic-orchestrator-design.md`
+**Strategic Framework Design**: `/Users/nalve/.claude/work/20250819-200709-strategic-orchestrator-optimization/strategic-orchestrator-design.md`
 
-**Implementation Specifications**: `/Users/nalve/.claude/operations/20250819-200709-strategic-orchestrator-optimization/claude-md-optimization-recommendations.md`
+**Implementation Specifications**: `/Users/nalve/.claude/work/20250819-200709-strategic-orchestrator-optimization/claude-md-optimization-recommendations.md`
 
 ## Recommended Action
 

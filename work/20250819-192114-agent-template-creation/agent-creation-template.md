@@ -40,7 +40,7 @@ Your primary responsibilities:
 ```markdown
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-[domain-specific]/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-[domain-specific]/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure [domain-specific] enable immediate usability without additional interpretation
 
@@ -162,7 +162,7 @@ Each agent must:
 Agents should be placed in category-specific directories:
 - `agents/core-system/` - System integrity agents
 - `agents/development/` - Development and architecture agents  
-- `agents/operations/` - Operations and infrastructure agents
+- `agents/work/` - Operations and infrastructure agents
 - `agents/research/` - Research and information agents
 - `agents/database/` - Database specialists
 - `agents/[new-category]/` - Create new categories as needed

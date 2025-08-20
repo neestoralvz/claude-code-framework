@@ -63,13 +63,13 @@
 ### Operations Documentation ✅
 
 #### Research and Development Operations
-- `/operations/1755665287-strategic-planning-processes/` - Strategic methodologies research
-- `/operations/1755665824-framework-strategic-planning/` - Framework strategic planning
-- `/operations/20250820-scripts-consolidation-evaluation/` - System optimization analysis
+- `/work/1755665287-strategic-planning-processes/` - Strategic methodologies research
+- `/work/1755665824-framework-strategic-planning/` - Framework strategic planning
+- `/work/20250820-scripts-consolidation-evaluation/` - System optimization analysis
 
 #### Session Conclusion Operations
-- `/operations/20250820-session-conclusion/strategic-patterns-extracted.md`
-- `/operations/20250820-session-conclusion/framework-integration-validation.md`
+- `/work/20250820-session-conclusion/strategic-patterns-extracted.md`
+- `/work/20250820-session-conclusion/framework-integration-validation.md`
 
 ### Validation Metrics
 

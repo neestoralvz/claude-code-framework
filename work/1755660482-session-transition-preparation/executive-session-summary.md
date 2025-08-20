@@ -12,7 +12,7 @@
 ### 1. Comprehensive Strategic Problem-Solving Research Integration
 **Outcome**: Successfully integrated multi-domain strategic methodologies into operational framework
 **Impact**: Framework now supports root cause analysis, evidence-based decision making, parallel execution, and sustainability design
-**Evidence Location**: `/operations/1755654330-strategic-problem-solving-research/`
+**Evidence Location**: `/work/1755654330-strategic-problem-solving-research/`
 **Key Files**:
 - `comprehensive-strategic-problem-solving-analysis.md`
 - `implementation-roadmap.md`
@@ -21,25 +21,25 @@
 ### 2. Advanced Parallel Orchestration Architecture
 **Outcome**: Designed and implemented sophisticated multi-agent coordination system
 **Impact**: Enables simultaneous deployment of specialized agents with real-time synchronization
-**Evidence Location**: `/operations/20250820-223634-parallel-orchestration-architecture/`
+**Evidence Location**: `/work/20250820-223634-parallel-orchestration-architecture/`
 **Key Innovation**: Orchestrator-agent hierarchy with cognitive load distribution
 
 ### 3. Strategic Planning Framework Creation
 **Outcome**: Integrated comprehensive planning methodologies with operational execution
 **Impact**: Framework now supports strategic planning, complexity assessment, and adaptive response
-**Evidence Location**: `/operations/1755655295-strategic-planning-framework/`
+**Evidence Location**: `/work/1755655295-strategic-planning-framework/`
 **Key Achievement**: Tiered complexity management with appropriate methodology selection
 
 ### 4. Framework Validation with Real-World Scenarios
 **Outcome**: Comprehensive validation across 4 complexity levels with 100% success rate
 **Impact**: Framework proven to scale from simple problems to enterprise coordination
-**Evidence Location**: `/operations/1755655869-framework-validation/`
+**Evidence Location**: `/work/1755655869-framework-validation/`
 **Performance Results**: 92-94% efficiency in complex coordination scenarios
 
 ### 5. Strategic Pattern Extraction and Documentation
 **Outcome**: Identified and documented 58 strategic patterns across 5 categories
 **Impact**: Systematic enhancement roadmap with clear implementation priorities
-**Evidence Location**: `/operations/1755658515-session-pattern-extraction/`
+**Evidence Location**: `/work/1755658515-session-pattern-extraction/`
 **Strategic Value**: Foundation for continuous framework evolution
 
 ### 6. System Integration and Enhancement

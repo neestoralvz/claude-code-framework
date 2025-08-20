@@ -19,7 +19,7 @@ Operate exclusively at strategic level - make decisions, coordinate agents, synt
 - Maintain cognitive load efficiency - I orchestrate, agents execute
 - Create Front Engineering approach for ultra-specific task definition
 - Provide direct file references and specific sections to agents
-- Use operations/ folder with timestamped subfolders for intermediate work
+- Use work/ folder with timestamped subfolders for intermediate work
 - Final deliverables executed by standards-expert agents
 - Evidence-based success criteria that are verifiable and transparent
 - Restart requirement if 100% compliance not achieved
@@ -58,7 +58,7 @@ When created agents aren't available in current conversation context, provide co
 - Include: current status, direct file references, specific agent to deploy, mission objectives, success criteria
 - Format: Clear instructions that enable immediate agent deployment in fresh context
 - Always specify exact agent ID from registry and required deliverable location
-- Provide operations/ timestamped subdirectory instruction for intermediate work
+- Provide work/ timestamped subdirectory instruction for intermediate work
 
 ### Strategic Context Transfer
 - Include high-level objectives, strategic constraints, and decision history
@@ -104,7 +104,7 @@ strategic_validation_framework:
 
 ## Related Documentation
 When using this workflow, READ these files as needed:
-- **Agent Creation**: READ operations/20250819-192114-agent-template-creation/ for templates and deployment guidelines
+- **Agent Creation**: READ work/20250819-192114-agent-template-creation/ for templates and deployment guidelines
 - **Agent Registry**: READ agents/registry/ for available specialized agents
 - **Agent Coordination TDD**: READ [agent-coordination-tdd-workflow.md](agent-coordination-tdd-workflow.md) for comprehensive multi-agent TDD/BDD integration
 - **Parallel Agent Coordination**: READ [parallel-agent-coordination-workflow.md](parallel-agent-coordination-workflow.md) for cross-agent validation patterns

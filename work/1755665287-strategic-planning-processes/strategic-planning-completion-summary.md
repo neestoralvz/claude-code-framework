@@ -47,7 +47,7 @@
 ### Supporting Documentation
 
 #### Strategic Planning Process Examples
-**Location**: `/Users/nalve/.claude/operations/1755665287-strategic-planning-processes/strategic-planning-process-examples.md`
+**Location**: `/Users/nalve/.claude/work/1755665287-strategic-planning-processes/strategic-planning-process-examples.md`
 **Content**: Comprehensive examples demonstrating universal application across:
 - Software Development Project (Moderate Complexity)
 - Personal Career Development (Simple Complexity)
@@ -55,14 +55,14 @@
 - Community Non-Profit Initiative (Moderate)
 
 #### Research Foundation
-**Location**: `/Users/nalve/.claude/operations/1755665287-strategic-planning-processes/strategic-methodologies-research.md`
+**Location**: `/Users/nalve/.claude/work/1755665287-strategic-planning-processes/strategic-methodologies-research.md`
 **Content**: Evidence-based research foundation including:
 - 2025 strategic planning best practices
 - Industry-standard methodologies (OKRs, Balanced Scorecard, SMART criteria)
 - Universal design principles and scalability frameworks
 
 #### Comprehensive Validation Report
-**Location**: `/Users/nalve/.claude/operations/1755665287-strategic-planning-processes/strategic-planning-validation-report.md`
+**Location**: `/Users/nalve/.claude/work/1755665287-strategic-planning-processes/strategic-planning-validation-report.md`
 **Content**: Complete validation of framework compatibility and effectiveness
 
 ## Framework Integration Achieved

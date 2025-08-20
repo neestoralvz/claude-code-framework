@@ -4,7 +4,7 @@ _Documentation Compliance Check | 2025-08-20_
 
 ## Files Updated
 
-1. **Analysis Document**: `/Users/nalve/.claude/operations/20250820-061303-agent-model-color-documentation/agent-options-analysis.md`
+1. **Analysis Document**: `/Users/nalve/.claude/work/20250820-061303-agent-model-color-documentation/agent-options-analysis.md`
 2. **Workflow Update**: `/Users/nalve/.claude/system/processes/agent-creation-workflow.md`
 
 ## Standards Compliance Verification

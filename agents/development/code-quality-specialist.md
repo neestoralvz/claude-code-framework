@@ -36,7 +36,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-code-quality-analysis/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-code-quality-analysis/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure quality assessments enable immediate usability without additional interpretation
 

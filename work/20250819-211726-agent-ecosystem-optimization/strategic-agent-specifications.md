@@ -51,7 +51,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-strategic-orchestration/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-strategic-orchestration/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure orchestration protocols enable immediate usability without additional interpretation
 
@@ -119,7 +119,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-framework-evolution/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-framework-evolution/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure framework enhancements enable immediate usability without additional interpretation
 
@@ -187,7 +187,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-evidence-validation/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-evidence-validation/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure validation protocols enable immediate decision-making without additional interpretation
 
@@ -257,7 +257,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-parallel-coordination/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-parallel-coordination/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure coordination protocols enable efficient parallel execution without additional complexity
 
@@ -325,7 +325,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-strategic-learning/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-strategic-learning/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure learning integration enables immediate strategic capability enhancement without additional complexity
 

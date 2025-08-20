@@ -42,7 +42,7 @@ agents/
 │   ├── architecture/    # System architects
 │   ├── backend/         # Backend specialists
 │   └── quality/         # Quality assurance
-├── operations/          # Operations specialists
+├── work/          # Operations specialists
 │   ├── cloud/          # Cloud platform experts
 │   ├── infrastructure/ # Infrastructure specialists
 │   └── orchestration/  # Container/orchestration
@@ -130,7 +130,7 @@ Registry maintains:
 ### Directory Structure Requirements
 ```bash
 # All agent work uses timestamped operations directories:
-operations/
+work/
 └── YYYYMMDD-HHMMSS-agent-[domain]/
     ├── analysis-results.md
     ├── implementation-log.md

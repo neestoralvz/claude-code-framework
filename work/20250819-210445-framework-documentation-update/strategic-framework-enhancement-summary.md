@@ -101,9 +101,9 @@
 ## Research Integration Sources
 
 ### Primary Research Materials
-- **Strategic Problem-Solving Research**: operations/1755654330-strategic-problem-solving-research/
-- **Session Pattern Extraction**: operations/1755658515-session-pattern-extraction/
-- **Parallel Orchestration Architecture**: operations/20250820-223634-parallel-orchestration-architecture/
+- **Strategic Problem-Solving Research**: work/1755654330-strategic-problem-solving-research/
+- **Session Pattern Extraction**: work/1755658515-session-pattern-extraction/
+- **Parallel Orchestration Architecture**: work/20250820-223634-parallel-orchestration-architecture/
 
 ### Key Insights Integrated
 - **58 Strategic Patterns**: Identified from pattern extraction research

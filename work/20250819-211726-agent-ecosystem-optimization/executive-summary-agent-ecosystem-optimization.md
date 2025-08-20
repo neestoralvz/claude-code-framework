@@ -155,10 +155,10 @@ This Agent Ecosystem Optimization analysis includes:
 6. **Comprehensive Implementation Roadmap** - Detailed 16-week implementation plan with resources and success criteria
 
 **Files Created**: 
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/strategic-agent-ecosystem-analysis.md`
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/agent-gap-analysis-matrix.md`
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/strategic-agent-specifications.md`
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/existing-agent-optimization-recommendations.md`
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/agent-coordination-protocols.md`
-- `/Users/nalve/.claude/operations/20250819-211726-agent-ecosystem-optimization/comprehensive-implementation-roadmap.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/strategic-agent-ecosystem-analysis.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/agent-gap-analysis-matrix.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/strategic-agent-specifications.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/existing-agent-optimization-recommendations.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/agent-coordination-protocols.md`
+- `/Users/nalve/.claude/work/20250819-211726-agent-ecosystem-optimization/comprehensive-implementation-roadmap.md`
 

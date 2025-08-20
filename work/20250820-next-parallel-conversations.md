@@ -14,7 +14,7 @@ AGENT DEPLOYMENT REQUIRED:
 - NO direct implementation allowed
 
 TAREAS:
-1. Analizar patrones de uso en operations/ (538 sesiones registradas)
+1. Analizar patrones de uso en work/ (538 sesiones registradas)
 2. Identificar workflows más utilizados vs menos utilizados
 3. Optimizar procesos frecuentes para mayor eficiencia
 4. Simplificar workflows complejos poco usados
@@ -52,7 +52,7 @@ TAREAS:
 1. Diseñar API de integración con GitHub Issues
 2. Crear scripts para automatizar creación/actualización de issues
 3. Conectar con métricas del dashboard
-4. Implementar workflows: operations/ → GitHub Issues
+4. Implementar workflows: work/ → GitHub Issues
 5. Sistema de etiquetas y proyectos automático
 
 ENTREGABLES:

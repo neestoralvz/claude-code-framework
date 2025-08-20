@@ -40,7 +40,7 @@
 
 #### Stream A: Documentation Architecture Specialist
 **Mission**: Optimize documentation structure and navigation patterns
-**Resource Allocation**: Primary focus on system/ and operations/ directories
+**Resource Allocation**: Primary focus on system/ and work/ directories
 **Initial Analysis**: 
 - Current structure supports hierarchical organization
 - Navigation patterns established but could benefit from cross-reference optimization

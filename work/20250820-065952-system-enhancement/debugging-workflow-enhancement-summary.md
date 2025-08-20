@@ -143,7 +143,7 @@ Successfully documented and integrated critical debugging workflow learning that
 - `/Users/nalve/.claude/system/standards/debugging-failure-patterns.md` - Evidence-based patterns
 
 ### Supporting Files
-- `operations/20250820-065952-system-enhancement/` - This enhancement documentation
+- `work/20250820-065952-system-enhancement/` - This enhancement documentation
 
 ## Implementation Status
 

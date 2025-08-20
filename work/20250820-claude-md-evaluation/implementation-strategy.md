@@ -339,7 +339,7 @@ cp strategic-prioritizer.py /Users/nalve/.claude/metrics/scripts/
 │   └── quality/ (outcome tracking)
 ├── commands/
 │   └── claude-md/ (maintenance commands)
-└── operations/
+└── work/
     └── 20250820-claude-md-evaluation/ (this framework)
 ```
 

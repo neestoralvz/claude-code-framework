@@ -15,7 +15,7 @@
 - **Validation**: ✅ Enhances rather than conflicts
 
 **2. Operations Folder Usage Alignment** 
-- **Current**: "Use operations/ folder with timestamped subfolders for intermediate work"
+- **Current**: "Use work/ folder with timestamped subfolders for intermediate work"
 - **Enhancement**: "Include analysis documents alongside execution artifacts"
 - **Integration**: Analysis documents become part of standard operations structure
 - **Validation**: ✅ Perfect alignment with existing pattern
@@ -57,7 +57,7 @@ Let me analyze this agent creation request:
 
 **Recommendation**: Let's define the specific optimization focus first, then create an agent with precisely targeted capabilities rather than a generic documentation agent.
 
-**Operations Documentation**: Creating analysis in operations/[timestamp]-api-docs-agent-analysis/
+**Operations Documentation**: Creating analysis in work/[timestamp]-api-docs-agent-analysis/
 
 What specific API documentation challenges prompted this request?
 ```
@@ -89,7 +89,7 @@ Before deploying agents, I should understand:
 **Agent Strategy Recommendation**:
 Rather than deploying generic agents, let's first deploy a Legacy Code Assessment Specialist to analyze the codebase and create a targeted refactoring plan. Then deploy specific agents based on findings.
 
-**Operations Documentation**: Creating operations/[timestamp]-legacy-refactoring-analysis/
+**Operations Documentation**: Creating work/[timestamp]-legacy-refactoring-analysis/
 
 This approach prevents over-deployment and ensures we address actual needs rather than assumed needs.
 
@@ -125,7 +125,7 @@ What specific legacy code challenges are you experiencing?
 - Pattern recognition could improve agent specialization over time
 
 **2. Cross-Conversation Context**
-- Analysis documents in operations/ provide context for future conversations
+- Analysis documents in work/ provide context for future conversations
 - Decision reasoning creates precedent for similar situations
 - Learning patterns improve framework evolution
 

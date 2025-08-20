@@ -158,12 +158,12 @@ All hooks demonstrate:
 ## Files Generated
 
 ### Test Framework
-- `/Users/nalve/.claude/operations/20250820-130000-claude-hooks-testing/test_hooks.py` - Comprehensive testing framework
-- `/Users/nalve/.claude/operations/20250820-130000-claude-hooks-testing/validation_report.py` - Validation analysis tool
+- `/Users/nalve/.claude/work/20250820-130000-claude-hooks-testing/test_hooks.py` - Comprehensive testing framework
+- `/Users/nalve/.claude/work/20250820-130000-claude-hooks-testing/validation_report.py` - Validation analysis tool
 
 ### Test Results  
-- `/Users/nalve/.claude/operations/20250820-130000-claude-hooks-testing/comprehensive_test_report.json` - Detailed JSON results
-- `/Users/nalve/.claude/operations/20250820-130000-claude-hooks-testing/FINAL_TEST_SUMMARY.md` - This summary document
+- `/Users/nalve/.claude/work/20250820-130000-claude-hooks-testing/comprehensive_test_report.json` - Detailed JSON results
+- `/Users/nalve/.claude/work/20250820-130000-claude-hooks-testing/FINAL_TEST_SUMMARY.md` - This summary document
 
 ## Conclusion
 

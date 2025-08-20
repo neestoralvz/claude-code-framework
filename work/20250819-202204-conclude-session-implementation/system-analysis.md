@@ -5,8 +5,8 @@
 **Framework Status**: 
 - CLAUDE.md framework operational with orchestrator protocol
 - Commands directory exists but empty
-- Agent creation framework available in operations/20250819-192114-agent-template-creation/
-- Previous conversation closure work in operations/20250819-201259-conversation-closure-framework/
+- Agent creation framework available in work/20250819-192114-agent-template-creation/
+- Previous conversation closure work in work/20250819-201259-conversation-closure-framework/
 
 **Missing Components**:
 1. Conclude-session command implementation

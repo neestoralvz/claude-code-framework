@@ -32,7 +32,7 @@ color: pink
 
 ### 4. Integration Requirements
 - Reference to CLAUDE.md, STANDARDS.md, PROCESSES.md
-- Operations directory structure (/operations/YYYYMMDD-HHMMSS-*)
+- Operations directory structure (/work/YYYYMMDD-HHMMSS-*)
 - Evidence-based validation approach
 - Restart criteria for 100% compliance
 

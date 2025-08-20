@@ -18,7 +18,7 @@ User Request → Complexity Assessment → Planning Framework Selection → Para
 **2. Parallel Orchestration Integration**: Strategic planning leverages multi-agent coordination for complex problems
 **3. Evidence-Based Foundation**: All strategic planning maintains .claude's quality standards and validation requirements
 **4. TodoWrite Integration**: Strategic planning phases automatically tracked through existing todo management
-**5. Operations Structure Compatibility**: All strategic planning work uses established operations/ directory patterns
+**5. Operations Structure Compatibility**: All strategic planning work uses established work/ directory patterns
 
 ## Integration Strategy
 
@@ -43,7 +43,7 @@ The strategic planning framework integrates directly with existing CLAUDE.md pre
 
 - **Orchestrator Role**: Enhanced with strategic planning oversight capabilities
 - **Agent Deployment Protocol**: Extended to include strategic planning specialists
-- **Operations Structure**: Strategic planning uses existing timestamped operations/ folders
+- **Operations Structure**: Strategic planning uses existing timestamped work/ folders
 - **Evidence-Based Success Criteria**: Strategic planning validation integrates with existing standards
 - **Discovery Workflow Protocol**: Enhanced with strategic planning complexity assessment
 
@@ -116,10 +116,10 @@ Add complexity assessment display to user interactions:
 ### Step 3: Enhanced Operations Structure
 
 **3.1 Operations Directory Enhancement**:
-Expand existing operations/ structure to support strategic planning:
+Expand existing work/ structure to support strategic planning:
 
 ```
-operations/
+work/
 ├── [timestamp]-strategic-planning-[description]/
 │   ├── complexity-assessment.md
 │   ├── root-cause-analysis.md

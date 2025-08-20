@@ -36,7 +36,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-claude-hooks-integration/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-claude-hooks-integration/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure integration solutions enable immediate deployment without architectural conflicts
 

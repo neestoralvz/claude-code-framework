@@ -51,7 +51,7 @@ Deploy the Testing Strategy Specialist agent to establish comprehensive testing 
 
 Mission: Create TDD/BDD integrated testing architecture with Jest optimization and automated coverage reporting.
 
-Expected Deliverable: Complete testing configuration in operations/[timestamp]-testing-strategy/ with implementation guidelines and quality gates.
+Expected Deliverable: Complete testing configuration in work/[timestamp]-testing-strategy/ with implementation guidelines and quality gates.
 ```
 
 ### Example 2: Production Performance Issues
@@ -60,7 +60,7 @@ Deploy the Performance Optimization Specialist agent to analyze and resolve perf
 
 Mission: Conduct systematic performance analysis, identify bottlenecks through profiling, and implement optimization strategies with measurable improvements.
 
-Expected Deliverable: Performance analysis report and optimization implementation in operations/[timestamp]-performance-optimization/ with before/after benchmarks.
+Expected Deliverable: Performance analysis report and optimization implementation in work/[timestamp]-performance-optimization/ with before/after benchmarks.
 ```
 
 ### Example 3: API Design Implementation
@@ -69,7 +69,7 @@ Deploy the API Design Specialist agent to create RESTful API for user management
 
 Mission: Design schema-driven API with validation middleware, security patterns, and comprehensive error handling following Node.js best practices.
 
-Expected Deliverable: Complete API specification and implementation in operations/[timestamp]-api-design/ with OpenAPI documentation and validation tests.
+Expected Deliverable: Complete API specification and implementation in work/[timestamp]-api-design/ with OpenAPI documentation and validation tests.
 ```
 
 ### Example 4: Code Quality Assessment
@@ -78,7 +78,7 @@ Deploy the Code Quality Specialist agent to review existing codebase and create 
 
 Mission: Analyze code against established patterns, validate TDD/BDD compliance, and provide evidence-based improvement recommendations with measurable success criteria.
 
-Expected Deliverable: Quality assessment report and improvement plan in operations/[timestamp]-code-quality-analysis/ with prioritized action items.
+Expected Deliverable: Quality assessment report and improvement plan in work/[timestamp]-code-quality-analysis/ with prioritized action items.
 ```
 
 ## Framework Integration Benefits

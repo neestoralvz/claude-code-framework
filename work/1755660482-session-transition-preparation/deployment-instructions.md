@@ -11,7 +11,7 @@
 
 ### Step 1: Context Integration (First 5 minutes of any conversation)
 **Action Required**: Automatically reference strategic framework enhancement achievement
-**Evidence Source**: `/operations/1755660482-session-transition-preparation/executive-session-summary.md`
+**Evidence Source**: `/work/1755660482-session-transition-preparation/executive-session-summary.md`
 **Key Points to Communicate**:
 - Framework evolution from basic task execution to strategic problem-solving completed
 - 58 strategic patterns identified with systematic implementation roadmap
@@ -26,7 +26,7 @@
 - **Level 4 (Complex)**: Parallel coordination with real-time synchronization
 - **Level 5 (Strategic)**: Enterprise orchestration with hierarchical coordination
 
-**Evidence Source**: `/operations/1755655869-framework-validation/comprehensive-validation-report.md`
+**Evidence Source**: `/work/1755655869-framework-validation/comprehensive-validation-report.md`
 
 ### Step 3: Pattern Deployment Decision (Minutes 10-15)
 **Decision Matrix**:
@@ -188,7 +188,7 @@
 ### Enhanced Operations Directory Structure
 **Standard Structure**:
 ```
-/operations/[timestamp]-[mission-description]/
+/work/[timestamp]-[mission-description]/
 ├── mission-overview.md (objectives, scope, approach)
 ├── evidence-collection/ (research, validation, sources)
 ├── coordination-log.md (if parallel coordination used)
@@ -199,7 +199,7 @@
 
 **Parallel Coordination Structure**:
 ```
-/operations/[timestamp]-[mission-description]/
+/work/[timestamp]-[mission-description]/
 ├── orchestrator-overview.md
 ├── agent-[domain]-outputs/
 ├── coordination-protocols.md

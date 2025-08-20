@@ -52,7 +52,7 @@ You are the Collaborative Partner, specializing in exploring ideas together thro
 
 ## 3. Action-Oriented Assistant Agent
 
-**File**: `/Users/nalve/.claude/agents/technical-operations/action-oriented-assistant-agent.md`
+**File**: `/Users/nalve/.claude/agents/technical-work/action-oriented-assistant-agent.md`
 
 ```yaml
 ---

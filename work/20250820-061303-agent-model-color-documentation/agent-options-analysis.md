@@ -156,12 +156,12 @@ status: active
 ├── core-system/              (3 agents)
 ├── development/              (7 agents)
 ├── documentation-communication/ (1 agent)
-├── operations/               (1 agent)
+├── work/               (1 agent)
 ├── strategic-analysis/       (2 agents)
 ├── strategic-development/    (2 agents)
 ├── system-integration/       (1 agent)
 ├── technical-implementation/ (2 agents)
-└── technical-operations/     (1 agent)
+└── technical-work/     (1 agent)
 ```
 
 ### Configuration Completeness

@@ -40,17 +40,17 @@ Transform the .claude framework from basic task execution to comprehensive strat
 ## File References for Context Continuity
 
 ### Primary Session Evidence
-**Strategic Research**: `/operations/1755654330-strategic-problem-solving-research/`
+**Strategic Research**: `/work/1755654330-strategic-problem-solving-research/`
 - `comprehensive-strategic-problem-solving-analysis.md`
 - `implementation-roadmap.md`
 - `evidence-based-decision-frameworks-research.md`
 
-**Pattern Extraction**: `/operations/1755658515-session-pattern-extraction/`
+**Pattern Extraction**: `/work/1755658515-session-pattern-extraction/`
 - `executive-summary.md` - 58 patterns identified with strategic impact
 - `comprehensive-pattern-synthesis.md` - Complete pattern relationships
 - `framework-evolution-patterns.md` - Systematic enhancement patterns
 
-**Framework Validation**: `/operations/1755655869-framework-validation/`
+**Framework Validation**: `/work/1755655869-framework-validation/`
 - `comprehensive-validation-report.md` - All scenarios passed validation
 - `scenario-1-simple-problem.md` through `scenario-4-strategic-challenge.md`
 
@@ -66,7 +66,7 @@ Transform the .claude framework from basic task execution to comprehensive strat
 - Parallel agent coordination patterns integrated
 
 ### Operations Structure Context
-**Current Operations**: `/Users/nalve/.claude/operations/`
+**Current Operations**: `/Users/nalve/.claude/work/`
 - 28 operation directories with comprehensive strategic work
 - Pattern evolution documented across multiple coordinated efforts
 - Evidence trail for all framework enhancement decisions
@@ -168,22 +168,22 @@ Transform the .claude framework from basic task execution to comprehensive strat
 
 ### For Strategic Conversations
 **Reference**: This session achieved revolutionary framework transformation
-**Evidence**: `/operations/1755658515-session-pattern-extraction/executive-summary.md`
+**Evidence**: `/work/1755658515-session-pattern-extraction/executive-summary.md`
 **Approach**: Continue evidence-based enhancement with systematic validation
 
 ### For Implementation Conversations
 **Reference**: Foundation patterns validated and ready for deployment
-**Evidence**: `/operations/1755655869-framework-validation/comprehensive-validation-report.md`
+**Evidence**: `/work/1755655869-framework-validation/comprehensive-validation-report.md`
 **Approach**: Begin with foundation pattern deployment following established roadmap
 
 ### For Problem-Solving Conversations
 **Reference**: Framework now supports strategic problem-solving across complexity levels
-**Evidence**: All validation scenarios in `/operations/1755655869-framework-validation/`
+**Evidence**: All validation scenarios in `/work/1755655869-framework-validation/`
 **Approach**: Use automatic complexity assessment to deploy appropriate coordination pattern
 
 ### For Framework Evolution Conversations
 **Reference**: 58 strategic patterns identified with systematic enhancement roadmap
-**Evidence**: `/operations/1755658515-session-pattern-extraction/comprehensive-pattern-synthesis.md`
+**Evidence**: `/work/1755658515-session-pattern-extraction/comprehensive-pattern-synthesis.md`
 **Approach**: Follow three-phase implementation with evidence-based validation throughout
 
 ## Strategic Context for Future Sessions

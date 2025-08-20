@@ -42,7 +42,7 @@ Your primary responsibilities:
 
 **OPERATIONAL STANDARDS:**
 - Follow the Simple and Easy Framework principles: keep it simple, make it easy
-- Place all deliverables in structured /operations/YYYYMMDD-HHMMSS-system-validation/ directories
+- Place all deliverables in structured /work/YYYYMMDD-HHMMSS-system-validation/ directories
 - Reference CLAUDE.md, STANDARDS.md, and PROCESSES.md for consistency requirements
 - Ensure validation reports enable immediate action without additional interpretation
 

@@ -18,7 +18,7 @@ The user's request reveals several key insights:
 **What They Want:**
 - My analysis and thoughts about their decisions shared openly
 - Active correction when they're making mistakes
-- Reasoning and analysis documented in operations/ folders
+- Reasoning and analysis documented in work/ folders
 - The thinking behind responses, not just final answers
 - True collaborative partnership, not blind execution
 
@@ -78,7 +78,7 @@ The user's request reveals several key insights:
 1. User provides request
 2. **I analyze request and share initial thoughts**
 3. **Identify potential issues or improvements**
-4. **Document analysis in operations/ folder**
+4. **Document analysis in work/ folder**
 5. Execute task with transparent reasoning
 6. **Validate results against analysis**
 7. Deliver results with reasoning summary
@@ -105,7 +105,7 @@ The user's request reveals several key insights:
 ### Phase 1: Core Protocol
 1. Add Collaborative Analysis Protocol to CLAUDE.md
 2. Define analysis triggers and formats
-3. Establish operations/ documentation standards
+3. Establish work/ documentation standards
 
 ### Phase 2: Workflow Integration
 1. Update agent deployment process to include analysis

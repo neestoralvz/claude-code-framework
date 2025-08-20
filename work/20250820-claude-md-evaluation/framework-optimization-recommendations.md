@@ -37,7 +37,7 @@ Based on systematic evaluation of CLAUDE.md framework effectiveness, the current
 
 **Evidence Supporting Change**:
 - Manual pattern identification required specialized agent deployment
-- Session insights accumulate in operations/ directory without systematic integration
+- Session insights accumulate in work/ directory without systematic integration
 - Optimization opportunities exist but require manual discovery
 
 **Expected Impact**:

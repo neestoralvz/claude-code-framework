@@ -72,7 +72,7 @@ enhanced_deployment_protocol:
     - Maintain cognitive load efficiency - I orchestrate, agents execute
     - Create Front Engineering approach for ultra-specific task definition
     - Provide direct file references and specific sections to agents
-    - Use operations/ folder with timestamped subfolders for intermediate work
+    - Use work/ folder with timestamped subfolders for intermediate work
     - Final deliverables executed by standards-expert agents
     - Evidence-based success criteria that are verifiable and transparent
     - Restart requirement if 100% compliance not achieved
@@ -238,15 +238,15 @@ class EnhancedTodoWrite:
 #### Enhanced Directory Structure
 ```yaml
 enhanced_operations_structure:
-  base_structure: "/operations/YYYYMMDD-HHMMSS-[mission-name]/"
+  base_structure: "/work/YYYYMMDD-HHMMSS-[mission-name]/"
   
   single_agent_compatibility:
-    path: "/operations/YYYYMMDD-HHMMSS-[mission-name]/"
+    path: "/work/YYYYMMDD-HHMMSS-[mission-name]/"
     contents: ["deliverables/", "validation/", "evidence/"]
     changes: "none - full backward compatibility"
   
   parallel_coordination_structure:
-    path: "/operations/YYYYMMDD-HHMMSS-[mission-name]/"
+    path: "/work/YYYYMMDD-HHMMSS-[mission-name]/"
     contents:
       - "coordination/"
         - "mission-brief.md"

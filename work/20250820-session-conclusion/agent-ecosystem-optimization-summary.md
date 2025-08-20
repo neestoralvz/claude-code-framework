@@ -48,11 +48,11 @@
 
 #### 6. Technical Operations (1 Agent)
 **Purpose**: Operational technical tasks and maintenance
-- `/agents/technical-operations/git-operations-agent.md` - Git operations and version control
+- `/agents/technical-work/git-operations-agent.md` - Git operations and version control
 
 #### 7. Operations (1 Agent)
 **Purpose**: Dashboard and operational management
-- `/agents/operations/dashboard-management-specialist.md` - Dashboard and metrics management
+- `/agents/work/dashboard-management-specialist.md` - Dashboard and metrics management
 
 #### 8. Development (4 Agents)
 **Purpose**: Code quality and development practices

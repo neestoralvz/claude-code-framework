@@ -35,7 +35,7 @@ Based on comprehensive review of strategic framework evolution session outcomes,
 
 #### 1. Strategic Pattern Registry Integration System
 **Justification**: 58 strategic patterns identified require systematic integration into framework
-**Session Evidence**: `/operations/1755658515-session-pattern-extraction/comprehensive-pattern-synthesis.md`
+**Session Evidence**: `/work/1755658515-session-pattern-extraction/comprehensive-pattern-synthesis.md`
 **Scope**: Pattern registry creation, categorization, and integration protocols
 **Expected Impact**: Foundation for systematic framework enhancement
 
@@ -47,13 +47,13 @@ Based on comprehensive review of strategic framework evolution session outcomes,
 
 #### 3. Strategic Agent Creation Deployment
 **Justification**: 3 critical agents identified for strategic orchestration capabilities
-**Session Evidence**: `/operations/20250819-211726-agent-ecosystem-optimization/strategic-agent-specifications.md`
+**Session Evidence**: `/work/20250819-211726-agent-ecosystem-optimization/strategic-agent-specifications.md`
 **Scope**: Strategic Problem-Solving Orchestrator, Framework Evolution Intelligence, Evidence-Based Validation Orchestrator
 **Expected Impact**: Advanced strategic coordination and problem-solving capability
 
 #### 4. Parallel Coordination Protocols Implementation
 **Justification**: Architecture designed but coordination protocols need operational deployment
-**Session Evidence**: `/operations/20250820-223634-parallel-orchestration-architecture/parallel-coordination-protocols.md`
+**Session Evidence**: `/work/20250820-223634-parallel-orchestration-architecture/parallel-coordination-protocols.md`
 **Scope**: Multi-agent coordination, cognitive load distribution, quality gate synchronization
 **Expected Impact**: 40-60% efficiency gains for complex problems
 
@@ -67,7 +67,7 @@ Based on comprehensive review of strategic framework evolution session outcomes,
 
 #### 6. Strategic Problem Complexity Assessment Integration
 **Justification**: Intelligent complexity assessment system designed but needs integration
-**Session Evidence**: `/operations/20250820-223634-parallel-orchestration-architecture/problem-complexity-assessment.md`
+**Session Evidence**: `/work/20250820-223634-parallel-orchestration-architecture/problem-complexity-assessment.md`
 **Scope**: Complexity scoring, deployment pattern recommendation, dynamic escalation
 **Expected Impact**: >90% appropriate methodology selection accuracy
 
@@ -81,7 +81,7 @@ Based on comprehensive review of strategic framework evolution session outcomes,
 
 #### 8. Sustainability-First Enhancement Integration
 **Justification**: Sustainability design research completed, requires systematic integration
-**Session Evidence**: `/operations/1755654330-strategic-problem-solving-research/sustainability-design-research.md`
+**Session Evidence**: `/work/1755654330-strategic-problem-solving-research/sustainability-design-research.md`
 **Scope**: Environmental impact assessment, long-term value optimization
 **Expected Impact**: Sustainable framework development and positive impact
 
