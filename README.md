@@ -40,7 +40,6 @@ The framework is organized into distinct categories that respect system constrai
 ├── [CORE CONFIGURATION FILES - Root Level Only]
 ├── CLAUDE.md                    # Main framework instructions
 ├── claude-local.md             # Local project customizations  
-├── organization-workflow.md    # File organization workflow guide
 ├── readme.md                   # This documentation (project overview)
 ├── package.json                # Node.js dependencies and scripts
 ├── settings.json               # Claude Code configuration
@@ -167,7 +166,7 @@ The following are also immovable but represent more traditional configuration ar
 #### Root Directory (Only These Files)
 - `CLAUDE.md` - Main framework instructions
 - `claude-local.md` - Local customizations
-- `organization-workflow.md` - File organization workflow  
+  
 - `readme.md` - This project documentation
 - `package.json` - Dependencies and scripts
 - `settings.json` - Claude Code settings
@@ -255,7 +254,7 @@ ls -la
 cat CLAUDE.md
 
 # Check current organization
-cat organization-workflow.md
+cat core/organization-workflow.md
 
 # Review system documentation
 ls core/

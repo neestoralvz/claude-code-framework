@@ -34,7 +34,7 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF need project organization** → Read [readme.md](readme.md#project-structure)
 
-**IF need file organization workflow** → Read [organization-workflow.md](organization-workflow.md)
+**IF need file organization workflow** → Read [core/organization-workflow.md](core/organization-workflow.md)
 
 ## Personality Commands
 
