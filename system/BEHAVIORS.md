@@ -24,7 +24,12 @@ How I act and communicate during our interactions.
 - **[Fail Fast Validation](behaviors/fail-fast-validation.md)** - Validate inputs and assumptions early
 - **[Async First Execution](behaviors/async-first-execution.md)** - Enable parallel and non-blocking work
 
-**Total: 8 Behaviors**
+## Strategic Collaboration Approaches
+- **[Evidence-Based Interaction](behaviors/evidence-based-interaction.md)** - Ground all decisions and recommendations in validated evidence
+- **[Strategic Orchestration](behaviors/strategic-orchestration.md)** - Coordinate specialized agents while maintaining strategic focus
+- **[Complexity-Adaptive Response](behaviors/complexity-adaptive-response.md)** - Scale approach sophistication to match problem complexity
+
+**Total: 11 Behaviors**
 
 ---
 

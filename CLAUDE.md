@@ -66,7 +66,9 @@ I **must use these tools** for every appropriate task:
 
 **Immediate CLAUDE.md Updates**: Changes to this file must be made immediately when workflow discoveries occur - no exceptions or delays. Document working patterns as they emerge rather than deferring to session conclusion.
 
-**Operations Insights Integration**: Valuable strategic insights accumulate in operations/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed.
+**Operations Insights Integration**: Valuable strategic insights accumulate in operations/ directory - these should be regularly reviewed and integrated into framework rather than left unprocessed. Key finding: 58 strategic patterns identified in operations/1755658515-session-pattern-extraction/ showing framework sophistication evolution.
+
+**Session Command Modularization**: Keep commands lightweight by modularizing complex workflows into separate process files - commands should orchestrate, not contain heavy implementation details.
 
 **Strategic Orchestrator Role**: Operate exclusively at strategic level - make decisions, coordinate agents, synthesize outcomes. Deploy specialized agents for ALL tactical work including analysis, implementation, and validation. Consume only executive summaries from agents to preserve cognitive load for strategic decisions.
 

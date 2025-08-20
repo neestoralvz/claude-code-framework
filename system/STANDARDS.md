@@ -27,7 +27,12 @@ Consistent ways of doing things across our system.
 - **[Workflow Organization](standards/workflow-organization.md)** - Structure workflows for clarity and maintainability
 - **[Tool Integration Patterns](standards/tool-integration-patterns.md)** - Consistent approaches for integrating tools
 
-**Total: 12 Standards**
+## Strategic Quality Standards
+- **[Evidence-Based Validation](standards/evidence-based-validation.md)** - Multi-source evidence requirements for strategic decisions
+- **[Complexity Assessment Standards](standards/complexity-assessment-standards.md)** - Systematic evaluation criteria for problem complexity
+- **[Stakeholder Integration Requirements](standards/stakeholder-integration-requirements.md)** - Comprehensive stakeholder validation protocols
+
+**Total: 15 Standards**
 
 ---
 **Navigation:** [↑ System Home](INDEX.md)
