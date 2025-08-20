@@ -208,6 +208,26 @@ System prompt with agent specialization
 
 **IF session ends** → Read [core/processes/session-conclusion-workflow.md](core/processes/session-conclusion-workflow.md)
 
+## Execution Optimization Commands
+
+**`RECENTER`** → Activate comprehensive execution analysis and perpetual alertness:
+- Read [core/processes/recenter-workflow.md](core/processes/recenter-workflow.md) for complete workflow
+- Read [core/processes/perpetual-alertness-system.md](core/processes/perpetual-alertness-system.md) for continuous optimization
+
+**IF any request received** → Auto-activate RECENTER workflow:
+1. **Task Analysis** → TodoWrite for 2+ steps, atomic task breakdown
+2. **Progressive Thinking** → Systematic analysis for complex problems  
+3. **Agent Deployment** → Specialized agents for specialized work
+4. **Parallelization** → Multiple agents in single message for independent tasks
+5. **Pattern Recognition** → Document discoveries, optimize workflows
+6. **Perpetual Alertness** → Continuous monitoring for missed optimizations
+
+**IF session starts** → RECENTER automatically to ensure optimal execution approach
+
+**IF complex work identified** → RECENTER immediately to maximize efficiency
+
+**IF patterns emerge** → Document in system files and continue with RECENTER mindset
+
 ## Parallel Coordination Commands
 
 **IF complex multi-domain project** → Use `PARALLEL` command to initiate parallel conversation coordination
@@ -218,6 +238,15 @@ System prompt with agent specialization
 - Creates structured tickets with specific deliverables
 - Generates ticket files in `operations/[timestamp]-parallel-[project]/tickets/`
 - Provides coordination instructions for managing parallel work
+
+## Project Documentation Commands
+
+**`PROJECT [project-name]`** → Launch interactive project documentation workflow:
+- Guides through comprehensive information gathering
+- Captures objectives, challenges, success criteria, and metrics
+- Generates complete project documentation using template
+- Sets up tracking and creates TodoWrite tasks
+- Follows [Project Documentation Workflow](core/processes/project-documentation-workflow.md)
 
 **IF using TodoWrite first time** → Add these foundation tasks:
 
