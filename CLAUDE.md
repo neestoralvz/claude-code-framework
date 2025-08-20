@@ -78,6 +78,8 @@ _Last updated: 2025-08-20 | Version: 2.0_
 name: agent-name
 description: When this agent should be invoked
 tools: tool1, tool2, tool3
+model: sonnet
+color: blue
 ---
 System prompt with agent specialization
 ```
@@ -145,6 +147,10 @@ System prompt with agent specialization
 **IF creating subagents manually** → Create .md files directly in `~/.claude/agents/` or `.claude/agents/` directories
 
 **IF subagents not working** → Verify YAML frontmatter format and agent directory location
+
+**IF need model options** → Available: `haiku` (fast), `sonnet` (balanced), `opus` (advanced) - use `sonnet` for most agents
+
+**IF need color options** → Available: `blue`, `green`, `orange`, `pink`, `purple`, `yellow`, `red`, `cyan` - choose based on agent category/function
 
 **IF multiple tasks can run simultaneously** → Always deploy agents in parallel for maximum efficiency (MAX 10 per message)
 
