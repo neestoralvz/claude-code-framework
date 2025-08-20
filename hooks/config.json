@@ -1,0 +1,40 @@
+{
+  "hooks": {
+    "session_start": {
+      "script": "./session_start.py",
+      "description": "Provides automatic session orientation with framework status",
+      "timeout": 10,
+      "enabled": true
+    },
+    "user_prompt_submit": {
+      "script": "./user_prompt_submit.py", 
+      "description": "Injects session context into user prompts",
+      "timeout": 5,
+      "enabled": true
+    },
+    "pre_tool_use": {
+      "script": "./pre_tool_use.py",
+      "description": "Validates workflow before file modifications",
+      "timeout": 5,
+      "enabled": true
+    },
+    "post_tool_use": {
+      "script": "./post_tool_use.py",
+      "description": "Automatic framework maintenance after tool execution",
+      "timeout": 10,
+      "enabled": true
+    }
+  },
+  "framework": {
+    "version": "1.0.0",
+    "name": "Simple and Easy Framework Claude Code Hooks",
+    "created": "2025-08-20",
+    "description": "Complete hook system for Claude Code integration with Simple and Easy Framework"
+  },
+  "security": {
+    "validate_input": true,
+    "sanitize_paths": true,
+    "timeout_enforcement": true,
+    "exit_code_validation": true
+  }
+}
