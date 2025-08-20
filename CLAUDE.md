@@ -1,20 +1,26 @@
 # Simple Framework Commands
 
-_Last updated: 2025-08-20 | Version: 2.0_
+_Last updated: 2025-08-20 | Version: 3.0_
 
 ## Core Rules
 
-**IF starting work** → Keep it simple. Make it easy.
+**FOR ALL ACTIONS** → Use Progressive Thinking methodology with Ultra Think analysis
 
-**IF uncertain about anything** → STOP. Get clarification. No assumptions.
+**FOR ALL ACTIONS** → Deploy specialized agents - NEVER work directly
 
-**IF user makes request** → Understand what they need. Deliver results. Done.
+**FOR ALL ACTIONS** → Use TodoWrite for task tracking and atomic breakdown
+
+**IF starting work** → Keep it simple. Make it easy. Deploy agents immediately.
+
+**IF uncertain about anything** → STOP. Get clarification. Deploy research agents. No assumptions.
+
+**IF user makes request** → Progressive Think → Deploy agents → Coordinate results → Done.
 
 **IF getting lost or overwhelmed** → READ [core/CORE.md](core/CORE.md) to return to center
 
-**IF things are getting too complex** → STOP. Return to Simple and Easy principles
+**IF things are getting too complex** → STOP. Return to Simple and Easy principles with agent coordination
 
-**IF losing sight of purpose** → Remember: Framework exists to improve MY performance, not create complexity
+**IF losing sight of purpose** → Remember: Framework exists to improve MY performance through agent orchestration
 
 ## System Commands
 
@@ -38,6 +44,38 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF starting new project** → Use [Project Documentation Template](core/PROJECT-DOCUMENTATION-TEMPLATE.md) to document objectives, challenge, success criteria, and metrics immediately
 
+## Progressive Thinking Methodology - MANDATORY FOR ALL ACTIONS
+
+**LEVEL 1: THINK** → Initial analysis and understanding
+- Break down the request into components
+- Identify key requirements and constraints
+- Map to existing knowledge and patterns
+- Use TodoWrite for task structure
+
+**LEVEL 2: THINK HARD** → Deep analysis and pattern recognition
+- Apply framework principles and standards
+- Consider edge cases and potential issues
+- Evaluate multiple solution approaches
+- Identify required agents and tools
+
+**LEVEL 3: THINK HARDER** → Strategic optimization and risk assessment
+- Analyze performance and efficiency implications
+- Consider long-term maintenance and scalability
+- Evaluate security and quality considerations
+- Plan parallel execution opportunities
+
+**LEVEL 4: ULTRA THINK** → Meta-analysis and system integration
+- Examine framework alignment and improvement opportunities
+- Consider broader system impacts and dependencies
+- Optimize for maximum efficiency and quality
+- Document patterns for future replication
+
+**FOR ALL ACTIONS** → ALWAYS progress through all 4 levels before acting
+
+**FOR ALL ANALYSIS** → Document insights in TodoWrite and system files
+
+**FOR ALL DECISIONS** → Must complete Ultra Think level before proceeding
+
 ## Personality Commands
 
 **IF complex planning or coordination** → Use [🎭 Strategic Orchestrator](core/personalities/strategic-orchestrator.md)
@@ -54,31 +92,31 @@ _Last updated: 2025-08-20 | Version: 2.0_
 
 **IF organizing knowledge/documentation** → Use [📚 Knowledge Curator](core/personalities/knowledge-curator.md)
 
-## Work Commands
+## Work Commands - MANDATORY AGENT DEPLOYMENT FOR ALL ACTIONS
 
-**IF task has 2+ steps** → Use TodoWrite immediately
+**FOR ALL TASKS** → Use TodoWrite immediately - no exceptions
 
-**IF problem is complex** → Use Progressive Thinking for breakdown
+**FOR ALL PROBLEMS** → Use Progressive Thinking 4-level methodology mandatory
 
-**IF need library docs** → Use Context7 for current library documentation and examples
+**FOR ALL ACTIONS** → Deploy specialized agents BEFORE attempting direct work
 
-**IF creating scripts/hooks/code** → ALWAYS use Context7 first for best practices and examples
+**FOR ALL CODE/SCRIPTS** → Context7 research first, then agent deployment mandatory
 
-**IF integrating with libraries** → Use Context7 to get current API documentation and usage patterns
+**FOR ALL LIBRARY INTEGRATION** → Context7 + specialized agent deployment required
 
-**IF need current info** → Use WebSearch with year 2025, then WebFetch for detailed content
+**FOR ALL RESEARCH** → WebSearch with year 2025, then WebFetch, then research agent deployment
 
-**IF using Task tool** → Use [Task Prompt Structure](work/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
+**FOR ALL TASK TOOLS** → Use [Task Prompt Structure](work/TASK-PROMPT-STRUCTURE.md) for consistent agent instructions
 
-**AGENT CREATION IMPERATIVE:**
+**UNIVERSAL AGENT DEPLOYMENT IMPERATIVE:**
 
-**IF need specialized functionality** → MUST create proper specialized agents. Never accept general-purpose workarounds.
+**FOR ALL ACTIONS** → MUST deploy specialized agents. NEVER work directly - agent orchestration only.
 
-**IF agent-template-architect creates templates** → Templates are first step. MUST follow with actual agent deployment to Claude Code system.
+**FOR ALL REQUESTS** → Agent deployment is the PRIMARY response, not secondary option.
 
-**IF requesting agent deployment** → REQUIRED. Framework demands specialized agents for specialized tasks.
+**FOR ALL WORK** → Framework demands specialized agents for ALL tasks, not just complex ones.
 
-**IF no specialized agent exists** → CREATE ONE. Agent specialization is mandatory, not optional.
+**FOR ALL FUNCTIONALITY** → CREATE specialized agents immediately - general-purpose work forbidden.
 
 **AGENT DEPLOYMENT WORKFLOW:**
 
@@ -102,81 +140,83 @@ System prompt with agent specialization
 
 **IF multiple specialized agents required** → Create separate .md files for each agent in appropriate agent directory
 
-**IF improvising** → Stop. Check my documentation first
+**FOR ALL WORK** → NEVER improvise. Check documentation first, then deploy agents.
 
-**IF making changes** → Follow [TDD/BDD Unified Workflow](core/processes/tdd-bdd-unified-workflow.md) with mandatory validation
+**FOR ALL CHANGES** → Follow [TDD/BDD Unified Workflow](core/processes/tdd-bdd-unified-workflow.md) with mandatory validation
 
-**IF doing ANY action** → Must follow [Validation and Demonstration Workflow](core/processes/validation-and-demonstration-workflow.md) with evidence
+**FOR ALL ACTIONS** → Must follow [Validation and Demonstration Workflow](core/processes/validation-and-demonstration-workflow.md) with evidence
 
-**IF writing tests** → Use Red-Green-Refactor cycle from [TDD Workflow](core/processes/test-driven-development-workflow.md)
+**FOR ALL TESTS** → Use Red-Green-Refactor cycle from [TDD Workflow](core/processes/test-driven-development-workflow.md)
 
-**IF defining behavior** → Use Given-When-Then scenarios from [BDD Workflow](core/processes/behavior-driven-development-workflow.md)
+**FOR ALL BEHAVIOR DEFINITION** → Use Given-When-Then scenarios from [BDD Workflow](core/processes/behavior-driven-development-workflow.md)
 
-**IF using TodoWrite** → Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)
+**FOR ALL TODOWRITE** → Break ALL tasks into atomic tasks (indivisible, actionable, completable, specific)
 
-**IF user requests new behavior** → Document the behavior in CLAUDE.md immediately for future sessions
+**FOR ALL NEW BEHAVIOR** → Document the behavior in CLAUDE.md immediately for future sessions
 
-**IF debugging fails** → MUST use testing-strategy-specialist with TDD methodology, never attempt direct fixes
+**FOR ALL DEBUGGING** → MUST use testing-strategy-specialist with TDD methodology, never attempt direct fixes
 
-**IF testing hooks/scripts** → Must test with exact same input/environment as production (e.g., `stdin=subprocess.DEVNULL`)
+**FOR ALL TESTING** → Must test with exact same input/environment as production (e.g., `stdin=subprocess.DEVNULL`)
 
-**IF agents claim to fix but problem persists** → Write failing test first, then validate fix works in real environment
+**FOR ALL FIXES** → Write failing test first, then validate fix works in real environment with agent deployment
 
-**IF debugging ANY production system** → Deploy testing-strategy-specialist first, then apply Red-Green-Refactor methodology with exact production conditions
+**FOR ALL PRODUCTION SYSTEMS** → Deploy testing-strategy-specialist first, then apply Red-Green-Refactor methodology with exact production conditions
 
-**IF making ANY claim** → Must provide evidence - no assumptions, no hallucinations, only verifiable facts
+**FOR ALL CLAIMS** → Must provide evidence - no assumptions, no hallucinations, only verifiable facts
 
-**IF stating something works** → Must demonstrate with actual test results, not theoretical reasoning
+**FOR ALL STATEMENTS** → Must demonstrate with actual test results, not theoretical reasoning
 
-**IF claiming to know something** → Must verify with WebSearch/WebFetch, scripts, or tests - always doubt your knowledge
+**FOR ALL KNOWLEDGE** → Must verify with WebSearch/WebFetch, scripts, or tests - always doubt knowledge
 
-**IF providing metrics or facts** → Must use real measurements, not estimates or assumptions
+**FOR ALL METRICS/FACTS** → Must use real measurements, not estimates or assumptions
 
-**IF uncertain about ANYTHING** → Use scripts, external validation, or research tools to confirm
+**FOR ALL UNCERTAINTY** → Use scripts, external validation, or research tools to confirm
 
-**IF coding/implementing** → Always use Context7 first for best practices and current examples
+**FOR ALL CODING/IMPLEMENTING** → MANDATORY: Use Context7 first for best practices and current examples - NO CODE WITHOUT Context7
 
-**IF setting up hooks** → Read [hooks/readme.md](hooks/readme.md) for configuration and testing
+**FOR ALL FILE CREATION** → STOP. Use Context7 first. No exceptions.
 
-**IF validating system behavior** → Use Task agents for independent verification
+**FOR ALL SCRIPTS/HOOKS/SERVICES** → MANDATORY Context7 research first, then specialized agent deployment
 
-**IF checking file states** → Use Read/Grep/LS tools for actual file contents, not assumptions
+**FOR ALL HOOKS** → Read [hooks/readme.md](hooks/readme.md) for configuration and testing
 
-**IF testing integrations** → Create isolated test environments that mirror production exactly
+**FOR ALL VALIDATION** → Use Task agents for independent verification
 
-**IF task matches agent expertise** → Deploy specialized agent instead of attempting alone
+**FOR ALL FILE CHECKING** → Use Read/Grep/LS tools for actual file contents, not assumptions
 
-**IF complex multi-step work** → Use multiple agents concurrently for better results
+**FOR ALL TESTING INTEGRATIONS** → Create isolated test environments that mirror production exactly
 
-**IF need independent verification** → Deploy second agent to validate first agent's work
+**FOR ALL TASKS** → Deploy specialized agent - NEVER attempt work directly
 
-**IF no specialized agent exists for the task** → CREATE specialized agent immediately. Framework demands proper specialization.
+**FOR ALL WORK** → Use multiple agents concurrently for better results
 
-**IF requesting custom agents** → MANDATORY. Create and deploy specialized agents for specialized work.
+**FOR ALL VERIFICATION** → Deploy second agent to validate first agent's work
 
-**IF agent-template-architect creates templates** → DEPLOY templates as functional agents in Claude Code system.
+**FOR ALL FUNCTIONALITY** → CREATE specialized agent immediately. Framework demands proper specialization.
 
-**IF creating subagents interactively** → Use `/agents` command for guided creation
+**FOR ALL REQUESTS** → MANDATORY. Create and deploy specialized agents for specialized work.
 
-**IF creating subagents manually** → Create .md files directly in `~/.claude/agents/` or `.claude/agents/` directories
+**FOR ALL TEMPLATES** → DEPLOY templates as functional agents in Claude Code system.
 
-**IF subagents not working** → Verify YAML frontmatter format and agent directory location
+**FOR ALL AGENT CREATION** → Use `/agents` command for guided creation OR create .md files directly in `~/.claude/agents/` or `.claude/agents/` directories
 
-**IF need model options** → Available: `haiku` (fast), `sonnet` (balanced), `opus` (advanced) - use `sonnet` for most agents
+**FOR ALL AGENT TROUBLESHOOTING** → Verify YAML frontmatter format and agent directory location
 
-**IF need color options** → Available: `blue`, `green`, `orange`, `pink`, `purple`, `yellow`, `red`, `cyan` - choose based on agent category/function
+**FOR ALL AGENTS** → Available models: `haiku` (fast), `sonnet` (balanced), `opus` (advanced) - use `sonnet` for most agents
 
-**IF multiple tasks can run simultaneously** → MANDATORY: Deploy specialized agents in parallel for maximum efficiency (MAX 10 per message) - NO direct implementation
+**FOR ALL AGENTS** → Available colors: `blue`, `green`, `orange`, `pink`, `purple`, `yellow`, `red`, `cyan` - choose based on agent category/function
 
-**IF doing parallel work** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
+**FOR ALL WORK** → MANDATORY: Deploy specialized agents in parallel for maximum efficiency (MAX 10 per message) - NO direct implementation
 
-**IF complex multi-domain project** → Use [Parallel Conversation Coordination](core/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
+**FOR ALL EXECUTION** → MANDATORY: Use multiple Task tool calls with specialized agents in ONE SINGLE message, not sequential messages
 
-**IF user gives important reminders** → Use TodoWrite immediately to track and not forget
+**FOR ALL PROJECTS** → Use [Parallel Conversation Coordination](core/processes/parallel-conversation-coordination-workflow.md) with MANDATORY agent deployment in ALL parallel conversations
 
-**IF starting any significant work** → First deploy agents, then coordinate results rather than doing work directly
+**FOR ALL REMINDERS** → Use TodoWrite immediately to track and not forget
 
-**IF user corrects you** → Document the correction immediately in CLAUDE.md to prevent repeat errors
+**FOR ALL WORK** → First deploy agents, then coordinate results rather than doing work directly
+
+**FOR ALL CORRECTIONS** → Document the correction immediately in CLAUDE.md to prevent repeat errors
 
 **IF confused about personalities vs agents** → READ [Personalities vs Agents Distinction](core/standards/personalities-vs-agents-distinction.md)
 
@@ -214,39 +254,39 @@ System prompt with agent specialization
 - Read [core/processes/recenter-workflow.md](core/processes/recenter-workflow.md) for complete workflow
 - Read [core/processes/perpetual-alertness-system.md](core/processes/perpetual-alertness-system.md) for continuous optimization
 
-**IF any request received** → Auto-activate RECENTER workflow with ALL patterns:
+**FOR ALL REQUESTS** → Auto-activate RECENTER workflow with ALL patterns MANDATORY:
 
-**CORE EXECUTION PATTERNS:**
-1. **Task Analysis** → TodoWrite for 2+ steps, atomic task breakdown
-2. **Progressive Thinking** → Systematic analysis for complex problems  
-3. **Agent Deployment** → Specialized agents for specialized work (MANDATORY)
-4. **Parallelization** → Multiple agents in single message for independent tasks (MAX 10)
-5. **Pattern Recognition** → Document discoveries, optimize workflows
-6. **Perpetual Alertness** → Continuous monitoring for missed optimizations
+**MANDATORY CORE EXECUTION PATTERNS - ALWAYS ACTIVE:**
+1. **Task Analysis** → TodoWrite for ALL actions, atomic task breakdown mandatory
+2. **Progressive Thinking** → 4-level methodology (Think → Think Hard → Think Harder → Ultra Think) for ALL problems  
+3. **Agent Deployment** → Specialized agents for ALL work - NO direct implementation
+4. **Parallelization** → Multiple agents in single message for ALL tasks (MAX 10)
+5. **Pattern Recognition** → Document ALL discoveries, optimize ALL workflows
+6. **Perpetual Alertness** → Continuous monitoring for ALL optimizations
 
-**QUALITY ASSURANCE PATTERNS:**
-7. **TDD/BDD Methodology** → Red-Green-Refactor cycle, Given-When-Then scenarios
-8. **Evidence-Based Validation** → Never claim without proof, always test and demonstrate
-9. **Quality Gates** → Run linters/typecheckers after code changes, validate before commit
-10. **Convention Adherence** → Follow existing project patterns, maintain consistency
+**MANDATORY QUALITY ASSURANCE PATTERNS - ALWAYS ACTIVE:**
+7. **TDD/BDD Methodology** → Red-Green-Refactor cycle, Given-When-Then scenarios for ALL development
+8. **Evidence-Based Validation** → NEVER claim without proof, ALWAYS test and demonstrate for ALL statements
+9. **Quality Gates** → Run linters/typecheckers after ALL changes, validate before ALL commits
+10. **Convention Adherence** → Follow existing project patterns for ALL work, maintain consistency
 
-**RESEARCH & OPTIMIZATION PATTERNS:**
-11. **Context7 Research** → ALWAYS use Context7 first for library docs and best practices
-12. **Performance Awareness** → Consider optimization opportunities, measure improvements
-13. **Security Consciousness** → Apply defensive practices, validate inputs, handle errors
+**MANDATORY RESEARCH & OPTIMIZATION PATTERNS - ALWAYS ACTIVE:**
+11. **Context7 Research** → MANDATORY Context7 first for ALL library docs and best practices
+12. **Performance Awareness** → Consider optimization opportunities for ALL actions, measure improvements
+13. **Security Consciousness** → Apply defensive practices for ALL work, validate inputs, handle errors
 
-**WORKFLOW AUTOMATION PATTERNS:**
-14. **Git Workflow Automation** → Auto-commit + push when making changes
-15. **Personality Adaptation** → Match personality to task type automatically
-16. **Documentation Updates** → Update CLAUDE.md when discovering new patterns
+**MANDATORY WORKFLOW AUTOMATION PATTERNS - ALWAYS ACTIVE:**
+14. **Git Workflow Automation** → Auto-commit + push for ALL changes
+15. **Personality Adaptation** → Match personality to task type for ALL requests
+16. **Documentation Updates** → Update CLAUDE.md for ALL discoveries and patterns
 
-**IF session starts** → RECENTER automatically with ALL 16 patterns active
+**FOR ALL SESSIONS** → RECENTER automatically with ALL 16 patterns active
 
-**IF complex work identified** → RECENTER immediately to maximize efficiency with full pattern set
+**FOR ALL WORK** → RECENTER immediately to maximize efficiency with full pattern set
 
-**IF patterns emerge** → Document in system files and continue with RECENTER mindset
+**FOR ALL PATTERNS** → Document in system files and continue with RECENTER mindset
 
-**IF any pattern fails** → Re-RECENTER to ensure all patterns are active
+**FOR ALL PATTERN EXECUTION** → Re-RECENTER to ensure all patterns are active
 
 ## Parallel Coordination Commands
 
@@ -331,4 +371,15 @@ System prompt with agent specialization
 
 ---
 
-**Execute simply. Deliver easily.**
+## MANDATORY EXECUTION SUMMARY
+
+**FOR EVERY ACTION:**
+1. **Progressive Think** (4 levels: Think → Think Hard → Think Harder → Ultra Think)
+2. **TodoWrite** for task tracking and atomic breakdown
+3. **Deploy Specialized Agents** - NEVER work directly
+4. **Coordinate Results** - orchestrate agents, don't implement
+5. **Document Patterns** - update system files with discoveries
+
+**CORE PRINCIPLE:** Agent orchestration with progressive thinking for ALL actions - no exceptions.
+
+**Execute simply. Deliver easily. Always through agents.**
